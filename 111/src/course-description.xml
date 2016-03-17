@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Description</title>
+
+    <p>Taken from the official PCC course description:</p>
+
+    <table> 
+        <tabular>
+            <row>
+                <cell>Course Number:</cell>
+                <cell>MTH 111</cell>
+            </row>
+            <row>
+                <cell>Course Title:</cell>
+                <cell>College Algebra</cell>
+            </row>
+            <row>
+                <cell>Credit Hours:</cell>
+                <cell>5</cell>
+            </row>
+            <row>
+                <cell>Lecture Hours:</cell>
+                <cell>50</cell>
+            </row>
+        </tabular>
+    </table>
+
+    <p>Explores relations and functions graphically, numerically, symbolically, and verbally. Examines exponential, logarithmic, polynomial, and rational functions. Investigates applications from a variety of perspectives. Graphing calculator required. TI-89 Titanium or Casio ClassPad recommended. The PCC math department recommends that students take MTH courses in consecutive terms. Prerequisites: MTH 95, RD 115, and WR 115, or equivalent placement. Recommended: MTH 95 taken within the past 4 terms. Audit available.</p>
+
+    <p>The complete Course Content and Outcome Guide can be found at <url href="http://www.pcc.edu/ccog/default.cfm?fa=ccog&amp;subject=MTH&amp;course=111"/>.</p>
+
+</section>

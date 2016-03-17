@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is the hub file for Alex Jordan's MTH 111 Syllabus -->
+
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="./docinfo.xml" />
+    
+    <article xml:id="syllabus">
+        <title>Course Information and Syllabus</title>
+        <subtitle>MTH 111 College Algebra</subtitle>
+
+        <xi:include href="./frontmatter.xml" />
+        <xi:include href="./contact-info.xml" />
+        <xi:include href="./course-description.xml" />
+
+   </article>
+
+</mathbook>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Contact Information</title>
+
+    <p>To reach either PCC or me:</p>
+    <sidebyside>
+    <table>
+    <tabular>
+        <row>
+            <cell>Portland Community College</cell>
+        </row>
+        <row>
+            <cell>Sylvania Campus</cell>
+        </row>
+        <row>
+            <cell>12000 SW 49th Ave.</cell>
+        </row>
+        <row>
+            <cell>Portland, OR 97219</cell>
+        </row>
+    </tabular>
+    </table>
+
+    <table>
+    <tabular>
+        <row>
+            <cell>Instructor: Alex Jordan</cell>
+        </row>
+        <row>
+            <cell>Office: SY ST 203</cell>
+        </row>
+        <row>
+            <cell>Phone: 971-722-4138</cell>
+        </row>
+        <row>
+            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+        </row>
+    </tabular>
+    </table>
+    </sidebyside>
+
+    <table>
+        <tabular top="major">
+            <row bottom="major">
+                <cell>CRN</cell>
+                <cell>Days</cell>
+                <cell>Time</cell>
+                <cell>Final Exam</cell>
+            </row>
+            <row>
+                <cell>22783</cell>
+                <cell>Monday/Wednesday</cell>
+                <cell>8:30<ndash/>10:50</cell>
+                <cell>Wednesday June 8 at 8:00</cell>
+            </row>
+            <row>
+                <cell>22518</cell>
+                <cell>Monday/Wednesday</cell>
+                <cell>11:00<ndash/>1:20</cell>
+                <cell>Monday June 6 at 11:00</cell>
+            </row>
+            <row>
+                <cell>22517</cell>
+                <cell>Tuesday/Thursday</cell>
+                <cell>8:30<ndash/>10:50</cell>
+                <cell>Thursday June 9 at 8:00</cell>
+            </row>
+            <row>
+                <cell>22520</cell>
+                <cell>Tuesday/Thursday</cell>
+                <cell>2:00<ndash/>4:20</cell>
+                <cell>Thursday June 9 at 2:00</cell>
+            </row>
+        </tabular>
+    </table>
+    
+    <p>I have regular office hours Monday 2:00<ndash/>4:00, Tuesday 11:00<ndash/>12:00, Thursday 11:00<ndash/>12:00, or by Appointment.  Come visit me for help with the material, help with homework, or questions about your grade.</p>
+
+</section>
