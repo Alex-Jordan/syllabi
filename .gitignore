@@ -2,3 +2,4 @@ output/html/
 output/pdf/
 output/epub/
 Makefile.paths
+.DS_Store
