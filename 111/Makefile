@@ -88,7 +88,7 @@ SERVER = https://webwork.pcc.edu
 pg:
 	install -d $(PGOUT)
 	cd $(PGOUT); \
-	xsltproc --stringparam chunk.level 2 $(MBXSL)/extract-webwork.xsl $(SRC)/syllabus.xml
+	xsltproc -xinclude --stringparam chunk.level 2 $(MBXSL)/extract-webwork.xsl $(SRC)/syllabus.xml
 
 #  HTML output 
 #  Output lands in the subdirectory:  $(HTMLOUT)
