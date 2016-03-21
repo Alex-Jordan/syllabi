@@ -49,11 +49,12 @@ include Makefile.paths
 
 # These paths are subdirectories of
 # the project distribution
-SRC = $(PRJ)/src
-PRJXSL = $(PRJ)/xsl
-PRJCSS = $(PRJ)/css
+SRC       = $(PRJ)/src
+PRJXSL    = $(PRJ)/xsl
+PRJCSS    = $(PRJ)/css
 IMAGESSRC = $(SRC)/images
-OUTPUT = $(PRJ)/output
+OUTPUT    = $(PRJ)/output
+DATA      = $(SRC)/data
 
 # These paths are subdirectories of
 # the Mathbook XML distribution
@@ -109,7 +110,13 @@ html:
 # script directly
 images:
 	install -d $(IMAGESOUT)
-	$(MB)/script/mbx -c latex-image -f all -d $(IMAGESOUT) $(SRC)/syllabus.xml
+	-rm $(IMAGESOUT)/*.tex
+	-rm $(IMAGESOUT)/*.pdf
+	-rm $(IMAGESOUT)/*.svg
+	-rm $(IMAGESOUT)/*.png
+	-rm $(IMAGESOUT)/*.eps
+	cp -a $(DATA) $(IMAGESOUT)
+	$(MB)/script/mbx -c latex-image -f svg -d $(IMAGESOUT) $(SRC)/syllabus.xml
 
 # a one-time prerequisite for LaTeX conversion of
 # problems living on a server, and image construction at server
