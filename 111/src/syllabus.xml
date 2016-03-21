@@ -16,6 +16,7 @@
         <xi:include href="./contact-info.xml" />
         <xi:include href="./course-description.xml" />
         <xi:include href="./expectations.xml" />
+        <xi:include href="./technology.xml" />
         <xi:include href="./textbook.xml" />
 
    </article>
