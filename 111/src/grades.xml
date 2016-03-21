@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Grades</title>
+
+    <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/"/>.</p>
+
+    <subsection>
+        <title>Attendance/Participation</title>
+        <p>Each day of class that you attend is worth <quantity><mag>0.25</mag><unit base="percent"/></quantity> of your grade, up to a maximum of <quantity><mag>4</mag><unit base="percent"/></quantity>. This does not include holidays, inservice days, or days where the entire class period is devoted to an exam. Typically in a term this leaves at least one absence that would not have a direct effect on your grade. However missing class will hurt your chances for success on exams because you will not get the same attention that your classmates had.</p>
+    </subsection>
+
+    <subsection>
+        <title>Web Assignments</title>
+        <p>I have made an account for you on a program called <webwork/> at <url href="webwork.pcc.edu/webwork2/mth111-jordan-s16/"/>.  Each week I will assign short answer problems and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00 p.m. on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date.  You may work from home or use PCC computer labs to turn in your answers.  Collectively, all web assignments are worth <quantity><mag>17</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will replace that score with the score you get on your next exam.</p>
+
+        <p>Note that most students who skip doing homework fail the exams. Students  who  complete  the  homework  assignments to close to <quantity><mag>100</mag><unit base="percent"/></quantity> earn around <quantity><mag>83</mag><unit base="percent"/></quantity> on exams on average. With this type of homework, the only thing that prevents you from earning <quantity><mag>100</mag><unit base="percent"/></quantity> is  not  starting  early  enough. So   please   begin   homework early.</p>
+
+        <figure>
+            <image>
+                <latex-image-code>
+                    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                    <![CDATA[\begin{tikzpicture}
+                    \begin{axis}[title={Alex's recent MTH 111 Sections},
+                        xlabel={average of relevant homework},
+	                ylabel={exam score (exams I, II, III, and IV)},
+                        xmin=0,xmax=100,ymin=0,ymax=100,
+                        width=\linewidth,
+                        height=2.4in,
+                        grid=major,
+                        legend pos = south east,
+                    ]
+                    \addplot [blue, mark=*, only marks] table {data/HomeworkExamData.dat};
+                    \addlegendentry{raw data}
+                    \addplot table [mark=none,y={create col/linear regression={y=exam}}] {data/HomeworkExamData.dat};
+                    \addlegendentry{trend line}
+                    \end{axis}
+                    \end{tikzpicture}]]>
+                </latex-image-code>
+            </image>
+        </figure>
+    </subsection>
+
+    <subsection>
+        <title>Written Assignments</title>
+        <p>Each week a selection of the web assignment exercises will be chosen to be be written up formally and submitted the beginning of the net week (Monday or Tuesday depending on when your section meets). Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>9</mag><unit base="percent"/></quantity>. See <xref xml:id="section-written-assignments"/> for the specifics.</p>
+    </subsection>
+
+    <subsection>
+        <title>Late Homework</title>
+        <p>Web assignments are due whenever <webwork/> says they are due for full credit.  There is no way to get credit for a late web assignment.  After the due date, you may still do the exercises and check your work, but doing so will not increase your score.  After the due date, full walk-through solutions are available for problems if you re-visit the problem. A reminder: any <webwork/> score can be overwritten by your next exam score, if that is to your benefit.</p>
+
+        <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then I do not have time to go back and grade any more. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
+    </subsection>
+
+    <subsection>
+        <title>Exams</title>
+        <p>Please refer to the calendar for exam dates, and <xref xml:id="exams"/> for details about what is covered on each exam. Exams 1, 2, 3, and 4 are worth <quantity><mag>10</mag><unit base="percent"/></quantity>, <quantity><mag>15</mag><unit base="percent"/></quantity>, <quantity><mag>20</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
+    </subsection>
+
+</section>

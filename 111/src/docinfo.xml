@@ -16,6 +16,7 @@
     <latex-image-preamble>
     <![CDATA[
     \usepackage{pgfplots}
+    \usepackage{pgfplotstable}
     ]]>
     </latex-image-preamble>
 

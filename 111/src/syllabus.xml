@@ -18,6 +18,7 @@
         <xi:include href="./expectations.xml" />
         <xi:include href="./technology.xml" />
         <xi:include href="./textbook.xml" />
+        <xi:include href="./grades.xml" />
 
    </article>
 
