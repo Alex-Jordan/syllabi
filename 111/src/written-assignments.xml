@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Written Assignments</title>
+
+    <p>As the term progresses, more written assignements will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your final grade, and there will be nine in total. These are where you will get to show me your mathematical writing skills, and improve them if necessary.</p>
+
+    <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:
+
+    <dl>
+        <li>
+            <title>Clarity</title>
+            <p>Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
+        </li>
+        <li>
+            <title>Correctness</title>
+            <p>Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
+        </li>
+        <li>
+            <title>Conciseness</title>
+            <p>Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
+        </li>
+        <li>
+            <title>self-Containment</title>
+            <p>The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
+        </li>
+        <li>
+            <title>Conclusions</title>
+            <p>Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
+        </li>
+    </dl>
+
+
+    <dl>
+        <li>
+            <title>Due Monday April 4 or Tuesday April 5</title>
+            <ol> 
+                <li>
+                    <p>Define a function <m>z</m> by <m>z(x)=2x^2+2x+4</m>. Find and simplify the expression <me>\frac{z(3+x)-z(3)}{x}\text{.}</me></p>
+                </li>
+                <li>
+                    <p>Find the domain of the function <m>g</m> where <m>g(x)=\sqrt{5+6x}</m>.</p>
+                </li>
+            </ol> 
+        </li>
+    </dl>
+
+</section>
