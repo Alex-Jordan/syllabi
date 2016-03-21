@@ -9,7 +9,7 @@
 
     <p>You will also need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs. Here is an example of what WeBWorK is like.</p>
 
-    <exercise>
+    <exercise xml:id="webwork-demo">
         <title>Multiply Powers</title>
 
         <webwork>
