@@ -20,6 +20,7 @@
         <xi:include href="./textbook.xml" />
         <xi:include href="./grades.xml" />
         <xi:include href="./written-assignments.xml" />
+        <xi:include href="./exams.xml" />
 
    </article>
 
