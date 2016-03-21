@@ -5,25 +5,8 @@
 <section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Contact Information</title>
 
-    <p>To reach either PCC or me:</p>
+    <p>To reach me or PCC</p>
     <sidebyside>
-    <table>
-    <tabular>
-        <row>
-            <cell>Portland Community College</cell>
-        </row>
-        <row>
-            <cell>Sylvania Campus</cell>
-        </row>
-        <row>
-            <cell>12000 SW 49th Ave.</cell>
-        </row>
-        <row>
-            <cell>Portland, OR 97219</cell>
-        </row>
-    </tabular>
-    </table>
-
     <table>
     <tabular>
         <row>
@@ -37,6 +20,22 @@
         </row>
         <row>
             <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+        </row>
+    </tabular>
+    </table>
+    <table>
+    <tabular>
+        <row>
+            <cell>Portland Community College</cell>
+        </row>
+        <row>
+            <cell>Sylvania Campus</cell>
+        </row>
+        <row>
+            <cell>12000 SW 49th Ave.</cell>
+        </row>
+        <row>
+            <cell>Portland, OR 97219</cell>
         </row>
     </tabular>
     </table>
@@ -56,25 +55,25 @@
                 <cell>22783</cell>
                 <cell>M/W</cell>
                 <cell>8:30<ndash/>10:50</cell>
-                <cell>Wed 6/8 at 8:00</cell>
+                <cell>W 6/8 8:00</cell>
             </row>
             <row>
                 <cell>22518</cell>
                 <cell>M/W</cell>
                 <cell>11:00<ndash/>1:20</cell>
-                <cell>Mon 6/6 at 11:00</cell>
+                <cell>M 6/6 11:00</cell>
             </row>
             <row>
                 <cell>22517</cell>
                 <cell>Tu/Th</cell>
                 <cell>8:30<ndash/>10:50</cell>
-                <cell>Thu 6/9 at 8:00</cell>
+                <cell>Th 6/9 8:00</cell>
             </row>
             <row>
                 <cell>22520</cell>
                 <cell>Tu/Th</cell>
                 <cell>2:00<ndash/>4:20</cell>
-                <cell>Thu 6/9 at 2:00</cell>
+                <cell>Th 6/9 2:00</cell>
             </row>
         </tabular>
     </table>
