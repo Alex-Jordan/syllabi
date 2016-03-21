@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Student Reources</title>
+
+    <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+
+    <subsection>
+        <title>Tutoring</title>
+        <p>The Tutoring Center at Sylvania offers free tutoring in math.  You should find some time to check it out, if you haven’t already. Details can be found at <url href="http://www.pcc.edu/resources/tutoring/sylvania/#ssc"/>.</p>
+        <p>As a PCC student, you have access to free online tutoring as well. Visit <url href="http://www.pcc.edu/resources/tutoring/sylvania/student-success/math-center/"/> for details.</p>
+    </subsection>
+
+    <subsection>
+        <title>Calculator Handbooks</title>
+        <p>The PCC math department has written calculator handbooks  for  the TI-89, TI-Voyage 200, and the Casio ClassPad 330. These handbooks are less dense than the comprehensive manuals that come with each calculatorm and are focused on topics relevant to PCC courses. Download each one at <url href="http://spot.pcc.edu/academ/math/download.htm"/>.</p>
+    </subsection>
+
+    <subsection>
+        <title>Online Videos</title>
+        <p>At the Khan Academy (<url href="www.khanacademy.org"/>)  you  can  find  thousands  of  10-  to  30-minute videos on various mathematics topics. See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.</p>
+        <p>Khan Academy is just one such site. See what else you can find online searching for math videos. If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.</p>
+    </subsection>
+
+    <subsection>
+        <title>College Success Courses</title>
+        <p>Several  one-credit  courses  are  available to help you maximize your success in the college experience.  These include courses specifically geared to study skills. Visit <href ref="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html"/> to learn more.</p>
+    </subsection>
+
+    <subsection>
+        <title>Math Study Skills</title>
+        <p>PCC instructor Jessica Bernards co-authored these free lessons on study skills that help people succeed in math courses. <url href="http://spot.pcc.edu/mathstudyskills/"/></p>
+    </subsection>
+
+    <subsection>
+        <title>Multicultural Center</title>
+        <p>A welcoming and inclusive space for diverse students.  One of many services is one-on-one help for math courses. <url href="http://www.pcc.edu/resources/culture/"/></p>
+    </subsection>
+
+    <subsection>
+        <title>Veteran's Resource Center</title>
+        <p>Relax, connect, computer workstations, work  study  and  volunteer  opportunities, and more. <url href="http://www.pcc.edu/resources/veterans/sylvania"/></p>
+    </subsection>
+
+    <subsection>
+        <title>Women's Resource Center</title>
+        <p>A wide variety of services that support the
+academic achievement of women. <url href="http://www.pcc.edu/resources/women/sylvania"/></p>
+    </subsection>
+
+    <subsection>
+        <title>Counseling Services</title>
+        <p>Get  help  dealing  with  personal  or  career concerns that may be impacting your academic success.  Trained professional counselors  can  also  assist  you  with  decision-making,  goal-setting,  and  personal  development. Visit <url href="http://www.pcc.edu/resources/counseling/"/>.</p>
+    </subsection>
+
+</section>
