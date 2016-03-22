@@ -142,9 +142,10 @@ latex:
 # [note trailing slash (subject to change)]
 pdf:
 	install -d $(PDFOUT)
+	cp -a $(DATA) $(PDFOUT)
 	-rm $(PDFOUT)/*.tex
 	cd $(PDFOUT); \
-	xsltproc -xinclude --stringparam webwork.server.latex $(PDFOUT)/webwork-tex/ $(MBXSL)/mathbook-latex.xsl $(SRC)/syllabus.xml; \
+	xsltproc -xinclude --stringparam latex.geometry 'margin=2cm' --stringparam webwork.server.latex $(PDFOUT)/webwork-tex/ $(MBXSL)/mathbook-latex.xsl $(SRC)/syllabus.xml; \
 	xelatex syllabus.tex; \
 	xelatex syllabus.tex
 
