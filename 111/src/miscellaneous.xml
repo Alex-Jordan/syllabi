@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="miscellaneous" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Miscellaneous Items</title>
+
+    <subsection>
+        <title>Student Rights and Responsiblities Handbook</title>
+        <p>Students are required to comply with the Student Rights and Responsibilities Handbook.  Included are policies on Students Rights,  Student Conduct,  Grade Appeal,  Academic Integrity,  Consensual Relationship Statement,  and Children on PCC properties.   The handbook can be found at <url href="http://www.pcc.edu/about/policy/student-rights"/>.</p>
+    </subsection>
+
+    <subsection>
+        <title>ADA Accommodation</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="www.pcc.edu/disability"/>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor.</p>
+    </subsection>
+
+    <subsection>
+        <title>Nondiscrimination Statement</title>
+        <p>Portland Community College is committed to creating and fostering a learning and working environment based on open communication and mutual respect. If you believe you have encountered sexual harassment, sexual misconduct, sexual assault, or discrimination based on race, color, religion, age, national origin, veteran status, sex, sexual orientation, gender identity, or disability please contact the Office of Equity and Inclusion at (971) 722-5840 or <email>equity.inclusion@pcc.edu</email>.</p>
+    </subsection>
+
+    <subsection>
+        <title>Flexibility</title>
+        <p>I reserve the right to modify course content and/or substitute assignments and activities in response to institutional, weather, or class situations.</p>
+    </subsection>
+
+</section>
