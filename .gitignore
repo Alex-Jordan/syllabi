@@ -1,7 +1,7 @@
-111/output/html/
-111/output/pdf/
-111/output/epub/
+*/output/html/
+*/output/pdf/
+*/output/epub/
 */output/images
-111/Makefile.paths
-.DS_Store
-.swp
+*/Makefile.paths
+*.DS_Store
+*.swp
