@@ -19,10 +19,12 @@
         <xi:include href="./technology.xml" />
         <xi:include href="./textbook.xml" />
         <xi:include href="./grades.xml" />
+        <xi:include href="./webwork.xml" />
         <xi:include href="./written-assignments.xml" />
         <xi:include href="./exams.xml" />
         <xi:include href="./resources.xml" />
         <xi:include href="./miscellaneous.xml" />
+        <xi:include href="./calendar.xml" />
 
    </article>
 

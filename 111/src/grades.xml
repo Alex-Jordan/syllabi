@@ -14,7 +14,7 @@
 
     <subsection>
         <title>Web Assignments</title>
-        <p>I have made an account for you on a program called <webwork/> at <url href="webwork.pcc.edu/webwork2/mth111-jordan-s16/"/>.  <xref autoname="yes" ref="webwork-demo"/> is a demonstration of what a <webwork/> problem is like. Each week I will assign short answer problems and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00 p.m. on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date.  You may work from home or use PCC computer labs to turn in your answers.  Collectively, all web assignments are worth <quantity><mag>17</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will replace that score with the score you get on your next exam.</p>
+        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" autoname="yes"/>. Collectively, all web assignments are worth <quantity><mag>17</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will replace that score with the score you get on your next exam.</p>
 
         <p>Note that most students who skip doing homework fail the exams. Students  who  complete  the  homework  assignments to close to <quantity><mag>100</mag><unit base="percent"/></quantity> earn around <quantity><mag>83</mag><unit base="percent"/></quantity> on exams on average. With this type of homework, the only thing that prevents you from earning <quantity><mag>100</mag><unit base="percent"/></quantity> is  not  starting  early  enough. So   please   begin   homework early.</p>
 
@@ -57,7 +57,7 @@
 
     <subsection>
         <title>Exams</title>
-        <p>Please refer to the calendar for exam dates, and <xref autoname="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, 3, and 4 are worth <quantity><mag>10</mag><unit base="percent"/></quantity>, <quantity><mag>15</mag><unit base="percent"/></quantity>, <quantity><mag>20</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
+        <p>Please refer to the <xref ref="section-calendar" autoname="title"/> for exam dates, and <xref autoname="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, 3, and 4 are worth <quantity><mag>10</mag><unit base="percent"/></quantity>, <quantity><mag>15</mag><unit base="percent"/></quantity>, <quantity><mag>20</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
     </subsection>
 
 </section>

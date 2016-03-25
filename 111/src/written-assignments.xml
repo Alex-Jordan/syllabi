@@ -22,17 +22,36 @@
         </li>
     </ol>
 
-
-    <paragraphs>
-        <title>Due Monday April 4 or Tuesday April 5</title>
-        <ol> 
-            <li>
-                <p>Define a function <m>z</m> by <m>z(x)=2x^2+2x+4</m>. Find and simplify the expression <me>\frac{z(3+x)-z(3)}{x}\text{.}</me></p>
-            </li>
-            <li>
-                <p>Find the domain of the function <m>g</m> where <m>g(x)=\sqrt{5+6x}</m>.</p>
-            </li>
-        </ol> 
-    </paragraphs>
+    <dl>
+        <li xml:id="written1">
+            <title>Written HW 1</title>
+            <p>Due Monday April 4 or Tuesday April 5</p>
+            <ol> 
+                <li>
+                    <p>Define a function <m>z</m> by <m>z(x)=2x^2+2x+4</m>. Find and simplify the expression <me>\frac{z(3+x)-z(3)}{x}\text{.}</me></p>
+                </li>
+                <li>
+                    <p>Find the domain of the function <m>g</m> where <m>g(x)=\sqrt{5+6x}</m>.</p>
+                </li>
+            </ol> 
+        </li>
+        <li xml:id="written2">
+            <title>Written HW 2</title>
+            <p>Due Monday April 11 or Tuesday April 12</p>
+            <ol> 
+                <li>
+                    <p>Let the function <m>f</m> be defined by <me>f(x)=\frac{1}{x},\quad x\text{ in }[-3,0)\cup(0,2]\text{.}</me> What is the range of this function?  It will help if you make a graph of this function with a restricted domain.</p>
+                </li>
+                <li>
+                    <p>Determine whether each of the following rational functions is even, odd, or neither. Provide a complete explanation.</p>
+                    <ol cols="3">
+                        <li><p><m>f(x)=\frac{4x^2+7}{7x^8+3x^2}</m></p></li>
+                        <li><p><m>g(x)=\frac{x^3+4x^2}{7x^2+1}</m></p></li>
+                        <li><p><m>h(x)=\frac{4x^3+2x}{7x^4}</m></p></li>
+                    </ol>
+                </li>
+            </ol> 
+        </li>
+    </dl>
 
 </section>

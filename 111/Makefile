@@ -103,7 +103,7 @@ html:
 	install -d $(HTMLOUT)/css
 	cp -a $(PRJCSS) $(HTMLOUT)
 	cd $(HTMLOUT); \
-	xsltproc -xinclude --stringparam webwork.server $(SERVER) --stringparam html.knowl.exercise.inline no $(MBXSL)/mathbook-html.xsl $(SRC)/syllabus.xml
+	xsltproc -xinclude --stringparam webwork.server $(SERVER) --stringparam html.knowl.exercise.inline no $(PRJXSL)/syllabus-html.xsl $(SRC)/syllabus.xml
 
 # make all the image files, in all formats
 # To more surgically create a subset of the image files, use mbx 

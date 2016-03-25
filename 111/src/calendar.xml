@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Calendar</title>
+
+    <p>The following dates are of interest to everyone:</p>
+
+    <table>
+        <tabular top="major" bottom="minor" left="major">
+            <col/>
+            <col/>
+            <col right="major"/>
+            <row>
+                <cell>Friday</cell>
+                <cell>April 1</cell>
+                <cell>Last day to select audit grade option: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url></cell>
+            </row>
+            <row>
+                <cell>Saturday</cell>
+                <cell>April 2</cell>
+                <cell>Last day to drop 8<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html"</url></cell>
+            </row>
+            <row>
+                <cell>Tuesday</cell>
+                <cell>April 5</cell>
+                <cell>Last day to add classes</cell>
+            </row>
+            <row>
+                <cell>Tuesday</cell>
+                <cell>April 26</cell>
+                <cell>SAC Inservice (classes before 4pm are canceled, classes at 4pm and after will be held)</cell>
+            </row>
+            <row>
+                <cell>Saturday</cell>
+                <cell>May 21</cell>
+                <cell>Last day to withdraw from 11<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">www.pcc.edu/enroll/registration/dropping.html<hash/>withdraw</url></cell>
+            </row>
+            <row>
+                <cell>Saturday</cell>
+                <cell>May 21</cell>
+                <cell>Last day to change grade option: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url></cell>
+            </row>
+            <row bottom="major">
+                <cell>Monday</cell>
+                <cell>May 30</cell>
+                <cell>College closed: Memorial Day</cell>
+            </row>
+        </tabular>
+    </table>
+
+    <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p>
+
+    <p>There are two calendars below; the first is for Monday-Wednesday sections, and the second is for Tuesday-Thursday sections.</p>
+
+
+    <table xml:id="mw-calendar">
+        <title>Monday-Wednesday sections</title>
+        <tabular top="major" bottom="minor" left="minor">
+             <col/>
+             <col/>
+             <col right="minor"/>
+             <col right="minor"/>
+             <col/>
+             <col/>
+             <col right="minor"/>
+             <row>
+                 <cell colspan="3">Monday</cell>
+                 <cell>Tuesday</cell>
+                 <cell colspan="3">Wednesday</cell>
+             </row>
+             <row>
+                 <cell/>
+                 <cell>Read</cell>
+                 <cell>Due</cell>
+                 <cell>Due</cell>
+                 <cell/>
+                 <cell>Read</cell>
+                 <cell>Due</cell>
+             </row>
+             <row>
+                 <cell>3/28</cell>
+                 <cell>1.1</cell>
+                 <cell/>
+                 <cell><webwork/> Orientation</cell>
+                 <cell>3/30</cell>
+                 <cell>Read 1.1</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/4</cell>
+                 <cell>1.2</cell>
+                 <cell><xref ref="written1" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>4/6</cell>
+                 <cell>1.3</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/11</cell>
+                 <cell>1.4</cell>
+                 <cell><xref ref="written2" autoname="title"/>, <xref ref="exam1" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>4/13</cell>
+                 <cell>1.5</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/18</cell>
+                 <cell>1.5</cell>
+                 <cell>Written HW 3</cell>
+                 <cell><webwork/></cell>
+                 <cell>4/20</cell>
+                 <cell>3.1</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/25</cell>
+                 <cell>3.1, 3.4</cell>
+                 <cell>Written HW 4</cell>
+                 <cell><webwork/></cell>
+                 <cell>4/27</cell>
+                 <cell>3.4, 3.5</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/2</cell>
+                 <cell/>
+                 <cell>Written HW 5, <xref ref="exam2" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>5/4</cell>
+                 <cell>4.1</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/9</cell>
+                 <cell>4.2</cell>
+                 <cell>Written HW 6</cell>
+                 <cell><webwork/></cell>
+                 <cell>5/11</cell>
+                 <cell>4.3</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/16</cell>
+                 <cell/>
+                 <cell>Written HW 7,<xref ref="exam3" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>5/18</cell>
+                 <cell>4.4</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/23</cell>
+                 <cell>4.5, 4.6</cell>
+                 <cell> Written HW 8</cell>
+                 <cell><webwork/></cell>
+                 <cell>5/25</cell>
+                 <cell>4.7, 4.8</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/30</cell>
+                 <cell colspan="2">Memorial Day (class does not meet)</cell>
+                 <cell><webwork/></cell>
+                 <cell>6/1</cell>
+                 <cell colspan="2">Review and Practice Day, Writtem HW 9</cell>
+             </row>
+             <row>
+                 <cell>6/6</cell>
+                 <cell colspan="2">11:00 section has <xref ref="exam4" autoname="title"/> at 11:00</cell>
+                 <cell><webwork/></cell>
+                 <cell>6/8</cell>
+                 <cell colspan="2">8:30 section has <xref ref="exam4" autoname="title"/> at 8:00</cell>
+             </row>
+        </tabular>
+    </table>
+
+    <table xml:id="tuth-calendar">
+        <title>Tuesday-Thursday sections</title>
+        <tabular top="major" bottom="minor" left="minor">
+             <col/>
+             <col/>
+             <col right="minor"/>
+             <col right="minor"/>
+             <col/>
+             <col/>
+             <col right="minor"/>
+             <row>
+                 <cell colspan="3">Tuesday</cell>
+                 <cell>Wednesday</cell>
+                 <cell colspan="3">Thursday</cell>
+             </row>
+             <row>
+                 <cell/>
+                 <cell>Read</cell>
+                 <cell>Due</cell>
+                 <cell>Due</cell>
+                 <cell/>
+                 <cell>Read</cell>
+                 <cell>Due</cell>
+             </row>
+             <row>
+                 <cell>3/29</cell>
+                 <cell>1.1</cell>
+                 <cell/>
+                 <cell><webwork/> Orientation</cell>
+                 <cell>3/31</cell>
+                 <cell>Read 1.1</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/5</cell>
+                 <cell>1.2</cell>
+                 <cell><xref ref="written1" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>4/7</cell>
+                 <cell>1.3</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/12</cell>
+                 <cell>1.4</cell>
+                 <cell><xref ref="written2" autoname="title"/>, <xref ref="exam1" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>4/14</cell>
+                 <cell>1.5</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/19</cell>
+                 <cell>1.5</cell>
+                 <cell>Written HW 3</cell>
+                 <cell><webwork/></cell>
+                 <cell>4/21</cell>
+                 <cell>3.1</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>4/26</cell>
+                 <cell colspan="2">SAC inservice (class does not meet)</cell>
+                 <cell><webwork/></cell>
+                 <cell>4/28</cell>
+                 <cell>3.1, 3.4</cell>
+                 <cell>Written HW 4</cell>
+             </row>
+             <row>
+                 <cell>5/3</cell>
+                 <cell/>
+                 <cell>Written HW 5, <xref ref="exam2" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>5/5</cell>
+                 <cell>3.4, 3.5</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/10</cell>
+                 <cell>4.1</cell>
+                 <cell>Written HW 6</cell>
+                 <cell><webwork/></cell>
+                 <cell>5/12</cell>
+                 <cell>4.2</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/17</cell>
+                 <cell/>
+                 <cell>Written HW 7, <xref ref="exam3" autoname="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>5/19</cell>
+                 <cell>4.3</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/24</cell>
+                 <cell>4.4</cell>
+                 <cell> Written HW 8</cell>
+                 <cell><webwork/></cell>
+                 <cell>5/26</cell>
+                 <cell>4.5, 4.6</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>5/31</cell>
+                 <cell>4.7, 4.8</cell>
+                 <cell/>
+                 <cell><webwork/></cell>
+                 <cell>6/2</cell>
+                 <cell colspan="2">Review and Practice Day, Written HW 9</cell>
+             </row>
+             <row>
+                 <cell>6/7</cell>
+                 <cell colspan="2">Class does not meet</cell>
+                 <cell><webwork/></cell>
+                 <cell>6/9</cell>
+                 <cell colspan="2">8:30 section has <xref ref="exam4" autoname="title"/> at 8:00<br />2:00 section has <xref ref="exam4" autoname="title"/> at 2:00</cell>
+             </row>
+        </tabular>
+    </table>
+</section>
