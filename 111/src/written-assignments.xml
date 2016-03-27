@@ -52,6 +52,88 @@
                 </li>
             </ol> 
         </li>
+        <li xml:id="written3">
+            <title>Written HW 3</title>
+            <p>Due Monday April 18 or Tuesday April 19</p>
+            <ol> 
+                <li>
+                    <p>Here is a graph of a function <m>f</m>.</p>
+                    <figure>
+                        <image>
+                            <latex-image-code>
+                                <![CDATA[\begin{tikzpicture}
+                                \begin{axis}[axis lines = middle, 
+                                    grid=major, 
+                                    xlabel={$t$},
+                                    ylabel={$y$},
+                                    ytick={-6,-5,...,6},
+                                    xtick={-6,-5,...,7},
+                                    xmin=-4,
+                                    xmax=7,
+                                    ymin=-5,
+                                    ymax=5,
+                                    width = 4in,
+                                    height=2.4in]
+                                    \addplot [domain=-4:-1,<-] {2+x};
+                                    \addplot [domain=-1:2,-] {x^2};
+                                    \addplot [domain=3:6,-] {3-x/3};
+                                    \addplot [soldot] coordinates {(2,4)};
+                                    \addplot [holdot] coordinates {(-1,1)};
+                                    \addplot [soldot] coordinates {(-1,3)};
+                                    \addplot [holdot] coordinates {(3,2)};
+                                    \addplot [holdot] coordinates {(6,1)};
+                                \end{axis}
+                                \end{tikzpicture}]]>
+                            </latex-image-code>
+                        </image>
+                    </figure>
+                    <p>Write a formula for <m>f</m>, using the notation for piecewise-defined functions.</p>
+                </li>
+                <li>
+                    <p>Suppose that <me>f(x)=\begin{cases}\left\lvert x\right\rvert \amp -\infty\lt x\lt 2\\-x^2+4x+3\amp x\geq2\end{cases}</me> Solve the equation <m>f(x)=3</m>.</p>
+                </li>
+            </ol> 
+        </li>
+        <li xml:id="written4">
+            <title>Written HW 4</title>
+            <p>Due Wednesday April 27 or Thursday April 28</p>
+            <ol> 
+                <li>
+                    <p>Relative to the graph of <m>y=\sqrt{x}</m>, the graphs of the following equations have been changed in what way?</p>
+                    <ol cols="4">
+                        <li><p><m>y=\sqrt{\frac{x}{5}}</m></p></li>
+                        <li><p><m>y=\sqrt{x}+5</m></p></li>
+                        <li><p><m>y=\frac{\sqrt{x}}{5}</m></p></li>
+                        <li><p><m>y=\sqrt{x+5}</m></p></li>
+                    </ol>
+                </li>
+                <li>
+                    <p>Using only what you know about the graph of <m>y=\sqrt{x}</m> and graph transformations, plot a graph of <m>f</m>, where <m>f(x)=4\sqrt{2x-6}+3</m>. It would be good to check your result by computing outputs from <m>f</m> in two ways: using this formula and using your graph. Note: simply plotting points using the formula will not be considered acceptable; you must demonstrate that you understand the graph transformations suggested by the formula.</p>
+                </li>
+            </ol>
+        </li>
+        <li xml:id="written5">
+            <title>Written HW 5</title>
+            <p>Due Monday May 2 or Tuesday May 3</p>
+            <ol> 
+                <li>
+                    <p>By hand, on graph paper, graph each of the functions defined below. Each graph should have all of the following identified and labeled, assuming the graph has these in the first place:</p>
+                    <ul>
+                        <li><p>zeros (also known as horizontal intercepts)</p></li>
+                        <li><p>the <m>y</m>-intercept</p></li>
+                        <li><p>the slope of the curve at any horizontal intercept</p></li>
+                        <li><p>the long term behavior of the curve should be clear</p></li>
+                    </ul>
+                    <ol>
+                        <li><p><m>f(x)=(x-3)(x-5)(x+1)</m></p></li>
+                        <li><p><m>g(x)=(2x+3)^3(x-2)</m></p></li>
+                    </ol>
+                </li>
+                <li>
+                    <p>Using only what you know about the graph of <m>y=\sqrt{x}</m> and graph transformations, plot a graph of <m>f</m>, where <m>f(x)=4\sqrt{2x-6}+3</m>. It would be good to check your result by computing outputs from <m>f</m> in two ways: using this formula and using your graph. Note: simply plotting points using the formula will not be considered acceptable; you must demonstrate that you understand the graph transformations suggested by the formula.</p>
+                </li>
+            </ol>
+        </li>
     </dl>
 
 </section>

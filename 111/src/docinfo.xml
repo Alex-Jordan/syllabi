@@ -17,6 +17,9 @@
     <![CDATA[
     \usepackage{pgfplots}
     \usepackage{pgfplotstable}
+    \pgfplotsset{soldot/.style={only marks,mark=*}}
+    \pgfplotsset{holdot/.style={fill=white,only marks,mark=*}}
+    \tikzset{ampersand replacement = \amp}
     ]]>
     </latex-image-preamble>
 

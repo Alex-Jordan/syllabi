@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 <!-- Thin layer on MathBook XML -->
-<xsl:import href="/Users/pccuser/mathbook/xsl/mathbook-html.xsl" />
+<xsl:import href="/Users/alex.jordan/mathbook/xsl/mathbook-html.xsl" />
 
 <!-- Common thin layer                                                      -->
 <xsl:import href="clm-common.xsl" />
