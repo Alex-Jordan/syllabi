@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Description</title>
+
+    <p>Taken from the official PCC course description:</p>
+
+    <table halign="left"> 
+        <tabular>
+            <row>
+                <cell>Course Number:</cell>
+                <cell>MTH 253</cell>
+            </row>
+            <row>
+                <cell>Course Title:</cell>
+                <cell>Calculus III</cell>
+            </row>
+            <row>
+                <cell>Credit Hours:</cell>
+                <cell>5</cell>
+            </row>
+            <row>
+                <cell>Lecture Hours:</cell>
+                <cell>50</cell>
+            </row>
+        </tabular>
+    </table>
+
+    <p>Includes infinite sequences and series (emphasis on Taylor series), an introduction to differential equations, and vectors in three space. Graphing calculator required. TI-89 Titanium or Casio Classpad 330 recommended. Prerequisites: MTH 252 and its prerequisite requirements. Audit available. This is the third course of four courses in the Calculus sequence.</p>
+
+    <p>The complete Course Content and Outcome Guide can be found at <url href="http://www.pcc.edu/ccog/default.cfm?fa=ccog">www.pcc.edu/ccog/default.cfm?fa=ccog</url>.</p>
+
+</section>

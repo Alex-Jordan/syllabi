@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Downloads</title>
+
+<!--    <url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/syllabus.pdf">A pdf version of this syllabus.</url>-->
+
+    <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
+
+    <subsection>
+        <title>Lecture Notes</title>
+        <p>Lecture note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <ul>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.1.pdf">Section 8.1</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.1and8.2.pdf">Sections 8.1 and 8.2</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.2.pdf">Section 8.2</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.2and8.3.pdf">Sections 8.2 and 8.3</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.3and8.4.pdf">Sections 8.3 and 8.4</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.4.pdf">Section 8.4</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.4part2.pdf">Section 8.4 part 2</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.5.pdf">Section 8.5</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.6and8.7.pdf">Sections 8.6 and 8.7</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.7.pdf">Section 8.7</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section8.7part2.pdf">Section 8.7 part 2</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/ReferenceTableForSeries.pdf">Reference Table for Series</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section9.1and9.2.pdf">Sections 9.1 and 9.2</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section9.1and9.2Notes_Partial.pdf">Carly's Notes from Tuesday July 26</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section9.1,9.2,9.3,9.4.pdf">Sections 9.1, 9.2, 9.3, and 9.4</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/20160728150559273.pdf">Carly's 9.2 Notes from Thursday July 28</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Carlys9.3,9.4Notes.pdf">Carly's 9.3, 9.4 Notes from Thursday July 28</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section7.1and7.2.pdf">Sections 7.1 and 7.2</url></p></li>
+            <li><p><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Notes/Section7.3.pdf">Section 7.3</url></p></li>
+        </ul>
+    </subsection>
+    <subsection>
+        <title>In-Class Activity Worksheets</title>
+        <table>
+
+            <tabular>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/Sequences.pdf">Sequences</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsSequences.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/Series.pdf">Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsSeries.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/GeometricSeries.pdf">Geometric Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsGeometricSeries.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/TelescopingSeries.pdf">Telescoping Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsTelescopingSeries.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/IntegralTest.pdf">Integral Test</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsIntegralTest.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/IntegralTestEstimation.pdf">Integral Test Estimation</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsIntegralTestEstimation.pdf">Solutions</url></cell>-->
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/ComparisonTest.pdf">Comparison and Limit Comparison Tests</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsComparisonTest.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/AbsoluteConvergence.pdf">Absolute Convergence</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsAbsoluteConvergence.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/RatioTest.pdf">Ratio Test</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsRatioTest.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/AlternatingSeriesTest.pdf">Alternating Series Test</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsAlternatingSeriesTest.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/AlternatingSeriesEstimation.pdf">Alternating Series Estimation</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsAlternatingSeriesEstimation.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/PowerSeries.pdf">Power Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsPowerSeries.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/PowerSeriesRelatingToGeometricSeries.pdf">Power Series Relating to Geometric Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsPowerSeriesRelatingToGeometricSeries.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/PowerSeriesRelatingToGeoSerDiffInt.pdf">Pow Ser Rel to Geom Ser via Diff or Int</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsPowerSeriesRelatingToGeoSerDiffInt.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/TaylorSeriesMotivation.pdf">Taylor Series Motivation</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsTaylorSeriesMotivation.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/FindingTaylorSeries.pdf">Finding Taylor Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsFindingTaylorSeries.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/TaylorSeriesConvergence.pdf">Convergence of Taylor Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsTaylorSeriesConvergence.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/MaclaurinSeriesToMemorize.pdf">Maclaurin Series To Memorize</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsMaclaurinSeriesToMemorize.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/TaylorSeriesApplications.pdf">Applications for Taylor Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsTaylorSeriesApplications.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/CoordinatesVectorsDotProduct.pdf">Coordinates, Vectors, and Dot Product</url></cell>
+                    <!--<cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsTaylorSeriesConvergence.pdf">Solutions</url></cell>-->
+                </row>
+                <row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/CrossProduct.pdf">Cross Product</url></cell>
+                    <!--<cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsTaylorSeriesConvergence.pdf">Solutions</url></cell>-->
+                </row>
+            </tabular>
+
+        </table>
+    </subsection>
+
+
+</section>

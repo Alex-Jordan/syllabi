@@ -121,7 +121,7 @@
                     <ul>
                         <li><p>zeros (also known as horizontal intercepts)</p></li>
                         <li><p>the <m>y</m>-intercept</p></li>
-                        <li><p>the slope of the curve at any horizontal intercept</p></li>
+                        <li><p>the local behavior of the curve near any horizontal intercept</p></li>
                         <li><p>the long term behavior of the curve should be clear</p></li>
                     </ul>
                     <ol>
@@ -129,11 +129,82 @@
                         <li><p><m>g(x)=(2x+3)^3(x-2)</m></p></li>
                     </ol>
                 </li>
+            </ol>
+        </li>
+        <li xml:id="written6">
+            <title>Written HW 6</title>
+            <p>Due Monday May 9 or Tuesday May 10</p>
+            <ol> 
                 <li>
-                    <p>Using only what you know about the graph of <m>y=\sqrt{x}</m> and graph transformations, plot a graph of <m>f</m>, where <m>f(x)=4\sqrt{2x-6}+3</m>. It would be good to check your result by computing outputs from <m>f</m> in two ways: using this formula and using your graph. Note: simply plotting points using the formula will not be considered acceptable; you must demonstrate that you understand the graph transformations suggested by the formula.</p>
+                    <p>By hand, on graph paper, graph each of the functions defined below. Each graph should have all of the following identified and labeled, assuming the graph has these in the first place:</p>
+                    <ul>
+                        <li><p>zeros (also known as horizontal intercepts)</p></li>
+                        <li><p>the <m>y</m>-intercept</p></li>
+                        <li><p>vertical asymptotes</p></li>
+                        <li><p>the local behavior of the curve near any horizontal intercept</p></li>
+                        <li><p>the local behavior near any vertical asymptote should be clear (does the curve approach the asymptote curving upward/downward from the left/right?)</p></li>
+                        <li><p>the long term behavior of the curve should be clear; if it is a horizontal or slanted asymptote, it should be labeled with its equation</p></li>
+                    </ul>
+                    <ol>
+                        <li><p><m>h(x)=\frac{x^2-3x-4}{x-2}</m></p></li>
+                        <li><p><m>k(x)=\frac{3(x+2)(x-1)^2}{(x+3)(x-4)^2}</m></p></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li xml:id="written7">
+            <title>Written HW 7</title>
+            <p>Due Wednesday May 18 or Tuesday May 24</p>
+            <ol> 
+                <li>
+                    <p>Let <m>f(x)=\frac{4x+7}{9x+5}</m>. Find a formula for <m>f^{-1}</m>.</p>
+                </li>
+                <li>
+                    <p>Some sociologists feel that if <m>x</m>is a person's age, then <m>f(x)=\frac{1}{2}x+7</m> gives the youngest age for which it is socially acceptable to date someone of that age.<fn>I have no value judgments on this issue; it’s just the opinion of some sociaologists.</fn></p>
+                    <ol>
+                        <li><p>What does it mean in context to say that <m>f(20)=17</m>?</p></li>
+                        <li><p>In context, what should be the domain of this <m>f</m>? (According to this model anyway.) Hint: how young must a person be so that it is only <q>acceptable</q> for them to be dating people of their own age?</p></li>
+                        <li><p>In words, <m>f</m> cuts its input in half and then adds <m>7</m>. Therefore, in words, what should <m>f^{-1}</m> do? Use this to write a formula for <m>f^{-1}</m>.</p></li>
+                        <li><p>Write a sentence that explains what <m>f^{-1}(x)</m> means for a person who is <m>x</m> years old.</p></li>
+                        <li><p>So what does it mean to say <m>f^{-1}(40)=66</m>?</p></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li xml:id="written8">
+            <title>Written HW 8</title>
+            <p>Due Wednesday May 25 or Tuesday May 31</p>
+            <ol> 
+                <li>
+                    <p>The amount of a certain drug (in <quantity><unit prefix="milli" base="gram"/></quantity>) in the body <m>t</m> hours after taking a pill is given by  <m>A(t) = 22 (0.87)^t</m>.</p>
+                    <ol>
+                        <li><p>What is the dose in the pill?</p></li>
+                        <li><p>What proportion of the drug leaves the body each hour?</p></li>
+                        <li><p>What is the amount left in the body after <quantity><mag>10</mag><unit base="hour"/></quantity></p></li>
+                        <li><p>How long will it be until there less than <quantity><mag>1</mag><unit prefix="milli" base="gram"/></quantity> left in the body? (you may use technology to assist you)</p></li>
+                    </ol>
+                </li>
+                <li>
+                    <p>Solve the equation by using logarithms. <me>96(1.215)^x = 36(1.555)^x</me></p>
+                </li>
+            </ol>
+        </li>
+        <li xml:id="written9">
+            <title>Written HW 9</title>
+            <p>Due the day of your Final Exam</p>
+            <ol> 
+                <li>
+                    <p>Convert this exponential expression to the form <m>Q = a\,b^t</m>.<me>Q = 0.56e^{−0.2t}</me></p>
+                </li>
+                <li>
+                    <p>A radioactive substance decays at a continuous rate of <quantity><mag>-21.5</mag><unit base="percent"/></quantity> per year, and <quantity><mag>72</mag><unit prefix="milli" base="gram"/></quantity> of the substance is present at the start of 2016.</p>
+                    <ol>
+                        <li><p>Find a formula for <m>A(t)</m>, the amount present <m>t</m> years after 2016.</p></li>
+                        <li><p>How much will be present in the year 2020?</p></li>
+                        <li><p>When will the amount drop below <quantity><mag>7.2</mag><unit prefix="milli" base="gram"/></quantity>? (Show steps with logarithms)</p></li>
+                    </ol>
                 </li>
             </ol>
         </li>
     </dl>
-
 </section>

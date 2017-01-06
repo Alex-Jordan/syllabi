@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Contact Information</title>
+
+    <p>To reach me or PCC:</p>
+    <sidebyside>
+    <table>
+    <tabular>
+        <row>
+            <cell>Instructor: Alex Jordan</cell>
+        </row>
+        <row>
+            <cell>Office: SE SCOM 214</cell>
+        </row>
+        <row>
+            <cell>Phone: 971-722-4138</cell>
+        </row>
+        <row>
+            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+        </row>
+    </tabular>
+    </table>
+    <table>
+    <tabular>
+        <row>
+            <cell>Portland Community College</cell>
+        </row>
+        <row>
+            <cell>Sylvania Campus</cell>
+        </row>
+        <row>
+            <cell>12000 SW 49th Ave.</cell>
+        </row>
+        <row>
+            <cell>Portland, OR 97219</cell>
+        </row>
+    </tabular>
+    </table>
+    </sidebyside>
+
+    <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
+
+    <table>
+        <tabular top="major">
+            <row bottom="medium">
+                <cell>CRN</cell>
+                <cell>Days</cell>
+                <cell>Time</cell>
+                <cell>Final Exam</cell>
+            </row>
+            <row bottom="major">
+                <cell>34467</cell>
+                <cell>Tu/Th</cell>
+                <cell>11:30<ndash/>2:50</cell>
+                <cell>Thursday 8/11/2016</cell>
+            </row>
+        </tabular>
+    </table>
+    
+    <p>I have regular <term>office hours</term> Tuesday 10:00<ndash/>11:00 and Thursday 10:00<ndash/>11:00.  Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangments.</p>
+
+    <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+
+</section>
