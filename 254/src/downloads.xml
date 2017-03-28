@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Downloads</title>
+
+<!--    <url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/syllabus.pdf">A pdf version of this syllabus.</url>-->
+
+    <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
+
+    <subsection>
+        <title>Lecture Notes</title>
+        <p>Lecture note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <p><ul>
+            <li>
+                <p><url href="./notes/Notes9_2,9_3Jan18.pdf">Sections 9.2 and 9.3 (<abbr>Jan.</abbr> 18)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes9_3,9_4Jan23.pdf">Sections 9.3 and 9.4 (<abbr>Jan.</abbr> 23)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes9_4,9_5Jan25.pdf">Sections 9.4 and 9.5 (<abbr>Jan.</abbr> 25)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_1Jan30.pdf">Section 10.1 (<abbr>Jan.</abbr> 30)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_2Feb1.pdf">Section 10.2 (<abbr>Feb.</abbr> 1)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_3,10_4,10_5Feb6.pdf">Section 10.3, 10.4, 10.5 (<abbr>Feb.</abbr> 6)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_5,10_6Feb8.pdf">Section 10.5, 10.6 (<abbr>Feb.</abbr> 8)</url></p>
+            </li>
+            <li>
+                <p><url href="https://mediasite.pcc.edu/Mediasite/Play/e936e7870fe0491c8f5cd3db156a69b71d">Video on Section 11.1, 11.2 (<abbr>Feb.</abbr> 10)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes11_3,11_4Feb13.pdf">Section 11.3, 11.4 (<abbr>Feb.</abbr> 13)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes11_4,11_5Feb20.pdf">Section 11.4, 11.5 (<abbr>Feb.</abbr> 20)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_1,12_2,12_3Feb22.pdf">Section 12.1, 12.2, 12.3 (<abbr>Feb.</abbr> 22)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_3,12_5Feb27.pdf">Section 12.3, 12.5 (<abbr>Feb.</abbr> 27)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_5,12_6Mar1.pdf">Section 12.5, 12.6 (<abbr>Mar.</abbr> 1)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_7,12_8Mar6.pdf">Section 12.7, 12.8 (<abbr>Mar.</abbr> 6)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_8,13_1,13_2Mar13.pdf">Section 13.1, 13.2 (<abbr>Mar.</abbr> 13)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes13_3,13_6Mar15.pdf">Section 13.3, 13.6 (<abbr>Mar.</abbr> 15)</url></p>
+            </li>
+        </ul></p>
+    </subsection>
+    <subsection>
+        <title>In-Class Activity Worksheets</title>
+        <table>
+            <tabular>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <!--<row>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/Series.pdf">Series</url></cell>
+                    <cell><url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/Activities/SolutionsSeries.pdf">Solutions</url></cell>
+                </row>-->
+            </tabular>
+        </table>
+    </subsection>
+
+
+</section>

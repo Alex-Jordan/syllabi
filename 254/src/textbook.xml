@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Textbook</title>
+
+	<p><booktitle>APEX Calculus</booktitle> by Gregory Hartman. This book is a <em>free</em> calculus textbook, and our section is piloting its use at PCC. If we decide this textbook meets our educational needs for calculus, it could save future students hundreds of dollars compared to a commercial textbook.</p>
+
+	<p>You can access this book in any of the following ways:<ul>
+		<li>purchase a printed copy from a PCC bookstore for a low price</li>
+		<li>purchase a printed copy from <url href="http://www.apexcalculus.com/purchase/">www.apexcalculus.com/purchase</url></li>
+		<li>download a free pdf from <url  href="http://www.apexcalculus.com/downloads/">www.apexcalculus.com/downloads</url></li>
+	</ul></p>
+
+    <p>Having unrestricted access to a textbook is a requirement. This shouldn't be an issue with our textbook, where a free pdf is available.</p>
+
+	<p>Perhaps you already own a copy of <booktitle>Calculus</booktitle> by James Stewart, which is used in other calculus course at PCC. You spent money on this book and I do not want that to go to waste. If a topic from APEX is causing you trouble, try using the Stewart book. Use the index on page A135 to locate topics in Stewart.</p>
+
+</section>

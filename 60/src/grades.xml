@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Grades</title>
+
+    <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
+
+    <subsection>
+        <title>Attendance/Participation</title>
+        <p>Each day of class that you attend is worth <quantity><mag>0.25</mag><unit base="percent"/></quantity> of your grade, up to a maximum of <quantity><mag>4</mag><unit base="percent"/></quantity>. This does not include holidays, inservice days, or days where the entire class period is devoted to an exam. Typically in a term this leaves at least one absence that would not have a direct effect on your grade. However missing class will hurt your chances for success on exams because you will not get the same attention that your classmates had.</p>
+    </subsection>
+
+    <subsection>
+        <title>Web Assignments</title>
+        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" autoname="yes"/>. Collectively, all web assignments are worth <quantity><mag>12</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
+    </subsection>
+
+    <subsection>
+        <title>Written Assignments</title>
+        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1.3</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>13</mag><unit base="percent"/></quantity>. See <xref autoname="title" ref="section-written-assignments"/> for the specifics.</p>
+    </subsection>
+
+    <subsection>
+        <title>Late Homework</title>
+        <p>Web assignments are due whenever <webwork/> says they are due for full credit.  There is no way to get credit for a late web assignment (unless you unlock an achievement item reward).  After the due date, you may still type in answers to check your work, but doing so will not increase your score.  After the due date, answers are available if you re-visit the problem. A reminder: any <webwork/> score can be <em>overwritten</em> by your next exam score, if that is to your benefit.</p>
+
+        <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then I do not have time to go back and grade any more. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
+    </subsection>
+
+    <!--<subsection>
+        <title>Presentations</title>
+        <p>You will be assigned a partner (or two), and on Tuesday August 2, each group will give a roughly 20-minute presentation on some topic related to sequences and series. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. See <xref autoname="title" ref="section-presentations"/> for the specifics.</p>
+    </subsection>-->
+
+    <subsection>
+        <title>Exams</title>
+        <p>Please refer to the <xref ref="section-calendar" autoname="title"/> for exam dates, and <xref autoname="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, 3, and 4 are worth <quantity><mag>12</mag><unit base="percent"/></quantity>, <quantity><mag>17</mag><unit base="percent"/></quantity>, <quantity><mag>17</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
+    </subsection>
+
+</section>

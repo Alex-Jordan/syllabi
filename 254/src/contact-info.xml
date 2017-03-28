@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Contact Information</title>
+
+    <p>To reach me or PCC:</p>
+    <sidebyside>
+    <table>
+    <tabular>
+        <row>
+            <cell>Instructor: Alex Jordan</cell>
+        </row>
+        <row>
+            <cell>Office: SY ST 203</cell>
+        </row>
+        <row>
+            <cell>Phone: 971-722-4138</cell>
+        </row>
+        <row>
+            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+        </row>
+    </tabular>
+    </table>
+    <table>
+    <tabular>
+        <row>
+            <cell>Portland Community College</cell>
+        </row>
+        <row>
+            <cell>Sylvania Campus</cell>
+        </row>
+        <row>
+            <cell>12000 SW 49th Ave.</cell>
+        </row>
+        <row>
+            <cell>Portland, OR 97219</cell>
+        </row>
+    </tabular>
+    </table>
+    </sidebyside>
+
+    <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
+
+    <table>
+        <tabular top="major" valign="top">
+            <row bottom="medium">
+                <cell>CRN</cell>
+                <cell>Days</cell>
+                <cell>Time</cell>
+                <cell>Place</cell>
+                <cell>Final Exam</cell>
+            </row>
+            <row bottom="major">
+                <cell>10188</cell>
+                <cell>Tu/Th</cell>
+                <cell>3:30<ndash />5:50</cell>
+                <cell>SY ST 209</cell>
+                <cell><line>Tuesday</line><line>6/13/2017</line><line>3:00<ndash />5:00</line></cell>
+            </row>
+        </tabular>
+    </table>
+    
+    <p>I have drop-in office hours where you do not need to make an appointment:</p>
+
+    <table>
+        <tabular top="major">
+            <row>
+                <cell colspan="3" halign="center">Office Hours</cell>
+            </row>
+            <row bottom="medium">
+                <cell>Day</cell>
+                <cell>During Term</cell>
+                <cell>Finals Week</cell>
+            </row>
+            <row>
+                <cell>Mondays</cell>
+                <cell>11:10<ndash />12:30</cell>
+                <cell>10:00<ndash />2:00</cell>
+            </row>
+            <row>
+                <cell>Tuesdays</cell>
+                <cell>11:10<ndash />12:30</cell>
+                <cell>10:00<ndash />2:00</cell>
+            </row>
+            <row bottom="major">
+                <cell>Thursdays</cell>
+                <cell>3:00<ndash />4:00</cell>
+                <cell></cell>
+            </row>
+        </tabular>
+    </table>
+
+    <p>Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.</p>
+
+    <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+
+</section>

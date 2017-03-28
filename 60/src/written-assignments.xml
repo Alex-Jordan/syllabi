@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Written Assignments</title>
+
+    <p>As the term progresses, more written assignments will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1.3</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>13</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
+
+    <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
+        <li>
+            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
+        </li>
+        <li>
+            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
+        </li>
+        <li>
+            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
+        </li>
+        <li>
+            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
+        </li>
+        <li>
+            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
+        </li>
+    </ol></p>
+
+    <p><dl>
+        <li xml:id="written1">
+            <title>Written HW 1</title>
+            <p>Due Thursday Jan 19</p>
+            <p><ul> 
+                <li>
+                    <p>Section 1.2 <hash />130.</p>
+                    <figure>
+                        <image width="77%">
+                            <latex-image-code>
+                                <![CDATA[\begin{tikzpicture} 
+                                    \begin{axis}[ymin=0, ymax=25, 
+                                                xmin=2006.5, xmax=2010.5,
+                                                ylabel={Average Number of Presents}, 
+                                                xlabel={Year}, 
+                                                axis x line=center,
+                                                axis y line=left,
+                                                clip=false,
+                                                title={\parbox{130pt}{\bfseries\centering Average Number of\\ Holiday Presents Bought\\ by  U.S.\ Shoppers}},
+                                                x label style={at={(axis description cs:0.5,-0.1)},anchor=north},
+                                                /pgf/number format/.cd,
+                                                1000 sep={}] 
+                                        \addplot[mark=none] coordinates {(2007,23.1)} node[above] {$23\frac{1}{10}$};
+                                        \addplot[mark=none] coordinates {(2008,21.5)} node[above] {$21\frac{1}{2}$};
+                                        \addplot[mark=none] coordinates {(2009,18.2)} node[above] {$18\frac{1}{5}$};
+                                        \addplot[mark=none] coordinates {(2010,16.8)} node[above] {$16\frac{4}{5}$};
+                                        \addplot[ybar, fill=blue] coordinates {(2007,23.1) (2008,21.5) (2009,18.2) (2010,16.8)};
+                                    \end{axis}
+                                \end{tikzpicture}]]>
+                            </latex-image-code>
+                        </image>
+                    </figure>
+                    <p>Here is a mathematical model that approximates the data displayed by the bar graph:<me>P=23\frac{1}{5}-2\frac{1}{5}n</me>where <m>n</m> is the number of years after 2007, and <m>P</m> is the average number of holiday presents.</p>
+                    <p>Use the formula to find the average number of holiday presents bought by <init>U.S.</init> shoppers in 2010. Does the mathematical model underestimate or overestimate the actual number shown in the bar graph for 2010? By how much?</p> 
+                </li>
+                <li>
+                    <p>Section 1.3 <hash />96.</p>
+                    <p>The table shows the record low temperatures for five <init>U.S.</init> states.</p>
+                    <table>
+                        <tabular top="major" bottom="minor">
+                            <col right="minor"/>
+                            <col right="minor" halign="center" />
+                            <col />
+                            <row bottom="medium">
+                                <cell>State</cell>
+                                <cell>Record Low (<quantity><unit base="fahrenheit" /></quantity>)</cell>
+                                <cell>Date</cell>
+                            </row>
+                            <row>
+                                <cell>Virginia</cell>
+                                <cell><m>-30</m></cell>
+                                <cell><abbr>Jan.</abbr> 22, 1985</cell>
+                            </row>
+                            <row>
+                                <cell>Washington</cell>
+                                <cell><m>-48</m></cell>
+                                <cell><abbr>Dec.</abbr> 30, 1968</cell>
+                            </row>
+                            <row>
+                                <cell>West Virginia</cell>
+                                <cell><m>-37</m></cell>
+                                <cell><abbr>Dec.</abbr> 30, 1917</cell>
+                            </row>
+                            <row>
+                                <cell>Wisconsin</cell>
+                                <cell><m>-55</m></cell>
+                                <cell><abbr>Feb.</abbr> 4, 1996</cell>
+                            </row>
+                            <row bottom="major">
+                                <cell>Wymoing</cell>
+                                <cell><m>-66</m></cell>
+                                <cell><abbr>Feb.</abbr> 9, 1933</cell>
+                            </row>
+                        </tabular>
+                    </table>
+                    <p><ol label="a">
+                        <li>
+                            <p>Graph the five record low temperatures on a number line.</p>
+                        </li>
+                        <li>
+                            <p>Write the names of the states in order from the coldest record low to the warmest record low.</p>
+                        </li>
+                    </ol></p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written2">
+            <title>Written HW 2</title>
+            <p>Due Thursday Jan 26</p>
+            <p><ul> 
+                <li>
+                    <p>Chapter 1 Mid-Chapter Checkpoint <hash />21<ndash />23.</p>
+                    <p>Rewrite <m>5(x+3)</m> as an equivalent expression using:<ol>
+                        <li>
+                            <p>the commutative property of multiplication</p>
+                        </li>
+                        <li>
+                            <p>the commutative property of addition</p>
+                        </li>
+                        <li>
+                            <p>the distributive property</p>
+                        </li>
+                    </ol></p>
+                </li>
+                <li>
+                    <p>Section 1.5 <hash />92<ndash />95.</p>
+                    <p>Determine whether each statement is true or false. If the statement is false, make the necessary change(s) to produce a true statement <em>or</em> give a good explanation why it is false.<ol>
+                        <li>
+                            <p><m>\frac{3}{4}+\left(-\frac{3}{5}\right)=-\frac{3}{20}</m></p>
+                        </li>
+                        <li>
+                            <p>The sum of zero and a negative number is always a negative number.</p>
+                        </li>
+                        <li>
+                            <p>If one number is positive and the other negative, then the absolute value of their sum equals the sum of their absolute values.</p>
+                        </li>
+                        <li>
+                            <p>The sum of a positive number and a negative number is always a positive number.</p>
+                        </li>
+                    </ol></p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written3">
+            <title>Written HW 3</title>
+            <p>Due Tuesday Jan 31</p>
+            <p><ul>
+                <li>
+                    <p>Section 1.8 <hash />102.</p>
+                    <p>In Palo Alto, California, a government agency ordered computer-related companies to contribute to a pool of money to clean up underground water supplies. (The companies had stored toxic chemicals in leaking underground containers.) The mathematical model <me>C=\frac{200x}{100-x}</me>discribes the cost, <m>C</m>, in tens of thousands of dollars, for removing <m>x</m> percent of the contaminants.</p>
+
+                    <p><ol label="a">
+                        <li>
+                            <p>Find the cost, in tens of thousands of dollars, for removing <m>60\%</m> of the contaminants.</p>
+                        </li>
+                        <li>
+                            <p>Find the cost, in tens of thousands of dollars, for removing <m>90\%</m> of the contaminants.</p>
+                        </li>
+                        <li>
+                            <p>Describe what is happening to the cost of the cleanup as the percentage of contaminants removed increases.</p>
+                        </li>
+                    </ol></p>
+                </li>
+                <li>
+                    <p>Section 1.8 <hash />115.</p>
+                    <p>Insert parentheses in the expression<me>2\cdot3+3\cdot5</me>so that the resulting value is <m>45</m>.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written4">
+            <title>Written HW 4</title>
+            <p>Due Tuesday Feb 7</p>
+            <p><ul>
+                <li>
+                    <p>Section 5.3 (Not a typo!) <hash />123.</p>
+                    <p>Find the missing factor. <me>(<fillin width="2" />)\left(-\frac{1}{4}xy^3\right) = 2x^5y^3</me></p>
+                </li>
+                <li>
+                    <p>Section 2.1 <hash />66.</p>
+                    <p>The bar graph shows the average credit-card debt per <init>U.S.</init> household for selected years from 2000 through 2008.</p>
+                    <figure>
+                        <image width="77%">
+                            <latex-image-code>
+                                <![CDATA[\begin{tikzpicture} 
+                                    \begin{axis}[ymin=0, ymax=12000, 
+                                                xmin=1999.5, xmax=2008.5,
+                                                ylabel={Average Credit-Card Balance}, 
+                                                xlabel={Year}, 
+                                                axis x line=center,
+                                                axis y line=left,
+                                                clip=false,
+                                                title={\parbox{130pt}{\bfseries\centering Average Credit-Card \\ Debt per {U.S.} Household}},
+                                                x label style={at={(axis description cs:0.5,-0.1)},anchor=north},
+                                                y label style={at={(axis description cs:-0.1,.5)},anchor=south},
+                                                /pgf/number format/.cd,
+                                                yticklabel style={
+                                                        /pgf/number format/fixed,
+                                                        /pgf/number format/precision=5
+                                                },
+                                                scaled y ticks=false,
+                                                1000 sep={}] 
+                                        \addplot[mark=none] coordinates {(2000,8308)} node[above, rotate=90, anchor=west] {$\$8308$};
+                                        \addplot[mark=none] coordinates {(2004,9577)} node[above, rotate=90, anchor=west] {$\$9577$};
+                                        \addplot[mark=none] coordinates {(2006,9659)} node[above, rotate=90, anchor=west] {$\$9659$};
+                                        \addplot[mark=none] coordinates {(2007,9840)} node[above, rotate=90, anchor=west] {$\$9840$};
+                                        \addplot[mark=none] coordinates {(2008,10691)} node[above, rotate=90, anchor=west] {$\$10691$};
+                                        \addplot[ybar, fill=blue] coordinates {(2000,8308) (2004,9577) (2006,9659) (2007,9840) (2008,10691)};
+                                    \end{axis}
+                                \end{tikzpicture}]]>
+                            </latex-image-code>
+                        </image>
+                    </figure>
+                    <p>The data displayed by the bar graph can be described by the mathematical model<me>d-257x=8328</me>where <m>d</m> is the average credit-card debt per <abbr>U.S.</abbr> household <m>x</m> years after 2000.</p>
+
+                    <p>According to the formula, what was the average credit-card debt per <abbr>U.S.</abbr> household for 2007? Does this underestimate the number displayed by the bar graph? By how much?</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written5">
+            <title>Written HW 5</title>
+            <p>Due Tuesday Feb 14</p>
+            <p><ul>
+                <li>
+                    <p>Section 2.2 <hash />84.</p>
+                    <p>Write an equation where the solution is a positive integer and the equation can be solved by dividing both sides by <m>-60</m>. (You should not just write down an equation, but also demonstrate that it meets these conditions.)</p>
+                </li>
+                <li>
+                    <p>Section 2.3 <hash />106.</p>
+                    <p>A woman's height, <m>h</m>, is related to the length of her femur, <m>f</m> (the bone from the knee to the hip socket), by the formula <m>f=0.432h-10.44</m>. Both <m>h</m> and <m>f</m> are measured in inches. A partial skeleton is found of a woman in whihch the femure is <m>16</m> inches long. Police find the skeleton in an area where a woman slightly over <m>5</m> feet tall has been missing for over a year. Can the partial skelton be that of the missing woman? Explain.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written6">
+            <title>Written HW 6</title>
+            <p>Due Thursday Feb 23</p>
+            <p><ul>
+                <li>
+                    <p>Section 2.4 <hash />52.</p>
+                    <p>The average, or mean, <m>A</m>, of three exam grades, <m>x</m>, <m>y</m>, and <m>z</m>, is given by <me>A=\frac{x+y+z}{3}</me>.<ol label="a">
+                        <li xml:id="solve-part">
+                            <p>Solve the formula for <m>z</m>.</p>
+                        </li>
+                        <li>
+                            <p>Use the formula in <xref ref="solve-part"/> to solve this problem. On your first two exams, your grades are <m>86\%</m> and <m>88\%</m>. What must you get on the third exam to have an average of <m>90\%</m>?</p>
+                        </li>
+                    </ol></p>
+                </li>
+                <li>
+                    <p>Section 2.4 <hash />69.</p>
+                    <p>A sofa regularly sells for <m>\$840</m>. The sale price is <m>\$714</m>. Find the percent decrease in the sofa's price.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written7">
+            <title>Written HW 7</title>
+            <p>Due Tuesday Feb 28</p>
+            <p><ul>
+                <li>
+                    <p>Section 2.5 <hash />32.</p>
+                    <p>In 2008, rent payments averaged <m>\$824</m> per month. For the period from 1975 to 2008, monthly rent payments increased by approximately <m>\$7</m> per year. If this trend contiues, how many years after 2008 will rent payments average <m>\$929</m>? In which year will this occur?</p>
+
+                    <p>To receive full credit on this written assignment, use the background to set up an equation, and then use algebra to solve this equation. It is not worth any credit right now to find the answer using any other calculation process you might have, even though I recognize that would be a valuable skill.</p>
+                </li>
+                <li>
+                    <p>Section 2.6 <hash />36.</p>
+                    <p>One angle of a triangle is three times as large as another. The measure of the third angle is <m>30^{\circ}</m> greater than that of the smallest angle. Find the measure of each angle.</p>
+
+                    <p>Again, use the background to set up an equation, and then use algebra to solve this equation. It is not worth any credit right now to find the answer using any other calculation process you might have, even though I recognize that would be a valuable skill.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written8">
+            <title>Written HW 8</title>
+            <p>Due Tuesday Mar 7</p>
+            <p><ul>
+                <li>
+                    <p>Section 2.7 <hash />108.</p>
+                    <p>On three examinations, you have grades of <m>88</m>, <m>78</m>, and <m>86</m>. There is still a final examination.</p>
+                    <p><ol label="a">
+                        <li>
+                            <p>In order to get an A, your average must be at least 90. If you get <m>100</m> on the final, compute your average and determine if an A in the course is possible.</p>
+                        </li>
+                        <li>
+                            <p><em>As you work this part of the problem, if you have equals signs <m>=</m>, then you aren't exactly doing it right. The algebra for this question should be set up using <alert>inequality</alert> symbols.</em></p>
+
+                            <p>To earn a B in the course, you must have a final average of at least <m>80</m>. What must you get on the final to earn a B in the course?</p>
+                        </li>
+                    </ol></p>
+                </li>
+                <li>
+                    <p>Section 3.2 <hash />40.</p>
+                    <p>Use intercepts and a checkpoint to graph the equation <m>3x-2y=-7</m>. As always, please follow the guidelines for written homework in this class.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written9">
+            <title>Written HW 9</title>
+            <p>Due Thursday Mar 23</p>
+            <p>This assignment is worth twice as much as previous written assignments.</p>
+            <p><ul>
+                <li>
+                    <p>Section 3.4 <hash />28, <hash />30, <hash />32, <hash />34, <hash />36, <hash />38.</p>
+                </li>
+                <li>
+                    <p>Section 3.6 <hash />16, <hash />18, <hash />20, <hash />22, <hash />24, <hash />26.</p>
+                </li>
+            </ul></p>
+        </li>
+        <!-- <li xml:id="written10"> -->
+            <!-- <title>Written HW 10</title> -->
+            <!-- <p>Due Thursday Mar 23</p> -->
+        <!-- </li> -->
+    </dl></p>
+</section>
