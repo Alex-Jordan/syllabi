@@ -8,7 +8,7 @@
 <xsl:import href="clm-common.xsl" />
 
 <xsl:template match="webwork">
-    <a href="https://webwork.pcc.edu/webwork2/mth254-jordan-201702/">WeBWorK</a>
+    <a href="https://webwork.pcc.edu/webwork2/mth261-jordan-201702/">WeBWorK</a>
 </xsl:template>
 
 </xsl:stylesheet>

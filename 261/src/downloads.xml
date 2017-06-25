@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Downloads</title>
+
+<!--    <url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/syllabus.pdf">A pdf version of this syllabus.</url>-->
+
+    <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
+
+    <subsection>
+        <title>Lecture Notes</title>
+        <p>Lecture note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <p><ul>
+            <li>
+                <p><url href="./notes/Notes1_1Apr4.pdf">Section 1.1 (<abbr>Apr.</abbr> 4)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes1_2,1_3Apr6.pdf">Section 1.2, 1.3 (<abbr>Apr.</abbr> 6)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes1_3,1_4Apr11.pdf">Section 1.3, 1.4 (<abbr>Apr.</abbr> 11)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes1_5,1_6Apr13.pdf">Section 1.5, 1.6 (<abbr>Apr.</abbr> 13)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes1_7,1_8Apr18.pdf">Section 1.7, 1.8 (<abbr>Apr.</abbr> 18)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes1_8,1_9Apr20.pdf">Section 1.8, 1.9 (<abbr>Apr.</abbr> 20)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes2_1Apr27.pdf">Section 2.1 (<abbr>Apr.</abbr> 27)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes2_2,2_3May2.pdf">Section 2.2, 2.3 (<abbr>May</abbr> 2)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes3_1,3_2May4.pdf">Section 3.1, 3.2 (<abbr>May</abbr> 4)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes2_8,4_3May9.pdf">Section 2.8, 4.3 (<abbr>May</abbr> 9)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes2_9,4_2May16.pdf">Section 2.9, 4.2 (<abbr>May</abbr> 16)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes4_4,4_7,5_1May18.pdf">Section 4.4, 4.7, 5.1 (<abbr>May</abbr> 18)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes5_3,6_1May30.pdf">Section 5.3, 6.1 (<abbr>May</abbr> 30)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes6_1,6_2,6_3,6_4Jun1.pdf">Section 6.1, 6.2, 6.3, 6.4 (<abbr>June</abbr> 1)</url></p>
+            </li>
+        </ul></p>
+    </subsection>
+    <subsection>
+        <title>In-Class Handouts</title>
+        <p>Occasionally there may be an in-class activity that uses a handout. Here is where I will place electronic copies of these handouts.</p>
+        <table>
+            <tabular>
+                <row>
+                    <cell><url href="worksheets/SystemsOfEquations.pdf">Systems of Equations</url></cell>
+                    <cell><url href="worksheets/SolutionsSystemsOfEquations.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/EchelonForm.pdf">Echelon Form</url></cell>
+                    <cell><url href="worksheets/SolutionsEchelonForm.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/VectorEquations.pdf">Vector Equations</url></cell>
+                    <cell><url href="worksheets/SolutionsVectorEquations.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/MatrixEquations.pdf">Matrix Equations</url></cell>
+                    <cell><url href="worksheets/SolutionsMatrixEquations.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/HomogNonhomogSystems.pdf">Solution Sets to Homogeneous and Nonhomogeneous Linear Systems</url></cell>
+                    <cell><url href="worksheets/SolutionsHomogNonhomogSystems.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/ApplicationsOfLinearSystems.pdf">Applications of Linear Systems</url></cell>
+                    <cell><url href="worksheets/SolutionsApplicationsOfLinearSystems.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/LinearIndependenceInRn.pdf">Linear Independence in <m>\mathbb{R}^n</m></url></cell>
+                    <cell><url href="worksheets/SolutionsLinearIndependenceInRn.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/LinearTransformations.pdf">Linear Transformations</url></cell>
+                    <cell><url href="worksheets/SolutionsLinearTransformations.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/MatrixOfaLinearTransformation.pdf">Matrix of a Linear Transformation</url></cell>
+                    <cell><url href="worksheets/SolutionsMatrixOfaLinearTransformation.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/MatrixInverses.pdf">Matrix Inverses</url></cell>
+                    <cell><url href="worksheets/SolutionsMatrixInverses.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/InvertibleMatrixTheorem.pdf">The Invertible Matrix Theorem</url></cell>
+                    <cell><url href="worksheets/SolutionsInvertibleMatrixTheorem.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/DeterminantComputation.pdf">Determinant Compuation</url></cell>
+                    <cell><url href="worksheets/SolutionsDeterminantComputation.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/DeterminantApplications.pdf">Determinant Applications</url></cell>
+                    <cell><url href="worksheets/SolutionsDeterminantApplications.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/ColSpaceNulSpace.pdf">Column Space and Null Space</url></cell>
+                    <cell><url href="worksheets/SolutionsColSpaceNulSpace.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/BasisAndDimension.pdf">Basis And Dimension</url></cell>
+                    <cell><url href="worksheets/SolutionsBasisAndDimension.pdf">Solutions</url></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/EigenvaluesAndEigenvectors.pdf">Eigenvalues And Eigenvectors</url></cell>
+                    <cell><!--<url href="worksheets/SolutionsEigenvaluesAndEigenvectors.pdf">Solutions</url>--></cell>
+                </row>
+                <row>
+                    <cell><url href="worksheets/Diagonalization.pdf">Diagonalization</url></cell>
+                    <cell><url href="worksheets/SolutionsDiagonalization.pdf">Solutions</url></cell>
+                </row>
+            </tabular>
+        </table>
+    </subsection>
+
+
+</section>

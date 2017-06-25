@@ -14,7 +14,7 @@
 
     <subsection>
         <title>Web Assignments</title>
-        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" autoname="yes"/>. Collectively, all web assignments are worth <quantity><mag>12</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
+        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" autoname="title"/>. Collectively, all web assignments are worth <quantity><mag>13</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
     </subsection>
 
     <subsection>
@@ -29,14 +29,14 @@
         <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then I do not have time to go back and grade any more. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
     </subsection>
 
-    <!--<subsection>
+    <subsection>
         <title>Presentations</title>
-        <p>You will be assigned a partner (or two), and on Tuesday August 2, each group will give a roughly 20-minute presentation on some topic related to sequences and series. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. See <xref autoname="title" ref="section-presentations"/> for the specifics.</p>
-    </subsection>-->
+        <p>You will be assigned two partners, and on the last week of class, each group will give a roughly 25-minute presentation on some topic that applies linear algebra. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. See <xref autoname="title" ref="section-presentations"/> for the specifics.</p>
+    </subsection>
 
     <subsection>
         <title>Exams</title>
-        <p>Please refer to the <xref ref="section-calendar" autoname="title"/> for exam dates, and <xref autoname="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, 3, and 4 are worth <quantity><mag>12</mag><unit base="percent"/></quantity>, <quantity><mag>17</mag><unit base="percent"/></quantity>, <quantity><mag>17</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
+        <p>Please refer to the <xref ref="section-calendar" autoname="title"/> for exam dates, and <xref autoname="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, 3, and 4 are worth <quantity><mag>10</mag><unit base="percent"/></quantity>, <quantity><mag>15</mag><unit base="percent"/></quantity>, <quantity><mag>15</mag><unit base="percent"/></quantity>, and <quantity><mag>20</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
     </subsection>
 
 </section>

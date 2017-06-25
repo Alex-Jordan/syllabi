@@ -1,0 +1,92 @@
+#######################################
+### Generated from MathBook XML source 
+###    on 2016-03-17T17:23:47-07:00    
+###                                    
+###   http://mathbook.pugetsound.edu   
+###                                    
+#######################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1(Course Information and Syllabus)
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+    "PGstandard.pl",
+    "MathObjects.pl",
+    "PGML.pl",
+    "AnswerFormatHelp.pl",
+    "answerHints.pl",
+    "contextLimitedPolynomial.pl",
+    "PGcourse.pl",
+);
+
+############################################################
+# Header
+############################################################
+COMMENT('Authored in MathBook XML');
+TEXT(beginproblem());
+
+############################################################
+# PG Setup
+############################################################
+$a = 4;
+$b = 3;
+$c = $a + $b;
+$expression = Formula("x^($a)*x^($b)");
+
+Context("LimitedPolynomial-Strict");
+# custom error message
+Context()->{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+    = "Your answer must be fully simplified";
+
+$answer = Formula("x^($c)");
+$product = $a*$b;
+$evaluator = $answer->cmp()->withPostFilter(AnswerHints(
+    [Compute("x^($product)")] =>
+    "When multiplying terms with the same base, you do not multiply the exponents."));
+
+############################################################
+# Body
+############################################################
+BEGIN_PGML
+Use the properties of exponents to simplify [`%[$expression]`].
+
+[`%[$expression]=`][________]{$evaluator} [@AnswerFormatHelp('formulas')@]*
+
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+BEGIN_PGML_SOLUTION
+We _add_ the exponents as follows:
+
+
+
+>> [``%\begin{aligned}
+[$expression]&=x^{[$a]+[$b]}\\
+&=x^{[$c]}
+\end{aligned}``] <<
+
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+ENDDOCUMENT();

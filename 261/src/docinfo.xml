@@ -3,8 +3,9 @@
 <!-- This file contains control data for Alex Jordan's syllabus -->
 
 <docinfo>
+
     <!-- For title into HTML head, then tabs, bookmarks, etc -->
-    <initialism>MTH 254</initialism>
+    <initialism>MTH 261</initialism>
 
     <!-- Thumbnail for HTML -->
     <brandlogo url="https://spot.pcc.edu/math" source="https://webwork.pcc.edu/webwork2_files/images/mathematics.jpg"/>
@@ -14,7 +15,6 @@
 
     <latex-image-preamble>
     <![CDATA[
-    \usepackage{mfpic}
     \usepackage{pgfplots}
     \usepackage{pgfplotstable}
     \pgfplotsset{soldot/.style={only marks,mark=*}}

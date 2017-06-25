@@ -11,11 +11,11 @@
         <tabular>
             <row>
                 <cell>Course Number:</cell>
-                <cell>MTH 254</cell>
+                <cell>MTH 261</cell>
             </row>
             <row>
                 <cell>Course Title:</cell>
-                <cell>Vector Calculus I</cell>
+                <cell>Applied Linear Algebra I</cell>
             </row>
             <row>
                 <cell>Credit Hours:</cell>
@@ -28,7 +28,7 @@
         </tabular>
     </table>
 
-    <p>Includes multivariate and vector-valued functions from a graphical, numerical, and symbolic perspective. Applies integration and differentiation of both types of functions to solve real world problems. Graphing calculator required. TI-89 Titanium or Casio Classpad 330 recommended. Prerequisites: MTH 253 and its prerequisite requirements. Audit available.</p>
+    <p>Covers elementary linear algebra with a focus on <m>n</m>-space and applications. Includes linear systems, vectors in <m>n</m>-space, vector space properties of <m>n</m>-space, and matrix algebra, including eigenspaces. Required: Matrix-capable calculator. Recommended: TI-89 Titanium or Casio Classpad 330. Prerequisite: MTH 252. Audit available.</p>
 
     <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
 

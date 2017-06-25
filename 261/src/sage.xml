@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-sage" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Sage Examples</title>
+
+    <p>Here are some Sage cells where you can do certain things that you cannot do so easily with a graphing calculator. Throughout the term I will add Sage examples from class here.</p>
+
+    <paragraphs>
+        <title>Solve a Linear System</title>
+        <p>Note the doulbe equals sign for making a comparison. Also note that multiplications must be explicit: <c>2*x</c>, not merely <c>2x</c>.</p>
+        <sage>
+            <input>
+                var('x y z')
+                solve([x+y+z==1,2*x-y+z==2,3*x+3*y+z==1],x,y,z)
+            </input>
+        </sage>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Row Reduce Matrices</title>
+        <p>First you must have a line that defines what kind of matrices you will work with. The <c>QQ</c> stands for the rational numbers, so these matrices will accept rational numbers as entries. You see <c>2</c> and <c>3</c> because we will make a <m>2\times3</m> matrix. The <c>echelon_form()</c> command gives reduced row echelon form.</p>
+        <sage>
+            <input>
+                M = MatrixSpace(QQ, 2, 3)
+                A = M([1, 2, 1, 4, 5, 4])
+                A.echelon_form()
+            </input>
+        </sage>
+    </paragraphs>
+
+
+</section>
