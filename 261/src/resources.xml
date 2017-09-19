@@ -5,7 +5,14 @@
 <section xml:id="section-resources" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Student Resources</title>
 
-    <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+    <introduction>
+        <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+    </introduction>
+
+    <subsection>
+        <title>3blue1brown Video Series</title>
+        <p>Linear algebra videos by 3blue1brown are well produced and may help with your understanding of the material in this course. <url href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab</url>.</p>
+    </subsection>
 
     <subsection>
         <title>Tutoring</title>

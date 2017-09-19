@@ -7,7 +7,6 @@
 
     <p>To reach me or PCC:</p>
     <sidebyside>
-    <table>
     <tabular>
         <row>
             <cell>Instructor: Alex Jordan</cell>
@@ -22,8 +21,6 @@
             <cell>email: <email>alex.jordan@pcc.edu</email></cell>
         </row>
     </tabular>
-    </table>
-    <table>
     <tabular>
         <row>
             <cell>Portland Community College</cell>
@@ -38,12 +35,11 @@
             <cell>Portland, OR 97219</cell>
         </row>
     </tabular>
-    </table>
     </sidebyside>
 
     <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
 
-    <table>
+    <sidebyside>
         <tabular top="major" valign="top">
             <row bottom="medium">
                 <cell>CRN</cell>
@@ -53,18 +49,18 @@
                 <cell>Final Exam</cell>
             </row>
             <row bottom="major">
-                <cell>21135</cell>
-                <cell>Tu/Th</cell>
-                <cell>8:30<ndash />10:50</cell>
-                <cell>SY SS 120</cell>
-                <cell><line>Thursday</line><line>6/15/2017</line><line>8:00<ndash />10:00</line></cell>
+                <cell>33954</cell>
+                <cell>M/W</cell>
+                <cell>12:00<ndash />3:20</cell>
+                <cell>SY ST 209</cell>
+                <cell><line>Monday</line><line>8/14/2017</line><line>12:00<ndash />2:00</line></cell>
             </row>
         </tabular>
-    </table>
+    </sidebyside>
     
     <p>I have drop-in office hours where you do not need to make an appointment:</p>
 
-    <table>
+    <sidebyside>
         <tabular top="major">
             <row>
                 <cell colspan="3" halign="center">Office Hours</cell>
@@ -72,25 +68,20 @@
             <row bottom="medium">
                 <cell>Day</cell>
                 <cell>During Term</cell>
-                <cell>Finals Week</cell>
+                <!-- <cell>Finals Week</cell> -->
             </row>
             <row>
                 <cell>Mondays</cell>
-                <cell></cell>
-                <cell>10:00<ndash />2:00</cell>
-            </row>
-            <row>
-                <cell>Tuesdays</cell>
-                <cell>10:50<ndash />12:00 and 2:30<ndash />3:30</cell>
-                <cell>10:00<ndash />2:00</cell>
+                <cell>10:30<ndash />11:30</cell>
+                <!-- <cell></cell> -->
             </row>
             <row bottom="major">
-                <cell>Thursdays</cell>
-                <cell>10:50<ndash />12:00 and 2:30<ndash />3:30</cell>
-                <cell></cell>
+                <cell>Wednesdays</cell>
+                <cell>10:30<ndash />11:30</cell>
+                <!-- <cell></cell> -->
             </row>
         </tabular>
-    </table>
+    </sidebyside>
 
     <p>Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.</p>
 

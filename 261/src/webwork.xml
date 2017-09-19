@@ -5,68 +5,70 @@
 <section xml:id="section-webwork" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>WeBWorK Assignments</title>
 
-    <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201702/">webwork.pcc.edu/webwork2/mth261-jordan-201702</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00 <init>p.m.</init> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date.  You may work from home or use PCC computer labs to turn in your answers.</p>
+    <introduction>
+        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201703/">webwork.pcc.edu/webwork2/mth261-jordan-201703</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00 <init>p.m.</init> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date.  You may work from home or use PCC computer labs to turn in your answers.</p>
 
-    <p>Here is an example of what a <webwork/> problem is like.</p>
+        <p>Here is an example of what a <webwork/> problem is like.</p>
 
-    <exercise xml:id="webwork-demo">
-        <title>Multiply Powers</title>
+        <exercise xml:id="webwork-demo">
+            <title>Multiply Powers</title>
 
-        <webwork>
-            <pg-macros>
-                <macro-file>contextLimitedPolynomial.pl</macro-file>
-            </pg-macros>
+            <webwork>
+                <pg-macros>
+                    <macro-file>contextLimitedPolynomial.pl</macro-file>
+                </pg-macros>
 
-            <setup>
-                <var name="$a">
-                    <static>4</static>
-                </var>
-                <var name="$b">
-                    <static>3</static>
-                </var>
-                <var name="$c">
-                    <static>7</static>
-                </var>
-                <var name="$expression">
-                    <static>x^4\cdot x^3</static>
-                </var>
-                <var name="$answer" category="formula">
-                    <static>x^7</static>
-                </var>
+                <setup>
+                    <var name="$a">
+                        <static>4</static>
+                    </var>
+                    <var name="$b">
+                        <static>3</static>
+                    </var>
+                    <var name="$c">
+                        <static>7</static>
+                    </var>
+                    <var name="$expression">
+                        <static>x^4\cdot x^3</static>
+                    </var>
+                    <var name="$answer" category="formula">
+                        <static>x^7</static>
+                    </var>
 
-                <pg-code>
-                    $a = 4;
-                    $b = 3;
-                    $c = $a + $b;
-                    $expression = Formula("x^($a)*x^($b)");
+                    <pg-code>
+                        $a = 4;
+                        $b = 3;
+                        $c = $a + $b;
+                        $expression = Formula("x^($a)*x^($b)");
 
-                    Context("LimitedPolynomial-Strict");
-                    # custom error message
-                    Context()->{error}{msg}{"A variable can appear only once in each term of a polynomial"}
-                        = "Your answer must be fully simplified";
+                        Context("LimitedPolynomial-Strict");
+                        # custom error message
+                        Context()->{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+                            = "Your answer must be fully simplified";
 
-                    $answer = Formula("x^($c)");
-                    $product = $a*$b;
-                    $evaluator = $answer->cmp()->withPostFilter(AnswerHints(
-                        [Compute("x^($product)")] =>
-                        "When multiplying terms with the same base, you do not multiply the exponents."));
-                </pg-code>
-            </setup>
+                        $answer = Formula("x^($c)");
+                        $product = $a*$b;
+                        $evaluator = $answer->cmp()->withPostFilter(AnswerHints(
+                            [Compute("x^($product)")] =>
+                            "When multiplying terms with the same base, you do not multiply the exponents."));
+                    </pg-code>
+                </setup>
 
-            <statement>
-                <p>Use the properties of exponents to simplify <m><var name="$expression" /></m>.</p>
-                <p><m><var name="$expression" />=</m><var name="$answer" evaluator="$evaluator" width="8" /></p>
-            </statement>
+                <statement>
+                    <p>Use the properties of exponents to simplify <m><var name="$expression" /></m>.</p>
+                    <p><m><var name="$expression" />=</m><var name="$answer" evaluator="$evaluator" width="8" /></p>
+                </statement>
 
-            <solution>
-                <p>We <em>add</em> the exponents as follows:</p>
-                <md>
-                    <mrow><var name="$expression" />&amp;=x^{<var name="$a" />+<var name="$b" />}</mrow>
-                    <mrow>&amp;=x^{<var name="$c" />}</mrow>
-                </md>
-            </solution>
-        </webwork>
-    </exercise>
+                <solution>
+                    <p>We <em>add</em> the exponents as follows:</p>
+                    <md>
+                        <mrow><var name="$expression" />&amp;=x^{<var name="$a" />+<var name="$b" />}</mrow>
+                        <mrow>&amp;=x^{<var name="$c" />}</mrow>
+                    </md>
+                </solution>
+            </webwork>
+        </exercise>
+    </introduction>
 
 
     <subsection>
@@ -92,7 +94,7 @@
             </li>
             <li>
                 <title>Quality Feedback</title>
-                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref autoname="yes" ref="webwork-demo"/>.</p>
+                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.</p>
             </li>
             <li>
                 <title>Ease of Communication</title>
@@ -116,7 +118,7 @@
     <subsection>
         <title>Logging in to <webwork/></title>
 
-        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201702">webwork.pcc.edu/webwork2/mth261-jordan-201702</url>. If you are working at your own
+        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201703">webwork.pcc.edu/webwork2/mth261-jordan-201703</url>. If you are working at your own
 computer, you might want to bookmark this link. Your username is your PCC email prefix, using all lowercase letters.  For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>. Your initial password is your PCC G-number, using a capital <c>G</c>.</p>
     </subsection>
 

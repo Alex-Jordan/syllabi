@@ -7,8 +7,8 @@
 
     <p>Taken from the official PCC course description:</p>
 
-    <table halign="left"> 
-        <tabular>
+    <sidebyside> 
+        <tabular halign="left">
             <row>
                 <cell>Course Number:</cell>
                 <cell>MTH 261</cell>
@@ -26,7 +26,7 @@
                 <cell>50</cell>
             </row>
         </tabular>
-    </table>
+    </sidebyside>
 
     <p>Covers elementary linear algebra with a focus on <m>n</m>-space and applications. Includes linear systems, vectors in <m>n</m>-space, vector space properties of <m>n</m>-space, and matrix algebra, including eigenspaces. Required: Matrix-capable calculator. Recommended: TI-89 Titanium or Casio Classpad 330. Prerequisite: MTH 252. Audit available.</p>
 

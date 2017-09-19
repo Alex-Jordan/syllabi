@@ -5,11 +5,11 @@
 <section xml:id="section-sage" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Sage Examples</title>
 
-    <p>Here are some Sage cells where you can do certain things that you cannot do so easily with a graphing calculator. Throughout the term I will add Sage examples from class here.</p>
+    <p>Here are some Sage cells where you can do certain things that you can also do with a graphing calculator. Throughout the term I will add Sage examples from class here. During exams, you must know how to use your graphing calculator, but you may find it convenient to use Sage with homework assignments.</p>
 
     <paragraphs>
         <title>Solve a Linear System</title>
-        <p>Note the doulbe equals sign for making a comparison. Also note that multiplications must be explicit: <c>2*x</c>, not merely <c>2x</c>.</p>
+        <p>Note the double equals sign for making a comparison. Also note that multiplications must be explicit: <c>2*x</c>, not merely <c>2x</c>.</p>
         <sage>
             <input>
                 var('x y z')
@@ -20,11 +20,10 @@
 
     <paragraphs>
         <title>Row Reduce Matrices</title>
-        <p>First you must have a line that defines what kind of matrices you will work with. The <c>QQ</c> stands for the rational numbers, so these matrices will accept rational numbers as entries. You see <c>2</c> and <c>3</c> because we will make a <m>2\times3</m> matrix. The <c>echelon_form()</c> command gives reduced row echelon form.</p>
+        <p>The <c>QQ</c> stands for the rational numbers, so these matrices will accept rational numbers as entries. And the row reduction process will work in the usual way, where it is legal to do things like divide by an integer. The <c>echelon_form()</c> command gives reduced row echelon form.</p>
         <sage>
             <input>
-                M = MatrixSpace(QQ, 2, 3)
-                A = M([1, 2, 1, 4, 5, 4])
+                A = matrix(QQ,[[1, 2, 1], [4, 5, 4]])
                 A.echelon_form()
             </input>
         </sage>

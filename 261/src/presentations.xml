@@ -5,7 +5,7 @@
 <section xml:id="section-presentations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Presentations</title>
 
-    <p>You will be assigned two partners, and on the last week of the term (June 6 and June 8), each group will give a roughly 25-minute on one of the topics outlined below. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. To succeed with your presentation, you will:</p>
+    <p>You will be assigned two partners, and on the last week of the term (Aug 14 and Aug 16), each group will give a roughly 25-minute on one of the topics outlined below. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. To succeed with your presentation, you will:</p>
 
     <p><ul>
         <li>
@@ -40,37 +40,37 @@
     <list><title>Presentation Topics</title>
         <dl>
             <li>
-                <title>Graph Theory: Adjacency Matrices (Jason, Ali, Eric)</title>
-                <p>In graph theory, a <term>graph</term> is a collection of <m>n</m> vertices with some edges that may connect two vertices together. (This is not like the graph of a function.) A graph's <term>adjacency matrix</term> is a symmetric matrix that records which vertices are connected to which using <m>0</m>s and <m>1</m>s. Explain how the <m>k</m>th power of an adjacency matrix provides a count of how many ways there are to get from one vertex to another in <m>k</m> steps. Demonstrate how an eigenvector for the dominant eigenvalue determines which vertices are <q>the most connected</q>.</p>
+                <title>Graph Theory: Adjacency Matrices (Justin S, Satvir, Min Chan)</title>
+                <p><stale>In graph theory, a <term>graph</term> is a collection of <m>n</m> vertices with some edges that may connect two vertices together. (This is not like the graph of a function.) A graph's <term>adjacency matrix</term> is a symmetric matrix that records which vertices are connected to which using <m>0</m>s and <m>1</m>s. Explain how the <m>k</m>th power of an adjacency matrix provides a count of how many ways there are to get from one vertex to another in <m>k</m> steps. Demonstrate how an eigenvector for the dominant eigenvalue determines which vertices are <q>the most connected</q>.</stale></p>
             </li>
             <li>
-                <title>Statistics: Linear Regression (Yahye, Curtis, Michael S)</title>
-                <p>In statistics, we might record pairs of variables for many individuals, and we might believe that in general these variables have a linear relationship (in the sense of <m>y=mx+b</m>) . Explain how we can take a data set and interpret the hunt for <m>m</m> and <m>b</m> as a flawed attempt to solve an equation of the form <m>A\vec{c}=\vec{b}</m> for <m>\vec{c}</m>. Then explain how we can find a <q>least-squares</q> solution: a vector <m>\vec{c}</m> such that the distance between <m>A\vec{c}</m> and <m>\vec{b}</m> is as small as possible.</p>
+                <title>Statistics: Linear Regression (Austin, Nahele, Nick)</title>
+                <p><stale>In statistics, we might record pairs of variables for many individuals, and we might believe that in general these variables have a linear relationship (in the sense of <m>y=mx+b</m>) . Explain how we can take a data set and interpret the hunt for <m>m</m> and <m>b</m> as a flawed attempt to solve an equation of the form <m>A\vec{c}=\vec{b}</m> for <m>\vec{c}</m>. Then explain how we can find a <q>least-squares</q> solution: a vector <m>\vec{c}</m> such that the distance between <m>A\vec{c}</m> and <m>\vec{b}</m> is as small as possible.</stale></p>
             </li>
             <li>
-                <title>Computer Graphics: 3D Moving Objects on a 2D screen (Greg, Johnathan, Levi)</title>
-                <p>In simple computer graphing situations, a simple 3D object is represented on a 2D screen. Demonstrate how this is done. Start by reading section 2.7. You are interested in the sections on 3D graphics, but the first section will help you understand the rest better. Take an object in <m>\mathbb{R}^3</m> (a cube would be fine with its eight vertices). Create an interesting rotation matrix for action in <m>\mathbb{R}^3</m>, apply it to the object, and project both the original object and its rotated version on to a 2D screen using a center of projection. I recommend using GeoGebra software to demonstrate.</p>
+                <title>Computer Graphics: 3D Moving Objects on a 2D screen (Justin L, Adam)</title>
+                <p><stale>In simple computer graphing situations, a simple 3D object is represented on a 2D screen. Demonstrate how this is done. Start by reading section 2.7. You are interested in the sections on 3D graphics, but the first section will help you understand the rest better. Take an object in <m>\mathbb{R}^3</m> (a cube would be fine with its eight vertices). Create an interesting rotation matrix for action in <m>\mathbb{R}^3</m>, apply it to the object, and project both the original object and its rotated version on to a 2D screen using a center of projection. I recommend using GeoGebra software to demonstrate.</stale></p>
             </li>
             <li>
-                <title>Calculus: Fourier Series (Andrei, Noah, Andrew)</title>
-                <p>This topic allows you to prove that <m>\sum\limits_{n=1}^{\infty}\frac{1}{n^2}=\frac{\pi^2}{6}</m>.</p>
+                <title>Calculus: Fourier Series (Alex, Jeremy, Ian T)</title>
+                <p><stale>This topic allows you to prove that <m>\sum\limits_{n=1}^{\infty}\frac{1}{n^2}=\frac{\pi^2}{6}</m>.</stale></p>
 
-                <p>Let $I$ be the set of integrable functions on <m>[-\pi,\pi]</m>. Show that we can define an <term>inner product</term> on <m>I</m> according to <m>\langle f,g\rangle=\int_{-\pi}^{\pi}f(t)g(t)\,dt</m>. Convince the audience that the collection <me>S=\left\{\frac{1}{\sqrt{2\pi}},\frac{\sin(x)}{\sqrt{\pi}},\frac{\cos(x)}{\sqrt{\pi}},\frac{\sin(2x)}{\sqrt{\pi}},\frac{\cos(2x)}{\sqrt{\pi}},\ldots\right\}</me> is an <em>orthonormal</em> set.</p>
+                <p><stale>Let $I$ be the set of integrable functions on <m>[-\pi,\pi]</m>. Show that we can define an <term>inner product</term> on <m>I</m> according to <m>\langle f,g\rangle=\int_{-\pi}^{\pi}f(t)g(t)\,dt</m>. Convince the audience that the collection <me>S=\left\{\frac{1}{\sqrt{2\pi}},\frac{\sin(x)}{\sqrt{\pi}},\frac{\cos(x)}{\sqrt{\pi}},\frac{\sin(2x)}{\sqrt{\pi}},\frac{\cos(2x)}{\sqrt{\pi}},\ldots\right\}</me> is an <em>orthonormal</em> set.</stale></p>
 
-                <p>Find the projection of <m>f</m> onto <m>S</m>, where <m>f(x)=x^2</m> (restricted to <m>[-\pi,\pi]</m>. This projection, <m>\mathrm{proj}_{\mathrm{Span}(S)}(f)</m>, is known as the <term>Fourier series</term> for <m>f</m>. An advanced theorem tells us that <m>f=\mathrm{proj}_{\mathrm{Span}(S)}(f)</m> for input in <m>(-\pi,\pi)</m>. Evaluate both sides at <m>x=\pi/3</m> to get a famous and interesting equation.</p>
+                <p><stale>Find the projection of <m>f</m> onto <m>S</m>, where <m>f(x)=x^2</m> (restricted to <m>[-\pi,\pi]</m>. This projection, <m>\mathrm{proj}_{\mathrm{Span}(S)}(f)</m>, is known as the <term>Fourier series</term> for <m>f</m>. An advanced theorem tells us that <m>f=\mathrm{proj}_{\mathrm{Span}(S)}(f)</m> for input in <m>(-\pi,\pi)</m>. Evaluate both sides at <m>x=\pi/3</m> to get a famous and interesting equation.</stale></p>
             </li>
 
             <li>
-                <title>Cryptography: Encryption Key Matrices (Nick H, Ross, Courtney)</title>
-                <p>Invertible matrices can sometimes be used for encryption. A message (or part of a message) is converted into a vector, and the matrix transforms the vector into a new vector that is seemingly nonsense. Explain how this kind of encryption and the corresponding decryption works. You will need to explain a little bit about modular arithmetic (for example, mod <m>26</m>). You should recognize and explain that there are special conditions about which matrices may be used for this process.</p>
+                <title>Cryptography: Encryption Key Matrices  (Josh, Mike C.)</title>
+                <p><stale>Invertible matrices can sometimes be used for encryption. A message (or part of a message) is converted into a vector, and the matrix transforms the vector into a new vector that is seemingly nonsense. Explain how this kind of encryption and the corresponding decryption works. You will need to explain a little bit about modular arithmetic (for example, mod <m>26</m>). You should recognize and explain that there are special conditions about which matrices may be used for this process.</stale></p>
             </li>
             <li>
-                <title>Vector Calculus: The Second Derivative Test (Polina, Ian, Bretton)</title>
-                <p>If <m>f</m> is a function of two variables, the graph of <m>z = f(x,y)</m> is a surface in <m>\mathbb{R}^3</m>. In vector calculus, we learn that potential extrema of <m>f</m> happen at critcal points: <m>(x_0,y_0)</m> where <m>\nabla f(x_0,y_0) = \vec{0}</m>. We also learn a second derivative test for discerning whether a given critical point is a local maximum, local minimum, or saddle point for <m>f</m>. Present this second derivative test and explain why it works, using eigenvalues and a diagonalization of the Hessian matrix. (The second derivative test for two-variable functions can be found in Stewart’s Calculus book, in section 11.7.)</p>
+                <title>Vector Calculus: The Second Derivative Test (Elijah, Jae, Jared)</title>
+                <p><stale>If <m>f</m> is a function of two variables, the graph of <m>z = f(x,y)</m> is a surface in <m>\mathbb{R}^3</m>. In vector calculus, we learn that potential extrema of <m>f</m> happen at critcal points: <m>(x_0,y_0)</m> where <m>\nabla f(x_0,y_0) = \vec{0}</m>. We also learn a second derivative test for discerning whether a given critical point is a local maximum, local minimum, or saddle point for <m>f</m>. Present this second derivative test and explain why it works, using eigenvalues and a diagonalization of the Hessian matrix. (The second derivative test for two-variable functions can be found in Stewart’s Calculus book, in section 11.7.)</stale></p>
             </li>
             <li>
-                <title>Classifying all <m>2\times2</m> matrices (Jen, Chase, Nick S)</title>
-                <p>As we know, <m>2\times2</m> matrices provide linear transformations on the plane. Classify all <m>2\times2</m> matrices by what they do geometrically to the plane. Get started by considering what kinds of eigenvalues a matrix could have:<ul>
+                <title>Classifying all <m>2\times2</m> matrices (James W, Ross)</title>
+                <p><stale>As we know, <m>2\times2</m> matrices provide linear transformations on the plane. Classify all <m>2\times2</m> matrices by what they do geometrically to the plane. Get started by considering what kinds of eigenvalues a matrix could have:<ul>
                     <li>
                         <p>two distinct real</p>
                     </li>
@@ -80,23 +80,27 @@
                     <li>
                         <p>two complex conjugates (this may take the bulk of your explanation)</p>
                     </li>
-                </ul>For real eigenspaces, consider the possibilities for dimension. If eigenvalues are complex, choose one and find a complex eigenvector for it. Consider what the matrix does to the real and imaginary parts of that eigenvector (which are real vectors). You may need to learn some basics about complex numbers.</p>
+                </ul>For real eigenspaces, consider the possibilities for dimension. If eigenvalues are complex, choose one and find a complex eigenvector for it. Consider what the matrix does to the real and imaginary parts of that eigenvector (which are real vectors). You may need to learn some basics about complex numbers.</stale></p>
             </li>
             <li>
-                <title>Recursive Sequences: Fibonacci and Tribonacci (Bertrand, Michael A, Roger)</title>
-                <p>Explain how powers of the matrix <m>\begin{bmatrix}0\amp1\\1\amp1\end{bmatrix}</m> produce the Fibonacci sequence. (It’s not enough to just demonstrate some powers of this matrix <mdash /> you need to give explanation.) Use this matrix and diagonalization to find an explicit formula for <m>F_n</m>, the <m>n</m>th term of the Fibonacci sequence, and show how the formula can be used to quickly find very large Fibonacci numbers. Explain how the same method could be used to find formulas for other, similar sequences defined by recurrence relations. For example, the Tribonacci relation is that <m>T_{n+1} = T_n +T_{n−1} +T_{n−2}</m>, and the first terms in the sequence are <m>T_0 = 0</m>, <m>T_1 = 1</m>, and <m>T_2 = 1</m>.</p>
+                <title>Recursive Sequences: Fibonacci and Tribonacci (Erin, McKenzie, Jen)</title>
+                <p><stale>Explain how powers of the matrix <m>\begin{bmatrix}0\amp1\\1\amp1\end{bmatrix}</m> produce the Fibonacci sequence. (It’s not enough to just demonstrate some powers of this matrix <mdash /> you need to give explanation.) Use this matrix and diagonalization to find an explicit formula for <m>F_n</m>, the <m>n</m>th term of the Fibonacci sequence, and show how the formula can be used to quickly find very large Fibonacci numbers. Explain how the same method could be used to find formulas for other, similar sequences defined by recurrence relations. For example, the Tribonacci relation is that <m>T_{n+1} = T_n +T_{n−1} +T_{n−2}</m>, and the first terms in the sequence are <m>T_0 = 0</m>, <m>T_1 = 1</m>, and <m>T_2 = 1</m>.</stale>s</p>
             </li>
             <li>
-                <title>Quadric Curves (Steven C, Annabel, Max)</title>
-                <p>Explain how to take a generic quadratic equation in two variables <me>Ax^2+Bxy+Cy^2+Dx+Ey+F=0</me> and determine what it looks like. By using basic algebra and linear algebra (in particular, diagonalizability of symmetric matrices) you can identify the <q>center</q> of the curve, whether it is an ellipse, hyperbola, parabola, or something <q>degenerate</q>, what the orientation of primary axes is, and what the <q>eccentricity</q> is.</p>
+                <title>Quadric Curves (Laura, James H, Andrew)</title>
+                <p><stale>Explain how to take a generic quadratic equation in two variables <me>Ax^2+Bxy+Cy^2+Dx+Ey+F=0</me> and determine what it looks like. By using basic algebra and linear algebra (in particular, diagonalizability of symmetric matrices) you can identify the <q>center</q> of the curve, whether it is an ellipse, hyperbola, parabola, or something <q>degenerate</q>, what the orientation of primary axes is, and what the <q>eccentricity</q> is.</stale></p>
             </li>
             <li>
-                <title>Markov Chains (Stephen P, Wesam, Alex)</title>
-                <p>A Markov Chain captures the idea of a collection of values iterating in a regular way. Present what a Markov Chain is, what a stochastic matrix is, and what can be said about the eigenvalues of a stochastic matrix. Give several application examples.</p>
+                <title>Markov Chains (Mohammed, Marcus, Ryan)</title>
+                <p><stale>A Markov Chain captures the idea of a collection of values iterating in a regular way. Present what a Markov Chain is, what a stochastic matrix is, and what can be said about the eigenvalues of a stochastic matrix. Give several application examples.</stale></p>
             </li>
             <li>
-                <title>Linear Systems of Differential Equations (Jessica, Josh, Morgan)</title>
+                <title>Linear Systems of Differential Equations (Oleg, Khoa, Junboom)</title>
                 <p>A linear differential equation in <m>n</m> functions of time is an equation like <me>w_1'=a_1w_1+a_2w_2+\cdots+a_nw_n</me> where the <m>w_a</m> are functions of time, and the <m>a_i</m> are constant. Explain how linear algebra can be used to solve a system of linear differential equaions, focusing on systems of two equaions in two unknows. Explore the paths taken by solution curves where <m>x=w_1(t)</m> and <m>y=w_2(t)</m>. Explore how eigenvalues and eigenspaces affect these paths.</p>
+            </li>
+            <li>
+                <title>Sums of Powers (Suhwan, Gloria, Ian M)</title>
+                <p><stale>Discuss two bases for polynomials of degree <m>k</m> or less: <m>\{1,x,x^2,\ldots x^{k}\}</m> and <m>\left\{\binom{x}{0},\binom{x}{1},\binom{x}{2},\ldots,\binom{x}{k}\right\}</m>. Explain how a change of basis matrix makes it easy to come up with simple formulas for sums of powers like <m>1^2+2^2+3^2+\cdots+n^2</m>.</stale></p>
             </li>
         </dl>
     </list>

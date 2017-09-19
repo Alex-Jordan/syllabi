@@ -122,9 +122,11 @@ images:
 # problems living on a server, and image construction at server
 # our "webwork-tex" is a subdirectory of where the PDF is compiled
 # -s specifies an existing WW server to use (ignore security warnings)
-webwork-server-tex:
-	install -d $(PDFOUT)/webwork-tex
-	$(MB)/script/mbx -v -c webwork-tex -s $(SERVER) -d $(PDFOUT)/webwork-tex $(SRC)/syllabus.xml
+
+webwork-static-mbx:
+	install -d $(OUTPUT)
+	install -d $(OUTPUT)/webwork-static-mbx
+	$(MB)/script/mbx -v -c webwork -s $(SERVER) -d $(OUTPUT)/webwork-static-mbx $(SRC)/syllabus.xml
 
 # LaTeX for print
 # see prerequisite just above
@@ -134,7 +136,7 @@ latex:
 	install -d $(PDFOUT)
 	-rm $(PDFOUT)/*.tex
 	cd $(PDFOUT); \
-	xsltproc -xinclude --stringparam webwork.server.latex $(PDFOUT)/webwork-tex/ $(MBXSL)/mathbook-latex.xsl $(SRC)/syllabus.xml; \
+	xsltproc -xinclude --stringparam webwork.static.mbx $(OUTPUT)/webwork-static-mbx/ $(MBXSL)/mathbook-latex.xsl $(SRC)/syllabus.xml; \
 
 # PDF for print
 # see prerequisite just above
@@ -145,7 +147,7 @@ pdf:
 	cp -a $(DATA) $(PDFOUT)
 	-rm $(PDFOUT)/*.tex
 	cd $(PDFOUT); \
-	xsltproc -xinclude --stringparam latex.geometry 'margin=2cm' --stringparam webwork.server.latex $(PDFOUT)/webwork-tex/ $(MBXSL)/mathbook-latex.xsl $(SRC)/syllabus.xml; \
+	xsltproc -xinclude --stringparam latex.geometry 'margin=2cm' --stringparam webwork.static.mbx $(OUTPUT)/webwork-static-mbx/ $(MBXSL)/mathbook-latex.xsl $(SRC)/syllabus.xml; \
 	xelatex syllabus.tex; \
 	xelatex syllabus.tex
 
