@@ -5,32 +5,28 @@
 <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exams</title>
 
-    <p>Please see the <xref ref="section-calendar" autoname="title"/> for the exam dates.</p>
-    <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
+    <introduction>
+        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
+        <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
 
-    <p><dl>
+        <p><dl>
         <li xml:id="exam1">
-            <title>Exam 1 (12<percent/>)</title>
-            <p>Covers sections 1.1<ndash/>1.8 (and 1.8 supplement). (It corresponds to all homework that is due prior to the exam day.)</p>
-            <p>You'll have <m>50</m> minutes to take a practice exam. At the end of <m>50</m> minutes, the class will <q>grade</q> each other's work. Then there will be a break. Finally the real exam will begin with <m>60</m> minutes available.</p>
+            <title>Exam 1 (23<percent/>)</title>
+            <p>Covers sections 1.1<ndash/>1.7 and 2.1<ndash/>2.6. (It corresponds to all homework that is due prior to the exam day.)</p>
+            <p>You'll have the entire class period for this exam, if you need it.</p>
         </li>
         <li xml:id="exam2">
-            <title>Exam 2 (17<percent/>)</title>
-            <p>Covers sections 2.1<ndash />2.4. (It corresponds to all homework that is due prior to the exam day.) Additionally there may be some repeated questions from Exam 1.</p>
-            <p>You'll have <m>50</m> minutes to take a practice exam. At the end of <m>50</m> minutes, the class will <q>grade</q> each other's work. Then there will be a break. Finally the real exam will begin with <m>60</m> minutes available.</p>
+            <title>Exam 2 (23<percent/>)</title>
+            <p>Covers sections 2.7, 2.8, and 3.1<ndash />3.5. (It corresponds to all homework that is due prior to the exam day.) Additionally there will be some repeated questions from Exam 1. (So part of your study regimen should be reviewing your first exam.)</p>
+            <p>You'll have the entire class period for this exam, if you need it.</p>
         </li>
         <li xml:id="exam3">
-            <title>Exam 3 (17<percent/>)</title>
-            <p>Covers sections 2.5<ndash />2.7, 3.1, and 3.2. (It corresponds to all homework that is due prior to the exam day.) Additionally there may be some repeated questions from Exams 1 and 2.</p>
-            <p>Unlike the previous exams, <em>there is no practice exam</em> first. After a lecture/discussion, you will have the last <m>60</m> minutes of class for this exam.</p>
+            <title>Exam 3 (23<percent/>)</title>
+            <p>Covers sections 4.1<ndash />4.10. (It corresponds to all homework that is due prior to the exam day.) Additionally there will be some repeated questions from Exams 1 and 2. (So part of your study regimen should be reviewing your first and second exams.)</p>
+            <p>This exam is during finals week and is only two hours long.</p>
         </li>
-        <li xml:id="exam4">
-            <title>Exam 4 (25<percent/>)</title>
-            <p>Comprehensive final exam, including sections 3.3, 3.4 (and 3.4 supplement), 3.5 (and 3.5 supplement), and 3.6. There will be many repeated questions from Exams 1, 2, and 3.</p>
-            <p>You will have the entire 120 minutes of allotted final exam time (which goes from 8:00<ndash />10:00).</p>
-            <p>Unlike the previous exams, <em>there is no practice exam</em> first.</p>
-        </li>
-    </dl></p>
+        </dl></p>
+    </introduction>
 
 
     <subsection>

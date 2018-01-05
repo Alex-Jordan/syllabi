@@ -7,7 +7,7 @@
 
     <p>Taken from the official PCC course description:</p>
 
-    <table halign="left"> 
+    <sidebyside halign="left"> 
         <tabular>
             <row>
                 <cell>Course Number:</cell>
@@ -30,7 +30,7 @@
                 <cell>20</cell>
             </row>
         </tabular>
-    </table>
+    </sidebyside>
 
     <p>Introduces algebraic concepts and processes with a foucus on linear equations and inequalities in one and two variables. Emphasizes applications, graphs, formulas, and proper mathematical notation throughout the course. A scientific calculator may be required. The <url href="https://education.ti.com/en/products/calculators/scientific-calculators/ti-30x-iis">TI-30X II</url> is recommended. Prerequisites: MTH 20 and (RD 80 or ESOL 250). Recommended that MTH 20 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Audit available.</p>
 

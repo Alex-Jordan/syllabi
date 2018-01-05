@@ -5,11 +5,12 @@
 <section xml:id="section-webwork" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>WeBWorK Assignments</title>
 
-    <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth060-jordan-201701/">webwork.pcc.edu/webwork2/mth060-jordan-201701</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00 <init>p.m.</init> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date.  You may work from home or use PCC computer labs to turn in your answers.</p>
+    <introduction>
+        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth060-jordan-201704/">webwork.pcc.edu/webwork2/mth060-jordan-201704</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00 <init>p.m.</init> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.</p>
 
-    <p>Here is an example of what a <webwork/> problem is like.</p>
+        <p>Here is an example of what a <webwork/> problem is like.</p>
 
-    <exercise xml:id="webwork-demo">
+        <exercise xml:id="webwork-demo">
         <title>Multiply Powers</title>
 
         <webwork>
@@ -18,22 +19,6 @@
             </pg-macros>
 
             <setup>
-                <var name="$a">
-                    <static>4</static>
-                </var>
-                <var name="$b">
-                    <static>3</static>
-                </var>
-                <var name="$c">
-                    <static>7</static>
-                </var>
-                <var name="$expression">
-                    <static>x^4\cdot x^3</static>
-                </var>
-                <var name="$answer" category="formula">
-                    <static>x^7</static>
-                </var>
-
                 <pg-code>
                     $a = 4;
                     $b = 3;
@@ -66,7 +51,8 @@
                 </md>
             </solution>
         </webwork>
-    </exercise>
+        </exercise>
+    </introduction>
 
 
     <subsection>
@@ -85,7 +71,7 @@
             </li>
             <li>
                 <title>Quality Feedback</title>
-                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref autoname="yes" ref="webwork-demo"/>.</p>
+                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.</p>
             </li>
             <li>
                 <title>Ease of Communication</title>

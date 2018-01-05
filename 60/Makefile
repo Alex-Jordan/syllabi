@@ -105,7 +105,6 @@ html:
 	cd $(HTMLOUT); \
 	xsltproc -xinclude --stringparam webwork.server $(SERVER) --stringparam html.knowl.exercise.inline no $(PRJXSL)/syllabus-html.xsl $(SRC)/syllabus.xml
 	cd $(HTMLOUT)/knowl; \
-	perl -pi -e 's/outputformat=simple/outputformat=noanswer/g' *.html;
 
 # make all the image files, in all formats
 # To more surgically create a subset of the image files, use mbx 
