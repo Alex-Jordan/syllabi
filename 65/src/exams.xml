@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exams</title>
+
+    <introduction>
+        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
+        <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
+
+        <p><dl>
+        <li xml:id="exam1">
+            <title>Exam 1 (23<percent/>)</title>
+            <p>Covers sections 5.1<ndash/>6.4. (It corresponds to all homework that is due prior to the exam day.)</p>
+            <p>You'll have the entire class period for this exam, if you need it.</p>
+        </li>
+        <li xml:id="exam2">
+            <title>Exam 2 (23<percent/>)</title>
+            <p>Covers sections 6.5<ndash />7.6. (It corresponds to all homework that is due prior to the exam day.) Additionally there will be some repeated questions from Exam 1. (So part of your study regimen should be reviewing your first exam.)</p>
+            <p>You'll have the entire class period for this exam, if you need it.</p>
+        </li>
+        <li xml:id="exam3">
+            <title>Exam 3 (23<percent/>)</title>
+            <p>Covers sections 8.1<ndash />9.3. (It corresponds to all homework that is due prior to the exam day.) Additionally there will be some repeated questions from Exams 1 and 2. (So part of your study regimen should be reviewing your first and second exams.)</p>
+            <p>This exam is during finals week and is only two hours long.</p>
+        </li>
+        </dl></p>
+    </introduction>
+
+
+    <subsection>
+        <title>Missing an Exam</title>
+        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make it up within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p> 
+        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
+    </subsection>
+
+    <subsection>
+        <title>Accommodated Testing</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
+    </subsection>
+
+</section>

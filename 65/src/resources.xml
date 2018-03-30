@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Student Resources</title>
+
+    <introduction>
+        <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+    </introduction>
+
+    <subsection>
+        <title>Tutoring</title>
+        <p>The Tutoring Center at Sylvania offers free tutoring in math.  You should find some time to check it out, if you haven't already. Details can be found at <url href="http://www.pcc.edu/resources/tutoring/sylvania/">www.pcc.edu/resources/tutoring/sylvania</url>.</p>
+        <p>As a PCC student, you have access to free online tutoring as well. Visit <url href="http://www.pcc.edu/resources/tutoring/sylvania/student-success/math-center/">www.pcc.edu/resources/tutoring/sylvania/student-success/math-center</url> for details.</p>
+    </subsection>
+
+    <subsection>
+        <title>Calculator Handbooks</title>
+        <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
+    </subsection>
+
+    <subsection>
+        <title>College Success Courses</title>
+        <p>There are several one credit courses available to help you maximize your success in the college experience.  These include courses specifically geared to study skills.  The following site offers information on these courses as well as tips for success: <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.</p>
+    </subsection>
+
+    <subsection>
+        <title>Math Study Skills</title>
+        <p>PCC instructor Jessica Bernards co-authored these free lessons on study skills that help people succeed in math courses. <url href="http://spot.pcc.edu/mathstudyskills/">spot.pcc.edu/mathstudyskills</url></p>
+    </subsection>
+
+    <subsection>
+        <title>Online Videos</title>
+        <p>At the Khan Academy (<url href="http://www.khanacademy.org">www.khanacademy.org</url>)  you  can  find  thousands  of  10-  to  30-minute videos on various mathematics topics. See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.</p>
+        <p>Khan Academy is just one such site. See what else you can find online searching for math videos. If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.</p>
+    </subsection>
+
+    <subsection>
+        <title>Counseling Services</title>
+        <p>(SY CC 210, 971–722–8153)</p>
+        <p>Get help dealing with personal or career concerns that may be impacting your academic success.  Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.</p>
+        <p><url href="http://www.pcc.edu/resources/counseling/">www.pcc.edu/resources/counseling</url>.</p>
+    </subsection>
+
+    <subsection>
+        <title>Multicultural Center</title>
+        <p>(SY CC 267, 971–722–4112)</p>
+        <p>A welcoming and inclusive space for diverse students.  One of the many services is one-on-one help for math courses, drop-in or by appointment:</p>
+        <p><url href="http://www.pcc.edu/resources/culture/">www.pcc.edu/resources/culture</url></p>
+    </subsection>
+
+    <subsection>
+        <title>Queer Resource Center</title>
+        <p>A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:</p>
+        <p><url href="http://www.pcc.edu/resources/qrc/sylvania/">www.pcc.edu/resources/qrc/sylvania</url></p>
+    </subsection>
+
+    <subsection>
+        <title>Student Computing Center</title>
+        <p>(SY Library, 971–722–4325)</p>
+        <p>internet access, mathematics computer programs, and more (orientation required)</p>
+        <p><url href="http://www.pcc.edu/resources/computer-labs/">www.pcc.edu/resources/computer-labs/</url></p>
+        <p>allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term)</p>
+        <p><url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url></p>
+    </subsection>
+
+    <subsection>
+        <title>Student Learning Center</title>
+        <p>(SY Library, 971–722–4540)</p>
+        <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
+        <p><url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url></p>
+    </subsection>
+
+    <subsection>
+        <title>Veteran's Resource Center</title>
+        <p>(SY CC 220, 971–722–8793)</p>
+        <p>Relax, connect, computer workstations, work study and volunteer opportunities, and more.  For additional information:</p>
+        <p><url href="http://www.pcc.edu/resources/veterans/sylvania">http://www.pcc.edu/resources/veterans/sylvania</url></p>
+    </subsection>
+
+    <subsection>
+        <title>Women's Resource Center</title>
+        <p>(SY CC 268, 971–722–8101)</p>
+        <p>A wide variety of services that support the academic achievement of women:</p>
+        <p><url href="http://www.pcc.edu/resources/women/sylvania">www.pcc.edu/resources/women/sylvania</url></p>
+    </subsection>
+
+
+
+</section>

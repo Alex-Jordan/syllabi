@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Textbook</title>
+
+	<p>We are trying out a new <em>free</em> textbook written by PCC faculty. The book is called <booktitle>ORCCA (Open Resources for Community College Algebra)</booktitle>. We're excited to replace a roughly <m>\$117</m> book with this free book and save you a significant amount of money. This is the first time any MTH 65 section is using this book (along with seven other sections at PCC), and we will be asking you for your thoughts and feedback about it. We will work to make it better every term from here on out, so that future students have a free, excellent basic algebra textbook.</p>
+
+	<p>If you find any issues with this book where you think we could make it better, please let me know about each one.</p>
+
+	<p>You can access this book as a web page at <url href="http://spot.pcc.edu/math/orcca/orcca.html">spot.pcc.edu/math/orcca/orcca.html</url>. You can download a printable version of it at <url href="http://spot.pcc.edu/~ajordan/orcca.pdf">spot.pcc.edu/~ajordan/orcca.pdf</url>. You can purchase a printed copy for <m>\$12.00</m> plus shipping at <url href="https://www.amazon.com/gp/product/1981806059/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1981806059&amp;linkCode=as2&amp;tag=pccmath-20&amp;linkId=11ddf51b06356df2ec82dfceb155b890">Amazon</url>.</p>
+
+</section>

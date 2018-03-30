@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Downloads</title>
+
+    <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
+
+     <subsection>
+        <title>In-class Notes</title>
+        <p>These note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <p><ul>
+            <li>
+                <p><url href="./notes/Notes5_1Jan9.pdf">Section 5.1</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes5_1,5_2Jan11.pdf">Sections 5.1, 5.2</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes5_3,6_1,6_2Jan23.pdf">Sections 5.3, 6.1, 6.2</url></p>
+            </li>
+        </ul></p>
+    </subsection>
+    <subsection>
+        <title>In-Class Activity Worksheets</title>
+         <p><ul>
+            <li>
+                <p><url href="./activities/GraphingLinesReview.pdf">Review of Graphing Lines</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/SolvingSystemGraphically.pdf">Solving a Linear System Graphically</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/MotivatingLinearSystems.pdf">Motivating Linear Systems</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/Substitution.pdf">Substitution</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/SubstitutionApplications.pdf">Applications with Substitution</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/PolynomialBasics.pdf">Polynomial Basics</url></p>
+            </li>
+        </ul></p>
+    </subsection>
+
+</section>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+   
+<section xml:id="section-prerequisite-review" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Prerequisite Review</title>
+
+    <p>These exercises cover topics from MTH 20. These are prerequisite skills to succeed in this class. If you have trouble completing any of these exercises, you should make time as soon as possible to review this material with your instructor or with a tutor.</p> 
+
+    <exercise>
+        <title>Find slope-intercept form</title>
+        <webwork>
+            <setup>
+                <pg-code>
+                    Context()->operators->set(
+                    '+'=>{class=>'bizarro::BOP::add',isCommand=>1},
+                    '-'=>{class=>'bizarro::BOP::subtract',isCommand=>1},
+                    );
+                    parser::Assignment->Allow;
+                    Context()->variables->add(y=>'Real');
+                    $eq=Formula("y=-40x+30");
+                    $ev=$eq->cmp(checker=>sub{
+                    my($co,$st,$aH)=@_;
+                    return 0 if$aH->{isPreview}||$co!=$st;
+                    $st=$aH->{student_formula};
+                    $co=$co->{original_formula} if defined $co->{original_formula};
+                    $st=Formula("$st");$co=Formula("$co");
+                    return 0 unless($co==$st);
+                    Context()->flags->set(bizarroAdd=>1,bizarroSub=>1);
+                    delete $co->{test_values},$st->{test_values};
+                    Value->Error("Your answer is an equation for this line, but it is not in simplified slope-intercept form")unless(($co==$st)or($st==$co));
+                    Context()->flags->set(bizarroAdd=>0,bizarroSub=>0);
+                    return 1;
+                    })->withPostFilter(sub{my$ans=shift; 
+                    $ans->{ans_message}="An equation for a line in slope-intercept form should start with 'y='" 
+                    if $ans->{ans_message} eq "The left side of an assignment must be a variable or function";
+                    return $ans; 
+                    });
+                </pg-code>
+            </setup>
+            <statement>
+                <p>Find the slope-intercept form of the equation of the line that passes through the points <m>(-3,150)</m> and <m>(0,30)</m>.</p>
+                <p><var name="$eq" evaluator="$ev" width="10" /></p>
+            </statement>
+        </webwork>
+    </exercise>
+    <exercise>
+        <title>Order of Operations</title>
+        <webwork>
+            <setup>
+                <var name="$step[0]">
+                    <static>5-3(3)^2</static>
+                </var>
+                <var name="$step[1]">
+                    <static>5-3(9)</static>
+                </var>
+                <var name="$step[2]">
+                    <static>5-27</static>
+                </var>
+                <var name="$step[3]">
+                    <static>-22</static>
+                </var>
+                <pg-code>
+                    Context()->operators->set(
+                        '+' => {class => 'bizarro::BOP::add', isCommand => 1},
+                        '-' => {class => 'bizarro::BOP::subtract', isCommand => 1},
+                        '*' => {class => 'bizarro::BOP::multiply', isCommand => 1},
+                        ' *' => {class => 'bizarro::BOP::multiply', isCommand => 1},
+                        '* ' => {class => 'bizarro::BOP::multiply', isCommand => 1},
+                        '/' => {class => 'bizarro::BOP::divide', isCommand => 1},
+                        ' /' => {class => 'bizarro::BOP::divide', isCommand => 1},
+                        '/ ' => {class => 'bizarro::BOP::divide', isCommand => 1},
+                        '//' => {class => 'bizarro::BOP::divide', isCommand => 1},
+                        '**' => {class => 'bizarro::BOP::power', isCommand => 1, perl=>undef},
+                        '^' => {class => 'bizarro::BOP::power', isCommand => 1, perl=>undef},
+                    );
+                    Context()->flags->set(reduceConstants=>0,reduceConstantFunctions=>0);
+                    $step[0]=Formula("5-3(3)^2");
+                    $step[1]=Formula("5-3(9)");
+                    $step[2]=Formula("5-27");
+                    $msg = "Just apply one step at a time from the order of operations";
+                    $ev[0]=$step[0]->cmp(checker=>sub{
+                        my ( $correct, $student, $ansHash ) = @_;
+                        return 0 if $ansHash->{isPreview} || $correct != $student;
+                        $student = $ansHash->{student_formula};
+                        $correct = $correct->{original_formula} if defined $correct->{original_formula};
+                        $student = Formula("$student"); $correct = Formula("$correct");
+                        return 0 unless ($correct == $student);
+                        Context()->flags->set(bizarroSub=>1,bizarroPow=>1);
+                        delete $correct->{test_values}, $student->{test_values};
+                        my $OK = (($correct == $student) or ($student == $correct));
+                        Context()->flags->set(bizarroSub=>0,bizarroPow=>0);
+                        Value::Error("$msg") unless $OK;
+                        return $OK;
+                    });
+                    $ev[1]=$step[1]->cmp(checker=>sub{
+                        my ( $correct, $student, $ansHash ) = @_;
+                        return 0 if $ansHash->{isPreview} || $correct != $student;
+                        $student = $ansHash->{student_formula};
+                        $correct = $correct->{original_formula} if defined $correct->{original_formula};
+                        $student = Formula("$student"); $correct = Formula("$correct");
+                        return 0 unless ($correct == $student);
+                        Context()->flags->set(bizarroMul=>1,bizarroPow=>1);
+                        delete $correct->{test_values}, $student->{test_values};
+                        my $OK = (($correct == $student) or ($student == $correct));
+                        Context()->flags->set(bizarroMul=>0,bizarroPow=>0);
+                        Value::Error("$msg") unless $OK;
+                        return $OK;
+                    });
+                    $ev[2]=$step[2]->cmp(checker=>sub{
+                        my ( $correct, $student, $ansHash ) = @_;
+                        return 0 if $ansHash->{isPreview} || $correct != $student;
+                        $student = $ansHash->{student_formula};
+                        $correct = $correct->{original_formula} if defined $correct->{original_formula};
+                        $student = Formula("$student"); $correct = Formula("$correct");
+                        return 0 unless ($correct == $student);
+                        Context()->flags->set(bizarroMul=>1,bizarroSub=>1);
+                        delete $correct->{test_values}, $student->{test_values};
+                        my $OK = (($correct == $student) or ($student == $correct));
+                        Context()->flags->set(bizarroMul=>0,bizarroSub=>0);
+                        Value::Error("$msg") unless $OK;
+                        return $OK;
+                    });
+                    Context("LimitedNumeric");
+                    $step[3]=Formula("-22");
+                </pg-code>
+            </setup>
+            <statement>
+                <p>Simplify this expression one step at a time, using the order of operations.</p>
+                <p><m>5-3(7-4)^2</m></p>
+                <p><m>={}</m><var name="$step[0]" evaluator="$ev[0]" width="15" /></p>
+                <p><m>={}</m><var name="$step[1]" evaluator="$ev[1]" width="15" /></p>
+                <p><m>={}</m><var name="$step[2]" evaluator="$ev[2]" width="15" /></p>
+                <p><m>={}</m><var name="$step[3]" width="15" /></p>
+            </statement>
+        </webwork>
+    </exercise>
+
+    <exercise>
+        <title>Solving a Linear Equation</title>
+        <webwork source="BasicAlgebra/SolveLinearEquations/solveLinearEqnMultiSteps40.pg" />
+    </exercise>
+
+    <exercise>
+        <title>Multiplying and dividing fractions</title>
+        <webwork>
+            <setup>
+                <pg-code>
+                    Context("LimitedProperFraction");
+                    Context()->flags->set(requireProperFractions=>0);
+                    $a=Fraction(26,45);
+                    $b=Fraction(2,7);
+                    $c=Fraction(5,6);
+                    $d=Fraction(-12,1);
+                </pg-code>
+            </setup>
+            <statement>
+                <p><ol label="a">
+                    <li>
+                        <p><m>\frac{13}{5}\cdot\frac{2}{9}=</m><var name="$a" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>\left(\frac{1}{2}\right)\left(\frac{4}{7}\right)=</m><var name="$b" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>\frac{2}{3}\div\frac{4}{5}=</m><var name="$c" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>\frac{8}{3}\div-\frac{2}{9}=</m><var name="$d" width="10" /></p>
+                    </li>
+                </ol></p>
+            </statement>
+        </webwork>
+    </exercise>
+    <exercise>
+        <title>Percentages</title>
+        <webwork>
+            <statement>
+                <p><ol label="a">
+                    <li>
+                        <p><m>30\%</m> of <m>80</m> is <var name="24" width="10" />.</p>
+                    </li>
+                    <li>
+                        <p><var name="25" width="10" /><m>\%</m> of <m>24</m> is <m>6</m>.</p>
+                    </li>
+                    <li>
+                        <p><m>75\%</m> of <var name="24" width="10" /> is <m>18</m>.</p>
+                    </li>
+                </ol></p>
+            </statement>
+        </webwork>
+    </exercise>
+    <exercise>
+        <title>Contextual calculation</title>
+        <webwork>
+            <pg-macros>
+                <macro-file>contextCurrency.pl</macro-file>
+            </pg-macros>
+            <setup>
+                <pg-code>
+                    Context("Currency");
+                    $a=Currency(900+125*60);
+                </pg-code>
+            </setup>
+            <statement>
+                <p>If a car can be purchased for <m>\$900</m> down and <m>\$125</m> a month for <m>60</m> months, what will be the actual amount paid?</p>
+                <p>The actual amount paid will be <var name="$a" width="10" />.</p>
+            </statement>
+        </webwork>
+    </exercise>
+    <exercise>
+        <title>Contextual calculation</title>
+        <webwork>
+            <pg-macros>
+                <macro-file>contextCurrency.pl</macro-file>
+            </pg-macros>
+            <setup>
+                <pg-code>
+                    Context("Currency");
+                    $a=Currency(39*.6);
+                </pg-code>
+            </setup>
+            <statement>
+                <p>If a sweater is on sale <m>40\%</m> off the original price <m>\$39</m>, what will be the sale price?</p>
+                <p>The sale price will be <var name="$a" width="10" />.</p>
+            </statement>
+        </webwork>
+    </exercise>
+    <exercise>
+        <title>Negative integers</title>
+        <webwork>
+            <statement>
+                <p><ol label="a">
+                    <li>
+                        <p><m>4-(-2)=</m><var name="6" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>15(-3)=</m><var name="-45" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>\frac{-35}{-7}=</m><var name="5" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>-9+(-3)=</m><var name="-12" width="10" /></p>
+                    </li>
+                </ol></p>
+            </statement>
+        </webwork>
+    </exercise>
+    <exercise>
+        <title>Whole number exponents</title>
+        <webwork>
+            <statement>
+                <p><ol label="a">
+                    <li>
+                        <p><m>2^3=</m><var name="8" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>(-3)^2=</m><var name="9" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>-2\cdot3^2=</m><var name="-18" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>-3^2=</m><var name="-9" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>-1\cdot3^2=</m><var name="-9" width="10" /></p>
+                    </li>
+                    <li>
+                        <p><m>-1\cdot3\cdot3=</m><var name="-9" width="10" /></p>
+                    </li>
+                </ol></p>
+            </statement>
+        </webwork>
+    </exercise>
+</section>
