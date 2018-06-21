@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Downloads</title>
+    <subsection>
+        <title>In-class Notes</title>
+        <p>These note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <p><ul>
+            <li>
+                <p><url href="./notes/Notes10_1Apr3.pdf">Section 10.1</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_2,10_3Apr5.pdf">Sections 10.2 and 10.3</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_4,10_5Apr10.pdf">Sections 10.4 and 10.5</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_5,11_1Apr12.pdf">Sections 10.5 and 11.1</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes11_2Apr17.pdf">Section 11.2</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes11_3Apr19.pdf">Section 11.3</url></p>
+            </li>
+            <li>
+                <p>substitute covered Section 12.1</p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_2May3.pdf">Section 12.2</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_3,12_4May8.pdf">Sections 12.3 and 12.4</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes13_1,13_2May10.pdf">Sections 13.1 and 13.2</url></p>
+            </li>
+        </ul></p>
+    </subsection>
+    <subsection>
+        <title>In-Class Activity Worksheets</title>
+        <p>Here are some files associated with this course. This list may grow as the term progresses.</p>
+        <p><ul>
+            <li>
+                <p><url href="./activities/IntroToFunctions.pdf">Introduction to Functions</url> (<url href="./activities/IntroToFunctionsWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/DomainAndRange.pdf">Domain and Range</url> (<url href="./activities/DomainAndRangeWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/GraphingTechnologyUses.pdf">Uses for Graphing Technology</url> (<url href="./activities/GraphingTechnologyUsesWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/TechnicalDefinitionOfAFunction.pdf">Technical Definition of a Function</url> (<url href="./activities/TechnicalDefinitionOfAFunctionWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/AbsoluteValueFunctions.pdf">Absolute Value Function</url> (<url href="./activities/AbsoluteValueFunctionsWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/CompoundInequalities.pdf">Compound Inequalities</url> (<url href="./activities/CompoundInequalitiesWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/VertexForm.pdf">Vertex Form</url> (<url href="./activities/VertexFormWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/CompletingTheSquare.pdf">Completing the Square</url> (<url href="./activities/CompletingTheSquareWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/RationalFunctions.pdf">Rational Functions</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/PracticeExam2.pdf">Practice Exam 2</url></p>
+            </li>
+        </ul></p>
+    </subsection>
+
+</section>

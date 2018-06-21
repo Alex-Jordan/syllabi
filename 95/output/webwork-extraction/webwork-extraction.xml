@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<webwork-extraction>
+  <webwork-reps xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <pg source="BasicAlgebra/Exponents/negExp155.pg" />
+
+      
+    <static source="BasicAlgebra/Exponents/negExp155.pg" seed="1">
+      <statement>
+      <p>Rewrite the expression simplified and using only positive exponents.</p>
+      <p><m>\left(x^{-5}t^{14}\right)^{-5}=</m><fillin name="AnSwEr0001" characters="12" /></p>
+      </statement>
+      
+      <solution>
+      <p>We use the properties of exponents to help us here, remembering that <m>\displaystyle{\frac{a^m}{a^n} = a^{m-n}}</m> and <m>\left(a^m\right)^{n}=a^{mn}</m></p>
+      <p><m>\begin{aligned}
+                       \left(x^{-5}t^{14}\right)^{-5}
+                            \amp = x^{(-5)\cdot(-5)}t^{14\cdot(-5)}\\
+                            \amp = x^{25}t^{-70}\\
+                                          \amp  = {\frac{x^{25}}{t^{70}}}
+                 \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" />
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" seed="10">
+      <statement>
+      <p>Evaluate this expression:</p>
+      <p><m>\displaystyle{ \left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)-5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)=  }</m>  <fillin name="AnSwEr0001" characters="8" /></p>
+      </statement>
+      
+      <solution>
+      <p>You might need to go back to previous units to review how to add fractions.</p>
+      <p><m>\begin{aligned}
+       \left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)-5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right) \amp  = {0} -5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)  \\
+      \amp  = {0} -5\left({0}\right)  \\
+      \amp  = {0} -\left({0}\right)  \\
+      \amp  = {0} 
+      \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <pg source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" />
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" seed="11">
+      <statement>
+      <p>Add these two fractions: <m>\displaystyle{-\frac{1}{9} + \frac{2}{45}}</m></p>
+      <p><fillin name="AnSwEr0001" characters="11" /></p>
+      </statement>
+      
+      <solution>
+      <p>To add two fractions with different denominators, we first have to find a common denominator.</p>
+      <p>In this case, the least common multiple of <m>9</m> and <m>45</m> is <m>45</m>.</p>
+      <p>Look at the first fraction <m>\displaystyle{-\frac{1}{9}}</m>. To change the denominator to <m>45</m>, we multiply <m>5</m> at both the top and bottom, and we have:</p>
+      <p><m>\displaystyle{ \begin{aligned}-\frac{1}{9} \amp = -\frac{1 \cdot 5}{9 \cdot 5}\\ \amp = -\frac{5}{45} \end{aligned}}</m></p>
+      <p>The second fraction already has the common denominator.</p>
+      <p>Finally, we can do the addition. The full process is:</p>
+      <p><m>\displaystyle{\begin{aligned}
+         -\frac{1}{9} + \frac{2}{45}
+              \amp = -\frac{5}{45} + \frac{2}{45} \\
+              \amp = \frac{-5 + 2}{45} \\
+              \amp = \frac{-3}{45} \amp \hbox{We can reduce this by dividing 3 into both the numerator and the denominator.
+      }\\
+              \amp = -\frac{1}{15}
+      \end{aligned}
+          }</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <pg source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" />
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" seed="12">
+      <statement>
+      <p>Subtract one fraction from the other: <m>\displaystyle{-\frac{2}{7}-\frac{4}{35}}</m></p>
+      <p><fillin name="AnSwEr0001" characters="7" /></p>
+      </statement>
+      
+      <solution>
+      <p>To add or subtract two fractions with different denominators, we first have to find the common denominator.</p>
+      <p>In this case, the least common multiple of <m>7</m> and <m>35</m> is <m>35</m>.</p>
+      <p>Look at the first fraction <m>\displaystyle{-\frac{2}{7}}</m>. To change the denominator to <m>35</m>, we multiply <m>5</m> at both the top and bottom, and we have:</p>
+      <p><m>\displaystyle{ \begin{aligned}-\frac{2}{7} \amp = -\frac{2 \cdot 5}{7 \cdot 5}\\ \amp = -\frac{10}{35} \end{aligned}}</m></p>
+      <p>Since the second fraction<rsq />s denominator is the same as the common denominator, there is no need to make changes to the second fraction.</p>
+      <p>Finally, we add or subtract the numerators and keep the common denominator unchanged. The whole process is:</p>
+      <p><m>\displaystyle{\begin{aligned}
+         -\frac{2}{7}-\frac{4}{35} \amp = -\frac{10}{35}-\frac{4}{35} \\
+         \amp = \frac{-10+(-4)}{35} \\
+         \amp = -\frac{14}{35} \amp  \hbox{We can divide both the numerator and denominator by 7 to reduce this.
+      }\\
+         \amp = -\frac{2}{5}
+      \end{aligned}
+          }</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <pg source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" />
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" seed="13">
+      <statement>
+      <p>Evaluate this expression:</p>
+      <p><m>\displaystyle{{{\frac{3}{4}}} + {{\frac{1}{4}}} \div {{\frac{4}{3}}} - {{\frac{3}{5}}}=}</m><fillin name="AnSwEr0001" characters="5" /></p>
+      </statement>
+      
+      <solution>
+      <p>We must follow the order of operations when simplifying this expression. Begin by doing the division.</p>
+      <p><m>\displaystyle{\begin{aligned}[t]
+      {{\frac{3}{4}}} + {{\frac{1}{4}}} \div {{\frac{4}{3}}} - {{\frac{3}{5}}}\amp ={{\frac{3}{4}}} + {{\frac{1}{4}}} \cdot {{\frac{3}{4}}} - {{\frac{3}{5}}}\\
+      \amp ={{\frac{3}{4}}}+{{\frac{3}{16}}}-{{\frac{3}{5}}}\\ 
+       \amp = \frac{60}{80} + \frac{15}{80} - \frac{48}{80} \\
+         \amp = \frac{27}{80}
+      \end{aligned}
+      }</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" />
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" seed="14">
+      <statement>
+      <p>Evaluate this expression:</p>
+      <p><m>\displaystyle{ {2}+6\cdot{{\frac{1}{3}}}=  }</m>  <fillin name="AnSwEr0001" characters="8" /></p>
+      </statement>
+      
+      <solution>
+      <p>According to the order of operations, the multiplication has higher priority than the addition.</p>
+      <p>You might need to go back to previous units to review how to add fractions.</p>
+      <p><m>\begin{aligned}[t]
+       {2}+6\cdot{{\frac{1}{3}}} \amp  = {2} + {2}  \\
+      \amp  = {4} 
+      \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" />
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" seed="15">
+      <statement>
+      <p>Evaluate this expression:</p>
+      <p><m>\displaystyle{ \left({{\frac{7}{10}}}-{{\frac{3}{20}}}\right)-4\left({{\frac{3}{20}}}-{{\frac{7}{10}}}\right)=  }</m>  <fillin name="AnSwEr0001" characters="8" /></p>
+      </statement>
+      
+      <solution>
+      <p>You might need to go back to previous units to review how to add fractions.</p>
+      <p><m>\begin{aligned}
+       \left({{\frac{7}{10}}}-{{\frac{3}{20}}}\right)-4\left({{\frac{3}{20}}}-{{\frac{7}{10}}}\right) \amp  = {{\frac{11}{20}}} -4\left({{\frac{3}{20}}}-{{\frac{7}{10}}}\right)  \\
+      \amp  = {{\frac{11}{20}}} -4\left({-{\frac{11}{20}}}\right)  \\
+      \amp  = {{\frac{11}{20}}} -\left({-{\frac{11}{5}}}\right)  \\
+      \amp  = {{\frac{11}{4}}} 
+      \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <pg source="BasicAlgebra/Factoring/factoring180.pg" />
+
+      
+    <static source="BasicAlgebra/Factoring/factoring180.pg" seed="16">
+      <statement>
+      <p>Factor the given polynomial</p>
+      <p><m>{t^{2}-11t+30}=</m> <fillin name="AnSwEr0001" characters="19" /></p>
+      </statement>
+      
+      <solution>
+      <p><p>We will factor <m>t^{2}-11t+30</m> where <m>a=1</m>, <m>b=-11</m>, and <m>c=30</m>.</p>
+      <p><em>Mental Method: </em>When we factor a polynomial in the form of <m>x^2+bx+c</m>, <m>x^2+bxy+cy^2</m>, or <m>x^2y^2+bxy+c</m> we can use mental math to factor. We need to find two numbers whose product is <m>c</m>, and whose sum is <m>b</m>.</p>
+      <p>For <m>t^{2}-11t+30</m>, since the product of <m>-6</m> and <m>-5</m> is <m>30</m>, and the sum of <m>-6</m> and <m>-5</m> is <m>-11</m>, the factorization is <me>t^{2}-11t+30=\left(t-6\right)\!\left(t-5\right)</me></p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(1) \cdot (30) = 30</m>.</p>
+      <p>The number <m>30</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(30)\amp -1(-30)\amp 2(15)\amp -2(-15)\newline3(10)\amp -3(-10)\amp 5(6)\amp -5(-6)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>-11</m>, and this sum happens with <m>(-5)+(-6)=-11</m> So we write <me>\begin{aligned}[t]t^{2}-11t+30\amp =t^{2}-5t-6t+30\newline \amp =t\!\left(t-5\right)-6\!\left(t-5\right)\newline \amp =\left(t-6\right)\!\left(t-5\right)\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>t^{2}-11t+30</m> into the top left and bottom right rectangles:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-16-image-1.png" />
+      </sidebyside>
+      <p><p>The first term's coefficient, <m>1</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(1)\amp \end{array}</me></p>
+      <p>The third term, <m>30</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(30)\amp -1(-30)\amp 2(15)\amp -2(-15)\newline3(10)\amp -3(-10)\amp 5(6)\amp -5(-6)\newline\end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>t^{2}-11t+30</m> by guess-and-check. The following generic rectangles show the solution:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-16-image-2.png" />
+      </sidebyside>
+      <p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]t^{2}-11t+30\amp =\left(t-6\right)\!\left(t-5\right)\end{aligned}</me></p></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <pg source="BasicAlgebra/Factoring/factoring185.pg" />
+
+      
+    <static source="BasicAlgebra/Factoring/factoring185.pg" seed="17">
+      <statement>
+      <p>Factor the given polynomial</p>
+      <p><m>{3t^{2}+28t+9}=</m> <fillin name="AnSwEr0001" characters="19" /></p>
+      </statement>
+      
+      <solution>
+      <p><p>We will factor <m>3t^{2}+28t+9</m> where <m>a=3</m>, <m>b=28</m>, and <m>c=9</m>.</p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(3) \cdot (9) = 27</m>.</p>
+      <p>The number <m>27</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(27)\amp -1(-27)\amp 3(9)\amp -3(-9)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>28</m>, and this sum happens with <m>27+1=28</m> So we write <me>\begin{aligned}[t]3t^{2}+28t+9\amp =3t^{2}+27t+t+9\newline \amp =3t\!\left(t+9\right)+t+9\newline \amp =\left(3t+1\right)\!\left(t+9\right)\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>3t^{2}+28t+9</m> into the top left and bottom right rectangles:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-17-image-1.png" />
+      </sidebyside>
+      <p><p>The first term's coefficient, <m>3</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(3)\amp \end{array}</me></p>
+      <p>The third term, <m>9</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(9)\amp -1(-9)\amp 3(3)\amp -3(-3)\newline\end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>3t^{2}+28t+9</m> by guess-and-check. The following generic rectangles show the solution:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-17-image-2.png" />
+      </sidebyside>
+      <p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]3t^{2}+28t+9\amp =\left(3t+1\right)\!\left(t+9\right)\end{aligned}</me></p></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <pg source="BasicAlgebra/Factoring/factoring395.pg" />
+
+      
+    <static source="BasicAlgebra/Factoring/factoring395.pg" seed="18">
+      <statement>
+      <p>Factor the given polynomial</p>
+      <p><m>{2t^{4}-6t^{3}-20t^{2}}=</m> <fillin name="AnSwEr0001" characters="19" /></p>
+      </statement>
+      
+      <solution>
+      <p>Let<rsq />s start by noting that <m>2t^{2}</m> is a common factor to each term, so 
+      we may write</p>
+      <p><m>{2t^{4}-6t^{3}-20t^{2}}={2t^{2}\!\left(t^{2}-3t-10\right)}</m></p>
+      <p>To factor this expression further we make the following observations:
+      <ul label="disc">
+      <li>
+      <p>the leading coefficient is 1</p>
+      </li>
+      <li>
+      <p>the last term is <em>negative</em> which means that the factorization will 
+      have the following form</p>
+      <p><m>(t-\phantom{3})(t+\phantom{3})</m></p>
+      </li>
+      </ul></p>
+      <p>We look for factors of <m>-10</m> that add to <m>-3</m>; the 
+      factors that work are <m>2</m> and <m>-5</m> so</p>
+      <p><m>{2t^{4}-6t^{3}-20t^{2}}={2t^{2}\!\left(t+2\right)\!\left(t-5\right)}</m></p>
+      <p>Note that this answer can be checked by using the FOIL (<em>F</em>irst <em>O</em>utside <em>I</em>nside <em>L</em>ast) technique (exercise).</p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <pg source="BasicAlgebra/Factoring/factoring450.pg" />
+
+      
+    <static source="BasicAlgebra/Factoring/factoring450.pg" seed="19">
+      <statement>
+      <p>Factor the given polynomial</p>
+      <p><m>{49x^{2}-81}=</m> <fillin name="AnSwEr0001" characters="19" /></p>
+      </statement>
+      
+      <solution>
+      <p><p>We will factor <m>49x^{2}-81</m> where <m>a=49</m>, <m>b=0</m>, and <m>c=-81</m>.</p>
+      <p><em>Difference of Squares Formula: </em>The formula for a difference of squares is <me>a^2-b^2 = (a+b)(a-b)</me> Note that the polynomial <m>49x^{2}-81</m> matches the formula's right side, and we have: <me>\begin{aligned}[t]49x^{2}-81\amp =\left(7x\right)^2-\left(9\right)^2\newline \amp =\left(7x+9\right)\!\left(7x-9\right)\end{aligned}</me></p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(49) \cdot (-81) = -3969</m>.</p>
+      <p>The number <m>-3969</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(-3969)\amp -1(3969)\amp 3(-1323)\amp -3(1323)\newline7(-567)\amp -7(567)\amp 9(-441)\amp -9(441)\newline21(-189)\amp -21(189)\amp 27(-147)\amp -27(147)\newline49(-81)\amp -49(81)\amp 63(-63)\amp -63(63)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>0</m>, and this sum happens with <m>(-63)+63=0</m> So we write <me>\begin{aligned}[t]49x^{2}-81\amp =49x^{2}-63x+63x-81\newline \amp =7x\!\left(7x-9\right)+9\!\left(7x-9\right)\newline \amp =\left(7x+9\right)\!\left(7x-9\right)\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>49x^{2}-81</m> into the top left and bottom right rectangles:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-19-image-1.png" />
+      </sidebyside>
+      <p><p>The first term's coefficient, <m>49</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(49)\amp 7(7)\amp \end{array}</me></p>
+      <p>The third term, <m>-81</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(-81)\amp -1(81)\amp 3(-27)\amp -3(27)\newline9(-9)\amp -9(9)\amp \end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>49x^{2}-81</m> by guess-and-check. The following generic rectangles show the solution:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-19-image-2.png" />
+      </sidebyside>
+      <p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]49x^{2}-81\amp =\left(7x+9\right)\!\left(7x-9\right)\end{aligned}</me></p></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <pg source="BasicAlgebra/Exponents/negExp160.pg" />
+
+      
+    <static source="BasicAlgebra/Exponents/negExp160.pg" seed="2">
+      <statement>
+      <p>Rewrite the expression simplified and using only positive exponents.</p>
+      <p><m>\displaystyle\left(\frac{x^{7}}{3}\right)^{-3}=</m><fillin name="AnSwEr0001" characters="12" /></p>
+      </statement>
+      
+      <solution>
+      <p>We use the properties of exponents to help us here, remembering that <m>\left(a^m\right)^{n}=a^{mn}</m></p>
+      <p><m>\begin{aligned}
+                       \left(\frac{x^{7}}{3}\right)^{-3}
+                            \amp = \frac{x^{7\cdot(-3)}}{3^{-3}}\\
+                            \amp = \frac{x^{-21}}{3^{-3}}\\
+                                          \amp  = {\frac{27}{x^{21}}}
+                 \end{aligned}</m></p>
+      <p>You might have preferred to do this problem a little differently:</p>
+      <p><m>\begin{aligned}
+                       \left(\frac{x^{7}}{3}\right)^{-3}
+                            \amp = \left(\frac{3}{x^{7}}\right)^{3}\\
+                            \amp = \frac{3^{3}}{x^{21}}\\
+                                          \amp  = {\frac{27}{x^{21}}}
+                 \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <pg source="BasicAlgebra/Factoring/factoring535.pg" />
+
+      
+    <static source="BasicAlgebra/Factoring/factoring535.pg" seed="20">
+      <statement>
+      <p>Factor the given polynomial</p>
+      <p><m>{9x^{2}-6x+1}=</m> <fillin name="AnSwEr0001" characters="19" /></p>
+      </statement>
+      
+      <solution>
+      <p><p>We will factor <m>9x^{2}-6x+1</m> where <m>a=9</m>, <m>b=-6</m>, and <m>c=1</m>.</p>
+      <p><em>Perfect Square Formula: </em>The formula for perfect square trinomials is <me>(a \pm b)^2=a^2 \pm 2ab + b^2</me> Note that the polynomial <m>9x^{2}-6x+1</m> matches the formula's right side, and we have: <me>\begin{aligned}[t]9x^{2}-6x+1\amp =\left(3x\right)^2-2\left(3x\right)\left(1\right)+\left(1\right)^2\newline \amp =\left(3x-1\right)\!\left(3x-1\right)\newline \amp =\left(3x-1\right)^{2}\end{aligned}</me></p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(9) \cdot (1) = 9</m>.</p>
+      <p>The number <m>9</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(9)\amp -1(-9)\amp 3(3)\amp -3(-3)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>-6</m>, and this sum happens with <m>(-3)+(-3)=-6</m> So we write <me>\begin{aligned}[t]9x^{2}-6x+1\amp =9x^{2}-3x-3x+1\newline \amp =3x\!\left(3x-1\right)-\left(3x-1\right)\newline \amp =\left(3x-1\right)\!\left(3x-1\right)\newline \amp =\left(3x-1\right)^{2}\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>9x^{2}-6x+1</m> into the top left and bottom right rectangles:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-20-image-1.png" />
+      </sidebyside>
+      <p><p>The first term's coefficient, <m>9</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(9)\amp 3(3)\amp \end{array}</me></p>
+      <p>The third term, <m>1</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(1)\amp -1(-1)\amp \end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>9x^{2}-6x+1</m> by guess-and-check. The following generic rectangles show the solution:</p></p>
+      <sidebyside widths="66.6666666666667%">
+      <image source="images/webwork-20-image-2.png" />
+      </sidebyside>
+      <p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]9x^{2}-6x+1\amp =\left(3x-1\right)\!\left(3x-1\right)\newline \amp =\left(3x-1\right)^{2}\end{aligned}</me></p></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad35.pg" />
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad35.pg" seed="21">
+      <statement>
+      <p>Solve the equation.</p>
+      <p><m>x^2 = {{\frac{1}{25}}}</m></p>
+      <p><fillin name="AnSwEr0001" characters="22" /></p>
+      </statement>
+      
+      <solution>
+      <p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to use the <em>square root method</em>.</p>
+      <p><m>\begin{aligned}
+                       x^2 = {{\frac{1}{25}}} \amp  \Rightarrow x=-\sqrt{{{\frac{1}{25}}}}\text{ or } x=\sqrt{{{\frac{1}{25}}}}\\
+                                          \amp  \Rightarrow x={-{\frac{1}{5}}}\text{ or } x={{\frac{1}{5}}}\\
+             \end{aligned}</m></p>
+      <p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.</p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad70.pg" />
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad70.pg" seed="22">
+      <statement>
+      <p>Solve the equation.</p>
+      <p><m>61x^2  - 23= 0</m></p>
+      <p><fillin name="AnSwEr0001" characters="23" /></p>
+      </statement>
+      
+      <solution>
+      <p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to use the <em>square root method</em>.</p>
+      <p><m>\begin{aligned}
+                       61x^2-23 = 0\amp  \Rightarrow 61x^2=23 \\
+                                           \amp  \Rightarrow x^2=\frac{23}{61} \\
+                                          \amp  \Rightarrow x= -\sqrt{\frac{23}{61}}\text{ or } x=\sqrt{\frac{23}{61}}\\
+                                          \amp  \Rightarrow x= -\frac{\sqrt{23}}{\sqrt{61}}\cdot\frac{\sqrt{61}}{\sqrt{61}}\text{ or } x=\frac{\sqrt{23}}{\sqrt{61}}\cdot\frac{\sqrt{61}}{\sqrt{61}}\\
+                                          \amp  \Rightarrow x= -\frac{\sqrt{1403}}{61}\text{ or } x=\frac{\sqrt{1403}}{61}\\
+             \end{aligned}</m></p>
+      <p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.  We rationalized the denominator in each solution by multiplying by a factor of <m>1</m> using <m>\frac{\sqrt{61}}{\sqrt{61}}</m>.</p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad100.pg" />
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad100.pg" seed="23">
+      <statement>
+      <p>Solve the equation.</p>
+      <p><m>{x^{2}-9x-10}= 0</m></p>
+      <p><fillin name="AnSwEr0001" characters="34" /></p>
+      </statement>
+      
+      <solution>
+      <p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to <em>factor</em> and then use the <em>zero product principle</em>.</p>
+      <p><m>\begin{aligned}
+                      {x^{2}-9x-10}= 0 \amp \Rightarrow (x+1)(x - 10) = 0 \\
+                                          \amp  \Rightarrow x+1=0 \text{ or } x - 10=0\\
+                                          \amp  \Rightarrow x=-1\text{ or } x=10\\
+             \end{aligned}</m></p>
+      <p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.</p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad145.pg" />
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad145.pg" seed="24">
+      <statement>
+      <p>Solve the equation.</p>
+      <p><m>{x^{2}+5x+2}= 0</m></p>
+      <p><fillin name="AnSwEr0001" characters="29" /></p>
+      </statement>
+      
+      <solution>
+      <p>There are a few ways to solve this equation- this equation does 
+      not easily factor, so we will use the Quadratic Formula:</p>
+      <p><m>\begin{aligned}
+                  x \amp  = \frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
+                         \amp  = \frac{-5\pm\sqrt{25-8}}{2}\\
+                         \amp  = \frac{-5\pm\sqrt{17}}{2}\\
+              \end{aligned}</m></p>
+      <p>so <m>x=\frac{-5-\sqrt{17}}{2}\text{ or }\frac{-5+\sqrt{17}}{2}</m>.</p>
+      <p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.</p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad295.pg" />
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad295.pg" seed="25">
+      <statement>
+      <p>Solve the equation.</p>
+      <p><m>{x^{2}}={20x-100}</m></p>
+      <p><fillin name="AnSwEr0001" characters="26" /></p>
+      </statement>
+      
+      <solution>
+      <p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to use the <em>zero product principle</em>.</p>
+      <p><m>\begin{aligned}
+                           {x^{2}}={20x-100}               \amp \Rightarrow {x^{2}-20x+100}=0 \\
+                                          \amp \Rightarrow {\left(x-10\right)\!\left(x-10\right)}=0 \\
+                                          \amp  \Rightarrow {x = 10}
+             \end{aligned}</m></p>
+      <p>In this problem there is just <em>one</em>, <em>repeated</em> solution.</p>
+      <p>The solution can be checked by substituting it into the original equation- this is left as an exercise.</p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <pg source="BasicAlgebra/Exponents/negExp165.pg" />
+
+      
+    <static source="BasicAlgebra/Exponents/negExp165.pg" seed="3">
+      <statement>
+      <p>Rewrite the expression simplified and using only positive exponents.</p>
+      <p><m>\displaystyle\left(\frac{y^{3}}{x^{7}}\right)^{-5}=</m><fillin name="AnSwEr0001" characters="12" /></p>
+      </statement>
+      
+      <solution>
+      <p>We use the properties of exponents to help us here, remembering that <m>\left(a^m\right)^{n}=a^{mn}</m></p>
+      <p><m>\begin{aligned}
+                       \left(\frac{y^{3}}{x^{7}}\right)^{-5}
+                            \amp = \frac{y^{3\cdot(-5)}}{x^{7\cdot(-5)}}\\
+                            \amp = \frac{y^{-15}}{x^{-35}}\\
+                                          \amp  = {\frac{x^{35}}{y^{15}}}
+                 \end{aligned}</m></p>
+      <p>Alternatively, you may prefer</p>
+      <p><m>\begin{aligned}
+                       \left(\frac{y^{3}}{x^{7}}\right)^{-5}
+                            \amp = \left(\frac{x^{7}}{y^{3}}\right)^{5}\\
+                            \amp  = \frac{x^{7\cdot(5)}}{y^{3\cdot(5)}}\\
+                                          \amp  = {\frac{x^{35}}{y^{15}}}
+                 \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <authored>
+      
+        <pg-macros>
+                      <macro-file>contextLimitedPolynomial.pl</macro-file>
+                  </pg-macros>
+        <setup>
+          <pg-code>
+                          $a = 4;
+                          $b = 3;
+                          $c = $a + $b;
+                          $expression = Formula("x^($a)*x^($b)");
+      
+                          Context("LimitedPolynomial-Strict");
+                          # custom error message
+                          Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+                              = "Your answer must be fully simplified";
+      
+                          $answer = Formula("x^($c)");
+                          $product = $a*$b;
+                          $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+                              [Compute("x^($product)")] =&gt;
+                              "When multiplying terms with the same base, you do not multiply the exponents."));
+                      </pg-code>
+        </setup>
+        <statement>
+          <p>Use the properties of exponents to simplify <m><var name="$expression"/></m>.</p>
+          <p>
+            <m><var name="$expression"/>=</m>
+            <var name="$answer" evaluator="$evaluator" width="8"/>
+          </p>
+        </statement>
+        <solution>
+          <p>We <em>add</em> the exponents as follows:</p>
+          <md>
+            <mrow><var name="$expression"/>\amp=x^{<var name="$a"/>+<var name="$b"/>}</mrow>
+            <mrow>\amp=x^{<var name="$c"/>}</mrow>
+          </md>
+        </solution>
+      
+    </authored>
+
+    <pg>
+      #######################################
+      ###    Generated from PreTeXt source   
+      ###    on 2018-03-30T17:39:00-07:00    
+      ###                                    
+      ###   http://mathbook.pugetsound.edu   
+      ###                                    
+      #######################################
+      ## DBsubject()
+      ## DBchapter()
+      ## DBsection()
+      ## Level()
+      ## KEYWORDS()
+      ## TitleText1(Course Information and Syllabus)
+      ## EditionText1()
+      ## AuthorText1()
+      ## Section1(not reported)
+      ## Problem1(9.1)
+      ## Author()
+      ## Institution()
+      ## Language(en-US)
+      
+      DOCUMENT();
+      
+      ############################################################
+      # Load Macros
+      ############################################################
+      loadMacros(
+        "PGstandard.pl",
+        "MathObjects.pl",
+        "PGML.pl",
+        "AnswerFormatHelp.pl",
+        "answerHints.pl",
+        "contextLimitedPolynomial.pl",
+        "PGcourse.pl",
+      );
+      
+      ############################################################
+      # Header
+      ############################################################
+      COMMENT('Authored in PreTeXt');
+      TEXT(beginproblem());
+      
+      ############################################################
+      # PG Setup
+      ############################################################
+      $a = 4;
+      $b = 3;
+      $c = $a + $b;
+      $expression = Formula("x^($a)*x^($b)");
+      
+      Context("LimitedPolynomial-Strict");
+      # custom error message
+      Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+          = "Your answer must be fully simplified";
+      
+      $answer = Formula("x^($c)");
+      $product = $a*$b;
+      $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+          [Compute("x^($product)")] =&gt;
+          "When multiplying terms with the same base, you do not multiply the exponents."));
+      
+      ############################################################
+      # Body
+      ############################################################
+      
+      BEGIN_PGML
+      Use the properties of exponents to simplify [`[$expression]\text{.}`]
+      
+      [`[$expression]=`][________]{$evaluator}
+      
+      END_PGML
+      
+      ############################################################
+      # Solution
+      ############################################################
+      
+      BEGIN_PGML_SOLUTION
+      We _add_ the exponents as follows:
+      
+      &gt;&gt; [``\newcommand{\amp}{&amp;}\begin{aligned}
+      [$expression]\amp=x^{[$a]+[$b]}\\
+      \amp=x^{[$c]}
+      \end{aligned}``] &lt;&lt;
+      
+      END_PGML_SOLUTION
+      
+      ############################################################
+      # End Problem
+      ############################################################
+      
+      ENDDOCUMENT();
+      
+    </pg>
+
+      
+    <static seed="32">
+      <statement>
+      <p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p>
+      <p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8" /></p>
+      </statement>
+      
+      <solution>
+      <p>We <em>add</em> the exponents as follows:</p>
+      <p><m>\displaystyle{\begin{aligned}
+      {x^{4}x^{3}}\amp=x^{4+3}\\
+      \amp=x^{7}
+      \end{aligned}}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgX2FkZF8gdGhlIGV4cG9uZW50cyBhcyBmb2xsb3dzOgoKCgo%2BPiBbYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgXSA8PAoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgX2FkZF8gdGhlIGV4cG9uZW50cyBhcyBmb2xsb3dzOgoKCgo%2BPiBbYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgXSA8PAoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <pg source="BasicAlgebra/Exponents/negExp175.pg" />
+
+      
+    <static source="BasicAlgebra/Exponents/negExp175.pg" seed="4">
+      <statement>
+      <p>Rewrite the expression simplified and using only positive exponents.</p>
+      <p><m>2x^{-8}y^{8}z^{-7}\left(3x^{2}\right)^{-3}=</m><fillin name="AnSwEr0001" characters="22" /></p>
+      </statement>
+      
+      <solution>
+      <p>We use the properties of exponents to help us here, remember that <m>a^m\cdot a^n = a^{m+n}</m> and <m>\left(a^m\right)^n=a^{mn}</m>.</p>
+      <p><m>\begin{aligned}
+            2x^{-8}y^{8}z^{-7}\left(3x^{2}\right)^{-3}
+                        \amp =  2x^{-8}y^{8}z^{-7}3^{-3}x^{2(-3)}\\
+                        \amp =  2x^{-8}y^{8}z^{-7}3^{-3}x^{-6}\\
+                        \amp =  2x^{-8-6}y^{8}z^{-7}\frac{1}{3^{3}}\\
+                        \amp =  2x^{-14}y^{8}z^{-7}\frac{1}{3^{3}}\\
+                        \amp  = {\frac{2y^{8}}{27x^{14}z^{7}}}
+                 \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <pg source="BasicAlgebra/Exponents/negExp180.pg" />
+
+      
+    <static source="BasicAlgebra/Exponents/negExp180.pg" seed="5">
+      <statement>
+      <p>Rewrite the expression simplified and using only positive exponents.</p>
+      <p><m>\displaystyle \left( \frac{x^{7}y^{7}z^{4}}{x^{-7}y^{-5}z^{-4}}\right)^{-3}=</m><fillin name="AnSwEr0001" characters="27" /></p>
+      </statement>
+      
+      <solution>
+      <p>We use the properties of exponents to help us here, remember that <m>a^m\cdot a^n = a^{m+n}</m> and <m>\left(a^m\right)^n=a^{mn}</m>.</p>
+      <p><m>\begin{aligned}
+      \left( \frac{x^{7}y^{7}z^{4}}{x^{-7}y^{-5}z^{-4}}\right)^{-3}
+                        \amp =  \left( x^{7+7}y^{7+5}z^{4+4}\right)^{-3}\\
+                        \amp =  \left( x^{14}y^{12}z^{8}\right)^{-3}\\
+                        \amp =  x^{14\cdot(-3)}y^{12\cdot(-3)}z^{8\cdot(-3)}\\
+                        \amp =  x^{-42}y^{-36}z^{-24}\\
+                        \amp  = {\frac{1}{x^{42}y^{36}z^{24}}}
+                 \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <pg source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" />
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" seed="6">
+      <statement>
+      <p>Add these two fractions: <m>\displaystyle{-\frac{4}{7} + \frac{23}{28}}</m></p>
+      <p><fillin name="AnSwEr0001" characters="11" /></p>
+      </statement>
+      
+      <solution>
+      <p>To add two fractions with different denominators, we first have to find a common denominator.</p>
+      <p>In this case, the least common multiple of <m>7</m> and <m>28</m> is <m>28</m>.</p>
+      <p>Look at the first fraction <m>\displaystyle{-\frac{4}{7}}</m>. To change the denominator to <m>28</m>, we multiply <m>4</m> at both the top and bottom, and we have:</p>
+      <p><m>\displaystyle{ \begin{aligned}-\frac{4}{7} \amp = -\frac{4 \cdot 4}{7 \cdot 4}\\ \amp = -\frac{16}{28} \end{aligned}}</m></p>
+      <p>The second fraction already has the common denominator.</p>
+      <p>Finally, we can do the addition. The full process is:</p>
+      <p><m>\displaystyle{\begin{aligned}
+         -\frac{4}{7} + \frac{23}{28}
+              \amp = -\frac{16}{28} + \frac{23}{28} \\
+              \amp = \frac{-16 + 23}{28} \\
+              \amp = \frac{7}{28} \amp \hbox{We can reduce this by dividing 7 into both the numerator and the denominator.
+      }\\
+              \amp = \frac{1}{4}
+      \end{aligned}
+          }</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <pg source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" />
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" seed="7">
+      <statement>
+      <p>Subtract one fraction from the other: <m>\displaystyle{-\frac{1}{6}-\frac{7}{18}}</m></p>
+      <p><fillin name="AnSwEr0001" characters="7" /></p>
+      </statement>
+      
+      <solution>
+      <p>To add or subtract two fractions with different denominators, we first have to find the common denominator.</p>
+      <p>In this case, the least common multiple of <m>6</m> and <m>18</m> is <m>18</m>.</p>
+      <p>Look at the first fraction <m>\displaystyle{-\frac{1}{6}}</m>. To change the denominator to <m>18</m>, we multiply <m>3</m> at both the top and bottom, and we have:</p>
+      <p><m>\displaystyle{ \begin{aligned}-\frac{1}{6} \amp = -\frac{1 \cdot 3}{6 \cdot 3}\\ \amp = -\frac{3}{18} \end{aligned}}</m></p>
+      <p>Since the second fraction<rsq />s denominator is the same as the common denominator, there is no need to make changes to the second fraction.</p>
+      <p>Finally, we add or subtract the numerators and keep the common denominator unchanged. The whole process is:</p>
+      <p><m>\displaystyle{\begin{aligned}
+         -\frac{1}{6}-\frac{7}{18} \amp = -\frac{3}{18}-\frac{7}{18} \\
+         \amp = \frac{-3+(-7)}{18} \\
+         \amp = -\frac{10}{18} \amp  \hbox{We can divide both the numerator and denominator by 2 to reduce this.
+      }\\
+         \amp = -\frac{5}{9}
+      \end{aligned}
+          }</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <pg source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" />
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" seed="8">
+      <statement>
+      <p>Evaluate this expression:</p>
+      <p><m>\displaystyle{{{\frac{5}{3}}} + {{\frac{1}{5}}} \div {{\frac{4}{5}}} - {{\frac{1}{4}}}=}</m><fillin name="AnSwEr0001" characters="5" /></p>
+      </statement>
+      
+      <solution>
+      <p>We must follow the order of operations when simplifying this expression. Begin by doing the division.</p>
+      <p><m>\displaystyle{\begin{aligned}[t]
+      {{\frac{5}{3}}} + {{\frac{1}{5}}} \div {{\frac{4}{5}}} - {{\frac{1}{4}}}\amp ={{\frac{5}{3}}} + {{\frac{1}{5}}} \cdot {{\frac{5}{4}}} - {{\frac{1}{4}}}\\
+      \amp ={{\frac{5}{3}}}+{{\frac{1}{4}}}-{{\frac{1}{4}}}\\ 
+       \amp = \frac{20}{12} + \frac{3}{12} - \frac{3}{12} \\
+         \amp = \frac{5}{3}
+      \end{aligned}
+      }</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+  </webwork-reps>
+
+  <webwork-reps xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" />
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" seed="9">
+      <statement>
+      <p>Evaluate this expression:</p>
+      <p><m>\displaystyle{ {{\frac{10}{9}}}+6\cdot{{\frac{8}{45}}}=  }</m>  <fillin name="AnSwEr0001" characters="8" /></p>
+      </statement>
+      
+      <solution>
+      <p>According to the order of operations, the multiplication has higher priority than the addition.</p>
+      <p>You might need to go back to previous units to review how to add fractions.</p>
+      <p><m>\begin{aligned}[t]
+       {{\frac{10}{9}}}+6\cdot{{\frac{8}{45}}} \amp  = {{\frac{10}{9}}} + {{\frac{16}{15}}}  \\
+      \amp  = {{\frac{98}{45}}} 
+      \end{aligned}</m></p>
+      </solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+  </webwork-reps>
+
+</webwork-extraction>

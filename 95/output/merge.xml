@@ -1,0 +1,2116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is the hub file for Alex Jordan's MTH 60 Syllabus -->
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- This file contains control data for Alex Jordan's syllabus -->
+  <docinfo>
+    <!-- For title into HTML head, then tabs, bookmarks, etc -->
+    <initialism>MTH 95</initialism>
+    <!-- Thumbnail for HTML -->
+    <brandlogo url="http://www.pcc.edu/programs/math/" source="https://webwork.pcc.edu/webwork2_files/images/mathematics.jpg"/>
+    <!-- For LaTeX-based images; inserted both into tex preamble, -->
+    <!-- and into standalone preambles for svg production         -->
+    <latex-image-preamble>
+    
+    \usepackage{pgfplots}
+    \usepackage{pgfplotstable}
+    \pgfplotsset{soldot/.style={only marks,mark=*}}
+    \pgfplotsset{holdot/.style={fill=white,only marks,mark=*}}
+    \tikzset{ampersand replacement = \amp}
+    
+    </latex-image-preamble>
+  </docinfo>
+  <article xml:id="syllabus">
+    <title>Course Information and Syllabus</title>
+    <subtitle>MTH 95 Intermediate Algebra</subtitle>
+    <!-- This file has the contents of the title page of Alex Jordan's syllabus -->
+    <frontmatter xml:id="index">
+      <titlepage>
+        <date>Spring 2018</date>
+      </titlepage>
+    </frontmatter>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-contact-info">
+      <title>Contact Information</title>
+      <p>To reach me or PCC:</p>
+      <sidebyside>
+        <tabular>
+          <row>
+            <cell>Instructor: Alex Jordan</cell>
+          </row>
+          <row>
+            <cell>Office: SY ST 203</cell>
+          </row>
+          <row>
+            <cell>Phone: 971-722-4138</cell>
+          </row>
+          <row>
+            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+          </row>
+        </tabular>
+        <tabular>
+          <row>
+            <cell>Portland Community College</cell>
+          </row>
+          <row>
+            <cell>Sylvania Campus</cell>
+          </row>
+          <row>
+            <cell>12000 SW 49th Ave.</cell>
+          </row>
+          <row>
+            <cell>Portland, OR 97219</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
+      <sidebyside>
+        <tabular top="major" valign="top" left="minor" right="minor">
+          <row bottom="medium">
+            <cell>CRN</cell>
+            <cell>Days</cell>
+            <cell>Time</cell>
+            <cell>Place</cell>
+            <cell>Final Exam</cell>
+          </row>
+          <row bottom="major">
+            <cell>22454</cell>
+            <cell>Tu/Th</cell>
+            <cell>8:30<ndash/>10:50</cell>
+            <cell>SY SS 120</cell>
+            <cell>
+              <line>Thursday</line>
+              <line>6/14/2018</line>
+              <line>8:00<ndash/>10:00</line>
+            </cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>I have drop-in office hours where you do not need to make an appointment<mdash/>just come by! During office hours, if the first 10<ndash/>15 minutes go by and no students have come, I might move to the Student Learning Center in the Library for the rest of the office hour. Come find me there.</p>
+      <sidebyside>
+        <tabular top="major" left="minor" right="minor">
+          <row>
+            <cell colspan="3" halign="center">Office Hours</cell>
+          </row>
+          <row bottom="medium">
+            <cell>Day</cell>
+            <cell>Regular</cell>
+            <cell>Finals Week</cell>
+          </row>
+          <row>
+            <cell>Mondays</cell>
+            <cell/>
+            <cell>9:00<ndash/>11:00</cell>
+          </row>
+          <row>
+            <cell>Tuesdays</cell>
+            <cell>11:00<ndash/>12:00</cell>
+            <cell>9:00<ndash/>11:00</cell>
+          </row>
+          <row>
+            <cell>Wednesdays</cell>
+            <cell/>
+            <cell>9:00<ndash/>11:00</cell>
+          </row>
+          <row bottom="major">
+            <cell>Thursdays</cell>
+            <cell>11:00<ndash/>12:00</cell>
+            <cell/>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.</p>
+      <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-course-description">
+      <title>Course Description</title>
+      <p>Taken from the official PCC course description:</p>
+      <sidebyside halign="left">
+        <tabular>
+          <row>
+            <cell>Course Number:</cell>
+            <cell>MTH 95</cell>
+          </row>
+          <row>
+            <cell>Course Title:</cell>
+            <cell>Intermediate Algebra</cell>
+          </row>
+          <row>
+            <cell>Credit Hours:</cell>
+            <cell>4</cell>
+          </row>
+          <row>
+            <cell>Lecture Hours:</cell>
+            <cell>30</cell>
+          </row>
+          <row>
+            <cell>Lecture/Lab Hours:</cell>
+            <cell>20</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Explores functions graphically, symbolically, verbally, and numerically with an emphasis on function notation. Investigates functions, equations, and graphs involving quadratic, rational, radical, and absolute value expressions. Integrates technology throughout. Recommended that MTH 63 or MTH 65 or MTH 70 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Prerequisites: (MTH 63 or MTH 65 or MTH 70) and (RD 90 and WR 90) or IRW 90 or equivalent placement. Audit available. </p>
+      <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-prerequisite-review">
+      <title>Prerequisite Review</title>
+      <p>These exercises use skillsx from MTH 20, MTH 60, and MTH 65. These are prerequisite skills to succeed in this class. If you have trouble completing any of these exercises, you should make time as soon as possible to review this material with your instructor or with a tutor.</p>
+      <exercises>
+        <exercisegroup>
+          <introduction>
+            <p>Simplify Expressions with Negative Exponents</p>
+          </introduction>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <pg source="BasicAlgebra/Exponents/negExp155.pg"/>
+
+      
+    <static source="BasicAlgebra/Exponents/negExp155.pg" seed="1">
+      <statement><p>Rewrite the expression simplified and using only positive exponents.</p><p><m>\left(x^{-5}t^{14}\right)^{-5}=</m><fillin name="AnSwEr0001" characters="12"/></p></statement>
+      
+      <solution><p>We use the properties of exponents to help us here, remembering that <m>\displaystyle{\frac{a^m}{a^n} = a^{m-n}}</m> and <m>\left(a^m\right)^{n}=a^{mn}</m></p><p><m>\begin{aligned}
+                       \left(x^{-5}t^{14}\right)^{-5}
+                            \amp = x^{(-5)\cdot(-5)}t^{14\cdot(-5)}\\
+                            \amp = x^{25}t^{-70}\\
+                                          \amp  = {\frac{x^{25}}{t^{70}}}
+                 \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=BasicAlgebra/Exponents/negExp155.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <pg source="BasicAlgebra/Exponents/negExp160.pg"/>
+
+      
+    <static source="BasicAlgebra/Exponents/negExp160.pg" seed="2">
+      <statement><p>Rewrite the expression simplified and using only positive exponents.</p><p><m>\displaystyle\left(\frac{x^{7}}{3}\right)^{-3}=</m><fillin name="AnSwEr0001" characters="12"/></p></statement>
+      
+      <solution><p>We use the properties of exponents to help us here, remembering that <m>\left(a^m\right)^{n}=a^{mn}</m></p><p><m>\begin{aligned}
+                       \left(\frac{x^{7}}{3}\right)^{-3}
+                            \amp = \frac{x^{7\cdot(-3)}}{3^{-3}}\\
+                            \amp = \frac{x^{-21}}{3^{-3}}\\
+                                          \amp  = {\frac{27}{x^{21}}}
+                 \end{aligned}</m></p><p>You might have preferred to do this problem a little differently:</p><p><m>\begin{aligned}
+                       \left(\frac{x^{7}}{3}\right)^{-3}
+                            \amp = \left(\frac{3}{x^{7}}\right)^{3}\\
+                            \amp = \frac{3^{3}}{x^{21}}\\
+                                          \amp  = {\frac{27}{x^{21}}}
+                 \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=BasicAlgebra/Exponents/negExp160.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <pg source="BasicAlgebra/Exponents/negExp165.pg"/>
+
+      
+    <static source="BasicAlgebra/Exponents/negExp165.pg" seed="3">
+      <statement><p>Rewrite the expression simplified and using only positive exponents.</p><p><m>\displaystyle\left(\frac{y^{3}}{x^{7}}\right)^{-5}=</m><fillin name="AnSwEr0001" characters="12"/></p></statement>
+      
+      <solution><p>We use the properties of exponents to help us here, remembering that <m>\left(a^m\right)^{n}=a^{mn}</m></p><p><m>\begin{aligned}
+                       \left(\frac{y^{3}}{x^{7}}\right)^{-5}
+                            \amp = \frac{y^{3\cdot(-5)}}{x^{7\cdot(-5)}}\\
+                            \amp = \frac{y^{-15}}{x^{-35}}\\
+                                          \amp  = {\frac{x^{35}}{y^{15}}}
+                 \end{aligned}</m></p><p>Alternatively, you may prefer</p><p><m>\begin{aligned}
+                       \left(\frac{y^{3}}{x^{7}}\right)^{-5}
+                            \amp = \left(\frac{x^{7}}{y^{3}}\right)^{5}\\
+                            \amp  = \frac{x^{7\cdot(5)}}{y^{3\cdot(5)}}\\
+                                          \amp  = {\frac{x^{35}}{y^{15}}}
+                 \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=BasicAlgebra/Exponents/negExp165.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <pg source="BasicAlgebra/Exponents/negExp175.pg"/>
+
+      
+    <static source="BasicAlgebra/Exponents/negExp175.pg" seed="4">
+      <statement><p>Rewrite the expression simplified and using only positive exponents.</p><p><m>2x^{-8}y^{8}z^{-7}\left(3x^{2}\right)^{-3}=</m><fillin name="AnSwEr0001" characters="22"/></p></statement>
+      
+      <solution><p>We use the properties of exponents to help us here, remember that <m>a^m\cdot a^n = a^{m+n}</m> and <m>\left(a^m\right)^n=a^{mn}</m>.</p><p><m>\begin{aligned}
+            2x^{-8}y^{8}z^{-7}\left(3x^{2}\right)^{-3}
+                        \amp =  2x^{-8}y^{8}z^{-7}3^{-3}x^{2(-3)}\\
+                        \amp =  2x^{-8}y^{8}z^{-7}3^{-3}x^{-6}\\
+                        \amp =  2x^{-8-6}y^{8}z^{-7}\frac{1}{3^{3}}\\
+                        \amp =  2x^{-14}y^{8}z^{-7}\frac{1}{3^{3}}\\
+                        \amp  = {\frac{2y^{8}}{27x^{14}z^{7}}}
+                 \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=BasicAlgebra/Exponents/negExp175.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <pg source="BasicAlgebra/Exponents/negExp180.pg"/>
+
+      
+    <static source="BasicAlgebra/Exponents/negExp180.pg" seed="5">
+      <statement><p>Rewrite the expression simplified and using only positive exponents.</p><p><m>\displaystyle \left( \frac{x^{7}y^{7}z^{4}}{x^{-7}y^{-5}z^{-4}}\right)^{-3}=</m><fillin name="AnSwEr0001" characters="27"/></p></statement>
+      
+      <solution><p>We use the properties of exponents to help us here, remember that <m>a^m\cdot a^n = a^{m+n}</m> and <m>\left(a^m\right)^n=a^{mn}</m>.</p><p><m>\begin{aligned}
+      \left( \frac{x^{7}y^{7}z^{4}}{x^{-7}y^{-5}z^{-4}}\right)^{-3}
+                        \amp =  \left( x^{7+7}y^{7+5}z^{4+4}\right)^{-3}\\
+                        \amp =  \left( x^{14}y^{12}z^{8}\right)^{-3}\\
+                        \amp =  x^{14\cdot(-3)}y^{12\cdot(-3)}z^{8\cdot(-3)}\\
+                        \amp =  x^{-42}y^{-36}z^{-24}\\
+                        \amp  = {\frac{1}{x^{42}y^{36}z^{24}}}
+                 \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=BasicAlgebra/Exponents/negExp180.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+        </exercisegroup>
+        <exercisegroup>
+          <introduction>
+            <p>Fraction Arithmetic</p>
+          </introduction>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <pg source="BasicAlgebra/FractionArithmetic/AddFractions60.pg"/>
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" seed="6">
+      <statement><p>Add these two fractions: <m>\displaystyle{-\frac{4}{7} + \frac{23}{28}}</m></p><p><fillin name="AnSwEr0001" characters="11"/></p></statement>
+      
+      <solution><p>To add two fractions with different denominators, we first have to find a common denominator.</p><p>In this case, the least common multiple of <m>7</m> and <m>28</m> is <m>28</m>.</p><p>Look at the first fraction <m>\displaystyle{-\frac{4}{7}}</m>. To change the denominator to <m>28</m>, we multiply <m>4</m> at both the top and bottom, and we have:</p><p><m>\displaystyle{ \begin{aligned}-\frac{4}{7} \amp = -\frac{4 \cdot 4}{7 \cdot 4}\\ \amp = -\frac{16}{28} \end{aligned}}</m></p><p>The second fraction already has the common denominator.</p><p>Finally, we can do the addition. The full process is:</p><p><m>\displaystyle{\begin{aligned}
+         -\frac{4}{7} + \frac{23}{28}
+              \amp = -\frac{16}{28} + \frac{23}{28} \\
+              \amp = \frac{-16 + 23}{28} \\
+              \amp = \frac{7}{28} \amp \hbox{We can reduce this by dividing 7 into both the numerator and the denominator.
+      }\\
+              \amp = \frac{1}{4}
+      \end{aligned}
+          }</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <pg source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg"/>
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" seed="7">
+      <statement><p>Subtract one fraction from the other: <m>\displaystyle{-\frac{1}{6}-\frac{7}{18}}</m></p><p><fillin name="AnSwEr0001" characters="7"/></p></statement>
+      
+      <solution><p>To add or subtract two fractions with different denominators, we first have to find the common denominator.</p><p>In this case, the least common multiple of <m>6</m> and <m>18</m> is <m>18</m>.</p><p>Look at the first fraction <m>\displaystyle{-\frac{1}{6}}</m>. To change the denominator to <m>18</m>, we multiply <m>3</m> at both the top and bottom, and we have:</p><p><m>\displaystyle{ \begin{aligned}-\frac{1}{6} \amp = -\frac{1 \cdot 3}{6 \cdot 3}\\ \amp = -\frac{3}{18} \end{aligned}}</m></p><p>Since the second fraction<rsq/>s denominator is the same as the common denominator, there is no need to make changes to the second fraction.</p><p>Finally, we add or subtract the numerators and keep the common denominator unchanged. The whole process is:</p><p><m>\displaystyle{\begin{aligned}
+         -\frac{1}{6}-\frac{7}{18} \amp = -\frac{3}{18}-\frac{7}{18} \\
+         \amp = \frac{-3+(-7)}{18} \\
+         \amp = -\frac{10}{18} \amp  \hbox{We can divide both the numerator and denominator by 2 to reduce this.
+      }\\
+         \amp = -\frac{5}{9}
+      \end{aligned}
+          }</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <pg source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg"/>
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" seed="8">
+      <statement><p>Evaluate this expression:</p><p><m>\displaystyle{{{\frac{5}{3}}} + {{\frac{1}{5}}} \div {{\frac{4}{5}}} - {{\frac{1}{4}}}=}</m><fillin name="AnSwEr0001" characters="5"/></p></statement>
+      
+      <solution><p>We must follow the order of operations when simplifying this expression. Begin by doing the division.</p><p><m>\displaystyle{\begin{aligned}[t]
+      {{\frac{5}{3}}} + {{\frac{1}{5}}} \div {{\frac{4}{5}}} - {{\frac{1}{4}}}\amp ={{\frac{5}{3}}} + {{\frac{1}{5}}} \cdot {{\frac{5}{4}}} - {{\frac{1}{4}}}\\
+      \amp ={{\frac{5}{3}}}+{{\frac{1}{4}}}-{{\frac{1}{4}}}\\ 
+       \amp = \frac{20}{12} + \frac{3}{12} - \frac{3}{12} \\
+         \amp = \frac{5}{3}
+      \end{aligned}
+      }</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg"/>
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" seed="9">
+      <statement><p>Evaluate this expression:</p><p><m>\displaystyle{ {{\frac{10}{9}}}+6\cdot{{\frac{8}{45}}}=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      
+      <solution><p>According to the order of operations, the multiplication has higher priority than the addition.</p><p>You might need to go back to previous units to review how to add fractions.</p><p><m>\begin{aligned}[t]
+       {{\frac{10}{9}}}+6\cdot{{\frac{8}{45}}} \amp  = {{\frac{10}{9}}} + {{\frac{16}{15}}}  \\
+      \amp  = {{\frac{98}{45}}} 
+      \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg"/>
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" seed="10">
+      <statement><p>Evaluate this expression:</p><p><m>\displaystyle{ \left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)-5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      
+      <solution><p>You might need to go back to previous units to review how to add fractions.</p><p><m>\begin{aligned}
+       \left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)-5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right) \amp  = {0} -5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)  \\
+      \amp  = {0} -5\left({0}\right)  \\
+      \amp  = {0} -\left({0}\right)  \\
+      \amp  = {0} 
+      \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+        </exercisegroup>
+        <exercisegroup>
+          <introduction>
+            <p>Fraction Arithmetic</p>
+          </introduction>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <pg source="BasicAlgebra/FractionArithmetic/AddFractions60.pg"/>
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" seed="11">
+      <statement><p>Add these two fractions: <m>\displaystyle{-\frac{1}{9} + \frac{2}{45}}</m></p><p><fillin name="AnSwEr0001" characters="11"/></p></statement>
+      
+      <solution><p>To add two fractions with different denominators, we first have to find a common denominator.</p><p>In this case, the least common multiple of <m>9</m> and <m>45</m> is <m>45</m>.</p><p>Look at the first fraction <m>\displaystyle{-\frac{1}{9}}</m>. To change the denominator to <m>45</m>, we multiply <m>5</m> at both the top and bottom, and we have:</p><p><m>\displaystyle{ \begin{aligned}-\frac{1}{9} \amp = -\frac{1 \cdot 5}{9 \cdot 5}\\ \amp = -\frac{5}{45} \end{aligned}}</m></p><p>The second fraction already has the common denominator.</p><p>Finally, we can do the addition. The full process is:</p><p><m>\displaystyle{\begin{aligned}
+         -\frac{1}{9} + \frac{2}{45}
+              \amp = -\frac{5}{45} + \frac{2}{45} \\
+              \amp = \frac{-5 + 2}{45} \\
+              \amp = \frac{-3}{45} \amp \hbox{We can reduce this by dividing 3 into both the numerator and the denominator.
+      }\\
+              \amp = -\frac{1}{15}
+      \end{aligned}
+          }</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <pg source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg"/>
+
+      
+    <static source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" seed="12">
+      <statement><p>Subtract one fraction from the other: <m>\displaystyle{-\frac{2}{7}-\frac{4}{35}}</m></p><p><fillin name="AnSwEr0001" characters="7"/></p></statement>
+      
+      <solution><p>To add or subtract two fractions with different denominators, we first have to find the common denominator.</p><p>In this case, the least common multiple of <m>7</m> and <m>35</m> is <m>35</m>.</p><p>Look at the first fraction <m>\displaystyle{-\frac{2}{7}}</m>. To change the denominator to <m>35</m>, we multiply <m>5</m> at both the top and bottom, and we have:</p><p><m>\displaystyle{ \begin{aligned}-\frac{2}{7} \amp = -\frac{2 \cdot 5}{7 \cdot 5}\\ \amp = -\frac{10}{35} \end{aligned}}</m></p><p>Since the second fraction<rsq/>s denominator is the same as the common denominator, there is no need to make changes to the second fraction.</p><p>Finally, we add or subtract the numerators and keep the common denominator unchanged. The whole process is:</p><p><m>\displaystyle{\begin{aligned}
+         -\frac{2}{7}-\frac{4}{35} \amp = -\frac{10}{35}-\frac{4}{35} \\
+         \amp = \frac{-10+(-4)}{35} \\
+         \amp = -\frac{14}{35} \amp  \hbox{We can divide both the numerator and denominator by 7 to reduce this.
+      }\\
+         \amp = -\frac{2}{5}
+      \end{aligned}
+          }</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <pg source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg"/>
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" seed="13">
+      <statement><p>Evaluate this expression:</p><p><m>\displaystyle{{{\frac{3}{4}}} + {{\frac{1}{4}}} \div {{\frac{4}{3}}} - {{\frac{3}{5}}}=}</m><fillin name="AnSwEr0001" characters="5"/></p></statement>
+      
+      <solution><p>We must follow the order of operations when simplifying this expression. Begin by doing the division.</p><p><m>\displaystyle{\begin{aligned}[t]
+      {{\frac{3}{4}}} + {{\frac{1}{4}}} \div {{\frac{4}{3}}} - {{\frac{3}{5}}}\amp ={{\frac{3}{4}}} + {{\frac{1}{4}}} \cdot {{\frac{3}{4}}} - {{\frac{3}{5}}}\\
+      \amp ={{\frac{3}{4}}}+{{\frac{3}{16}}}-{{\frac{3}{5}}}\\ 
+       \amp = \frac{60}{80} + \frac{15}{80} - \frac{48}{80} \\
+         \amp = \frac{27}{80}
+      \end{aligned}
+      }</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg"/>
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" seed="14">
+      <statement><p>Evaluate this expression:</p><p><m>\displaystyle{ {2}+6\cdot{{\frac{1}{3}}}=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      
+      <solution><p>According to the order of operations, the multiplication has higher priority than the addition.</p><p>You might need to go back to previous units to review how to add fractions.</p><p><m>\begin{aligned}[t]
+       {2}+6\cdot{{\frac{1}{3}}} \amp  = {2} + {2}  \\
+      \amp  = {4} 
+      \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <pg source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg"/>
+
+      
+    <static source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" seed="15">
+      <statement><p>Evaluate this expression:</p><p><m>\displaystyle{ \left({{\frac{7}{10}}}-{{\frac{3}{20}}}\right)-4\left({{\frac{3}{20}}}-{{\frac{7}{10}}}\right)=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      
+      <solution><p>You might need to go back to previous units to review how to add fractions.</p><p><m>\begin{aligned}
+       \left({{\frac{7}{10}}}-{{\frac{3}{20}}}\right)-4\left({{\frac{3}{20}}}-{{\frac{7}{10}}}\right) \amp  = {{\frac{11}{20}}} -4\left({{\frac{3}{20}}}-{{\frac{7}{10}}}\right)  \\
+      \amp  = {{\frac{11}{20}}} -4\left({-{\frac{11}{20}}}\right)  \\
+      \amp  = {{\frac{11}{20}}} -\left({-{\frac{11}{5}}}\right)  \\
+      \amp  = {{\frac{11}{4}}} 
+      \end{aligned}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+        </exercisegroup>
+        <exercisegroup>
+          <introduction>
+            <p>Factoring a Polynomial</p>
+          </introduction>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <pg source="BasicAlgebra/Factoring/factoring180.pg"/>
+
+      
+    <static source="BasicAlgebra/Factoring/factoring180.pg" seed="16">
+      <statement><p>Factor the given polynomial</p><p><m>{t^{2}-11t+30}=</m> <fillin name="AnSwEr0001" characters="19"/></p></statement>
+      
+      <solution><p><p>We will factor <m>t^{2}-11t+30</m> where <m>a=1</m>, <m>b=-11</m>, and <m>c=30</m>.</p>
+      <p><em>Mental Method: </em>When we factor a polynomial in the form of <m>x^2+bx+c</m>, <m>x^2+bxy+cy^2</m>, or <m>x^2y^2+bxy+c</m> we can use mental math to factor. We need to find two numbers whose product is <m>c</m>, and whose sum is <m>b</m>.</p>
+      <p>For <m>t^{2}-11t+30</m>, since the product of <m>-6</m> and <m>-5</m> is <m>30</m>, and the sum of <m>-6</m> and <m>-5</m> is <m>-11</m>, the factorization is <me>t^{2}-11t+30=\left(t-6\right)\!\left(t-5\right)</me></p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(1) \cdot (30) = 30</m>.</p>
+      <p>The number <m>30</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(30)\amp -1(-30)\amp 2(15)\amp -2(-15)\newline3(10)\amp -3(-10)\amp 5(6)\amp -5(-6)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>-11</m>, and this sum happens with <m>(-5)+(-6)=-11</m> So we write <me>\begin{aligned}[t]t^{2}-11t+30\amp =t^{2}-5t-6t+30\newline \amp =t\!\left(t-5\right)-6\!\left(t-5\right)\newline \amp =\left(t-6\right)\!\left(t-5\right)\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>t^{2}-11t+30</m> into the top left and bottom right rectangles:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-16-image-1.png"/></sidebyside><p><p>The first term's coefficient, <m>1</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(1)\amp \end{array}</me></p>
+      <p>The third term, <m>30</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(30)\amp -1(-30)\amp 2(15)\amp -2(-15)\newline3(10)\amp -3(-10)\amp 5(6)\amp -5(-6)\newline\end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>t^{2}-11t+30</m> by guess-and-check. The following generic rectangles show the solution:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-16-image-2.png"/></sidebyside><p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]t^{2}-11t+30\amp =\left(t-6\right)\!\left(t-5\right)\end{aligned}</me></p></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=BasicAlgebra/Factoring/factoring180.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <pg source="BasicAlgebra/Factoring/factoring185.pg"/>
+
+      
+    <static source="BasicAlgebra/Factoring/factoring185.pg" seed="17">
+      <statement><p>Factor the given polynomial</p><p><m>{3t^{2}+28t+9}=</m> <fillin name="AnSwEr0001" characters="19"/></p></statement>
+      
+      <solution><p><p>We will factor <m>3t^{2}+28t+9</m> where <m>a=3</m>, <m>b=28</m>, and <m>c=9</m>.</p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(3) \cdot (9) = 27</m>.</p>
+      <p>The number <m>27</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(27)\amp -1(-27)\amp 3(9)\amp -3(-9)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>28</m>, and this sum happens with <m>27+1=28</m> So we write <me>\begin{aligned}[t]3t^{2}+28t+9\amp =3t^{2}+27t+t+9\newline \amp =3t\!\left(t+9\right)+t+9\newline \amp =\left(3t+1\right)\!\left(t+9\right)\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>3t^{2}+28t+9</m> into the top left and bottom right rectangles:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-17-image-1.png"/></sidebyside><p><p>The first term's coefficient, <m>3</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(3)\amp \end{array}</me></p>
+      <p>The third term, <m>9</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(9)\amp -1(-9)\amp 3(3)\amp -3(-3)\newline\end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>3t^{2}+28t+9</m> by guess-and-check. The following generic rectangles show the solution:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-17-image-2.png"/></sidebyside><p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]3t^{2}+28t+9\amp =\left(3t+1\right)\!\left(t+9\right)\end{aligned}</me></p></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=BasicAlgebra/Factoring/factoring185.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <pg source="BasicAlgebra/Factoring/factoring395.pg"/>
+
+      
+    <static source="BasicAlgebra/Factoring/factoring395.pg" seed="18">
+      <statement><p>Factor the given polynomial</p><p><m>{2t^{4}-6t^{3}-20t^{2}}=</m> <fillin name="AnSwEr0001" characters="19"/></p></statement>
+      
+      <solution><p>Let<rsq/>s start by noting that <m>2t^{2}</m> is a common factor to each term, so 
+      we may write</p><p><m>{2t^{4}-6t^{3}-20t^{2}}={2t^{2}\!\left(t^{2}-3t-10\right)}</m></p><p>To factor this expression further we make the following observations:
+      <ul label="disc"><li>
+      <p>the leading coefficient is 1</p>
+      </li><li>
+      <p>the last term is <em>negative</em> which means that the factorization will 
+      have the following form</p>
+      <p><m>(t-\phantom{3})(t+\phantom{3})</m></p>
+      </li></ul></p><p>We look for factors of <m>-10</m> that add to <m>-3</m>; the 
+      factors that work are <m>2</m> and <m>-5</m> so</p><p><m>{2t^{4}-6t^{3}-20t^{2}}={2t^{2}\!\left(t+2\right)\!\left(t-5\right)}</m></p><p>Note that this answer can be checked by using the FOIL (<em>F</em>irst <em>O</em>utside <em>I</em>nside <em>L</em>ast) technique (exercise).</p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=BasicAlgebra/Factoring/factoring395.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <pg source="BasicAlgebra/Factoring/factoring450.pg"/>
+
+      
+    <static source="BasicAlgebra/Factoring/factoring450.pg" seed="19">
+      <statement><p>Factor the given polynomial</p><p><m>{49x^{2}-81}=</m> <fillin name="AnSwEr0001" characters="19"/></p></statement>
+      
+      <solution><p><p>We will factor <m>49x^{2}-81</m> where <m>a=49</m>, <m>b=0</m>, and <m>c=-81</m>.</p>
+      <p><em>Difference of Squares Formula: </em>The formula for a difference of squares is <me>a^2-b^2 = (a+b)(a-b)</me> Note that the polynomial <m>49x^{2}-81</m> matches the formula's right side, and we have: <me>\begin{aligned}[t]49x^{2}-81\amp =\left(7x\right)^2-\left(9\right)^2\newline \amp =\left(7x+9\right)\!\left(7x-9\right)\end{aligned}</me></p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(49) \cdot (-81) = -3969</m>.</p>
+      <p>The number <m>-3969</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(-3969)\amp -1(3969)\amp 3(-1323)\amp -3(1323)\newline7(-567)\amp -7(567)\amp 9(-441)\amp -9(441)\newline21(-189)\amp -21(189)\amp 27(-147)\amp -27(147)\newline49(-81)\amp -49(81)\amp 63(-63)\amp -63(63)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>0</m>, and this sum happens with <m>(-63)+63=0</m> So we write <me>\begin{aligned}[t]49x^{2}-81\amp =49x^{2}-63x+63x-81\newline \amp =7x\!\left(7x-9\right)+9\!\left(7x-9\right)\newline \amp =\left(7x+9\right)\!\left(7x-9\right)\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>49x^{2}-81</m> into the top left and bottom right rectangles:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-19-image-1.png"/></sidebyside><p><p>The first term's coefficient, <m>49</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(49)\amp 7(7)\amp \end{array}</me></p>
+      <p>The third term, <m>-81</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(-81)\amp -1(81)\amp 3(-27)\amp -3(27)\newline9(-9)\amp -9(9)\amp \end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>49x^{2}-81</m> by guess-and-check. The following generic rectangles show the solution:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-19-image-2.png"/></sidebyside><p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]49x^{2}-81\amp =\left(7x+9\right)\!\left(7x-9\right)\end{aligned}</me></p></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=BasicAlgebra/Factoring/factoring450.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <pg source="BasicAlgebra/Factoring/factoring535.pg"/>
+
+      
+    <static source="BasicAlgebra/Factoring/factoring535.pg" seed="20">
+      <statement><p>Factor the given polynomial</p><p><m>{9x^{2}-6x+1}=</m> <fillin name="AnSwEr0001" characters="19"/></p></statement>
+      
+      <solution><p><p>We will factor <m>9x^{2}-6x+1</m> where <m>a=9</m>, <m>b=-6</m>, and <m>c=1</m>.</p>
+      <p><em>Perfect Square Formula: </em>The formula for perfect square trinomials is <me>(a \pm b)^2=a^2 \pm 2ab + b^2</me> Note that the polynomial <m>9x^{2}-6x+1</m> matches the formula's right side, and we have: <me>\begin{aligned}[t]9x^{2}-6x+1\amp =\left(3x\right)^2-2\left(3x\right)\left(1\right)+\left(1\right)^2\newline \amp =\left(3x-1\right)\!\left(3x-1\right)\newline \amp =\left(3x-1\right)^{2}\end{aligned}</me></p>
+      <p><em>AC Method: </em>In this method, we first calculate the product of <m>a</m> and <m>c</m> in <m>ax^2+bx+c</m>. For this problem, we have <m>(9) \cdot (1) = 9</m>.</p>
+      <p>The number <m>9</m> can be factored into the product of two numbers in the following ways: <me>\begin{array}{lll}1(9)\amp -1(-9)\amp 3(3)\amp -3(-3)\newline\end{array}</me> Looking at the corresponding sums, we want a sum of <m>-6</m>, and this sum happens with <m>(-3)+(-3)=-6</m> So we write <me>\begin{aligned}[t]9x^{2}-6x+1\amp =9x^{2}-3x-3x+1\newline \amp =3x\!\left(3x-1\right)-\left(3x-1\right)\newline \amp =\left(3x-1\right)\!\left(3x-1\right)\newline \amp =\left(3x-1\right)^{2}\end{aligned}</me><em>Generic Rectangles Method: </em>First, we set up generic rectangles by putting the first term and third term in <m>9x^{2}-6x+1</m> into the top left and bottom right rectangles:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-20-image-1.png"/></sidebyside><p><p>The first term's coefficient, <m>9</m>, can be factored into the product of two numbers (where the first factor is positive) in the following ways: <me>\begin{array}{llll}1(9)\amp 3(3)\amp \end{array}</me></p>
+      <p>The third term, <m>1</m>, can be factored into the product of two numbers in the following ways: <me>\begin{array}{llll}1(1)\amp -1(-1)\amp \end{array}</me></p>
+      <p>We put each pair into the corresponding places next to those generic rectangles, and try to match the area of those rectangles with <m>9x^{2}-6x+1</m> by guess-and-check. The following generic rectangles show the solution:</p></p><sidebyside widths="66.6666666666667%"><image source="images/webwork-20-image-2.png"/></sidebyside><p><p>Dimensions of those generic rectangles in the diagram give us the solution: <me>\begin{aligned}[t]9x^{2}-6x+1\amp =\left(3x-1\right)\!\left(3x-1\right)\newline \amp =\left(3x-1\right)^{2}\end{aligned}</me></p></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=BasicAlgebra/Factoring/factoring535.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+        </exercisegroup>
+        <exercisegroup>
+          <introduction>
+            <p>Solve Quadratic Equations</p>
+          </introduction>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad35.pg"/>
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad35.pg" seed="21">
+      <statement><p>Solve the equation.</p><p><m>x^2 = {{\frac{1}{25}}}</m></p><p><fillin name="AnSwEr0001" characters="22"/></p></statement>
+      
+      <solution><p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to use the <em>square root method</em>.</p><p><m>\begin{aligned}
+                       x^2 = {{\frac{1}{25}}} \amp  \Rightarrow x=-\sqrt{{{\frac{1}{25}}}}\text{ or } x=\sqrt{{{\frac{1}{25}}}}\\
+                                          \amp  \Rightarrow x={-{\frac{1}{5}}}\text{ or } x={{\frac{1}{5}}}\\
+             \end{aligned}</m></p><p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.</p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad35.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad70.pg"/>
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad70.pg" seed="22">
+      <statement><p>Solve the equation.</p><p><m>61x^2  - 23= 0</m></p><p><fillin name="AnSwEr0001" characters="23"/></p></statement>
+      
+      <solution><p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to use the <em>square root method</em>.</p><p><m>\begin{aligned}
+                       61x^2-23 = 0\amp  \Rightarrow 61x^2=23 \\
+                                           \amp  \Rightarrow x^2=\frac{23}{61} \\
+                                          \amp  \Rightarrow x= -\sqrt{\frac{23}{61}}\text{ or } x=\sqrt{\frac{23}{61}}\\
+                                          \amp  \Rightarrow x= -\frac{\sqrt{23}}{\sqrt{61}}\cdot\frac{\sqrt{61}}{\sqrt{61}}\text{ or } x=\frac{\sqrt{23}}{\sqrt{61}}\cdot\frac{\sqrt{61}}{\sqrt{61}}\\
+                                          \amp  \Rightarrow x= -\frac{\sqrt{1403}}{61}\text{ or } x=\frac{\sqrt{1403}}{61}\\
+             \end{aligned}</m></p><p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.  We rationalized the denominator in each solution by multiplying by a factor of <m>1</m> using <m>\frac{\sqrt{61}}{\sqrt{61}}</m>.</p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad70.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad100.pg"/>
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad100.pg" seed="23">
+      <statement><p>Solve the equation.</p><p><m>{x^{2}-9x-10}= 0</m></p><p><fillin name="AnSwEr0001" characters="34"/></p></statement>
+      
+      <solution><p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to <em>factor</em> and then use the <em>zero product principle</em>.</p><p><m>\begin{aligned}
+                      {x^{2}-9x-10}= 0 \amp \Rightarrow (x+1)(x - 10) = 0 \\
+                                          \amp  \Rightarrow x+1=0 \text{ or } x - 10=0\\
+                                          \amp  \Rightarrow x=-1\text{ or } x=10\\
+             \end{aligned}</m></p><p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.</p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad100.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad145.pg"/>
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad145.pg" seed="24">
+      <statement><p>Solve the equation.</p><p><m>{x^{2}+5x+2}= 0</m></p><p><fillin name="AnSwEr0001" characters="29"/></p></statement>
+      
+      <solution><p>There are a few ways to solve this equation- this equation does 
+      not easily factor, so we will use the Quadratic Formula:</p><p><m>\begin{aligned}
+                  x \amp  = \frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
+                         \amp  = \frac{-5\pm\sqrt{25-8}}{2}\\
+                         \amp  = \frac{-5\pm\sqrt{17}}{2}\\
+              \end{aligned}</m></p><p>so <m>x=\frac{-5-\sqrt{17}}{2}\text{ or }\frac{-5+\sqrt{17}}{2}</m>.</p><p>Note that <em>all</em> quadratic equations have <em>two</em> (possibly repeated) solutions; in this problem both solutions are real. Each solution can be checked by substituting it into the original equation- this is left as an exercise.</p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=24&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad145.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+          <exercise>
+            <webwork-reps xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <pg source="BasicAlgebra/QuadraticEquations/solveQuad295.pg"/>
+
+      
+    <static source="BasicAlgebra/QuadraticEquations/solveQuad295.pg" seed="25">
+      <statement><p>Solve the equation.</p><p><m>{x^{2}}={20x-100}</m></p><p><fillin name="AnSwEr0001" characters="26"/></p></statement>
+      
+      <solution><p>There are a few ways to solve quadratic equations- the easiest way to solve this particular 
+      type of problem is to use the <em>zero product principle</em>.</p><p><m>\begin{aligned}
+                           {x^{2}}={20x-100}               \amp \Rightarrow {x^{2}-20x+100}=0 \\
+                                          \amp \Rightarrow {\left(x-10\right)\!\left(x-10\right)}=0 \\
+                                          \amp  \Rightarrow {x = 10}
+             \end{aligned}</m></p><p>In this problem there is just <em>one</em>, <em>repeated</em> solution.</p><p>The solution can be checked by substituting it into the original equation- this is left as an exercise.</p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=25&amp;sourceFilePath=BasicAlgebra/QuadraticEquations/solveQuad295.pg</server-url>
+
+  </webwork-reps>
+          </exercise>
+        </exercisegroup>
+      </exercises>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-expectations">
+      <title>Expectations</title>
+      <p>MTH 95 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. For starters, this means:<ul><li>
+            <p>Complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
+        </li><li>
+            <p>Read the assigned material from the textbook and elsewhere.</p>
+        </li><li>
+            <p>Make time to visit me in office hours at the slightest sign of difficulty with material.</p>
+        </li></ul></p>
+      <p>The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
+      <p>Here are some other expectations:<ul><li>
+            <p>Maintain respect for yourself and your classmates.</p>
+        </li><li>
+            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
+        </li><li>
+            <p>Check your <c>pcc.edu</c> email at least once a day.</p>
+        </li><li>
+            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
+        </li></ul></p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="technology">
+      <title>Technology Requirements</title>
+      <p>Part of this class will be learning how technology can assist you in exploring mathematical ideas.  In regular class time, a smart phone, tablet, or laptop is fine. During an exam, you must have a scientific or graphing calculator and you may not use other devices that connect to the internet. If you do not own one, there are options for you to borrow one. The only things you will need a calculator for during an exam are things that a plain old scientific calculator can do, not the specific graphing calculator tools.</p>
+      <p>You will also need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-textbook">
+      <title>Textbook</title>
+      <p>We are trying out a new <em>free</em> textbook written by PCC faculty. The book is called <pubtitle>ORCCA (Open Resources for Community College Algebra)</pubtitle>. We're excited to replace a roughly <m>\$117</m> book with this free book and save you a significant amount of money. This is the first time any MTH 95 section is using this book (along with ten other sections at PCC), and we will be asking you for your thoughts and feedback about it. We will work to make it better every term from here on out, so that future students have a free, excellent basic algebra textbook.</p>
+      <p>If you find any issues with this book where you think we could make it better, please let me know about each one.</p>
+      <p>Access this book as a web site at <url href="http://spot.pcc.edu/math/orcca/">spot.pcc.edu/math/orcca/</url>.</p>
+      <p>Download a printable version of it at <url href="http://spot.pcc.edu/~ajordan/orcca.pdf">spot.pcc.edu/<tilde/>ajordan/orcca.pdf</url>.</p>
+      <p>Purchase a printed copy for <m>\$12.00</m> plus shipping at <url href="https://www.amazon.com/gp/product/1986282899/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1986282899&amp;linkCode=as2&amp;tag=pccmath-20&amp;linkId=dceb3e8d9ca899296bb9754fa50a8d2f">Amazon</url>.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="grades">
+      <title>Grades</title>
+      <introduction>
+        <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
+      </introduction>
+      <subsection>
+        <title>Attendance/Participation</title>
+        <p>Each day of class that you attend is worth <quantity><mag>0.25</mag><unit base="percent"/></quantity> of your grade, up to a maximum of <quantity><mag>4</mag><unit base="percent"/></quantity>. This does not include holidays, inservice days, or days where the entire class period is devoted to an exam. Typically in a term this leaves at least one absence that would not have a direct effect on your grade. However missing class will hurt your chances for success on exams because you will not get the same attention that your classmates had.</p>
+      </subsection>
+      <subsection>
+        <title>Web Assignments</title>
+        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" text="type-global"/>. Collectively, all web assignments are worth <quantity><mag>11</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
+      </subsection>
+      <subsection>
+        <title>Written Assignments</title>
+        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>10</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
+      </subsection>
+      <subsection>
+        <title>Late Homework</title>
+        <p>Web assignments are due whenever <webwork/> says they are due for full credit.  There is no way to get credit for a late web assignment (unless you unlock an achievement item reward). After the due date, you may still type in answers to check your work, but doing so will not increase your score. After the due date, answers are available if you re-visit the problem. Any <webwork/> score can be <em>overwritten</em> by your next exam score, if that is to your benefit.</p>
+        <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then it is absolutely too late. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
+      </subsection>
+      <subsection>
+        <title>Contribution to the Book</title>
+        <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
+      </subsection>
+      <subsection>
+        <title>Exams</title>
+        <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are each worth <quantity><mag>23</mag><unit base="percent"/></quantity>, of your grade.</p>
+      </subsection>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-downloads">
+      <title>Course Downloads</title>
+      <subsection>
+        <title>In-class Notes</title>
+        <p>These note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <p>
+          <ul>
+            <li>
+                <p><url href="./notes/Notes10_1Apr3.pdf">Section 10.1</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_2,10_3Apr5.pdf">Sections 10.2 and 10.3</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_4,10_5Apr10.pdf">Sections 10.4 and 10.5</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes10_5,11_1Apr12.pdf">Sections 10.5 and 11.1</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes11_2Apr17.pdf">Section 11.2</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes11_3Apr19.pdf">Section 11.3</url></p>
+            </li>
+            <li>
+                <p>substitute covered Section 12.1</p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_2May3.pdf">Section 12.2</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes12_3,12_4May8.pdf">Sections 12.3 and 12.4</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Notes13_1,13_2May10.pdf">Sections 13.1 and 13.2</url></p>
+            </li>
+          </ul>
+        </p>
+      </subsection>
+      <subsection>
+        <title>In-Class Activity Worksheets</title>
+        <p>Here are some files associated with this course. This list may grow as the term progresses.</p>
+        <p>
+          <ul>
+            <li>
+                <p><url href="./activities/IntroToFunctions.pdf">Introduction to Functions</url> (<url href="./activities/IntroToFunctionsWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/DomainAndRange.pdf">Domain and Range</url> (<url href="./activities/DomainAndRangeWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/GraphingTechnologyUses.pdf">Uses for Graphing Technology</url> (<url href="./activities/GraphingTechnologyUsesWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/TechnicalDefinitionOfAFunction.pdf">Technical Definition of a Function</url> (<url href="./activities/TechnicalDefinitionOfAFunctionWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/AbsoluteValueFunctions.pdf">Absolute Value Function</url> (<url href="./activities/AbsoluteValueFunctionsWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/CompoundInequalities.pdf">Compound Inequalities</url> (<url href="./activities/CompoundInequalitiesWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/VertexForm.pdf">Vertex Form</url> (<url href="./activities/VertexFormWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/CompletingTheSquare.pdf">Completing the Square</url> (<url href="./activities/CompletingTheSquareWithAnswers.pdf">With Answers</url>)</p>
+            </li>
+            <li>
+                <p><url href="./activities/RationalFunctions.pdf">Rational Functions</url></p>
+            </li>
+            <li>
+                <p><url href="./activities/PracticeExam2.pdf">Practice Exam 2</url></p>
+            </li>
+          </ul>
+        </p>
+      </subsection>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-webwork">
+      <title>WeBWorK Assignments</title>
+      <introduction>
+        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-201802/">webwork.pcc.edu/webwork2/mth095-jordan-201802</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00<nbsp/><pm/> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.</p>
+        <p>Here is an example of what a <webwork/> problem is like.</p>
+        <exercise xml:id="webwork-demo">
+          <title>Multiply Powers</title>
+          <webwork-reps xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <authored>
+      
+        <pg-macros>
+                      <macro-file>contextLimitedPolynomial.pl</macro-file>
+                  </pg-macros>
+        <setup><pg-code>
+                          $a = 4;
+                          $b = 3;
+                          $c = $a + $b;
+                          $expression = Formula("x^($a)*x^($b)");
+      
+                          Context("LimitedPolynomial-Strict");
+                          # custom error message
+                          Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+                              = "Your answer must be fully simplified";
+      
+                          $answer = Formula("x^($c)");
+                          $product = $a*$b;
+                          $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+                              [Compute("x^($product)")] =&gt;
+                              "When multiplying terms with the same base, you do not multiply the exponents."));
+                      </pg-code></setup>
+        <statement><p>Use the properties of exponents to simplify <m><var name="$expression"/></m>.</p><p>
+            <m><var name="$expression"/>=</m>
+            <var name="$answer" evaluator="$evaluator" width="8"/>
+          </p></statement>
+        <solution><p>We <em>add</em> the exponents as follows:</p><md><mrow><var name="$expression"/>\amp=x^{<var name="$a"/>+<var name="$b"/>}</mrow><mrow>\amp=x^{<var name="$c"/>}</mrow></md></solution>
+      
+    </authored>
+
+    <pg>
+      #######################################
+      ###    Generated from PreTeXt source   
+      ###    on 2018-03-30T17:39:00-07:00    
+      ###                                    
+      ###   http://mathbook.pugetsound.edu   
+      ###                                    
+      #######################################
+      ## DBsubject()
+      ## DBchapter()
+      ## DBsection()
+      ## Level()
+      ## KEYWORDS()
+      ## TitleText1(Course Information and Syllabus)
+      ## EditionText1()
+      ## AuthorText1()
+      ## Section1(not reported)
+      ## Problem1(9.1)
+      ## Author()
+      ## Institution()
+      ## Language(en-US)
+      
+      DOCUMENT();
+      
+      ############################################################
+      # Load Macros
+      ############################################################
+      loadMacros(
+        "PGstandard.pl",
+        "MathObjects.pl",
+        "PGML.pl",
+        "AnswerFormatHelp.pl",
+        "answerHints.pl",
+        "contextLimitedPolynomial.pl",
+        "PGcourse.pl",
+      );
+      
+      ############################################################
+      # Header
+      ############################################################
+      COMMENT('Authored in PreTeXt');
+      TEXT(beginproblem());
+      
+      ############################################################
+      # PG Setup
+      ############################################################
+      $a = 4;
+      $b = 3;
+      $c = $a + $b;
+      $expression = Formula("x^($a)*x^($b)");
+      
+      Context("LimitedPolynomial-Strict");
+      # custom error message
+      Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+          = "Your answer must be fully simplified";
+      
+      $answer = Formula("x^($c)");
+      $product = $a*$b;
+      $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+          [Compute("x^($product)")] =&gt;
+          "When multiplying terms with the same base, you do not multiply the exponents."));
+      
+      ############################################################
+      # Body
+      ############################################################
+      
+      BEGIN_PGML
+      Use the properties of exponents to simplify [`[$expression]\text{.}`]
+      
+      [`[$expression]=`][________]{$evaluator}
+      
+      END_PGML
+      
+      ############################################################
+      # Solution
+      ############################################################
+      
+      BEGIN_PGML_SOLUTION
+      We _add_ the exponents as follows:
+      
+      &gt;&gt; [``\newcommand{\amp}{&amp;}\begin{aligned}
+      [$expression]\amp=x^{[$a]+[$b]}\\
+      \amp=x^{[$c]}
+      \end{aligned}``] &lt;&lt;
+      
+      END_PGML_SOLUTION
+      
+      ############################################################
+      # End Problem
+      ############################################################
+      
+      ENDDOCUMENT();
+      
+    </pg>
+
+      
+    <static seed="32">
+      <statement><p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p><p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8"/></p></statement>
+      
+      <solution><p>We <em>add</em> the exponents as follows:</p><p><m>\displaystyle{\begin{aligned}
+      {x^{4}x^{3}}\amp=x^{4+3}\\
+      \amp=x^{7}
+      \end{aligned}}</m></p></solution>
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgX2FkZF8gdGhlIGV4cG9uZW50cyBhcyBmb2xsb3dzOgoKCgo%2BPiBbYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgXSA8PAoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkJFR0lOX1BHTUxfU09MVVRJT04KV2UgX2FkZF8gdGhlIGV4cG9uZW50cyBhcyBmb2xsb3dzOgoKCgo%2BPiBbYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgXSA8PAoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=anonymous&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=32&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKEtleWJvYXJkSW5zdHJ1Y3Rpb25zKHFAXChcbmV3Y29tbWFuZHtcYW1wfXsmfVwpQCkpOwokYSA9IDQ7CiRiID0gMzsKJGMgPSAkYSArICRiOwokZXhwcmVzc2lvbiA9IEZvcm11bGEoInheKCRhKSp4XigkYikiKTsKCkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0%2Be2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogICAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICAgIFtDb21wdXRlKCJ4XigkcHJvZHVjdCkiKV0gPT4KICAgICJXaGVuIG11bHRpcGx5aW5nIHRlcm1zIHdpdGggdGhlIHNhbWUgYmFzZSwgeW91IGRvIG5vdCBtdWx0aXBseSB0aGUgZXhwb25lbnRzLiIpKTsKCkJFR0lOX1BHTUwKVXNlIHRoZSBwcm9wZXJ0aWVzIG9mIGV4cG9uZW50cyB0byBzaW1wbGlmeSBbYFskZXhwcmVzc2lvbl1cdGV4dHsufWBdCgpbYFskZXhwcmVzc2lvbl09YF1bX19fX19fX19deyRldmFsdWF0b3J9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7</server-url>
+
+  </webwork-reps>
+        </exercise>
+      </introduction>
+      <subsection>
+        <title>Why are we using WeBWorK?</title>
+        <p>Traditionally, homework comes from textbook problems that students would do on paper, and then turn in in to the instructor.  One drawback of this is that students get no feedback at all until about a week later, and at that point the student is no longer actively thinking about material from two weeks earlier.  Another drawback is that it is impossible for a student to do the appropriate amount of homework and for the instructor to give quality feedback for every single exercise.   Often an instructor is only able to give feedback for a small subset of the exercises.  Using <webwork/> brings the following advantages over traditional homework.</p>
+        <p>
+          <dl>
+            <li>
+                <title>Cost</title>
+                <p><webwork/> is free, unlike most online homework programs.</p>
+            </li>
+            <li>
+                <title>Timely Feedback</title>
+                <p>Rather than waiting a week for written feedback from your instructor, you get instant feedback from <webwork/>.</p>
+            </li>
+            <li>
+                <title>Quality Feedback</title>
+                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.</p>
+            </li>
+            <li>
+                <title>Ease of Communication</title>
+                <p><webwork/> encourages you to write your instructor for help, who can provide even higher quality feedback based on your message and your previous attempts.</p>
+            </li>
+            <li>
+                <title>Multiple or Unlimited Attempts</title>
+                <p>On paper, when you submit an answer, that's the end of it. With <webwork/> you might get a problem wrong on your first attempt, but you are encouraged to figure out your mistakes and try again.</p>
+            </li>
+            <li>
+                <title>Efficient Use of Class Time</title>
+                <p>Your instructor can monitor the whole class and see in real-time which problems and concepts are causing the class difficulty.</p>
+            </li>
+            <li>
+                <title>Extra Practice</title>
+                <p>Your instructor can set things up so that you can retry each problem with new random numbers involved. If you are unsure if you have mastered a skill, this gives you a way to keep practicing.</p>
+            </li>
+          </dl>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Logging in to WeBWorK</title>
+        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-201802">webwork.pcc.edu/webwork2/mth095-jordan-201802</url>. If you are working at your own computer, you might want to bookmark this link. Your username is your PCC email prefix, using all lowercase letters.  For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>. Your initial password is your PCC G-number, using a capital <c>G</c>.</p>
+      </subsection>
+      <subsection>
+        <title>The First Time You Log On</title>
+        <p>You should go to the <c>User Settings</c> menu in the upper left and change your password.  There is an Orientation assignment for you to take. Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>. Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.  The Orientation will remain available to you for the entire term, so you can always come back and look at it again.</p>
+      </subsection>
+      <subsection>
+        <title>Homework Sets Menu</title>
+        <p>This shows you the assignments that have been assigned to you and when they are due. You may:<ul><li>
+                <p>click on an assignment and begin working on problems online</p>
+            </li><li>
+                <p>check the box next to an assignment and click <c>Download Hardcopy</c> to get the assignment as a <c>.pdf</c> file which you may then print to work on away from a computer.</p>
+            </li></ul></p>
+        <p>When you click on an assignment, you will see a screen with the problem numbers listed. Off to the right is a message for you that might have specific instructions or information about the assignment. You should always look for and read this message.</p>
+      </subsection>
+      <subsection>
+        <title>Emailing for Help</title>
+        <p>When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any problem. Write a message explaining what you have tried and if possible, include the work from your calculations. <webwork/> will send your instructor an email with helpful information (like all of the incorrect attempts you have tried) and they get back to you soon with a response. When they respond, it will be with an email, so <alert>you must remember to check your email</alert>.</p>
+      </subsection>
+      <subsection>
+        <title>Math Achievements</title>
+        <p>As you complete more problems through the term, you will win badges for various <q>achievements</q>. For example, the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect submissions.  Both earning badges and just plain answering questions correctly will earn you <q>achievement points</q>. As you gain more achievement points, you will level up. Each time you level up, you earn an item that can be used to affect your grade.</p>
+        <p>
+          <dl>
+            <li>
+                 <title>Level 1: Lesser Rod of Revelation</title>
+                 <p>Give yourself 50<percent/> credit on one problem.</p>
+            </li>
+            <li>
+                 <title>Level 2: Potion of Forgetfulness</title>
+                 <p>Drop the number incorrect attempts down to <m>0</m>.</p>
+            </li>
+            <li>
+                 <title>Level 3: Tunic of Extension</title>
+                 <p>Extend the due date of a currently open homework for <m>24</m> hours.</p>
+            </li>
+            <li>
+                 <title>Level 4: Cupcake of Enlargement</title>
+                 <p>Double the weight of one problem.</p>
+            </li>
+            <li>
+                 <title>Level 5: Box of Transmogrification</title>
+                 <p>Change a single problem to be a (newly randomized) copy of a different problem on the same homework set.</p>
+            </li>
+            <li>
+                 <title>Level 6: Greater Rod of Revelation</title>
+                 <p>Give yourself 100<percent/> credit on one problem.</p>
+            </li>
+            <li>
+                 <title>Level 7: Robe of Longevity</title>
+                 <p>Extend the due date of a currently open homework for <m>48</m> hours.</p>
+            </li>
+            <li>
+                 <title>Level 8: Scroll of Resurrection</title>
+                 <p>Reopen a homework set (even a closed one) for an additional <m>24</m> hours. All problems will be re-randomized.</p>
+            </li>
+            <li>
+                 <title>Level 9: Greater Tome of Enlightenment</title>
+                 <p><q>Earn</q> 100<percent/> on every problem in a single homework set.</p>
+            </li>
+            <li>
+                 <title>Level 10: Cake of Enlargement</title>
+                 <p>Double the weight of an entire set.</p>
+            </li>
+          </dl>
+        </p>
+      </subsection>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-written-assignments">
+      <title>Written Assignments</title>
+      <p>These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>10</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
+      <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol><li>
+            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
+        </li><li>
+            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
+        </li><li>
+            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
+        </li><li>
+            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
+        </li><li>
+            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
+        </li></ol></p>
+      <p>
+        <dl>
+          <li xml:id="written1">
+            <title>Written HW 1</title>
+            <p>Due Tuesday Apr 10</p>
+            <p><ul><li>
+                    <p>Section 10.1, <hash/>68.</p>
+                </li><li>
+                    <p>Section 10.2, <hash/>72.</p>
+                </li><li>
+                    <p>Section 10.3, <hash/>38.</p>
+                </li></ul></p>
+
+            <p>This is your first written assignment, so you may not yet understand my grading scheme for written assignments. It is important that when someone reads your work, that <em>it stands on its own</em>, and does not need anything else like the book or a web page for a reader to understand the context. Therefore you should always explicitly let the reader know what problem you are trying to solve, always show all the steps you use to solve a problem, and you should always give a conclusion statement. If any graphs are part of the question or part of the problem-solving process, you should include those graphs in your write-up. And everything that you write should be in easy-to-read complete sentences, or use clearly labeled pictures drawn with a reasonable degree of accuracy.</p>
+        </li>
+          <li xml:id="written2">
+            <title>Written HW 2</title>
+            <p>Due Tuesday Apr 17</p>
+            <p><ul><li>
+                    <p>Section 11.1, <hash/>37, <hash/>42.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written3">
+            <title>Written HW 3</title>
+            <p>Due Thursday Apr 26</p>
+            <p><ul><li>
+                    <p>Section 11.2, <hash/>32.</p>
+                </li><li>
+                    <p>Section 11.3, <hash/>49.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written4">
+            <title>Written HW 4</title>
+            <p>Due Tuesday May 1</p>
+            <p><ul><li>
+                    <p>Use graphing technology to find all of the important points on the graph of <m>f</m>, where <m>f(x)=x^4+3x^2-2x+1</m>. Decimal approximations are OK. Make a graph on paper and label all of these points. The <q>important points</q> of a graph are where it crosses each axis, and where it reaches high points and low points.</p>
+                </li><li>
+                    <p>Use graphing technology to solve the inequality <m>\left\lvert x^2+30x-800\right\rvert\lt x+500</m>. Since a graph will be part of your problem-solving process, you need to include it in your write-up and explanation.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written5">
+            <title>Written HW 5</title>
+            <p>Due Tuesday May 8</p>
+            <p><ul><li>
+                    <p>Section 12.1, <hash/>15.</p>
+                </li><li>
+                    <p>Section 12.2 (don't use graphing technology!), <hash/>47, <hash/>51, <hash/>55, <hash/>59.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written6">
+            <title>Written HW 6</title>
+            <p>Due Tuesday May 15</p>
+            <p><ul><li>
+                    <p>Section 13.1, <hash/>26.</p>
+                </li><li>
+                    <p>Section 13.2, <hash/>76.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written7">
+            <title>Written HW 7</title>
+            <p>Due Tuesday May 22</p>
+            <p><ul><li>
+                    <p>Section 13.3, <hash/>20, <hash/>28.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written8">
+            <title>Written HW 8</title>
+            <p>Due Tuesday May 29</p>
+            <p><ul><li>
+                    <p>Section 13.5, <hash/>45, <hash/>49.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written9">
+            <title>Written HW 9</title>
+            <p>Due Tuesday June 5</p>
+            <p><ul><li>
+                    <p>Section 14.1, <hash/>40.</p>
+                </li><li>
+                    <p>Section 14.2, <hash/>50.</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written10">
+            <title>Written HW 10</title>
+            <p>Due Thursday June 14</p>
+            <p><ul><li>
+                    <p>Section 14.3, <hash/>18.</p>
+                </li><li>
+                    <p>Section 14.4, <hash/>46.</p>
+                </li></ul></p>
+        </li>
+        </dl>
+      </p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-contributions">
+      <title>Contributions</title>
+      <p>We are piloting a new, open-source textbook in this course called <init>ORCCA</init>. Even better, PCC owns the copyright. All this means that <em>you</em> can contribute to the textbook and your work might appear in the book in future terms!</p>
+      <p>
+        <ul>
+          <li>
+            <p>Choose any one section of the book from chapters 10 through 14.</p>
+        </li>
+          <li>
+            <p>Your assignment is to find something nontrivial about the section that you could improve. For instance, you might add a new application example, complete with a full explanation. You might find a discussion that you do not understand well, and then rewrite it so it makes more sense. There are many other things you might do, but you need to do something nontrivial. (Just fixing a typo will not result in a good grade for this project.) If you are uncertain if your idea would qualify, please bring it to me and I'll let you know.</p>
+        </li>
+          <li>
+            <p><ul><li>
+                    <p>If you choose a section from chapter 10, it is due Tuesday April 17.</p>
+                </li><li>
+                    <p>If you choose a section from chapter 11, it is due Tuesday May 1.</p>
+                </li><li>
+                    <p>If you choose a section from chapter 12, it is due Tuesday May 15.</p>
+                </li><li>
+                    <p>If you choose a section from chapter 13, it is due Tuesday June 5.</p>
+                </li><li>
+                    <p>If you choose a section from chapter 14, it is due Thursday June 14.</p>
+                </li></ul>
+            (You may always turn in your work early.)</p>
+        </li>
+          <li>
+            <p>Your work may be turned in electronically or hand-written on paper. Please, if you did <em>make</em> it electronically, then turn in the electronic form of the work by emailing it to me.</p>
+        </li>
+          <li>
+            <p>You will be graded according to the rubric below.</p>
+        </li>
+        </ul>
+      </p>
+      <p>We are serious about adding student content to this book, but only with your permission. If you agree to release your work with a Creative Commons Attribution license, then the PCC math faculty will examine it and in some cases we will add it to the book. If that happens, you will be credited in the book as a contributor!</p>
+      <p>Your grade will not be affected whether or not you agree to have your work added to the book.</p>
+      <paragraphs>
+        <title>Rubric</title>
+        <p>Out of 100 points for this assignment:<ul><li>
+                <p>5 points for opening with a clear description of your intent: what you are doing and why you are doing it. This description of intent should be one paragraph or less. For example, <q>I am adding an example to section 2.1 because I felt it needed another example of this type</q>. Or, <q>I am rewriting the explanation on page 314 because it didn't make sense to me, and I think the way I've written it sounds better</q>. Also, <em>please specifically state</em> whether or not you would release your work with a Creative Commons Attribution license for possibly adding it to the book.</p>
+            </li><li>
+                <p>35 points for how clear your submission is. For example, you would lose points for sentences that do not make sense as sentences. Or you would lose points if your submission comes with a graph whose details are unlcear. Or you could lose points for reaching some conclusion without explaining the steps that lead to that conclusion. And there are other potential issues with clarity too. Bring your work to me <em>before</em> turing it in, and I can let you know how it stands with respect to clarity. If you do lose points for clarity, I will explain how/why.</p>
+            </li><li>
+                <p>15 points for keeping your submission reasonalby concise while still keeping it clear. This should be an easy item to ace. You simply need to avoid letting your work go off into side discussions that are not relevant to the mathematics you are trying to teach.</p>
+            </li><li>
+                <p>25 points for having no incorrect mathematics in your work. Since these contributions may end up in the book, we don't want any errors!</p>
+            </li><li>
+                <p>20 points for submitting something that fits well into the section you are improving. For instance, if you were to add an example about advanced number theory to the section on graphing lines, you would probably get zero out of 20. If your work is a bad fit in more subtle ways, you might not get all 20 points here. Bring your work to me <em>before</em> turing it in, and I can let you know how well it seems to fit. If you do lose points for this item, I will explain how/why.</p>
+            </li></ul></p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-exams">
+      <title>Exams</title>
+      <introduction>
+        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
+        <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
+        <p>
+          <dl>
+            <li xml:id="exam1">
+            <title>Exam 1 (23<percent/>)</title>
+            <p>Covers sections 10.1<ndash/>11.3. (It corresponds to all homework that is due prior to the exam day.)</p>
+            <p>You'll have the entire class period for this exam, if you need it.</p>
+        </li>
+            <li xml:id="exam2">
+            <title>Exam 2 (23<percent/>)</title>
+            <p>Covers sections 12.1<ndash/>13.2. (It corresponds to all homework that is due prior to the exam day.) Additionally there will be some repeated questions from Exam 1. (So part of your study regimen should be reviewing your first exam.)</p>
+            <p>You'll have the entire class period for this exam, if you need it.</p>
+        </li>
+            <li xml:id="exam3">
+            <title>Exam 3 (23<percent/>)</title>
+            <p>Covers sections 13.3<ndash/>14.5. (It corresponds to all homework that is due prior to the exam day.) Additionally there will be some repeated questions from Exams 1 and 2. (So part of your study regimen should be reviewing your first and second exams.)</p>
+            <p>This exam is during finals week and is only two hours long.</p>
+        </li>
+          </dl>
+        </p>
+      </introduction>
+      <subsection>
+        <title>Missing an Exam</title>
+        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make it up within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
+        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
+      </subsection>
+      <subsection>
+        <title>Accommodated Testing</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
+      </subsection>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="resources">
+      <title>Student Resources</title>
+      <introduction>
+        <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+      </introduction>
+      <subsection>
+        <title>Tutoring</title>
+        <p>The Tutoring Center at Sylvania offers free tutoring in math.  You should find some time to check it out, if you haven't already. Details can be found at <url href="http://www.pcc.edu/resources/tutoring/sylvania/">www.pcc.edu/resources/tutoring/sylvania</url>.</p>
+        <p>As a PCC student, you have access to free online tutoring as well. Visit <url href="http://www.pcc.edu/resources/tutoring/sylvania/student-success/math-center/">www.pcc.edu/resources/tutoring/sylvania/student-success/math-center</url> for details.</p>
+      </subsection>
+      <subsection>
+        <title>Calculator Handbooks</title>
+        <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
+      </subsection>
+      <subsection>
+        <title>College Success Courses</title>
+        <p>There are several one credit courses available to help you maximize your success in the college experience.  These include courses specifically geared to study skills.  The following site offers information on these courses as well as tips for success: <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.</p>
+      </subsection>
+      <subsection>
+        <title>Math Study Skills</title>
+        <p>PCC instructor Jessica Bernards co-authored these free lessons on study skills that help people succeed in math courses. <url href="http://spot.pcc.edu/mathstudyskills/">spot.pcc.edu/mathstudyskills</url></p>
+      </subsection>
+      <subsection>
+        <title>Online Videos</title>
+        <p>At the Khan Academy (<url href="http://www.khanacademy.org">www.khanacademy.org</url>)  you  can  find  thousands  of  10-  to  30-minute videos on various mathematics topics. See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.</p>
+        <p>Khan Academy is just one such site. See what else you can find online searching for math videos. If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.</p>
+      </subsection>
+      <subsection>
+        <title>Counseling Services</title>
+        <p>(SY CC 210, 971–722–8153)</p>
+        <p>Get help dealing with personal or career concerns that may be impacting your academic success.  Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.</p>
+        <p><url href="http://www.pcc.edu/resources/counseling/">www.pcc.edu/resources/counseling</url>.</p>
+      </subsection>
+      <subsection>
+        <title>Multicultural Center</title>
+        <p>(SY CC 267, 971–722–4112)</p>
+        <p>A welcoming and inclusive space for diverse students.  One of the many services is one-on-one help for math courses, drop-in or by appointment:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/culture/">www.pcc.edu/resources/culture</url>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Queer Resource Center</title>
+        <p>A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/qrc/sylvania/">www.pcc.edu/resources/qrc/sylvania</url>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Student Computing Center</title>
+        <p>(SY Library, 971–722–4325)</p>
+        <p>internet access, mathematics computer programs, and more (orientation required)</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/computer-labs/">www.pcc.edu/resources/computer-labs/</url>
+        </p>
+        <p>allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term)</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Student Learning Center</title>
+        <p>(SY Library, 971–722–4540)</p>
+        <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
+        <p>
+          <url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Veteran's Resource Center</title>
+        <p>(SY CC 220, 971–722–8793)</p>
+        <p>Relax, connect, computer workstations, work study and volunteer opportunities, and more.  For additional information:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/veterans/sylvania">http://www.pcc.edu/resources/veterans/sylvania</url>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Women's Resource Center</title>
+        <p>(SY CC 268, 971–722–8101)</p>
+        <p>A wide variety of services that support the academic achievement of women:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/women/sylvania">www.pcc.edu/resources/women/sylvania</url>
+        </p>
+      </subsection>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="miscellaneous">
+      <title>Miscellaneous Items</title>
+      <subsection>
+        <title>ADA Accommodation</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor.</p>
+      </subsection>
+      <subsection>
+        <title>Email Notice</title>
+        <p>Due to Federal laws and concerns about privacy, all email communication between instructor and student shall be done via <alert>PCC assigned email address</alert>. Access email via MyPCC<mdash/>see instructor during office hours if unfamiliar with using MyPCC.</p>
+      </subsection>
+      <subsection>
+        <title>Equity <ampersand/> Inclusion Nondiscrimination Nonharassment (Title IX)</title>
+        <p>Portland Community College is committed to creating and fostering a learning and working environment based on open communication and mutual respect. This is an integral part of the College's academic mission to enrich our students' educational experiences and prepare them to live in and contribute to a global society. If you believe you have encountered sexual harassment, sexual misconduct, sexual assault, or discrimination based on race, color, religion, age, national origin, veteran status, sex, sexual orientation, gender identity, or disability please contact the Office of Equity and Inclusion at (971) 722-5840 or <email>equity.inclusion@pcc.edu</email>.</p>
+        <p>
+          <url href="http://www.pcc.edu/about/equity-inclusion/eeo-statement.html">www.pcc.edu/about/equity-inclusion/eeo-statement.html</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/equity-inclusion/nonharassment/">www.pcc.edu/about/equity-inclusion/nonharassment/</url>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Flexibility Statement</title>
+        <p>The instructor reserves the right to modify course content and/or substitute assignments and learning activities in response to institutional, weather, or class situations.  Flash Alert Messenger is a free service that delivers closure information:  <url href="http://www.pcc.edu/about/announcements/closure-information.html">www.pcc.edu/about/announcements/closure-information.html</url></p>
+      </subsection>
+      <subsection>
+        <title>Sanctuary College</title>
+        <p>PCC is a sanctuary college. For more information and resources, see: <url href="http://www.pcc.edu/resources/undocumented-students">www.pcc.edu/resources/undocumented-students</url></p>
+      </subsection>
+      <subsection>
+        <title>Grading and Registration Policies and Deadlines</title>
+        <p>
+          <dl>
+            <li>
+                <title>Adding and Dropping</title>
+                <p><url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url></p>
+            </li>
+            <li>
+                <title>Grading Options</title>
+                <p><url href="http://www.pcc.edu/registration/grading-policy/">www.pcc.edu/registration/grading-policy/</url></p>
+            </li>
+            <li>
+                <title>Grading Guidelines</title>
+                <p><url href="http://www.pcc.edu/resources/student-records/grading/">www.pcc.edu/resources/student-records/grading/</url></p>
+            </li>
+          </dl>
+        </p>
+      </subsection>
+      <subsection>
+        <title>Student Rights and Responsibilities Handbook</title>
+        <p>Students are required to comply with the Student Rights and Responsibilities Handbook. Included are policies on Students Rights, Student Conduct, Grade Appeal, Academic Integrity, Consensual Relationship Statement, and Children on PCC properties.</p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/">www.pcc.edu/about/policy/student-rights/</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf">www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf">www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/resources/academic/standards-practices/academic-integrity.html">www.pcc.edu/resources/academic/standards-practices/academic-integrity.html</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/relationships.pdf">www.pcc.edu/about/policy/student-rights/documents/relationships.pdf</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/children.pdf">www.pcc.edu/about/policy/student-rights/documents/children.pdf</url>
+        </p>
+      </subsection>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-calendar">
+      <title>Calendar</title>
+      <p>The following dates are of interest to everyone:</p>
+      <sidebyside>
+        <tabular top="major" bottom="minor" left="major" valign="top" right="minor">
+          <col/>
+          <col/>
+          <col right="major" width="50%"/>
+          <row>
+            <cell>Saturday</cell>
+            <cell>Apr 7</cell>
+            <cell>
+                    <p>Last day to choose financial aid refund option: see <url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">MyRefunds</url>.</p>
+                    <p>Last day to drop 8-12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html">how to drop</url>.</p>
+                </cell>
+          </row>
+          <row>
+            <cell>Tuesday</cell>
+            <cell>Apr 10</cell>
+            <cell>
+                    <p>Last day to add classes.</p>
+                </cell>
+          </row>
+          <row bottom="major">
+            <cell>Saturday</cell>
+            <cell>May 26</cell>
+            <cell>
+                    <p>Last day to change grade option for 11<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">grade options</url>.</p>
+                    <p>Last day to withdraw from 11<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">how to withdraw</url>.</p>
+                </cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p>
+      <!--
+    <p>There are two calendars below; the first is for Monday-Wednesday sections, and the second is for Tuesday-Thursday sections.</p>
+-->
+      <!--    <table xml:id="mw-calendar">
+        <title>Monday-Wednesday sections</title>
+        <tabular top="major" bottom="minor" left="major" valign="top">
+             <col/>
+             <col/>
+             <col right="minor"/>
+             <col right="minor"/>
+             <col/>
+             <col/>
+             <col right="major"/>
+             <row bottom="none">
+                 <cell colspan="3">Monday</cell>
+                 <cell>Tuesday</cell>
+                 <cell colspan="3">Wednesday</cell>
+             </row>
+             <row bottom="medium">
+                 <cell/>
+                 <cell>Read</cell>
+                 <cell>Due</cell>
+                 <cell>Due</cell>
+                 <cell/>
+                 <cell>Read</cell>
+                 <cell>Due</cell>
+             </row>
+             <row>
+                 <cell>1/9</cell>
+                 <cell>9.2, 9.3</cell>
+                 <cell/>
+                 <cell><line><webwork/></line><line>Orientation</line></cell>
+                 <cell>1/11</cell>
+                 <cell>9.3, 9.4</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>1/16</cell>
+                 <cell colspan="2"><line>Martin Luther King <abbr>Jr.</abbr> Day</line><line>(class does not meet)</line></cell>
+                 <cell><webwork/></cell>
+                 <cell>1/18</cell>
+                 <cell>9.4, 9.5</cell>
+                 <cell><xref ref="written1" text="title"/></cell>
+             </row>
+             <row>
+                 <cell>1/23</cell>
+                 <cell>10.1, 10.2</cell>
+                 <cell><xref ref="written2" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>1/25</cell>
+                 <cell>10.3</cell>
+                 <cell><xref ref="exam1" text="title"/></cell>
+             </row>
+             <row>
+                 <cell>1/30</cell>
+                 <cell>10.4, 10.5</cell>
+                 <cell><xref ref="written3" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>2/1</cell>
+                 <cell>10.5, 10.6</cell>
+                 <cell/>
+             </row>
+             <row>
+                 <cell>2/6</cell>
+                 <cell>10.6</cell>
+                 <cell><xref ref="written4" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>2/8</cell>
+                 <cell>11.1, 11.2</cell>
+                 <cell></cell>
+             </row>
+             <row>
+                 <cell>2/13</cell>
+                 <cell>11.3, 11.4</cell>
+                 <cell><xref ref="written5" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>2/15</cell>
+                 <cell>11.4, 11.5</cell>
+                 <cell><xref ref="exam2" text="title"/></cell>
+             </row>
+             <row>
+                 <cell>2/20</cell>
+                 <cell>12.1, 12.2</cell>
+                 <cell><xref ref="written6" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>2/22</cell>
+                 <cell>12.3</cell>
+                 <cell></cell>
+             </row>
+             <row>
+                 <cell>2/27</cell>
+                 <cell>12.5</cell>
+                 <cell><xref ref="written7" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>3/1</cell>
+                 <cell>12.6, 12.7</cell>
+                 <cell></cell>
+             </row>
+             <row>
+                 <cell>3/6</cell>
+                 <cell>12.7, 12.8</cell>
+                 <cell><xref ref="written8" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>3/8</cell>
+                 <cell>13.1, 13.2</cell>
+                 <cell><xref ref="exam3" text="title"/></cell>
+             </row>
+             <row>
+                 <cell>3/13</cell>
+                 <cell>13.2, 13.3</cell>
+                 <cell><xref ref="written9" text="title"/></cell>
+                 <cell><webwork/></cell>
+                 <cell>3/15</cell>
+                 <cell>13.6</cell>
+                 <cell></cell>
+             </row>
+             <row bottom="major">
+                 <cell>3/20</cell>
+                 <cell colspan="2">11:00 section has <xref ref="exam4" text="title"/> at 11:00, <xref ref="written9" text="title"/></cell>
+                 <cell colspan="2">Class does not meet</cell>
+                 <cell><webwork/></cell>
+                 <cell>3/22</cell>
+                 <cell colspan="2"><line><xref ref="exam4" text="title"/> at 8:00</line><line><xref ref="written10" text="title"/></line></cell>
+             </row>
+        </tabular>
+    </table>
+-->
+      <sidebyside>
+        <tabular top="major" bottom="minor" left="major" valign="top">
+          <col right="minor"/>
+          <col/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col right="minor"/>
+          <col/>
+          <col right="major"/>
+          <row bottom="none">
+            <cell colspan="3" halign="center">Tuesday</cell>
+            <cell halign="center">Wednesday</cell>
+            <cell colspan="3" halign="center">Thursday</cell>
+          </row>
+          <row bottom="medium">
+            <cell/>
+            <cell>Read</cell>
+            <cell halign="center">Due</cell>
+            <cell halign="center">Due</cell>
+            <cell/>
+            <cell>Read</cell>
+            <cell>Due</cell>
+          </row>
+          <row>
+            <cell>4/3</cell>
+            <cell>10.1</cell>
+            <cell/>
+            <cell>
+              <line>
+                <webwork/>
+              </line>
+              <line>Orientation</line>
+            </cell>
+            <cell>4/5</cell>
+            <cell>10.2, 10.3</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>4/10</cell>
+            <cell>10.3, 10.4, 10.5</cell>
+            <cell>
+              <xref ref="written1" text="title"/>
+            </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>4/12</cell>
+            <cell>10.5, 11.1</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>4/17</cell>
+            <cell>11.2</cell>
+            <cell>
+                    <line><xref ref="written2" text="title"/></line>
+                    <line>Ch 10 contributions</line>
+                </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>4/19</cell>
+            <cell>11.3</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>4/24</cell>
+            <cell colspan="2">
+                    <line>In-service Day</line>
+                    <line>Class does not meet</line>
+                </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>4/26</cell>
+            <cell colspan="2">
+                    <line><xref ref="exam1" text="title"/></line>
+                    <line><xref ref="written3" text="title"/></line>
+                </cell>
+          </row>
+          <row>
+            <cell>5/1</cell>
+            <cell>12.1</cell>
+            <cell>
+                    <line><xref ref="written4" text="title"/></line>
+                    <line>Ch 11 contributions</line>
+                </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>5/3</cell>
+            <cell>12.2</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>5/8</cell>
+            <cell>12.3, 12.4</cell>
+            <cell>
+              <xref ref="written5" text="title"/>
+            </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>5/10</cell>
+            <cell>13.1, 13.2</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>5/15</cell>
+            <cell>13.3</cell>
+            <cell>
+                    <line><xref ref="written6" text="title"/></line>
+                    <line>Ch 12 contributions</line>
+                </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>5/17</cell>
+            <cell colspan="2">
+              <xref ref="exam2" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>5/22</cell>
+            <cell>13.4</cell>
+            <cell>
+              <xref ref="written7" text="title"/>
+            </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>5/24</cell>
+            <cell>13.5</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>5/29</cell>
+            <cell>14.1</cell>
+            <cell>
+              <xref ref="written8" text="title"/>
+            </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>5/31</cell>
+            <cell>14.2, 14.3</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>6/5</cell>
+            <cell>14.4</cell>
+            <cell>
+                    <line><xref ref="written9" text="title"/></line>
+                    <line>Ch 13 contributions</line>
+                </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>6/7</cell>
+            <cell colspan="2">Exam Preparation</cell>
+          </row>
+          <row bottom="major">
+            <cell>6/12</cell>
+            <cell colspan="2">
+              <line>Class does not meet</line>
+            </cell>
+            <cell>
+              <webwork/>
+            </cell>
+            <cell>6/14</cell>
+            <cell colspan="2">
+                    <line><xref ref="exam3" text="title"/> at 8:00</line>
+                    <line><xref ref="written10" text="title"/></line>
+                    <line>Ch 14 contributions</line>
+                </cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <!--     <p>The math department and student learning center are working together to provide <q>just in time</q> workshops on certain key topics. We encourage you to attned these workshops to prop up the skill sets you are more likely to have trouble with. Here is the schedule of workshops.</p>
+
+    <table>
+        <caption>Workshop Schedule</caption>
+        <tabular left="major" right="minor" top="major" bottom="minor">
+            <col/>
+            <col width="19%"/>
+            <col width="19%"/>
+            <col/>
+            <col width="19%"/>
+            <col width="19%" right="major"/>
+            <row halign="center">
+                <cell colspan="3">Monday</cell>
+                <cell colspan="3">Tuesday</cell>
+            </row>
+            <row>
+                <cell/>
+                <cell><line>12:00<ndash/>12:50</line><line>LIB 212</line></cell>
+                <cell><line>2:00<ndash/>2:50</line><line>LIB 145</line></cell>
+                <cell/>
+                <cell><line>12:00<ndash/>12:50</line><line>LIB 145</line></cell>
+                <cell><line>1:00<ndash/>1:50</line><line>LIB 145</line></cell>
+            </row>
+            <row>
+                <cell>1/15</cell>
+                <cell/>
+                <cell/>
+                <cell>1/16</cell>
+                <cell/>
+                <cell><p>Solving Systems Using Substitution<mdash />emphasis on dealing with fractions</p></cell>
+            </row>
+            <row>
+                <cell>1/22</cell>
+                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
+                <cell/>
+                <cell>1/23</cell>
+                <cell/>
+                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
+            </row>
+            <row>
+                <cell>1/29</cell>
+                <cell><p>Properties of Exponents</p></cell>
+                <cell/>
+                <cell>1/30</cell>
+                <cell/>
+                <cell><p>Properties of Exponents</p></cell>
+            </row>
+            <row>
+                <cell>2/5</cell>
+                <cell><p>Polynomials</p></cell>
+                <cell/>
+                <cell>2/6</cell>
+                <cell/>
+                <cell><p>Polynomials</p></cell>
+            </row>
+            <row>
+                <cell>2/12</cell>
+                <cell><p>Factoring Trinomials</p></cell>
+                <cell/>
+                <cell>2/13</cell>
+                <cell/>
+                <cell><p>Factoring Trinomials</p></cell>
+            </row>
+            <row>
+                <cell>2/19</cell>
+                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
+                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
+                <cell>2/20</cell>
+                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
+                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
+            </row>
+            <row>
+                <cell>2/26</cell>
+                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
+                <cell/>
+                <cell>2/27</cell>
+                <cell/>
+                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
+            </row>
+            <row>
+                <cell>3/5</cell>
+                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
+                <cell/>
+                <cell>3/6</cell>
+                <cell/>
+                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
+            </row>
+            <row bottom="major">
+                <cell>3/12</cell>
+                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
+                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
+                <cell>3/13</cell>
+                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
+                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
+            </row>
+        </tabular>
+    </table> -->
+    </section>
+  </article>
+</mathbook>

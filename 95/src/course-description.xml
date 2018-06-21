@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Course Description</title>
+
+    <p>Taken from the official PCC course description:</p>
+
+    <sidebyside halign="left">
+        <tabular>
+            <row>
+                <cell>Course Number:</cell>
+                <cell>MTH 95</cell>
+            </row>
+            <row>
+                <cell>Course Title:</cell>
+                <cell>Intermediate Algebra</cell>
+            </row>
+            <row>
+                <cell>Credit Hours:</cell>
+                <cell>4</cell>
+            </row>
+            <row>
+                <cell>Lecture Hours:</cell>
+                <cell>30</cell>
+            </row>
+            <row>
+                <cell>Lecture/Lab Hours:</cell>
+                <cell>20</cell>
+            </row>
+        </tabular>
+    </sidebyside>
+
+    <p>Explores functions graphically, symbolically, verbally, and numerically with an emphasis on function notation. Investigates functions, equations, and graphs involving quadratic, rational, radical, and absolute value expressions. Integrates technology throughout. Recommended that MTH 63 or MTH 65 or MTH 70 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Prerequisites: (MTH 63 or MTH 65 or MTH 70) and (RD 90 and WR 90) or IRW 90 or equivalent placement. Audit available. </p>
+
+    <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+
+</section>

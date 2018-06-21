@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Written Assignments</title>
+
+    <p>These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>10</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
+
+    <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
+        <li>
+            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
+        </li>
+        <li>
+            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
+        </li>
+        <li>
+            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
+        </li>
+        <li>
+            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
+        </li>
+        <li>
+            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
+        </li>
+    </ol></p>
+
+    <p><dl>
+        <li xml:id="written1">
+            <title>Written HW 1</title>
+            <p>Due Tuesday Apr 10</p>
+            <p><ul>
+                <li>
+                    <p>Section 10.1, <hash />68.</p>
+                </li>
+                <li>
+                    <p>Section 10.2, <hash />72.</p>
+                </li>
+                <li>
+                    <p>Section 10.3, <hash />38.</p>
+                </li>
+            </ul></p>
+
+            <p>This is your first written assignment, so you may not yet understand my grading scheme for written assignments. It is important that when someone reads your work, that <em>it stands on its own</em>, and does not need anything else like the book or a web page for a reader to understand the context. Therefore you should always explicitly let the reader know what problem you are trying to solve, always show all the steps you use to solve a problem, and you should always give a conclusion statement. If any graphs are part of the question or part of the problem-solving process, you should include those graphs in your write-up. And everything that you write should be in easy-to-read complete sentences, or use clearly labeled pictures drawn with a reasonable degree of accuracy.</p>
+        </li>
+        <li xml:id="written2">
+            <title>Written HW 2</title>
+            <p>Due Tuesday Apr 17</p>
+            <p><ul>
+                <li>
+                    <p>Section 11.1, <hash />37, <hash/>42.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written3">
+            <title>Written HW 3</title>
+            <p>Due Thursday Apr 26</p>
+            <p><ul>
+                <li>
+                    <p>Section 11.2, <hash />32.</p>
+                </li>
+                <li>
+                    <p>Section 11.3, <hash />49.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written4">
+            <title>Written HW 4</title>
+            <p>Due Tuesday May 1</p>
+            <p><ul>
+                <li>
+                    <p>Use graphing technology to find all of the important points on the graph of <m>f</m>, where <m>f(x)=x^4+3x^2-2x+1</m>. Decimal approximations are OK. Make a graph on paper and label all of these points. The <q>important points</q> of a graph are where it crosses each axis, and where it reaches high points and low points.</p>
+                </li>
+                <li>
+                    <p>Use graphing technology to solve the inequality <m>\left\lvert x^2+30x-800\right\rvert\lt x+500</m>. Since a graph will be part of your problem-solving process, you need to include it in your write-up and explanation.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written5">
+            <title>Written HW 5</title>
+            <p>Due Tuesday May 8</p>
+            <p><ul>
+                <li>
+                    <p>Section 12.1, <hash />15.</p>
+                </li>
+                <li>
+                    <p>Section 12.2 (don't use graphing technology!), <hash />47, <hash />51, <hash />55, <hash/>59.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written6">
+            <title>Written HW 6</title>
+            <p>Due Tuesday May 15</p>
+            <p><ul>
+                <li>
+                    <p>Section 13.1, <hash />26.</p>
+                </li>
+                <li>
+                    <p>Section 13.2, <hash />76.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written7">
+            <title>Written HW 7</title>
+            <p>Due Tuesday May 22</p>
+            <p><ul>
+                <li>
+                    <p>Section 13.3, <hash />20, <hash />28.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written8">
+            <title>Written HW 8</title>
+            <p>Due Tuesday May 29</p>
+            <p><ul>
+                <li>
+                    <p>Section 13.5, <hash />45, <hash />49.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written9">
+            <title>Written HW 9</title>
+            <p>Due Tuesday June 5</p>
+            <p><ul>
+                <li>
+                    <p>Section 14.1, <hash />40.</p>
+                </li>
+                <li>
+                    <p>Section 14.2, <hash />50.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written10">
+            <title>Written HW 10</title>
+            <p>Due Thursday June 14</p>
+            <p><ul>
+                <li>
+                    <p>Section 14.3, <hash />18.</p>
+                </li>
+                <li>
+                    <p>Section 14.4, <hash />46.</p>
+                </li>
+            </ul></p>
+        </li>
+    </dl></p>
+</section>
