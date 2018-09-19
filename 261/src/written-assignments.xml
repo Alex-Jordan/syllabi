@@ -28,125 +28,101 @@
     <p><dl>
         <li xml:id="written1">
             <title>Written HW 1</title>
-            <p>Due Monday Jul 3</p>
-            <p><ul>
+            <p>Due Wednesday June 27<ul>
                 <li>
-                    <p>Section 1.1 <hash />14. Use an augmented matrix and row operations to solve this system. Do not use a more primitive technique like repeated substitutions.</p>
+                    <p>Section 1.2 <hash/>28</p>
                 </li>
-                <li>
-                    <p>Section 1.1 <hash />28. By using row reductions, and thinking carefully about when certain expressions will equal <m>0</m>, you can answer this question with a realationship between <m>a</m>, <m>b</m>, <m>c</m>, and <m>d</m>. That relationshop might be an equation, an inequality, or something else.</p>
-                </li>
-                <li>
-                    <p>Section 1.2 <hash />12, <hash />24, <hash />30.</p>
-                </li>
-                <li>
-                    <p>Section 1.3 <hash />4, <hash />20, <hash />28, <hash />29, <hash />30.</p>
-                </li>
-            </ul></p>
+            </ul>Do not just state an answer. Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, you must <em>explain why</em> your answer is a correct answer. If it helps, it is acceptable to cite the book's theorems, but for self-containment you need to write the part of the theorem statement that is relevant into your work. That is, for a reader seeking clarity, do not make them open the book to read the theorem statement.</p>
         </li>
         <li xml:id="written2">
             <title>Written HW 2</title>
-            <p>Due Monday Jul 10</p>
-            <p><ul>
+            <p>Due Friday June 29<ul>
                 <li>
-                    <p>Section 1.4 <hash />14, <hash />16, <hash />26, <hash />32 (don't be vague; use the theorem).</p>
+                    <p>Section 1.4 <hash/>26</p>
                 </li>
-                <li>
-                    <p>Section 1.5 <hash />16, <hash />28.</p>
-                </li>
-                <li>
-                    <p>Section 1.6 <hash />6, <hash />12.</p>
-                </li>
-                <li>
-                    <p>Section 1.7 <hash />6, <hash />28.</p>
-                </li>
-            </ul></p>
+            </ul>Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, write up your explanation in such a way that a beginning linear algebra student can understand your argument and be convinced that you are correct.</p>
         </li>
         <li xml:id="written3">
             <title>Written HW 3</title>
-            <p>Due Monday Jul 17</p>
-            <p><ul>
+            <p>Due Monday July 2<ul>
                 <li>
-                    <p>Section 1.8 <hash />14, <hash />16, <hash />23, <hash />24, <hash />32, <hash />36.</p>
+                    <p>Section 1.6 <hash/>12</p>
                 </li>
-                <li>
-                    <p>Section 1.9 <hash />8, <hash />12, <hash />14, <hash />32.</p>
-                </li>
-            </ul></p>
+            </ul>Be careful: the diagram for this problem is on the next page from where the question starts. And there are three parts (a,b,c) not just two. Follow the <q>five C's</q> to earn an A on each written homework assignment.</p>
         </li>
         <li xml:id="written4">
             <title>Written HW 4</title>
-            <p>Due Monday Jul 24</p>
-            <p><ul>
+            <p>Due Friday July 6<ul>
                 <li>
-                    <p>Section 2.1 <hash />21, <hash />22, <hash />23, <hash />40.</p>
+                    <p>Section 1.7 <hash/>27</p>
                 </li>
-                <li>
-                    <p>Section 2.2 <hash />18, <hash />38 (For the second part, realize that the span of <m>CA</m>'s columns would be a subset of the span of <m>C</m>'s columns. Don't just quote me on this; explain why yourself, and why that matters.)</p>
-                </li>
-                <li>
-                    <p>Section 2.3 <hash />26 (carefully use th Invertible Matrix Theorem), <hash />41 (Just parts a. and b.).</p>
-                </li>
-                <li>
-                    <p>Section 3.1 <hash />44, <hash />45.</p>
-                </li>
-            </ul></p>
+            </ul>Answer with a clear argument that demonstrates you understand the meaning of <q>linear independent</q>.</p>
         </li>
         <li xml:id="written5">
             <title>Written HW 5</title>
-            <p>Due Monday Jul 31</p>
-            <p><ul>
+            <p>Due Wednesday July 11<ul>
                 <li>
-                    <p>Section 3.2 <hash />10, <hash />29, <hash />34.</p>
+                    <p>Section 1.8 <hash/>32</p>
                 </li>
-                <li>
-                    <p>Section 2.8 <hash />2,  <hash />29, <hash />32 (Specifically, say something about a basis for <m>\operatorname{Col} R</m>).</p>
-                </li>
-                <li>
-                    <p>Section 4.3 <hash />24, <hash />29.</p>
-                </li>
-                <li>
-                    <p>Section 2.9 <hash />20, <hash />27 (With part b., think about the number of rows and columns that <m>C</m> has).</p>
-                </li>
-            </ul></p>
+            </ul>Answer with a clear argument that demonstrates you understand the definition of a <q>linear transformation</q>.</p>
         </li>
         <li xml:id="written6">
             <title>Written HW 6</title>
-            <p>Due Monday Aug 7</p>
-             <p><ul>
+            <p>Due Friday July 13<ul>
                 <li>
-                    <p>Section 4.4 <hash />8, <hash />28 (This will explore applying things you have learned about <m>\mathbb{R}^n</m> to another vector space: the space of quadratic polynomials, <m>\mathbb{P}_2</m>. This space has a standard basis <m>\{1,t,t^2\}</m>, which you can identify with <m>\{\vec{e}_1,\vec{e}_2,\vec{e}_3\}</m> in <m>\mathbb{R}^3</m>).</p>
+                    <p>Section 2.3 <hash/>28</p>
                 </li>
-                <li>
-                    <p>Section 4.7 <hash />2, <hash />14.</p>
-                </li>
-                <li>
-                    <p>Section 5.1 <hash />19, <hash />20, <hash />35.</p>
-                </li>
-                <li>
-                    <p>Section 5.2 <hash />20, <hash />27, <hash />30.</p>
-                </li>
-            </ul></p>
+            </ul>Note: you are given that <m>(AB)^{-1}</m> exists, but you cannot write <m>(AB)^{-1}=B^{-1}A^{-1}</m> because that is only true when both <m>A^{-1}</m> and <m>B^{-1}</m> exist. In this exercise, you do not yet know if these things exist. So you will have to be more careful with establishing that <m>B^{-1}</m> exists.</p>
         </li>
         <li xml:id="written7">
             <title>Written HW 7</title>
-            <p>Due Monday Aug 14</p>
+            <p>Due Monday July 16<ul>
                 <li>
-                    <p>Section 5.3 <hash />10, <hash />16, <hash />26.</p>
+                    <p>Section 2.9 <hash/>22</p>
                 </li>
+            </ul>Since you are given information about the dimension of <m>\mathoperator{Span}\left\{\vec{v}_1,\vce{v}_2,\ldots,\vec{v}_5\right\}</m>, you should demonstrate that you know the linear algebra defintion of <q>dimension</q>. Your explanation should somehow rely on a basis with <m>4</m> elements.</p>
+        </li>
+        <li xml:id="written8">
+            <title>Written HW 8</title>
+            <p>Due Wednesday July 18<ul>
                 <li>
-                    <p>Section 6.1 <hash />26, <hash />30.</p>
+                    <p>Section 3.2 <hash/>29</p>
                 </li>
-                <li>
-                    <p>Section 6.2 <hash />29.</p>
-                </li>
-                <li>
-                    <p>Section 6.3 <hash />24.</p>
-                </li>
-                <li>
-                    <p>Section 6.4 <hash />6, <hash />10, <hash />20.</p>
-                </li>
+            </ul>If you actually multiply out <m>B^4</m> then you are missing the point. Don't do it the slow way!</p>
+        </li>
+        <li xml:id="written9">
+            <title>Written HW 9</title>
+            <p>Due Monday July 23</p>
+            <p>Actually, you may turn this in as late as Wednesday July 25. But Monday is good too.</p>
             <p><ul>
+                <li>
+                    <p>Section 4.4 <hash/>32</p>
+                    <p>The idea here is that <m>\mathbb{P}_2</m> is the set of quadratic, linear, and constant polynomials: <m>\left\{a+bt+ct^2\mid a,b,c\in\mathbb{R}\right\}</m>. And that you can treat this set like vectors: adding two such things gives you another such thing, and scaling such things by real numbers gives you another such thing. The standard basis for <m>\mathbb{P}_2</m> is the set of three polynomials <m>\left\{1, t, t^2\right\}</m>. So each polynomial <m>a+bt+ct^2</m> identifies with a coordinate vector <m>\begin{bmatrix}a\\b\\c\end{bmatrix}</m>.</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written10">
+            <title>Written HW 10</title>
+            <p>Due Wednesday July 25<ul>
+                <li>
+                    <p>Section 4.7 <hash/>19</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written11">
+            <title>Written HW 11</title>
+            <p>Due Friday July 27<ul>
+                <li>
+                    <p>Section 5.2 <hash/>18</p>
+                </li>
+            </ul></p>
+        </li>
+        <li xml:id="written12">
+            <title>Written HW 12</title>
+            <p>Due Monday July 30<ul>
+                <li>
+                    <p>Section 6.4 <hash/>24</p>
+                </li>
             </ul></p>
         </li>
     </dl></p>

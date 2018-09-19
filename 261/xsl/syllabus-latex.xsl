@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 <!-- Thin layer on MathBook XML -->
-<xsl:import href="/Users/alexjordan/mathbook/xsl/mathbook-latex.xsl" />
+<xsl:import href="/Users/alex.jordan/mathbook/xsl/mathbook-latex.xsl" />
 
 <!-- Common thin layer                                                      -->
 <xsl:import href="clm-common.xsl" />
@@ -45,9 +45,9 @@
 </xsl:template>
 <xsl:template match="exercises//introduction|exercises//conclusion" mode="answerlist" />
 <xsl:template match="exercise" mode="answerlist">
-    <xsl:if test="answer">
+    <xsl:if test="answer">-->
         <!-- Lead with the problem number and some space -->
-        <xsl:text>\noindent\textbf{</xsl:text>
+        <!-- <xsl:text>\noindent\textbf{</xsl:text>
         <xsl:apply-templates select="." mode="origin-id" />
         <xsl:text>.}\quad{}</xsl:text>
         <xsl:if test="answer">
@@ -78,7 +78,7 @@
 <xsl:template match="exercisegroup">
     <xsl:text>\textbf{</xsl:text>
     <xsl:apply-templates select="./exercise[1]" mode="serial-number" />
-    <xsl:text>--</xsl:text>
+    <xsl:text>-</xsl:text>
     <xsl:apply-templates select="./exercise[last()]" mode="serial-number" />
     <xsl:text>. }</xsl:text>
     <xsl:apply-templates select="." mode="label" />
@@ -128,13 +128,13 @@
     <xsl:text>}&#xa;</xsl:text>
 </xsl:template>
 
-<xsl:template match="exercises">
+<xsl:template match="exercises">-->
     <!-- Information to console for latex run -->
-    <xsl:text>\typeout{************************************************}&#xa;</xsl:text>
+    <!-- <xsl:text>\typeout{************************************************}&#xa;</xsl:text>
     <xsl:text>\typeout{Exercises}&#xa;</xsl:text>
-    <xsl:text>\typeout{************************************************}&#xa;</xsl:text>
+    <xsl:text>\typeout{************************************************}&#xa;</xsl:text> -->
     <!-- Warn about paragraph deprecation -->
-    <xsl:text>\section*{Exercises}</xsl:text>
+    <!-- <xsl:text>\section*{Exercises}</xsl:text>
             <xsl:apply-templates select="." mode="label" />
             <xsl:text>&#xa;</xsl:text>
     <xsl:text>&#xa;</xsl:text>
@@ -143,9 +143,9 @@
         <xsl:apply-templates select="author" mode="name-list"/>
         <xsl:text>}}\par\bigskip&#xa;</xsl:text>
     </xsl:if>
-    <xsl:apply-templates select="introduction" />
+    <xsl:apply-templates select="introduction" /> -->
     <!-- Process the remaining contents -->
-    <xsl:apply-templates select="*[not(self::title or self::author or self::introduction or self::conclusion)]"/>
+    <!--<xsl:apply-templates select="*[not(self::title or self::author or self::introduction or self::conclusion)]"/>
     <xsl:apply-templates select="conclusion" />
 </xsl:template>
 -->

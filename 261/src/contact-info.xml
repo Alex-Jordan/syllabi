@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Contact Information</title>
 
@@ -49,15 +49,15 @@
                 <cell>Final Exam</cell>
             </row>
             <row bottom="major">
-                <cell>33954</cell>
-                <cell>M/W</cell>
-                <cell>12:00<ndash />3:20</cell>
+                <cell>32742</cell>
+                <cell>M/W/F</cell>
+                <cell>12:00<ndash />3:15</cell>
                 <cell>SY ST 209</cell>
-                <cell><line>Monday</line><line>8/14/2017</line><line>12:00<ndash />2:00</line></cell>
+                <cell><line>Wednesday</line><line>8/1/2018</line><line>12:00<ndash />3:15</line></cell>
             </row>
         </tabular>
     </sidebyside>
-    
+
     <p>I have drop-in office hours where you do not need to make an appointment:</p>
 
     <sidebyside>
@@ -72,12 +72,17 @@
             </row>
             <row>
                 <cell>Mondays</cell>
-                <cell>10:30<ndash />11:30</cell>
+                <cell>3:15<ndash />4:15</cell>
+                <!-- <cell></cell> -->
+            </row>
+            <row>
+                <cell>Wednesdays</cell>
+                <cell>3:15<ndash />4:15</cell>
                 <!-- <cell></cell> -->
             </row>
             <row bottom="major">
-                <cell>Wednesdays</cell>
-                <cell>10:30<ndash />11:30</cell>
+                <cell>Fridays</cell>
+                <cell>11:00<ndash />12:00</cell>
                 <!-- <cell></cell> -->
             </row>
         </tabular>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Course Description</title>
 
     <p>Taken from the official PCC course description:</p>
 
-    <sidebyside> 
+    <sidebyside>
         <tabular halign="left">
             <row>
                 <cell>Course Number:</cell>

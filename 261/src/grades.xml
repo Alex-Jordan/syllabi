@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-grades" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Grades</title>
 
@@ -21,7 +21,7 @@
 
     <subsection>
         <title>Written Assignments</title>
-        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>2</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>14</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
+        <p>Problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>12</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
     </subsection>
 
     <subsection>
@@ -33,7 +33,7 @@
 
     <subsection>
         <title>Presentations</title>
-        <p>You will be assigned two partners, and on the last week of class, each group will give a roughly 25-minute presentation on some topic that applies linear algebra. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. See <xref text="title" ref="section-presentations"/> for the specifics.</p>
+        <p>You will be assigned one or two partners, and on the last week of class, each group will give a roughly 25-minute presentation on some topic that applies linear algebra. These presentations are worth <quantity><mag>12</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. See <xref text="title" ref="section-presentations"/> for the specifics.</p>
     </subsection>
 
     <subsection>
