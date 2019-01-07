@@ -9,6 +9,8 @@
 
     <sidebyside halign="left">
         <tabular>
+            <col halign="right" />
+            <col/>
             <row>
                 <cell>Course Number:</cell>
                 <cell>MTH 95</cell>

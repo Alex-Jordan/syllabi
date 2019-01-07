@@ -5,14 +5,20 @@
 <section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Textbook</title>
 
-    <p>We are trying out a new <em>free</em> textbook written by PCC faculty. The book is called <pubtitle>ORCCA (Open Resources for Community College Algebra)</pubtitle>. We're excited to replace a roughly <m>\$117</m> book with this free book and save you a significant amount of money. This is the first time any MTH 95 section is using this book (along with ten other sections at PCC), and we will be asking you for your thoughts and feedback about it. We will work to make it better every term from here on out, so that future students have a free, excellent basic algebra textbook.</p>
+    <p>We are using a new <em>free</em> textbook written by PCC faculty. The book is called <pubtitle>ORCCA (Open Resources for Community College Algebra)</pubtitle>. We're excited to replace a roughly <m>\$117</m> book with this free book and save you a significant amount of money. This is only the second term this book is being used for MTH 95 at PCC, and we will be asking you for your thoughts and feedback about it. We will work to make it better every term from here on out, so that future students have a free, excellent MTH 95 textbook.</p>
 
     <p>If you find any issues with this book where you think we could make it better, please let me know about each one.</p>
 
-    <p>Access this book as a web site at <url href="http://spot.pcc.edu/math/orcca/">spot.pcc.edu/math/orcca/</url>.</p> 
-
-    <p>Download a printable version of it at <url href="http://spot.pcc.edu/~ajordan/orcca.pdf">spot.pcc.edu/<tilde />ajordan/orcca.pdf</url>.</p>
-
-    <p>Purchase a printed copy for <m>\$12.00</m> plus shipping at <url href="https://www.amazon.com/gp/product/1986282899/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1986282899&amp;linkCode=as2&amp;tag=pccmath-20&amp;linkId=dceb3e8d9ca899296bb9754fa50a8d2f">Amazon</url>.</p>
+    <p>Access this book:<ul>
+        <li>
+            <p>as a free eBook at <url href="http://spot.pcc.edu/math/orcca/"><c>spot.pcc.edu/math/orcca/</c></url>.</p>
+        </li>
+        <li>
+            <p>as a (color or black-and-white) PDF for download at <url href="http://spot.pcc.edu/math/orcca/pdf/"><c>spot.pcc.edu/math/orcca/pdf</c></url>.</p>
+        </li>
+        <li>
+            <p>for purchase from the PCC book store for <m>\$15.40</m> from the PCC book store.</p>
+        </li>
+    </ul></p>
 
 </section>

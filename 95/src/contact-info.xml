@@ -41,7 +41,12 @@
     <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
 
     <sidebyside>
-        <tabular top="major" valign="top" left="minor" right="minor">
+        <tabular top="major" valign="top" left="major">
+            <col />
+            <col />
+            <col />
+            <col />
+            <col right="major"/>
             <row bottom="medium">
                 <cell>CRN</cell>
                 <cell>Days</cell>
@@ -49,12 +54,19 @@
                 <cell>Place</cell>
                 <cell>Final Exam</cell>
             </row>
-            <row bottom="major">
-                <cell>22454</cell>
+            <row bottom="minor">
+                <cell>40741</cell>
                 <cell>Tu/Th</cell>
                 <cell>8:30<ndash />10:50</cell>
-                <cell>SY SS 120</cell>
-                <cell><line>Thursday</line><line>6/14/2018</line><line>8:00<ndash />10:00</line></cell>
+                <cell>SY SCB 204</cell>
+                <cell><line>Thursday</line><line>12/13/2018</line><line>8:00<ndash />10:00</line></cell>
+            </row>
+            <row bottom="major">
+                <cell>47110</cell>
+                <cell>M/W</cell>
+                <cell>11:00<ndash />1:20</cell>
+                <cell>SY SS 122</cell>
+                <cell><line>Monday</line><line>12/10/2018</line><line>11:00<ndash />1:00</line></cell>
             </row>
         </tabular>
     </sidebyside>
@@ -62,7 +74,10 @@
     <p>I have drop-in office hours where you do not need to make an appointment<mdash />just come by! During office hours, if the first 10<ndash />15 minutes go by and no students have come, I might move to the Student Learning Center in the Library for the rest of the office hour. Come find me there.</p>
 
     <sidebyside>
-        <tabular top="major"  left="minor" right="minor">
+        <tabular top="major" left="major">
+            <col />
+            <col />
+            <col right="major"/>
             <row>
                 <cell colspan="3" halign="center">Office Hours</cell>
             </row>
@@ -71,20 +86,20 @@
                 <cell>Regular</cell>
                 <cell>Finals Week</cell>
             </row>
-            <row>
+            <row bottom="minor">
                 <cell>Mondays</cell>
                 <cell></cell>
-                <cell>9:00<ndash />11:00</cell>
+                <cell>10:00<ndash />11:00</cell>
             </row>
-            <row>
+            <row bottom="minor">
                 <cell>Tuesdays</cell>
                 <cell>11:00<ndash />12:00</cell>
-                <cell>9:00<ndash />11:00</cell>
+                <cell>11:00<ndash />12:00</cell>
             </row>
-            <row>
+            <row bottom="minor">
                 <cell>Wednesdays</cell>
-                <cell></cell>
-                <cell>9:00<ndash />11:00</cell>
+                <cell>1:30<ndash />2:30</cell>
+                <cell>1:30<ndash />2:30</cell>
             </row>
             <row bottom="major">
                 <cell>Thursdays</cell>

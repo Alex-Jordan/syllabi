@@ -6,7 +6,7 @@
     <title>WeBWorK Assignments</title>
 
     <introduction>
-        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-201802/">webwork.pcc.edu/webwork2/mth095-jordan-201802</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00<nbsp /><pm /> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.</p>
+        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-201804-facetoface/">webwork.pcc.edu/webwork2/mth095-jordan-201804-facetoface</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover in a week have exercises that are typically due in the middle of the following week at 10:00<nbsp /><pm /> on the night in between the days we meet, but can be worked on much earlier. You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.</p>
 
         <p>Here is an example of what a <webwork/> problem is like.</p>
 
@@ -55,7 +55,7 @@
     </introduction>
 
 
-    <subsection>
+    <paragraphs>
         <title>Why are we using WeBWorK?</title>
 
         <p>Traditionally, homework comes from textbook problems that students would do on paper, and then turn in in to the instructor.  One drawback of this is that students get no feedback at all until about a week later, and at that point the student is no longer actively thinking about material from two weeks earlier.  Another drawback is that it is impossible for a student to do the appropriate amount of homework and for the instructor to give quality feedback for every single exercise.   Often an instructor is only able to give feedback for a small subset of the exercises.  Using <webwork/> brings the following advantages over traditional homework.</p>
@@ -90,20 +90,20 @@
                 <p>Your instructor can set things up so that you can retry each problem with new random numbers involved. If you are unsure if you have mastered a skill, this gives you a way to keep practicing.</p>
             </li>
         </dl></p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Logging in to WeBWorK</title>
 
-        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-201802">webwork.pcc.edu/webwork2/mth095-jordan-201802</url>. If you are working at your own computer, you might want to bookmark this link. Your username is your PCC email prefix, using all lowercase letters.  For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>. Your initial password is your PCC G-number, using a capital <c>G</c>.</p>
-    </subsection>
+        <p>Go directly to <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-201804-facetoface">webwork.pcc.edu/webwork2/mth095-jordan-201804-facetoface</url>. If you are working at your own computer, you might want to bookmark this link. Your username is your PCC email prefix, using all lowercase letters.  For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>. Your initial password is your PCC G-number, using a capital <c>G</c>.</p>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>The First Time You Log On</title>
         <p>You should go to the <c>User Settings</c> menu in the upper left and change your password.  There is an Orientation assignment for you to take. Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>. Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.  The Orientation will remain available to you for the entire term, so you can always come back and look at it again.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Homework Sets Menu</title>
         <p>This shows you the assignments that have been assigned to you and when they are due. You may:<ul>
             <li>
@@ -114,14 +114,14 @@
             </li>
         </ul></p>
         <p>When you click on an assignment, you will see a screen with the problem numbers listed. Off to the right is a message for you that might have specific instructions or information about the assignment. You should always look for and read this message.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Emailing for Help</title>
         <p>When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any problem. Write a message explaining what you have tried and if possible, include the work from your calculations. <webwork/> will send your instructor an email with helpful information (like all of the incorrect attempts you have tried) and they get back to you soon with a response. When they respond, it will be with an email, so <alert>you must remember to check your email</alert>.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Math Achievements</title>
         <p>As you complete more problems through the term, you will win badges for various <q>achievements</q>. For example, the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect submissions.  Both earning badges and just plain answering questions correctly will earn you <q>achievement points</q>. As you gain more achievement points, you will level up. Each time you level up, you earn an item that can be used to affect your grade.</p>
         <p><dl>
@@ -166,6 +166,6 @@
                  <p>Double the weight of an entire set.</p>
             </li>
         </dl></p>
-    </subsection>
+    </paragraphs>
 
 </section>
