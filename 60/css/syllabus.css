@@ -1,0 +1,17 @@
+.mathbook-content .sidebyside .sbsrow .sbsheader {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+.mathbook-content .sidebyside .sbsrow p {
+    margin-top: 1em;
+}
+
+.mathbook-content .sidebyside .sbsrow ul {
+    margin-top: 0em;
+}
+
+#section-calendar .sidebyside {
+	border-top: 5px solid;
+	margin-bottom: 10pt;
+}

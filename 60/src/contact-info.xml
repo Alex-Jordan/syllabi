@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Contact Information</title>
 
@@ -38,10 +38,15 @@
         </tabular>
     </sidebyside>
 
-    <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
+    <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.</p>
 
     <sidebyside>
-        <tabular top="major" valign="top">
+        <tabular top="major" valign="top" left="major">
+            <col />
+            <col />
+            <col />
+            <col />
+            <col right="major"/>
             <row bottom="medium">
                 <cell>CRN</cell>
                 <cell>Days</cell>
@@ -50,46 +55,46 @@
                 <cell>Final Exam</cell>
             </row>
             <row bottom="major">
-                <cell>41180</cell>
+                <cell>15732</cell>
                 <cell>Tu/Th</cell>
                 <cell>8:30<ndash />10:50</cell>
-                <cell>SY TCB 216</cell>
-                <cell><line>Thursday</line><line>12/14/2017</line><line>8:00<ndash />10:00</line></cell>
+                <cell>SY SS 122</cell>
+                <cell><line>Thursday</line><line>3/21/2019</line><line>8:00<ndash />10:00</line></cell>
             </row>
+<!--             <row bottom="major">
+                <cell>47110</cell>
+                <cell>M/W</cell>
+                <cell>11:00<ndash />1:20</cell>
+                <cell>SY SS 122</cell>
+                <cell><line>Monday</line><line>12/10/2018</line><line>11:00<ndash />1:00</line></cell>
+            </row> -->
         </tabular>
     </sidebyside>
-    
-    <p>I have drop-in office hours where you do not need to make an appointment<mdash />just come by! During office hours, if the first 10<ndash />15 minutes go by and no students have come, I might move to the Student Learning Center in the Library for the rest of the office hour. Come find me there.</p>
+
+    <p>I have drop-in office hours where you do not need to make an appointment<mdash />just come by!</p>
 
     <sidebyside>
-        <tabular top="major">
+        <tabular top="major" left="major">
+            <col />
+            <col />
+            <col right="major"/>
             <row>
                 <cell colspan="3" halign="center">Office Hours</cell>
             </row>
             <row bottom="medium">
                 <cell>Day</cell>
-                <cell>During Term</cell>
+                <cell>Regular</cell>
                 <cell>Finals Week</cell>
             </row>
-            <row>
-                <cell>Mondays</cell>
-                <cell></cell>
-                <cell>9:00<ndash />11:00</cell>
-            </row>
-            <row>
+            <row bottom="minor">
                 <cell>Tuesdays</cell>
                 <cell>11:00<ndash />12:00</cell>
-                <cell>9:00<ndash />11:00</cell>
-            </row>
-            <row>
-                <cell>Wednesdays</cell>
-                <cell></cell>
-                <cell>9:00<ndash />11:00</cell>
+                <cell>TBD</cell>
             </row>
             <row bottom="major">
                 <cell>Thursdays</cell>
-                <cell>11:00<ndash />12:00</cell>
-                <cell></cell>
+                <cell>1:00<ndash />2:00</cell>
+                <cell>TBD</cell>
             </row>
         </tabular>
     </sidebyside>

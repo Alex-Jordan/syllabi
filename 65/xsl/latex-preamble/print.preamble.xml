@@ -3,30 +3,22 @@
 <latex-preamble-early>
 </latex-preamble-early>
 
-
-
 <latex-preamble-late>
-<![CDATA[
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% In print, helping with stopping inline math breaks in captions
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\captionsetup{justification=RaggedRight}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% In print, trying to reduce color use
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hypersetup{colorlinks=false}
-    \pgfplotscreateplotcyclelist{pccstylelist}{%
-        color=black,mark=none,line width=1pt,<->,solid\\%
-        color=black,mark=none,line width=1pt,<->,dashdotted\\%
-        color=black,mark=none,line width=1pt,<->,dashdotdotted\\%
-    }
-    \pgfplotsset{pccplot/.style={color=black,mark=none,line width=1pt,<->}} % this is pretty redundant in most cases now that cycle list is implemented
-    \pgfplotsset{soldot/.style={color=black,only marks,mark=*}}
-    \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
-
-]]>
+\colorlet{chaptercolor}{black}
+\colorlet{firstcolor}{black}
+\colorlet{secondcolor}{black!70!white}
+\colorlet{thirdcolor}{gray}
+\colorlet{fourthcolor}{gray}
+\colorlet{fifthcolor}{gray}
+\colorlet{highlightcolor}{gray}
+\colorlet{yellow}{white}
 \colorlet{blue}{black}
+\colorlet{red}{black}
+\colorlet{cyan}{black}
+\colorlet{green}{black!15!white}
+\colorlet{orange}{black!25!white}
+\colorlet{brown}{black!35!white}
+\colorlet{magenta}{gray}
 </latex-preamble-late>
 
 </latex-preamble>

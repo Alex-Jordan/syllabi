@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-prerequisite-review" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Prerequisite Review</title>
 
-    <p>These exercises cover topics from MTH 20. These are prerequisite skills to succeed in this class. If you have trouble completing any of these exercises, you should make time as soon as possible to review this material with your instructor or with a tutor.</p> 
+    <p>These exercises cover topics from MTH 20. These are prerequisite skills to succeed in this class. If you have trouble completing any of these exercises, you should make time as soon as possible to review this material with your instructor or with a tutor.</p>
 
     <exercise>
         <title>Find slope-intercept form</title>
@@ -31,10 +31,10 @@
                     Value->Error("Your answer is an equation for this line, but it is not in simplified slope-intercept form")unless(($co==$st)or($st==$co));
                     Context()->flags->set(bizarroAdd=>0,bizarroSub=>0);
                     return 1;
-                    })->withPostFilter(sub{my$ans=shift; 
-                    $ans->{ans_message}="An equation for a line in slope-intercept form should start with 'y='" 
+                    })->withPostFilter(sub{my$ans=shift;
+                    $ans->{ans_message}="An equation for a line in slope-intercept form should start with 'y='"
                     if $ans->{ans_message} eq "The left side of an assignment must be a variable or function";
-                    return $ans; 
+                    return $ans;
                     });
                 </pg-code>
             </setup>

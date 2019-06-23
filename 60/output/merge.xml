@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is the hub file for Alex Jordan's MTH 60 Syllabus -->
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- This file contains control data for Alex Jordan's syllabus -->
+  <docinfo>
+    <!-- For title into HTML head, then tabs, bookmarks, etc -->
+    <initialism>MTH 60</initialism>
+    <!-- Thumbnail for HTML -->
+    <brandlogo url="http://www.pcc.edu/programs/math/" source="https://webwork.pcc.edu/webwork2_files/images/mathematics.jpg"/>
+    <!-- For LaTeX-based images; inserted both into tex preamble, -->
+    <!-- and into standalone preambles for svg production         -->
+    <latex-image-preamble>
+    
+    \usepackage{pgfplots}
+    \usepackage{pgfplotstable}
+    \pgfplotsset{soldot/.style={only marks,mark=*}}
+    \pgfplotsset{holdot/.style={fill=white,only marks,mark=*}}
+    \tikzset{ampersand replacement = \amp}
+    
+    </latex-image-preamble>
+  </docinfo>
+  <article xml:id="syllabus">
+    <title>Course Information and Syllabus</title>
+    <subtitle>MTH 60 Introductory Algebra<mdash/>First Term</subtitle>
+    <!-- This file has the contents of the title page of Alex Jordan's syllabus -->
+    <frontmatter xml:id="index">
+      <titlepage>
+        <date>Winter 2019</date>
+      </titlepage>
+    </frontmatter>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-contact-info">
+      <title>Contact Information</title>
+      <p>To reach me or PCC:</p>
+      <sidebyside>
+        <tabular>
+          <row>
+            <cell>Instructor: Alex Jordan</cell>
+          </row>
+          <row>
+            <cell>Office: SY ST 203</cell>
+          </row>
+          <row>
+            <cell>Phone: 971-722-4138</cell>
+          </row>
+          <row>
+            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+          </row>
+        </tabular>
+        <tabular>
+          <row>
+            <cell>Portland Community College</cell>
+          </row>
+          <row>
+            <cell>Sylvania Campus</cell>
+          </row>
+          <row>
+            <cell>12000 SW 49th Ave.</cell>
+          </row>
+          <row>
+            <cell>Portland, OR 97219</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.</p>
+      <sidebyside>
+        <tabular top="major" valign="top" left="major">
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+          <col right="major"/>
+          <row bottom="medium">
+            <cell>CRN</cell>
+            <cell>Days</cell>
+            <cell>Time</cell>
+            <cell>Place</cell>
+            <cell>Final Exam</cell>
+          </row>
+          <row bottom="major">
+            <cell>15732</cell>
+            <cell>Tu/Th</cell>
+            <cell>8:30<ndash/>10:50</cell>
+            <cell>SY SS 122</cell>
+            <cell>
+              <line>Thursday</line>
+              <line>3/21/2019</line>
+              <line>8:00<ndash/>10:00</line>
+            </cell>
+          </row>
+          <!--             <row bottom="major">
+                <cell>47110</cell>
+                <cell>M/W</cell>
+                <cell>11:00<ndash />1:20</cell>
+                <cell>SY SS 122</cell>
+                <cell><line>Monday</line><line>12/10/2018</line><line>11:00<ndash />1:00</line></cell>
+            </row> -->
+        </tabular>
+      </sidebyside>
+      <p>I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!</p>
+      <sidebyside>
+        <tabular top="major" left="major">
+          <col/>
+          <col/>
+          <col right="major"/>
+          <row>
+            <cell colspan="3" halign="center">Office Hours</cell>
+          </row>
+          <row bottom="medium">
+            <cell>Day</cell>
+            <cell>Regular</cell>
+            <cell>Finals Week</cell>
+          </row>
+          <row bottom="minor">
+            <cell>Tuesdays</cell>
+            <cell>11:00<ndash/>12:00</cell>
+            <cell>TBD</cell>
+          </row>
+          <row bottom="major">
+            <cell>Thursdays</cell>
+            <cell>1:00<ndash/>2:00</cell>
+            <cell>TBD</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.</p>
+      <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-course-description">
+      <title>Course Description</title>
+      <p>Taken from the official PCC course description:</p>
+      <sidebyside halign="left">
+        <tabular>
+          <col halign="right"/>
+          <col/>
+          <row>
+            <cell>Course Number:</cell>
+            <cell>MTH 60</cell>
+          </row>
+          <row>
+            <cell>Course Title:</cell>
+            <cell>Introductory Algebra<mdash/>First Term</cell>
+          </row>
+          <row>
+            <cell>Credit Hours:</cell>
+            <cell>4</cell>
+          </row>
+          <row>
+            <cell>Lecture Hours:</cell>
+            <cell>30</cell>
+          </row>
+          <row>
+            <cell>Lecture/Lab Hours:</cell>
+            <cell>20</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Introduces algebraic concepts and processes with a focus on linear equations and inequalities in one and two variables. Emphasizes applications, graphs, formulas, and proper mathematical notation throughout the course. A scientific calculator may be required. The TI-30X II is recommended. Prerequisites: MTH 20 and (RD 80 or ESOL 250) or equivalent placement. Recommended that MTH 20 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Audit available.</p>
+      <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+    </section>
+    <!-- <xi:include href="./prerequisite-review.xml" /> -->
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-expectations">
+      <title>Expectations</title>
+      <p>MTH 60 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. We will be using the <q>flipped</q> model of teaching math. For each day of class<ol><li>
+            <p>You will watch video lectures before coming to class.</p>
+        </li><li>
+            <p>You will take notes on the video lecture and turn them in when class starts.</p>
+        </li><li>
+            <p>In class we will work together in groups on doing math exercises.</p>
+        </li><li>
+            <p>You have some online homework to complete within five or six days of the in-class practice.</p>
+        </li></ol>There is evidence that the <q>flipped</q> model can raises the pass rates in math courses by a lot! More <q>traditional</q> methods for running a class have lately led to a 60% pass rate in MTH 60. Flipping should raise this, and those who pass are more likely to pass with an A.</p>
+      <p>Additionally, please:<ul><li>
+            <p>Try to complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
+        </li><li>
+            <p>Make time to visit me in office hours.</p>
+        </li></ul></p>
+      <p>The ideas are covered in a natural sequence, and if you stay on top of the assignments, you have a high chance for success. <!-- Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process. -->  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
+      <p>Here are some other expectations:<ul><li>
+            <p>Maintain respect for yourself and your classmates.</p>
+        </li><li>
+            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
+        </li><li>
+            <p>Check your <c>@pcc.edu</c> email at least once a day.</p>
+        </li><li>
+            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
+        </li></ul></p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="technology">
+      <title>Technology Requirements</title>
+      <p><!-- Part of this class will be learning how technology can assist you in exploring mathematical ideas.   -->In regular class time, a smart phone, tablet, or laptop is fine. During an exam, you must have a scientific <!-- or graphing --> calculator and you may not use other devices that connect to the internet. If you do not own one, there are options for you to borrow one. <!-- The only things you will need a calculator for during an exam are things that a plain old scientific calculator can do, not the specific graphing calculator tools. --></p>
+      <p>You will also need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-textbook">
+      <title>Textbook</title>
+      <p>We are using a new <em>free</em> textbook written by PCC faculty. The book is called <pubtitle>ORCCA (Open Resources for Community College Algebra)</pubtitle>. We're excited to replace a roughly $117 book with this free book and save you money. This is only the second year this book is being used for MTH 60 at PCC, and we will be asking you for your thoughts and feedback about it. We will work to make it better every term from here on out, so that future students have a free, excellent MTH 60 textbook.</p>
+      <p>If you find any issues with this book where you think we could make it better, please let me know about each one.</p>
+      <p>Access this book:<ul><li>
+            <p>as a free eBook at <url href="http://spot.pcc.edu/math/orcca/"><c>spot.pcc.edu/math/orcca/</c></url>.</p>
+        </li><li>
+            <p>as a (color or black-and-white) PDF for download at <url href="http://spot.pcc.edu/math/orcca/pdf/"><c>spot.pcc.edu/math/orcca/pdf</c></url>.</p>
+        </li><li>
+            <p>for purchase from the PCC book store for $15.40.</p>
+        </li><li>
+            <p>for purchase from Amazon (<url href="https://amzn.to/2LPGPJo"><c>amzn.to/2LPGPJo</c></url>) for $15.40.</p>
+        </li></ul></p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="grades">
+      <title>Grades</title>
+      <introduction>
+        <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
+      </introduction>
+      <paragraphs>
+        <title>Class Prep Assignments</title>
+        <p>Most class days you are supposed to come to class with a class prep assignment completed. You'll turn these in when you come into class. Then while you work on some warm-up exercises, I will look over your prep assignments and give you credit for them. Each one is worth 0.5% of your grade. There are 15 of these total, so all together they are worth 7.5% of your grade</p>
+        <p>If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>In-class Group Work</title>
+        <p>Most class days, you will work in small groups on a collection of exercises that go along with the lesson you prepared for. If you work on these diligently during class time with your partners, you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time). There are 17 of these, so in total these are worth 8.5% of your grade.</p>
+        <p>If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit. It must be fully completed, not partially completed. The work must be shown, not just the answers.</p>
+        <p>Blank group activities are available for download at the <xref ref="section-calendar" text="title"/>. The day after each one is due, a version with answers will also be posted there. It will just have simple answers, not fully worked out explanations of how to get those answers.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Online Homework</title>
+        <p>You have online homework for each section using Edfinity (a front end for WeBWorK). See <xref ref="section-edfinity" text="title"/> for details. The due date for each assignment is posted in Edfinity. Generally when a topic is on our course calendar, the online homework is due five or six days later. You should start working on it soon after the class that works on that topic, ideally on the same day.</p>
+        <p>Collectively, all the online homework is worth 9% of your final grade.</p>
+      </paragraphs>
+      <!-- <paragraphs>
+        <title>Written Assignments</title>
+        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>10</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
+    </paragraphs> -->
+      <!-- <paragraphs>
+        <title>Contribution to the Book</title>
+        <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
+    </paragraphs> -->
+      <paragraphs>
+        <title>Exams</title>
+        <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are each worth 25%, of your grade.</p>
+      </paragraphs>
+    </section>
+    <!-- <xi:include href="./downloads.xml" /> -->
+    <!-- <xi:include href="./webwork.xml" /> -->
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-edfinity">
+      <title>Edfinity Assignments</title>
+      <introduction>
+        <p>I have made an account for you on an online homework platform called Edfinity. Visit Edfinity at <url href="https://edfinity.com/registrations"><c>edfinity.com/registrations</c></url>.</p>
+        <p>There is one assignment in Edfinity for (almost) every section we cover in the textbook.</p>
+        <p>The due dates for each assignment are visible in Edfinity. I do not duplicate them here in case I might make a mistake. But generally when we cover a section on a Tuesday, that Edfinity assignment is due the following Sunday night. And when we cover a section on a Thursday, that Edfinity assignment is due the following Wednesday night.</p>
+        <p>Edfinity homework sets are collectively worth 9% of your grade. If you miss one, you cannot make it up. When the due date passes, everyone gets access to the answers.</p>
+        <p>If online homework is too burdensome, please contact me and we can discuss alternative options.</p>
+      </introduction>
+    </section>
+    <!-- <xi:include href="./written-assignments.xml" /> -->
+    <!-- <xi:include href="./contributions.xml" /> -->
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-exams">
+      <title>Exams</title>
+      <introduction>
+        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
+        <p>About a week before each exam, you will receive a practice exam. Practice exams are typically longer than the real exam to give you more to practice with.</p>
+        <p>
+          <dl>
+            <li xml:id="exam1">
+            <title>Exam 1 (2%)</title>
+            <p>Covers sections 1.1<ndash/>2.10.</p>
+            <p>You'll have the entire class period for this exam if you need it.</p>
+        </li>
+            <li xml:id="exam2">
+            <title>Exam 2 (25%)</title>
+            <p>Covers sections 3.1<ndash/>3.6. Additionally there will be some repeated questions from Exam 1. (So part of your studying should be reviewing your first exam.)</p>
+            <p>You'll have the entire class period for this exam if you need it.</p>
+        </li>
+            <li xml:id="exam3">
+            <title>Exam 3 (25%)</title>
+            <p>Covers sections 4.1<ndash/>4.10. Additionally there will be some repeated questions from Exams 1 and 2. (So part of your studying should be reviewing your first and second exams.)</p>
+            <p>This exam is during finals week and is only two hours long.</p>
+        </li>
+          </dl>
+        </p>
+      </introduction>
+      <paragraphs>
+        <title>Missing an Exam</title>
+        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make up the exam within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
+        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Accommodated Testing</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="resources">
+      <title>Student Resources</title>
+      <introduction>
+        <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+      </introduction>
+      <paragraphs>
+        <title>Tutoring</title>
+        <p>The Tutoring Center at Sylvania offers free tutoring in math.  You should find some time to check it out, if you haven't already. Details can be found at <url href="http://www.pcc.edu/resources/tutoring/sylvania/"><c>www.pcc.edu/resources/tutoring/sylvania</c></url>.</p>
+        <p>Visit <url href="http://www.pcc.edu/resources/tutoring/sylvania/student-success/math-center/"><c>www.pcc.edu/resources/tutoring/sylvania/student-success/math-center</c></url> for details about free online tutoring that you have access to as well.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>PCC Student Learning Center Math Self-Study Resources</title>
+        <p>Some PCC faculty have been putting together self-study material for mathematics topics, including the topics in this course. If you would like to see an alternative to what is in your textbook, please visit <url href="https://spot.pcc.edu/slc/mathresources/output/html/"><c>spot.pcc.edu/slc/mathresources/output/html/</c></url>.</p>
+      </paragraphs>
+      <!-- <paragraphs>
+        <title>Calculator Handbooks</title>
+        <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math"><c>www.pcc.edu/programs/math</c></url>.</p>
+    </paragraphs> -->
+      <paragraphs>
+        <title>College Success Courses</title>
+        <p>There are several one-credit courses available to help you maximize your success in the college experience.  These include courses specifically geared toward study skills.  The following site offers information on these courses as well as tips for success: <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html"><c>www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</c></url>.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Math Study Skills</title>
+        <p>PCC instructor Jessica Bernards co-authored these free lessons on study skills that help people succeed in math courses. <url href="http://spot.pcc.edu/mathstudyskills/"><c>spot.pcc.edu/mathstudyskills</c></url></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Online Videos</title>
+        <p>At the Khan Academy (<url href="http://www.khanacademy.org"><c>www.khanacademy.org</c></url>)  you  can  find  thousands  of  10-  to  30-minute videos on various mathematics topics. See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.</p>
+        <p>Khan Academy is just one such site. See what else you can find online searching for math videos. If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Counseling Services</title>
+        <p>(SY CC 210, 971–722–8153)</p>
+        <p>Get help dealing with personal or career concerns that may be impacting your academic success.  Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.</p>
+        <p><url href="http://www.pcc.edu/resources/counseling/"><c>www.pcc.edu/resources/counseling</c></url>.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Multicultural Center</title>
+        <p>(SY CC 267, 971–722–4112)</p>
+        <p>A welcoming and inclusive space for diverse students.  One of the many services is one-on-one help for math courses, drop-in or by appointment:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/culture/">
+            <c>www.pcc.edu/resources/culture</c>
+          </url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Queer Resource Center</title>
+        <p>A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/qrc/sylvania/">
+            <c>www.pcc.edu/resources/qrc/sylvania</c>
+          </url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Student Computing Center</title>
+        <p>(SY Library, 971–722–4325)</p>
+        <p>Internet access, mathematics computer programs, and more (orientation required).</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/computer-labs/">
+            <c>www.pcc.edu/resources/computer-labs/</c>
+          </url>
+        </p>
+        <p>Allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term).</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/printing/">
+            <c>www.pcc.edu/resources/printing/</c>
+          </url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Student Learning Center</title>
+        <p>(SY Library, 971–722–4540)</p>
+        <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
+        <p>
+          <url href="http://www.pcc.edu/SylvaniaSLC">
+            <c>www.pcc.edu/SylvaniaSLC</c>
+          </url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Veteran's Resource Center</title>
+        <p>(SY CC 220, 971–722–8793)</p>
+        <p>Relax, connect, computer workstations, work study and volunteer opportunities, and more.  For additional information:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/veterans/sylvania">
+            <c>http://www.pcc.edu/resources/veterans/sylvania</c>
+          </url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Women's Resource Center</title>
+        <p>(SY CC 268, 971–722–8101)</p>
+        <p>A wide variety of services that support the academic achievement of women:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/women/sylvania">
+            <c>www.pcc.edu/resources/women/sylvania</c>
+          </url>
+        </p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="miscellaneous">
+      <title>Miscellaneous Items</title>
+      <paragraphs>
+        <title>ADA Accommodation</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability"><c>www.pcc.edu/disability</c></url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Email Notice</title>
+        <p>Due to Federal laws and concerns about privacy, all email communication between instructor and student shall be done via <alert>PCC assigned email address</alert>. Access email via MyPCC<mdash/>see instructor during office hours if unfamiliar with using MyPCC.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Equity &amp; Inclusion Nondiscrimination Nonharassment (Title IX)</title>
+        <p>Portland Community College is committed to creating and fostering a learning and working environment based on open communication and mutual respect. This is an integral part of the College's academic mission to enrich our students' educational experiences and prepare them to live in and contribute to a global society. If you believe you have encountered sexual harassment, sexual misconduct, sexual assault, or discrimination based on race, color, religion, age, national origin, veteran status, sex, sexual orientation, gender identity, or disability please contact the Office of Equity and Inclusion at (971) 722-5840 or <email>equity.inclusion@pcc.edu</email>.</p>
+        <p>
+          <url href="http://www.pcc.edu/about/equity-inclusion/eeo-statement.html">
+            <c>www.pcc.edu/about/equity-inclusion/eeo-statement.html</c>
+          </url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/equity-inclusion/nonharassment/">
+            <c>www.pcc.edu/about/equity-inclusion/nonharassment/</c>
+          </url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Flexibility Statement</title>
+        <p>The instructor reserves the right to modify course content and/or substitute assignments and learning activities in response to institutional, weather, or class situations.  Flash Alert Messenger is a free service that delivers closure information:  <url href="http://www.pcc.edu/about/announcements/closure-information.html"><c>www.pcc.edu/about/announcements/closure-information.html</c></url></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Sanctuary College</title>
+        <p>PCC is a sanctuary college. For more information and resources, see: <url href="http://www.pcc.edu/resources/undocumented-students"><c>www.pcc.edu/resources/undocumented-students</c></url></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Grading and Registration Policies and Deadlines</title>
+        <p>
+          <dl>
+            <li>
+                <title>Adding and Dropping</title>
+                <p><url href="http://www.pcc.edu/enroll/registration/dropping.html"><c>www.pcc.edu/enroll/registration/dropping.html</c></url></p>
+            </li>
+            <li>
+                <title>Grading Options</title>
+                <p><url href="http://www.pcc.edu/registration/grading-policy/"><c>www.pcc.edu/registration/grading-policy/</c></url></p>
+            </li>
+            <li>
+                <title>Grading Guidelines</title>
+                <p><url href="http://www.pcc.edu/resources/student-records/grading/"><c>www.pcc.edu/resources/student-records/grading/</c></url></p>
+            </li>
+          </dl>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Student Rights and Responsibilities Handbook</title>
+        <p>Students are required to comply with the Student Rights and Responsibilities Handbook. Included are policies on Students Rights, Student Conduct, Grade Appeal, Academic Integrity, Consensual Relationship Statement, and Children on PCC properties.</p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/">
+            <c>www.pcc.edu/about/policy/student-rights/</c>
+          </url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf">
+            <c>www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf</c>
+          </url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf">
+            <c>www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf</c>
+          </url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/resources/academic/standards-practices/academic-integrity.html">
+            <c>www.pcc.edu/resources/academic/standards-practices/academic-integrity.html</c>
+          </url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/relationships.pdf">
+            <c>www.pcc.edu/about/policy/student-rights/documents/relationships.pdf</c>
+          </url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/children.pdf">
+            <c>www.pcc.edu/about/policy/student-rights/documents/children.pdf</c>
+          </url>
+        </p>
+      </paragraphs>
+    </section>
+    <section xml:id="special-dates">
+      <title>Special Dates</title>
+      <p>The following special dates are of interest to everyone:</p>
+      <sidebyside>
+        <tabular top="major" bottom="minor" left="major" valign="top" right="minor">
+          <col/>
+          <col/>
+          <col right="major"/>
+          <row>
+            <cell>Sat</cell>
+            <cell>Jan 12</cell>
+            <cell>
+                    <line>Last day to choose financial aid refund option:</line>
+                    <line><url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html"><c>www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</c></url>.</line>
+                    <line>Last day to drop 8<ndash/>12 week classes:</line>
+                    <line><url href="http://www.pcc.edu/enroll/registration/dropping.html"><c>www.pcc.edu/enroll/registration/dropping.html</c></url></line>
+                </cell>
+          </row>
+          <row>
+            <cell>Tue</cell>
+            <cell>Jan 15</cell>
+            <cell>Last day to add classes.</cell>
+          </row>
+          <row bottom="major">
+            <cell>Sat</cell>
+            <cell>Mar 2</cell>
+            <cell>
+                    <line>Last day to change grade option for 11<ndash/>12 week classes:</line>
+                    <line><url href="http://www.pcc.edu/enroll/registration/grading-policy.html"><c>http://www.pcc.edu/enroll/registration/grading-policy.html</c></url>.</line>
+                    <line>Last day to withdraw from 11<ndash/>12 week classes:</line>
+                    <line><url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw"><c>http://www.pcc.edu/enroll/registration/dropping.html#withdraw</c></url>.</line>
+                </cell>
+          </row>
+        </tabular>
+      </sidebyside>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-calendar">
+      <title>Calendar</title>
+      <p>The instructional videos here were recorded by fellow PCC instructor Cara Lee. The class prep and in-class activities are also from Cara, and I'm very grateful to her for these materials during my first term trying out the <q>flipped</q> model. Fellow PCC instructor Micki Josi provided the student testimonial videos and pointed me to the video introduciton to the <q>flipped</q> model.</p>
+      <!-- <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p> -->
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 8</title>
+            <video youtube="qdKzSq_t8k8 nrJbWYt-LnE q1DbgTtB5GY 7snnRaC4t5c lT-qvk-PULA QuTUfBqtFT8"/>
+            <p>We will discuss the class format and orient you to the weekly routine.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-arithmetic-with-negative-numbers.html">Section 1.1 (Negative Numbers)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-absolute-value-and-square-root.html">Section 1.3 (Absolute Value and Square Root)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep_.pdf">Blank</url>, <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep__completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 10</title>
+            <video youtube="k7eeQxKEjXg qKmDxLsvCos 8X-reMIG494 p4XIR_94YNA ASvHYHnr_EM"/>
+            <p>Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-fractions-and-fraction-arithmetic.html">Section 1.2 (Fractions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-order-of-operations.html">Section 1.4 (Order of Operations)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_1-2_and_1-4_group_activity.pdf">Blank</url>, <url href="activities/section_1-2_and_1-4_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 15</title>
+            <video youtube="Wdat-Wb4alc Q_J9p304p7Y ZTfFA_m4j8Y 2J4Vd2np7MY voAw9jeMAW8"/>
+            <p>Complete the <url href="prep/section_1-5_and_1-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-set-notation-and-types-of-numbers.html">Section 1.5 (Set Notation and Types of Numbers)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-comparison-symbols-and-notation-for-intervals.html">Section 1.6 (Comparison Symbols and Interval Notation)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_1-5_and_1-6_group_activity.pdf">Blank</url>, <url href="activities/section_1-5_through_1-7_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 17</title>
+            <video youtube="GfYsFkVwE9I n3z3vrAYrQQ tDacgy4UISU eFEppXK7QO4"/>
+            <p>Complete the <url href="prep/section_2-1_and_2-2_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-variables-and-evaluating-expressions.html">Section 2.1 (Variables and Expressions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-geometry-formulas.html">Section 2.2 (Geometry Formulas)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_2-1_and_2-2_group_activity.pdf">Blank</url>, <url href="activities/section_2-1_and_2-2_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 22</title>
+            <video youtube="Klwa9epAsFY ouTY0rh-HhY"/>
+            <p>Complete the <url href="prep/section_2-3_and_2-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-combining-like-terms.html">Section 2.3 (Combining Like Terms)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-equations-and-inequalities-as-true-false-statements.html">Section 2.4 (Equations and Inequalities)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_2-3_and_2-4_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 24</title>
+            <video youtube="3lHLvCUjzR4 29f6U-7WpMk wCQkaADSX34"/>
+            <p>Complete the <url href="prep/section_2-5_and_2-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-equations.html">Section 2.5 (One-Step Equations)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-inequalities.html">Section 2.6 (One-Step Inequalities)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_2-5_and_2-6_group_activity.pdf">Blank</url>, <url href="activities/section_2-5_and_2-6_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 29</title>
+            <video youtube="Kzo6Fx8uh4w MNVSHN89WAw 2OFB0xtxHPc nOk290woDkg"/>
+            <p>Complete the <url href="prep/section_2-7_and_2-8_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-percentages.html">Section 2.7 (Percentages)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-modeling-with-equations-and-inequalities.html">Section 2.8 (Modeling)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_2-7_and_2-8_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 31</title>
+            <video youtube="ByPKB7RGoBA YGTbHR_6Rhg 4zRQczilM5w Klwa9epAsFY G6_AQLQOl_0"/>
+            <p>Complete the <url href="prep/section_2-9_and_2-10_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-introduction-to-exponent-rules.html">Section 2.9 (Exponent Rules)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-simplifying-expressions.html">Section 2.10 (Simplifying Expressions)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_2-9_and_2-10_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 5</title>
+            <p>Class was canceled because campus was closed due to icy conditions.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 7</title>
+            <p><xref ref="exam1" text="title"/></p>
+            <p><url href="activities/Exam1Preparation.pdf">Practice Questions for Exam 1</url></p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 12</title>
+            <video youtube="H8MDbjZ-_Ps DVG-ATxHwlM TXE1cEtG2HU IdtliEJwpTs a6rR_jJ65sQ"/>
+            <p>Complete the <url href="prep/section_3-1_and_3-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-equations.html">Section 3.1 (Multistep Linear Equations)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-inequalities.html">Section 3.2 (Multistep Linear Inequalities)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_3-1_and_3-2_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 14</title>
+            <video youtube="BqORZv4kbq8 lFA-ZdIHJP8 Csv1dW2HmGY"/>
+            <p>Complete the <url href="prep/section_3-3_and_3-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-linear-equations-and-inequalities-with-fractions.html">Section 3.3 (Equations and Inequalities with Fractions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-isolating-a-linear-variable.html">Section 3.4 (Isolating a Linear Variable)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_3-3_and_3-4_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 19</title>
+            <video youtube="VraTHEy-VTQ Cm3FSPZdZpQ 80HvKUws1J4"/>
+            <p>Complete the <url href="prep/section_3-5_and_3-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-ratios-and-proportions.html">Section 3.5 (Ratios and Proportions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-special-solution-sets.html">Section 3.6 (Special Solution Sets)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_3-5_and_3-6_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 21</title>
+            <video youtube="o4OpOdrnLec 3eRoyWuxs5w upzHtHGfxRA"/>
+            <p>Complete the <url href="prep/section_4-1_and_4-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-cartesian-coordinates.html">Section 4.1 (Cartesian Coordinates)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-graphing-equations.html">Section 4.2 (Graphing Equations)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_4-1_and_4-2_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 26</title>
+            <p>Class was canceled because campus was closed due to icy conditions.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 28</title>
+            <p><xref ref="exam2" text="title"/></p>
+            <p><url href="activities/Exam2Preparation.pdf">Practice Questions for Exam 2</url></p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Mar 5</title>
+            <video youtube="0sgVQErb8BI pmU8h3M1vgA 1xh99EBczsI Ta4NwEoPqYE"/>
+            <p>Complete the <url href="prep/section_4-3_and_4-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-exploring-two-variable-data-and-rate-of-change.html">Section 4.3 (Two-Variable Data and Rate of Change)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-slope.html">Section 4.4 (Slope)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_4-3_and_4-4_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Mar 7</title>
+            <video youtube="PlXSUfoihn4 Nwsj_XAvnxM b5b1rryFyMc rX_Z2nD4l90 XtbtEwTX8h0"/>
+            <p>Complete the <url href="prep/section_4-5_and_4-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-slope-intercept-form.html">Section 4.5 (Slope-Intercept Form)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-point-slope-form.html">Section 4.6 (Point-Slope Form)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_4-5_and_4-6_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Mar 12</title>
+            <video youtube="Je6Md3KE_x8 t9-STs0p4lU d2SsaNW0Bbo h1tCyF0VpjY"/>
+            <p>Complete the <url href="prep/section_4-7_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-standard-form.html">Section 4.7 (Standard Form)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_4-7_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Mar 14</title>
+            <video youtube="-UeMFgioF4c BgUX-gQ18gw FTjIN8SgruA Rayj0NgyDOk"/>
+            <p>Complete the <url href="prep/section_4-8_and_4-10_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 4.8 (Horizontal and Vertical, Parallel and Perpendicular)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-linear-inequalities-in-two-variables.html">Section 4.10 (Linear Inequalities in Two Variables)</url></li></ul></p>
+            <p>In-class activity: <url href="activities/section_4-8_and_4-10_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+      </sidebyside>
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Mar 12</title>
+            <p>Class does not meet htis day during finals week.</p>
+        </stack>
+        <stack>
+            <title>Thursday Mar 14</title>
+            <p><xref ref="exam3" text="title"/></p>
+            <p><alert>The final exam is 8:00 to 10:00, not the usual class time!</alert></p>
+        </stack>
+      </sidebyside>
+      <!--     <p>The math department and student learning center are working together to provide <q>just in time</q> workshops on certain key topics. We encourage you to attned these workshops to prop up the skill sets you are more likely to have trouble with. Here is the schedule of workshops.</p>
+
+    <table>
+        <caption>Workshop Schedule</caption>
+        <tabular left="major" right="minor" top="major" bottom="minor">
+            <col/>
+            <col width="19%"/>
+            <col width="19%"/>
+            <col/>
+            <col width="19%"/>
+            <col width="19%" right="major"/>
+            <row halign="center">
+                <cell colspan="3">Monday</cell>
+                <cell colspan="3">Tuesday</cell>
+            </row>
+            <row>
+                <cell/>
+                <cell><line>12:00<ndash/>12:50</line><line>LIB 212</line></cell>
+                <cell><line>2:00<ndash/>2:50</line><line>LIB 145</line></cell>
+                <cell/>
+                <cell><line>12:00<ndash/>12:50</line><line>LIB 145</line></cell>
+                <cell><line>1:00<ndash/>1:50</line><line>LIB 145</line></cell>
+            </row>
+            <row>
+                <cell>1/15</cell>
+                <cell/>
+                <cell/>
+                <cell>1/16</cell>
+                <cell/>
+                <cell><p>Solving Systems Using Substitution<mdash />emphasis on dealing with fractions</p></cell>
+            </row>
+            <row>
+                <cell>1/22</cell>
+                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
+                <cell/>
+                <cell>1/23</cell>
+                <cell/>
+                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
+            </row>
+            <row>
+                <cell>1/29</cell>
+                <cell><p>Properties of Exponents</p></cell>
+                <cell/>
+                <cell>1/30</cell>
+                <cell/>
+                <cell><p>Properties of Exponents</p></cell>
+            </row>
+            <row>
+                <cell>2/5</cell>
+                <cell><p>Polynomials</p></cell>
+                <cell/>
+                <cell>2/6</cell>
+                <cell/>
+                <cell><p>Polynomials</p></cell>
+            </row>
+            <row>
+                <cell>2/12</cell>
+                <cell><p>Factoring Trinomials</p></cell>
+                <cell/>
+                <cell>2/13</cell>
+                <cell/>
+                <cell><p>Factoring Trinomials</p></cell>
+            </row>
+            <row>
+                <cell>2/19</cell>
+                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
+                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
+                <cell>2/20</cell>
+                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
+                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
+            </row>
+            <row>
+                <cell>2/26</cell>
+                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
+                <cell/>
+                <cell>2/27</cell>
+                <cell/>
+                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
+            </row>
+            <row>
+                <cell>3/5</cell>
+                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
+                <cell/>
+                <cell>3/6</cell>
+                <cell/>
+                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
+            </row>
+            <row bottom="major">
+                <cell>3/12</cell>
+                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
+                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
+                <cell>3/13</cell>
+                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
+                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
+            </row>
+        </tabular>
+    </table> -->
+    </section>
+  </article>
+</mathbook>

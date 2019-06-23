@@ -1,37 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Expectations</title>
 
-    <p>MTH 65 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. For starters, this means:<ul>
-        <li>
-            <p>Complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
-        </li>
-        <li>
-            <p>Read the assigned material from the textbook and elsewhere.</p>
-        </li>
-        <li>
-            <p>Make time to visit me in office hours at the slightest sign of difficulty with material.</p>
-        </li>
-    </ul></p>
+    <p>
+        MTH 65 can be a challenging course,
+        so the main expectation is that you commit to the course with the goal of passing with an A
+        and play an active role in your learning.
+        We will be using the <q>flipped</q> model of teaching math.
+        For each day of class
+        <ol>
+            <li>
+                <p>
+                    You will watch roughly one hour of video lectures before coming to class.
+                </p>
+            </li>
+            <li>
+                <p>
+                    You will take notes on the video lecture and turn them in when class starts.
+                    We call these the <q>class prep</q> assignments.
+                    Download and print the
+                    <url href="notes/MTH65_Lecture_Outlines-sections.pdf"><q>class prep</q> video lecture notes</url>
+                    to fill in while you watch the videos.
+                </p>
+            </li>
+            <li>
+                <p>
+                    In class we will work together in groups doing math exercises.
+                    We call these the <q>group activity</q> assignments.
+                </p>
+            </li>
+            <li>
+                <p>
+                    You have some online homework to complete within five or six days of the in-class practice.
+                </p>
+            </li>
+        </ol>
+        There is evidence that the <q>flipped</q> model can raise the success rates in math courses.
+        More <q>traditional</q> methods for running a class have recently led to an average 60% pass rate in MTH 65.
+        Flipping might raise this, and those who do pass are more likely to pass with an A.
+    </p>
 
-    <p>The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.  All students are further encouraged to work together<mdash />collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
+    <p>
+        Additionally, please:
+        <ul>
+            <li>
+                <p>
+                    Try to complete all homework assignments earlier than the due date.
+                    Begin working on homework assignments the same day that we discuss that material in class.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Make plans to visit me in office hours.
+                </p>
+            </li>
+        </ul>
+    </p>
 
-    <p>Here are some other expectations:<ul>
-        <li>
-            <p>Maintain respect for yourself and your classmates.</p>
-        </li>
-        <li>
-            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
-        </li>
-        <li>
-            <p>Check your <c>pcc.edu</c> email at least once a day.</p>
-        </li>
-        <li>
-            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
-        </li>
-    </ul></p>
+    <p>
+        The ideas are covered in a natural sequence,
+        and if you stay on top of the assignments,
+        you have a high chance for success.
+        <!-- Topics will be discussed in class,
+        with exercises that tune the technique and problems that reenforce understanding.
+        Questions are encouraged both during class and in office hours.
+        Indeed, they are a significant part of the learning process. -->
+        All students are further encouraged to work together<mdash />collaboration is an important part of any activity,
+        and it is almost always beneficial for all involved.
+    </p>
 
+    <p>
+        Here are some other expectations:
+        <ul>
+            <li>
+                <p>
+                    Maintain respect for yourself and your classmates.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Do not use phones, tablets, or computers during class time
+                    unless it is directly related to a class activity.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Check your <c>@pcc.edu</c> email at least once a day.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Food and drink can be distracting to other students.
+                    Out of respect for others, please do not bring food and drink to class.
+                    (Beverages that do not smell strongly and are in spill-proof containers are OK.)
+                </p>
+            </li>
+        </ul>
+    </p>
 </section>

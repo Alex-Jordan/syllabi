@@ -1,0 +1,21 @@
+#section-calendar-mw .sidebyside {
+    border-top: 5px solid;
+    margin-bottom: 10pt;
+}
+
+#section-calendar-mw .sbsheader {
+    margin-bottom: 10pt;
+}
+
+#section-calendar-uh .sidebyside {
+    border-top: 5px solid;
+    margin-bottom: 10pt;
+}
+
+#section-calendar-uh .sbsheader {
+    margin-bottom: 10pt;
+}
+
+.pretext-content iframe {
+	border:1px solid lightgrey;
+}

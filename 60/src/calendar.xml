@@ -1,299 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Calendar</title>
 
-    <p>The following dates are of interest to everyone:</p>
+    <p>The instructional videos here were recorded by fellow PCC instructor Cara Lee. The class prep and in-class activities are also from Cara, and I'm very grateful to her for these materials during my first term trying out the <q>flipped</q> model. Fellow PCC instructor Micki Josi provided the student testimonial videos and pointed me to the video introduciton to the <q>flipped</q> model.</p>
 
-    <sidebyside>
-        <tabular top="major" bottom="minor" left="major" valign="top">
+    <!-- <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p> -->
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 8</title>
+            <video youtube="qdKzSq_t8k8 nrJbWYt-LnE q1DbgTtB5GY 7snnRaC4t5c lT-qvk-PULA QuTUfBqtFT8" />
+            <p>We will discuss the class format and orient you to the weekly routine.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-arithmetic-with-negative-numbers.html">Section 1.1 (Negative Numbers)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-absolute-value-and-square-root.html">Section 1.3 (Absolute Value and Square Root)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep_.pdf">Blank</url>, <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep__completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 10</title>
+            <video youtube="k7eeQxKEjXg qKmDxLsvCos 8X-reMIG494 p4XIR_94YNA ASvHYHnr_EM" />
+            <p>Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-fractions-and-fraction-arithmetic.html">Section 1.2 (Fractions)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-order-of-operations.html">Section 1.4 (Order of Operations)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_1-2_and_1-4_group_activity.pdf">Blank</url>, <url href="activities/section_1-2_and_1-4_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 15</title>
+            <video youtube="Wdat-Wb4alc Q_J9p304p7Y ZTfFA_m4j8Y 2J4Vd2np7MY voAw9jeMAW8" />
+            <p>Complete the <url href="prep/section_1-5_and_1-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-set-notation-and-types-of-numbers.html">Section 1.5 (Set Notation and Types of Numbers)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-comparison-symbols-and-notation-for-intervals.html">Section 1.6 (Comparison Symbols and Interval Notation)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_1-5_and_1-6_group_activity.pdf">Blank</url>, <url href="activities/section_1-5_through_1-7_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 17</title>
+            <video youtube="GfYsFkVwE9I n3z3vrAYrQQ tDacgy4UISU eFEppXK7QO4" />
+            <p>Complete the <url href="prep/section_2-1_and_2-2_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-variables-and-evaluating-expressions.html">Section 2.1 (Variables and Expressions)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-geometry-formulas.html">Section 2.2 (Geometry Formulas)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_2-1_and_2-2_group_activity.pdf">Blank</url>, <url href="activities/section_2-1_and_2-2_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 22</title>
+            <video youtube="Klwa9epAsFY ouTY0rh-HhY" />
+            <p>Complete the <url href="prep/section_2-3_and_2-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-combining-like-terms.html">Section 2.3 (Combining Like Terms)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-equations-and-inequalities-as-true-false-statements.html">Section 2.4 (Equations and Inequalities)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_2-3_and_2-4_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 24</title>
+            <video youtube="3lHLvCUjzR4 29f6U-7WpMk wCQkaADSX34" />
+            <p>Complete the <url href="prep/section_2-5_and_2-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-equations.html">Section 2.5 (One-Step Equations)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-inequalities.html">Section 2.6 (One-Step Inequalities)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_2-5_and_2-6_group_activity.pdf">Blank</url>, <url href="activities/section_2-5_and_2-6_group_activity_completed.pdf">Completed</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Jan 29</title>
+            <video youtube="Kzo6Fx8uh4w MNVSHN89WAw 2OFB0xtxHPc nOk290woDkg" />
+            <p>Complete the <url href="prep/section_2-7_and_2-8_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-percentages.html">Section 2.7 (Percentages)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-modeling-with-equations-and-inequalities.html">Section 2.8 (Modeling)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_2-7_and_2-8_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Jan 31</title>
+            <video youtube="ByPKB7RGoBA YGTbHR_6Rhg 4zRQczilM5w Klwa9epAsFY G6_AQLQOl_0" />
+            <p>Complete the <url href="prep/section_2-9_and_2-10_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-introduction-to-exponent-rules.html">Section 2.9 (Exponent Rules)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-simplifying-expressions.html">Section 2.10 (Simplifying Expressions)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_2-9_and_2-10_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 5</title>
+            <p>Class was canceled because campus was closed due to icy conditions.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 7</title>
+            <p><xref ref="exam1" text="title"/></p>
+            <p><url href="activities/Exam1Preparation.pdf">Practice Questions for Exam 1</url></p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 12</title>
+            <video youtube="H8MDbjZ-_Ps DVG-ATxHwlM TXE1cEtG2HU IdtliEJwpTs a6rR_jJ65sQ" />
+            <p>Complete the <url href="prep/section_3-1_and_3-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-equations.html">Section 3.1 (Multistep Linear Equations)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-inequalities.html">Section 3.2 (Multistep Linear Inequalities)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_3-1_and_3-2_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 14</title>
+            <video youtube="BqORZv4kbq8 lFA-ZdIHJP8 Csv1dW2HmGY" />
+            <p>Complete the <url href="prep/section_3-3_and_3-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-linear-equations-and-inequalities-with-fractions.html">Section 3.3 (Equations and Inequalities with Fractions)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-isolating-a-linear-variable.html">Section 3.4 (Isolating a Linear Variable)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_3-3_and_3-4_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 19</title>
+            <video youtube="VraTHEy-VTQ Cm3FSPZdZpQ 80HvKUws1J4" />
+            <p>Complete the <url href="prep/section_3-5_and_3-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-ratios-and-proportions.html">Section 3.5 (Ratios and Proportions)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-special-solution-sets.html">Section 3.6 (Special Solution Sets)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_3-5_and_3-6_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 21</title>
+            <video youtube="o4OpOdrnLec 3eRoyWuxs5w upzHtHGfxRA" />
+            <p>Complete the <url href="prep/section_4-1_and_4-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-cartesian-coordinates.html">Section 4.1 (Cartesian Coordinates)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-graphing-equations.html">Section 4.2 (Graphing Equations)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_4-1_and_4-2_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Feb 26</title>
+            <p>Class was canceled because campus was closed due to icy conditions.</p>
+        </stack>
+        <stack>
+            <title>Thursday Feb 28</title>
+            <p><xref ref="exam2" text="title"/></p>
+            <p><url href="activities/Exam2Preparation.pdf">Practice Questions for Exam 2</url></p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Mar 5</title>
+            <video youtube="0sgVQErb8BI pmU8h3M1vgA 1xh99EBczsI Ta4NwEoPqYE" />
+            <p>Complete the <url href="prep/section_4-3_and_4-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-exploring-two-variable-data-and-rate-of-change.html">Section 4.3 (Two-Variable Data and Rate of Change)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-slope.html">Section 4.4 (Slope)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_4-3_and_4-4_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Mar 7</title>
+            <video youtube="PlXSUfoihn4 Nwsj_XAvnxM b5b1rryFyMc rX_Z2nD4l90 XtbtEwTX8h0" />
+            <p>Complete the <url href="prep/section_4-5_and_4-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-slope-intercept-form.html">Section 4.5 (Slope-Intercept Form)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-point-slope-form.html">Section 4.6 (Point-Slope Form)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_4-5_and_4-6_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Mar 12</title>
+            <video youtube="Je6Md3KE_x8 t9-STs0p4lU d2SsaNW0Bbo h1tCyF0VpjY" />
+            <p>Complete the <url href="prep/section_4-7_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-standard-form.html">Section 4.7 (Standard Form)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_4-7_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+        <stack>
+            <title>Thursday Mar 14</title>
+            <video youtube="-UeMFgioF4c BgUX-gQ18gw FTjIN8SgruA Rayj0NgyDOk" />
+            <p>Complete the <url href="prep/section_4-8_and_4-10_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
+            <p>Readings from the book: <ul>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 4.8 (Horizontal and Vertical, Parallel and Perpendicular)</url></li>
+                <li><url href="http://spot.pcc.edu/math/orcca/section-linear-inequalities-in-two-variables.html">Section 4.10 (Linear Inequalities in Two Variables)</url></li>
+            </ul></p>
+            <p>In-class activity: <url href="activities/section_4-8_and_4-10_group_activity.pdf">Blank</url></p>
+            <p>Edfinity homework due when Edfinity says its due.</p>
+        </stack>
+    </sidebyside>
+
+    <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+            <title>Tuesday Mar 12</title>
+            <p>Class does not meet htis day during finals week.</p>
+        </stack>
+        <stack>
+            <title>Thursday Mar 14</title>
+            <p><xref ref="exam3" text="title"/></p>
+            <p><alert>The final exam is 8:00 to 10:00, not the usual class time!</alert></p>
+        </stack>
+    </sidebyside>
+
+<!--     <p>The math department and student learning center are working together to provide <q>just in time</q> workshops on certain key topics. We encourage you to attned these workshops to prop up the skill sets you are more likely to have trouble with. Here is the schedule of workshops.</p>
+
+    <table>
+        <caption>Workshop Schedule</caption>
+        <tabular left="major" right="minor" top="major" bottom="minor">
             <col/>
+            <col width="19%"/>
+            <col width="19%"/>
             <col/>
-            <col right="major" width="50%"/>
-            <row>
-                <cell>Saturday</cell>
-                <cell>Sep 30</cell>
-                <cell>
-                    <p>Last day to choose financial aid refund option: see <url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">MyRefunds</url>.</p>
-                    <p>Last day to drop 8-12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html">how to drop</url>.</p>
-                </cell>
+            <col width="19%"/>
+            <col width="19%" right="major"/>
+            <row halign="center">
+                <cell colspan="3">Monday</cell>
+                <cell colspan="3">Tuesday</cell>
             </row>
             <row>
-                <cell>Tuesday</cell>
-                <cell>Oct 3</cell>
-                <cell>
-                    <p>Last day to add classes.</p>
-                </cell>
+                <cell/>
+                <cell><line>12:00<ndash/>12:50</line><line>LIB 212</line></cell>
+                <cell><line>2:00<ndash/>2:50</line><line>LIB 145</line></cell>
+                <cell/>
+                <cell><line>12:00<ndash/>12:50</line><line>LIB 145</line></cell>
+                <cell><line>1:00<ndash/>1:50</line><line>LIB 145</line></cell>
+            </row>
+            <row>
+                <cell>1/15</cell>
+                <cell/>
+                <cell/>
+                <cell>1/16</cell>
+                <cell/>
+                <cell><p>Solving Systems Using Substitution<mdash />emphasis on dealing with fractions</p></cell>
+            </row>
+            <row>
+                <cell>1/22</cell>
+                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
+                <cell/>
+                <cell>1/23</cell>
+                <cell/>
+                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
+            </row>
+            <row>
+                <cell>1/29</cell>
+                <cell><p>Properties of Exponents</p></cell>
+                <cell/>
+                <cell>1/30</cell>
+                <cell/>
+                <cell><p>Properties of Exponents</p></cell>
+            </row>
+            <row>
+                <cell>2/5</cell>
+                <cell><p>Polynomials</p></cell>
+                <cell/>
+                <cell>2/6</cell>
+                <cell/>
+                <cell><p>Polynomials</p></cell>
+            </row>
+            <row>
+                <cell>2/12</cell>
+                <cell><p>Factoring Trinomials</p></cell>
+                <cell/>
+                <cell>2/13</cell>
+                <cell/>
+                <cell><p>Factoring Trinomials</p></cell>
+            </row>
+            <row>
+                <cell>2/19</cell>
+                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
+                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
+                <cell>2/20</cell>
+                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
+                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
+            </row>
+            <row>
+                <cell>2/26</cell>
+                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
+                <cell/>
+                <cell>2/27</cell>
+                <cell/>
+                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
+            </row>
+            <row>
+                <cell>3/5</cell>
+                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
+                <cell/>
+                <cell>3/6</cell>
+                <cell/>
+                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
             </row>
             <row bottom="major">
-                <cell>Saturday</cell>
-                <cell>Nov 18</cell>
-                <cell>
-                    <p>Last day to change grade option for 11-12 week classes: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">grade options</url>.</p>
-                    <p>Last day to withdraw from 11<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">how to withdraw</url>.</p>
-                </cell>
+                <cell>3/12</cell>
+                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
+                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
+                <cell>3/13</cell>
+                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
+                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
             </row>
         </tabular>
-    </sidebyside>
-
-    <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p>
-<!--
-    <p>There are two calendars below; the first is for Monday-Wednesday sections, and the second is for Tuesday-Thursday sections.</p>
--->
-
-<!--    <table xml:id="mw-calendar">
-        <title>Monday-Wednesday sections</title>
-        <tabular top="major" bottom="minor" left="major" valign="top">
-             <col/>
-             <col/>
-             <col right="minor"/>
-             <col right="minor"/>
-             <col/>
-             <col/>
-             <col right="major"/>
-             <row bottom="none">
-                 <cell colspan="3">Monday</cell>
-                 <cell>Tuesday</cell>
-                 <cell colspan="3">Wednesday</cell>
-             </row>
-             <row bottom="medium">
-                 <cell/>
-                 <cell>Read</cell>
-                 <cell>Due</cell>
-                 <cell>Due</cell>
-                 <cell/>
-                 <cell>Read</cell>
-                 <cell>Due</cell>
-             </row>
-             <row>
-                 <cell>1/9</cell>
-                 <cell>9.2, 9.3</cell>
-                 <cell/>
-                 <cell><line><webwork/></line><line>Orientation</line></cell>
-                 <cell>1/11</cell>
-                 <cell>9.3, 9.4</cell>
-                 <cell/>
-             </row>
-             <row>
-                 <cell>1/16</cell>
-                 <cell colspan="2"><line>Martin Luther King <abbr>Jr.</abbr> Day</line><line>(class does not meet)</line></cell>
-                 <cell><webwork/></cell>
-                 <cell>1/18</cell>
-                 <cell>9.4, 9.5</cell>
-                 <cell><xref ref="written1" text="title"/></cell>
-             </row>
-             <row>
-                 <cell>1/23</cell>
-                 <cell>10.1, 10.2</cell>
-                 <cell><xref ref="written2" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>1/25</cell>
-                 <cell>10.3</cell>
-                 <cell><xref ref="exam1" text="title"/></cell>
-             </row>
-             <row>
-                 <cell>1/30</cell>
-                 <cell>10.4, 10.5</cell>
-                 <cell><xref ref="written3" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>2/1</cell>
-                 <cell>10.5, 10.6</cell>
-                 <cell/>
-             </row>
-             <row>
-                 <cell>2/6</cell>
-                 <cell>10.6</cell>
-                 <cell><xref ref="written4" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>2/8</cell>
-                 <cell>11.1, 11.2</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>2/13</cell>
-                 <cell>11.3, 11.4</cell>
-                 <cell><xref ref="written5" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>2/15</cell>
-                 <cell>11.4, 11.5</cell>
-                 <cell><xref ref="exam2" text="title"/></cell>
-             </row>
-             <row>
-                 <cell>2/20</cell>
-                 <cell>12.1, 12.2</cell>
-                 <cell><xref ref="written6" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>2/22</cell>
-                 <cell>12.3</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>2/27</cell>
-                 <cell>12.5</cell>
-                 <cell><xref ref="written7" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>3/1</cell>
-                 <cell>12.6, 12.7</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>3/6</cell>
-                 <cell>12.7, 12.8</cell>
-                 <cell><xref ref="written8" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>3/8</cell>
-                 <cell>13.1, 13.2</cell>
-                 <cell><xref ref="exam3" text="title"/></cell>
-             </row>
-             <row>
-                 <cell>3/13</cell>
-                 <cell>13.2, 13.3</cell>
-                 <cell><xref ref="written9" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>3/15</cell>
-                 <cell>13.6</cell>
-                 <cell></cell>
-             </row>
-             <row bottom="major">
-                 <cell>3/20</cell>
-                 <cell colspan="2">11:00 section has <xref ref="exam4" text="title"/> at 11:00, <xref ref="written9" text="title"/></cell>
-                 <cell colspan="2">Class does not meet</cell>
-                 <cell><webwork/></cell>
-                 <cell>3/22</cell>
-                 <cell colspan="2"><line><xref ref="exam4" text="title"/> at 8:00</line><line><xref ref="written10" text="title"/></line></cell>
-             </row>
-        </tabular>
-    </table>
--->
-
-    <sidebyside>
-        <tabular top="major" bottom="minor" left="major" valign="top">
-             <col/>
-             <col/>
-             <col right="minor"/>
-             <col right="minor"/>
-             <col/>
-             <col/>
-             <col right="major"/>
-             <row bottom="none">
-                 <cell colspan="3" halign="center">Tuesday</cell>
-                 <cell halign="center">Wednesday</cell>
-                 <cell colspan="3" halign="center">Thursday</cell>
-             </row>
-             <row bottom="medium">
-                 <cell/>
-                 <cell>Read</cell>
-                 <cell halign="center">Due</cell>
-                 <cell halign="center">Due</cell>
-                 <cell/>
-                 <cell>Read</cell>
-                 <cell>Due</cell>
-             </row>
-             <row>
-                 <cell>9/26</cell>
-                 <cell>1.1<ndash/>1.4</cell>
-                 <cell/>
-                 <cell><webwork/> Orientation</cell>
-                 <cell>9/28</cell>
-                 <cell>1.4<ndash/>1.7</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>10/3</cell>
-                 <cell>2.1, 2.2</cell>
-                 <cell><xref ref="written1" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>10/5</cell>
-                 <cell>2.3</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>10/10</cell>
-                 <cell>2.4, 2.5</cell>
-                 <cell><line><xref ref="written2" text="title"/></line><line>Ch 1 contributions</line></cell>
-                 <cell><webwork/></cell>
-                 <cell>10/12</cell>
-                 <cell colspan="2"><line>2.5, 2.6,</line><line>Exam Preparation</line></cell>
-             </row>
-             <row>
-                 <cell>10/17</cell>
-                 <cell>2.7, 2.8</cell>
-                 <cell><xref ref="written3" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>10/19</cell>
-                 <cell></cell>
-                 <cell><xref ref="exam1" text="title"/></cell>
-             </row>
-             <row>
-                 <cell>10/24</cell>
-                 <cell>3.1</cell>
-                 <cell><xref ref="written4" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>10/26</cell>
-                 <cell>3.2</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>10/31</cell>
-                 <cell>3.3, 3.4</cell>
-                 <cell><line><xref ref="written5" text="title"/></line><line>Ch 2 contributions</line></cell>
-                 <cell><webwork/></cell>
-                 <cell>11/2</cell>
-                 <cell colspan="2"><line>3.5</line><line>Exam Preparation</line></cell>
-             </row>
-             <row>
-                 <cell>11/7</cell>
-                 <cell>4.1<ndash/>4.3</cell>
-                 <cell><xref ref="written6" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>11/9</cell>
-                 <cell></cell>
-                 <cell><xref ref="exam2" text="title"/></cell>
-             </row>
-             <row>
-                 <cell>11/14</cell>
-                 <cell>4.4, 4.5</cell>
-                 <cell></cell>
-                 <cell><webwork/></cell>
-                 <cell>11/16</cell>
-                 <cell>4.6</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>11/21</cell>
-                 <cell>Review</cell>
-                 <cell><xref ref="written7" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>11/23</cell>
-                 <cell colspan="2"><line>Thanksgiving</line><line>no class</line></cell>
-             </row>
-             <row>
-                 <cell>11/28</cell>
-                 <cell>4.7, 4.8</cell>
-                 <cell><line><xref ref="written8" text="title"/></line><line>Ch 3 contributions</line></cell>
-                 <cell><webwork/></cell>
-                 <cell>11/30</cell>
-                 <cell>4.9</cell>
-                 <cell></cell>
-             </row>
-             <row>
-                 <cell>12/5</cell>
-                 <cell>4.10</cell>
-                 <cell><xref ref="written9" text="title"/></cell>
-                 <cell><webwork/></cell>
-                 <cell>12/7</cell>
-                 <cell colspan="2">Exam Preparation</cell>
-             </row>
-             <row bottom="major">
-                 <cell>12/12</cell>
-                 <cell colspan="2"><line>Class does not meet</line></cell>
-                 <cell><webwork/></cell>
-                 <cell>12/14</cell>
-                 <cell colspan="2"><line><xref ref="exam3" text="title"/> at 8:00</line><line><xref ref="written10" text="title"/></line><line>Ch 4 contributions</line></cell>
-<!--                 <cell></cell>-->
-             </row>
-        </tabular>
-    </sidebyside>
+    </table> -->
 </section>

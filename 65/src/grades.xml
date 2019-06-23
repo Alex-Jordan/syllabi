@@ -1,44 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Grades</title>
 
     <introduction>
-        <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
+        <p>
+            General PCC Grading Guidelines are found at
+            <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
+        </p>
     </introduction>
 
-    <subsection>
-        <title>Attendance/Participation</title>
-        <p>Each day of class that you attend is worth <quantity><mag>0.25</mag><unit base="percent"/></quantity> of your grade, up to a maximum of <quantity><mag>4.5</mag><unit base="percent"/></quantity>. This does not include holidays, inservice days, or days where the entire class period is devoted to an exam. Typically in a term this leaves at least one absence that would not have a direct effect on your grade. However missing class will hurt your chances for success on exams because you will not get the same attention that your classmates had.</p>
-    </subsection>
+    <paragraphs>
+        <title>Class Prep Assignments</title>
+        <p>
+            Most class days you are supposed to come to class with class prep notes completed.
+            Download and print the <url href="notes/MTH65_Lecture_Outlines-sections.pdf"><q>class prep</q> video lecture notes</url>.
+            You will show these to me at some point during class.
+            Then while you work on some warm-up exercises,
+            I will look over your prep assignments and give you credit for them.
+            Each one is worth 0.5% of your grade.
+            There are 17 of these total,
+            so all together they are worth 8.5% of your grade.
+        </p>
 
-    <subsection>
-        <title>Web Assignments</title>
-        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" text="type-global"/>. Collectively, all web assignments are worth <quantity><mag>10</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
-    </subsection>
+        <p>
+            If you miss class, you may bring the completed class prep assignment to me the next class session.
+        </p>
+    </paragraphs>
 
-    <subsection>
-        <title>Written Assignments</title>
-        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>10</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
-    </subsection>
+    <paragraphs>
+        <title>In-class Group Work</title>
+        <p>
+            Most class days, you will work in small groups on a collection of exercises
+            that go along with the lesson you prepared for.
+            If you work on these diligently during class time with your partners,
+            you will get credit for 0.5% of your final grade for each one
+            (even if your group is not able to finish these in time).
+            There are 17 of these, so in total these are worth 8.5% of your grade.
+        </p>
 
-    <subsection>
-        <title>Late Homework</title>
-        <p>Web assignments are due whenever <webwork/> says they are due for full credit.  There is no way to get credit for a late web assignment (unless you unlock an achievement item reward). After the due date, you may still type in answers to check your work, but doing so will not increase your score. After the due date, answers are available if you re-visit the problem. A reminder: any <webwork/> score can be <em>overwritten</em> by your next exam score, if that is to your benefit.</p>
+        <p>
+            If you miss class, you may bring a <em>fully completed</em> activity to me within one week
+            and still get the 0.5% credit.
+            It must be fully completed, not partially completed.
+            The work must be shown, not just the answers.
+        </p>
 
-        <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then it is absolutely too late. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
-    </subsection>
+        <p>
+            Blank group activities are available for download at <xref ref="section-calendar-mw" text="title"/> or <xref ref="section-calendar-uh" text="title"/>.
+        </p>
+    </paragraphs>
 
-    <subsection>
-        <title>Contribution to the Book</title>
-        <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6.5</mag><unit base="percent"/></quantity> of your final grade.</p>
-    </subsection>
+    <paragraphs>
+        <title>Online Homework</title>
+        <p>
+            Most of your homework for this class is to be submitted online through the free program <webwork/>.
+            For details, see <xref ref="section-webwork" text="type-global"/>.
+            Collectively, all web assignments are worth 11% of your final grade.
+            For every web assignment that you do not submit (or have a poor score for),
+            I will <em>replace</em> that score with the score you get on your next exam.
+        </p>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Exams</title>
-        <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are each worth <quantity><mag>23</mag><unit base="percent"/></quantity>, of your grade.</p>
-    </subsection>
+        <p>
+            Please refer to <xref ref="section-calendar-mw" text="title"/> or <xref ref="section-calendar-uh" text="title"/>
+            for exam dates, and to <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
+            Exams 1, 2, and 3 are each worth 24%, of your grade.
+        </p>
+    </paragraphs>
 
 </section>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Written Assignments</title>
 
-    <p>As the term progresses, more written assignments will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>10</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
+    <p>These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>10</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
 
     <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
         <li>
@@ -28,100 +28,51 @@
     <p><dl>
         <li xml:id="written1">
             <title>Written HW 1</title>
-            <p>Due Tuesday Oct 3</p>
-            <p>Demonstrate step by step how to calculate the value of <me>\frac{\left\lvert4^2-34\right\rvert-2\sqrt{1+2(3)(8)}}{5^2-4\div2(11)}+\frac{7}{5}</me>. Only make one simplification at a time, and leave a brief comment why you are making that particular simplification. For exmaple, the first simplification you might make is acting on the <m>4^2</m>, because that is inside the absolute value bar grouping symbols, and exponentiation has the highest priority within htat group. Done right, there are over a dozen steps to calculating this value.</p>
+            <p>Please see calendar for due date.</p>
+            <p><ul>
+                <li>
+                    <p>Section 11.1, <hash />37, 39, 41.</p>
+                </li>
+            </ul></p>
         </li>
         <li xml:id="written2">
             <title>Written HW 2</title>
-            <p>Due Tuesday Oct 10</p>
-            <p>The school book store purchases textbooks at a wholesale price, and then assigns a shelf price by dividing the wholesale price by <m>0.77</m>. The shelf price for a new basic algebra textbook is <m>\$117.10</m>. What was the wholesale price?</p>
-            <p>Do not respond to this question by simply doing a quick calculation and stating the result. Use the context description to set up a (simple) equation in one variable, whose solution will answer the question. Then do the step(s) to solve that equation. And then communicate the result in regular English.</p>
+            <p>Please see calendar for due date.</p>
+            <p><ul>
+                <li>
+                    <p>Section 11.1, <hash />43.</p>
+                </li>
+                <li>
+                    <p>Section 11.3, <hash />25.</p>
+                </li>
+            </ul></p>
         </li>
         <li xml:id="written3">
             <title>Written HW 3</title>
-            <p>Due Tuesday Oct 17</p>
-            <p>A truck that hauls water is capable of carrying a maximum of <quantity><mag>3000</mag><unit base="pound"/></quantity>. Water weighs <quantity><mag>8.3454</mag><unit base="pound"/><per base="gallon"/></quantity>, and the plastic tank on the truck that holds water weighs <quantity><mag>66</mag><unit base="pound"/></quantity>.</p>
-
-            <p>Suppose you want to find the maximum number of gallons of water the truck can carry. Write an equation to model this scenario. <em>There is no need to solve it,</em>, but if you would like to, you are welcome to. If you are unsure of how to solve it, you should not try to yet.</p>
+            <p>Please see calendar for due date.</p>
+            <p><ul>
+                <li>
+                    <p>Section 12.1, <hash />25, 27.</p>
+                </li>
+            </ul></p>
         </li>
         <li xml:id="written4">
             <title>Written HW 4</title>
-            <p>Due Tuesday Oct 24</p>
-            <p>The number of students enrolled in math courses at Portland Community College has grown over the years. The formulas:<md>
-                <mrow>M\amp=0.36x+4.2\amp W\amp=0.48x+4.9</mrow>
-            </md> describe the numbers (of thousands) of men and women enrolled in math courses at PCC <m>x</m> years after 2005. Give a simplified formula for the total number of thousands of students at PCC taking math classes <m>x</m> years after 2005 by simplifying <m>(0.36x+4.2)+(0.48x+4.9)</m>.</p>
-
-            <p>Do not simply jump from this expression to the answer. As we did once or twice in class, use the associative properties, commutative properties, and distributive property one step at a time to simplify this. Probably your first two lines should look like:<md>
-                <mrow>\amp(0.36x+4.2)+(0.48x+4.9)</mrow>
-                <mrow>\amp=0.36x+(4.2+0.48x)+4.9\amp\amp\text{by the associative property of addition}</mrow>
-                <mrow>\amp\ldots</mrow>
-            </md>.</p>
+            <p>Please see calendar for due date.</p>
+            <p><ul>
+                <li>
+                    <p>Section 12.2, <hash />43, 45, 47.</p>
+                </li>
+            </ul></p>
         </li>
         <li xml:id="written5">
             <title>Written HW 5</title>
-            <p>Due Tuesday Oct 31</p>
-            <p><booktitle>Massage Heaven</booktitle> and <booktitle>Massage You</booktitle> are competitors. <booktitle>Massage Heaven</booktitle> has <m>9900</m> registered customers, but it is losing approximately <m>200</m> registered customers every month. <booktitle>Massage You</booktitle> has <m>3900</m> registered customers, and it gets approximately <m>300</m> newly registered customers every month. How many months would it take <booktitle>Massage Heaven</booktitle> to catch up with <booktitle>Massage You</booktitle> in the number of registered customers?</p>
-
-            <p>Be sure to define any variables you use, set up an algebraic equation, and then carefully work through the steps in a way that makes it easy for someone else to understand everything you thought and did.</p>
-        </li>
-        <li xml:id="written6">
-            <title>Written HW 6</title>
-            <p>Due Tuesday Nov 14</p>
-            <p>To calculate a student's final grade in MTH 60, we use the formula <me>G=0.045A+0.1W+0.1H+0.065C+0.23E_1+0.23E_2+0.23E_3</me> where <m>G</m> is the final grade average, <m>A</m> is the attendance average, <m>W</m> is the <webwork /> average, <m>H</m> is the written homework average, <m>C</m> is the textbook contribution score, and <m>E_1,E_2,E_3</m> are the three exam scores. All of these averages and scores are out of <m>100</m>.</p>
-
-            <p>Solve this equation for <m>E_3</m>.</p>
-
-            <p>For a particular student, the final attendance average is <m>90</m>, the final <webwork /> average is <m>96</m>, the final written homework average is <m>75</m>, the textbook contribution score is <m>92</m>, the exam 1 score is <m>65</m>, and the exam 2 score is <m>74</m>. Use the formula you solved to find:<ul>
-                <li>the final exam score needed to bring the overall final grade average to <m>70</m></li>
-                <li>the final exam score needed to bring the overall final grade average to <m>80</m></li>
-                <li>the final exam score needed to bring the overall final grade average to <m>90</m></li>
+            <p>Please see calendar for due date.</p>
+            <p><ul>
+                <li>
+                    <p>Section 12.2, <hash />49, 53, 55.</p>
+                </li>
             </ul></p>
-        </li>
-        <li xml:id="written7">
-            <title>Written HW 7</title>
-            <p>Due Tuesday Nov 21</p>
-            <p>For each of the following equations, create a table of ordered pairs and then make a plot on a Cartesian plane. When you make your table, use helpful <m>x</m>-values. Also, use at least one negative <m>x</m>-value. When you make your plot, be sure to include all values from your table, label everything appropriately, and make clean graphs with regularly spaced ticks and reasonably perpendicular axes.</p>
-            <p><ol>
-                <li><p><m>y=2x+3</m></p></li>
-                <li><p><m>y=\frac{2}{5}x</m></p></li>
-                <li><p><m>y=x^2+1</m></p></li>
-                <li><p><m>y=-3x^2</m></p></li>
-                <li><p><m>y=\frac{1}{x^2+1}</m></p></li>
-                <li><p><m>y=2^x</m> (you may want to use your calculator to evaluate <m>2^x</m> for your <m>x</m>-values.)</p></li>
-            </ol></p>
-        </li>
-        <li xml:id="written8">
-            <title>Written HW 8</title>
-            <p>Due Tuesday Nov 28</p>
-            <p>For each of the following equations, make a plot on a Cartesian plane. <em>Do not</em> use a table-making technique. Instead, use what you know about slope-intercept form (the slope of the line and its <m>y</m>-intercept) to plot the line. When you make your plots, be sure to label everything appropriately, and make clean graphs with regularly spaced ticks and reasonably perpendicular axes.</p>
-            <p><ol>
-                <li><p><m>y=2x-4</m></p></li>
-                <li><p><m>y=-\frac{3}{7}x+3</m></p></li>
-                <li><p><m>y=1.2x+1</m></p></li>
-                <li><p><m>y=-\frac{3}{4}x</m></p></li>
-            </ol></p>
-        </li>
-        <li xml:id="written9">
-            <title>Written HW 9</title>
-            <p>Due Tuesday Dec 5</p>
-            <p>For each of the following equations, make a plot on a Cartesian plane. <em>Do not</em> use a table-making technique and do <em>not</em> convert the equations to slope-intercpet form. Instead, use what you know about point-slope form for some of these. For the lines in standard form, find their <m>x</m>- and <m>y</m>-intercepts and use them to plot the line. When you make your plots, be sure to label everything appropriately, and make clean graphs with regularly spaced ticks and reasonably perpendicular axes.</p>
-            <p><ol>
-                <li><p><m>y=-\frac{1}{2}(x-3)+1</m></p></li>
-                <li><p><m>y=1.2(x+4)+3</m></p></li>
-                <li><p><m>6x+20y=60</m></p></li>
-                <li><p><m>13x-9y=60</m></p></li>
-            </ol></p>
-        </li>
-        <li xml:id="written10">
-            <title>Written HW 10</title>
-            <p>Due Thursday Dec 14</p>
-            <p>For each of the following inequalities, make a plot on a Cartesian plane. Use whatever technique seems appropriate. When you make your plots, be sure to label everything appropriately, and make clean graphs with regularly spaced ticks and reasonably perpendicular axes.</p>
-            <p><ol>
-                <li><p><m>y\geq-4x</m></p></li>
-                <li><p><m>y\lt3x+5</m></p></li>
-                <li><p><m>2x+y\leq3</m></p></li>
-                <li><p><m>y\gt\frac{1}{3}(x-5)-2</m></p></li>
-            </ol></p>
         </li>
     </dl></p>
 </section>
