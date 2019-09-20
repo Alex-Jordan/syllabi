@@ -5,40 +5,38 @@
 <section xml:id="section-grades" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Grades</title>
 
-    <introduction>
-        <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
-    </introduction>
+    <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
 
-    <subsection>
+    <paragraphs>
         <title>Attendance/Participation</title>
         <p>Each day of class that you attend is worth <quantity><mag>0.25</mag><unit base="percent"/></quantity> of your grade, up to a maximum of <quantity><mag>4</mag><unit base="percent"/></quantity>. <!-- This does not include holidays, inservice days, or days where the entire class period is devoted to an exam. Typically in a term this leaves at least one absence that would not have a direct effect on your grade. However missing class will hurt your chances for success on exams because you will not get the same attention that your classmates had. --></p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Web Assignments</title>
         <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" text="title"/>. Collectively, all web assignments are worth <quantity><mag>12</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Written Assignments</title>
         <p>Problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>12</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Late Homework</title>
-        <p>Web assignments are due whenever <webwork/> says they are due.  There is no way to get credit for a late web assignment (unless you unlock an achievement item reward).  After the due date, you may still type in answers to <em>check</em> them, but doing so will not increase your score.  After the due date, problems will display correct answers. And remember: any <webwork/> score can be <em>overwritten</em> by your next exam score, if that is to your benefit.</p>
+        <p>Web assignments are due whenever <webwork/> says they are due. There is no way to get credit for a late web assignment (unless you unlock an achievement item reward). After the due date, you may still type in answers to <em>check</em> them, but doing so will not increase your score. After the due date, problems will display correct answers. And remember: any <webwork/> score can be <em>overwritten</em> by your next exam score, if that is to your benefit.</p>
 
         <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then I do not have time to go back and grade any more. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Presentations</title>
         <p>You will be assigned one or two partners, and on the last week of class, each group will give a roughly 25-minute presentation on some topic that applies linear algebra. These presentations are worth <quantity><mag>12</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. See <xref text="title" ref="section-presentations"/> for the specifics.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Exams</title>
         <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are worth <quantity><mag>15</mag><unit base="percent"/></quantity>, <quantity><mag>20</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
-    </subsection>
+    </paragraphs>
 
 </section>

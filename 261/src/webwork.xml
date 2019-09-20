@@ -5,8 +5,9 @@
 <section xml:id="section-webwork" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>WeBWorK Assignments</title>
 
-    <introduction>
-        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201803/">webwork.pcc.edu/webwork2/mth261-jordan-201803</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover on a given day are typically due at noon on the day of the following class. You may submit answers any time before the due date.  You may work from home or use PCC computer labs to turn in your answers.</p>
+    <paragraphs>
+        <title>Introduction</title>
+        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201903/">webwork.pcc.edu/webwork2/mth261-jordan-201903</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover on a given day are typically due at noon on the day of the following class. You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.</p>
 
         <p>Here is an example of what a <webwork/> problem is like.</p>
 
@@ -51,13 +52,13 @@
                 </solution>
             </webwork>
         </exercise>
-    </introduction>
+    </paragraphs>
 
 
-    <subsection>
+    <paragraphs>
         <title>Why are we using WeBWorK?</title>
 
-        <p>Traditionally, homework comes from textbook problems that students do on paper, and then turn in in to the instructor. Some bad consequences of working homework this ways are:<ul>
+        <p>Traditionally, homework comes from textbook problems that students do on paper, and then turn in in to the instructor. Some bad consequences of handling homework that way are:<ul>
             <li>
                 <p>It may be a week later until students get any feedback, and at that point students are no longer actively thinking about material from two weeks earlier.</p>
             </li>
@@ -96,21 +97,21 @@
                 <p>Your instructor can set things up so that you can retry each problem with new random numbers involved. If you are unsure if you have mastered a skill, this gives you a way to keep practicing.</p>
             </li>
         </dl></p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Logging in to <webwork/></title>
 
-        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201803">webwork.pcc.edu/webwork2/mth261-jordan-201803</url>. If you are working at your own
+        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201903">webwork.pcc.edu/webwork2/mth261-jordan-201903</url>. If you are working at your own
 computer, you might want to bookmark this link. Your username is your PCC email prefix, using all lowercase letters.  For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>. Your initial password is your PCC G-number, using a capital <c>G</c>.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>The First Time You Log On</title>
         <p>You should go to the <c>User Settings</c> menu in the upper left and change your password.  There is an Orientation assignment for you to take. Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>. Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.  The Orientation will remain available to you for the entire term, so you can always come back and look at it again.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Homework Sets Menu</title>
         <p>This shows you the assignments that have been assigned to you and when they are due. You may:<ul>
             <li>
@@ -121,20 +122,20 @@ computer, you might want to bookmark this link. Your username is your PCC email 
             </li>
         </ul></p>
         <p>When you click on an assignment, you will see a screen with the problem numbers listed. Off to the right is a message for you that might have specific instructions or information about the assignment. You should always look for and read this message.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Emailing for Help</title>
         <p>When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any problem. Write a message explaining what you have tried and if possible, include the work from your calculations. <webwork/> will send your instructor an email with helpful information (like all of the incorrect attempts you have tried) and they get back to you soon with a response. When they respond, it will be with an email, so <alert>you must remember to check your email</alert>.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Math Achievements</title>
         <p>As you complete more problems through the term, you will win badges for various <q>achievements</q>. For example, the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect submissions.  Both earning badges and just plain answering questions correctly will earn you <q>achievement points</q>. As you gain more achievement points, you will level up. Each time you level up, you earn an item that can be used to affect your grade.</p>
         <p><dl>
             <li>
                  <title>Level 1: Lesser Rod of Revelation</title>
-                 <p>Give yourself 50<percent/> credit on one problem.</p>
+                 <p>Give yourself 50% credit on one problem.</p>
             </li>
             <li>
                  <title>Level 2: Potion of Forgetfulness</title>
@@ -154,7 +155,7 @@ computer, you might want to bookmark this link. Your username is your PCC email 
             </li>
             <li>
                  <title>Level 6: Greater Rod of Revelation</title>
-                 <p>Give yourself 100<percent/> credit on one problem.</p>
+                 <p>Give yourself 100% credit on one problem.</p>
             </li>
             <li>
                  <title>Level 7: Robe of Longevity</title>
@@ -166,13 +167,13 @@ computer, you might want to bookmark this link. Your username is your PCC email 
             </li>
             <li>
                  <title>Level 9: Greater Tome of Enlightenment</title>
-                 <p><q>Earn</q> 100<percent/> on every problem in a single homework set.</p>
+                 <p><q>Earn</q> 100% on every problem in a single homework set.</p>
             </li>
             <li>
                  <title>Level 10: Cake of Enlargement</title>
                  <p>Double the weight of an entire set.</p>
             </li>
         </dl></p>
-    </subsection>
+    </paragraphs>
 
 </section>

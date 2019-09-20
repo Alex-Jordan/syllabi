@@ -5,10 +5,10 @@
 <xsl:import href="/Users/alex.jordan/mathbook/xsl/mathbook-html.xsl" />
 
 <!-- Common thin layer                                                      -->
-<xsl:import href="clm-common.xsl" />
+<!-- <xsl:import href="clm-common.xsl" /> -->
 
 <xsl:template match="webwork">
-    <a href="https://webwork.pcc.edu/webwork2/mth261-jordan-201803/">WeBWorK</a>
+    <a href="https://webwork.pcc.edu/webwork2/mth261-jordan-201903/">WeBWorK</a>
 </xsl:template>
 
 </xsl:stylesheet>

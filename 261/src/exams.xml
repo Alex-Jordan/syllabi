@@ -5,28 +5,28 @@
 <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exams</title>
 
-    <introduction>
-
+    <paragraphs>
+        <title>Introduction</title>
         <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
         <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
 
         <p><dl>
             <li xml:id="exam1">
-                <title>Exam 1 (15<percent/>)</title>
+                <title>Exam 1 (15%)</title>
                 <p>Covers sections 1.1<ndash/>1.8.</p>
                 <p>You will have the first 90 minutes of class time.</p>
                 <p>As you turn in your exam, you will be given the complete list of questions to take home with you. You may redo <em>one</em> question and turn in your response the next class period to replace your original score for that question.</p>
             </li>
             <li xml:id="exam2">
-                <title>Exam 2 (20<percent/>)</title>
+                <title>Exam 2 (20%)</title>
                 <p>Covers sections 1.9, 2.1<ndash />2.3, 2.8, 2.9, 3.1, 3.2. Additionally there will be repeated questions from Exam 1. These will be variants on the questions with the worst overall performance from Exam 1.</p>
                 <p>You will have the first 120 minutes of class time.</p>
                 <p>As you turn in your exam, you will be given the complete list of questions to take home with you. You may redo <em>one</em> question and turn in your response the next class period to replace your original score for that question.</p>
             </li>
             <li xml:id="exam3">
-                <title>Exam 3 (25<percent/>)</title>
+                <title>Exam 3 (25%)</title>
                 <p>Covers sections 4.4, 4.7, 5.1<ndash />5.3, and 6.1<ndash />6.4. Additionally there will be repeated questions from Exams 1 and 2. These will be variants on the questions with the worst overall performance from Exams 1 and 2.</p>
-                <p>You will have the entire 195 minutes of class time.</p>
+                <p>You will have the entire 200 minutes of class time.</p>
                 <p>Unlike the previous exams, there is no opportunity to make up one question.</p>
             </li>
     <!--         <li xml:id="exam4">
@@ -37,18 +37,18 @@
             </li>
      -->
         </dl></p>
-    </introduction>
+    </paragraphs>
 
 
-    <subsection>
+    <paragraphs>
         <title>Missing an Exam</title>
-        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make it up within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
+        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make it up within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam. If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
         <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
-    </subsection>
+    </paragraphs>
 
-    <subsection>
+    <paragraphs>
         <title>Accommodated Testing</title>
         <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
-    </subsection>
+    </paragraphs>
 
 </section>

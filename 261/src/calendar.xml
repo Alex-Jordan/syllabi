@@ -28,7 +28,7 @@
                 </cell>
             </row> -->
             <row bottom="major">
-                <cell>Wednesday</cell>
+                <cell>Thursday</cell>
                 <cell>July 4</cell>
                 <cell>
                     <p>College closed: Independence Day</p>
@@ -57,7 +57,7 @@
  -->        </tabular>
     </sidebyside>
 
-    <p>With a six-week class such as this one, you have until <m>80\%</m> of the course is complete to withdraw or change your grading option. I believe that means you have until Tuesday July 24th to do these things, but you should ask the registrar's office to be sure.</p>
+    <p>With an eight-week class such as this one, you have until <m>80\%</m> of the course is complete to withdraw or change your grading option. I believe that means you have until Sunday August 4th to do these things, but you should ask the registrar's office to be sure.</p>
 
     <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p>
 <!--
@@ -66,11 +66,8 @@
 
     <table xml:id="mw-calendar">
 <!--         <title>Monday-Wednesday sections</title> -->
-        <caption />
+        <title>Calendar</title>
         <tabular top="major" bottom="minor" left="major" valign="top">
-            <col/>
-            <col/>
-            <col right="minor"/>
             <col/>
             <col/>
             <col right="minor"/>
@@ -80,7 +77,6 @@
             <row bottom="none">
                 <cell colspan="3" halign="center">Monday</cell>
                 <cell colspan="3" halign="center">Wednesday</cell>
-                <cell colspan="3" halign="center">Friday</cell>
             </row>
             <row bottom="medium">
                 <cell/>
@@ -89,75 +85,70 @@
                 <cell/>
                 <cell>Read</cell>
                 <cell halign="center">Due</cell>
-                <cell/>
-                <cell>Read</cell>
-                <cell halign="center">Due</cell>
             </row>
             <row>
-                <cell>6/25</cell>
+                <cell>6/24</cell>
                 <cell>1.1, 1.2</cell>
                 <cell/>
-                <cell>6/27</cell>
+                <cell>6/26</cell>
                 <cell>1.3, 1.4</cell>
                 <cell><xref ref="written1" text="title"/></cell>
-                <cell>6/29</cell>
+            </row>
+            <row>
+                <cell>7/1</cell>
                 <cell>1.5, 1.6</cell>
                 <cell><xref ref="written2" text="title"/></cell>
-            </row>
-            <row>
-                <cell>7/2</cell>
+                <cell>7/3</cell>
                 <cell>1.7, 1.8</cell>
                 <cell><xref ref="written3" text="title"/></cell>
-                <cell>7/4</cell>
-                <cell colspan="2">No Class</cell>
-                <!-- <cell/> -->
-                <cell>7/6</cell>
-                <cell>1.9, 2.1</cell>
-                <cell><xref ref="written4" text="title"/></cell>
             </row>
             <row>
-                <cell>7/9</cell>
+                <cell>7/8</cell>
+                <cell>1.9, 2.1</cell>
+                <cell><xref ref="written4" text="title"/></cell>
+                <cell>7/10</cell>
                 <cell>2.2</cell>
                 <cell><xref ref="exam1" text="title"/></cell>
-                <cell>7/11</cell>
+            </row>
+            <row>
+                <cell>7/15</cell>
                 <cell>2.3, 2.8</cell>
                 <cell><xref ref="written5" text="title"/></cell>
-                <cell>7/13</cell>
+                <cell>7/17</cell>
                 <cell>2.9, 3.1</cell>
                 <cell><xref ref="written6" text="title"/></cell>
             </row>
             <row>
-                <cell>7/16</cell>
+                <cell>7/22</cell>
                 <cell>3.2, 4.4</cell>
                 <cell><xref ref="written7" text="title"/></cell>
-                <cell>7/18</cell>
+                <cell>7/24</cell>
                 <cell>4.7,5.1</cell>
                 <cell><xref ref="written8" text="title"/></cell>
-                <cell>7/20</cell>
-                <cell>5.2</cell>
-                <cell><xref ref="exam2" text="title"/></cell>
             </row>
             <row>
-                <cell>7/23</cell>
+                <cell>7/29</cell>
+                <cell>5.2</cell>
+                <cell><xref ref="exam2" text="title"/></cell>
+                <cell>7/31</cell>
                 <cell>5.3</cell>
                 <cell><xref ref="written9" text="title"/></cell>
-                <cell>7/25</cell>
+            </row>
+            <row>
+                <cell>8/5</cell>
                 <cell>6.1, 6.2</cell>
                 <cell><xref ref="written10" text="title"/></cell>
-                <cell>7/27</cell>
+                <cell>8/7</cell>
                 <cell>6.3, 6.4</cell>
                 <cell><xref ref="written11" text="title"/></cell>
             </row>
-            <row>
-                <cell>7/30</cell>
+            <row bottom="major">
+                <cell>8/12</cell>
                 <cell>Presentations</cell>
                 <cell><xref ref="written12" text="title"/></cell>
-                <cell>8/1</cell>
+                <cell>8/14</cell>
                 <cell><xref ref="exam3" text="title"/></cell>
                 <cell/>
-                <cell></cell>
-                <cell></cell>
-                <cell></cell>
             </row>
         </tabular>
     </table>

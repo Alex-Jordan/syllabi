@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is the hub file for Alex Jordan's MTH 254 Syllabus -->
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- This file contains control data for Alex Jordan's syllabus -->
+  <docinfo>
+    <!-- For title into HTML head, then tabs, bookmarks, etc -->
+    <initialism>MTH 261</initialism>
+    <!-- Thumbnail for HTML -->
+    <brandlogo url="https://spot.pcc.edu/math" source="https://webwork.pcc.edu/webwork2_files/images/mathematics.jpg"/>
+    <!-- For LaTeX-based images; inserted both into tex preamble, -->
+    <!-- and into standalone preambles for svg production         -->
+    <latex-image-preamble>
+    
+    \usepackage{pgfplots}
+    \usepackage{pgfplotstable}
+    \pgfplotsset{soldot/.style={only marks,mark=*}}
+    \pgfplotsset{holdot/.style={fill=white,only marks,mark=*}}
+    \tikzset{ampersand replacement = \amp}
+    
+    </latex-image-preamble>
+  </docinfo>
+  <article xml:id="syllabus">
+    <title>Course Information and Syllabus</title>
+    <subtitle>MTH 261 Applied Linear Algebra I</subtitle>
+    <!-- This file has the contents of the titel page of Alex Jordan's syllabus -->
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Alex Jordan</personname>
+          <department>Department of Mathematics</department>
+          <institution>Portland Community College</institution>
+          <email>alex.jordan@pcc.edu</email>
+        </author>
+        <date>Summer 2019</date>
+      </titlepage>
+    </frontmatter>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-contact-info">
+      <title>Contact Information</title>
+      <p>To reach me or PCC:</p>
+      <sidebyside>
+        <tabular>
+          <row>
+            <cell>Instructor: Alex Jordan</cell>
+          </row>
+          <row>
+            <cell>Office: SY ST 203</cell>
+          </row>
+          <row>
+            <cell>Phone: 971-722-4138</cell>
+          </row>
+          <row>
+            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+          </row>
+        </tabular>
+        <tabular>
+          <row>
+            <cell>Portland Community College</cell>
+          </row>
+          <row>
+            <cell>Sylvania Campus</cell>
+          </row>
+          <row>
+            <cell>12000 SW 49th Ave.</cell>
+          </row>
+          <row>
+            <cell>Portland, OR 97219</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
+      <sidebyside>
+        <tabular top="major" valign="top">
+          <row bottom="medium">
+            <cell>CRN</cell>
+            <cell>Days</cell>
+            <cell>Time</cell>
+            <cell>Place</cell>
+            <cell>Final Exam</cell>
+          </row>
+          <row bottom="major">
+            <cell>32268</cell>
+            <cell>M/W</cell>
+            <cell>12:00<ndash/>3:20</cell>
+            <cell>SY ST 209</cell>
+            <cell>
+              <line>Wednesday</line>
+              <line>8/14/2019</line>
+              <line>12:00<ndash/>3:20</line>
+            </cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>I have drop-in office hours where you do not need to make an appointment:</p>
+      <sidebyside>
+        <tabular top="major">
+          <row>
+            <cell colspan="2" halign="center">Office Hours</cell>
+          </row>
+          <row bottom="medium">
+            <cell>Day</cell>
+            <cell>During Term</cell>
+            <!-- <cell>Finals Week</cell> -->
+          </row>
+          <row>
+            <cell>Mondays</cell>
+            <cell>3:20<ndash/>4:20</cell>
+            <!-- <cell></cell> -->
+          </row>
+          <row bottom="major">
+            <cell>Wednesdays</cell>
+            <cell>3:20<ndash/>4:20</cell>
+            <!-- <cell></cell> -->
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.</p>
+      <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-course-description">
+      <title>Course Description</title>
+      <p>Taken from the official PCC course description:</p>
+      <sidebyside>
+        <tabular halign="left">
+          <row>
+            <cell>Course Number:</cell>
+            <cell>MTH 261</cell>
+          </row>
+          <row>
+            <cell>Course Title:</cell>
+            <cell>Applied Linear Algebra I</cell>
+          </row>
+          <row>
+            <cell>Credit Hours:</cell>
+            <cell>5</cell>
+          </row>
+          <row>
+            <cell>Lecture Hours:</cell>
+            <cell>50</cell>
+          </row>
+        </tabular>
+      </sidebyside>
+      <p>Covers elementary linear algebra with a focus on <m>n</m>-space and applications. Includes linear systems, vectors in <m>n</m>-space, vector space properties of <m>n</m>-space, and matrix algebra, including eigenspaces. Required: Matrix-capable calculator. Recommended: TI-89 Titanium or Casio Classpad 330. Prerequisite: MTH 252. Audit available.</p>
+      <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+    </section>
+    <!-- <xi:include href="./prerequisite-review.xml" /> -->
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-expectations">
+      <title>Expectations</title>
+      <p>MTH 261 is a technically demanding course that often requires you to make detailed logical arguments rather than simply find some answer. Writing skills and explanatory skills are a very important part of the course, and you will be asked to regularly turn in written assignments to be assessed on the logic and clarity of your arguments. You should not just be seeking answers, but striving to convince the world (and often, yourself) that your answers are correct.</p>
+      <p>The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.</p>
+      <p>At this level of learning, students are responsible for ensuring their own understanding. Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process. All students are further encouraged to work together<mdash/>collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
+      <p>Here are some other expectations:<ul><li>
+            <p>Play an active role in your learning. Don't expect that it's enough to come to class and listen. You have to read the assigned sections, do the assigned homework, and seek out help when it's needed.</p>
+        </li><li>
+            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
+        </li><li>
+            <p>Complete homework assignments earlier than their due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
+        </li><li>
+            <p>Check your <c>pcc.edu</c> email at least once a day.</p>
+        </li><li>
+            <p>Food and drink are distracting to other students. Please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
+        </li></ul></p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-technology">
+      <title>Technology Requirements</title>
+      <p>Part of this course involves teaching you how to use certain lienar algebra tools on a CAS calculator such as a TI-89 or Casio Classpad. You are <alert>required</alert> to have one and bring it to class everyday.</p>
+      <p>You will also need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-sage">
+      <title>Sage Examples</title>
+      <p>Here are some Sage cells where you can do certain things that you can also do with a graphing calculator. Throughout the term I will add Sage examples from class here. During exams, you must know how to use your graphing calculator, but you may find it convenient to use Sage with homework assignments.</p>
+      <paragraphs>
+        <title>Solve a Linear System</title>
+        <p>Note the double equals sign for making a comparison. Also note that multiplications must be explicit: <c>2*x</c>, not merely <c>2x</c>.</p>
+        <sage>
+          <input>
+                var('x y z')
+                solve([x+y+z==1,2*x-y+z==2,3*x+3*y+z==1],x,y,z)
+            </input>
+        </sage>
+      </paragraphs>
+      <paragraphs>
+        <title>Row Reduce Matrices</title>
+        <p>The <c>QQ</c> stands for the rational numbers, so these matrices will accept rational numbers as entries. And the row reduction process will work in the usual way, where it is legal to do things like divide by an integer. The <c>echelon_form()</c> command gives reduced row echelon form.</p>
+        <sage>
+          <input>
+                A = matrix(QQ,[[1, 2, 1], [4, 5, 4]])
+                A.echelon_form()
+            </input>
+        </sage>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-textbook">
+      <title>Textbook</title>
+      <p><pubtitle>Linear Algebra and its Applications</pubtitle>, 5th edition, Lay, Lay, and McDonald.</p>
+      <p>You can purchase this book from a PCC book store. Having unrestricted access to a textbook is a requirement.</p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-grades">
+      <title>Grades</title>
+      <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
+      <paragraphs>
+        <title>Attendance/Participation</title>
+        <p>Each day of class that you attend is worth <quantity><mag>0.25</mag><unit base="percent"/></quantity> of your grade, up to a maximum of <quantity><mag>4</mag><unit base="percent"/></quantity>. <!-- This does not include holidays, inservice days, or days where the entire class period is devoted to an exam. Typically in a term this leaves at least one absence that would not have a direct effect on your grade. However missing class will hurt your chances for success on exams because you will not get the same attention that your classmates had. --></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Web Assignments</title>
+        <p>Most of your homework for this class is to be submitted online through the free program <webwork/>. For details, see <xref ref="section-webwork" text="title"/>. Collectively, all web assignments are worth <quantity><mag>12</mag><unit base="percent"/></quantity> of your final grade. For every web assignment that you do not submit (or have a poor score for), I will <em>replace</em> that score with the score you get on your next exam.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Written Assignments</title>
+        <p>Problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>12</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Late Homework</title>
+        <p>Web assignments are due whenever <webwork/> says they are due. There is no way to get credit for a late web assignment (unless you unlock an achievement item reward). After the due date, you may still type in answers to <em>check</em> them, but doing so will not increase your score. After the due date, problems will display correct answers. And remember: any <webwork/> score can be <em>overwritten</em> by your next exam score, if that is to your benefit.</p>
+        <p>Written assignments that are received late may receive a zero. If I have already graded the stack of everyone else's papers, then I do not have time to go back and grade any more. You may try to turn in something late, and if I have not yet graded everyone else's, then I can grade yours.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Presentations</title>
+        <p>You will be assigned one or two partners, and on the last week of class, each group will give a roughly 25-minute presentation on some topic that applies linear algebra. These presentations are worth <quantity><mag>12</mag><unit base="percent"/></quantity> of your grade, so they should be treated seriously. See <xref text="title" ref="section-presentations"/> for the specifics.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Exams</title>
+        <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are worth <quantity><mag>15</mag><unit base="percent"/></quantity>, <quantity><mag>20</mag><unit base="percent"/></quantity>, and <quantity><mag>25</mag><unit base="percent"/></quantity> of your grade, respectively.</p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-downloads">
+      <title>Course Downloads</title>
+      <!--    <url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/syllabus.pdf">A pdf version of this syllabus.</url>-->
+      <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
+      <paragraphs>
+        <title>Lecture Notes</title>
+        <p>Lecture note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
+        <p>
+          <ul>
+            <li>
+                <p><url href="./notes/Sec1-1,1-2MondayJune24.pdf">Sections 1.1, 1.2 (June 24)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec1-3,1-4WednesdayJune26.pdf">Sections 1.3, 1.4 (June 26)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec1-5,1-6MondayJuly1.pdf">Sections 1.5, 1.6 (July 1)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec1-7,1-8WednesdayJuly3.pdf">Sections 1.7, 1.8 (July 3)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec1-9,2-1MondayJuly8.pdf">Sections 1.9, 2.1 (July 8)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec2-1,2-2WednesdayJuly10.pdf">Sections 2.1, 2.2 (July 10)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec2-3,2-8MondayJuly15.pdf">Sections 2.3, 2.8 (July 15)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec2-8,2-9,3-1,3-2WednesdayJuly17.pdf">Sections 2.8, 2.9, 3.1, 3.2 (July 17)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec3-1,3-2,4-4MondayJuly22.pdf">Sections 3.1, 3.2, 4.4 (July 22)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec4-7,5-1WednesdayJuly24.pdf">Sections 4.7, 5.1 (July 24)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec5-2MondayJuly29.pdf">Section 5.2 (July 29)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/Sec5-3WednesdayJuly31.pdf">Section 5.3 (July 31)</url></p>
+            </li>
+            <!-- <li>
+                <p><url href="./notes/NotesSections6-1,6-2WednesdayJuly25.pdf">Sections 6.1, 6.2 (July 25)</url></p>
+            </li>
+            <li>
+                <p><url href="./notes/NotesSections6-1,6-2,6-3,6-4FridayJuly27.pdf">Sections 6.1, 6.2, 6.3, 6.4 (July 27)</url></p>
+            </li> -->
+          </ul>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>In-Class Handouts</title>
+        <p>Occasionally there may be an in-class activity that uses a handout. Here is where I will place electronic copies of these handouts.</p>
+        <!-- <sidebyside>
+            <tabular>
+                <row>
+                    <cell><url href="worksheets/DeterminantComputation.pdf">Determinant Compuation</url></cell>
+                    <cell><url href="worksheets/DeterminantComputationSolutions.pdf">Solutions</url></cell>
+                </row>
+            </tabular>
+        </sidebyside> -->
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-webwork">
+      <title>WeBWorK Assignments</title>
+      <paragraphs>
+        <title>Introduction</title>
+        <p>I have made an account for you on a program called <webwork/> at <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201903/">webwork.pcc.edu/webwork2/mth261-jordan-201903</url>. Each week I will assign problem sets and you are required to answer them online using <webwork/>. The topics that we cover on a given day are typically due at noon on the day of the following class. You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.</p>
+        <p>Here is an example of what a <webwork/> problem is like.</p>
+        <exercise xml:id="webwork-demo">
+          <title>Multiply Powers</title>
+          <webwork-reps xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <authored>
+      
+        <pg-macros>
+                          <macro-file>contextLimitedPolynomial.pl</macro-file>
+                      </pg-macros>
+        <setup><pg-code>
+                              $a = 4;
+                              $b = 3;
+                              $c = $a + $b;
+                              $expression = Formula("x^($a)*x^($b)");
+      
+                              Context("LimitedPolynomial-Strict");
+                              # custom error message
+                              Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+                                  = "Your answer must be fully simplified";
+      
+                              $answer = Formula("x^($c)");
+                              $product = $a*$b;
+                              $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+                                  [Compute("x^($product)")] =&gt;
+                                  "When multiplying terms with the same base, you do not multiply the exponents."));
+                          </pg-code></setup>
+        <statement><p>Use the properties of exponents to simplify <m><var name="$expression"/></m>.</p><p>
+            <m><var name="$expression"/>=</m>
+            <var name="$answer" evaluator="$evaluator" width="8"/>
+          </p></statement>
+        <solution><p>We <em>add</em> the exponents as follows:<md><mrow><var name="$expression"/>&amp;=x^{<var name="$a"/>+<var name="$b"/>}</mrow><mrow>&amp;=x^{<var name="$c"/>}</mrow></md></p></solution>
+      
+    </authored>
+
+      
+    <static seed="7">
+      <statement><p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p><p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>x^{7}</m></p></answer>
+      
+      <solution><p>We <em>add</em> the exponents as follows:</p><p><me>\begin{aligned}
+      {x^{4}x^{3}}\amp =x^{4+3}\\
+      \amp =x^{7}
+      \end{aligned}</me></p></solution>
+      
+      
+      
+      
+    </static>
+      
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOyRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgICA9ICJZb3VyIGFuc3dlciBtdXN0IGJlIGZ1bGx5IHNpbXBsaWZpZWQiOwoKJGFuc3dlciA9IEZvcm11bGEoInheKCRjKSIpOwokcHJvZHVjdCA9ICRhKiRiOwokZXZhbHVhdG9yID0gJGFuc3dlci0%2BY21wKCktPndpdGhQb3N0RmlsdGVyKEFuc3dlckhpbnRzKAogICAgW0NvbXB1dGUoInheKCRwcm9kdWN0KSIpXSA9PgogICAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXSY9eF57WyRhXStbJGJdfVxcCiY9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOyRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgICA9ICJZb3VyIGFuc3dlciBtdXN0IGJlIGZ1bGx5IHNpbXBsaWZpZWQiOwoKJGFuc3dlciA9IEZvcm11bGEoInheKCRjKSIpOwokcHJvZHVjdCA9ICRhKiRiOwokZXZhbHVhdG9yID0gJGFuc3dlci0%2BY21wKCktPndpdGhQb3N0RmlsdGVyKEFuc3dlckhpbnRzKAogICAgW0NvbXB1dGUoInheKCRwcm9kdWN0KSIpXSA9PgogICAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOyRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgICA9ICJZb3VyIGFuc3dlciBtdXN0IGJlIGZ1bGx5IHNpbXBsaWZpZWQiOwoKJGFuc3dlciA9IEZvcm11bGEoInheKCRjKSIpOwokcHJvZHVjdCA9ICRhKiRiOwokZXZhbHVhdG9yID0gJGFuc3dlci0%2BY21wKCktPndpdGhQb3N0RmlsdGVyKEFuc3dlckhpbnRzKAogICAgW0NvbXB1dGUoInheKCRwcm9kdWN0KSIpXSA9PgogICAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXSY9eF57WyRhXStbJGJdfVxcCiY9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOyRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgICA9ICJZb3VyIGFuc3dlciBtdXN0IGJlIGZ1bGx5IHNpbXBsaWZpZWQiOwoKJGFuc3dlciA9IEZvcm11bGEoInheKCRjKSIpOwokcHJvZHVjdCA9ICRhKiRiOwokZXZhbHVhdG9yID0gJGFuc3dlci0%2BY21wKCktPndpdGhQb3N0RmlsdGVyKEFuc3dlckhpbnRzKAogICAgW0NvbXB1dGUoInheKCRwcm9kdWN0KSIpXSA9PgogICAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <pg>
+      #######################################
+      ###    Generated from PreTeXt source   
+      ###    on 2019-06-24T09:22:24-07:00    
+      ###                                    
+      ###      https://pretextbook.org       
+      ###                                    
+      #######################################
+      ## DBsubject()
+      ## DBchapter()
+      ## DBsection()
+      ## Level()
+      ## KEYWORDS()
+      ## TitleText1()
+      ## EditionText1()
+      ## AuthorText1()
+      ## Section1(not reported)
+      ## Problem1(9.1)
+      ## Author()
+      ## Institution()
+      ## Language(en-US)
+      
+      DOCUMENT();
+      
+      ############################################################
+      # Load Macros
+      ############################################################
+      loadMacros(
+        "PGstandard.pl",
+        "MathObjects.pl",
+        "PGML.pl",
+        "AnswerFormatHelp.pl",
+        "answerHints.pl",
+        "contextLimitedPolynomial.pl",
+        "PGcourse.pl",
+      );
+      
+      ############################################################
+      # Header
+      ############################################################
+      COMMENT('Authored in PreTeXt');
+      TEXT(beginproblem());
+      
+      ############################################################
+      # PG Setup
+      ############################################################
+      $a = 4;
+      $b = 3;
+      $c = $a + $b;
+      $expression = Formula("x^($a)*x^($b)");
+      
+      Context("LimitedPolynomial-Strict");
+      # custom error message
+      Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+          = "Your answer must be fully simplified";
+      
+      $answer = Formula("x^($c)");
+      $product = $a*$b;
+      $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+          [Compute("x^($product)")] =&gt;
+          "When multiplying terms with the same base, you do not multiply the exponents."));
+      
+      ############################################################
+      # Body
+      ############################################################
+      
+      BEGIN_PGML
+      Use the properties of exponents to simplify [`[$expression]\text{.}`]
+      
+      [`[$expression]=`][_]{$evaluator}{8}
+      
+      END_PGML
+      
+      ############################################################
+      # Solution
+      ############################################################
+      
+      BEGIN_PGML_SOLUTION
+      We _add_ the exponents as follows:
+      
+      [```\begin{aligned}
+      [$expression]&amp;=x^{[$a]+[$b]}\\
+      &amp;=x^{[$c]}
+      \end{aligned}```]
+      
+      END_PGML_SOLUTION
+      
+      ############################################################
+      # End Problem
+      ############################################################
+      
+      ENDDOCUMENT();
+      
+    </pg>
+
+  </webwork-reps>
+        </exercise>
+      </paragraphs>
+      <paragraphs>
+        <title>Why are we using WeBWorK?</title>
+        <p>Traditionally, homework comes from textbook problems that students do on paper, and then turn in in to the instructor. Some bad consequences of handling homework that way are:<ul><li>
+                <p>It may be a week later until students get any feedback, and at that point students are no longer actively thinking about material from two weeks earlier.</p>
+            </li><li>
+                <p>It is impossible for a student to do the appropriate amount of homework <em>and</em> for the instructor to give quality feedback on every single exercise. Often an instructor is only able to give feedback for a small subset of the exercises.</p>
+            </li></ul></p>
+        <p>Using <webwork/> brings the following advantages over traditional homework.<dl><li>
+                <title>Cost</title>
+                <p><webwork/> is free, unlike most online homework programs.</p>
+            </li><li>
+                <title>Timely Feedback</title>
+                <p>Rather than waiting a week for written feedback from your instructor, you get instant feedback from <webwork/>.</p>
+            </li><li>
+                <title>Quality Feedback</title>
+                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.</p>
+            </li><li>
+                <title>Ease of Communication</title>
+                <p><webwork/> encourages you to write your instructor for help, who can provide even higher quality feedback based on your message and your previous attempts.</p>
+            </li><li>
+                <title>Multiple or Unlimited Attempts</title>
+                <p>On paper, when you submit an answer, that's the end of it. With <webwork/> you might get a problem wrong on your first attempt, but you are encouraged to figure out your mistakes and try again.</p>
+            </li><li>
+                <title>Efficient Use of Class Time</title>
+                <p>Your instructor can monitor the whole class and see in real-time which problems and concepts are causing the class difficulty.</p>
+            </li><li>
+                <title>Extra Practice</title>
+                <p>Your instructor can set things up so that you can retry each problem with new random numbers involved. If you are unsure if you have mastered a skill, this gives you a way to keep practicing.</p>
+            </li></dl></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Logging in to <webwork/></title>
+        <p>Click any of the <webwork/> logos on this page, or go directly to <url href="https://webwork.pcc.edu/webwork2/mth261-jordan-201903">webwork.pcc.edu/webwork2/mth261-jordan-201903</url>. If you are working at your own
+computer, you might want to bookmark this link. Your username is your PCC email prefix, using all lowercase letters.  For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>. Your initial password is your PCC G-number, using a capital <c>G</c>.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>The First Time You Log On</title>
+        <p>You should go to the <c>User Settings</c> menu in the upper left and change your password.  There is an Orientation assignment for you to take. Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>. Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.  The Orientation will remain available to you for the entire term, so you can always come back and look at it again.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Homework Sets Menu</title>
+        <p>This shows you the assignments that have been assigned to you and when they are due. You may:<ul><li>
+                <p>click on an assignment and begin working on problems online</p>
+            </li><li>
+                <p>check the box next to an assignment and click <c>Download Hardcopy</c> to get the assignment as a <c>.pdf</c> file which you may then print to work on away from a computer.</p>
+            </li></ul></p>
+        <p>When you click on an assignment, you will see a screen with the problem numbers listed. Off to the right is a message for you that might have specific instructions or information about the assignment. You should always look for and read this message.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Emailing for Help</title>
+        <p>When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any problem. Write a message explaining what you have tried and if possible, include the work from your calculations. <webwork/> will send your instructor an email with helpful information (like all of the incorrect attempts you have tried) and they get back to you soon with a response. When they respond, it will be with an email, so <alert>you must remember to check your email</alert>.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Math Achievements</title>
+        <p>As you complete more problems through the term, you will win badges for various <q>achievements</q>. For example, the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect submissions.  Both earning badges and just plain answering questions correctly will earn you <q>achievement points</q>. As you gain more achievement points, you will level up. Each time you level up, you earn an item that can be used to affect your grade.</p>
+        <p>
+          <dl>
+            <li>
+                 <title>Level 1: Lesser Rod of Revelation</title>
+                 <p>Give yourself 50% credit on one problem.</p>
+            </li>
+            <li>
+                 <title>Level 2: Potion of Forgetfulness</title>
+                 <p>Drop the number incorrect attempts down to <m>0</m>.</p>
+            </li>
+            <li>
+                 <title>Level 3: Tunic of Extension</title>
+                 <p>Extend the due date of a currently open homework for <m>24</m> hours.</p>
+            </li>
+            <li>
+                 <title>Level 4: Cupcake of Enlargement</title>
+                 <p>Double the weight of one problem.</p>
+            </li>
+            <li>
+                 <title>Level 5: Box of Transmogrification</title>
+                 <p>Change a single problem to be a (newly randomized) copy of a different problem on the same homework set.</p>
+            </li>
+            <li>
+                 <title>Level 6: Greater Rod of Revelation</title>
+                 <p>Give yourself 100% credit on one problem.</p>
+            </li>
+            <li>
+                 <title>Level 7: Robe of Longevity</title>
+                 <p>Extend the due date of a currently open homework for <m>48</m> hours.</p>
+            </li>
+            <li>
+                 <title>Level 8: Scroll of Resurrection</title>
+                 <p>Reopen a homework set (even a closed one) for an additional <m>24</m> hours. All problems will be re-randomized.</p>
+            </li>
+            <li>
+                 <title>Level 9: Greater Tome of Enlightenment</title>
+                 <p><q>Earn</q> 100% on every problem in a single homework set.</p>
+            </li>
+            <li>
+                 <title>Level 10: Cake of Enlargement</title>
+                 <p>Double the weight of an entire set.</p>
+            </li>
+          </dl>
+        </p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-written-assignments">
+      <title>Written Assignments</title>
+      <p>Please see the <xref ref="section-calendar" text="title"/> for the homework due dates.</p>
+      <p>As the term progresses, more written assignments will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>2</mag><unit base="percent"/></quantity> of your final grade, and there will be eight in total. That means they are worth <quantity><mag>14</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
+      <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol><li>
+            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
+        </li><li>
+            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
+        </li><li>
+            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
+        </li><li>
+            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
+        </li><li>
+            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs $70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
+        </li></ol></p>
+      <p>
+        <dl>
+          <li xml:id="written1">
+            <title>Written HW 1</title>
+            <p><ul><li>
+                    <p>Section 1.2 #28</p>
+                </li></ul>Do not just state an answer. Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, you must <em>explain why</em> your answer is a correct answer. If it helps, it is acceptable to cite the book's theorems, but for self-containment you need to write the part of the theorem statement that is relevant into your work. That is, for a reader seeking clarity, do not make them open the book to read the theorem statement.</p>
+        </li>
+          <li xml:id="written2">
+            <title>Written HW 2</title>
+            <p><ul><li>
+                    <p>Section 1.4 #26</p>
+                </li></ul>Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, write up your explanation in such a way that a beginning linear algebra student can understand your argument and be convinced that you are correct.</p>
+        </li>
+          <li xml:id="written3">
+            <title>Written HW 3</title>
+            <p><ul><li>
+                    <p>Section 1.6 #12</p>
+                </li></ul>Be careful: the diagram for this problem is on the next page from where the question starts. And there are three parts (a,b,c) not just two. Follow the <q>five C's</q> to earn an A on each written homework assignment.</p>
+        </li>
+          <li xml:id="written4">
+            <title>Written HW 4</title>
+            <p><ul><li>
+                    <p>Section 1.7 #27</p>
+                </li></ul>Answer with a clear argument that demonstrates you understand the meaning of <q>linear independent</q>.</p>
+        </li>
+          <li xml:id="written5">
+            <title>Written HW 5</title>
+            <p><ul><li>
+                    <p>Section 1.8 #32</p>
+                </li></ul>Answer with a clear argument that demonstrates you understand the definition of a <q>linear transformation</q>.</p>
+        </li>
+          <li xml:id="written6">
+            <title>Written HW 6</title>
+            <p><ul><li>
+                    <p>Section 2.3 #28</p>
+                </li></ul>Note: you are given that <m>(AB)^{-1}</m> exists, but you cannot write <m>(AB)^{-1}=B^{-1}A^{-1}</m> because that is only true when both <m>A^{-1}</m> and <m>B^{-1}</m> exist. In this exercise, you do not yet know if these things exist. So you will have to be more careful with establishing that <m>B^{-1}</m> exists.</p>
+        </li>
+          <li xml:id="written7">
+            <title>Written HW 7</title>
+            <p><ul><li>
+                    <p>Section 2.9 #22</p>
+                </li></ul>Since you are given information about the dimension of <m>\operatorname{Span}\left\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_5\right\}</m>, you should demonstrate that you know the linear algebra defintion of <q>dimension</q>. Your explanation should somehow rely on a basis with <m>4</m> elements.</p>
+        </li>
+          <li xml:id="written8">
+            <title>Written HW 8</title>
+            <p><ul><li>
+                    <p>Section 3.2 #29</p>
+                </li></ul>If you actually multiply out <m>B^4</m> then you are missing the point. Don't do it the slow way!</p>
+        </li>
+          <li xml:id="written9">
+            <title>Written HW 9</title>
+            <p><ul><li>
+                    <p>Section 4.4 #32</p>
+                </li></ul>The idea here is that <m>\mathbb{P}_2</m> is the set of quadratic, linear, and constant polynomials: <m>\left\{a+bt+ct^2\mid a,b,c\in\mathbb{R}\right\}</m>. And that you can treat this set like vectors: adding two such things gives you another such thing, and scaling such things by real numbers gives you another such thing. The standard basis for <m>\mathbb{P}_2</m> is the set of three polynomials <m>\left\{1, t, t^2\right\}</m>. So each polynomial <m>a+bt+ct^2</m> identifies with a coordinate vector <m>\begin{bmatrix}a\\b\\c\end{bmatrix}</m>.</p>
+        </li>
+          <li xml:id="written10">
+            <title>Written HW 10</title>
+            <p><ul><li>
+                    <p>Section 4.7 #19</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written11">
+            <title>Written HW 11</title>
+            <p><ul><li>
+                    <p>Section 5.2 #18</p>
+                </li></ul></p>
+        </li>
+          <li xml:id="written12">
+            <title>Written HW 12</title>
+            <p><ul><li>
+                    <p>Section 6.4 #24</p>
+                </li></ul></p>
+        </li>
+        </dl>
+      </p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-presentations">
+      <title>Presentations</title>
+      <p>You will be assigned one or two partners, and on the last week of the term (July 30), each group will give a roughly 25-minute on one of the topics outlined below. These presentations are worth <quantity><mag>12</mag><unit base="percent"/></quantity> of your grade, so they should be treated seriously. To succeed with your presentation, you will:<ul><li>
+            <p>meet with your partners multiple times ahead of the presentation date</p>
+        </li><li>
+            <p>communicate with each other via email</p>
+        </li><li>
+            <p>plan ahead who will do/say what during your allotted time</p>
+        </li><li>
+            <p>meet with me in office hours once or more for guidance on how to appropriately fill your time slot</p>
+        </li></ul></p>
+      <p>You will be graded on:<ul><li>
+            <p>evidence that you prepared by doing research and/or creating materials to present</p>
+        </li><li>
+            <p>evidence that you practiced</p>
+        </li><li>
+            <p>how effective you are at communicating the important points to the audience</p>
+        </li></ul></p>
+      <p>Some topics you might present on are listed below. Once groups are assigned and you confer with your partners, you may request a topic. Topics are first come first serve though, so be preapred to choose something else if another group has beaten you to it.</p>
+      <p>
+        <dl>
+          <li>
+            <title>Graph Theory: Adjacency Matrices (Kyle and Fernando)</title>
+            <p><stale>In graph theory, a <term>graph</term> is a collection of <m>n</m> vertices with some edges that may connect two vertices together. (This is not like the graph of a function.) A graph's <term>adjacency matrix</term> is a symmetric matrix that records which vertices are connected to which using <m>0</m>s and <m>1</m>s. Explain how the <m>k</m>th power of an adjacency matrix provides a count of how many ways there are to get from one vertex to another in <m>k</m> steps. Demonstrate how an eigenvector for the dominant eigenvalue determines which vertices are <q>the most connected</q>.</stale></p>
+        </li>
+          <li>
+            <title>Statistics: Linear Regression</title>
+            <p>In statistics, we might record pairs of variables for many individuals, and we might believe that in general these variables have a linear relationship (in the sense of <m>y=mx+b</m>) . Explain how we can take a data set and interpret the hunt for <m>m</m> and <m>b</m> as a flawed attempt to solve an equation of the form <m>A\vec{c}=\vec{b}</m> for <m>\vec{c}</m>. Then explain how we can find a <q>least-squares</q> solution: a vector <m>\vec{c}</m> such that the distance between <m>A\vec{c}</m> and <m>\vec{b}</m> is as small as possible.</p>
+        </li>
+          <li>
+            <title>Computer Graphics: 3D Moving Objects on a 2D screen</title>
+            <p>In simple computer graphing situations, a simple 3D object is represented on a 2D screen. Demonstrate how this is done. Start by reading section 2.7. You are interested in the sections on 3D graphics, but the first section will help you understand the rest better. Take an object in <m>\mathbb{R}^3</m> (a cube would be fine with its eight vertices). Create an interesting rotation matrix for action in <m>\mathbb{R}^3</m>, apply it to the object, and project both the original object and its rotated version on to a 2D screen using a center of projection. I recommend using GeoGebra software to demonstrate.</p>
+        </li>
+          <li>
+            <title>Calculus: Fourier Series (Michael and Kai)</title>
+            <p><stale>This topic allows you to prove that <m>\sum\limits_{n=1}^{\infty}\frac{1}{n^2}=\frac{\pi^2}{6}</m>.</stale></p>
+            <p><stale>Let <m>I</m> be the set of integrable functions on <m>[-\pi,\pi]</m>. Show that we can define an <term>inner product</term> on <m>I</m> according to <m>\langle f,g\rangle=\int_{-\pi}^{\pi}f(t)g(t)\,dt</m>. Convince the audience that the collection <me>S=\left\{\frac{1}{\sqrt{2\pi}},\frac{\sin(x)}{\sqrt{\pi}},\frac{\cos(x)}{\sqrt{\pi}},\frac{\sin(2x)}{\sqrt{\pi}},\frac{\cos(2x)}{\sqrt{\pi}},\ldots\right\}</me> is an <em>orthonormal</em> set.</stale></p>
+            <p><stale>Find the projection of <m>f</m> onto <m>S</m>, where <m>f(x)=x^2</m> (restricted to <m>[-\pi,\pi]</m>. This projection, <m>\mathrm{proj}_{\mathrm{Span}(S)}(f)</m>, is known as the <term>Fourier series</term> for <m>f</m>. An advanced theorem tells us that <m>f=\mathrm{proj}_{\mathrm{Span}(S)}(f)</m> for input in <m>(-\pi,\pi)</m>. Evaluate both sides at <m>x=\pi/3</m> to get a famous and interesting equation.</stale></p>
+        </li>
+          <li>
+            <title>Cryptography: Encryption Key Matrices (Matthew, Jing, and Marshall)</title>
+            <p><stale>Invertible matrices can sometimes be used for encryption. A message (or part of a message) is converted into a vector, and the matrix transforms the vector into a new vector that is seemingly nonsense. Explain how this kind of encryption and the corresponding decryption works. You will need to explain a little bit about modular arithmetic (for example, mod <m>26</m>). You should recognize and explain that there are special conditions about which matrices may be used for this process.</stale></p>
+        </li>
+          <li>
+            <title>Vector Calculus: The Second Derivative Test</title>
+            <p>If <m>f</m> is a function of two variables, the graph of <m>z = f(x,y)</m> is a surface in <m>\mathbb{R}^3</m>. In vector calculus, we learn that potential extrema of <m>f</m> happen at critcal points: <m>(x_0,y_0)</m> where <m>\nabla f(x_0,y_0) = \vec{0}</m>. We also learn a second derivative test for discerning whether a given critical point is a local maximum, local minimum, or saddle point for <m>f</m>. Present this second derivative test and explain why it works, using eigenvalues and a diagonalization of the Hessian matrix. (The second derivative test for two-variable functions can be found in Stewart’s Calculus book, in section 11.7.)</p>
+        </li>
+          <li>
+            <title>Classifying all <m>2\times2</m> matrices</title>
+            <p>As we know, <m>2\times2</m> matrices provide linear transformations on the plane. Classify all <m>2\times2</m> matrices by what they do geometrically to the plane. Get started by considering what kinds of eigenvalues a matrix could have:<ul><li>
+                    <p>two distinct real</p>
+                </li><li>
+                    <p>one repeated real</p>
+                </li><li>
+                    <p>two complex conjugates (this may take the bulk of your explanation)</p>
+                </li></ul>For real eigenspaces, consider the possibilities for dimension. If eigenvalues are complex, choose one and find a complex eigenvector for it. Consider what the matrix does to the real and imaginary parts of that eigenvector (which are real vectors). You may need to learn some basics about complex numbers.</p>
+        </li>
+          <li>
+            <title>Recursive Sequences: Fibonacci and Tribonacci (Cameron and Aaron)</title>
+            <p><stale>Explain how powers of the matrix <m>\begin{bmatrix}0\amp1\\1\amp1\end{bmatrix}</m> produce the Fibonacci sequence. (It’s not enough to just demonstrate some powers of this matrix <mdash/> you need to give explanation.) Use this matrix and diagonalization to find an explicit formula for <m>F_n</m>, the <m>n</m>th term of the Fibonacci sequence, and show how the formula can be used to quickly find very large Fibonacci numbers. Explain how the same method could be used to find formulas for other, similar sequences defined by recurrence relations. For example, the Tribonacci relation is that <m>T_{n+1} = T_n +T_{n−1} +T_{n−2}</m>, and the first terms in the sequence are <m>T_0 = 0</m>, <m>T_1 = 1</m>, and <m>T_2 = 1</m>.</stale></p>
+        </li>
+          <li>
+            <title>Quadric Curves</title>
+            <p>Explain how to take a generic quadratic equation in two variables <me>Ax^2+Bxy+Cy^2+Dx+Ey+F=0</me> and determine what it looks like. By using basic algebra and linear algebra (in particular, diagonalizability of symmetric matrices) you can identify the <q>center</q> of the curve, whether it is an ellipse, hyperbola, parabola, or something <q>degenerate</q>, what the orientation of primary axes is, and what the <q>eccentricity</q> is.</p>
+        </li>
+          <li>
+            <title>Markov Chains (Gabriel and Jason)</title>
+            <p><stale>A Markov Chain captures the idea of a collection of values iterating in a regular way. Present what a Markov Chain is, what a stochastic matrix is, and what can be said about the eigenvalues of a stochastic matrix. Give several application examples.</stale></p>
+        </li>
+          <li>
+            <title>Linear Systems of Differential Equations</title>
+            <p>A linear differential equation in <m>n</m> functions of time is an equation like <me>w_1'=a_1w_1+a_2w_2+\cdots+a_nw_n</me> where the <m>w_a</m> are functions of time, and the <m>a_i</m> are constant. Explain how linear algebra can be used to solve a system of linear differential equaions, focusing on systems of two equaions in two unknows. Explore the paths taken by solution curves where <m>x=w_1(t)</m> and <m>y=w_2(t)</m>. Explore how eigenvalues and eigenspaces affect these paths.</p>
+        </li>
+          <li>
+            <title>Sums of Powers</title>
+            <p>Discuss two bases for polynomials of degree <m>k</m> or less: <m>\{1,x,x^2,\ldots x^{k}\}</m> and <m>\left\{\binom{x}{0},\binom{x}{1},\binom{x}{2},\ldots,\binom{x}{k}\right\}</m>. Explain how a change of basis matrix makes it easy to come up with simple formulas for sums of powers like <m>1^2+2^2+3^2+\cdots+n^2</m>.</p>
+        </li>
+        </dl>
+      </p>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-exams">
+      <title>Exams</title>
+      <paragraphs>
+        <title>Introduction</title>
+        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
+        <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
+        <p>
+          <dl>
+            <li xml:id="exam1">
+                <title>Exam 1 (15%)</title>
+                <p>Covers sections 1.1<ndash/>1.8.</p>
+                <p>You will have the first 90 minutes of class time.</p>
+                <p>As you turn in your exam, you will be given the complete list of questions to take home with you. You may redo <em>one</em> question and turn in your response the next class period to replace your original score for that question.</p>
+            </li>
+            <li xml:id="exam2">
+                <title>Exam 2 (20%)</title>
+                <p>Covers sections 1.9, 2.1<ndash/>2.3, 2.8, 2.9, 3.1, 3.2. Additionally there will be repeated questions from Exam 1. These will be variants on the questions with the worst overall performance from Exam 1.</p>
+                <p>You will have the first 120 minutes of class time.</p>
+                <p>As you turn in your exam, you will be given the complete list of questions to take home with you. You may redo <em>one</em> question and turn in your response the next class period to replace your original score for that question.</p>
+            </li>
+            <li xml:id="exam3">
+                <title>Exam 3 (25%)</title>
+                <p>Covers sections 4.4, 4.7, 5.1<ndash/>5.3, and 6.1<ndash/>6.4. Additionally there will be repeated questions from Exams 1 and 2. These will be variants on the questions with the worst overall performance from Exams 1 and 2.</p>
+                <p>You will have the entire 200 minutes of class time.</p>
+                <p>Unlike the previous exams, there is no opportunity to make up one question.</p>
+            </li>
+            <!--         <li xml:id="exam4">
+                <title>Exam 4 (15<percent/>)</title>
+                <p>Covers sections 5.1<ndash />5.3 and 6.1<ndash />6.4. Additionally there will be some repeated questions from Exams 1, 2, and 3.</p>
+                <p>You will have the entire 120 minutes of allotted final exam time (which goes from 8:00<ndash />10:00).</p>
+                <p>Unlike the previous exams, there is no opportunity to make up one question.</p>
+            </li>
+     -->
+          </dl>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Missing an Exam</title>
+        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make it up within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam. If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
+        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Accommodated Testing</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="resources">
+      <title>Student Resources</title>
+      <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+      <paragraphs>
+        <title>Tutoring</title>
+        <p>The Tutoring Center at Sylvania offers free tutoring in math.  You should find some time to check it out, if you haven't already. Details can be found at <url href="http://www.pcc.edu/resources/tutoring/sylvania/">www.pcc.edu/resources/tutoring/sylvania</url>.</p>
+        <p>As a PCC student, you have access to free online tutoring as well. Visit <url href="http://www.pcc.edu/resources/tutoring/sylvania/student-success/math-center/">www.pcc.edu/resources/tutoring/sylvania/student-success/math-center</url> for details.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Calculator Handbooks</title>
+        <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
+      </paragraphs>
+      <!-- <paragraphs>
+        <title>College Success Courses</title>
+        <p>There are several one credit courses available to help you maximize your success in the college experience.  These include courses specifically geared to study skills.  The following site offers information on these courses as well as tips for success: <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.</p>
+    </paragraphs> -->
+      <paragraphs>
+        <title>Online Videos</title>
+        <p>At the Khan Academy (<url href="http://www.khanacademy.org">www.khanacademy.org</url>)  you  can  find  thousands  of  10-  to  30-minute videos on various mathematics topics. See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.</p>
+        <p>Khan Academy is just one such site. See what else you can find online searching for math videos. If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Counseling Services</title>
+        <p>(SY CC 210, 971–722–8153)</p>
+        <p>Get help dealing with personal or career concerns that may be impacting your academic success.  Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.</p>
+        <p><url href="http://www.pcc.edu/resources/counseling/">www.pcc.edu/resources/counseling</url>.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Multicultural Center</title>
+        <p>(SY CC 267, 971–722–4112)</p>
+        <p>A welcoming and inclusive space for diverse students.  One of the many services is one-on-one help for math courses, drop-in or by appointment:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/culture/">www.pcc.edu/resources/culture</url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Queer Resource Center</title>
+        <p>A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/qrc/sylvania/">www.pcc.edu/resources/qrc/sylvania</url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Student Computing Center</title>
+        <p>(SY Library, 971–722–4325)</p>
+        <p>internet access, mathematics computer programs, and more (orientation required)</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/computer-labs/">www.pcc.edu/resources/computer-labs/</url>
+        </p>
+        <p>allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term)</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Student Learning Center</title>
+        <p>(SY Library, 971–722–4540)</p>
+        <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
+        <p>
+          <url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Veteran's Resource Center</title>
+        <p>(SY CC 220, 971–722–8793)</p>
+        <p>Relax, connect, computer workstations, work study and volunteer opportunities, and more.  For additional information:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/veterans/sylvania">http://www.pcc.edu/resources/veterans/sylvania</url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Women's Resource Center</title>
+        <p>(SY CC 268, 971–722–8101)</p>
+        <p>A wide variety of services that support the academic achievement of women:</p>
+        <p>
+          <url href="http://www.pcc.edu/resources/women/sylvania">www.pcc.edu/resources/women/sylvania</url>
+        </p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="miscellaneous">
+      <title>Miscellaneous Items</title>
+      <paragraphs>
+        <title>ADA Accommodation</title>
+        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Email Notice</title>
+        <p>Due to Federal laws and concerns about privacy, all email communication between instructor and student shall be done via <alert>PCC assigned email address</alert>. Access email via MyPCC<mdash/>see instructor during office hours if unfamiliar with using MyPCC.</p>
+      </paragraphs>
+      <paragraphs>
+        <title>Equity &amp; Inclusion Nondiscrimination Nonharassment (Title IX)</title>
+        <p>Portland Community College is committed to creating and fostering a learning and working environment based on open communication and mutual respect. This is an integral part of the College's academic mission to enrich our students' educational experiences and prepare them to live in and contribute to a global society. If you believe you have encountered sexual harassment, sexual misconduct, sexual assault, or discrimination based on race, color, religion, age, national origin, veteran status, sex, sexual orientation, gender identity, or disability please contact the Office of Equity and Inclusion at (971) 722-5840 or <email>equity.inclusion@pcc.edu</email>.</p>
+        <p>
+          <url href="http://www.pcc.edu/about/equity-inclusion/eeo-statement.html">www.pcc.edu/about/equity-inclusion/eeo-statement.html</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/equity-inclusion/nonharassment/">www.pcc.edu/about/equity-inclusion/nonharassment/</url>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Flexibility Statement</title>
+        <p>The instructor reserves the right to modify course content and/or substitute assignments and learning activities in response to institutional, weather, or class situations.  Flash Alert Messenger is a free service that delivers closure information:  <url href="http://www.pcc.edu/about/announcements/closure-information.html">www.pcc.edu/about/announcements/closure-information.html</url></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Sanctuary College</title>
+        <p>PCC is a sanctuary college. For more information and resources, see: <url href="http://www.pcc.edu/resources/undocumented-students">www.pcc.edu/resources/undocumented-students</url></p>
+      </paragraphs>
+      <paragraphs>
+        <title>Grading and Registration Policies and Deadlines</title>
+        <p>
+          <dl>
+            <li>
+                <title>Adding and Dropping</title>
+                <p><url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url></p>
+            </li>
+            <li>
+                <title>Grading Options</title>
+                <p><url href="http://www.pcc.edu/registration/grading-policy/">www.pcc.edu/registration/grading-policy/</url></p>
+            </li>
+            <li>
+                <title>Grading Guidelines</title>
+                <p><url href="http://www.pcc.edu/resources/student-records/grading/">www.pcc.edu/resources/student-records/grading/</url></p>
+            </li>
+          </dl>
+        </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Student Rights and Responsibilities Handbook</title>
+        <p>Students are required to comply with the Student Rights and Responsibilities Handbook. Included are policies on Students Rights, Student Conduct, Grade Appeal, Academic Integrity, Consensual Relationship Statement, and Children on PCC properties.</p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/">www.pcc.edu/about/policy/student-rights/</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf">www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf">www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/resources/academic/standards-practices/academic-integrity.html">www.pcc.edu/resources/academic/standards-practices/academic-integrity.html</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/relationships.pdf">www.pcc.edu/about/policy/student-rights/documents/relationships.pdf</url>
+        </p>
+        <p>
+          <url href="http://www.pcc.edu/about/policy/student-rights/documents/children.pdf">www.pcc.edu/about/policy/student-rights/documents/children.pdf</url>
+        </p>
+      </paragraphs>
+    </section>
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-calendar">
+      <title>Calendar</title>
+      <p>The following dates are of interest to everyone:</p>
+      <sidebyside>
+        <tabular top="major" bottom="minor" left="major" valign="top">
+          <col/>
+          <col/>
+          <col right="major" width="50%"/>
+          <!--             <row>
+                <cell>Friday</cell>
+                <cell>Jun 29</cell>
+                <cell>
+                    <p>Last day to select audit grade option: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url></p>
+                </cell>
+            </row>
+            <row>
+                <cell>Saturday</cell>
+                <cell>July 1</cell>
+                <cell>
+                    <p>Last day to choose financial aid refund option: see <url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</url></p>
+                    <p>Last day to drop 8<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url></p>
+                </cell>
+            </row> -->
+          <row bottom="major">
+            <cell>Thursday</cell>
+            <cell>July 4</cell>
+            <cell>
+                    <p>College closed: Independence Day</p>
+                </cell>
+          </row>
+          <!--             <row>
+                <cell>Tuesday</cell>
+                <cell>Apr 25</cell>
+                <cell><p>SAC inservice (classes before 4pm are canceled, classes at 4pm and after will be held)</p></cell>
+            </row>
+            <row>
+                <cell>Saturday</cell>
+                <cell>May 27</cell>
+                <cell><p>Last day to withdraw: see <url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">www.pcc.edu/enroll/registration/dropping.html</url></p></cell>
+            </row>
+            <row>
+                <cell>Saturday</cell>
+                <cell>May 27</cell>
+                <cell><p>Last day to change grade option: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url></p></cell>
+            </row>
+            <row bottom="major">
+                <cell>Monday</cell>
+                <cell>May 29</cell>
+                <cell><p>College closed: Memorial Day</p></cell>
+            </row>
+ -->
+        </tabular>
+      </sidebyside>
+      <p>With an eight-week class such as this one, you have until <m>80\%</m> of the course is complete to withdraw or change your grading option. I believe that means you have until Sunday August 4th to do these things, but you should ask the registrar's office to be sure.</p>
+      <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p>
+      <!--
+    <p>There are two calendars below; the first is for Monday-Wednesday sections, and the second is for Tuesday-Thursday sections.</p>
+-->
+      <table xml:id="mw-calendar">
+        <!--         <title>Monday-Wednesday sections</title> -->
+        <title>Calendar</title>
+        <tabular top="major" bottom="minor" left="major" valign="top">
+          <col/>
+          <col/>
+          <col right="minor"/>
+          <col/>
+          <col/>
+          <col right="major"/>
+          <row bottom="none">
+            <cell colspan="3" halign="center">Monday</cell>
+            <cell colspan="3" halign="center">Wednesday</cell>
+          </row>
+          <row bottom="medium">
+            <cell/>
+            <cell>Read</cell>
+            <cell halign="center">Due</cell>
+            <cell/>
+            <cell>Read</cell>
+            <cell halign="center">Due</cell>
+          </row>
+          <row>
+            <cell>6/24</cell>
+            <cell>1.1, 1.2</cell>
+            <cell/>
+            <cell>6/26</cell>
+            <cell>1.3, 1.4</cell>
+            <cell>
+              <xref ref="written1" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>7/1</cell>
+            <cell>1.5, 1.6</cell>
+            <cell>
+              <xref ref="written2" text="title"/>
+            </cell>
+            <cell>7/3</cell>
+            <cell>1.7, 1.8</cell>
+            <cell>
+              <xref ref="written3" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>7/8</cell>
+            <cell>1.9, 2.1</cell>
+            <cell>
+              <xref ref="written4" text="title"/>
+            </cell>
+            <cell>7/10</cell>
+            <cell>2.2</cell>
+            <cell>
+              <xref ref="exam1" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>7/15</cell>
+            <cell>2.3, 2.8</cell>
+            <cell>
+              <xref ref="written5" text="title"/>
+            </cell>
+            <cell>7/17</cell>
+            <cell>2.9, 3.1</cell>
+            <cell>
+              <xref ref="written6" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>7/22</cell>
+            <cell>3.2, 4.4</cell>
+            <cell>
+              <xref ref="written7" text="title"/>
+            </cell>
+            <cell>7/24</cell>
+            <cell>4.7,5.1</cell>
+            <cell>
+              <xref ref="written8" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>7/29</cell>
+            <cell>5.2</cell>
+            <cell>
+              <xref ref="exam2" text="title"/>
+            </cell>
+            <cell>7/31</cell>
+            <cell>5.3</cell>
+            <cell>
+              <xref ref="written9" text="title"/>
+            </cell>
+          </row>
+          <row>
+            <cell>8/5</cell>
+            <cell>6.1, 6.2</cell>
+            <cell>
+              <xref ref="written10" text="title"/>
+            </cell>
+            <cell>8/7</cell>
+            <cell>6.3, 6.4</cell>
+            <cell>
+              <xref ref="written11" text="title"/>
+            </cell>
+          </row>
+          <row bottom="major">
+            <cell>8/12</cell>
+            <cell>Presentations</cell>
+            <cell>
+              <xref ref="written12" text="title"/>
+            </cell>
+            <cell>8/14</cell>
+            <cell>
+              <xref ref="exam3" text="title"/>
+            </cell>
+            <cell/>
+          </row>
+        </tabular>
+      </table>
+      <!--     <table xml:id="tuth-calendar">
+        <title>Tuesday-Thursday sections</title>
+        <caption />
+        <tabular top="major" bottom="minor" left="major" valign="top">
+            <col/>
+            <col/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col/>
+            <col/>
+            <col right="major"/>
+            <row bottom="none">
+                <cell colspan="3" halign="center">Tuesday</cell>
+                <cell halign="center">Wednesday</cell>
+                <cell colspan="3" halign="center">Thursday</cell>
+            </row>
+            <row bottom="medium">
+                <cell/>
+                <cell>Read</cell>
+                <cell halign="center">Due</cell>
+                <cell halign="center">Due</cell>
+                <cell/>
+                <cell>Read</cell>
+                <cell halign="center">Due</cell>
+            </row>
+            <row>
+                <cell>4/4</cell>
+                <cell>1.1</cell>
+                <cell/>
+                <cell>
+                    <line><webwork/></line>
+                    <line>Orientation</line>
+                </cell>
+                <cell>4/6</cell>
+                <cell>1.2, 1.3</cell>
+                <cell />
+            </row>
+            <row>
+                <cell>4/11</cell>
+                <cell>1.3, 1.4</cell>
+                <cell><xref ref="written1" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>4/13</cell>
+                <cell>1.5, 1.6</cell>
+                <cell />
+            </row>
+            <row>
+                <cell>4/18</cell>
+                <cell>1.7, 1.8</cell>
+                <cell><xref ref="written2" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>4/20</cell>
+                <cell>1.8,1.9</cell>
+                <cell />
+            </row>
+            <row>
+                <cell>4/25</cell>
+                <cell colspan="2">
+                    <line>Inservice Day</line>
+                    <line>Class does not meet</line>
+                </cell>
+                <cell><webwork/></cell>
+                <cell>4/27</cell>
+                <cell>2.1</cell>
+                <cell>
+                    <line><xref ref="exam1" text="title"/></line>
+                    <line><xref ref="written3" text="title"/></line>
+                </cell>
+            </row>
+            <row>
+                <cell>5/2</cell>
+                <cell>2.2, 2.3</cell>
+                <cell><xref ref="written4" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>5/4</cell>
+                <cell>3.1, 3.2</cell>
+                <cell />
+            </row>
+            <row>
+                <cell>5/9</cell>
+                <cell>2.8, 4.3</cell>
+                <cell><xref ref="written5" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>5/11</cell>
+                <cell></cell>
+                <cell><xref ref="exam2" text="title"/></cell>
+            </row>
+            <row>
+                <cell>5/16</cell>
+                <cell>2.9, 4.2</cell>
+                <cell><xref ref="written6" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>5/18</cell>
+                <cell>4.4, 4.7, 5.1</cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>5/23</cell>
+                <cell>5.2, 5.3</cell>
+                <cell></cell>
+                <cell><webwork/></cell>
+                <cell>5/25</cell>
+                <cell/>
+                <cell>
+                    <line><xref ref="exam3" text="title"/></line>
+                    <line><xref ref="written7" text="title"/></line>
+                </cell>
+            </row>
+            <row>
+                <cell>5/30</cell>
+                <cell>5.3, 6.1</cell>
+                <cell><xref ref="written8" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>6/1</cell>
+                <cell>6.2, 6.3, 6.4</cell>
+                <cell/>
+            </row>
+            <row>
+                <cell>6/6</cell>
+                <cell>Presentations</cell>
+                <cell><xref ref="written9" text="title"/></cell>
+                <cell><webwork/></cell>
+                <cell>6/8</cell>
+                <cell>Presentations</cell>
+                <cell />
+            </row>
+            <row bottom="major">
+                <cell>6/13</cell>
+                <cell colspan="2">Class does not meet</cell>
+                <cell><webwork /></cell>
+                <cell>6/15</cell>
+                <cell colspan="2">
+                    <line>8:30 section has <xref ref="exam4" text="title"/> at 8:00</line>
+                    <line><xref ref="written10" text="title"/></line>
+                </cell>
+            </row>
+        </tabular>
+    </table> -->
+    </section>
+  </article>
+</pretext>

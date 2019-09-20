@@ -5,6 +5,8 @@
 <section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Written Assignments</title>
 
+    <p>Please see the <xref ref="section-calendar" text="title"/> for the homework due dates.</p>
+
     <p>As the term progresses, more written assignments will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>2</mag><unit base="percent"/></quantity> of your final grade, and there will be eight in total. That means they are worth <quantity><mag>14</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
 
     <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
@@ -21,107 +23,104 @@
             <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
         </li>
         <li>
-            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
+            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs $70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
         </li>
     </ol></p>
 
     <p><dl>
         <li xml:id="written1">
             <title>Written HW 1</title>
-            <p>Due Wednesday June 27<ul>
+            <p><ul>
                 <li>
-                    <p>Section 1.2 <hash/>28</p>
+                    <p>Section 1.2 #28</p>
                 </li>
             </ul>Do not just state an answer. Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, you must <em>explain why</em> your answer is a correct answer. If it helps, it is acceptable to cite the book's theorems, but for self-containment you need to write the part of the theorem statement that is relevant into your work. That is, for a reader seeking clarity, do not make them open the book to read the theorem statement.</p>
         </li>
         <li xml:id="written2">
             <title>Written HW 2</title>
-            <p>Due Friday June 29<ul>
+            <p><ul>
                 <li>
-                    <p>Section 1.4 <hash/>26</p>
+                    <p>Section 1.4 #26</p>
                 </li>
             </ul>Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, write up your explanation in such a way that a beginning linear algebra student can understand your argument and be convinced that you are correct.</p>
         </li>
         <li xml:id="written3">
             <title>Written HW 3</title>
-            <p>Due Monday July 2<ul>
+            <p><ul>
                 <li>
-                    <p>Section 1.6 <hash/>12</p>
+                    <p>Section 1.6 #12</p>
                 </li>
             </ul>Be careful: the diagram for this problem is on the next page from where the question starts. And there are three parts (a,b,c) not just two. Follow the <q>five C's</q> to earn an A on each written homework assignment.</p>
         </li>
         <li xml:id="written4">
             <title>Written HW 4</title>
-            <p>Due Friday July 6<ul>
+            <p><ul>
                 <li>
-                    <p>Section 1.7 <hash/>27</p>
+                    <p>Section 1.7 #27</p>
                 </li>
             </ul>Answer with a clear argument that demonstrates you understand the meaning of <q>linear independent</q>.</p>
         </li>
         <li xml:id="written5">
             <title>Written HW 5</title>
-            <p>Due Wednesday July 11<ul>
+            <p><ul>
                 <li>
-                    <p>Section 1.8 <hash/>32</p>
+                    <p>Section 1.8 #32</p>
                 </li>
             </ul>Answer with a clear argument that demonstrates you understand the definition of a <q>linear transformation</q>.</p>
         </li>
         <li xml:id="written6">
             <title>Written HW 6</title>
-            <p>Due Friday July 13<ul>
+            <p><ul>
                 <li>
-                    <p>Section 2.3 <hash/>28</p>
+                    <p>Section 2.3 #28</p>
                 </li>
             </ul>Note: you are given that <m>(AB)^{-1}</m> exists, but you cannot write <m>(AB)^{-1}=B^{-1}A^{-1}</m> because that is only true when both <m>A^{-1}</m> and <m>B^{-1}</m> exist. In this exercise, you do not yet know if these things exist. So you will have to be more careful with establishing that <m>B^{-1}</m> exists.</p>
         </li>
         <li xml:id="written7">
             <title>Written HW 7</title>
-            <p>Due Monday July 16<ul>
+            <p><ul>
                 <li>
-                    <p>Section 2.9 <hash/>22</p>
+                    <p>Section 2.9 #22</p>
                 </li>
-            </ul>Since you are given information about the dimension of <m>\mathoperator{Span}\left\{\vec{v}_1,\vce{v}_2,\ldots,\vec{v}_5\right\}</m>, you should demonstrate that you know the linear algebra defintion of <q>dimension</q>. Your explanation should somehow rely on a basis with <m>4</m> elements.</p>
+            </ul>Since you are given information about the dimension of <m>\operatorname{Span}\left\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_5\right\}</m>, you should demonstrate that you know the linear algebra defintion of <q>dimension</q>. Your explanation should somehow rely on a basis with <m>4</m> elements.</p>
         </li>
         <li xml:id="written8">
             <title>Written HW 8</title>
-            <p>Due Wednesday July 18<ul>
+            <p><ul>
                 <li>
-                    <p>Section 3.2 <hash/>29</p>
+                    <p>Section 3.2 #29</p>
                 </li>
             </ul>If you actually multiply out <m>B^4</m> then you are missing the point. Don't do it the slow way!</p>
         </li>
         <li xml:id="written9">
             <title>Written HW 9</title>
-            <p>Due Monday July 23</p>
-            <p>Actually, you may turn this in as late as Wednesday July 25. But Monday is good too.</p>
             <p><ul>
                 <li>
-                    <p>Section 4.4 <hash/>32</p>
-                    <p>The idea here is that <m>\mathbb{P}_2</m> is the set of quadratic, linear, and constant polynomials: <m>\left\{a+bt+ct^2\mid a,b,c\in\mathbb{R}\right\}</m>. And that you can treat this set like vectors: adding two such things gives you another such thing, and scaling such things by real numbers gives you another such thing. The standard basis for <m>\mathbb{P}_2</m> is the set of three polynomials <m>\left\{1, t, t^2\right\}</m>. So each polynomial <m>a+bt+ct^2</m> identifies with a coordinate vector <m>\begin{bmatrix}a\\b\\c\end{bmatrix}</m>.</p>
+                    <p>Section 4.4 #32</p>
                 </li>
-            </ul></p>
+            </ul>The idea here is that <m>\mathbb{P}_2</m> is the set of quadratic, linear, and constant polynomials: <m>\left\{a+bt+ct^2\mid a,b,c\in\mathbb{R}\right\}</m>. And that you can treat this set like vectors: adding two such things gives you another such thing, and scaling such things by real numbers gives you another such thing. The standard basis for <m>\mathbb{P}_2</m> is the set of three polynomials <m>\left\{1, t, t^2\right\}</m>. So each polynomial <m>a+bt+ct^2</m> identifies with a coordinate vector <m>\begin{bmatrix}a\\b\\c\end{bmatrix}</m>.</p>
         </li>
         <li xml:id="written10">
             <title>Written HW 10</title>
-            <p>Due Wednesday July 25<ul>
+            <p><ul>
                 <li>
-                    <p>Section 4.7 <hash/>19</p>
+                    <p>Section 4.7 #19</p>
                 </li>
             </ul></p>
         </li>
         <li xml:id="written11">
             <title>Written HW 11</title>
-            <p>Due Friday July 27<ul>
+            <p><ul>
                 <li>
-                    <p>Section 5.2 <hash/>18</p>
+                    <p>Section 5.2 #18</p>
                 </li>
             </ul></p>
         </li>
         <li xml:id="written12">
             <title>Written HW 12</title>
-            <p>Due Monday July 30<ul>
+            <p><ul>
                 <li>
-                    <p>Section 6.4 <hash/>24</p>
+                    <p>Section 6.4 #24</p>
                 </li>
             </ul></p>
         </li>

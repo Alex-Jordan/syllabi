@@ -79,7 +79,7 @@ WWOUT      = $(OUTPUT)/webwork-extraction
 # For all but trivial testing or examples, please look into setting
 # up your own WeBWorK server, or consult Alex Jordan about the use
 # of PCC's server in a nontrivial capacity.    <alex.jordan@pcc.edu>
-SERVER = https://webwork.pcc.edu
+SERVER = "(https://webwork.pcc.edu,anonymous,anonymous,anonymous,open)"
 #SERVER = http://localhost
 
 webwork-extraction:
@@ -105,19 +105,14 @@ pdf:
 	install -d $(IMAGESSRC)
 	-rm $(PDFOUT)/images/*
 	-rm $(PDFOUT)/*.*
-	#cp -a $(IMAGESOUT) $(PDFOUT)
-	#cp -a $(WWOUT)/*.png $(PDFOUT)/images
-	#cp -a $(IMAGESSRC) $(PDFOUT)
+	cp -a $(IMAGESOUT) $(PDFOUT)
+#	cp -a $(WWOUT)/*.png $(PDFOUT)/images
+#	cp -a $(IMAGESSRC) $(PDFOUT)
 	cd $(PDFOUT); \
-	xsltproc -xinclude --stringparam exercise.text.statement yes --stringparam exercise.text.hint no --stringparam exercise.text.answer no --stringparam exercise.text.solution no --stringparam exercise.backmatter.statement no --stringparam exercise.backmatter.hint yes --stringparam exercise.backmatter.answer yes --stringparam exercise.backmatter.solution yes $(LATEX) $(OUTPUT)/merge.xml; \
-	perl -pi -e 's/\\usepackage\{geometry\}//' syllabus.tex; \
-	perl -pi -e 's/\\documentclass\[10pt,\]\{article\}/\\documentclass\[paper=letter,DIV=25,BCOR=0in,chapterprefix,numbers=noenddot,fontsize=10pt,toc=indentunnumbered,titlepage=false\]\{scrartcl\}/' syllabus.tex; \
-	perl -pi -e 's/\\geometry\{letterpaper,total=\{340pt,9\.0in\}\}//' syllabus.tex; \
-	perl -pi -e 's/\%\% fontspec package will make Latin Modern \(lmodern\) the default font/\%\% Customized to load Palatino fonts\n\\usepackage[T1]{fontenc}\n\\renewcommand\{\\rmdefault\}\{zpltlf\} \%Roman font for use in math mode\n\\usepackage\[scaled=.85\]\{beramono\}\% used only by \\mathtt\n\\usepackage\[type1\]\{cabin\}\%used only by \\mathsf\n\\usepackage\{amsmath,amssymb,amsthm\}\%load before newpxmath\n\\usepackage\[varg,cmintegrals,bigdelims,varbb\]\{newpxmath\}\n\\usepackage\[scr=rsfso\]\{mathalfa\}\n\\usepackage\{bm\} \%load after all math to give access to bold math\n\% Now load the otf text fonts using fontspec--wont affect math\n\\usepackage\[no-math\]\{fontspec\}\n\\setmainfont\{TeXGyrePagellaX\}\n\\defaultfontfeatures\{Ligatures=TeX,Scale=1,Mapping=tex-text\}\n\% This is a palatino-like font\n\%\\setmainfont\[BoldFont = texgyrepagella-bold.otf, ItalicFont = texgyrepagella-italic.otf, BoldItalicFont = texgyrepagella-bolditalic.otf]\{texgyrepagella-regular.otf\}\n\\linespread\{1.02\}/' syllabus.tex; \
-	perl -pi -e 's/\\usepackage\{fontspec\}\n//' syllabus.tex; \
-	xelatex syllabus.tex; \
+	xsltproc -xinclude $(LATEX) $(OUTPUT)/merge.xml > syllabus.tex; \
 	xelatex syllabus.tex; \
 	xelatex syllabus.tex
+
 
 
 
@@ -136,7 +131,7 @@ html:
 	cp -a $(IMAGESOUT) $(HTMLOUT)
 	cp -a $(IMAGESSRC) $(HTMLOUT)
 	cd $(HTMLOUT); \
-	xsltproc -xinclude --stringparam webwork.server https://webwork.pcc.edu --stringparam html.knowl.webwork.sectional no --stringparam exercise.text.solution no --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no --stringparam webwork.sectional.static no $(XSL)/syllabus-html.xsl $(OUTPUT)/merge.xml
+	xsltproc -xinclude --stringparam webwork.server https://webwork.pcc.edu --stringparam html.knowl.webwork.sectional no --stringparam exercise.inline.solution no --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no --stringparam webwork.sectional.static no $(XSL)/syllabus-html.xsl $(OUTPUT)/merge.xml
 #	xsltproc -xinclude --stringparam webwork.server https://webwork.pcc.edu --stringparam html.knowl.webwork.sectional yes --stringparam exercise.text.solution yes --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no $(XSL)/syllabus-html.xsl $(MAINFILE)
 
 # make all the image files in svg format

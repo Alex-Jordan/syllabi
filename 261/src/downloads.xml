@@ -6,70 +6,68 @@
     <title>Course Downloads</title>
 
 <!--    <url href="http://spot.pcc.edu/~ajordan/MTH253Summer2016/syllabus.pdf">A pdf version of this syllabus.</url>-->
-    <introduction>
-        <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
-    </introduction>
+    <p>Here are some files associated with this course.  This list may grow as the term progresses.</p>
 
-    <subsection>
+    <paragraphs>
         <title>Lecture Notes</title>
         <p>Lecture note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
         <p><ul>
             <li>
-                <p><url href="./notes/NotesSections1-1,1-2MondayJune25.pdf">Sections 1.1, 1.2 (June 25)</url></p>
+                <p><url href="./notes/Sec1-1,1-2MondayJune24.pdf">Sections 1.1, 1.2 (June 24)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections1-3,1-4WednesdayJune27.pdf">Sections 1.3, 1.4 (June 27)</url></p>
+                <p><url href="./notes/Sec1-3,1-4WednesdayJune26.pdf">Sections 1.3, 1.4 (June 26)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections1-5,1-6FridayJune29.pdf">Sections 1.5, 1.6 (June 29)</url></p>
+                <p><url href="./notes/Sec1-5,1-6MondayJuly1.pdf">Sections 1.5, 1.6 (July 1)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections1-7,1-8MondayJuly2.pdf">Sections 1.7, 1.8 (July 2)</url></p>
+                <p><url href="./notes/Sec1-7,1-8WednesdayJuly3.pdf">Sections 1.7, 1.8 (July 3)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections1-9,2-1FridayJuly6.pdf">Sections 1.9, 2.1 (July 6)</url></p>
+                <p><url href="./notes/Sec1-9,2-1MondayJuly8.pdf">Sections 1.9, 2.1 (July 8)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections2-1,2-2MondayJuly9.pdf">Sections 2.1, 2.2 (July 9)</url></p>
+                <p><url href="./notes/Sec2-1,2-2WednesdayJuly10.pdf">Sections 2.1, 2.2 (July 10)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections2-3,2-8WednesdayJuly11.pdf">Sections 2.3, 2.8 (July 11)</url></p>
+                <p><url href="./notes/Sec2-3,2-8MondayJuly15.pdf">Sections 2.3, 2.8 (July 15)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections2-8,2-9,3-1,3-2FridayJuly13.pdf">Sections 2.8, 2.9, 3.1, 3.2 (July 13)</url></p>
+                <p><url href="./notes/Sec2-8,2-9,3-1,3-2WednesdayJuly17.pdf">Sections 2.8, 2.9, 3.1, 3.2 (July 17)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections3-1,3-2,4-4MondayJuly16.pdf">Sections 3.1, 3.2, 4.4 (July 16)</url></p>
+                <p><url href="./notes/Sec3-1,3-2,4-4MondayJuly22.pdf">Sections 3.1, 3.2, 4.4 (July 22)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSections4-7,5-1WednesdayJuly18.pdf">Sections 4.7, 5.1 (July 18)</url></p>
+                <p><url href="./notes/Sec4-7,5-1WednesdayJuly24.pdf">Sections 4.7, 5.1 (July 24)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSection5-2FridayJuly20.pdf">Section 5.2 (July 20)</url></p>
+                <p><url href="./notes/Sec5-2MondayJuly29.pdf">Section 5.2 (July 29)</url></p>
             </li>
             <li>
-                <p><url href="./notes/NotesSection5-3MondayJuly23.pdf">Section 5.3 (July 23)</url></p>
+                <p><url href="./notes/Sec5-3WednesdayJuly31.pdf">Section 5.3 (July 31)</url></p>
             </li>
-            <li>
+            <!-- <li>
                 <p><url href="./notes/NotesSections6-1,6-2WednesdayJuly25.pdf">Sections 6.1, 6.2 (July 25)</url></p>
             </li>
             <li>
                 <p><url href="./notes/NotesSections6-1,6-2,6-3,6-4FridayJuly27.pdf">Sections 6.1, 6.2, 6.3, 6.4 (July 27)</url></p>
-            </li>
+            </li> -->
         </ul></p>
-    </subsection>
-    <subsection>
+    </paragraphs>
+    <paragraphs>
         <title>In-Class Handouts</title>
         <p>Occasionally there may be an in-class activity that uses a handout. Here is where I will place electronic copies of these handouts.</p>
-        <sidebyside>
+        <!-- <sidebyside>
             <tabular>
                 <row>
                     <cell><url href="worksheets/DeterminantComputation.pdf">Determinant Compuation</url></cell>
                     <cell><url href="worksheets/DeterminantComputationSolutions.pdf">Solutions</url></cell>
                 </row>
             </tabular>
-        </sidebyside>
-    </subsection>
+        </sidebyside> -->
+    </paragraphs>
 
 
 </section>
