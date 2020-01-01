@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="exercises-prerequisite-review" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Prerequisite Review</title>
+
+  <p>
+    These exercises cover topics from prerequisite courses.
+    These are prerequisite skills to succeed in this class.
+    If you have trouble completing any of these exercises,
+    you should make time as soon as possible to review this material with me or a tutor.
+  </p>
+
+  <exercise>
+    <statement>
+      <p>
+        <ol label="a.">
+          <li>
+            <p>
+              Find the 3rd derivative of <m>f</m>, where <m>f(x)=\sqrt[3]{x}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find the 3rd derivative of <m>g</m>, where <m>g(x)=\cos(2x)</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol label="a.">
+          <li><m>\frac{10}{27\sqrt[3]{x^8}}</m></li>
+          <li><m>8\sin(2x)</m></li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <!-- WeBWorK version -->
+
+  <!-- <exercise>
+    <webwork>
+      <setup>
+        <pg-code>
+          parser::Root->Enable;
+          $f = Formula("root(3,x)");
+          $answer = Formula("10/(27*root(3,x^8))");
+          $answer->{limits} = [2,5];
+          $g = Formula("cos(2x)");
+          $answer2 = Formula("8sin(2x)");
+        </pg-code>
+      </setup>
+
+      <statement>
+        <p>
+          <ol label="a">
+            <li>
+              <p>
+                Find the 3rd derivative of <m>f</m>, where <m>f(x)=<var name="$f" /></m>.
+              </p>
+              <instruction>
+                You can enter a radical like <m>\sqrt[n]{x}</m> as <c>root(n,x)</c> or as <c>x^(1/n)</c>.
+              </instruction>
+              <p>
+                <m>f^{(3)}(x)=</m><var name="$answer" width="20" />
+              </p>
+            </li>
+            <li>
+              <p>
+                Find the 3rd derivative of <m>g</m>, where <m>g(x)=<var name="$g" /></m>.
+              </p>
+              <p>
+                <m>g^{(3)}(x)=</m><var name="$answer2" width="20" />
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise> -->
+</section>

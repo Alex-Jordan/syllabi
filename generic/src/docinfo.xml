@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<docinfo>
+  <!-- For title into HTML head, browser tabs, bookmarks, etc -->
+  <initialism>MTH 123</initialism>
+
+  <!-- Thumbnail for HTML -->
+  <!-- @source should be a URL to an image file -->
+  <!-- @url should be where you are taken when you click that -->
+  <brandlogo url="" source=""/>
+
+</docinfo>

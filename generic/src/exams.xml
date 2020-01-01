@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exams</title>
+
+  <p>
+    Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
+  </p>
+
+  <p>
+    <dl width="narrow">
+      <li xml:id="exam1">
+        <title>Exam 1 (20%)</title>
+        <p>
+          Will cover ...
+        </p>
+      </li>
+      <li xml:id="exam2">
+        <title>Exam 2 (20%)</title>
+        <p>
+          Will cover ...
+        </p>
+      </li>
+      <li xml:id="exam3">
+        <title>Exam 3 (20%)</title>
+        <p>
+          Will cover ...
+        </p>
+      </li>
+    </dl>
+  </p>
+
+  <paragraphs>
+    <title>Missing an Exam</title>
+    <p>
+      Explain policy.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Accommodated Testing</title>
+    <p>
+      Explain policy.
+    </p>
+  </paragraphs>
+
+</section>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Downloads</title>
+
+  <p>Here are some files associated with this course.</p>
+
+  <paragraphs>
+    <title>Lecture Notes</title>
+    <p>
+      Lecture note files are not a substitute for attending class.
+      We discuss things in class that are not always clear from these written notes alone.
+      <ul>
+        <li><url href="some-url">Some section</url></li>
+        <li><url href="some-url">Some section</url></li>
+      </ul>
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>In-Class Activities</title>
+    <p>
+      This list may grow as the term progresses.
+    </p>
+    <sidebyside margin="0%">
+      <tabular>
+        <row>
+          <cell><url href="some-url">Worksheet Title</url></cell>
+          <cell><url href="some-url">With Solutions</url></cell>
+        </row>
+        <row>
+          <cell><url href="some-url">Worksheet Title</url></cell>
+          <cell><url href="some-url">With Solutions</url></cell>
+        </row>
+      </tabular>
+    </sidebyside>
+  </paragraphs>
+</section>

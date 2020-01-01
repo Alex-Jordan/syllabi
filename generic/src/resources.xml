@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Student Resources</title>
+
+  <paragraphs>
+    <title>Tutoring</title>
+    <p>
+      You can access tutoring options at
+      <url href="full-url">shortened-url</url>.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Self-Study Resources</title>
+    <p>
+      You can access self-study resources at
+      <url href="full-url">shortened-url</url>.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Counseling Services</title>
+    <p>
+      (Location, Phone Number)
+    </p>
+    <p>
+      Get help with personal or career concerns that may be impacting your academic success.
+      Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.
+    </p>
+    <p>
+      <url href="full-url">shortened-url</url>.
+    </p>
+  </paragraphs>
+</section>

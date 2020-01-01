@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<publication>
+
+  <!-- LaTeX-Specific Options -->
+  <latex>
+    <preamble-late>
+      \setlength{\parindent}{0mm}
+      \setlength{\parskip}{0.5pc}
+      \hypersetup{colorlinks=false}
+      \setcounter{secnumdepth}{1}
+    </preamble-late>
+    <geometry>margin=2cm</geometry>
+    <font-size>12pt</font-size>
+  </latex>
+
+</publication>
