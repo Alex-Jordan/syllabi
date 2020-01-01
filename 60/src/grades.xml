@@ -3,48 +3,101 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Grades</title>
+  <title>Grades</title>
 
-    <introduction>
-        <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
-    </introduction>
+  <introduction>
+    <p>
+      General PCC Grading Guidelines are found at
+      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
+    </p>
+  </introduction>
 
-    <paragraphs>
-        <title>Class Prep Assignments</title>
-        <p>Most class days you are supposed to come to class with a class prep assignment completed. You'll turn these in when you come into class. Then while you work on some warm-up exercises, I will look over your prep assignments and give you credit for them. Each one is worth 0.5% of your grade. There are 15 of these total, so all together they are worth 7.5% of your grade</p>
+  <paragraphs>
+    <title>Class Prep Assignments</title>
+    <p>
+      Most class days you are supposed to come to class with a class prep assignment completed.
+      <ol>
+        <li>
+          <p>
+            You watched the videos and took notes.
+          </p>
+        </li>
+        <li>
+          <p>
+            You answered the reading questions.
+          </p>
+        </li>
+      </ol>
+      You'll turn these in when you come into class.
+      Later while you work on some practice exercises, I will look over your prep assignments and give you credit for them.
+      I'll return them to you and ask you if you have questions about the topics.
+    </p>
+    <p>
+      If you arrive to class and you haven't done the prep assignment,
+      I will ask you to leave and complete it before coming back to class.
+    </p>
+    <p>
+      Each prep assignment is worth 0.5% of your grade.
+      There are 19 of these total, so all together they are worth 9.5% of your grade.
+    </p>
+    <p>
+      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
+    </p>
+  </paragraphs>
 
-        <p>If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.</p>
-    </paragraphs>
+  <paragraphs>
+    <title>In-class Group Work</title>
+    <p>
+      Most class days, you will work in small groups on a collection of exercises that go along with the lesson you prepared for.
+      If you work on these diligently during class time with your partners,
+      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
+      There are 19 of these, so in total these are worth 9.5% of your grade.
+    </p>
 
-    <paragraphs>
-        <title>In-class Group Work</title>
-        <p>Most class days, you will work in small groups on a collection of exercises that go along with the lesson you prepared for. If you work on these diligently during class time with your partners, you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time). There are 17 of these, so in total these are worth 8.5% of your grade.</p>
+    <p>
+      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
+      The online syllabus will have the exercise packets from each day for you to download
+      using the <xref ref="section-calendar" text="title"/>.
+      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
+    </p>
+  </paragraphs>
 
-        <p>If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit. It must be fully completed, not partially completed. The work must be shown, not just the answers.</p>
+  <paragraphs>
+    <title>Online Homework</title>
+    <p>
+      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
+      the online homework is due five or six days later.
+      You should start working on it soon after the class that works on that topic, ideally on the same day.
+    </p>
 
-        <p>Blank group activities are available for download at the <xref ref="section-calendar" text="title"/>. The day after each one is due, a version with answers will also be posted there. It will just have simple answers, not fully worked out explanations of how to get those answers.</p>
-    </paragraphs>
+    <p>
+      Collectively, all the online homework is worth 10% of your final grade.
+    </p>
+  </paragraphs>
 
-    <paragraphs>
-        <title>Online Homework</title>
-        <p>You have online homework for each section using Edfinity (a front end for WeBWorK). See <xref ref="section-edfinity" text="title"/> for details. The due date for each assignment is posted in Edfinity. Generally when a topic is on our course calendar, the online homework is due five or six days later. You should start working on it soon after the class that works on that topic, ideally on the same day.</p>
+  <paragraphs>
+    <title>Written Assignments</title>
+      <p>
+        In the latter half of the course, your homework includes some exercises where you must write up something on paper.
+        Turn these in on the days they are due.
+        Each written assignment is worth 1% of your grade for a total of 6%.
+        See <xref text="title" ref="section-written-assignments"/> for the specifics.
+      </p>
+  </paragraphs>
 
-        <p>Collectively, all the online homework is worth 9% of your final grade.</p>
-    </paragraphs>
+  <!-- <paragraphs>
+    <title>Contribution to the Book</title>
+    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
+  </paragraphs> -->
 
-    <!-- <paragraphs>
-        <title>Written Assignments</title>
-        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>10</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
-    </paragraphs> -->
-
-    <!-- <paragraphs>
-        <title>Contribution to the Book</title>
-        <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
-    </paragraphs> -->
-
-    <paragraphs>
-        <title>Exams</title>
-        <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are each worth 25%, of your grade.</p>
-    </paragraphs>
+  <paragraphs>
+    <title>Exams</title>
+    <p>
+      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
+      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
+      Exams 1, 2, and 3 are each worth 20%, 20%, and 25%, of your grade.
+    </p>
+  </paragraphs>
 
 </section>

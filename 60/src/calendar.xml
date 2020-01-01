@@ -3,342 +3,450 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Calendar</title>
+  <title>Calendar</title>
 
-    <p>The instructional videos here were recorded by fellow PCC instructor Cara Lee. The class prep and in-class activities are also from Cara, and I'm very grateful to her for these materials during my first term trying out the <q>flipped</q> model. Fellow PCC instructor Micki Josi provided the student testimonial videos and pointed me to the video introduciton to the <q>flipped</q> model.</p>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Sep 24</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cOp0ZMJHO6zy0bhdu2gKjQ" />
+      <p>
+        Video run time: 22 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>
+        We will discuss the class format and orient you to the weekly routine.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-variables-and-evaluating-expressions.html">Section 1.1 (Variables and Evaluating Expressions)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/Variables.pdf">Blank</url>, <url href="worksheets/VariablesWithAnswers.pdf">Completed</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Sep 26</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dqjDRbGl2sSeMeTvrHik4p" />
+      <p>
+        Video run time: 11 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <!-- <p>
+        Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.
+      </p> -->
+      <p>
+        Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-combining-like-terms.html">Section 1.2 (Combining Like Terms)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/CombiningLikeTerms.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <!-- <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p> -->
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Oct 1</p>
+      <video youtubeplaylist="PLmuZCPhWPt-eG16R-Bwkkcna9LWJrMXho" />
+      <video youtubeplaylist="PLmuZCPhWPt-dTJw-zF33uIwEoFmBjd2jp" />
+      <p>
+        Video run time: 41 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-comparison-symbols-and-notation-for-intervals.html">Section 1.3 (Comparison Symbols and Notation for Intervals)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-equations-and-inequalities-as-true-false-statements.html">Section 1.4 (Equations and Inequalities as True/False Statements)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/ComparisonSymbolsIntervalNotationEquationSolutions.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Oct 3</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cttxbKypuCvTQFoSXATxAF" />
+      <p>
+        Video run time: 16 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-one-step-equations.html">Section 1.5 (Solving One-Step Equations)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SolvingOneStepEquations.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Jan 8</title>
-            <video youtube="qdKzSq_t8k8 nrJbWYt-LnE q1DbgTtB5GY 7snnRaC4t5c lT-qvk-PULA QuTUfBqtFT8" />
-            <p>We will discuss the class format and orient you to the weekly routine.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-arithmetic-with-negative-numbers.html">Section 1.1 (Negative Numbers)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-absolute-value-and-square-root.html">Section 1.3 (Absolute Value and Square Root)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep_.pdf">Blank</url>, <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep__completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Jan 10</title>
-            <video youtube="k7eeQxKEjXg qKmDxLsvCos 8X-reMIG494 p4XIR_94YNA ASvHYHnr_EM" />
-            <p>Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-fractions-and-fraction-arithmetic.html">Section 1.2 (Fractions)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-order-of-operations.html">Section 1.4 (Order of Operations)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_1-2_and_1-4_group_activity.pdf">Blank</url>, <url href="activities/section_1-2_and_1-4_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Oct 8</p>
+      <video youtubeplaylist="PLmuZCPhWPt-e07ZjJTXdkRf9V8MDJaz1m" />
+      <p>
+        Video run time: 17 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-one-step-inequalities.html">Section 1.6 (Solving One-Step Inequalities)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/OneStepInequalities.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Oct 10</p>
+      <video youtubeplaylist="PLmuZCPhWPt-eiwLULOcn5X4ZyZ5kB6H6A" />
+      <p>
+        Video run time: 33 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-algebraic-properties-and-simplifying-expressions.html">Section 1.7 (Algebraic Properties and Simplifying Expressions)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/OneStepInequalities.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Jan 15</title>
-            <video youtube="Wdat-Wb4alc Q_J9p304p7Y ZTfFA_m4j8Y 2J4Vd2np7MY voAw9jeMAW8" />
-            <p>Complete the <url href="prep/section_1-5_and_1-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-set-notation-and-types-of-numbers.html">Section 1.5 (Set Notation and Types of Numbers)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-comparison-symbols-and-notation-for-intervals.html">Section 1.6 (Comparison Symbols and Interval Notation)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_1-5_and_1-6_group_activity.pdf">Blank</url>, <url href="activities/section_1-5_through_1-7_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Jan 17</title>
-            <video youtube="GfYsFkVwE9I n3z3vrAYrQQ tDacgy4UISU eFEppXK7QO4" />
-            <p>Complete the <url href="prep/section_2-1_and_2-2_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-variables-and-evaluating-expressions.html">Section 2.1 (Variables and Expressions)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-geometry-formulas.html">Section 2.2 (Geometry Formulas)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_2-1_and_2-2_group_activity.pdf">Blank</url>, <url href="activities/section_2-1_and_2-2_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Oct 15</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dL4to2zbHwZBLGkJ6cBf0I" />
+      <p>
+        Video run time: 25 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-modeling-with-equations-and-inequalities.html">Section 1.8 (Modeling with Equations and Inequalities)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SettingUpEquations.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Oct 17</p>
+      <video youtubeplaylist="PLmuZCPhWPt-f7ezMxAmmOJqEHiU6BOLTH" />
+      <video youtubeplaylist="PLmuZCPhWPt-cJeXEsK8ig6AWi0FgfEGuQ" />
+      <p>
+        Video run time: 73 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-multistep-linear-equations.html">Section 2.1 (Solving Multistep Linear Equations)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-multistep-linear-inequalities.html">Section 2.2 (Solving Multistep Linear Inequalities)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/LinearEquationsAndInequalities.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Jan 22</title>
-            <video youtube="Klwa9epAsFY ouTY0rh-HhY" />
-            <p>Complete the <url href="prep/section_2-3_and_2-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-combining-like-terms.html">Section 2.3 (Combining Like Terms)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-equations-and-inequalities-as-true-false-statements.html">Section 2.4 (Equations and Inequalities)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_2-3_and_2-4_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Jan 24</title>
-            <video youtube="3lHLvCUjzR4 29f6U-7WpMk wCQkaADSX34" />
-            <p>Complete the <url href="prep/section_2-5_and_2-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-equations.html">Section 2.5 (One-Step Equations)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-inequalities.html">Section 2.6 (One-Step Inequalities)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_2-5_and_2-6_group_activity.pdf">Blank</url>, <url href="activities/section_2-5_and_2-6_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Oct 22</p>
+      <p>
+        <xref ref="exam1" text="title"/>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/PracticeExam1.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Oct 24</p>
+      <video youtubeplaylist="PLmuZCPhWPt-e_QSbGeacmrdYyommPaxf4" />
+      <p>
+        Video run time: 71 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-linear-equations-and-inequalities-with-fractions.html">Section 2.3 (Linear Equations and Inequalities with Fractions)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/LinearEquationsAndInequalitiesWithFractions.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Jan 29</title>
-            <video youtube="Kzo6Fx8uh4w MNVSHN89WAw 2OFB0xtxHPc nOk290woDkg" />
-            <p>Complete the <url href="prep/section_2-7_and_2-8_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-percentages.html">Section 2.7 (Percentages)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-modeling-with-equations-and-inequalities.html">Section 2.8 (Modeling)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_2-7_and_2-8_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Jan 31</title>
-            <video youtube="ByPKB7RGoBA YGTbHR_6Rhg 4zRQczilM5w Klwa9epAsFY G6_AQLQOl_0" />
-            <p>Complete the <url href="prep/section_2-9_and_2-10_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-introduction-to-exponent-rules.html">Section 2.9 (Exponent Rules)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-simplifying-expressions.html">Section 2.10 (Simplifying Expressions)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_2-9_and_2-10_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Oct 29</p>
+      <video youtubeplaylist="PLmuZCPhWPt-esiq8AiMfACzqOpC5bJygR" />
+      <p>
+        Video run time: 23 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-special-solution-sets.html">Section 2.4 (Special Solution Sets)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SpecialSolutionsSets.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Oct 31</p>
+      <video youtubeplaylist="PLmuZCPhWPt-f5-qOx8wPyZf4j1u4OHhQV" />
+      <p>
+        Video run time: 13 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-isolating-a-linear-variable.html">Section 2.5 (Isolating a Linear Variable)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/IsolatingALinearVariable.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Feb 5</title>
-            <p>Class was canceled because campus was closed due to icy conditions.</p>
-        </stack>
-        <stack>
-            <title>Thursday Feb 7</title>
-            <p><xref ref="exam1" text="title"/></p>
-            <p><url href="activities/Exam1Preparation.pdf">Practice Questions for Exam 1</url></p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Nov 5</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cHeBo5cBbvM9w9bPCv8TU6" />
+      <video youtubeplaylist="PLmuZCPhWPt-cYCLcYMtd7GdwFZ4DRDTBc" />
+      <p>
+        Video run time: 37 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-cartesian-coordinates.html">Section 3.1 (Cartesian Coordinates)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-graphing-equations.html">Section 3.2 (Graphing Equations)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/Graphing.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Nov 7</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dy8SL-jRrCcU2G2ueG9BXb" />
+      <video youtubeplaylist="PLmuZCPhWPt-ehhIZJSr3Tp7xyA450Od5R" />
+      <p>
+        Video run time: 47 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-exploring-two-variable-data-and-rate-of-change.html">Section 3.3 (Exploring Two-Variable Data and Rate of Change)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-slope.html">Section 3.4 (Slope)</url></li>
+        </ul>
+      </p>
+      <p>
+        <xref ref="written1" text="title"/> due.
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SlopesAsRateOfChange.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Feb 12</title>
-            <video youtube="H8MDbjZ-_Ps DVG-ATxHwlM TXE1cEtG2HU IdtliEJwpTs a6rR_jJ65sQ" />
-            <p>Complete the <url href="prep/section_3-1_and_3-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-equations.html">Section 3.1 (Multistep Linear Equations)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-inequalities.html">Section 3.2 (Multistep Linear Inequalities)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_3-1_and_3-2_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Feb 14</title>
-            <video youtube="BqORZv4kbq8 lFA-ZdIHJP8 Csv1dW2HmGY" />
-            <p>Complete the <url href="prep/section_3-3_and_3-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-linear-equations-and-inequalities-with-fractions.html">Section 3.3 (Equations and Inequalities with Fractions)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-isolating-a-linear-variable.html">Section 3.4 (Isolating a Linear Variable)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_3-3_and_3-4_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Nov 12</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cR9nhDJcByg3_HALa8sSwp" />
+      <p>
+        Video run time: 41 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-slope-intercept-form.html">Section 3.5 (Slope-Intercept Form)</url></li>
+        </ul>
+      </p>
+      <p>
+        <xref ref="written2" text="title"/> due.
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SlopeInterceptForm.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Nov 14</p>
+      <video youtubeplaylist="PLmuZCPhWPt-eTTovr5Y8TossT7tMqR43W" />
+      <p>
+        Video run time: 20 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-point-slope-form.html">Section 3.6 (Point-Slope Form)</url></li>
+        </ul>
+      </p>
+      <p>
+        <xref ref="written3" text="title"/> due.
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Feb 19</title>
-            <video youtube="VraTHEy-VTQ Cm3FSPZdZpQ 80HvKUws1J4" />
-            <p>Complete the <url href="prep/section_3-5_and_3-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-ratios-and-proportions.html">Section 3.5 (Ratios and Proportions)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-special-solution-sets.html">Section 3.6 (Special Solution Sets)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_3-5_and_3-6_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Feb 21</title>
-            <video youtube="o4OpOdrnLec 3eRoyWuxs5w upzHtHGfxRA" />
-            <p>Complete the <url href="prep/section_4-1_and_4-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-cartesian-coordinates.html">Section 4.1 (Cartesian Coordinates)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-graphing-equations.html">Section 4.2 (Graphing Equations)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_4-1_and_4-2_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Nov 19</p>
+      <p>
+        <xref ref="exam2" text="title"/>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Nov 21</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dXhmAoys9lNZg0c3U77LBw" />
+      <video youtubeplaylist="PLmuZCPhWPt-dG-XwuV-W9d_U79oIF6z-R" />
+      <p>
+        Video run time: 57 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-standard-form.html">Section 3.7 (Standard Form)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 3.8 (Horizontal, Vertical, Parallel, and Perpendicular Lines)</url></li>
+        </ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/StandardFormHorVerParPer.pdf">Blank</url>
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Feb 26</title>
-            <p>Class was canceled because campus was closed due to icy conditions.</p>
-        </stack>
-        <stack>
-            <title>Thursday Feb 28</title>
-            <p><xref ref="exam2" text="title"/></p>
-            <p><url href="activities/Exam2Preparation.pdf">Practice Questions for Exam 2</url></p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Nov 26</p>
+      <video youtubeplaylist="PLmuZCPhWPt-c8HMsuhb9oJTIJBEvrrZiH" />
+      <p>
+        Video run time: 37 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-systems-of-linear-equations-by-graphing.html">Section 4.1 (Solving Systems of Linear Equations by Graphing)</url></li>
+        </ul>
+      </p>
+      <p>
+        <xref ref="written4" text="title"/> due.
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SolveSystemsByGraphing.pdf">Blank</url>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Nov 28</p>
+      <p>
+        Class does not meet. (Thanksgiving holiday.)
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Mar 5</title>
-            <video youtube="0sgVQErb8BI pmU8h3M1vgA 1xh99EBczsI Ta4NwEoPqYE" />
-            <p>Complete the <url href="prep/section_4-3_and_4-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-exploring-two-variable-data-and-rate-of-change.html">Section 4.3 (Two-Variable Data and Rate of Change)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-slope.html">Section 4.4 (Slope)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_4-3_and_4-4_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Mar 7</title>
-            <video youtube="PlXSUfoihn4 Nwsj_XAvnxM b5b1rryFyMc rX_Z2nD4l90 XtbtEwTX8h0" />
-            <p>Complete the <url href="prep/section_4-5_and_4-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-slope-intercept-form.html">Section 4.5 (Slope-Intercept Form)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-point-slope-form.html">Section 4.6 (Point-Slope Form)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_4-5_and_4-6_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Dec 3</p>
+      <video youtubeplaylist="PLmuZCPhWPt-e7mzn96IqkqKBOOrcpG8Cw" />
+      <p>
+        Video run time: 66 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-substitution.html">Section 4.2 (Substitution)</url></li>
+        </ul>
+      </p>
+      <p>
+        <xref ref="written5" text="title"/> due.
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Dec 5</p>
+      <video youtubeplaylist="PLmuZCPhWPt-fKef6hvJEdOKX6tbUUh2K2" />
+      <p>
+        Video run time: 59 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-elimination.html">Section 4.3 (Elimination)</url></li>
+        </ul>
+      </p>
+      <p>
+        <xref ref="written6" text="title"/> due.
+      </p>
+    </stack>
+  </sidebyside>
 
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Mar 12</title>
-            <video youtube="Je6Md3KE_x8 t9-STs0p4lU d2SsaNW0Bbo h1tCyF0VpjY" />
-            <p>Complete the <url href="prep/section_4-7_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-standard-form.html">Section 4.7 (Standard Form)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_4-7_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-        <stack>
-            <title>Thursday Mar 14</title>
-            <video youtube="-UeMFgioF4c BgUX-gQ18gw FTjIN8SgruA Rayj0NgyDOk" />
-            <p>Complete the <url href="prep/section_4-8_and_4-10_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 4.8 (Horizontal and Vertical, Parallel and Perpendicular)</url></li>
-                <li><url href="http://spot.pcc.edu/math/orcca/section-linear-inequalities-in-two-variables.html">Section 4.10 (Linear Inequalities in Two Variables)</url></li>
-            </ul></p>
-            <p>In-class activity: <url href="activities/section_4-8_and_4-10_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
-    </sidebyside>
-
-    <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-            <title>Tuesday Mar 12</title>
-            <p>Class does not meet htis day during finals week.</p>
-        </stack>
-        <stack>
-            <title>Thursday Mar 14</title>
-            <p><xref ref="exam3" text="title"/></p>
-            <p><alert>The final exam is 8:00 to 10:00, not the usual class time!</alert></p>
-        </stack>
-    </sidebyside>
-
-<!--     <p>The math department and student learning center are working together to provide <q>just in time</q> workshops on certain key topics. We encourage you to attned these workshops to prop up the skill sets you are more likely to have trouble with. Here is the schedule of workshops.</p>
-
-    <table>
-        <caption>Workshop Schedule</caption>
-        <tabular left="major" right="minor" top="major" bottom="minor">
-            <col/>
-            <col width="19%"/>
-            <col width="19%"/>
-            <col/>
-            <col width="19%"/>
-            <col width="19%" right="major"/>
-            <row halign="center">
-                <cell colspan="3">Monday</cell>
-                <cell colspan="3">Tuesday</cell>
-            </row>
-            <row>
-                <cell/>
-                <cell><line>12:00<ndash/>12:50</line><line>LIB 212</line></cell>
-                <cell><line>2:00<ndash/>2:50</line><line>LIB 145</line></cell>
-                <cell/>
-                <cell><line>12:00<ndash/>12:50</line><line>LIB 145</line></cell>
-                <cell><line>1:00<ndash/>1:50</line><line>LIB 145</line></cell>
-            </row>
-            <row>
-                <cell>1/15</cell>
-                <cell/>
-                <cell/>
-                <cell>1/16</cell>
-                <cell/>
-                <cell><p>Solving Systems Using Substitution<mdash />emphasis on dealing with fractions</p></cell>
-            </row>
-            <row>
-                <cell>1/22</cell>
-                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
-                <cell/>
-                <cell>1/23</cell>
-                <cell/>
-                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
-            </row>
-            <row>
-                <cell>1/29</cell>
-                <cell><p>Properties of Exponents</p></cell>
-                <cell/>
-                <cell>1/30</cell>
-                <cell/>
-                <cell><p>Properties of Exponents</p></cell>
-            </row>
-            <row>
-                <cell>2/5</cell>
-                <cell><p>Polynomials</p></cell>
-                <cell/>
-                <cell>2/6</cell>
-                <cell/>
-                <cell><p>Polynomials</p></cell>
-            </row>
-            <row>
-                <cell>2/12</cell>
-                <cell><p>Factoring Trinomials</p></cell>
-                <cell/>
-                <cell>2/13</cell>
-                <cell/>
-                <cell><p>Factoring Trinomials</p></cell>
-            </row>
-            <row>
-                <cell>2/19</cell>
-                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
-                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
-                <cell>2/20</cell>
-                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
-                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
-            </row>
-            <row>
-                <cell>2/26</cell>
-                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
-                <cell/>
-                <cell>2/27</cell>
-                <cell/>
-                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
-            </row>
-            <row>
-                <cell>3/5</cell>
-                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
-                <cell/>
-                <cell>3/6</cell>
-                <cell/>
-                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
-            </row>
-            <row bottom="major">
-                <cell>3/12</cell>
-                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
-                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
-                <cell>3/13</cell>
-                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
-                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
-            </row>
-        </tabular>
-    </table> -->
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Tuesday Dec 10</p>
+      <p>
+        The 2:00 class does not meet this day during finals week.
+      </p>
+      <p>
+        The 11:30 class has <xref ref="exam3" text="title"/>
+        from <alert>11:00 to 1:00, not the usual class time!</alert>
+      </p>
+    </stack>
+    <stack>
+      <p>Thursday Dec 12</p>
+      <p>
+        The 11:30 class does not meet this day during finals week.
+      </p>
+      <p>
+        The 2:00 class has <xref ref="exam3" text="title"/>
+        from <alert>2:00 to 4:00, not the usual class time!</alert>
+      </p>
+    </stack>
+  </sidebyside>
 </section>

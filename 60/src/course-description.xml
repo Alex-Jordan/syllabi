@@ -3,39 +3,50 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Course Description</title>
+  <title>Course Description</title>
 
-    <p>Taken from the official PCC course description:</p>
+  <p>
+    Taken from the official PCC course description:
+  </p>
 
-    <sidebyside halign="left">
-        <tabular>
-            <col halign="right" />
-            <col/>
-            <row>
-                <cell>Course Number:</cell>
-                <cell>MTH 60</cell>
-            </row>
-            <row>
-                <cell>Course Title:</cell>
-                <cell>Introductory Algebra<mdash/>First Term</cell>
-            </row>
-            <row>
-                <cell>Credit Hours:</cell>
-                <cell>4</cell>
-            </row>
-            <row>
-                <cell>Lecture Hours:</cell>
-                <cell>30</cell>
-            </row>
-            <row>
-                <cell>Lecture/Lab Hours:</cell>
-                <cell>20</cell>
-            </row>
-        </tabular>
-    </sidebyside>
+  <sidebyside halign="left">
+    <tabular>
+      <col halign="right" />
+      <col/>
+      <row>
+        <cell>Course Number:</cell>
+        <cell>MTH 60</cell>
+      </row>
+      <row>
+        <cell>Course Title:</cell>
+        <cell>Introductory Algebra<mdash/>First Term</cell>
+      </row>
+      <row>
+        <cell>Credit Hours:</cell>
+        <cell>4</cell>
+      </row>
+      <row>
+        <cell>Lecture Hours:</cell>
+        <cell>30</cell>
+      </row>
+      <row>
+        <cell>Lecture/Lab Hours:</cell>
+        <cell>20</cell>
+      </row>
+    </tabular>
+  </sidebyside>
 
-    <p>Introduces algebraic concepts and processes with a focus on linear equations and inequalities in one and two variables. Emphasizes applications, graphs, formulas, and proper mathematical notation throughout the course. A scientific calculator may be required. The TI-30X II is recommended. Prerequisites: MTH 20 and (RD 80 or ESOL 250) or equivalent placement. Recommended that MTH 20 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Audit available.</p>
+  <p>
+    Introduces algebraic concepts and processes with a focus on linear equations,
+    linear inequalities, and systems of linear equations. Emphasizes number-sense,
+    applications, graphs, formulas, and proper mathematical notation.
+    Prerequisites: MTH 20 and (RD 80 or ESOL 250) or equivalent placement.
+    Recommended: MTH 20 be taken within the past 4 terms.
+    The PCC math department recommends that students take MTH courses in consecutive terms. Audit available.
+  </p>
 
-    <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+  <p>
+    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+  </p>
 
 </section>

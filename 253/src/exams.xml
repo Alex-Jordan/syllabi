@@ -1,44 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exams</title>
+  <title>Exams</title>
 
-    <p>Please see the <xref ref="section-calendar" autoname="title"/> for the exam dates.</p>
-    <p>Almost all of the points on each exam will come from exercise questions that are very close or identical to homework exercises. This is just one more reason why it is so important to be practicing with the assigned homework.</p>
+  <introduction>
+    <p>
+      Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
+    </p>
+    <p>
+      About a week before each exam, you will receive a practice exam.
+      Practice exams are typically longer than the real exam to give you more to practice with.
+    </p>
 
-    <dl>
+    <p>
+      <dl width="narrow">
         <li xml:id="exam1">
-            <title>Exam 1 (20<percent/>)</title>
-            <p>This exam will cover all sequences and series material prior to power series (so sections 8.1<mdash />8.4).</p>
-            <p>For exams 1 and 2, you will have the last 2.5 hours of class time. It is expected that most students will not need this much time, but because students work at different speeds, we plan for this much. The hour preceding these exams will be for last-minute review driven by you, the students. Come with questions and examples you would like to discuss as a group before the test starts.</p>
-            <p>As you turn in your exam, you may designate one question that you think you had the most trouble with. You may take that question home with you, solve it, and turn in your response the next class period.</p>
+          <title>Exam 1 (20%)</title>
+          <p>
+            Covers sections 8.1<ndash/>8.4.
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
         </li>
         <li xml:id="exam2">
-            <title>Exam 2 (20<percent/>)</title>
-            <p>This exam will cover power series topics (sections 8.5<mdash />8.8) and chapter 9 material (sections 9.1<mdash />9.3).</p>
-            <p>For exams 1 and 2, you will have the last 2.5 hours of class time. It is expected that most students will not need this much time, but because students work at different speeds, we plan for this much. The hour preceding these exams will be for last-minute review driven by you, the students. Come with questions and examples you would like to discuss as a group before the test starts.</p>
-            <p>As you turn in your exam, you may designate one question that you think you had the most trouble with. You may take that question home with you, solve it, and turn in your response the next class period.</p>
+          <title>Exam 2 (20%)</title>
+          <p>
+            Covers sections 8.5<ndash/>8.8.
+            Additionally there will be some repeated questions from Exam 1.
+            (So part of your studying should be reviewing your first exam.)
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
         </li>
         <li xml:id="exam3">
-            <title>Exam 3 (15<percent/>)</title>
-            <p>This exam will mostly test you on the chapter 7 material, including material we will cover the first few hours of class. (The questions from section 7.3 will be fair and basic.) There will also be questions from section 9.4 which was not covered in <xref ref="exam2" autoname="title" />. Finally, there will be <em>very basic</em> questions checking your understanding of some chpater 8 material.</p>
-            <p>For exam 3, you will have the last 1.5 hours of class time. It is expected that most students will not need this much time, but because students work at different speeds, we plan for this much. The half hour preceding this exam will be for last-minute review driven by you, the students. Come with questions and examples you would like to discuss as a group before the test starts. Prior to that, we will be covering section 7.3</p> 
-            <p>Unlike the previous exams, there is no opportunity to make up one question.</p>
+          <title>Exam 3 (20%)</title>
+          <p>
+            Covers sections 9.1<ndash/>9.7.
+            Additionally there will be some repeated questions from Exams 1 and 2.
+            (So part of your studying should be reviewing your first and second exams.)
+          </p>
+          <p>
+            This exam is during finals week and is only two hours long.
+          </p>
         </li>
-    </dl>
+      </dl>
+    </p>
+  </introduction>
 
+  <paragraphs>
+    <title>Missing an Exam</title>
+    <p>
+      If you miss an exam, you must contact me within one day to explain why
+      or I might not be able to allow a make-up and you would receive a zero.
+      <alert>Make-up exams are only permitted under extreme circumstances.
+      PCC does not have enough staff and facilities to administer too many make-up exams.</alert>
+      If you have a valid excuse, you must make up the exam within the next two business days,
+      or I might not be able to allow a make-up and you would receive a zero.
+      If you are going to make up the exam, contact the testing center immediately
+      (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>)
+      to learn what time you might be able to make up the exam.
+      If you are going to miss the final exam, contact me before the test is given.
+    </p>
+    <p>
+      Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
+      Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
+    </p>
+  </paragraphs>
 
-    <subsection>
-        <title>Missing an Exam</title>
-        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make it up within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p> 
-        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
-    </subsection>
+  <paragraphs>
+    <title>Exam Redos</title>
+    <p>
+      There may be opportunities to try an exam for a second, or even a third time.
+      These opportunities will be discussed in class if and when they arise.
+    </p>
+  </paragraphs>
 
-    <subsection>
-        <title>Accommodated Testing</title>
-        <p>Students who experience disability-related barriers should contact Disability Services: <url href="www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
-    </subsection>
+  <paragraphs>
+    <title>Accommodated Testing</title>
+    <p>
+      Students who experience disability-related barriers should contact Disability Services:
+      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
+      If students elect to use approved academic adjustments, they must provide, in advance,
+      formal notification from Disability Services to the instructor.
+      Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
+    </p>
+  </paragraphs>
 
 </section>

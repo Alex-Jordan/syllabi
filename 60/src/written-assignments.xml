@@ -3,76 +3,181 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Written Assignments</title>
+  <title>Written Assignments</title>
 
-    <p>These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>10</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
+  <p>
+    These must be turned in no later than their posted due dates.
+    These are where you will get to show me your mathematical writing and graphing skills.
+  </p>
 
-    <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
-        <li>
-            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
-        </li>
-        <li>
-            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
-        </li>
-        <li>
-            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
-        </li>
-        <li>
-            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
-        </li>
-        <li>
-            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
-        </li>
-    </ol></p>
+  <p>
+    The most important thing to understand about your written homework
+    is that <alert>you are not merely finding and giving answers</alert>.
+    You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>
+    In general, your write-ups should respect these <q>five C's</q>:
+    <dl width="narrow">
+      <li>
+        <title>Clarity</title>
+        <p>
+          Am I able to read your work? Is your writing legible?
+          Have you written complete sentences that make sense, where appropriate?
+          If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent?
+          Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title.
+          If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.
+        </p>
+      </li>
+      <li>
+        <title>Correctness</title>
+        <p>
+          Are your numerical answers and conclusions accurate?
+          Often you can check that your numbers are correct by substituting numbers back into earlier equations.
+          Also, by asking yourself if the numbers that you find make sense in the context of the problem.
+          It's not a bad idea to include these checks with your work.
+        </p>
+      </li>
+      <li>
+        <title>Conciseness</title>
+        <p>
+          Have you rambled on with extra content that is not relevant to solving the problem?
+          This is distracting and hurts the overall ability of your write-up to communicate effectively.
+        </p>
+      </li>
+      <li>
+        <title>self-Containment</title>
+        <p>
+          The response to the question that you submit should make it clear what the original question was.
+          Put yourself in the shoes of another student from the class
+          who does not have the original homework assignment in front of them.
+          Would they be able to understand what you are talking about? At a minimum,
+          this means that <alert>you must give an introduction of some kind that lets your reader know
+          what you are about to investigate</alert>.
+          Also, include any and all charts, graphs, and mathematical expressions that were given in the problem,
+          and explain their meaning, even if you do so merely with labels.
+        </p>
+      </li>
+      <li>
+        <title>Conclusions</title>
+        <p>
+          Some problems come with context (<q>word problems</q>).
+          When writing your final answer to such a question,
+          you need to put that answer in its full context with a conclusion statement that is a complete English sentence.
+          As an example, writing <q><m>x=70</m></q> or <q>He needs $70</q> will not be good enough
+          if there is more context to the problem.
+          Instead, something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q>
+          is a conclusion statement with all of the context in it.
+          For problems without context, conclusion statements like <q>The solution set is <m>\{70\}</m>.</q> are acceptable.
+        </p>
+      </li>
+    </dl>
+  </p>
 
-    <p><dl>
-        <li xml:id="written1">
-            <title>Written HW 1</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul>
-                <li>
-                    <p>Section 11.1, <hash />37, 39, 41.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written2">
-            <title>Written HW 2</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul>
-                <li>
-                    <p>Section 11.1, <hash />43.</p>
-                </li>
-                <li>
-                    <p>Section 11.3, <hash />25.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written3">
-            <title>Written HW 3</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul>
-                <li>
-                    <p>Section 12.1, <hash />25, 27.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written4">
-            <title>Written HW 4</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul>
-                <li>
-                    <p>Section 12.2, <hash />43, 45, 47.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written5">
-            <title>Written HW 5</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul>
-                <li>
-                    <p>Section 12.2, <hash />49, 53, 55.</p>
-                </li>
-            </ul></p>
-        </li>
-    </dl></p>
+  <p>
+    <dl>
+      <li xml:id="written1">
+        <title>Written HW 1</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Section 3.1, #3, 7.
+              </p>
+            </li>
+            <li>
+              <p>
+                Section 3.2, #27, 29, 31.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li xml:id="written2">
+        <title>Written HW 2</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Section 3.2, #33, 35, 37, 39, 41.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li xml:id="written3">
+        <title>Written HW 3</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Section 3.5, #37, 39, 43, 45, 47.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li xml:id="written4">
+        <title>Written HW 4</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Section 3.6, #51, 55.
+              </p>
+            </li>
+            <li>
+              <p>
+                Section 3.7, #29, 31.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li xml:id="written5">
+        <title>Written HW 5</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Section 3.7, #35, 39.
+              </p>
+            </li>
+            <li>
+              <p>
+                Section 3.8, #27, 29.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li xml:id="written6">
+        <title>Written HW 6</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Section 4.1, #23, 25, 27, 29, 31, 33.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+    </dl>
+  </p>
 </section>

@@ -100,7 +100,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Don't number any sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setcounter{secnumdepth}{0}
+\setcounter{secnumdepth}{1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Framed sbspanel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tcbset{ framedsbspanelstyle/.style={enhanced,bwminimalstyle,borderline={0.5pt}{-3pt}{black}} }
+\NewTColorBox{framedsbspanel}{mO{top}}{framedsbspanelstyle,width=#1\linewidth,valign=#2}
 ]]>
 </latex-preamble-late>
 

@@ -85,7 +85,7 @@
             </li>
             <li>
                 <title>Quality Feedback</title>
-                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref autoname="yes" ref="webwork-demo"/>.</p>
+                <p><webwork/> will do more than just tell you if you are right or wrong.  For example, it will usually tell you if you haven't completely simplified an answer or forgot to include units when they are required. Sometimes it will do even more. Try entering <c>x^12</c> as the answer to <xref ref="webwork-demo" text="title"/>.</p>
             </li>
             <li>
                 <title>Ease of Communication</title>

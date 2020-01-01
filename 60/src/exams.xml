@@ -3,41 +3,91 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exams</title>
+  <title>Exams</title>
 
-    <introduction>
-        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
-        <p>About a week before each exam, you will receive a practice exam. Practice exams are typically longer than the real exam to give you more to practice with.</p>
+  <introduction>
+    <p>
+      Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
+    </p>
+    <p>
+      About a week before each exam, you will receive a practice exam.
+      Practice exams are typically longer than the real exam to give you more to practice with.
+    </p>
 
-        <p><dl>
+    <p>
+      <dl width="narrow">
         <li xml:id="exam1">
-            <title>Exam 1 (2%)</title>
-            <p>Covers sections 1.1<ndash/>2.10.</p>
-            <p>You'll have the entire class period for this exam if you need it.</p>
+          <title>Exam 1 (20%)</title>
+          <p>
+            Covers sections 1.1<ndash/>1.8.
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
         </li>
         <li xml:id="exam2">
-            <title>Exam 2 (25%)</title>
-            <p>Covers sections 3.1<ndash />3.6. Additionally there will be some repeated questions from Exam 1. (So part of your studying should be reviewing your first exam.)</p>
-            <p>You'll have the entire class period for this exam if you need it.</p>
+          <title>Exam 2 (20%)</title>
+          <p>
+            Covers sections 2.1<ndash/>3.5.
+            Additionally there will be some repeated questions from Exam 1.
+            (So part of your studying should be reviewing your first exam.)
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
         </li>
         <li xml:id="exam3">
-            <title>Exam 3 (25%)</title>
-            <p>Covers sections 4.1<ndash />4.10. Additionally there will be some repeated questions from Exams 1 and 2. (So part of your studying should be reviewing your first and second exams.)</p>
-            <p>This exam is during finals week and is only two hours long.</p>
+          <title>Exam 3 (25%)</title>
+          <p>
+            Covers sections 3.6<ndash/>3.8 and 4.1<ndash/>4.3.
+            Additionally there will be some repeated questions from Exams 1 and 2.
+            (So part of your studying should be reviewing your first and second exams.)
+          </p>
+          <p>
+            This exam is during finals week and is only two hours long.
+          </p>
         </li>
-        </dl></p>
-    </introduction>
+      </dl>
+    </p>
+  </introduction>
 
+  <paragraphs>
+    <title>Missing an Exam</title>
+    <p>
+      If you miss an exam, you must contact me within one day to explain why
+      or I might not be able to allow a make-up and you would receive a zero.
+      <alert>Make-up exams are only permitted under extreme circumstances.
+      PCC does not have enough staff and facilities to administer too many make-up exams.</alert>
+      If you have a valid excuse, you must make up the exam within the next two business days,
+      or I might not be able to allow a make-up and you would receive a zero.
+      If you are going to make up the exam, contact the testing center immediately
+      (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>)
+      to learn what time you might be able to make up the exam.
+      If you are going to miss the final exam, contact me before the test is given.
+    </p>
+    <p>
+      Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
+      Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
+    </p>
+  </paragraphs>
 
-    <paragraphs>
-        <title>Missing an Exam</title>
-        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make up the exam within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
-        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
-    </paragraphs>
+  <paragraphs>
+    <title>Exam Redos</title>
+    <p>
+      There may be opportunities to try an exam for a second, or even a third time.
+      These opportunities will be discussed in class if and when they arise.
+    </p>
+  </paragraphs>
 
-    <paragraphs>
-        <title>Accommodated Testing</title>
-        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
-    </paragraphs>
+  <paragraphs>
+    <title>Accommodated Testing</title>
+    <p>
+      Students who experience disability-related barriers should contact Disability Services:
+      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
+      If students elect to use approved academic adjustments, they must provide, in advance,
+      formal notification from Disability Services to the instructor.
+      Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
+    </p>
+  </paragraphs>
 
 </section>

@@ -4,9 +4,6 @@
 <!-- Thin layer on MathBook XML -->
 <xsl:import href="/Users/alex.jordan/mathbook/xsl/mathbook-html.xsl" />
 
-<!-- Common thin layer                                                      -->
-<xsl:import href="clm-common.xsl" />
-
 <xsl:template match="webwork">
     <a href="https://webwork.pcc.edu/webwork2/mth253-jordan-201603/">WeBWorK</a>
 </xsl:template>

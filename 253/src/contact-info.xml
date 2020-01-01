@@ -1,67 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Contact Information</title>
+  <title>Contact Information</title>
 
-    <p>To reach me or PCC:</p>
-    <sidebyside>
-    <table>
+  <p>
+    To reach me or PCC:
+  </p>
+
+  <sidebyside>
     <tabular>
-        <row>
-            <cell>Instructor: Alex Jordan</cell>
-        </row>
-        <row>
-            <cell>Office: SE SCOM 214</cell>
-        </row>
-        <row>
-            <cell>Phone: 971-722-4138</cell>
-        </row>
-        <row>
-            <cell>email: <email>alex.jordan@pcc.edu</email></cell>
-        </row>
+      <row>
+        <cell>Instructor: Alex Jordan</cell>
+      </row>
+      <row>
+        <cell>Office: CA SSB 317</cell>
+      </row>
+      <row>
+        <cell>Phone: 971-722-4138</cell>
+      </row>
+      <row>
+        <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+      </row>
     </tabular>
-    </table>
-    <table>
     <tabular>
-        <row>
-            <cell>Portland Community College</cell>
-        </row>
-        <row>
-            <cell>Sylvania Campus</cell>
-        </row>
-        <row>
-            <cell>12000 SW 49th Ave.</cell>
-        </row>
-        <row>
-            <cell>Portland, OR 97219</cell>
-        </row>
+      <row>
+        <cell>Portland Community College</cell>
+      </row>
+      <row>
+        <cell>Cascade Campus</cell>
+      </row>
+      <row>
+        <cell>705 N Killingsworth St.</cell>
+      </row>
+      <row>
+        <cell>Portland, OR 97217</cell>
+      </row>
     </tabular>
-    </table>
-    </sidebyside>
+  </sidebyside>
 
-    <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>pcc.edu</c> email address.</p>
+  <p>
+    Because of federal privacy laws,
+    all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.
+  </p>
 
-    <table>
-        <tabular top="major">
-            <row bottom="medium">
-                <cell>CRN</cell>
-                <cell>Days</cell>
-                <cell>Time</cell>
-                <cell>Final Exam</cell>
-            </row>
-            <row bottom="major">
-                <cell>34467</cell>
-                <cell>Tu/Th</cell>
-                <cell>11:30<ndash/>2:50</cell>
-                <cell>Thursday 8/11/2016</cell>
-            </row>
-        </tabular>
-    </table>
-    
-    <p>I have regular <term>office hours</term> Tuesday 10:00<ndash/>11:00 and Thursday 10:00<ndash/>11:00.  Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangments.</p>
+  <sidebyside>
+    <tabular top="major" valign="top" left="major">
+      <col/>
+      <col/>
+      <col/>
+      <col/>
+      <col right="major"/>
+      <row bottom="medium">
+        <cell>CRN</cell>
+        <cell>Days</cell>
+        <cell>Time</cell>
+        <cell>Place</cell>
+        <cell>Final Exam</cell>
+      </row>
+      <row bottom="major">
+        <cell>47086</cell>
+        <cell>M/W</cell>
+        <cell>11:30<ndash/>1:50</cell>
+        <cell>CA TH 201</cell>
+        <cell>
+          <line>Monday</line>
+          <line>12/9/2019</line>
+          <line>11:00<ndash/>1:00</line>
+        </cell>
+      </row>
+    </tabular>
+  </sidebyside>
 
-    <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+  <p>
+    I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
+  </p>
+
+  <sidebyside>
+    <tabular top="major" left="major">
+      <col/>
+      <col/>
+      <col right="major"/>
+      <row>
+        <cell colspan="3" halign="center">Office Hours</cell>
+      </row>
+      <row bottom="medium">
+        <cell>Day</cell>
+        <cell>Regular</cell>
+        <cell>Finals Week</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Monday</cell>
+        <cell>2:30<ndash/>4:30</cell>
+        <cell>TBD</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Tuesday</cell>
+        <cell>9:00<ndash/>10:00</cell>
+        <cell>TBD</cell>
+      </row>
+      <row bottom="major">
+        <cell>Wednesday</cell>
+        <cell>2:30<ndash/>4:30</cell>
+        <cell>TBD</cell>
+      </row>
+    </tabular>
+  </sidebyside>
+
+  <p>
+    Come visit me for help with the material, help with homework, or questions about your grade.
+    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
+  </p>
+
+  <p>
+    While I do have an office phone number and voice mail,
+    I am more likely to reply to you more quickly if you use email to contact me.
+  </p>
 
 </section>

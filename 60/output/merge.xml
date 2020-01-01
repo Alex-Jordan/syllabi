@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file is the hub file for Alex Jordan's MTH 60 Syllabus -->
 <!-- USE XINCLUDE SWITCH ON XSLTPROC -->
-<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- This file contains control data for Alex Jordan's syllabus -->
   <docinfo>
     <!-- For title into HTML head, then tabs, bookmarks, etc -->
@@ -11,35 +11,35 @@
     <!-- For LaTeX-based images; inserted both into tex preamble, -->
     <!-- and into standalone preambles for svg production         -->
     <latex-image-preamble>
-    
     \usepackage{pgfplots}
     \usepackage{pgfplotstable}
     \pgfplotsset{soldot/.style={only marks,mark=*}}
     \pgfplotsset{holdot/.style={fill=white,only marks,mark=*}}
     \tikzset{ampersand replacement = \amp}
-    
-    </latex-image-preamble>
+  </latex-image-preamble>
   </docinfo>
   <article xml:id="syllabus">
     <title>Course Information and Syllabus</title>
     <subtitle>MTH 60 Introductory Algebra<mdash/>First Term</subtitle>
     <!-- This file has the contents of the title page of Alex Jordan's syllabus -->
-    <frontmatter xml:id="index">
+    <frontmatter xml:id="frontmatter">
       <titlepage>
-        <date>Winter 2019</date>
+        <date>Fall 2019</date>
       </titlepage>
     </frontmatter>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-contact-info">
       <title>Contact Information</title>
-      <p>To reach me or PCC:</p>
+      <p>
+    To reach me or PCC:
+  </p>
       <sidebyside>
         <tabular>
           <row>
             <cell>Instructor: Alex Jordan</cell>
           </row>
           <row>
-            <cell>Office: SY ST 203</cell>
+            <cell>Office: CA SSB 317</cell>
           </row>
           <row>
             <cell>Phone: 971-722-4138</cell>
@@ -53,17 +53,20 @@
             <cell>Portland Community College</cell>
           </row>
           <row>
-            <cell>Sylvania Campus</cell>
+            <cell>Cascade Campus</cell>
           </row>
           <row>
-            <cell>12000 SW 49th Ave.</cell>
+            <cell>705 N Killingsworth St.</cell>
           </row>
           <row>
-            <cell>Portland, OR 97219</cell>
+            <cell>Portland, OR 97217</cell>
           </row>
         </tabular>
       </sidebyside>
-      <p>Because of federal privacy laws, all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.</p>
+      <p>
+    Because of federal privacy laws,
+    all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.
+  </p>
       <sidebyside>
         <tabular top="major" valign="top" left="major">
           <col/>
@@ -78,27 +81,33 @@
             <cell>Place</cell>
             <cell>Final Exam</cell>
           </row>
-          <row bottom="major">
-            <cell>15732</cell>
+          <row bottom="minor">
+            <cell>46376</cell>
             <cell>Tu/Th</cell>
-            <cell>8:30<ndash/>10:50</cell>
-            <cell>SY SS 122</cell>
+            <cell>11:30<ndash/>1:50</cell>
+            <cell>CA CH 210</cell>
             <cell>
-              <line>Thursday</line>
-              <line>3/21/2019</line>
-              <line>8:00<ndash/>10:00</line>
-            </cell>
+          <line>Tuesday</line>
+          <line>12/10/2019</line>
+          <line>11:00<ndash/>1:00</line>
+        </cell>
           </row>
-          <!--             <row bottom="major">
-                <cell>47110</cell>
-                <cell>M/W</cell>
-                <cell>11:00<ndash />1:20</cell>
-                <cell>SY SS 122</cell>
-                <cell><line>Monday</line><line>12/10/2018</line><line>11:00<ndash />1:00</line></cell>
-            </row> -->
+          <row bottom="major">
+            <cell>40418</cell>
+            <cell>Tu/Th</cell>
+            <cell>2:00<ndash/>4:20</cell>
+            <cell>CA CH 210</cell>
+            <cell>
+          <line>Thursday</line>
+          <line>12/12/2019</line>
+          <line>2:00<ndash/>4:00</line>
+        </cell>
+          </row>
         </tabular>
       </sidebyside>
-      <p>I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!</p>
+      <p>
+    I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
+  </p>
       <sidebyside>
         <tabular top="major" left="major">
           <col/>
@@ -113,24 +122,47 @@
             <cell>Finals Week</cell>
           </row>
           <row bottom="minor">
-            <cell>Tuesdays</cell>
-            <cell>11:00<ndash/>12:00</cell>
+            <cell>Monday</cell>
+            <cell>2:30<ndash/>3:30 in the SLC</cell>
+            <cell>TBD</cell>
+          </row>
+          <row bottom="minor">
+            <cell>Monday</cell>
+            <cell>3:30<ndash/>4:30 in SSB 317</cell>
+            <cell>TBD</cell>
+          </row>
+          <row bottom="minor">
+            <cell>Tuesday</cell>
+            <cell>9:00<ndash/>10:00 in SSB 317</cell>
+            <cell>TBD</cell>
+          </row>
+          <row bottom="minor">
+            <cell>Wednesday</cell>
+            <cell>2:30<ndash/>3:30 in the SLC</cell>
             <cell>TBD</cell>
           </row>
           <row bottom="major">
-            <cell>Thursdays</cell>
-            <cell>1:00<ndash/>2:00</cell>
+            <cell>Wednesday</cell>
+            <cell>3:30<ndash/>4:30 in SSB 317</cell>
             <cell>TBD</cell>
           </row>
         </tabular>
       </sidebyside>
-      <p>Come visit me for help with the material, help with homework, or questions about your grade. If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.</p>
-      <p>While I do have an office phone number and voice mail, I am more likely to reply to you more quickly if you use email to contact me.</p>
+      <p>
+    Come visit me for help with the material, help with homework, or questions about your grade.
+    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
+  </p>
+      <p>
+    While I do have an office phone number and voice mail,
+    I am more likely to reply to you more quickly if you use email to contact me.
+  </p>
     </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-course-description">
       <title>Course Description</title>
-      <p>Taken from the official PCC course description:</p>
+      <p>
+    Taken from the official PCC course description:
+  </p>
       <sidebyside halign="left">
         <tabular>
           <col halign="right"/>
@@ -157,247 +189,1758 @@
           </row>
         </tabular>
       </sidebyside>
-      <p>Introduces algebraic concepts and processes with a focus on linear equations and inequalities in one and two variables. Emphasizes applications, graphs, formulas, and proper mathematical notation throughout the course. A scientific calculator may be required. The TI-30X II is recommended. Prerequisites: MTH 20 and (RD 80 or ESOL 250) or equivalent placement. Recommended that MTH 20 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Audit available.</p>
-      <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+      <p>
+    Introduces algebraic concepts and processes with a focus on linear equations,
+    linear inequalities, and systems of linear equations. Emphasizes number-sense,
+    applications, graphs, formulas, and proper mathematical notation.
+    Prerequisites: MTH 20 and (RD 80 or ESOL 250) or equivalent placement.
+    Recommended: MTH 20 be taken within the past 4 terms.
+    The PCC math department recommends that students take MTH courses in consecutive terms. Audit available.
+  </p>
+      <p>
+    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+  </p>
     </section>
-    <!-- <xi:include href="./prerequisite-review.xml" /> -->
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-prerequisite-review">
+      <title>Prerequisite Review</title>
+      <p>
+    These exercises use skills from MTH 20, and in MTH 60 there is some assumption that students can do these tasks.
+    If you find that you are rusty with any of these topics,
+    please come to my office or the student learning center and we can refresh you on how these all work.
+  </p>
+      <paragraphs>
+        <title>Arithmetic with Negative Numbers</title>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-1" ww-id="webwork-1">
+
+    <static source="Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AdditionWithNegativeNumbers40.pg" seed="1">
+      <statement><p>Add the following.
+      <ol label="a."><li>
+      <p><m>-91+(-32)</m></p>
+      <p><fillin name="AnSwEr0001" characters="8"/></p>
+      </li><li>
+      <p><m>-84+92</m></p>
+      <p><fillin name="AnSwEr0002" characters="8"/></p>
+      </li><li>
+      <p><m>91+(-66)</m></p>
+      <p><fillin name="AnSwEr0003" characters="8"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>-123</m></p></answer>
+      <answer><p><m>8</m></p></answer>
+      <answer><p><m>25</m></p></answer>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AdditionWithNegativeNumbers40.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AdditionWithNegativeNumbers40.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AdditionWithNegativeNumbers40.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=1&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AdditionWithNegativeNumbers40.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AdditionWithNegativeNumbers40.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-2" ww-id="webwork-2">
+
+    <static source="Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AddSubtractNegativeNumbers10.pg" seed="2">
+      <statement><p>Perform the given addition and subtraction.
+      <ol label="a."><li>
+      <p><m>{-18-5+\left(-5\right)}</m></p>
+      <p><fillin name="AnSwEr0001" characters="8"/></p>
+      </li><li>
+      <p><m>{7-\left(-11\right)+\left(-11\right)}</m></p>
+      <p><fillin name="AnSwEr0002" characters="8"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>-28</m></p></answer>
+      <answer><p><m>7</m></p></answer>
+
+      <solution><p>a.</p><p><m>\begin{aligned}
+                 {-18-5+\left(-5\right)} \amp  =-23+(-5)\\
+                          \amp  =-23 - 5\\
+                          \amp =-28 
+              \end{aligned}</m></p><p>b.</p><p><m>\begin{aligned}
+                 {7-\left(-11\right)+\left(-11\right)} \amp  =7+11+(-11) \\
+                          \amp  =18+(-11) \\
+                           \amp  =18 - 11 \\
+                          \amp =7 
+             \end{aligned}</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AddSubtractNegativeNumbers10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AddSubtractNegativeNumbers10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AddSubtractNegativeNumbers10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=2&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AddSubtractNegativeNumbers10.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/AddSubtractNegativeNumbers10.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-3" ww-id="webwork-3">
+
+    <static source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/MultiplyWithNegativeIntegers30.pg" seed="3">
+      <statement><p>Multiply the following.</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ (-1)(-1)(-1)(-2)  }</m></p>
+      <p><fillin name="AnSwEr0001" characters="8"/></p>
+      </li><li>
+      <p><m>\displaystyle{ (2)(-2)(3)(-2) }</m></p>
+      <p><fillin name="AnSwEr0002" characters="8"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>2</m></p></answer>
+      <answer><p><m>24</m></p></answer>
+
+      <solution><p>In multiplication, each pair of negative signs cancel. If all negative signs are canceled, the product is positive; if there is one negative sign left, the product is negative.</p><p>a.</p><p><m>\begin{aligned}[t]
+         \amp \phantom{{}=}(-1)(-1)(-1)(-2) \\
+         \amp = (1)(1)(1)(2) \\
+         \amp = {2}
+             \end{aligned}</m></p><p>b.</p><p><m>\begin{aligned}[t]
+         \amp \phantom{{}=}(2)(-2)(3)(-2) \\
+         \amp = (2)(2)(3)(2) \\
+         \amp = {24}
+             \end{aligned}</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/MultiplyWithNegativeIntegers30.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/MultiplyWithNegativeIntegers30.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/MultiplyWithNegativeIntegers30.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=3&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/MultiplyWithNegativeIntegers30.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/MultiplyWithNegativeIntegers30.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-4" ww-id="webwork-4">
+
+    <static source="Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/DivideWithNegativeIntegers10.pg" seed="4">
+      <statement><p>Evaluate the following.
+      <ol label="a."><li>
+      <p><m>\frac{-56}{-7}</m></p>
+      <p><fillin name="AnSwEr0001" characters="8"/></p>
+      </li><li>
+      <p><m>\frac{12}{-6}</m></p>
+      <p><fillin name="AnSwEr0002" characters="8"/></p>
+      </li><li>
+      <p><m>\frac{-81}{9}</m></p>
+      <p><fillin name="AnSwEr0003" characters="8"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>8</m></p></answer>
+      <answer><p><m>-2</m></p></answer>
+      <answer><p><m>-9</m></p></answer>
+
+      <solution><p>The rules for dividing positive numbers are the same as those for multiplication:</p><p><m>\displaystyle{ \text{positive} \div \text{positive} = \text{positive} }</m>,</p><p><m>\displaystyle{ \text{positive} \div \text{negative} = \text{negative} }</m>,</p><p><m>\displaystyle{ \text{negative} \div \text{positive} = \text{negative} }</m>,</p><p><m>\displaystyle{ \text{negative} \div \text{negative} = \text{positive} }</m>.</p><p>The solutions are:</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ \frac{-56}{-7}={8},  }</m></p>
+      </li><li>
+      <p><m>\displaystyle{ \frac{12}{-6}={-2},  }</m></p>
+      </li><li>
+      <p><m>\displaystyle{ \frac{-81}{9}={-9}.  }</m></p>
+      </li></ol></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/DivideWithNegativeIntegers10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/DivideWithNegativeIntegers10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/DivideWithNegativeIntegers10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=4&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/DivideWithNegativeIntegers10.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/SignedNumbersArithemtic/DivideWithNegativeIntegers10.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-5" ww-id="webwork-5">
+
+    <static source="Contrib/PCC/BasicAlgebra/Exponents/ExponentDefinition10.pg" seed="5">
+      <statement><p>Evaluate the following.
+      <ol label="a."><li>
+      <p><m>4^{2}</m></p>
+      <p><fillin name="AnSwEr0001" characters="8"/></p>
+      </li><li>
+      <p><m>3^{3}</m></p>
+      <p><fillin name="AnSwEr0002" characters="8"/></p>
+      </li><li>
+      <p><m>(-2)^{2}</m></p>
+      <p><fillin name="AnSwEr0003" characters="8"/></p>
+      </li><li>
+      <p><m>(-4)^{3}</m></p>
+      <p><fillin name="AnSwEr0004" characters="8"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>16</m></p></answer>
+      <answer><p><m>27</m></p></answer>
+      <answer><p><m>4</m></p></answer>
+      <answer><p><m>-64</m></p></answer>
+
+      <solution><p>The solutions are:</p><p><ol label="a."><li>
+      <p><m>\begin{aligned}[t]
+                   4^{2}\amp =4\cdot4\\
+                           \amp ={16}  
+                \end{aligned}</m></p>
+      </li><li>
+      <p><m>\begin{aligned}[t]
+                    3^{3}\amp =3\cdot3\cdot3\\
+                            \amp ={27}
+                 \end{aligned}</m></p>
+      </li><li>
+      <p><m>\begin{aligned}[t] 
+                       (-2)^{2}\amp =(-2)\cdot(-2)\\
+                              \amp ={4}
+                  \end{aligned}</m></p>
+      </li><li>
+      <p><m>\begin{aligned}[t]
+                     (-4)^{3}\amp =(-4)\cdot(-4)\cdot(-4)\\
+                               \amp ={-64}
+                 \end{aligned}</m></p>
+      </li></ol></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/Exponents/ExponentDefinition10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/Exponents/ExponentDefinition10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/Exponents/ExponentDefinition10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=5&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/Exponents/ExponentDefinition10.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/Exponents/ExponentDefinition10.pg"/>
+
+  </webwork-reps>
+        </exercise>
+      </paragraphs>
+      <paragraphs>
+        <title>Fraction Arithmetic</title>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-6" ww-id="webwork-6">
+
+    <static source="Contrib/PCC/BasicAlgebra/FractionArithmetic/AddFractions60.pg" seed="6">
+      <statement><p>Add: <m>\displaystyle{-\frac{4}{7} + \frac{23}{28}}</m></p><p><fillin name="AnSwEr0001" characters="11"/></p></statement>
+      <answer><p><m>{\frac{1}{4}}</m></p></answer>
+
+      <solution><p>To add two fractions with different denominators, we first have to find a common denominator.</p><p>In this case, the least common multiple of <m>7</m> and <m>28</m> is <m>28</m>.</p><p>Look at the first fraction <m>\displaystyle{-\frac{4}{7}}</m>. To change the denominator to <m>28</m>, we multiply <m>4</m> at both the top and bottom, and we have:</p><p><m>\displaystyle{ \begin{aligned}-\frac{4}{7} \amp = -\frac{4 \cdot 4}{7 \cdot 4}\\ \amp = -\frac{16}{28} \end{aligned}}</m></p><p>The second fraction already has the common denominator.</p><p>Finally, we can do the addition. The full process is:</p><p><m>\displaystyle{\begin{aligned}
+         -\frac{4}{7} + \frac{23}{28}
+              \amp = -\frac{16}{28} + \frac{23}{28} \\
+              \amp = \frac{-16 + 23}{28} \\
+              \amp = \frac{7}{28} \amp \hbox{We can reduce this by dividing 7 into both the numerator and the denominator.
+      }\\
+              \amp = \frac{1}{4}
+      \end{aligned}
+          }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=6&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/AddFractions60.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/FractionArithmetic/AddFractions60.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-7" ww-id="webwork-7">
+
+    <static source="Contrib/PCC/BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" seed="7">
+      <statement><p>Subtract: <m>\displaystyle{-\frac{1}{6}-\frac{7}{18}}</m></p><p><fillin name="AnSwEr0001" characters="7"/></p></statement>
+      <answer><p><m>-{\frac{5}{9}}</m></p></answer>
+
+      <solution><p>To add or subtract two fractions with different denominators, we first have to find the common denominator.</p><p>In this case, the least common multiple of <m>6</m> and <m>18</m> is <m>18</m>.</p><p>Look at the first fraction <m>\displaystyle{-\frac{1}{6}}</m>. To change the denominator to <m>18</m>, we multiply <m>3</m> at both the top and bottom, and we have:</p><p><m>\displaystyle{ \begin{aligned}-\frac{1}{6} \amp = -\frac{1 \cdot 3}{6 \cdot 3}\\ \amp = -\frac{3}{18} \end{aligned}}</m></p><p>Since the second fraction<rsq/>s denominator is the same as the common denominator, there is no need to make changes to the second fraction.</p><p>Finally, we add or subtract the numerators and keep the common denominator unchanged. The whole process is:</p><p><m>\displaystyle{\begin{aligned}
+         -\frac{1}{6}-\frac{7}{18} \amp = -\frac{3}{18}-\frac{7}{18} \\
+         \amp = \frac{-3+(-7)}{18} \\
+         \amp = -\frac{10}{18} \amp  \hbox{We can divide both the numerator and denominator by 2 to reduce this.
+      }\\
+         \amp = -\frac{5}{9}
+      \end{aligned}
+          }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=7&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/FractionArithmetic/SubtractFractions60.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/FractionArithmetic/SubtractFractions60.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-8" ww-id="webwork-8">
+
+    <static source="Contrib/PCC/BasicAlgebra/OrderOfOperations/OOOFractions10.pg" seed="8">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{{{\frac{5}{3}}} + {{\frac{1}{5}}} \div {{\frac{4}{5}}} - {{\frac{1}{4}}}=}</m><fillin name="AnSwEr0001" characters="5"/></p></statement>
+      <answer><p><m>{\frac{5}{3}}</m></p></answer>
+
+      <solution><p>We must follow the order of operations when simplifying this expression. Begin by doing the division.</p><p><m>\displaystyle{\begin{aligned}[t]
+      {{\frac{5}{3}}} + {{\frac{1}{5}}} \div {{\frac{4}{5}}} - {{\frac{1}{4}}}\amp ={{\frac{5}{3}}} + {{\frac{1}{5}}} \cdot {{\frac{5}{4}}} - {{\frac{1}{4}}}\\
+      \amp ={{\frac{5}{3}}}+{{\frac{1}{4}}}-{{\frac{1}{4}}}\\ 
+       \amp = \frac{20}{12} + \frac{3}{12} - \frac{3}{12} \\
+         \amp = \frac{5}{3}
+      \end{aligned}
+      }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=8&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/OOOFractions10.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/OrderOfOperations/OOOFractions10.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-9" ww-id="webwork-9">
+
+    <static source="Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" seed="9">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ {{\frac{10}{9}}}+6\cdot{{\frac{8}{45}}}=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>{\frac{98}{45}}</m></p></answer>
+
+      <solution><p>According to the order of operations, the multiplication has higher priority than the addition.</p><p>You might need to go back to previous units to review how to add fractions.</p><p><m>\begin{aligned}[t]
+       {{\frac{10}{9}}}+6\cdot{{\frac{8}{45}}} \amp  = {{\frac{10}{9}}} + {{\frac{16}{15}}}  \\
+      \amp  = {{\frac{98}{45}}} 
+      \end{aligned}</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=9&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations250.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations250.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-10" ww-id="webwork-10">
+
+    <static source="Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" seed="10">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ \left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)-5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>0</m></p></answer>
+
+      <solution><p>You might need to go back to previous units to review how to add fractions.</p><p><m>\begin{aligned}
+       \left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)-5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right) \amp  = {0} -5\left({{\frac{3}{8}}}-{{\frac{3}{8}}}\right)  \\
+      \amp  = {0} -5\left({0}\right)  \\
+      \amp  = {0} -\left({0}\right)  \\
+      \amp  = {0} 
+      \end{aligned}</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=10&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations260.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/OrderOfOperations/orderOfOperations260.pg"/>
+
+  </webwork-reps>
+        </exercise>
+      </paragraphs>
+      <paragraphs>
+        <title>Absolute Value and Square Root</title>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-11" ww-id="webwork-11">
+
+    <static source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/AbsoluteValue11.pg" seed="11">
+      <statement><p>Evaluate the following.</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ |{3}|= }</m> <fillin name="AnSwEr0001" characters="6"/></p>
+      </li><li>
+      <p><m>\displaystyle{ |{-3}|= }</m> <fillin name="AnSwEr0002" characters="6"/></p>
+      </li><li>
+      <p><m>\displaystyle{ -|{3}|= }</m> <fillin name="AnSwEr0003" characters="6"/></p>
+      </li><li>
+      <p><m>\displaystyle{ -|{-3}|= }</m> <fillin name="AnSwEr0004" characters="6"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>3</m></p></answer>
+      <answer><p><m>3</m></p></answer>
+      <answer><p><m>-3</m></p></answer>
+      <answer><p><m>-3</m></p></answer>
+
+      <solution><p><ol label="a."><li>
+      <p>The absolute value of <m>3</m> measures how many units are between <m>3</m> and <m>0</m> on the number line, so <m>|{3}|=3</m>.</p>
+      </li><li>
+      <p>The absolute value of <m>-3</m> measures how many units are between <m>-3</m> and <m>0</m> on the number line, so <m>|{-3}|=3</m>.</p>
+      </li><li>
+      <p>The absolute value symbols cannot affect what are outside them, so we have <m>-|{3}|=-3</m>.</p>
+      </li><li>
+      <p>Similar to Part c, we have <m>-|{-3}|=-3</m>.</p>
+      </li></ol></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/AbsoluteValue11.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/AbsoluteValue11.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/AbsoluteValue11.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=11&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/AbsoluteValue11.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/AbsoluteValue11.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-12" ww-id="webwork-12">
+
+    <static source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers10.pg" seed="12">
+      <statement><p>Which of the following are square numbers?  There may be more than
+      one correct answer.</p><p><var form="checkboxes">
+      <li>
+      <p><m>16</m></p>
+      </li>
+      <li>
+      <p><m>81</m></p>
+      </li>
+      <li>
+      <p><m>144</m></p>
+      </li>
+      <li>
+      <p><m>123</m></p>
+      </li>
+      <li>
+      <p><m>107</m></p>
+      </li>
+      <li>
+      <p><m>123</m></p>
+      </li>
+      </var></p></statement>
+
+      <solution><p>You can quickly find the first few square numbers on scratch paper:</p><p><m>\displaystyle{\begin{aligned}[t]
+         1^{2} \amp = 1 \\
+         2^{2} \amp = 4 \\
+         3^{2} \amp = 9 \\
+         4^{2} \amp = 16 \\
+         5^{2} \amp = 25 \\
+         6^{2} \amp = 36 \\
+         7^{2} \amp = 49 \\
+         8^{2} \amp = 64 \\
+         9^{2} \amp = 81 \\
+         10^{2} \amp = 100 \\
+         11^{2} \amp = 121 \\
+         12^{2} \amp = 144 \\
+      \end{aligned}
+         }</m></p><p>It would be very helpful if you can memorize the above 12 square numbers.</p><p>So the correct answers are ABC.</p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers10.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers10.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-13" ww-id="webwork-13">
+
+    <static source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers20.pg" seed="13">
+      <statement><p>Evaluate the following.</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ \sqrt{36} }</m> = <fillin name="AnSwEr0001" characters="13"/></p>
+      </li><li>
+      <p><m>\displaystyle{ \sqrt{64} }</m> = <fillin name="AnSwEr0002" characters="13"/></p>
+      </li><li>
+      <p><m>\displaystyle{ \sqrt{4} }</m> = <fillin name="AnSwEr0003" characters="13"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>6</m></p></answer>
+      <answer><p><m>8</m></p></answer>
+      <answer><p><m>2</m></p></answer>
+
+      <solution><p>You can quickly find the first few square numbers on scratch paper:</p><p><m>\displaystyle{\begin{aligned}[t]
+         1^{2} \amp = 1 \\
+         2^{2} \amp = 4 \\
+         3^{2} \amp = 9 \\
+         4^{2} \amp = 16 \\
+         5^{2} \amp = 25 \\
+         6^{2} \amp = 36 \\
+         7^{2} \amp = 49 \\
+         8^{2} \amp = 64 \\
+         9^{2} \amp = 81 \\
+         10^{2} \amp = 100 \\
+         11^{2} \amp = 121 \\
+         12^{2} \amp = 144 \\
+      \end{aligned}
+         }</m></p><p>It would be very helpful if you can memorize the above 12 square numbers.</p><p>So the correct answers are:</p><p><ol label="a."><li>
+      <p><m>\displaystyle{\sqrt{36} = 6}</m></p>
+      </li><li>
+      <p><m>\displaystyle{\sqrt{64} = 8}</m></p>
+      </li><li>
+      <p><m>\displaystyle{\sqrt{4} = 2}</m></p>
+      </li></ol></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers20.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers20.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers20.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=13&amp;sourceFilePath=Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers20.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/IntegerAndSquareRoot/identifySquareNumbers20.pg"/>
+
+  </webwork-reps>
+        </exercise>
+      </paragraphs>
+      <paragraphs>
+        <title>Percentages</title>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-14" ww-id="webwork-14">
+
+    <static source="Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion30.pg" seed="14">
+      <statement><p>Write the following percentages as decimals.</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ 6\% = }</m> <fillin name="AnSwEr0001" characters="7"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 60\% = }</m> <fillin name="AnSwEr0002" characters="7"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 100\% = }</m> <fillin name="AnSwEr0003" characters="7"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 600\% = }</m> <fillin name="AnSwEr0004" characters="7"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>0.06</m></p></answer>
+      <answer><p><m>0.6</m></p></answer>
+      <answer><p><m>1</m></p></answer>
+      <answer><p><m>6</m></p></answer>
+
+      <solution><p>To change a percentage to a decimal, we move the decimal to the left twice.</p><p><m>\displaystyle{ 6\% = {0.06} }</m></p><p><m>\displaystyle{ 60\% = {0.6} }</m></p><p><m>\displaystyle{ 100\% = 1 }</m></p><p><m>\displaystyle{ 600\% = {6} }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion30.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion30.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion30.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=14&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion30.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion30.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-15" ww-id="webwork-15">
+
+    <static source="Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion50.pg" seed="15">
+      <statement><p>Write the following decimals as percentages.</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ 0.07 = }</m> <fillin name="AnSwEr0001" characters="5"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 0.7 = }</m> <fillin name="AnSwEr0002" characters="5"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 7 = }</m> <fillin name="AnSwEr0003" characters="5"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 1 = }</m> <fillin name="AnSwEr0004" characters="5"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>7.0\%</m></p></answer>
+      <answer><p><m>70.0\%</m></p></answer>
+      <answer><p><m>700.0\%</m></p></answer>
+      <answer><p><m>100.0\%</m></p></answer>
+
+      <solution><p>To change a decimal to a percentage, we move the decimal point to the right twice.</p><p><m>\displaystyle{ 0.07 = 7\% }</m></p><p><m>\displaystyle{ 0.7 = 70\% }</m></p><p><m>\displaystyle{ 7 = 700\% }</m></p><p><m>\displaystyle{ 1 = 100\% }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion50.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion50.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion50.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=15&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion50.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion50.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-16" ww-id="webwork-16">
+
+    <static source="Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion70.pg" seed="16">
+      <statement><p>Write the following decimals as percentages.</p><p><ol label="a."><li>
+      <p><m>\displaystyle{ 7.54 = }</m> <fillin name="AnSwEr0001" characters="5"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 0.754 = }</m> <fillin name="AnSwEr0002" characters="5"/></p>
+      </li><li>
+      <p><m>\displaystyle{ 0.0754 = }</m> <fillin name="AnSwEr0003" characters="5"/></p>
+      </li></ol></p></statement>
+      <answer><p><m>754.00\%</m></p></answer>
+      <answer><p><m>75.40\%</m></p></answer>
+      <answer><p><m>7.54\%</m></p></answer>
+
+      <solution><p>To change a decimal to a percentage, we move the decimal point to the right twice.</p><p><m>\displaystyle{ 7.54 = 754\% }</m></p><p><m>\displaystyle{ 0.754 = 75.4\% }</m></p><p><m>\displaystyle{ 0.0754 = 7.54\% }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion70.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion70.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion70.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=16&amp;sourceFilePath=Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion70.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicAlgebra/NumberBasics/PercentDecimalConversion70.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-17" ww-id="webwork-17">
+
+    <static source="Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType1_80.pg" seed="17">
+      <statement><p>Kandace is paying a dinner bill of <m>{\$47.00}</m>. Kandace plans to pay <m>12\%</m> in tips. How much tip will Kandace pay?</p><p>Kandace will pay <fillin name="AnSwEr0001" characters="9"/> in tip.</p></statement>
+      <answer><p><m>\$5.64</m></p></answer>
+
+      <solution><p>This problem can be boiled down to this question: What is  <m>12\%</m> of <m>47</m>? We will show multiple methods to solve this problem.</p><!-- PTX:WARNING: PGML wanted to make this a level 4 header. --><p>
+      Method 1</p><p>We will use proportion to solve this problem. Assume <m>12\%</m> of <m>47</m> is <m>x</m>, so <lq/><m>12</m> out of <m>100</m><rq/> corresponds to <lq/><m>x</m> out of <m>47</m><rq/>.</p><p>We will write and solve the proportion:</p><p><m>\displaystyle{\begin{aligned}[t]
+         \frac{12}{100} \amp = \frac{x}{47} \\
+         100x \amp = 12 \cdot 47 \\
+         100x \amp = 564 \\
+         \frac{100x}{100} \amp = \frac{564}{100} \\
+         x \amp = 5.64
+      \end{aligned}
+          }</m></p><p>Kandace will pay <m>{\$5.64}</m> in tip.</p><!-- PTX:WARNING: PGML wanted to make this a level 4 header. --><p>
+      Method 2</p><p>We will use the percentage formula to solve this problem. This translation from English to math may help you remember the percentage formula.</p><p><m>2 \text{ is } 50\% \text{ of } 4 \iff 2 = 0.5 \cdot 4</m></p><p>The question is: What is <m>12\%</m> of <m>47</m>? Assume <m>x</m> is <m>12\%</m> of <m>47</m>. We have:</p><p><m>\displaystyle{ 
+          \begin{aligned}
+              x  \amp  = 0.12 \cdot 47 \\
+              \amp  = 5.64 
+              \end{aligned}
+              }</m></p><p>Kandace will pay <m>{\$5.64}</m> in tip.</p><!-- PTX:WARNING: PGML wanted to make this a level 4 header. --><p>
+      Method 3</p><p>In the sentence <lq/>What is <m>12\%</m> of <m>47</m>,<rq/></p><p><ul label="disc"><li>
+      <p><lq/>what<rq/> is the <alert>percentage</alert>,</p>
+      </li><li>
+      <p><m>12\%</m> is the <alert>rate</alert>,</p>
+      </li><li>
+      <p><m>47</m> is the <alert>base</alert> (following the word <lq/>of<rq/>).</p>
+      </li></ul></p><p>By the formula <m>\text{percentage} = \text{rate} \cdot \text{base}</m>, we do a multiplication to solve the problem:</p><p><m>\displaystyle{ \text{percentage } = \text{rate} \cdot \text{base} = 12\% \cdot 47 = 0.12 \cdot 47 = 5.64 }</m></p><p>Kandace will pay <m>{\$5.64}</m> in tip.</p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType1_80.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType1_80.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType1_80.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=17&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType1_80.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType1_80.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-18" ww-id="webwork-18">
+
+    <static source="Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType2_10.pg" seed="18">
+      <statement><p>In the past few seasons<rsq/> basketball games, Connor attempted <m>440</m> free throws, and made <m>396</m> of them. What percent of free throws did Connor make?</p><p>Connor made <fillin name="AnSwEr0001" characters="10"/> of free throws in the past few seasons.</p></statement>
+      <answer><p><m>90\%</m></p></answer>
+
+      <solution><p>This problem can be boiled down to this question: <m>396</m> is what percent of <m>440</m>? We will show multiple methods to solve this problem.</p><!-- PTX:WARNING: PGML wanted to make this a level 4 header. --><p>
+      Method 1</p><p>We will use proportion to solve this problem.</p><p>Assume <m>396</m> is <m>x\%</m> of <m>440</m>, so <lq/><m>x</m> out of <m>100</m><rq/> corresponds to <lq/><m>396</m> out of <m>440</m><rq/>.</p><p>We will write and solve the proportion:</p><p><m>\displaystyle{\begin{aligned}[t]
+         \frac{x}{100} \amp = \frac{396}{440} \\
+         440x \amp = 396 \cdot 100 \\
+         440x \amp = 39600 \\
+         \frac{440x}{440} \amp = \frac{39600}{440} \\
+         x \amp = 90
+      \end{aligned}
+          }</m></p><p>Connor made <m>90\%</m> of free throws in the past few seasons.</p><!-- PTX:WARNING: PGML wanted to make this a level 4 header. --><p>
+      Method 2</p><p>We will use the percentage formula to solve this problem.</p><p>This translation from English to may  should help you remember the percentage formula.</p><p><m>2 \text{ is } 50\% \text{ of } 4 \Longleftrightarrow 2 = 0.5 \cdot 4</m></p><p>Assume <m>396</m> is <m>x</m> (as a percent) of <m>440</m>. We have:</p><p><m>\displaystyle{\begin{aligned}
+        396 \amp = x \cdot 440 \\
+        \frac{396}{440} \amp = \frac{x \cdot 440}{440} \\  
+        0.9 \amp = x\\
+        x \amp = 90\%
+      \end{aligned}
+          }</m></p><p>Connor made <m>90\%</m> of free throws in the past few seasons.</p><!-- PTX:WARNING: PGML wanted to make this a level 4 header. --><p>
+      Method 3</p><p>In the sentence <lq/><m>396</m> is what percent of <m>440</m>,<rq/></p><p><ul label="disc"><li>
+      <p><m>396</m> is the <alert>percentage</alert>,</p>
+      </li><li>
+      <p><lq/>what percent<rq/> is the <alert>rate</alert>,</p>
+      </li><li>
+      <p><m>440</m> is the <alert>base</alert> (following the word <lq/>of<rq/>).</p>
+      </li></ul></p><p>By the formula <m>\text{rate} = \frac{\text{percentage}}{\text{base}}</m>, we do a division to solve the problem:</p><p><m>\displaystyle{ \text{rate} = \frac{\text{percentage}}{\text{base}} = \frac{396}{440} = 0.9 = 90\% }</m></p><p>Connor made <m>90\%</m> of free throws in the past few seasons.</p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType2_10.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType2_10.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType2_10.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=18&amp;sourceFilePath=Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType2_10.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/Percent/MTH20PercentApplicationType2_10.pg"/>
+
+  </webwork-reps>
+        </exercise>
+      </paragraphs>
+      <paragraphs>
+        <title>Order of Operations</title>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-19" ww-id="webwork-19">
+
+    <static source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations23.pg" seed="19">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ 7+6(2)=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>19</m></p></answer>
+
+      <solution><p>Since there is no operation symbol between <m>6</m> and <m>(2)</m>, it implies multiplication.</p><p>We perform multiplication first, as multiplication has a higher priority than addition.</p><p><m>\displaystyle{
+              \begin{aligned}[t]
+                 7+6(2) \amp  = 7+12 \\
+                                       \amp  =  {19} 
+                \end{aligned}
+            }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations23.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations23.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations23.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=19&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations23.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations23.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-20" ww-id="webwork-20">
+
+    <static source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations24.pg" seed="20">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ 2(2+2)=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>8</m></p></answer>
+
+      <solution><p>Since there is no operation symbol between <m>2</m> and <m>(2+2)</m>, it implies multiplication.</p><p>We need to perform operations inside the parentheses first, as parentheses have a higher priority than multiplication.</p><p><m>\displaystyle{
+              \begin{aligned}[t]
+                 2(2+2) \amp  = 2(4) \\
+                                       \amp  =  {8} 
+                \end{aligned}
+            }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations24.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations24.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations24.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=20&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations24.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations24.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-21" ww-id="webwork-21">
+
+    <static source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations26.pg" seed="21">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ (2\cdot4)^{2}=  }</m>  <fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>64</m></p></answer>
+
+      <solution><p>In the order of operations, parentheses take priority above exponents.</p><p><m>\begin{aligned}[t]
+               (2\cdot4)^{2}  \amp  = 8^{2}  \\
+                                   \amp  = {64} 
+              \end{aligned}</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations26.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations26.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations26.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=21&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations26.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations26.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-22" ww-id="webwork-22">
+
+    <static source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations51.pg" seed="22">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ -[9-(1-6)^{2}]=  }</m><fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>16</m></p></answer>
+
+      <solution><p>The bracket [ ] and parentheses ( ) have the same purpose. We usually use [ ] when ( ) are already used in the problem, so we can tell which pair are which.</p><p><m>\displaystyle{\begin{aligned}[t]
+         \amp \phantom{={}}{-[9-(1-6)^{2}]} \\
+         \amp = -[9-(-5)^{2}] \\
+         \amp = -[9-25] \\
+         \amp = -[-16]\\
+         \amp = {16}
+      \end{aligned}
+          }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations51.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations51.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations51.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=22&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations51.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations51.pg"/>
+
+  </webwork-reps>
+        </exercise>
+        <exercise>
+          <webwork-reps xml:id="extracted-webwork-23" ww-id="webwork-23">
+
+    <static source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations53.pg" seed="23">
+      <statement><p>Evaluate the following.</p><p><m>\displaystyle{ 6+4(57-2\cdot3^{3})=  }</m><fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>18</m></p></answer>
+
+      <solution><p><m>\displaystyle{\begin{aligned}[t]
+         \amp \phantom{={}} 6+4(57-2\cdot3^{3}) \\
+         \amp = 6+4(57-2\cdot27) \\
+         \amp = 6+4(57-54) \\
+         \amp = 6+4(3) \\
+         \amp = 6+12 \\
+         \amp = {18}
+      \end{aligned}
+          }</m></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations53.pg</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations53.pg</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations53.pg</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=23&amp;sourceFilePath=Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations53.pg</server-url>
+
+    <pg source="Contrib/PCC/BasicMath/OrderOfOperations_More/orderOfOperations53.pg"/>
+
+  </webwork-reps>
+        </exercise>
+      </paragraphs>
+    </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-expectations">
       <title>Expectations</title>
-      <p>MTH 60 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. We will be using the <q>flipped</q> model of teaching math. For each day of class<ol><li>
-            <p>You will watch video lectures before coming to class.</p>
-        </li><li>
-            <p>You will take notes on the video lecture and turn them in when class starts.</p>
-        </li><li>
-            <p>In class we will work together in groups on doing math exercises.</p>
-        </li><li>
-            <p>You have some online homework to complete within five or six days of the in-class practice.</p>
-        </li></ol>There is evidence that the <q>flipped</q> model can raises the pass rates in math courses by a lot! More <q>traditional</q> methods for running a class have lately led to a 60% pass rate in MTH 60. Flipping should raise this, and those who pass are more likely to pass with an A.</p>
-      <p>Additionally, please:<ul><li>
-            <p>Try to complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
-        </li><li>
-            <p>Make time to visit me in office hours.</p>
-        </li></ul></p>
-      <p>The ideas are covered in a natural sequence, and if you stay on top of the assignments, you have a high chance for success. <!-- Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process. -->  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
-      <p>Here are some other expectations:<ul><li>
-            <p>Maintain respect for yourself and your classmates.</p>
-        </li><li>
-            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
-        </li><li>
-            <p>Check your <c>@pcc.edu</c> email at least once a day.</p>
-        </li><li>
-            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
-        </li></ul></p>
+      <p>
+    MTH 60 can be a challenging course,
+    so the main expectation is that you commit to the course with the goal of passing with an A,
+    and play an active role in your learning. We will be using the <q>flipped</q> classroom model.
+    For each day of class:
+    <ol><li>
+        <p>
+          You will watch videos before coming to class.
+        </p>
+      </li><li>
+        <p>
+          You will take notes on the videos and turn them in at the start of class.
+        </p>
+      </li><li>
+        <p>
+          You will answer some <q>reading questions</q> from the textbook and turn them in at the start of class.
+        </p>
+      </li><li>
+        <p>
+          In class we will work together in groups <em>practicing</em> what you learned.
+        </p>
+      </li><li>
+        <p>
+          You have some online homework to complete within five or six days of the in-class practice.
+        </p>
+      </li><li>
+        <p>
+          Occasionally, there will be pencil-and-paper homework to turn in as well.
+        </p>
+      </li></ol>
+    There is evidence that the <q>flipped</q> model can raises the pass rates in math courses by a lot!
+    More <q>traditional</q> methods for running a class have lately led to a 60% pass rate in MTH 60.
+    Flipping could raise this, and those who pass are more likely to pass with an A.
+  </p>
+      <p>
+    Additionally, please:
+    <ul><li>
+        <p>
+          Try to complete all homework assignments earlier than the due date.
+          Begin working on homework assignments the same day that we discuss that material in class.
+        </p>
+      </li><li>
+        <p>
+          Make time to visit me in office hours.
+        </p>
+      </li></ul>
+  </p>
+      <p>
+    The ideas are covered in a natural sequence, and if you stay on top of the assignments, you have a high chance for success.
+    <!-- Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.
+    Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process. -->  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity,
+    and it is almost always beneficial for all involved.
+  </p>
+      <p>
+    Here are some other expectations:
+    <ul><li>
+        <p>
+          Maintain respect for yourself and your classmates.
+        </p>
+      </li><li>
+        <p>
+          Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.
+        </p>
+      </li><li>
+        <p>
+          Check your <c>@pcc.edu</c> email at least once a day.
+        </p>
+      </li><li>
+        <p>
+          Food and drink can be distracting to other students.
+          Out of respect for others, please do not bring food and drink to class.
+          (Beverages that do not smell strongly and are in spill-proof containers are OK.)
+        </p>
+      </li></ul>
+  </p>
     </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="technology">
       <title>Technology Requirements</title>
-      <p><!-- Part of this class will be learning how technology can assist you in exploring mathematical ideas.   -->In regular class time, a smart phone, tablet, or laptop is fine. During an exam, you must have a scientific <!-- or graphing --> calculator and you may not use other devices that connect to the internet. If you do not own one, there are options for you to borrow one. <!-- The only things you will need a calculator for during an exam are things that a plain old scientific calculator can do, not the specific graphing calculator tools. --></p>
-      <p>You will also need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
+      <p>
+    <!-- Part of this class will be learning how technology can assist you in exploring mathematical ideas.   -->
+    In regular class time, a smart phone, tablet, or laptop is fine.
+    During an exam, you must have a scientific <!-- or graphing --> calculator
+    and you may not use other devices that connect to the internet.
+    If you do not own one, there are options for you to borrow one.
+    <!-- The only things you will need a calculator for during an exam
+    are things that a plain old scientific calculator can do, not the specific graphing calculator tools. -->
+  </p>
+      <p>
+    You will also need Internet access for most of your homework.
+    If you do not have Internet access at home, you can find it in PCC computer labs.
+  </p>
     </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-textbook">
       <title>Textbook</title>
-      <p>We are using a new <em>free</em> textbook written by PCC faculty. The book is called <pubtitle>ORCCA (Open Resources for Community College Algebra)</pubtitle>. We're excited to replace a roughly $117 book with this free book and save you money. This is only the second year this book is being used for MTH 60 at PCC, and we will be asking you for your thoughts and feedback about it. We will work to make it better every term from here on out, so that future students have a free, excellent MTH 60 textbook.</p>
-      <p>If you find any issues with this book where you think we could make it better, please let me know about each one.</p>
-      <p>Access this book:<ul><li>
-            <p>as a free eBook at <url href="http://spot.pcc.edu/math/orcca/"><c>spot.pcc.edu/math/orcca/</c></url>.</p>
-        </li><li>
-            <p>as a (color or black-and-white) PDF for download at <url href="http://spot.pcc.edu/math/orcca/pdf/"><c>spot.pcc.edu/math/orcca/pdf</c></url>.</p>
-        </li><li>
-            <p>for purchase from the PCC book store for $15.40.</p>
-        </li><li>
-            <p>for purchase from Amazon (<url href="https://amzn.to/2LPGPJo"><c>amzn.to/2LPGPJo</c></url>) for $15.40.</p>
-        </li></ul></p>
+      <p>
+    We are using a new <em>free</em> textbook written by PCC faculty.
+    The book is called <pubtitle>ORCCA (Open Resources for Community College Algebra)</pubtitle>.
+    We're excited to replace a roughly $117 book with this free book and save you money.
+  </p>
+      <p>
+    If you find any issues with this book where you think we could make it better, please let me know about each one.
+  </p>
+      <p>
+    Access this book:
+    <ul><li>
+        <p>
+          as a free eBook at <url href="http://spot.pcc.edu/math/orcca/ed2/html/">spot.pcc.edu/math/orcca/ed2/html</url>.
+        </p>
+      </li><li>
+        <p>
+          as a (color or black-and-white) PDF for download at <url href="http://spot.pcc.edu/math/orcca/ed2/pdf/">spot.pcc.edu/math/orcca/ed2/pdf</url>.
+        </p>
+      </li><li>
+        <p>
+          for purchase from the PCC book store for $15.40.
+        </p>
+      </li><li>
+        <p>
+          for purchase from Amazon (<url href="https://amzn.to/33neZdk">amzn.to/33neZdk</url>) for $15.40.
+        </p>
+      </li></ul>
+  </p>
     </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="grades">
       <title>Grades</title>
       <introduction>
-        <p>General PCC Grading Guidelines are found at <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.</p>
+        <p>
+      General PCC Grading Guidelines are found at
+      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
+    </p>
       </introduction>
       <paragraphs>
         <title>Class Prep Assignments</title>
-        <p>Most class days you are supposed to come to class with a class prep assignment completed. You'll turn these in when you come into class. Then while you work on some warm-up exercises, I will look over your prep assignments and give you credit for them. Each one is worth 0.5% of your grade. There are 15 of these total, so all together they are worth 7.5% of your grade</p>
-        <p>If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.</p>
+        <p>
+      Most class days you are supposed to come to class with a class prep assignment completed.
+      <ol><li>
+          <p>
+            You watched the videos and took notes.
+          </p>
+        </li><li>
+          <p>
+            You answered the reading questions.
+          </p>
+        </li></ol>
+      You'll turn these in when you come into class.
+      Later while you work on some practice exercises, I will look over your prep assignments and give you credit for them.
+      I'll return them to you and ask you if you have questions about the topics.
+    </p>
+        <p>
+      If you arrive to class and you haven't done the prep assignment,
+      I will ask you to leave and complete it before coming back to class.
+    </p>
+        <p>
+      Each prep assignment is worth 0.5% of your grade.
+      There are 19 of these total, so all together they are worth 9.5% of your grade.
+    </p>
+        <p>
+      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>In-class Group Work</title>
-        <p>Most class days, you will work in small groups on a collection of exercises that go along with the lesson you prepared for. If you work on these diligently during class time with your partners, you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time). There are 17 of these, so in total these are worth 8.5% of your grade.</p>
-        <p>If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit. It must be fully completed, not partially completed. The work must be shown, not just the answers.</p>
-        <p>Blank group activities are available for download at the <xref ref="section-calendar" text="title"/>. The day after each one is due, a version with answers will also be posted there. It will just have simple answers, not fully worked out explanations of how to get those answers.</p>
+        <p>
+      Most class days, you will work in small groups on a collection of exercises that go along with the lesson you prepared for.
+      If you work on these diligently during class time with your partners,
+      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
+      There are 19 of these, so in total these are worth 9.5% of your grade.
+    </p>
+        <p>
+      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
+      The online syllabus will have the exercise packets from each day for you to download
+      using the <xref ref="section-calendar" text="title"/>.
+      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Online Homework</title>
-        <p>You have online homework for each section using Edfinity (a front end for WeBWorK). See <xref ref="section-edfinity" text="title"/> for details. The due date for each assignment is posted in Edfinity. Generally when a topic is on our course calendar, the online homework is due five or six days later. You should start working on it soon after the class that works on that topic, ideally on the same day.</p>
-        <p>Collectively, all the online homework is worth 9% of your final grade.</p>
+        <p>
+      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
+      the online homework is due five or six days later.
+      You should start working on it soon after the class that works on that topic, ideally on the same day.
+    </p>
+        <p>
+      Collectively, all the online homework is worth 10% of your final grade.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Written Assignments</title>
+        <p>
+        In the latter half of the course, your homework includes some exercises where you must write up something on paper.
+        Turn these in on the days they are due.
+        Each written assignment is worth 1% of your grade for a total of 6%.
+        See <xref text="title" ref="section-written-assignments"/> for the specifics.
+      </p>
       </paragraphs>
       <!-- <paragraphs>
-        <title>Written Assignments</title>
-        <p>Selections of problems from the textbook will be assigned to be be written up formally. Each written assignment is worth <quantity><mag>1</mag><unit base="percent"/></quantity> of your grade for a total of <quantity><mag>10</mag><unit base="percent"/></quantity>. See <xref text="title" ref="section-written-assignments"/> for the specifics.</p>
-    </paragraphs> -->
-      <!-- <paragraphs>
-        <title>Contribution to the Book</title>
-        <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
-    </paragraphs> -->
+    <title>Contribution to the Book</title>
+    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
+  </paragraphs> -->
       <paragraphs>
         <title>Exams</title>
-        <p>Please refer to the <xref ref="section-calendar" text="title"/> for exam dates, and <xref text="title" ref="section-exams"/> for details about what is covered on each exam. Exams 1, 2, and 3 are each worth 25%, of your grade.</p>
+        <p>
+      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
+      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
+      Exams 1, 2, and 3 are each worth 20%, 20%, and 25%, of your grade.
+    </p>
       </paragraphs>
     </section>
     <!-- <xi:include href="./downloads.xml" /> -->
-    <!-- <xi:include href="./webwork.xml" /> -->
     <!-- This file is part of Alex Jordan's syllabus -->
-    <section xml:id="section-edfinity">
-      <title>Edfinity Assignments</title>
-      <introduction>
-        <p>I have made an account for you on an online homework platform called Edfinity. Visit Edfinity at <url href="https://edfinity.com/registrations"><c>edfinity.com/registrations</c></url>.</p>
-        <p>There is one assignment in Edfinity for (almost) every section we cover in the textbook.</p>
-        <p>The due dates for each assignment are visible in Edfinity. I do not duplicate them here in case I might make a mistake. But generally when we cover a section on a Tuesday, that Edfinity assignment is due the following Sunday night. And when we cover a section on a Thursday, that Edfinity assignment is due the following Wednesday night.</p>
-        <p>Edfinity homework sets are collectively worth 9% of your grade. If you miss one, you cannot make it up. When the due date passes, everyone gets access to the answers.</p>
-        <p>If online homework is too burdensome, please contact me and we can discuss alternative options.</p>
-      </introduction>
+    <section xml:id="section-webwork">
+      <title>WeBWorK Assignments</title>
+      <p>
+    I have made an account for you on a program called <webwork/> at
+    <url href="https://webwork.pcc.edu/webwork2/mth060-jordan-201904/">webwork.pcc.edu/webwork2/mth060-jordan-201904</url>.
+    Each week there are problem sets and you are required to answer them online using <webwork/>.
+    The topics that we cover in a week have exercises that are typically due in the middle of the following week
+    at 10:00<nbsp/><pm/> on the night in between the days we meet, but can be worked on much earlier.
+    You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.
+  </p>
+      <p>
+    Here is an example of what a <webwork/> problem is like.
+  </p>
+      <exercise xml:id="webwork-demo">
+        <title>Multiply Powers</title>
+        <webwork-reps xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <authored>
+
+        <pg-macros>
+              <macro-file>contextLimitedPolynomial.pl</macro-file>
+            </pg-macros>
+        <setup><pg-code>
+                $a = 4;
+                $b = 3;
+                $c = $a + $b;
+                $expression = Formula("x^($a)*x^($b)");
+
+                Context("LimitedPolynomial-Strict");
+                # custom error message
+                Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+                  = "Your answer must be fully simplified";
+
+                $answer = Formula("x^($c)");
+                $product = $a*$b;
+                $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+                  [Compute("x^($product)")] =&gt;
+                  "When multiplying terms with the same base, you do not multiply the exponents."));
+              </pg-code></setup>
+        <statement><p>
+                Use the properties of exponents to simplify <m><var name="$expression"/></m>.
+              </p><p>
+                <m><var name="$expression"/>=</m><var name="$answer" evaluator="$evaluator" width="8"/>
+              </p></statement>
+        <solution><p>
+                We <em>add</em> the exponents as follows:
+                <md><mrow><var name="$expression"/>\amp=x^{<var name="$a"/>+<var name="$b"/>}</mrow><mrow>\amp=x^{<var name="$c"/>}</mrow></md>
+              </p></solution>
+
+    </authored>
+
+
+    <static seed="29">
+      <statement><p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p><p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8"/></p></statement>
+      <answer><p><m>x^{7}</m></p></answer>
+
+      <solution><p>We <em>add</em> the exponents as follows:</p><p><me>\begin{aligned}
+      {x^{4}x^{3}}\amp=x^{4+3}\\
+      \amp=x^{7}
+      \end{aligned}</me></p></solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=29&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=29&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=29&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=29&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <pg>
+#######################################
+###    Generated from PreTeXt source   
+###    on 2019-09-20T15:05:36-07:00    
+###                                    
+###      https://pretextbook.org       
+###                                    
+#######################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(8.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "answerHints.pl",
+  "contextLimitedPolynomial.pl",
+  "PGcourse.pl",
+);
+
+############################################################
+# Header
+############################################################
+COMMENT('Authored in PreTeXt');
+TEXT(beginproblem());
+
+############################################################
+# PG Setup
+############################################################
+$a = 4;
+$b = 3;
+$c = $a + $b;
+$expression = Formula("x^($a)*x^($b)");
+
+Context("LimitedPolynomial-Strict");
+# custom error message
+Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+  = "Your answer must be fully simplified";
+
+$answer = Formula("x^($c)");
+$product = $a*$b;
+$evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+  [Compute("x^($product)")] =&gt;
+  "When multiplying terms with the same base, you do not multiply the exponents."));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the properties of exponents to simplify [`[$expression]\text{.}`]
+
+[`[$expression]=`][_]{$evaluator}{8}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We _add_ the exponents as follows:
+
+[```\newcommand{\amp}{&amp;}\begin{aligned}
+[$expression]\amp=x^{[$a]+[$b]}\\
+\amp=x^{[$c]}
+\end{aligned}```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+
+    </pg>
+
+  </webwork-reps>
+      </exercise>
+      <paragraphs>
+        <title>Why are we using WeBWorK?</title>
+        <p>
+      Traditionally, homework comes from textbook problems that students would do on paper, and then turn in in to the instructor.
+      One drawback of this is that students get no feedback at all until about a week later,
+      and at that point the student is no longer actively thinking about material from two weeks earlier.
+      Another drawback is that it is impossible for a student to do the appropriate amount of homework
+      and for the instructor to give quality feedback for every single exercise.
+      Often an instructor is only able to give feedback for a small subset of the exercises.
+      Using <webwork/> brings the following advantages over traditional homework.
+    </p>
+        <p>
+      <dl><li>
+          <title>Cost</title>
+          <p>
+            <webwork/> is free, unlike many online homework programs.
+          </p>
+        </li><li>
+          <title>Timely Feedback</title>
+          <p>
+            Rather than waiting a week for written feedback from your instructor, you get instant feedback from <webwork/>.
+          </p>
+        </li><li>
+          <title>Quality Feedback</title>
+          <p>
+            <webwork/> will do more than just tell you if you are right or wrong.
+            For example, it will usually tell you if you haven't completely simplified an answer
+            or forgot to include units when they are required. Sometimes it will do even more.
+            Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.
+          </p>
+        </li><li>
+          <title>Ease of Communication</title>
+          <p>
+            <webwork/> encourages you to write your instructor for help,
+            who can provide even higher quality feedback based on your message and your previous attempts.
+          </p>
+        </li><li>
+          <title>Multiple or Unlimited Attempts</title>
+          <p>
+            On paper, when you submit an answer, that's the end of it.
+            With <webwork/> you might get a problem wrong on your first attempt,
+            but you are encouraged to figure out your mistakes and try again.
+          </p>
+        </li><li>
+          <title>Efficient Use of Class Time</title>
+          <p>
+            Your instructor can monitor the whole class and see in real-time
+            which problems and concepts are causing the class difficulty.
+          </p>
+        </li><li>
+          <title>Extra Practice</title>
+          <p>
+            Your instructor can set things up so that you can retry each problem with new random numbers involved.
+            If you are unsure if you have mastered a skill, this gives you a way to keep practicing.
+          </p>
+        </li></dl>
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Logging in to WeBWorK</title>
+        <p>
+      Go directly to
+      <url href="https://webwork.pcc.edu/webwork2/mth060-jordan-201904/">webwork.pcc.edu/webwork2/mth060-jordan-201904</url>.
+      If you are working at your own computer, you might want to bookmark this link.
+      Your username is your PCC email prefix, using all lowercase letters.
+      For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>.
+      Your initial password is your PCC G-number, using a capital <c>G</c>.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>The First Time You Log On</title>
+        <p>
+      You should go to the <c>User Settings</c> menu in the upper left and change your password.
+      There is an Orientation assignment for you to take.
+      Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>.
+      Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.
+      The Orientation will remain available to you for the entire term, so you can always come back and look at it again.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Homework Sets Menu</title>
+        <p>This shows you the assignments that have been assigned to you and when they are due. You may:
+      <ul><li>
+          <p>
+            click on an assignment and begin working on problems online
+          </p>
+        </li><li>
+          <p>
+            check the box next to an assignment and click <c>Download Hardcopy</c> to get the assignment as a <c>.pdf</c> file
+            which you may then print to work on away from a computer.
+          </p>
+        </li></ul>
+    </p>
+        <p>
+      When you click on an assignment, you will see a screen with the problem numbers listed.
+      Off to the right is a message for you that might have specific instructions or information about the assignment.
+      You should always look for and read this message.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Emailing for Help</title>
+        <p>
+      When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any problem.
+      Write a message explaining what you have tried and if possible, include the work from your calculations.
+      <webwork/> will send your instructor an email with helpful information (like all of the incorrect attempts you have tried)
+      and they get back to you soon with a response. When they respond, it will be with an email,
+      so <alert>you must remember to check your email</alert>.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Math Achievements</title>
+        <p>
+      As you complete more problems through the term, you will win badges for various <q>achievements</q>.
+      For example, the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect submissions.
+      Both earning badges and just plain answering questions correctly will earn you <q>achievement points</q>.
+      As you gain more achievement points, you will level up.
+      Each time you level up, you earn an item that can be used to affect your grade.
+    </p>
+        <p>
+      <dl><li>
+           <title>Level 1: Lesser Rod of Revelation</title>
+           <p>Give yourself 50% credit on one problem.</p>
+        </li><li>
+           <title>Level 2: Potion of Forgetfulness</title>
+           <p>Drop the number incorrect attempts down to <m>0</m>.</p>
+        </li><li>
+           <title>Level 3: Tunic of Extension</title>
+           <p>Extend the due date of a currently open homework for <m>24</m> hours.</p>
+        </li><li>
+           <title>Level 4: Cupcake of Enlargement</title>
+           <p>Double the weight of one problem.</p>
+        </li><li>
+           <title>Level 5: Box of Transmogrification</title>
+           <p>Change a single problem to be a (newly randomized) copy of a different problem on the same homework set.</p>
+        </li><li>
+           <title>Level 6: Greater Rod of Revelation</title>
+           <p>Give yourself 100% credit on one problem.</p>
+        </li><li>
+           <title>Level 7: Robe of Longevity</title>
+           <p>Extend the due date of a currently open homework for <m>48</m> hours.</p>
+        </li><li>
+           <title>Level 8: Scroll of Resurrection</title>
+           <p>Reopen a homework set (even a closed one) for an additional <m>24</m> hours. All problems will be re-randomized.</p>
+        </li><li>
+           <title>Level 9: Greater Tome of Enlightenment</title>
+           <p><q>Earn</q> 100% on every problem in a single homework set.</p>
+        </li><li>
+           <title>Level 10: Cake of Enlargement</title>
+           <p>Double the weight of an entire set.</p>
+        </li></dl>
+    </p>
+      </paragraphs>
     </section>
-    <!-- <xi:include href="./written-assignments.xml" /> -->
+    <!-- <xi:include href="./edfinity.xml" /> -->
+    <!-- This file is part of Alex Jordan's syllabus -->
+    <section xml:id="section-written-assignments">
+      <title>Written Assignments</title>
+      <p>
+    These must be turned in no later than their posted due dates.
+    These are where you will get to show me your mathematical writing and graphing skills.
+  </p>
+      <p>
+    The most important thing to understand about your written homework
+    is that <alert>you are not merely finding and giving answers</alert>.
+    You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>
+    In general, your write-ups should respect these <q>five C's</q>:
+    <dl width="narrow"><li>
+        <title>Clarity</title>
+        <p>
+          Am I able to read your work? Is your writing legible?
+          Have you written complete sentences that make sense, where appropriate?
+          If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent?
+          Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title.
+          If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.
+        </p>
+      </li><li>
+        <title>Correctness</title>
+        <p>
+          Are your numerical answers and conclusions accurate?
+          Often you can check that your numbers are correct by substituting numbers back into earlier equations.
+          Also, by asking yourself if the numbers that you find make sense in the context of the problem.
+          It's not a bad idea to include these checks with your work.
+        </p>
+      </li><li>
+        <title>Conciseness</title>
+        <p>
+          Have you rambled on with extra content that is not relevant to solving the problem?
+          This is distracting and hurts the overall ability of your write-up to communicate effectively.
+        </p>
+      </li><li>
+        <title>self-Containment</title>
+        <p>
+          The response to the question that you submit should make it clear what the original question was.
+          Put yourself in the shoes of another student from the class
+          who does not have the original homework assignment in front of them.
+          Would they be able to understand what you are talking about? At a minimum,
+          this means that <alert>you must give an introduction of some kind that lets your reader know
+          what you are about to investigate</alert>.
+          Also, include any and all charts, graphs, and mathematical expressions that were given in the problem,
+          and explain their meaning, even if you do so merely with labels.
+        </p>
+      </li><li>
+        <title>Conclusions</title>
+        <p>
+          Some problems come with context (<q>word problems</q>).
+          When writing your final answer to such a question,
+          you need to put that answer in its full context with a conclusion statement that is a complete English sentence.
+          As an example, writing <q><m>x=70</m></q> or <q>He needs $70</q> will not be good enough
+          if there is more context to the problem.
+          Instead, something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q>
+          is a conclusion statement with all of the context in it.
+          For problems without context, conclusion statements like <q>The solution set is <m>\{70\}</m>.</q> are acceptable.
+        </p>
+      </li></dl>
+  </p>
+      <p>
+    <dl><li xml:id="written1">
+        <title>Written HW 1</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul><li>
+              <p>
+                Section 3.1, #3, 7.
+              </p>
+            </li><li>
+              <p>
+                Section 3.2, #27, 29, 31.
+              </p>
+            </li></ul>
+        </p>
+      </li><li xml:id="written2">
+        <title>Written HW 2</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul><li>
+              <p>
+                Section 3.2, #33, 35, 37, 39, 41.
+              </p>
+            </li></ul>
+        </p>
+      </li><li xml:id="written3">
+        <title>Written HW 3</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul><li>
+              <p>
+                Section 3.5, #37, 39, 43, 45, 47.
+              </p>
+            </li></ul>
+        </p>
+      </li><li xml:id="written4">
+        <title>Written HW 4</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul><li>
+              <p>
+                Section 3.6, #51, 55.
+              </p>
+            </li><li>
+              <p>
+                Section 3.7, #29, 31.
+              </p>
+            </li></ul>
+        </p>
+      </li><li xml:id="written5">
+        <title>Written HW 5</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul><li>
+              <p>
+                Section 3.7, #35, 39.
+              </p>
+            </li><li>
+              <p>
+                Section 3.8, #27, 29.
+              </p>
+            </li></ul>
+        </p>
+      </li><li xml:id="written6">
+        <title>Written HW 6</title>
+        <p>
+          Please see calendar for due date.
+        </p>
+        <p>
+          <ul><li>
+              <p>
+                Section 4.1, #23, 25, 27, 29, 31, 33.
+              </p>
+            </li></ul>
+        </p>
+      </li></dl>
+  </p>
+    </section>
     <!-- <xi:include href="./contributions.xml" /> -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-exams">
       <title>Exams</title>
       <introduction>
-        <p>Please see the <xref ref="section-calendar" text="title"/> for the exam dates.</p>
-        <p>About a week before each exam, you will receive a practice exam. Practice exams are typically longer than the real exam to give you more to practice with.</p>
         <p>
-          <dl>
-            <li xml:id="exam1">
-            <title>Exam 1 (2%)</title>
-            <p>Covers sections 1.1<ndash/>2.10.</p>
-            <p>You'll have the entire class period for this exam if you need it.</p>
-        </li>
-            <li xml:id="exam2">
-            <title>Exam 2 (25%)</title>
-            <p>Covers sections 3.1<ndash/>3.6. Additionally there will be some repeated questions from Exam 1. (So part of your studying should be reviewing your first exam.)</p>
-            <p>You'll have the entire class period for this exam if you need it.</p>
-        </li>
-            <li xml:id="exam3">
-            <title>Exam 3 (25%)</title>
-            <p>Covers sections 4.1<ndash/>4.10. Additionally there will be some repeated questions from Exams 1 and 2. (So part of your studying should be reviewing your first and second exams.)</p>
-            <p>This exam is during finals week and is only two hours long.</p>
-        </li>
-          </dl>
-        </p>
+      Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
+    </p>
+        <p>
+      About a week before each exam, you will receive a practice exam.
+      Practice exams are typically longer than the real exam to give you more to practice with.
+    </p>
+        <p>
+      <dl width="narrow"><li xml:id="exam1">
+          <title>Exam 1 (20%)</title>
+          <p>
+            Covers sections 1.1<ndash/>1.8.
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
+        </li><li xml:id="exam2">
+          <title>Exam 2 (20%)</title>
+          <p>
+            Covers sections 2.1<ndash/>3.5.
+            Additionally there will be some repeated questions from Exam 1.
+            (So part of your studying should be reviewing your first exam.)
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
+        </li><li xml:id="exam3">
+          <title>Exam 3 (25%)</title>
+          <p>
+            Covers sections 3.6<ndash/>3.8 and 4.1<ndash/>4.3.
+            Additionally there will be some repeated questions from Exams 1 and 2.
+            (So part of your studying should be reviewing your first and second exams.)
+          </p>
+          <p>
+            This exam is during finals week and is only two hours long.
+          </p>
+        </li></dl>
+    </p>
       </introduction>
       <paragraphs>
         <title>Missing an Exam</title>
-        <p>If you miss an exam, you must contact me within one day to explain why or I might not be able to allow a make-up and you would receive a zero. <alert>Make-up exams are only permitted under extreme circumstances. PCC does not have enough staff and facilities to administer too many make-up exams.</alert> If you have a valid excuse, you must make up the exam within the next two business days, or I might not be able to allow a make-up and you would receive a zero.  If you are going to make up the exam, contact the testing center immediately (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>) to learn what time you might be able to make up the exam.  If you are going to miss the final exam, contact me before the test is given. Since make-up testing is occasionally abused, if you require a make-up test for more than two exams, your scores on all make-up exams will be reduced by 10 percentage points.</p>
-        <p>Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert> Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.</p>
+        <p>
+      If you miss an exam, you must contact me within one day to explain why
+      or I might not be able to allow a make-up and you would receive a zero.
+      <alert>Make-up exams are only permitted under extreme circumstances.
+      PCC does not have enough staff and facilities to administer too many make-up exams.</alert>
+      If you have a valid excuse, you must make up the exam within the next two business days,
+      or I might not be able to allow a make-up and you would receive a zero.
+      If you are going to make up the exam, contact the testing center immediately
+      (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>)
+      to learn what time you might be able to make up the exam.
+      If you are going to miss the final exam, contact me before the test is given.
+    </p>
+        <p>
+      Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
+      Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Exam Redos</title>
+        <p>
+      There may be opportunities to try an exam for a second, or even a third time.
+      These opportunities will be discussed in class if and when they arise.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Accommodated Testing</title>
-        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor. Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.</p>
+        <p>
+      Students who experience disability-related barriers should contact Disability Services:
+      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
+      If students elect to use approved academic adjustments, they must provide, in advance,
+      formal notification from Disability Services to the instructor.
+      Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
+    </p>
       </paragraphs>
     </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="resources">
       <title>Student Resources</title>
       <introduction>
-        <p>PCC and the world at large offer several resources that you may benefit from while taking this course.</p>
+        <p>
+      PCC and the world at large offer several resources that you may benefit from while taking this course.
+    </p>
       </introduction>
       <paragraphs>
         <title>Tutoring</title>
-        <p>The Tutoring Center at Sylvania offers free tutoring in math.  You should find some time to check it out, if you haven't already. Details can be found at <url href="http://www.pcc.edu/resources/tutoring/sylvania/"><c>www.pcc.edu/resources/tutoring/sylvania</c></url>.</p>
-        <p>Visit <url href="http://www.pcc.edu/resources/tutoring/sylvania/student-success/math-center/"><c>www.pcc.edu/resources/tutoring/sylvania/student-success/math-center</c></url> for details about free online tutoring that you have access to as well.</p>
+        <p>
+      The Student Learning Center at Cascade offers free tutoring in math.
+      You should find some time to check it out, if you haven't already.
+      Details can be found at
+      <url href="http://www.pcc.edu/resources/tutoring/cascade/">www.pcc.edu/resources/tutoring/cascade</url>.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>PCC Student Learning Center Math Self-Study Resources</title>
-        <p>Some PCC faculty have been putting together self-study material for mathematics topics, including the topics in this course. If you would like to see an alternative to what is in your textbook, please visit <url href="https://spot.pcc.edu/slc/mathresources/output/html/"><c>spot.pcc.edu/slc/mathresources/output/html/</c></url>.</p>
+        <p>
+      Some PCC faculty have been putting together self-study material for mathematics topics,
+      including the topics in this course. If you would like to see an alternative to what is in your textbook,
+      please visit
+      <url href="https://spot.pcc.edu/slc/mathresources/output/html/">spot.pcc.edu/slc/mathresources/output/html/</url>.
+    </p>
       </paragraphs>
       <!-- <paragraphs>
-        <title>Calculator Handbooks</title>
-        <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math"><c>www.pcc.edu/programs/math</c></url>.</p>
-    </paragraphs> -->
+    <title>Calculator Handbooks</title>
+    <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
+  </paragraphs> -->
       <paragraphs>
         <title>College Success Courses</title>
-        <p>There are several one-credit courses available to help you maximize your success in the college experience.  These include courses specifically geared toward study skills.  The following site offers information on these courses as well as tips for success: <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html"><c>www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</c></url>.</p>
-      </paragraphs>
-      <paragraphs>
-        <title>Math Study Skills</title>
-        <p>PCC instructor Jessica Bernards co-authored these free lessons on study skills that help people succeed in math courses. <url href="http://spot.pcc.edu/mathstudyskills/"><c>spot.pcc.edu/mathstudyskills</c></url></p>
+        <p>
+      There are several one-credit courses available to help you maximize your success in the college experience.
+      These include courses specifically geared toward study skills.
+      The following site offers information on these courses as well as tips for success:
+      <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Online Videos</title>
-        <p>At the Khan Academy (<url href="http://www.khanacademy.org"><c>www.khanacademy.org</c></url>)  you  can  find  thousands  of  10-  to  30-minute videos on various mathematics topics. See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.</p>
-        <p>Khan Academy is just one such site. See what else you can find online searching for math videos. If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.</p>
+        <p>
+      At the Khan Academy (<url href="http://www.khanacademy.org">www.khanacademy.org</url>)
+      you can find thousands of 10- to 30-minute videos on various mathematics topics.
+      See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.
+    </p>
+        <p>
+      Khan Academy is just one such site. See what else you can find online searching for math videos.
+      If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Counseling Services</title>
-        <p>(SY CC 210, 971–722–8153)</p>
-        <p>Get help dealing with personal or career concerns that may be impacting your academic success.  Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.</p>
-        <p><url href="http://www.pcc.edu/resources/counseling/"><c>www.pcc.edu/resources/counseling</c></url>.</p>
+        <p>
+      (SSB 124, 971-722-5271)
+    </p>
+        <p>
+      Get help with personal or career concerns that may be impacting your academic success.
+      Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/resources/counseling/">www.pcc.edu/resources/counseling</url>.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Multicultural Center</title>
-        <p>(SY CC 267, 971–722–4112)</p>
-        <p>A welcoming and inclusive space for diverse students.  One of the many services is one-on-one help for math courses, drop-in or by appointment:</p>
         <p>
-          <url href="http://www.pcc.edu/resources/culture/">
-            <c>www.pcc.edu/resources/culture</c>
-          </url>
-        </p>
+      (CA SU 302, 971-722-5795)
+    </p>
+        <p>
+      A welcoming and inclusive space for diverse students.
+      One of the many services is one-on-one help for math courses, drop-in or by appointment:
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/resources/culture/">www.pcc.edu/resources/culture</url>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Queer Resource Center</title>
-        <p>A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:</p>
         <p>
-          <url href="http://www.pcc.edu/resources/qrc/sylvania/">
-            <c>www.pcc.edu/resources/qrc/sylvania</c>
-          </url>
-        </p>
+      (CA SU 302)
+    </p>
+        <p>
+      A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:
+    </p>
+        <p>
+      <url href="https://www.pcc.edu/queer/">www.pcc.edu/queer</url>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Student Computing Center</title>
-        <p>(SY Library, 971–722–4325)</p>
-        <p>Internet access, mathematics computer programs, and more (orientation required).</p>
         <p>
-          <url href="http://www.pcc.edu/resources/computer-labs/">
-            <c>www.pcc.edu/resources/computer-labs/</c>
-          </url>
-        </p>
-        <p>Allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term).</p>
+      (CA TEB 125, 971-722-5440)
+    </p>
         <p>
-          <url href="http://www.pcc.edu/resources/printing/">
-            <c>www.pcc.edu/resources/printing/</c>
-          </url>
-        </p>
+      Internet access, mathematics computer programs, and more (orientation required).
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/resources/computer-labs/">www.pcc.edu/resources/computer-labs/</url>
+    </p>
+        <p>
+      Allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term).
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url>
+    </p>
       </paragraphs>
-      <paragraphs>
-        <title>Student Learning Center</title>
-        <p>(SY Library, 971–722–4540)</p>
-        <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
-        <p>
-          <url href="http://www.pcc.edu/SylvaniaSLC">
-            <c>www.pcc.edu/SylvaniaSLC</c>
-          </url>
-        </p>
-      </paragraphs>
+      <!-- <paragraphs>
+    <title>Student Learning Center</title>
+    <p>(SY Library, 971–722–4540)</p>
+    <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
+    <p><url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url></p>
+  </paragraphs> -->
       <paragraphs>
         <title>Veteran's Resource Center</title>
-        <p>(SY CC 220, 971–722–8793)</p>
-        <p>Relax, connect, computer workstations, work study and volunteer opportunities, and more.  For additional information:</p>
         <p>
-          <url href="http://www.pcc.edu/resources/veterans/sylvania">
-            <c>http://www.pcc.edu/resources/veterans/sylvania</c>
-          </url>
-        </p>
+      (SSB 201, 971-722-5458)
+    </p>
+        <p>
+      Relax, connect, computer workstations, work study and volunteer opportunities, and more.
+      For additional information:
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/resources/veterans/cascade">www.pcc.edu/resources/veterans/cascade</url>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Women's Resource Center</title>
-        <p>(SY CC 268, 971–722–8101)</p>
-        <p>A wide variety of services that support the academic achievement of women:</p>
         <p>
-          <url href="http://www.pcc.edu/resources/women/sylvania">
-            <c>www.pcc.edu/resources/women/sylvania</c>
-          </url>
-        </p>
+      (CA SU 301, 971-722-5249)
+    </p>
+        <p>
+      A wide variety of services that support the academic achievement of women:
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/resources/women/cascade">www.pcc.edu/resources/women/cascade</url>
+    </p>
       </paragraphs>
     </section>
     <!-- This file is part of Alex Jordan's syllabus -->
@@ -405,91 +1948,108 @@
       <title>Miscellaneous Items</title>
       <paragraphs>
         <title>ADA Accommodation</title>
-        <p>Students who experience disability-related barriers should contact Disability Services: <url href="http://www.pcc.edu/disability"><c>www.pcc.edu/disability</c></url>.  If students elect to use approved academic adjustments, they must provide, in advance, formal notification from Disability Services to the instructor.</p>
+        <p>
+      Students who experience disability-related barriers should contact Disability Services:
+      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
+      If students elect to use approved academic adjustments, they must provide, in advance,
+      formal notification from Disability Services to the instructor.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Email Notice</title>
-        <p>Due to Federal laws and concerns about privacy, all email communication between instructor and student shall be done via <alert>PCC assigned email address</alert>. Access email via MyPCC<mdash/>see instructor during office hours if unfamiliar with using MyPCC.</p>
+        <p>
+      Due to Federal laws and concerns about privacy,
+      all email communication between instructor and student shall be done via <alert>PCC assigned email address</alert>.
+      Access email via MyPCC<mdash/>see instructor during office hours if unfamiliar with using MyPCC.
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Equity &amp; Inclusion Nondiscrimination Nonharassment (Title IX)</title>
-        <p>Portland Community College is committed to creating and fostering a learning and working environment based on open communication and mutual respect. This is an integral part of the College's academic mission to enrich our students' educational experiences and prepare them to live in and contribute to a global society. If you believe you have encountered sexual harassment, sexual misconduct, sexual assault, or discrimination based on race, color, religion, age, national origin, veteran status, sex, sexual orientation, gender identity, or disability please contact the Office of Equity and Inclusion at (971) 722-5840 or <email>equity.inclusion@pcc.edu</email>.</p>
         <p>
-          <url href="http://www.pcc.edu/about/equity-inclusion/eeo-statement.html">
-            <c>www.pcc.edu/about/equity-inclusion/eeo-statement.html</c>
-          </url>
-        </p>
+      Portland Community College is committed to creating and fostering a learning and working environment
+      based on open communication and mutual respect.
+      This is an integral part of the College's academic mission to enrich our students' educational experiences
+      and prepare them to live in and contribute to a global society.
+      If you believe you have encountered sexual harassment, sexual misconduct, sexual assault,
+      or discrimination based on race, color, religion, age, national origin, veteran status, sex, sexual orientation, gender identity,
+      or disability please contact the Office of Equity and Inclusion at (971) 722-5840 or <email>equity.inclusion@pcc.edu</email>.
+    </p>
         <p>
-          <url href="http://www.pcc.edu/about/equity-inclusion/nonharassment/">
-            <c>www.pcc.edu/about/equity-inclusion/nonharassment/</c>
-          </url>
-        </p>
+      <url href="http://www.pcc.edu/about/equity-inclusion/eeo-statement.html">www.pcc.edu/about/equity-inclusion/eeo-statement.html</url>
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/about/equity-inclusion/nonharassment/">www.pcc.edu/about/equity-inclusion/nonharassment/</url>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Flexibility Statement</title>
-        <p>The instructor reserves the right to modify course content and/or substitute assignments and learning activities in response to institutional, weather, or class situations.  Flash Alert Messenger is a free service that delivers closure information:  <url href="http://www.pcc.edu/about/announcements/closure-information.html"><c>www.pcc.edu/about/announcements/closure-information.html</c></url></p>
+        <p>
+      The instructor reserves the right to modify course content and/or substitute assignments and learning activities
+      in response to institutional, weather, or class situations.
+      Flash Alert Messenger is a free service that delivers closure information:
+      <url href="http://www.pcc.edu/about/announcements/closure-information.html">www.pcc.edu/about/announcements/closure-information.html</url>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Sanctuary College</title>
-        <p>PCC is a sanctuary college. For more information and resources, see: <url href="http://www.pcc.edu/resources/undocumented-students"><c>www.pcc.edu/resources/undocumented-students</c></url></p>
+        <p>
+      PCC is a sanctuary college. See:
+      <url href="http://www.pcc.edu/resources/undocumented-students">www.pcc.edu/resources/undocumented-students</url>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Grading and Registration Policies and Deadlines</title>
         <p>
-          <dl>
-            <li>
-                <title>Adding and Dropping</title>
-                <p><url href="http://www.pcc.edu/enroll/registration/dropping.html"><c>www.pcc.edu/enroll/registration/dropping.html</c></url></p>
-            </li>
-            <li>
-                <title>Grading Options</title>
-                <p><url href="http://www.pcc.edu/registration/grading-policy/"><c>www.pcc.edu/registration/grading-policy/</c></url></p>
-            </li>
-            <li>
-                <title>Grading Guidelines</title>
-                <p><url href="http://www.pcc.edu/resources/student-records/grading/"><c>www.pcc.edu/resources/student-records/grading/</c></url></p>
-            </li>
-          </dl>
-        </p>
+      <dl><li>
+          <title>Adding and Dropping</title>
+          <p>
+            <url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url>
+          </p>
+        </li><li>
+          <title>Grading Options</title>
+          <p>
+            <url href="http://www.pcc.edu/registration/grading-policy/">www.pcc.edu/registration/grading-policy/</url>
+          </p>
+        </li><li>
+          <title>Grading Guidelines</title>
+          <p>
+            <url href="http://www.pcc.edu/resources/student-records/grading/">www.pcc.edu/resources/student-records/grading/</url>
+          </p>
+        </li></dl>
+    </p>
       </paragraphs>
       <paragraphs>
         <title>Student Rights and Responsibilities Handbook</title>
-        <p>Students are required to comply with the Student Rights and Responsibilities Handbook. Included are policies on Students Rights, Student Conduct, Grade Appeal, Academic Integrity, Consensual Relationship Statement, and Children on PCC properties.</p>
         <p>
-          <url href="http://www.pcc.edu/about/policy/student-rights/">
-            <c>www.pcc.edu/about/policy/student-rights/</c>
-          </url>
-        </p>
+      Students are required to comply with the Student Rights and Responsibilities Handbook.
+      Included are policies on Students Rights, Student Conduct, Grade Appeal, Academic Integrity,
+      Consensual Relationship Statement, and Children on PCC properties.
+    </p>
         <p>
-          <url href="http://www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf">
-            <c>www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf</c>
-          </url>
-        </p>
+      <url href="http://www.pcc.edu/about/policy/student-rights/">www.pcc.edu/about/policy/student-rights/</url>
+    </p>
         <p>
-          <url href="http://www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf">
-            <c>www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf</c>
-          </url>
-        </p>
+      <url href="http://www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf">www.pcc.edu/about/policy/student-rights/documents/student-conduct.pdf</url>
+    </p>
         <p>
-          <url href="http://www.pcc.edu/resources/academic/standards-practices/academic-integrity.html">
-            <c>www.pcc.edu/resources/academic/standards-practices/academic-integrity.html</c>
-          </url>
-        </p>
+      <url href="http://www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf">www.pcc.edu/about/policy/student-rights/documents/grade-appeal.pdf</url>
+    </p>
         <p>
-          <url href="http://www.pcc.edu/about/policy/student-rights/documents/relationships.pdf">
-            <c>www.pcc.edu/about/policy/student-rights/documents/relationships.pdf</c>
-          </url>
-        </p>
+      <url href="http://www.pcc.edu/resources/academic/standards-practices/academic-integrity.html">www.pcc.edu/resources/academic/standards-practices/academic-integrity.html</url>
+    </p>
         <p>
-          <url href="http://www.pcc.edu/about/policy/student-rights/documents/children.pdf">
-            <c>www.pcc.edu/about/policy/student-rights/documents/children.pdf</c>
-          </url>
-        </p>
+      <url href="http://www.pcc.edu/about/policy/student-rights/documents/relationships.pdf">www.pcc.edu/about/policy/student-rights/documents/relationships.pdf</url>
+    </p>
+        <p>
+      <url href="http://www.pcc.edu/about/policy/student-rights/documents/children.pdf">www.pcc.edu/about/policy/student-rights/documents/children.pdf</url>
+    </p>
       </paragraphs>
     </section>
     <section xml:id="special-dates">
       <title>Special Dates</title>
-      <p>The following special dates are of interest to everyone:</p>
+      <p>
+    The following special dates are of interest to everyone:
+  </p>
       <sidebyside>
         <tabular top="major" bottom="minor" left="major" valign="top" right="minor">
           <col/>
@@ -497,28 +2057,28 @@
           <col right="major"/>
           <row>
             <cell>Sat</cell>
-            <cell>Jan 12</cell>
+            <cell>Sep 28</cell>
             <cell>
-                    <line>Last day to choose financial aid refund option:</line>
-                    <line><url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html"><c>www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</c></url>.</line>
-                    <line>Last day to drop 8<ndash/>12 week classes:</line>
-                    <line><url href="http://www.pcc.edu/enroll/registration/dropping.html"><c>www.pcc.edu/enroll/registration/dropping.html</c></url></line>
-                </cell>
+          <line>Last day to choose financial aid refund option:</line>
+          <line><url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</url>.</line>
+          <line>Last day to drop 8<ndash/>12 week classes:</line>
+          <line><url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url></line>
+        </cell>
           </row>
           <row>
             <cell>Tue</cell>
-            <cell>Jan 15</cell>
+            <cell>Oct 1</cell>
             <cell>Last day to add classes.</cell>
           </row>
           <row bottom="major">
             <cell>Sat</cell>
-            <cell>Mar 2</cell>
+            <cell>Nov 16</cell>
             <cell>
-                    <line>Last day to change grade option for 11<ndash/>12 week classes:</line>
-                    <line><url href="http://www.pcc.edu/enroll/registration/grading-policy.html"><c>http://www.pcc.edu/enroll/registration/grading-policy.html</c></url>.</line>
-                    <line>Last day to withdraw from 11<ndash/>12 week classes:</line>
-                    <line><url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw"><c>http://www.pcc.edu/enroll/registration/dropping.html#withdraw</c></url>.</line>
-                </cell>
+          <line>Last day to change grade option for 11<ndash/>12 week classes:</line>
+          <line><url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url>.</line>
+          <line>Last day to withdraw from 11<ndash/>12 week classes:</line>
+          <line><url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">www.pcc.edu/enroll/registration/dropping.html#withdraw</url>.</line>
+        </cell>
           </row>
         </tabular>
       </sidebyside>
@@ -526,282 +2086,396 @@
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-calendar">
       <title>Calendar</title>
-      <p>The instructional videos here were recorded by fellow PCC instructor Cara Lee. The class prep and in-class activities are also from Cara, and I'm very grateful to her for these materials during my first term trying out the <q>flipped</q> model. Fellow PCC instructor Micki Josi provided the student testimonial videos and pointed me to the video introduciton to the <q>flipped</q> model.</p>
-      <!-- <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p> -->
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Jan 8</title>
-            <video youtube="qdKzSq_t8k8 nrJbWYt-LnE q1DbgTtB5GY 7snnRaC4t5c lT-qvk-PULA QuTUfBqtFT8"/>
-            <p>We will discuss the class format and orient you to the weekly routine.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-arithmetic-with-negative-numbers.html">Section 1.1 (Negative Numbers)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-absolute-value-and-square-root.html">Section 1.3 (Absolute Value and Square Root)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep_.pdf">Blank</url>, <url href="activities/section_1-1_and_1-3_group_activity__no_class_prep__completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Sep 24</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cOp0ZMJHO6zy0bhdu2gKjQ"/>
+      <p>
+        Video run time: 22 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>
+        We will discuss the class format and orient you to the weekly routine.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-variables-and-evaluating-expressions.html">Section 1.1 (Variables and Evaluating Expressions)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/Variables.pdf">Blank</url>, <url href="worksheets/VariablesWithAnswers.pdf">Completed</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Jan 10</title>
-            <video youtube="k7eeQxKEjXg qKmDxLsvCos 8X-reMIG494 p4XIR_94YNA ASvHYHnr_EM"/>
-            <p>Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-fractions-and-fraction-arithmetic.html">Section 1.2 (Fractions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-order-of-operations.html">Section 1.4 (Order of Operations)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_1-2_and_1-4_group_activity.pdf">Blank</url>, <url href="activities/section_1-2_and_1-4_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Sep 26</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dqjDRbGl2sSeMeTvrHik4p"/>
+      <p>
+        Video run time: 11 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <!-- <p>
+        Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.
+      </p> -->
+      <p>
+        Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-combining-like-terms.html">Section 1.2 (Combining Like Terms)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/CombiningLikeTerms.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Jan 15</title>
-            <video youtube="Wdat-Wb4alc Q_J9p304p7Y ZTfFA_m4j8Y 2J4Vd2np7MY voAw9jeMAW8"/>
-            <p>Complete the <url href="prep/section_1-5_and_1-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-set-notation-and-types-of-numbers.html">Section 1.5 (Set Notation and Types of Numbers)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-comparison-symbols-and-notation-for-intervals.html">Section 1.6 (Comparison Symbols and Interval Notation)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_1-5_and_1-6_group_activity.pdf">Blank</url>, <url href="activities/section_1-5_through_1-7_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Oct 1</p>
+      <video youtubeplaylist="PLmuZCPhWPt-eG16R-Bwkkcna9LWJrMXho"/>
+      <video youtubeplaylist="PLmuZCPhWPt-dTJw-zF33uIwEoFmBjd2jp"/>
+      <p>
+        Video run time: 41 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-comparison-symbols-and-notation-for-intervals.html">Section 1.3 (Comparison Symbols and Notation for Intervals)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-equations-and-inequalities-as-true-false-statements.html">Section 1.4 (Equations and Inequalities as True/False Statements)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/ComparisonSymbolsIntervalNotationEquationSolutions.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Jan 17</title>
-            <video youtube="GfYsFkVwE9I n3z3vrAYrQQ tDacgy4UISU eFEppXK7QO4"/>
-            <p>Complete the <url href="prep/section_2-1_and_2-2_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-variables-and-evaluating-expressions.html">Section 2.1 (Variables and Expressions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-geometry-formulas.html">Section 2.2 (Geometry Formulas)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_2-1_and_2-2_group_activity.pdf">Blank</url>, <url href="activities/section_2-1_and_2-2_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Oct 3</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cttxbKypuCvTQFoSXATxAF"/>
+      <p>
+        Video run time: 16 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-one-step-equations.html">Section 1.5 (Solving One-Step Equations)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SolvingOneStepEquations.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Jan 22</title>
-            <video youtube="Klwa9epAsFY ouTY0rh-HhY"/>
-            <p>Complete the <url href="prep/section_2-3_and_2-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-combining-like-terms.html">Section 2.3 (Combining Like Terms)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-equations-and-inequalities-as-true-false-statements.html">Section 2.4 (Equations and Inequalities)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_2-3_and_2-4_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Oct 8</p>
+      <video youtubeplaylist="PLmuZCPhWPt-e07ZjJTXdkRf9V8MDJaz1m"/>
+      <p>
+        Video run time: 17 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-one-step-inequalities.html">Section 1.6 (Solving One-Step Inequalities)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/OneStepInequalities.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Jan 24</title>
-            <video youtube="3lHLvCUjzR4 29f6U-7WpMk wCQkaADSX34"/>
-            <p>Complete the <url href="prep/section_2-5_and_2-6_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-equations.html">Section 2.5 (One-Step Equations)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-solving-one-step-inequalities.html">Section 2.6 (One-Step Inequalities)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_2-5_and_2-6_group_activity.pdf">Blank</url>, <url href="activities/section_2-5_and_2-6_group_activity_completed.pdf">Completed</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Oct 10</p>
+      <video youtubeplaylist="PLmuZCPhWPt-eiwLULOcn5X4ZyZ5kB6H6A"/>
+      <p>
+        Video run time: 33 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-algebraic-properties-and-simplifying-expressions.html">Section 1.7 (Algebraic Properties and Simplifying Expressions)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/OneStepInequalities.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Jan 29</title>
-            <video youtube="Kzo6Fx8uh4w MNVSHN89WAw 2OFB0xtxHPc nOk290woDkg"/>
-            <p>Complete the <url href="prep/section_2-7_and_2-8_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-percentages.html">Section 2.7 (Percentages)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-modeling-with-equations-and-inequalities.html">Section 2.8 (Modeling)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_2-7_and_2-8_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Oct 15</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dL4to2zbHwZBLGkJ6cBf0I"/>
+      <p>
+        Video run time: 25 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-modeling-with-equations-and-inequalities.html">Section 1.8 (Modeling with Equations and Inequalities)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SettingUpEquations.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Jan 31</title>
-            <video youtube="ByPKB7RGoBA YGTbHR_6Rhg 4zRQczilM5w Klwa9epAsFY G6_AQLQOl_0"/>
-            <p>Complete the <url href="prep/section_2-9_and_2-10_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-introduction-to-exponent-rules.html">Section 2.9 (Exponent Rules)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-simplifying-expressions.html">Section 2.10 (Simplifying Expressions)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_2-9_and_2-10_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Oct 17</p>
+      <video youtubeplaylist="PLmuZCPhWPt-f7ezMxAmmOJqEHiU6BOLTH"/>
+      <video youtubeplaylist="PLmuZCPhWPt-cJeXEsK8ig6AWi0FgfEGuQ"/>
+      <p>
+        Video run time: 73 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-multistep-linear-equations.html">Section 2.1 (Solving Multistep Linear Equations)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-multistep-linear-inequalities.html">Section 2.2 (Solving Multistep Linear Inequalities)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/LinearEquationsAndInequalities.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Feb 5</title>
-            <p>Class was canceled because campus was closed due to icy conditions.</p>
-        </stack>
+      <p>Tuesday Oct 22</p>
+      <p>
+        <xref ref="exam1" text="title"/>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/PracticeExam1.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Feb 7</title>
-            <p><xref ref="exam1" text="title"/></p>
-            <p><url href="activities/Exam1Preparation.pdf">Practice Questions for Exam 1</url></p>
-        </stack>
+      <p>Thursday Oct 24</p>
+      <video youtubeplaylist="PLmuZCPhWPt-e_QSbGeacmrdYyommPaxf4"/>
+      <p>
+        Video run time: 71 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-linear-equations-and-inequalities-with-fractions.html">Section 2.3 (Linear Equations and Inequalities with Fractions)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/LinearEquationsAndInequalitiesWithFractions.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Feb 12</title>
-            <video youtube="H8MDbjZ-_Ps DVG-ATxHwlM TXE1cEtG2HU IdtliEJwpTs a6rR_jJ65sQ"/>
-            <p>Complete the <url href="prep/section_3-1_and_3-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-equations.html">Section 3.1 (Multistep Linear Equations)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-solving-multistep-linear-inequalities.html">Section 3.2 (Multistep Linear Inequalities)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_3-1_and_3-2_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Oct 29</p>
+      <video youtubeplaylist="PLmuZCPhWPt-esiq8AiMfACzqOpC5bJygR"/>
+      <p>
+        Video run time: 23 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-special-solution-sets.html">Section 2.4 (Special Solution Sets)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SpecialSolutionsSets.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Feb 14</title>
-            <video youtube="BqORZv4kbq8 lFA-ZdIHJP8 Csv1dW2HmGY"/>
-            <p>Complete the <url href="prep/section_3-3_and_3-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-linear-equations-and-inequalities-with-fractions.html">Section 3.3 (Equations and Inequalities with Fractions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-isolating-a-linear-variable.html">Section 3.4 (Isolating a Linear Variable)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_3-3_and_3-4_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Oct 31</p>
+      <video youtubeplaylist="PLmuZCPhWPt-f5-qOx8wPyZf4j1u4OHhQV"/>
+      <p>
+        Video run time: 13 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-isolating-a-linear-variable.html">Section 2.5 (Isolating a Linear Variable)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/IsolatingALinearVariable.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Feb 19</title>
-            <video youtube="VraTHEy-VTQ Cm3FSPZdZpQ 80HvKUws1J4"/>
-            <p>Complete the <url href="prep/section_3-5_and_3-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-ratios-and-proportions.html">Section 3.5 (Ratios and Proportions)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-special-solution-sets.html">Section 3.6 (Special Solution Sets)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_3-5_and_3-6_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Nov 5</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cHeBo5cBbvM9w9bPCv8TU6"/>
+      <video youtubeplaylist="PLmuZCPhWPt-cYCLcYMtd7GdwFZ4DRDTBc"/>
+      <p>
+        Video run time: 37 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-cartesian-coordinates.html">Section 3.1 (Cartesian Coordinates)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-graphing-equations.html">Section 3.2 (Graphing Equations)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/Graphing.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Feb 21</title>
-            <video youtube="o4OpOdrnLec 3eRoyWuxs5w upzHtHGfxRA"/>
-            <p>Complete the <url href="prep/section_4-1_and_4-2_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-cartesian-coordinates.html">Section 4.1 (Cartesian Coordinates)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-graphing-equations.html">Section 4.2 (Graphing Equations)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_4-1_and_4-2_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Nov 7</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dy8SL-jRrCcU2G2ueG9BXb"/>
+      <video youtubeplaylist="PLmuZCPhWPt-ehhIZJSr3Tp7xyA450Od5R"/>
+      <p>
+        Video run time: 47 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-exploring-two-variable-data-and-rate-of-change.html">Section 3.3 (Exploring Two-Variable Data and Rate of Change)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-slope.html">Section 3.4 (Slope)</url></li></ul>
+      </p>
+      <p>
+        <xref ref="written1" text="title"/> due.
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SlopesAsRateOfChange.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Feb 26</title>
-            <p>Class was canceled because campus was closed due to icy conditions.</p>
-        </stack>
+      <p>Tuesday Nov 12</p>
+      <video youtubeplaylist="PLmuZCPhWPt-cR9nhDJcByg3_HALa8sSwp"/>
+      <p>
+        Video run time: 41 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-slope-intercept-form.html">Section 3.5 (Slope-Intercept Form)</url></li></ul>
+      </p>
+      <p>
+        <xref ref="written2" text="title"/> due.
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SlopeInterceptForm.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Feb 28</title>
-            <p><xref ref="exam2" text="title"/></p>
-            <p><url href="activities/Exam2Preparation.pdf">Practice Questions for Exam 2</url></p>
-        </stack>
+      <p>Thursday Nov 14</p>
+      <video youtubeplaylist="PLmuZCPhWPt-eTTovr5Y8TossT7tMqR43W"/>
+      <p>
+        Video run time: 20 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-point-slope-form.html">Section 3.6 (Point-Slope Form)</url></li></ul>
+      </p>
+      <p>
+        <xref ref="written3" text="title"/> due.
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Mar 5</title>
-            <video youtube="0sgVQErb8BI pmU8h3M1vgA 1xh99EBczsI Ta4NwEoPqYE"/>
-            <p>Complete the <url href="prep/section_4-3_and_4-4_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-exploring-two-variable-data-and-rate-of-change.html">Section 4.3 (Two-Variable Data and Rate of Change)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-slope.html">Section 4.4 (Slope)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_4-3_and_4-4_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Nov 19</p>
+      <p>
+        <xref ref="exam2" text="title"/>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Mar 7</title>
-            <video youtube="PlXSUfoihn4 Nwsj_XAvnxM b5b1rryFyMc rX_Z2nD4l90 XtbtEwTX8h0"/>
-            <p>Complete the <url href="prep/section_4-5_and_4-6_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-slope-intercept-form.html">Section 4.5 (Slope-Intercept Form)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-point-slope-form.html">Section 4.6 (Point-Slope Form)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_4-5_and_4-6_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Nov 21</p>
+      <video youtubeplaylist="PLmuZCPhWPt-dXhmAoys9lNZg0c3U77LBw"/>
+      <video youtubeplaylist="PLmuZCPhWPt-dG-XwuV-W9d_U79oIF6z-R"/>
+      <p>
+        Video run time: 57 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-standard-form.html">Section 3.7 (Standard Form)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 3.8 (Horizontal, Vertical, Parallel, and Perpendicular Lines)</url></li></ul>
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/StandardFormHorVerParPer.pdf">Blank</url>
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Mar 12</title>
-            <video youtube="Je6Md3KE_x8 t9-STs0p4lU d2SsaNW0Bbo h1tCyF0VpjY"/>
-            <p>Complete the <url href="prep/section_4-7_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-standard-form.html">Section 4.7 (Standard Form)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_4-7_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Tuesday Nov 26</p>
+      <video youtubeplaylist="PLmuZCPhWPt-c8HMsuhb9oJTIJBEvrrZiH"/>
+      <p>
+        Video run time: 37 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-systems-of-linear-equations-by-graphing.html">Section 4.1 (Solving Systems of Linear Equations by Graphing)</url></li></ul>
+      </p>
+      <p>
+        <xref ref="written4" text="title"/> due.
+      </p>
+      <p>
+        In-class activity: <url href="worksheets/SolveSystemsByGraphing.pdf">Blank</url>
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Mar 14</title>
-            <video youtube="-UeMFgioF4c BgUX-gQ18gw FTjIN8SgruA Rayj0NgyDOk"/>
-            <p>Complete the <url href="prep/section_4-8_and_4-10_class_prep.pdf">Class Prep</url> and turn it in when you arrive.</p>
-            <p>Readings from the book: <ul><li><url href="http://spot.pcc.edu/math/orcca/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 4.8 (Horizontal and Vertical, Parallel and Perpendicular)</url></li><li><url href="http://spot.pcc.edu/math/orcca/section-linear-inequalities-in-two-variables.html">Section 4.10 (Linear Inequalities in Two Variables)</url></li></ul></p>
-            <p>In-class activity: <url href="activities/section_4-8_and_4-10_group_activity.pdf">Blank</url></p>
-            <p>Edfinity homework due when Edfinity says its due.</p>
-        </stack>
+      <p>Thursday Nov 28</p>
+      <p>
+        Class does not meet. (Thanksgiving holiday.)
+      </p>
+    </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-            <title>Tuesday Mar 12</title>
-            <p>Class does not meet htis day during finals week.</p>
-        </stack>
+      <p>Tuesday Dec 3</p>
+      <video youtubeplaylist="PLmuZCPhWPt-e7mzn96IqkqKBOOrcpG8Cw"/>
+      <p>
+        Video run time: 66 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-substitution.html">Section 4.2 (Substitution)</url></li></ul>
+      </p>
+      <p>
+        <xref ref="written5" text="title"/> due.
+      </p>
+    </stack>
         <stack>
-            <title>Thursday Mar 14</title>
-            <p><xref ref="exam3" text="title"/></p>
-            <p><alert>The final exam is 8:00 to 10:00, not the usual class time!</alert></p>
-        </stack>
+      <p>Thursday Dec 5</p>
+      <video youtubeplaylist="PLmuZCPhWPt-fKef6hvJEdOKX6tbUUh2K2"/>
+      <p>
+        Video run time: 59 minutes
+      </p>
+      <p>
+        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
+      </p>
+      <p>Readings from the book:
+        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-elimination.html">Section 4.3 (Elimination)</url></li></ul>
+      </p>
+      <p>
+        <xref ref="written6" text="title"/> due.
+      </p>
+    </stack>
       </sidebyside>
-      <!--     <p>The math department and student learning center are working together to provide <q>just in time</q> workshops on certain key topics. We encourage you to attned these workshops to prop up the skill sets you are more likely to have trouble with. Here is the schedule of workshops.</p>
-
-    <table>
-        <caption>Workshop Schedule</caption>
-        <tabular left="major" right="minor" top="major" bottom="minor">
-            <col/>
-            <col width="19%"/>
-            <col width="19%"/>
-            <col/>
-            <col width="19%"/>
-            <col width="19%" right="major"/>
-            <row halign="center">
-                <cell colspan="3">Monday</cell>
-                <cell colspan="3">Tuesday</cell>
-            </row>
-            <row>
-                <cell/>
-                <cell><line>12:00<ndash/>12:50</line><line>LIB 212</line></cell>
-                <cell><line>2:00<ndash/>2:50</line><line>LIB 145</line></cell>
-                <cell/>
-                <cell><line>12:00<ndash/>12:50</line><line>LIB 145</line></cell>
-                <cell><line>1:00<ndash/>1:50</line><line>LIB 145</line></cell>
-            </row>
-            <row>
-                <cell>1/15</cell>
-                <cell/>
-                <cell/>
-                <cell>1/16</cell>
-                <cell/>
-                <cell><p>Solving Systems Using Substitution<mdash />emphasis on dealing with fractions</p></cell>
-            </row>
-            <row>
-                <cell>1/22</cell>
-                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
-                <cell/>
-                <cell>1/23</cell>
-                <cell/>
-                <cell><p>Using Linear Systems to Model and Solve Word Problems</p></cell>
-            </row>
-            <row>
-                <cell>1/29</cell>
-                <cell><p>Properties of Exponents</p></cell>
-                <cell/>
-                <cell>1/30</cell>
-                <cell/>
-                <cell><p>Properties of Exponents</p></cell>
-            </row>
-            <row>
-                <cell>2/5</cell>
-                <cell><p>Polynomials</p></cell>
-                <cell/>
-                <cell>2/6</cell>
-                <cell/>
-                <cell><p>Polynomials</p></cell>
-            </row>
-            <row>
-                <cell>2/12</cell>
-                <cell><p>Factoring Trinomials</p></cell>
-                <cell/>
-                <cell>2/13</cell>
-                <cell/>
-                <cell><p>Factoring Trinomials</p></cell>
-            </row>
-            <row>
-                <cell>2/19</cell>
-                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
-                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
-                <cell>2/20</cell>
-                <cell><p>Simplifying Square Roots/ Rationalizing Denominators</p></cell>
-                <cell><p>Factoring Binomials/ General Factoring Strategy</p></cell>
-            </row>
-            <row>
-                <cell>2/26</cell>
-                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
-                <cell/>
-                <cell>2/27</cell>
-                <cell/>
-                <cell><p>Quadratic Equations<mdash/>Solving by Factoring or by the Square Root Method</p></cell>
-            </row>
-            <row>
-                <cell>3/5</cell>
-                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
-                <cell/>
-                <cell>3/6</cell>
-                <cell/>
-                <cell><p>The Quadratic Formula/ Modeling and Solving Word Problems using Quadratic Equations</p></cell>
-            </row>
-            <row bottom="major">
-                <cell>3/12</cell>
-                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
-                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
-                <cell>3/13</cell>
-                <cell><p>The Vertex Form of the Parabolic Equation</p></cell>
-                <cell><p>The Standard Form of the Parabolic Equation</p></cell>
-            </row>
-        </tabular>
-    </table> -->
+      <sidebyside margins="0%" widths="47% 47%">
+        <stack>
+      <p>Tuesday Dec 10</p>
+      <p>
+        The 2:00 class does not meet this day during finals week.
+      </p>
+      <p>
+        The 11:30 class has <xref ref="exam3" text="title"/>
+        from <alert>11:00 to 1:00, not the usual class time!</alert>
+      </p>
+    </stack>
+        <stack>
+      <p>Thursday Dec 12</p>
+      <p>
+        The 11:30 class does not meet this day during finals week.
+      </p>
+      <p>
+        The 2:00 class has <xref ref="exam3" text="title"/>
+        from <alert>2:00 to 4:00, not the usual class time!</alert>
+      </p>
+    </stack>
+      </sidebyside>
     </section>
   </article>
-</mathbook>
+</pretext>

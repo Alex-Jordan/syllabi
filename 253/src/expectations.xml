@@ -1,24 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Expectations</title>
+  <title>Expectations</title>
 
-    <p>MTH 253 is a technically demanding course that often requires you to make detailed logical arguments rather than simply find some answer. Writing skills and explanatory skills are a very important part of the course, and you will be asked to regularly turn in a few written assignments to be assessed on the logic and clarity of your arguments. You should not just be seeking answers, but striving to convince the world (and often, yourself) that your answers are correct.</p>
+  <p>
+    MTH 253 is a technically demanding course that often requires you to make detailed logical arguments
+    rather than simply find some answer. Writing skills and explanation skills are a very important part of the course,
+    and you will be asked to regularly turn in written assignments to be assessed on the logic and clarity of your arguments.
+    You should not just be seeking answers, but striving to convince the world (and often, yourself) that your answers are correct.
+  </p>
 
-    <p>The ideas are covered in a natural sequence,     and if the student stays on top of the work load, they have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.</p>
+  <p>
+    The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success.
+    Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.
+  </p>
 
-    <p>At this level of learning, the student is responsible for ensuring their own understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
+  <p>
+    At this level of learning, the student has a responsibility to assess their own understanding.
+    Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.
+    All students are further encouraged to work together<mdash/>collaboration is an important part of any activity,
+    and it is almost always beneficial for all involved.
+  </p>
 
-    <p>Here are some other expectations:</p>
-
+  <p>
+    Here are some other expectations:
     <ul>
-        <li><p>Play an active role in your learning. Don't expect that it's enough to come to class and listen. You have to read the assigned sections, do the assigned homework, and seek out help when it's needed.</p></li>
-        <li><p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p></li>
-        <li><p>Complete homework assignments earlier than their due date. Begin working on homework assignemnts the same day that we discuss that material in class.</p></li>
-        <li><p>Check your <c>pcc.edu</c> email at least once a day.</p></li>
-        <li><p>Food and drink are distracting to other students. Please do not bring food and drink to class. (Beverages that do not release a scent and are in spill-proof containers are OK.)</p></li>
+      <li>
+        <p>
+          Maintain respect for yourself and your classmates.
+        </p>
+      </li>
+      <li>
+        <p>
+          Play an active role in your learning. Don't expect that it's enough to come to class and listen.
+          You have to read the assigned sections, do the assigned homework, and seek out help when it's needed.
+        </p>
+      </li>
+      <li>
+        <p>
+          Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.
+        </p>
+      </li>
+      <li>
+        <p>
+          Complete homework assignments earlier than their due date.
+          Begin working on homework assignemnts the same day that we discuss that material in class.
+        </p>
+      </li>
+      <li>
+        <p>
+          Check your <c>pcc.edu</c> email at least once a day.
+        </p>
+      </li>
+      <li>
+        <p>
+          Food and drink can be distracting to other students.
+          Please do not bring food and drink to class.
+          (Beverages that do not smell strongly and are in spill-proof containers are OK.)
+        </p>
+      </li>
     </ul>
-
+  </p>
 </section>

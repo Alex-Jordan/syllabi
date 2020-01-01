@@ -3,41 +3,41 @@
 <!-- This file is part of Alex Jordan's syllabus -->
    
 <section xml:id="section-presentations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Presentations</title>
+  <title>Presentations</title>
 
-    <p>You will be assigned a partner (or two), and on Tuesday August 2, each group will give a roughly 20-minute presentation on some topic related to sequences and series. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. To succeed with your presentation, you will:</p>
+  <p>You will be assigned a partner (or two), and on Tuesday August 2, each group will give a roughly 20-minute presentation on some topic related to sequences and series. These presentations are worth <quantity><mag>10</mag><unit base="percent" /></quantity> of your grade, so they should be treated seriously. To succeed with your presentation, you will:</p>
 
+  <ul>
+    <li><p>meet with your partner multiple times ahead of the presentation date</p></li>
+    <li><p>communicate with each other via email</p></li>
+    <li><p>plan ahead who will do/say what during your allotted 20 minutes</p></li>
+    <li><p>meet with me in office hours once or more for guidance on how to appropriately fill your time slot</p></li>
+  </ul>
+
+  <p>You will be graded on:</p>
+  <ul>
+    <li><p>evidence that you prepared by doing research and/or creating materials to present</p></li>
+    <li><p>evidence that you practiced</p></li>
+    <li><p>how effective you are at communicating the important points to the audience</p></li>
+  </ul>
+
+  <p>Some topics you might present on are listed below. Once groups are assigned and you confer with your partner, you may request a topic. Topics are first come first serve though, so be preapred to choose something else if another group has beaten you to it.</p>
+
+  <list><title>Presentation Topics</title>
     <ul>
-        <li><p>meet with your partner multiple times ahead of the presentation date</p></li>
-        <li><p>communicate with each other via email</p></li>
-        <li><p>plan ahead who will do/say what during your allotted 20 minutes</p></li>
-        <li><p>meet with me in office hours once or more for guidance on how to appropriately fill your time slot</p></li>
+      <li><p>Give meaning to the expression <m>\sqrt{2}^{\sqrt{2}^{\sqrt{2}^{\sqrt{2}^{⋰}}}}</m> as the limit of some sequence. Formally convince everyone that the limit exists. And then compute its value. If time permits, give an overview of <m>x^{x^{x^{x^{⋰}}}}</m> with general <m>x</m> using internet resources (but not spending time formally proving anything).</p></li>
+      <li><p>Section 8.1 #60. Formally convince everyone that the sequence converges. If time permits, explore  other continued fractions like <m>1+\frac{1}{1+\frac{1}{1+\frac{1}{\ddots}}}</m>.</p></li>
+      <li><p><stale>Section 8.2 #56 and #57 give two geometric proofs that <m>\sum_{n=1}^{\infty}\frac{1}{n(n+1)}=1</m>. Present these proofs to your auduence. If time permits, give a brief overview of the geometric proof suggested here:</stale></p>
+        <p><stale><url href="http://mathoverflow.net/questions/34145/can-we-cover-the-unit-square-by-these-rectangles">mathoverflow.net/questions/34145/can-we-cover-the-unit-square-by-these-rectangles</url>.</stale></p></li>
+      <li><p><stale>Use geometric series to establish that the Koch snowflake has finite area but infinite perimeter. You will need to first explain to the audience what a Kock snowflake is.</stale></p></li>
+      <li><p><stale>There is a convergence test we did not cover called the Root Test (briefly discussed in section 8.2 #38, 39). Present this test, proving why it works, and demonstrate using it on some example series which would be difficult to analyze with our other convergence tests.</stale></p></li>
+      <li><p><stale>There is a convergence test we did not cover called the Dirichlet Test. Present this test, proving why it works, and demonstrate using it on some example series which would be difficult to analyze with our other convergence tests. If you research this test online and find a discussion involving complex numbers, just pretedn all the numbers are real numbers.</stale></p></li>
+      <li><p>Present the Binomial Series, discussed in section 8.7. Use the formula for Taylor series to establish the series in the first place. Then use it to do interesting things.</p></li>
+      <li><p><stale>Problem 12 from the <q>Focus on Problem Solving</q> section for chapter 8, on page 632. Be sure to establish that the sequences <m>\{x_n\}</m> and <m>\{y_n\}</m> converge in the first place. You will need to slightly modify the proof of the alternating series test for this.</stale></p></li>
+      <li><p>In class we establish that <m>e^{it}=\cos(t)+i\sin(t)</m>. Use this to prove a few trig identities such as <m>\cos(x+y)=\cos(x)\cos(y)-\sin(x)\sin(y)</m>.</p></li>
+      <li><p><stale>Show how when you have conditionally convergent series, you can order the terms so that the sum is any number you want it to be. You might begin by reminding the audience of the example from class of a conditionally convergent series that summed to two different things with two different orders.</stale></p></li>
     </ul>
-
-    <p>You will be graded on:</p>
-    <ul>
-        <li><p>evidence that you prepared by doing research and/or creating materials to present</p></li>
-        <li><p>evidence that you practiced</p></li>
-        <li><p>how effective you are at communicating the important points to the audience</p></li>
-    </ul>
-
-    <p>Some topics you might present on are listed below. Once groups are assigned and you confer with your partner, you may request a topic. Topics are first come first serve though, so be preapred to choose something else if another group has beaten you to it.</p>
-
-    <list><title>Presentation Topics</title>
-        <ul>
-            <li><p>Give meaning to the expression <m>\sqrt{2}^{\sqrt{2}^{\sqrt{2}^{\sqrt{2}^{⋰}}}}</m> as the limit of some sequence. Formally convince everyone that the limit exists. And then compute its value. If time permits, give an overview of <m>x^{x^{x^{x^{⋰}}}}</m> with general <m>x</m> using internet resources (but not spending time formally proving anything).</p></li>
-            <li><p>Section 8.1 <hash />60. Formally convince everyone that the sequence converges. If time permits, explore  other continued fractions like <m>1+\frac{1}{1+\frac{1}{1+\frac{1}{\ddots}}}</m>.</p></li>
-            <li><p><stale>Section 8.2 <hash />56 and <hash />57 give two geometric proofs that <m>\sum_{n=1}^{\infty}\frac{1}{n(n+1)}=1</m>. Present these proofs to your auduence. If time permits, give a brief overview of the geometric proof suggested here:</stale></p>
-                <p><stale><url href="http://mathoverflow.net/questions/34145/can-we-cover-the-unit-square-by-these-rectangles">mathoverflow.net/questions/34145/can-we-cover-the-unit-square-by-these-rectangles</url>.</stale></p></li>
-            <li><p><stale>Use geometric series to establish that the Koch snowflake has finite area but infinite perimeter. You will need to first explain to the audience what a Kock snowflake is.</stale></p></li>
-            <li><p><stale>There is a convergence test we did not cover called the Root Test (briefly discussed in section 8.2 <hash />38, 39). Present this test, proving why it works, and demonstrate using it on some example series which would be difficult to analyze with our other convergence tests.</stale></p></li>
-            <li><p><stale>There is a convergence test we did not cover called the Dirichlet Test. Present this test, proving why it works, and demonstrate using it on some example series which would be difficult to analyze with our other convergence tests. If you research this test online and find a discussion involving complex numbers, just pretedn all the numbers are real numbers.</stale></p></li>
-            <li><p>Present the Binomial Series, discussed in section 8.7. Use the formula for Taylor series to establish the series in the first place. Then use it to do interesting things.</p></li>
-            <li><p><stale>Problem 12 from the <q>Focus on Problem Solving</q> section for chapter 8, on page 632. Be sure to establish that the sequences <m>\{x_n\}</m> and <m>\{y_n\}</m> converge in the first place. You will need to slightly modify the proof of the alternating series test for this.</stale></p></li>
-            <li><p>In class we establish that <m>e^{it}=\cos(t)+i\sin(t)</m>. Use this to prove a few trig identities such as <m>\cos(x+y)=\cos(x)\cos(y)-\sin(x)\sin(y)</m>.</p></li>
-            <li><p><stale>Show how when you have conditionally convergent series, you can order the terms so that the sum is any number you want it to be. You might begin by reminding the audience of the example from class of a conditionally convergent series that summed to two different things with two different orders.</stale></p></li>
-        </ul>
-    </list>
+  </list>
 
 
 </section>

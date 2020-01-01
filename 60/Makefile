@@ -109,7 +109,7 @@ pdf:
 #	cp -a $(WWOUT)/*.png $(PDFOUT)/images
 #	cp -a $(IMAGESSRC) $(PDFOUT)
 	cd $(PDFOUT); \
-	xsltproc -xinclude $(LATEX) $(MAINFILE); \
+	xsltproc -xinclude $(LATEX) $(OUTPUT)/merge.xml > syllabus.tex; \
 	xelatex syllabus.tex; \
 	xelatex syllabus.tex
 
@@ -132,7 +132,7 @@ html:
 #	cp -a $(WWOUT)/*.png $(HTMLOUT)/images
 	cp -a $(CSS) $(HTMLOUT)
 	cd $(HTMLOUT); \
-	xsltproc -xinclude --stringparam html.css.extra syllabus.css $(XSL)/syllabus-html.xsl $(MAINFILE)
+	xsltproc -xinclude --stringparam html.css.extra syllabus.css $(XSL)/syllabus-html.xsl $(OUTPUT)/merge.xml
 #	xsltproc -xinclude --stringparam webwork.server https://webwork.pcc.edu --stringparam html.knowl.webwork.sectional yes --stringparam exercise.text.solution yes --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no $(XSL)/syllabus-html.xsl $(MAINFILE)
 
 # make all the image files in svg format
