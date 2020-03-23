@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Textbook</title>
+
+  <p>
+    <pubtitle>The Name of the Book</pubtitle> by So-And-So, nth edition. Its ISBN is xxx-x-xxx-xxxxx-x.
+    If you have an older edition, you may bring it to me and I can tell you if it will be acceptable for this course.
+  </p>
+
+  <p>
+    More things you may want to say about the textbook.
+  </p>
+</section>

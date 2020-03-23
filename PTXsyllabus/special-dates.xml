@@ -1,0 +1,41 @@
+<section xml:id="special-dates">
+
+  <title>Special Dates</title>
+
+  <p>
+    The following special dates are of interest to everyone:
+  </p>
+
+  <sidebyside>
+    <tabular top="major" bottom="minor" left="major" valign="top" right="minor">
+      <col/>
+      <col/>
+      <col right="major"/>
+      <row>
+        <cell>Sat?</cell>
+        <cell>Date</cell>
+        <cell>
+          <line>Last day to choose financial aid refund option:</line>
+          <line><url href="full-url">shortened-url</url>.</line>
+          <line>Last day to drop regular classes:</line>
+          <line><url href="full-url">shortened-url</url>.</line>
+        </cell>
+      </row>
+      <row>
+        <cell>Tue?</cell>
+        <cell>Date</cell>
+        <cell>Last day to add classes.</cell>
+      </row>
+      <row bottom="major">
+        <cell>Sat?</cell>
+        <cell>Date</cell>
+        <cell>
+          <line>Last day to change grade option for regular classes:</line>
+          <line><url href="full-url">shortened-url</url>.</line>
+          <line>Last day to withdraw from regular classes:</line>
+          <line><url href="full-url">shortened-url</url>.</line>
+        </cell>
+      </row>
+    </tabular>
+  </sidebyside>
+</section>

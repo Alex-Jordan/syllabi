@@ -1,0 +1,41 @@
+<section xml:id="special-dates">
+
+  <title>Special Dates</title>
+
+  <p>
+    The following special dates are of interest to everyone:
+  </p>
+
+  <sidebyside>
+    <tabular top="major" bottom="minor" left="major" valign="top" right="minor">
+      <col/>
+      <col/>
+      <col right="major"/>
+      <row>
+        <cell>Sat</cell>
+        <cell>Jan 11</cell>
+        <cell>
+          <line>Last day to choose financial aid refund option:</line>
+          <line><url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</url>.</line>
+          <line>Last day to drop 8<ndash/>12 week classes:</line>
+          <line><url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url></line>
+        </cell>
+      </row>
+      <row>
+        <cell>Tue</cell>
+        <cell>Jan 14</cell>
+        <cell>Last day to add classes.</cell>
+      </row>
+      <row bottom="major">
+        <cell>Sat</cell>
+        <cell>Feb 29</cell>
+        <cell>
+          <line>Last day to change grade option for 11<ndash/>12 week classes:</line>
+          <line><url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url>.</line>
+          <line>Last day to withdraw from 11<ndash/>12 week classes:</line>
+          <line><url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">www.pcc.edu/enroll/registration/dropping.html#withdraw</url>.</line>
+        </cell>
+      </row>
+    </tabular>
+  </sidebyside>
+</section>

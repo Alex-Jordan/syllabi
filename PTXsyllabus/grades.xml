@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grades</title>
+
+  <p>
+    Maybe say general things about grading policy at your school.
+  </p>
+
+  <paragraphs>
+    <title>Attendance/Participation</title>
+    <p>
+      Explain how this is part of the course grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Online Homework</title>
+    <p>
+      Explain how this is part of the course grade. See <xref ref="section-online-homework" text="title"/>.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Written Homework</title>
+    <p>
+      Explain how this is part of the course grade. See <xref ref="section-written-assignments" text="title"/>.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Late Homework</title>
+    <p>
+      Explain any late homework policy.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Presentations</title>
+    <p>
+      Explain how this is part of the course grade. See <xref ref="section-presentations" text="title"/>.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Exams</title>
+    <p>
+      Explain how this is part of the course grade. See <xref ref="section-exams" text="title"/>.
+      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates.
+    </p>
+  </paragraphs>
+
+</section>

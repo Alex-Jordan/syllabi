@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Calendar</title>
+
+  <sidebyside>
+    <tabular top="major" left="major" valign="top">
+      <col right="medium"/>
+      <col right="major"/>
+      <row bottom="minor">
+        <cell>Monday Sep 23</cell>
+        <cell>Wednesday Sep 25</cell>
+      </row>
+      <row bottom="medium">
+        <cell>
+          <line>Discuss class format</line>
+          <line>Readings:</line>
+          <line>8.1 (Sequences)</line>
+        </cell>
+        <cell>
+          <line>Readings:</line>
+          <line>8.2 (Series)</line>
+        </cell>
+      </row>
+      <row bottom="minor">
+        <cell>Monday Sep 30</cell>
+        <cell>Wednesday Oct 2</cell>
+      </row>
+      <row bottom="major">
+        <cell>
+          <line><xref ref="written1" text="title"/> due.</line>
+          <line>Readings:</line>
+          <line>8.2 (Series) continued</line>
+        </cell>
+        <cell><xref ref="exam1" text="title"/></cell>
+      </row>
+    </tabular>
+  </sidebyside>
+</section>
+
