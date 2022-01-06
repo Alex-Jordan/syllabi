@@ -7,37 +7,32 @@
 
   <p>
     Taken from the official PCC course description:
+    <dl>
+      <li>
+        <title>Course Number</title>
+        <p>MTH 251</p>
+      </li>
+      <li>
+        <title>Course Title:</title>
+        <p>Calculus I</p>
+      </li>
+      <li>
+        <title>Credit Hours:</title>
+        <p>4</p>
+      </li>
+      <li>
+        <title>Lecture Hours:</title>
+        <p>30</p>
+      </li>
+      <li>
+        <title>Lecture/Lab Hours:</title>
+        <p>30</p>
+      </li>
+    </dl>
   </p>
 
-  <sidebyside halign="left">
-    <tabular>
-      <col halign="right" />
-      <col/>
-      <row>
-        <cell>Course Number:</cell>
-        <cell>MTH 251</cell>
-      </row>
-      <row>
-        <cell>Course Title:</cell>
-        <cell>Calculus I</cell>
-      </row>
-      <row>
-        <cell>Credit Hours:</cell>
-        <cell>4</cell>
-      </row>
-      <row>
-        <cell>Lecture Hours:</cell>
-        <cell>30</cell>
-      </row>
-      <row>
-        <cell>Lecture/Lab Hours:</cell>
-        <cell>30</cell>
-      </row>
-    </tabular>
-  </sidebyside>
-
   <p>
-    Includes limits, continuity, derivatives and some applications of derivatives. Graphing technology is required, such as Desmos and/or GeoGebra which are available at no cost. Prerequisites: (MTH 112 or CMET 131) and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
+    Includes limits, continuity, derivatives, and applications of differentiation. Graphing and Computer Algebra System (CAS) technology are used, such as Desmos and/or GeoGebra which are available at no cost. The PCC math department recommends that students take math courses in consecutive terms. Prerequisites: (MTH 112 or CMET 131) and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
   </p>
 
   <p>

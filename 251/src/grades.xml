@@ -5,123 +5,151 @@
 <section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Grades</title>
 
-  <introduction>
-    <p>
-      General PCC Grading Guidelines are found at
-      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
-    </p>
-  </introduction>
+  <p>
+    General PCC Grading Guidelines are found at
+    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
+  </p>
 
   <paragraphs>
-    <title>Labs</title>
+    <title>Attendance/Engagement</title>
     <p>
-      Most class days, you will work in small groups on a collection of exercises
-      from the <url href="https://spot.pcc.edu/math/clm/">PCC Calculus Lab Manual</url>.
-      Work on these diligently during class time with your partners,
-      and then turn in a completed lab write-up. You and your partners might finish during class,
-      but you may need to arrange to meet with each other after class.
-      You need to complete each lab write-up before the next class meets.
+      Attending and participating in the Zoom class sessions is a small factor in calculating your final grade.
+      Collectively, these sessions are worth 4% of your final grade.
     </p>
-
     <p>
-      If you miss class, you may complete the lab on your own and turn it in before the next class.
-    </p>
-
-    <p>
-      One grade will be assigned for each lab write-up. All group memebers share the grade.
-      Each lab write-up is worth 2% of your final grade, for a total of 28%.
+      If you miss a class session, you can still recover that part of your grade.
+      All that you need to do is watch the class recording.
+      Send me a message confirming that you did this, and I will update the record in D2L.
+      In your message, please include the specific date of the class recording that you watched.
     </p>
   </paragraphs>
 
   <paragraphs>
     <title>Online Homework</title>
     <p>
-      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>.
-      It will always be Tuesday evening at 10:00pm. Usually, more than one section will be due at the same time.
-      You should start working on a homework assignment soon after the class that is associated with that section of APEX.
-    </p>
-
-    <p>
-      Collectively, all the online homework is worth 6% of your final grade.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Quizzes</title>
-    <p>
-      You have weekly quizzes using <webwork/>.
-      Each <webwork/> <em>homework</em> assignment is due on a Tuesday evening.
-      I will build a quiz that uses those homework questions for which there was the least overall success,
-      but still appropriate for a 1-hour time limit.
-      This is intended to motivate you to do all of the homework and ask questions when you do not understand something yet.
-      You take these quizzes when you are able to, but they must be completed by Friday evening at 10:00pm.
-      Each quiz is worth 2% and there are 8 quizzes, for a total of 16%.
-    </p>
-
-    <!-- <p>
+      You have online homework for each section using <webwork/>.
       See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
-      the online homework is due the following Wednesday evening.
-      You should start working on it soon after the class that works on that topic, ideally on the same day.
+      The due date for each assignment is posted in <webwork/>.
+      It will always be Sunday evening at 10:00<pm/>.
+      Usually, more than one section will be due at the same time.
+      You should start working on these exercises soon after the corresponding class session
     </p>
 
     <p>
-      Collectively, all the online homework is worth 10% of your final grade.
-    </p> -->
+      Collectively, all the online homework is worth 18% of your final grade.
+    </p>
+
+    <p>
+      After a due date, you may still work on the online homework and submit answers for 95% credit.
+    </p>
   </paragraphs>
 
-  <!-- <paragraphs>
-    <title>Written Assignments</title>
-      <p>
-        In the last third of the course, your homework includes some exercises where you must write up something on paper.
-        Turn these in on the days they are due.
-        Each written assignment is worth 2% of your grade for a total of 6%.
-        See <xref text="title" ref="section-written-assignments"/> for the specifics.
-      </p>
-  </paragraphs> -->
+  <paragraphs>
+    <title>Discussion Posts</title>
+    <p>
+      Each week you will make a graded discussion post in D2L, responding to some topic that is posted.
+      Collectively, these are worth 10% of your grade.
+    </p>
+    <p>
+      When you make a post, I will give you private feedback and a score from 0 to 3.
+      If you score less than 3, you are invited to continue adding to your discsussion thread,
+      improving your response. I will update your score and send you new private feedback.
+      Eventually, you should reach a score of 3/3 on each discussion topic.
+      Here is a rubric that I use to determine your score with each post:
+    </p>
+    <tabular valign="top" top="major" bottom="minor">
+      <col/>
+      <col width="80%"/>
+      <row>
+        <cell>3 points</cell>
+        <cell>
+          <p>
+            Post is correct, relevant, well-written, and pertains to the appropriate module and textbook sections.
+            Post contains proper spelling, punctuation and grammar.
+            Post contains proper mathematical notation and vocabulary.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>2 points</cell>
+        <cell>
+          <p>
+            Post would be worth 3 points, but has one of the following issues:
+            <ul>
+              <li>mostly correct, but not entirely correct</li>
+              <li>noteworthy spelling, punctuation, grammar issues</li>
+              <li>does not use mathematical notation and vocabulary correctly</li>
+              <li>does not use equation editor where appropriate</li>
+            </ul>
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>1 point</cell>
+        <cell>
+          <p>
+            Post needs significant editing or revision.
+            May have more than one of the issues listed for 2 points.
+            Or it may only have a kernel of correctness but is mostly incorrect.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>0 points</cell>
+        <cell>
+          <p>
+            Post does not contain any correct work.
+            Or post is not related to the correct topic.
+          </p>
+        </cell>
+      </row>
+    </tabular>
 
-  <!-- <paragraphs>
-    <title>Contribution to the Book</title>
-    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
-  </paragraphs> -->
+    <p>
+      The <q>due dates</q> for these weekly discussions are Sunday at 10:00<pm/>.
+      This is purely advisory to help you stay on track. If you post late,
+      or improve your initial post later than the <q>due date</q>,
+      it does not hurt your grade.
+    </p>
+  </paragraphs>
 
   <paragraphs>
+    <title>Written Assignments</title>
+    <p>
+      Each week you have an assignment of exercises to write up, scan, and turn in through D2L.
+      Usually, most or all of these exercises will come from the
+      <url href="https://spot.pcc.edu/math/clm/">PCC Calculus Lab Manual</url>.
+    </p>
+    <p>
+      Collectively, these assignments are worth 18% of your grade.
+    </p>
+    <p>
+      The <q>due dates</q> for these assignments are Sunday at 10:00<pm/>.
+      This is purely advisory to help you stay on track. If you turn them in late,
+      it does not hurt your grade.
+    </p>
+    <p>
+      Please note that these assignments will only be scored once.
+      There is not an opportunity to improve your score once an assignment is graded.
+      But you are welcome to bring a draft of your work to an office hour,
+      where we can informally look it over together to catch any significant issues
+      before you turn it in.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="paragraphs-exams">
     <title>Exams</title>
     <p>
-      The final exam will be Monday June 8. Hopefully it will be on campus, in our classroom TH 200, 9:00<ndash/>11:50.
-      At this time we can't be sure. The final exam will be worth 25% of your grade.
+      There is a final exam during finals week. It is worth 18% of your grade.
+      There are two midterm exams, each worth 16% of your grade.
     </p>
-
     <p>
-      There will also be a midterm exam. Because of the virus response, its format and location are not yet known.
-      Tentatively, it will be an in-person exam in our classroom TH 200, 9:00<ndash/>11:50, on Wednesday May 6.
-      The midterm will be worth 25% of your grade.
+      Please see the <xref ref="section-calendar" text="title"/> for dates.
+    </p>
+    <p>
+      The format of the exams is not fully determined at this time.
+      You will have modules in D2L devoted to each exam with information about them.
     </p>
   </paragraphs>
-
-  <!-- <paragraphs>
-    <title>Optional Class Prep Assignments</title>
-    <p>
-      This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
-      padding your grade with some work that is easy to do if you budget time for it.
-      At the same time, it wil get you to engage more fully with the material and it should ultimately
-      help you do better on the exams.
-    </p>
-    <p>
-      Each class day, you could come to class having <em>already</em> watched the video lessons for the day's section.
-      As you watch the videos, there are video lecture notes that you could complete.
-      Bringing these notes to me on the class day counts as proof that you watch the videos and engaged with them.
-      For each section, I will record that you watched the videos and took notes, which credits you with 0.5% toward your grade,
-      reducing the corresponding exam weight by 0.5%.
-    </p>
-    <p>
-      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
-    </p>
-    <p>
-      You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
-      In class on the first day, we will discuss more how this works.
-    </p>
-  </paragraphs> -->
 
 </section>

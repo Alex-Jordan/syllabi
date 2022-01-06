@@ -58,6 +58,7 @@ MAINFILE  = $(PRJSRC)/syllabus.xml
 CSS       = $(PRJ)/css/syllabus.css
 PRJXSL    = $(PRJ)/xsl
 LATEX     = $(XSL)/syllabus-latex.xsl
+PUB       = $(PRJ)/publication.xml
 
 # These paths are subdirectories of
 # the Mathbook XML distribution
@@ -82,97 +83,23 @@ WWOUT      = $(OUTPUT)/webwork-extraction
 SERVER = "(https://webwork.pcc.edu,anonymous,anonymous,anonymous,open)"
 #SERVER = http://localhost
 
-webwork-extraction:
-	install -d $(WWOUT)
-	-rm $(WWOUT) webwork-extraction.xml
-	$(MB)/script/mbx -vv -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
-
-merge:
-	cd $(OUTPUT); \
-	xsltproc --xinclude --stringparam webwork.extraction $(WWOUT)/webwork-extraction.xml $(MBXSL)/pretext-merge.xsl $(MAINFILE) > merge.xml
-
-pg:
-	install -d $(PGOUT)
-	cd $(PGOUT); \
-	rm -r Course-Information-and-Syllabus; \
-	xsltproc --xinclude --stringparam chunk.level 2 $(MBXSL)/pretext-ww-problem-sets.xsl $(OUTPUT)/merge.xml
+html:
+	-rm -r $(HTMLOUT)
+	install -d $(HTMLOUT)
+	$(PTX)/pretext/pretext -vv -c all -f html -p $(PUB) -d $(HTMLOUT) $(MAINFILE)
 
 pdf:
-	install -d $(OUTPUT)
+	-rm -r $(PDFOUT)
 	install -d $(PDFOUT)
-	install -d $(PDFOUT)/images
-	install -d $(IMAGESOUT)
-	install -d $(IMAGESSRC)
-	-rm $(PDFOUT)/images/*
-	-rm $(PDFOUT)/*.*
-	cp -a $(IMAGESOUT) $(PDFOUT)
-#	cp -a $(WWOUT)/*.png $(PDFOUT)/images
-#	cp -a $(IMAGESSRC) $(PDFOUT)
-	cd $(PDFOUT); \
-	xsltproc -xinclude $(LATEX) $(OUTPUT)/merge.xml > syllabus.tex; \
-	xelatex syllabus.tex; \
-	xelatex syllabus.tex
-
-
-
-#  HTML output
-#  Output lands in the subdirectory:  $(HTMLOUT)
-html:
-	install -d $(OUTPUT)
-	install -d $(HTMLOUT)
-	install -d $(HTMLOUT)/images
-	install -d $(IMAGESOUT)
-	install -d $(IMAGESSRC)
-	-rm $(HTMLOUT)/*.html
-	-rm $(HTMLOUT)/knowl/*.html
-#	-rm $(HTMLOUT)/images/*
-	-rm $(HTMLOUT)/*.css
-#	cp -a $(IMAGESOUT) $(HTMLOUT)
-#	cp -a $(IMAGESSRC) $(HTMLOUT)
-#	cp -a $(WWOUT)/*.png $(HTMLOUT)/images
-	cp -a $(CSS) $(HTMLOUT)
-	cd $(HTMLOUT); \
-	xsltproc -xinclude --stringparam html.css.extra syllabus.css $(XSL)/syllabus-html.xsl $(OUTPUT)/merge.xml
-#	xsltproc -xinclude --stringparam webwork.server https://webwork.pcc.edu --stringparam html.knowl.webwork.sectional yes --stringparam exercise.text.solution yes --stringparam html.knowl.exercise.inline no --stringparam html.knowl.example no $(XSL)/syllabus-html.xsl $(MAINFILE)
-
-# make all the image files in svg format
-images:
-	install -d $(OUTPUT)
-	install -d $(IMAGESOUT)
-	-rm $(IMAGESOUT)/*.svg
-#	$(MB)/script/mbx -c latex-image -f svg -d $(IMAGESOUT) $(MAINFILE)
-	$(MB)/script/mbx -c latex-image -f svg -d $(IMAGESOUT) $(OUTPUT)/merge.xml
-#	$(MB)/script/mbx -c asymptote -f svg -d $(IMAGESOUT) $(MAINFILE)
-
-# run this to scrape thumbnail images from YouTube for any YouTube videos
-youtube:
-	install -d $(OUTPUT)
-	install -d $(IMAGESOUT)
-	-rm $(IMAGESOUT)/*.jpg
-	$(MB)/script/mbx -c youtube -d $(IMAGESOUT) $(MAINFILE)
+	$(PTX)/pretext/pretext -vv -c all -f pdf -p $(PUB) -x latex.geometry margin=2.2cm -d $(PDFOUT) $(MAINFILE)
 
 
 ###########
 # Utilities
 ###########
 
-# Verify Source integrity
-#   Leaves "dtderrors.txt" in OUTPUT
-#   can then grep on, e.g.
-#     "element XXX:"
-#     "does not follow"
-#     "Element XXXX content does not follow"
-#     "No declaration for"
-#   Automatically invokes the "less" pager, could configure as $(PAGER)
 check:
 	install -d $(OUTPUT)
 	-rm $(OUTPUT)/jingreport.txt
-	-java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar $(MB)/schema/pretext.rng $(MAINFILE) > $(OUTPUT)/jingreport.txt
+	-java -classpath ~/jing-trang/build -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration -jar ~/jing-trang/build/jing.jar $(PTX)/schema/pretext.rng $(MAINFILE) > $(OUTPUT)/jingreport.txt
 	less $(OUTPUT)/jingreport.txt
-
-gource:
-	install -d $(OUTPUT)
-	-rm $(OUTPUT)/gource.mp4
-	-gource --user-filter 'Stephen Simonds' --title ORCCA --key --background-image src/images/orca3.png --user-image-dir .git/avatar/ --hide filenames --seconds-per-day 0.2 --auto-skip-seconds 1 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset veryslow -pix_fmt yuv420p -crf 23 -threads 0 -bf 0 $(OUTPUT)/gource.mp4
-	-mv gource.mp4 $(OUTPUT)/gource.mp4
-    

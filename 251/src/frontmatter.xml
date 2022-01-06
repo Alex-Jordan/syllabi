@@ -4,6 +4,9 @@
 
 <frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
   <titlepage>
-    <date>Spring 2020</date>
+    <author>
+      <personname>Alex Jordan</personname>
+    </author>
+    <date>Winter 2022</date>
   </titlepage>
 </frontmatter>

@@ -5,305 +5,69 @@
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Calendar</title>
 
-  <sidebyside margins="0%">
-    <stack>
-      <p>Monday Mar 30</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title>PCC Calculus Lab Manual</title>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-velocity.html">Lab 1.1: Velocity</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-secant.html">Lab 1.2: Secant Line to a Curve</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-difference-quotient.html">Lab 1.3: The Difference Quotient</url>
-            </p>
-          </li>
-        </dl>
-      </p>
-      <p>
-        The lab write-up is due Wednesday April 1 at 9:00am.
-        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
-      </p>
-    </stack>
-  </sidebyside>
+  <p>
+    The official timeline for this course will be managed with D2L.
+    What matters most is whatever dates are in the modules inside D2L.
+    Details may change as the term progresses, and this will be reflected in the D2L modules.
+    So the information below is subject to change.
+    It is only included here for a quick reference at the start of the term.
+  </p>
 
-  <sidebyside margins="0%">
-    <stack>
-      <p>Wednesday Apr 1</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title>Lab 1.1<ndash/>1.3 due</title>
-            <p>
-              This lab started Monday March 30.
-            </p>
-          </li>
-          <li>
-            <title>APEX Calculus</title>
-            <p>
-              Read sections <em>before</em> class.
-            </p>
-            <p>
-              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limit_intro.html">Section 1.1: An Introduction to Limits</url>
-            </p>
-            <p>
-              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limits_one_sided.html">Section 1.4: One-Sided Limits</url>
-            </p>
-          </li>
-          <li>
-            <title>PCC Calculus Lab Manual</title>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-limits.html">Lab 2.1: Limits</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-nonexistent-limits.html">Lab 2.7: Non-existant Limits</url>
-            </p>
-          </li>
-        </dl>
-      </p>
-      <p>
-        <webwork/> problem sets for APEX sections 1.1 and 1.4 are due Tuesday April 7 at 10:00pm.
-        On Wednesday morning, a timed <webwork/> quiz on sections 1.1 and 1.4 will open. You will have until Friday April 10 at 10:00pm to complete it.
-      </p>
-      <p>
-        The lab write-up is due Monday April 6 at 9:00am.
-        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
-      </p>
-    </stack>
-  </sidebyside>
+  <tabular bottom="minor" valign="top">
+    <row header="yes" bottom="major">
+      <cell>Week of</cell>
+      <cell>Content</cell>
+    </row>
+    <row>
+      <cell>1/10</cell>
+      <cell>
+        <line>Motivation</line>
+        <line>Sections 1.1 and 1.4</line>
+      </cell>
+    </row>
+    <row>
+      <cell>1/17</cell>
+      <cell>Section 1.3</cell>
+    </row>
+    <row>
+      <cell>1/24</cell>
+      <cell>Sections 1.5 and 1.6</cell>
+    </row>
+    <row>
+      <cell>1/31</cell>
+      <cell>Sections 2.1 and 2.2</cell>
+    </row>
+    <row>
+      <cell>2/7</cell>
+      <cell>Midterm Exam 1</cell>
+    </row>
+    <row>
+      <cell>2/14</cell>
+      <cell>Sections 2.3 and 2.4</cell>
+    </row>
+    <row>
+      <cell>2/21</cell>
+      <cell>Sections 2.5 and 2.6</cell>
+    </row>
+    <row>
+      <cell>2/28</cell>
+      <cell>
+        <line>Midterm Exam 2</line>
+        <line>Sections 3.1 and 3.2</line>
+      </cell>
+    </row>
+    <row>
+      <cell>3/7</cell>
+      <cell>Sections 3.3, 3.4, and 3.5</cell>
+    </row>
+    <row>
+      <cell>3/14</cell>
+      <cell>Section 4.2 </cell>
+    </row>
+    <row>
+      <cell>3/21</cell>
+      <cell>Final Exam</cell>
+    </row>
+  </tabular>
 
-  <sidebyside margins="0%">
-    <stack>
-      <p>Monday Apr 6</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title>Lab 2.1, 2.7 due</title>
-            <p>
-              This lab started Wednesday April 1.
-            </p>
-          </li>
-          <li>
-            <title>APEX Calculus</title>
-            <p>
-              Read sections <em>before</em> class.
-            </p>
-            <p>
-              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limit_analytically.html">Section 1.3: Finding Limits Analytically</url>
-            </p>
-          </li>
-          <li>
-            <title>PCC Calculus Lab Manual</title>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-limit-laws.html">Lab 2.2: Limit Laws</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-indeterminate-limits.html">Lab 2.3: Indeterminate Limits</url>
-            </p>
-          </li>
-        </dl>
-      </p>
-      <p>
-        <webwork/> problem set for APEX section 1.3 is due Tuesday April 14 at 10:00pm.
-        On Wednesday morning, a timed <webwork/> quiz on sections 1.3 and 1.5 will open. You will have until Friday April 17 at 10:00pm to complete it.
-      </p>
-      <p>
-        The lab write-up is due Wednesday April 8 at 9:00am.
-        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%">
-    <stack>
-      <p>Tuesday Apr 7</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title><webwork/> homework due</title>
-            <p>
-              Due at 10:00pm. Corresponds to APEX sections 1.1 and 1.4.
-            </p>
-          </li>
-        </dl>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%">
-    <stack>
-      <p>Wednesday Apr 8</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title>Lab 2.2, 2.3 due</title>
-            <p>
-              This lab started Monday April 1.
-            </p>
-          </li>
-          <li>
-            <title>APEX Calculus</title>
-            <p>
-              Read sections <em>before</em> class.
-            </p>
-            <p>
-              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_continuity.html">Section 1.5: Continuity</url>
-            </p>
-          </li>
-          <li>
-            <title>PCC Calculus Lab Manual</title>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-continuity.html">Lab 2.9: Continuity</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-discontinuities.html">Lab 2.10: Discontinuities</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-continuity-on-an-interval.html">Lab 2.11: Continuity on an Interval</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-discontinuous-formulas.html">Lab 2.12: Discontinuous Formulas</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-piecewise-defined-functions.html">Lab 2.13: Piecewise-Defined Functions</url>
-            </p>
-          </li>
-        </dl>
-      </p>
-      <p>
-        <webwork/> problem set for APEX section 1.5 is due Tuesday April 14 at 10:00pm.
-        On Wednesday morning, a timed <webwork/> quiz on sections 1.3 and 1.5 will open. You will have until Friday April 17 at 10:00pm to complete it.
-      </p>
-      <p>
-        The lab write-up is due Monday April 13 at 9:00am.
-        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%">
-    <stack>
-      <p>Friday Apr 10</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title><webwork/> quiz due</title>
-            <p>
-              Must have started by 10:00pm. Corresponds to APEX sections 1.1 and 1.4.
-            </p>
-          </li>
-        </dl>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%">
-    <stack>
-      <p>Monday Apr 13</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title>Lab 2.9<ndash/>2.13 due</title>
-            <p>
-              This lab started Wednesday April 8.
-            </p>
-          </li>
-          <!-- <li>
-            <title>APEX Calculus</title>
-            <p>
-              Read sections <em>before</em> class.
-            </p>
-            <p>
-              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limit_analytically.html">Section 1.3: Finding Limits Analytically</url>
-            </p>
-          </li>
-          <li>
-            <title>PCC Calculus Lab Manual</title>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-limit-laws.html">Lab 2.2: Limit Laws</url>
-            </p>
-            <p>
-              <url href="https://spot.pcc.edu/math/clm/section-indeterminate-limits.html">Lab 2.3: Indeterminate Limits</url>
-            </p>
-          </li> -->
-        </dl>
-      </p>
-      <!-- <p>
-        <webwork/> problem set for APEX section 1.3 is due Tuesday April 14 at 10:00pm.
-        On Wednesday morning, a timed <webwork/> quiz on sections 1.3 and 1.5 will open. You will have until Friday April 17 at 10:00pm to complete it.
-      </p>
-      <p>
-        The lab write-up is due Wednesday April 8 at 9:00am.
-        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
-      </p> -->
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%">
-    <stack>
-      <p>Tuesday Apr 14</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title><webwork/> homework due</title>
-            <p>
-              Due at 10:00pm. Corresponds to APEX sections 1.3 and 1.5.
-            </p>
-          </li>
-        </dl>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%">
-    <stack>
-      <p>Friday Apr 17</p>
-      <p>
-        <dl width="wide">
-          <li>
-            <title><webwork/> quiz due</title>
-            <p>
-              Must have started by 10:00pm. Corresponds to APEX sections 1.3 and 1.5.
-            </p>
-          </li>
-        </dl>
-      </p>
-    </stack>
-  </sidebyside>
-
-
-  <!-- <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Mar 16/Tuesday Mar 17</p>
-      <p>
-        The Monday 2:00 class does not meet this day during finals week.
-      </p>
-      <p>
-        The Tuesday 11:30 class has <xref ref="exam3" text="title"/>
-        from <alert>11:00 to 1:00, not the usual class time!</alert>
-        <xref ref="written3" text="title"/> is due.
-      </p>
-      <p>
-        <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Mar 18/Thursday Mar 19</p>
-      <p>
-        The Wednesday 2:00 class has <xref ref="exam3" text="title"/>
-        from <alert>2:00 to 4:00.</alert>
-        <xref ref="written3" text="title"/> is due.
-      </p>
-      <p>
-        <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
-      </p>
-      <p>
-        The Thursday 11:30 class does not meet this day during finals week.
-      </p>
-    </stack>
-  </sidebyside> -->
 </section>
