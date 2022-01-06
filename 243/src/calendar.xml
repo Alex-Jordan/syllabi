@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Calendar</title>
+
+  <p>
+    The official timeline for this course will be managed with D2L.
+    What matters most is whatever dates are in the modules inside D2L.
+    Details may change as the term progresses, and this will be reflected in the D2L modules.
+    So the information below is subject to change.
+    It is only included here for a quick reference at the start of the term.
+  </p>
+
+  <tabular bottom="minor" valign="top">
+    <col/>
+    <col width="40%"/>
+    <col width="40%"/>
+    <row bottom="major">
+      <cell>Week of:</cell>
+      <cell>Tuesday</cell>
+      <cell>Thursday</cell>
+    </row>
+    <row>
+      <cell>3/30</cell>
+      <cell>
+        <p>
+          Section<nbsp/>1.1 and Section<nbsp/>1.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>1.3 and Section<nbsp/>1.4
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/6</cell>
+      <cell>
+        <p>
+          Section<nbsp/>1.5 and Section<nbsp/>2.1
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>2.2
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/13</cell>
+      <cell>
+        <p>
+          Section<nbsp/>2.3
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>3.1
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/20</cell>
+      <cell>
+        <p>
+          Section<nbsp/>3.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Exam 1
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/27</cell>
+      <cell>
+        <p>
+          PCC inservice day<mdash/>class does not meet
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>3.3
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/4</cell>
+      <cell>
+        <p>
+          Section<nbsp/>3.5 and Section<nbsp/>3.6
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>4.1
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/11</cell>
+      <cell>
+        <p>
+          Section<nbsp/>4.1 and Section<nbsp/>4.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>4.5
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/18</cell>
+      <cell>
+        <p>
+          Section<nbsp/>5.1 and Section <nbsp/>5.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Exam 2
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/25</cell>
+      <cell>
+        <p>
+          Section<nbsp/>5.3, and Section<nbsp/>5.4
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>6.1
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>6/1</cell>
+      <cell>
+        <p>
+          Section<nbsp/>6.1
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section<nbsp/>8.1 and Section<nbsp/>8.2
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>6/8</cell>
+      <cell>
+        <p>
+          Final Exam
+        </p>
+      </cell>
+      <cell>
+      </cell>
+    </row>
+  </tabular>
+
+</section>

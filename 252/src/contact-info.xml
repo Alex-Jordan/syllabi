@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Contact Information</title>
+
+  <p>
+    To reach me or PCC:
+  </p>
+
+  <sidebyside>
+    <tabular>
+      <row>
+        <cell>Instructor: Alex Jordan</cell>
+      </row>
+      <row>
+        <cell>
+          <line>Office: CA SSB 317 when PCC opens</line>
+          <line>(Use email and D2L to contact me.)</line>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>Phone: 971-722-4138</line>
+          <line>(Not a good way to reach me this term.)</line>
+        </cell>
+      </row>
+      <row>
+        <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+      </row>
+    </tabular>
+    <tabular>
+      <row>
+        <cell>Portland Community College</cell>
+      </row>
+      <row>
+        <cell>Cascade Campus</cell>
+      </row>
+      <row>
+        <cell>705 N Killingsworth St.</cell>
+      </row>
+      <row>
+        <cell>Portland, OR 97217</cell>
+      </row>
+    </tabular>
+  </sidebyside>
+
+  <p>
+    Because of federal privacy laws,
+    all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.
+  </p>
+
+  <tabular top="major" valign="top" left="major">
+    <col/>
+    <col/>
+    <col/>
+    <col/>
+    <col right="major"/>
+    <row bottom="medium">
+      <cell>CRN</cell>
+      <cell>Days</cell>
+      <cell>Time</cell>
+      <cell>Place</cell>
+      <cell>Final Exam</cell>
+    </row>
+    <row bottom="major">
+      <cell>20959</cell>
+      <cell>M/W</cell>
+      <cell>1:00<ndash/>3:50</cell>
+      <cell>
+        <line>Remote</line>
+        <!-- <line>CA TH 200 when PCC reopens</line> -->
+      </cell>
+      <cell>
+        <line>Monday</line>
+        <line>6/7/2021</line>
+        <line>1:00<ndash/>3:00</line>
+      </cell>
+    </row>
+  </tabular>
+
+  <!-- <p>
+    I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
+  </p> -->
+
+  <!-- <sidebyside>
+    <tabular top="major" left="major">
+      <col/>
+      <col/>
+      <col right="major"/>
+      <row>
+        <cell colspan="3" halign="center">Office Hours</cell>
+      </row>
+      <row bottom="medium">
+        <cell>Day</cell>
+        <cell>Regular</cell>
+        <cell>Finals Week</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Tuesday</cell>
+        <cell>10:00<ndash/>11:00 in SSB 317</cell>
+        <cell>TBD</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Wednesday</cell>
+        <cell>10:00<ndash/>1:00 in SSB 317</cell>
+        <cell>TBD</cell>
+      </row>
+      <row bottom="major">
+        <cell>Thursday</cell>
+        <cell>10:00<ndash/>11:00 in SSB 317</cell>
+        <cell>TBD</cell>
+      </row>
+    </tabular>
+  </sidebyside> -->
+
+  <p>
+    Office hours are by appointment. Just send me an email suggesting some times, and we'll set up a meeting on Zoom.
+  </p>
+
+  <p>
+    Come visit me (virtually) for help with the material, help with homework, or questions about your grade.
+    <!-- If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
+    At least one of these office hours will move to the Cascade Student Learning Center once the SLC's schedule is more settled. -->
+  </p>
+
+  <p>
+    While I do have an office phone number and voice mail,
+    I am more likely to reply to you more quickly if you use email to contact me.
+  </p>
+
+</section>

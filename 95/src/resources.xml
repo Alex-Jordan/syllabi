@@ -5,6 +5,19 @@
 <section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Student Resources</title>
 
+  <p>
+    PCC wants you to be successful and have resources that may help.
+    If you face challenges affording food or housing, or if you need access to technology,
+    this will naturally affect your classwork.
+    Check out these resources: <url href="https://www.pcc.edu/coronavirus/information-for-students/resources/">Student COVID-19 Resources</url>
+    and <url href="https://www.pcc.edu/enroll/paying-for-college/emergency-funds.html">Emergency Funds</url>.
+    You can also contact a campus Student Conduct and Retention Coordinator at <email>conductandcare@pcc.edu</email>.
+  </p>
+</section>
+
+<!-- <section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Student Resources</title>
+
   <introduction>
     <p>
       PCC and the world at large offer several resources that you may benefit from while taking this course.
@@ -29,14 +42,14 @@
       please visit
       <url href="https://spot.pcc.edu/slc/mathresources/output/html/">spot.pcc.edu/slc/mathresources/output/html/</url>.
     </p>
-  </paragraphs>
+  </paragraphs> -->
 
   <!-- <paragraphs>
     <title>Calculator Handbooks</title>
     <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
   </paragraphs> -->
 
-  <paragraphs>
+  <!-- <paragraphs>
     <title>College Success Courses</title>
     <p>
       There are several one-credit courses available to help you maximize your success in the college experience.
@@ -44,7 +57,7 @@
       The following site offers information on these courses as well as tips for success:
       <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.
     </p>
-  </paragraphs>
+  </paragraphs> -->
 
   <!-- <paragraphs>
     <title>Online Videos</title>
@@ -59,7 +72,7 @@
     </p>
   </paragraphs> -->
 
-  <paragraphs>
+  <!-- <paragraphs>
     <title>Counseling Services</title>
     <p>
       (SSB 124, 971-722-5271)
@@ -117,7 +130,7 @@
     <p>
       <url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url>
     </p>
-  </paragraphs>
+  </paragraphs> -->
 
   <!-- <paragraphs>
     <title>Student Learning Center</title>
@@ -126,7 +139,7 @@
     <p><url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url></p>
   </paragraphs> -->
 
-  <paragraphs>
+  <!-- <paragraphs>
     <title>Veteran's Resource Center</title>
     <p>
       (SSB 201, 971-722-5458)
@@ -153,3 +166,4 @@
     </p>
   </paragraphs>
 </section>
+ -->

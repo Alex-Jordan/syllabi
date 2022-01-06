@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is the hub file for Alex Jordan's MTH 60 Syllabus -->
+
+<!-- USE XINCLUDE SWITCH ON XSLTPROC -->
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="./docinfo.xml" />
+
+    <article xml:id="syllabus">
+        <title>Course Information and Syllabus</title>
+        <subtitle>MTH 243 Statistics I</subtitle>
+
+        <xi:include href="./frontmatter.xml" />
+        <section>
+            <title>Basic Needs Statement</title>
+            <p>
+                PCC wants you to be successful and have the resources that you need.
+                If you face challenges affording food or housing, or if you need access to technology,
+                this will naturally affect your classwork.
+                Check out these resources: <url href="https://www.pcc.edu/coronavirus/information-for-students/resources/">Student COVID-19 Resources</url>
+                and <url href="https://www.pcc.edu/enroll/paying-for-college/emergency-funds.html">Emergency Funds</url>.
+                You can also contact a campus Student Conduct and Retention Coordinator at <email>conductandcare@pcc.edu</email>.
+            </p>
+        </section>
+        <xi:include href="./contact-info.xml" />
+        <xi:include href="./course-description.xml" />
+        <!-- <xi:include href="./prerequisite-review.xml" /> -->
+        <xi:include href="./expectations.xml" />
+        <xi:include href="./technology.xml" />
+        <xi:include href="./textbook.xml" />
+        <xi:include href="./grades.xml" />
+        <!-- <xi:include href="./downloads.xml" /> -->
+        <xi:include href="./webwork.xml" />
+        <!-- <xi:include href="./written-assignments.xml" /> -->
+        <!-- <xi:include href="./contributions.xml" /> -->
+        <xi:include href="./exams.xml" />
+        <xi:include href="./resources.xml" />
+        <xi:include href="./miscellaneous.xml" />
+        <xi:include href="./special-dates.xml" />
+        <xi:include href="./calendar.xml" />
+
+   </article>
+
+</pretext>

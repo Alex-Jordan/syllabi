@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exams</title>
+
+  <p>
+    There will be a midterm exam during the week of April 26.
+    Part of the exam will be in the form of a <webwork/> quiz.
+    For the other part of the exam, I would like to meet with each student individually for about 20 minutes
+    and give a very small number of problems to solve.
+    You will have at least a week of advanced notice of what kinds of problems might be asked of you.
+    Scheduling details will depend on how many students are in the class.
+    You might do this on April 26 or you might do this on April 28.
+  </p>
+
+  <p>
+    The final exam will be similar, but during the week of June 7.
+  </p>
+
+  <p>
+    The midterm exam and the final exam will each be worth 25% of your final grade.
+  </p>
+
+  <!-- <introduction>
+    <p>
+      Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
+    </p>
+    <p>
+      About a week before each exam, you will receive a practice exam.
+      Practice exams are typically longer than the real exam to give you more to practice with.
+    </p>
+
+    <p>
+      <dl width="narrow">
+        <li xml:id="exam1">
+          <title>Exam 1 (21<ndash/>25%)</title>
+          <p>
+            Covers sections 10.1<ndash/>11.1.
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
+        </li>
+        <li xml:id="exam2">
+          <title>Exam 2 (21<ndash/>25%)</title>
+          <p>
+            Covers sections 11.2<ndash/>12.4.
+            Additionally there will be some repeated questions from Exam 1.
+            (So part of your studying should be reviewing your first exam.)
+          </p>
+          <p>
+            You'll have the entire class period for this exam if you need it.
+          </p>
+        </li>
+        <li xml:id="exam3">
+          <title>Exam 3 (22<ndash/>26%)</title>
+          <p>
+            Covers sections 12.5<ndash/>13.7.
+            Additionally there will be some repeated questions from Exams 1 and 2.
+            (So part of your studying should be reviewing your first and second exams.)
+          </p>
+          <p>
+            This exam is during finals week and is only two hours long.
+          </p>
+        </li>
+      </dl>
+    </p>
+  </introduction>
+
+  <paragraphs>
+    <title>Missing an Exam</title>
+    <p>
+      If you miss an exam, you must contact me within one day to explain why
+      or I might not be able to allow a make-up and you would receive a zero.
+      <alert>Make-up exams are only permitted under extreme circumstances.
+      PCC does not have enough staff and facilities to administer too many make-up exams.</alert>
+      If you have a valid excuse, you must make up the exam within the next two business days,
+      or I might not be able to allow a make-up and you would receive a zero.
+      If you are going to make up the exam, contact the testing center immediately
+      (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>)
+      to learn what time you might be able to make up the exam.
+      If you are going to miss the final exam, contact me before the test is given.
+    </p>
+    <p>
+      Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
+      Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Exam Redos</title>
+    <p>
+      There may be opportunities to try an exam for a second, or even a third time.
+      These opportunities will be discussed in class if and when they arise.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Accommodated Testing</title>
+    <p>
+      Students who experience disability-related barriers should contact Disability Services:
+      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
+      If students elect to use approved academic adjustments, they must provide, in advance,
+      formal notification from Disability Services to the instructor.
+      Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
+    </p>
+  </paragraphs> -->
+
+</section>

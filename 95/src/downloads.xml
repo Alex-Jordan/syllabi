@@ -4,7 +4,13 @@
 
 <section xml:id="section-downloads" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Course Downloads</title>
-  <subsection>
+
+  <p>
+    If there are files to download for this course,
+    you will be able to access them here.
+  </p>
+
+  <!-- <subsection>
     <title>In-class Notes</title>
     <p>
       These note files are not a substitute for attending class.
@@ -67,5 +73,5 @@
         </li>
       </ul>
     </p>
-  </subsection>
+  </subsection> -->
 </section>

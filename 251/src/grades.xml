@@ -13,19 +13,23 @@
   </introduction>
 
   <paragraphs>
-    <title>In-class Group Work</title>
+    <title>Labs</title>
     <p>
-      Most class days, you will work in small groups on a collection of exercises that go along with the lesson of the day.
-      If you work on these diligently during class time with your partners,
-      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
-      Sixteen of these count toward your final grade, so in total these are worth 8% of your grade.
+      Most class days, you will work in small groups on a collection of exercises
+      from the <url href="https://spot.pcc.edu/math/clm/">PCC Calculus Lab Manual</url>.
+      Work on these diligently during class time with your partners,
+      and then turn in a completed lab write-up. You and your partners might finish during class,
+      but you may need to arrange to meet with each other after class.
+      You need to complete each lab write-up before the next class meets.
     </p>
 
     <p>
-      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
-      The online syllabus will have the exercise packets from each day for you to download
-      using the <xref ref="section-calendar" text="title"/>.
-      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
+      If you miss class, you may complete the lab on your own and turn it in before the next class.
+    </p>
+
+    <p>
+      One grade will be assigned for each lab write-up. All group memebers share the grade.
+      Each lab write-up is worth 2% of your final grade, for a total of 28%.
     </p>
   </paragraphs>
 
@@ -33,6 +37,30 @@
     <title>Online Homework</title>
     <p>
       You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>.
+      It will always be Tuesday evening at 10:00pm. Usually, more than one section will be due at the same time.
+      You should start working on a homework assignment soon after the class that is associated with that section of APEX.
+    </p>
+
+    <p>
+      Collectively, all the online homework is worth 6% of your final grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Quizzes</title>
+    <p>
+      You have weekly quizzes using <webwork/>.
+      Each <webwork/> <em>homework</em> assignment is due on a Tuesday evening.
+      I will build a quiz that uses those homework questions for which there was the least overall success,
+      but still appropriate for a 1-hour time limit.
+      This is intended to motivate you to do all of the homework and ask questions when you do not understand something yet.
+      You take these quizzes when you are able to, but they must be completed by Friday evening at 10:00pm.
+      Each quiz is worth 2% and there are 8 quizzes, for a total of 16%.
+    </p>
+
+    <!-- <p>
+      See <xref ref="section-webwork" text="title"/> for details.
       The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
       the online homework is due the following Wednesday evening.
       You should start working on it soon after the class that works on that topic, ideally on the same day.
@@ -40,10 +68,10 @@
 
     <p>
       Collectively, all the online homework is worth 10% of your final grade.
-    </p>
+    </p> -->
   </paragraphs>
 
-  <paragraphs>
+  <!-- <paragraphs>
     <title>Written Assignments</title>
       <p>
         In the last third of the course, your homework includes some exercises where you must write up something on paper.
@@ -51,7 +79,7 @@
         Each written assignment is worth 2% of your grade for a total of 6%.
         See <xref text="title" ref="section-written-assignments"/> for the specifics.
       </p>
-  </paragraphs>
+  </paragraphs> -->
 
   <!-- <paragraphs>
     <title>Contribution to the Book</title>
@@ -61,13 +89,18 @@
   <paragraphs>
     <title>Exams</title>
     <p>
-      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
-      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
-      Exams 1, 2, and 3 are each worth 25%, 25%, and 26%, of your grade.
+      The final exam will be Monday June 8. Hopefully it will be on campus, in our classroom TH 200, 9:00<ndash/>11:50.
+      At this time we can't be sure. The final exam will be worth 25% of your grade.
+    </p>
+
+    <p>
+      There will also be a midterm exam. Because of the virus response, its format and location are not yet known.
+      Tentatively, it will be an in-person exam in our classroom TH 200, 9:00<ndash/>11:50, on Wednesday May 6.
+      The midterm will be worth 25% of your grade.
     </p>
   </paragraphs>
 
-  <paragraphs>
+  <!-- <paragraphs>
     <title>Optional Class Prep Assignments</title>
     <p>
       This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
@@ -89,6 +122,6 @@
       You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
       In class on the first day, we will discuss more how this works.
     </p>
-  </paragraphs>
+  </paragraphs> -->
 
 </section>

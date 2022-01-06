@@ -7,7 +7,7 @@
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Jan 6/Tuesday Jan 7</p>
+      <p>Monday Mar 30/Tuesday Mar 31</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.1%20Factoring%20Out%20the%20Common%20Factor.pdf">Video lecture outline notes</url>.
       </p>
@@ -20,12 +20,12 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-out-the-common-factor.html">Section 10.1 (Factoring Out the Common Factor)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/FactoringGCF.pdf">Factoring Out the GCF</url>
-      </p>
+      </p> -->
     </stack>
     <stack>
-      <p>Wednesday Jan 8/Thursday Jan 9</p>
+      <p>Wednesday Apr 1/Thursday Apr 2</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.2%20Factor%20by%20Grouping.pdf">Video lecture outline notes</url>.
       </p>
@@ -41,15 +41,15 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-leading-coefficient-one.html">Section 10.3 (Factoring Trinomials with Leading Coefficient One)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheets: <url href="Worksheets/Grouping.pdf">Factoring by Grouping</url>, <url href="Worksheets/MonicTrinomials.pdf">Factoring Monic Trinomials</url>
-      </p>
+      </p> -->
     </stack>
   </sidebyside>
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Jan 13/Tuesday Jan 14</p>
+      <p>Monday Apr 6/Tuesday Apr 7</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.4%20Factoring%20Trinomials%20with%20a%20Nontrivial%20Leading%20Coefficient.pdf">Video lecture outline notes</url>.
       </p>
@@ -64,12 +64,12 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-special-polynomials.html">Section 10.5 (Factoring Special Polynomials)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheets: <url href="Worksheets/NonMonicTrinomials.pdf">Factoring Non-Monic Trinomials</url>, <url href="Worksheets/SpecialFactorizations.pdf">Factoring Special Patterns</url>
-      </p>
+      </p> -->
     </stack>
     <stack>
-      <p>Wednesday Jan 15/Thursday Jan 16</p>
+      <p>Wednesday Apr 8/Thursday Apr 9</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.6%20Factoring%20Strategies.pdf">Video lecture outline notes</url>.
       </p>
@@ -84,27 +84,15 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-quadratic-equations-by-factoring.html">Section 10.7 (Solving Quadratic Equations by Factoring)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/SolveByFactoring.pdf">Use Factoring to Solve Equations</url>
-      </p>
+      </p> -->
     </stack>
   </sidebyside>
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Jan 20/Tuesday Jan 21</p>
-      <p>
-        Monday is Martin Luther King Jr. Day, a holiday. Class does not meet.
-      </p>
-      <p>
-        Tuesday will be a practice exam and review day. Students from both sections are welcome.
-      </p>
-      <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jan 22/Thursday Jan 23</p>
+      <p>Monday Apr 13/Tuesday Apr 14</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.1%20Function%20Basics.pdf">Video lecture outline notes</url>.
       </p>
@@ -114,15 +102,12 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-function-basics.html">Section 11.1 (Function Basics)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/IntroToFunctions.pdf">Introduction to Functions</url>
-      </p>
+      </p> -->
     </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Jan 27/Tuesday Jan 28</p>
+      <p>Wednesday Apr 15/Thursday Apr 16</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.2%20Domain%20and%20Range.pdf">Video lecture outline notes</url>.
       </p>
@@ -132,24 +117,15 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-domain-and-range.html">Section 11.2 (Domain and Range)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/DomainAndRange.pdf">Domain and Range</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jan 29/Thursday Jan 30</p>
-      <p>
-        <xref ref="exam1" text="title"/>
-      </p>
-      <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p>
+      </p> -->
     </stack>
   </sidebyside>
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Feb 3/Tuesday Feb 4</p>
+      <p>Monday Apr 20/Tuesday Apr 21</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.3%20Using%20Technology%20to%20Explore%20Functions.pdf">Video lecture outline notes</url>.
       </p>
@@ -159,12 +135,12 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-using-technology-to-explore-functions.html">Section 11.3 (Using Technology to Explore Functions)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/FunctionsAndGraphingTechnology.pdf">Graphing Technology</url>
-      </p>
+      </p> -->
     </stack>
     <stack>
-      <p>Wednesday Feb 5/Thursday Feb 6</p>
+      <p>Wednesday Apr 22/Thursday Apr 23</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.4%20Simplifying%20Expressions%20with%20Function%20Notation.pdf">Video lecture outline notes</url>.
       </p>
@@ -179,15 +155,27 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-technical-definition-of-a-function.html">Section 11.5 (Technical Definition of a Function)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/SimplifyingFunctionNotation.pdf">Simplifying Function Notation</url> and <url href="Worksheets/FormalDefinitionOfFunctions.pdf">Technical Definition of a Function</url>
-      </p>
+      </p> -->
     </stack>
   </sidebyside>
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Feb 10/Tuesday Feb 11</p>
+      <p>Monday Apr 27/Tuesday Apr 28</p>
+      <p>
+        Monday's class will review for the exam the following week.
+      </p>
+      <p>
+        Tuesday's class doesn't meet, because it is a faculty work day.
+      </p>
+      <!-- <p>
+        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
+      </p> -->
+    </stack>
+    <stack>
+      <p>Wednesday Apr 29/Thursday Apr 30</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.1%20Introduction%20to%20Rational%20Functions.pdf">Video lecture outline notes</url>.
       </p>
@@ -202,14 +190,22 @@
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-multiplication-and-division-of-rational-expressions.html">Section 12.2 (Multiplication and Division of Rational Expressions)</url></li>
         </ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/ExploringRationalFunctions.pdf">Exploring Rational Functions</url> and <url href="Worksheets/MultiplyingRationalExpressions.pdf">Multiplying, Dividing, and Simplifying Rational Expressions</url>
       </p>
-    </stack>
-    <!-- TODO: It may be better next time to save dividing until the following class, as a short topic to cover before adding and subtracting. -->
-    <stack>
-      <p>Wednesday Feb 12/Thursday Feb 13</p>
       <p>
+        Day's in-class worksheet: <url href="Worksheets/AddingRationalExpressions.pdf">Adding and Subtracting Rational Expressions</url>
+      </p> -->
+    </stack>
+  </sidebyside>
+
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Monday May 4/Tuesday May 5</p>
+      <p>
+        TBD
+      </p>
+      <!-- <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.3%20Addition%20and%20Subtraction%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
       </p>
       <video youtubeplaylist="PLfPh0EsBc0yJjmrYW1TtOzdGWE5wkx2nr" />
@@ -217,16 +213,20 @@
         <ul>
           <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-addition-and-subtraction-of-rational-expressions.html">Section 12.3 (Addition and Subtraction of Rational Expressions)</url></li>
         </ul>
-      </p>
+      </p> -->
+    </stack>
+    <stack>
+      <p>Wednesday May 6/Thursday May 7</p>
       <p>
-        Day's in-class worksheet: <url href="Worksheets/AddingRationalExpressions.pdf">Adding and Subtracting Rational Expressions</url>
+        Exam 1
+        <!-- <xref ref="exam1" text="title"/> -->
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <!-- <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Feb 17/Tuesday Feb 18</p>
+      <p>Monday May 11/Tuesday May 12</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.4%20Complex%20Fractions.pdf">Video lecture outline notes</url>.
       </p>
@@ -244,7 +244,7 @@
       </p>
     </stack>
     <stack>
-      <p>Wednesday Feb 19/Thursday Feb 20</p>
+      <p>Wednesday May 13/Thursday May 14</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.5%20Solving%20Rational%20Equations.pdf">Video lecture outline notes</url>.
       </p>
@@ -262,7 +262,7 @@
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Feb 24/Tuesday Feb 25</p>
+      <p>Monday May 18/Tuesday May 19</p>
       <p>
         <xref ref="exam2" text="title"/>
       </p>
@@ -271,7 +271,7 @@
       </p>
     </stack>
     <stack>
-      <p>Wednesday Feb 26/Thursday Feb 27</p>
+      <p>Wednesday May 20/Thursday May 21</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.1%20Overview%20of%20Graphing.pdf">Video lecture outline notes</url>.
       </p>
@@ -290,7 +290,7 @@
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Mar 2/Tuesday Mar 3</p>
+      <p>Monday May 25/Tuesday May 26</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.2%20Graphs%20and%20Vertex%20Form.pdf">Video lecture outline notes</url>.
       </p>
@@ -313,7 +313,7 @@
       </p>
     </stack>
     <stack>
-      <p>Wednesday Mar 4/Thursday Mar 5</p>
+      <p>Wednesday May 27/Thursday May 28</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.4%20Absolute%20Value%20Equations.pdf">Video lecture outline notes</url>.
       </p>
@@ -336,7 +336,7 @@
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Mar 9/Tuesday Mar 10</p>
+      <p>Monday Jun 1/Tuesday Jun 2</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.6%20Compound%20Inequalities.pdf">Video lecture outline notes</url>.
       </p>
@@ -357,7 +357,7 @@
       </p>
     </stack>
     <stack>
-      <p>Wednesday Mar 11/Thursday Mar 12</p>
+      <p>Wednesday Jun 3/Thursday Jun 4</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.7%20Solving%20Inequalities%20Graphically.pdf">Video lecture outline notes</url>.
       </p>
@@ -375,7 +375,7 @@
 
   <sidebyside margins="0%" widths="47% 47%">
     <stack>
-      <p>Monday Mar 16/Tuesday Mar 17</p>
+      <p>Monday Jun 8/Tuesday Jun 9</p>
       <p>
         The Monday 2:00 class does not meet this day during finals week.
       </p>
@@ -389,7 +389,7 @@
       </p>
     </stack>
     <stack>
-      <p>Wednesday Mar 18/Thursday Mar 19</p>
+      <p>Wednesday Jun 10/Thursday Jun 11</p>
       <p>
         The Wednesday 2:00 class has <xref ref="exam3" text="title"/>
         from <alert>2:00 to 4:00.</alert>
@@ -402,5 +402,5 @@
         The Thursday 11:30 class does not meet this day during finals week.
       </p>
     </stack>
-  </sidebyside>
+  </sidebyside> -->
 </section>

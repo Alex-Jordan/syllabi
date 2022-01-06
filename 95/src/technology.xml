@@ -5,8 +5,28 @@
 <section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Technology Requirements</title>
 
+    <p>
+    	Since we are in a remote teaching mode, it is essential that you have access to a computer, laptop, tablet, or at the very least a smart phone.
+    	And you need internet access. Ideally, your device and internet connection will work with the Zoom sessions,
+    	but otherwise you can call in to the Zoom meetings. You do not need to purchase or install Zoom.
+    </p>
+
+    <p>
+    	We will be using Google Docs for the in-class activities. As a PCC student, you have access to Google Docs.
+    	Typically I will simply send you a link to a Google Doc as needed. You may access all of your Google Docs by using PCC Gmail,
+    	and using the 3<times/>3 icon in the upper right.
+    </p>
+
+    <p>
+    	Homework and quizzes use <webwork/>. You log in to your <webwork/> account using a web browser.
+    </p>
+</section>
+
+<!-- <section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Technology Requirements</title>
+
     <p>Part of this class will be learning how technology can assist you in exploring mathematical ideas.  In regular class time, a smart phone, tablet, or laptop is fine. During an exam, you must have a scientific or graphing calculator and you may not use other devices that connect to the internet. If you do not own one, there are options for you to borrow one. The only things you will need a calculator for during an exam are things that a plain old scientific calculator can do, not the specific graphing calculator tools.</p>
 
     <p>You will need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
 
-</section>
+</section> -->

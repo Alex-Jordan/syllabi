@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Description</title>
+
+  <p>
+    Taken from the official PCC course description:
+  </p>
+
+  <tabular>
+    <col halign="right" />
+    <col/>
+    <row>
+      <cell>Course Number:</cell>
+      <cell>MTH 252</cell>
+    </row>
+    <row>
+      <cell>Course Title:</cell>
+      <cell>Calculus II</cell>
+    </row>
+    <row>
+      <cell>Credit Hours:</cell>
+      <cell>4</cell>
+    </row>
+    <row>
+      <cell>Lecture Hours:</cell>
+      <cell>30</cell>
+    </row>
+    <row>
+      <cell>Lecture/Lab Hours:</cell>
+      <cell>30</cell>
+    </row>
+  </tabular>
+
+  <p>
+    Includes antiderivatives, the definite integral, topics of integration, improper integrals, and applications of differentiation and integration. Graphing technology is required, such as Desmos and/or GeoGebra which are available at no cost. Prerequisites: MTH 251 and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
+  </p>
+
+  <p>
+    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+  </p>
+
+</section>

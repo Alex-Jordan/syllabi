@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Description</title>
+
+  <p>
+    Taken from the official PCC course description:
+  </p>
+
+  <tabular>
+    <col halign="right" />
+    <col/>
+    <row>
+      <cell>Course Number:</cell>
+      <cell>MTH 243</cell>
+    </row>
+    <row>
+      <cell>Course Title:</cell>
+      <cell>Statistics I</cell>
+    </row>
+    <row>
+      <cell>Credit Hours:</cell>
+      <cell>5</cell>
+    </row>
+    <row>
+      <cell>Lecture Hours:</cell>
+      <cell>50</cell>
+    </row>
+  </tabular>
+
+  <p>
+    Introduces displaying data with graphs, numerical descriptions of data, producing data, elementary probability, probability distributions, confidence intervals and significance testing. Investigates applications from science, business, and social science perspectives. Graphing calculator with advanced statistical programs and/or computer software required; see instructor. Prerequisites: MTH 95 or MTH 98 or higher, and (WR 115 and RD 115) or IRW 115 or equivalent placement. Recommended: MTH 111. Audit available.
+  </p>
+
+  <p>
+    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+  </p>
+
+</section>

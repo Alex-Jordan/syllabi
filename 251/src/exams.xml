@@ -5,7 +5,17 @@
 <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exams</title>
 
-  <introduction>
+  <p>
+    Because of the coronavirus response, we do not yet know all details of how exams will be administered
+    or even on which days. It is possible there will be an in-person midterm on Wednesday May 6,
+    and an in-person final exam on Monday June 8. If they are in-person, they will be in TH 200, 9:00<ndash/>11:50.
+  </p>
+
+  <p>
+    The midterm exam and the final exam will each be worth 25% of your final grade.
+  </p>
+
+  <!-- <introduction>
     <p>
       Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
     </p>
@@ -88,6 +98,6 @@
       formal notification from Disability Services to the instructor.
       Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
     </p>
-  </paragraphs>
+  </paragraphs> -->
 
 </section>

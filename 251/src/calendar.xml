@@ -5,375 +5,278 @@
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Calendar</title>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Jan 6/Tuesday Jan 7</p>
+      <p>Monday Mar 30</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.1%20Factoring%20Out%20the%20Common%20Factor.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIIJk5TgiNzpTktexDYGi_h" />
-      <p>
-        We will discuss the class format and orient you to the weekly routine.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-out-the-common-factor.html">Section 10.1 (Factoring Out the Common Factor)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/FactoringGCF.pdf">Factoring Out the GCF</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jan 8/Thursday Jan 9</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.2%20Factor%20by%20Grouping.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJjfJ70IFN5oMWg8i6AgAsm" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.3%20Factoring%20Trinomials%20with%20Leading%20Coefficient%20One.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIMQWceuZ3CJzFW8JF8DlwJ" />
-      <p>
-        Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-by-grouping.html">Section 10.2 (Factoring by Grouping)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-leading-coefficient-one.html">Section 10.3 (Factoring Trinomials with Leading Coefficient One)</url></li>
-        </ul>
+        <dl width="wide">
+          <li>
+            <title>PCC Calculus Lab Manual</title>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-velocity.html">Lab 1.1: Velocity</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-secant.html">Lab 1.2: Secant Line to a Curve</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-difference-quotient.html">Lab 1.3: The Difference Quotient</url>
+            </p>
+          </li>
+        </dl>
       </p>
       <p>
-        Day's in-class worksheets: <url href="Worksheets/Grouping.pdf">Factoring by Grouping</url>, <url href="Worksheets/MonicTrinomials.pdf">Factoring Monic Trinomials</url>
+        The lab write-up is due Wednesday April 1 at 9:00am.
+        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Jan 13/Tuesday Jan 14</p>
+      <p>Wednesday Apr 1</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.4%20Factoring%20Trinomials%20with%20a%20Nontrivial%20Leading%20Coefficient.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJ5xvcIDWbYew7SsretPyX_" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.5%20Factoring%20Special%20Polynomials.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJxPyMPH6CgUy-R-VvRlwpK" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-a-nontrivial-leading-coefficient.html">Section 10.4 (Factoring Trinomials with a Nontrivial Leading Coefficient)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-special-polynomials.html">Section 10.5 (Factoring Special Polynomials)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheets: <url href="Worksheets/NonMonicTrinomials.pdf">Factoring Non-Monic Trinomials</url>, <url href="Worksheets/SpecialFactorizations.pdf">Factoring Special Patterns</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jan 15/Thursday Jan 16</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.6%20Factoring%20Strategies.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLm5QkivDOJfubiKHn1d-_t" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.7%20Solving%20Quadratic%20Equations%20by%20Factoring.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIyYh6GTj-BgwXXeBxQCq1L" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-strategies.html">Section 10.6 (Factoring Strategies)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-quadratic-equations-by-factoring.html">Section 10.7 (Solving Quadratic Equations by Factoring)</url></li>
-        </ul>
+        <dl width="wide">
+          <li>
+            <title>Lab 1.1<ndash/>1.3 due</title>
+            <p>
+              This lab started Monday March 30.
+            </p>
+          </li>
+          <li>
+            <title>APEX Calculus</title>
+            <p>
+              Read sections <em>before</em> class.
+            </p>
+            <p>
+              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limit_intro.html">Section 1.1: An Introduction to Limits</url>
+            </p>
+            <p>
+              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limits_one_sided.html">Section 1.4: One-Sided Limits</url>
+            </p>
+          </li>
+          <li>
+            <title>PCC Calculus Lab Manual</title>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-limits.html">Lab 2.1: Limits</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-nonexistent-limits.html">Lab 2.7: Non-existant Limits</url>
+            </p>
+          </li>
+        </dl>
       </p>
       <p>
-        Day's in-class worksheet: <url href="Worksheets/SolveByFactoring.pdf">Use Factoring to Solve Equations</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Jan 20/Tuesday Jan 21</p>
-      <p>
-        Monday is Martin Luther King Jr. Day, a holiday. Class does not meet.
+        <webwork/> problem sets for APEX sections 1.1 and 1.4 are due Tuesday April 7 at 10:00pm.
+        On Wednesday morning, a timed <webwork/> quiz on sections 1.1 and 1.4 will open. You will have until Friday April 10 at 10:00pm to complete it.
       </p>
       <p>
-        Tuesday will be a practice exam and review day. Students from both sections are welcome.
-      </p>
-      <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jan 22/Thursday Jan 23</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.1%20Function%20Basics.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLcsn7Lr-wbUA8Z3HtmrqNE" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-function-basics.html">Section 11.1 (Function Basics)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/IntroToFunctions.pdf">Introduction to Functions</url>
+        The lab write-up is due Monday April 6 at 9:00am.
+        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Jan 27/Tuesday Jan 28</p>
+      <p>Monday Apr 6</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.2%20Domain%20and%20Range.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yKPhf9L6-xXch3hA8w8h0Wa" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-domain-and-range.html">Section 11.2 (Domain and Range)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/DomainAndRange.pdf">Domain and Range</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jan 29/Thursday Jan 30</p>
-      <p>
-        <xref ref="exam1" text="title"/>
-      </p>
-      <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Feb 3/Tuesday Feb 4</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.3%20Using%20Technology%20to%20Explore%20Functions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJpvlJzHp8UtF4zMEo_RcIy" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-using-technology-to-explore-functions.html">Section 11.3 (Using Technology to Explore Functions)</url></li>
-        </ul>
+        <dl width="wide">
+          <li>
+            <title>Lab 2.1, 2.7 due</title>
+            <p>
+              This lab started Wednesday April 1.
+            </p>
+          </li>
+          <li>
+            <title>APEX Calculus</title>
+            <p>
+              Read sections <em>before</em> class.
+            </p>
+            <p>
+              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limit_analytically.html">Section 1.3: Finding Limits Analytically</url>
+            </p>
+          </li>
+          <li>
+            <title>PCC Calculus Lab Manual</title>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-limit-laws.html">Lab 2.2: Limit Laws</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-indeterminate-limits.html">Lab 2.3: Indeterminate Limits</url>
+            </p>
+          </li>
+        </dl>
       </p>
       <p>
-        Day's in-class worksheet: <url href="Worksheets/FunctionsAndGraphingTechnology.pdf">Graphing Technology</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Feb 5/Thursday Feb 6</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.4%20Simplifying%20Expressions%20with%20Function%20Notation.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yL6Wtjo_0vJ9y3VjNEXwExp" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.5%20Technical%20Definition%20of%20a%20Function.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJTQoQ1HGtUvLcvMZPLTxr6" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-simplifying-expressions-with-function-notation.html">Section 11.4 (Simplifying Expressions with Function Notation)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-technical-definition-of-a-function.html">Section 11.5 (Technical Definition of a Function)</url></li>
-        </ul>
+        <webwork/> problem set for APEX section 1.3 is due Tuesday April 14 at 10:00pm.
+        On Wednesday morning, a timed <webwork/> quiz on sections 1.3 and 1.5 will open. You will have until Friday April 17 at 10:00pm to complete it.
       </p>
       <p>
-        Day's in-class worksheet: <url href="Worksheets/SimplifyingFunctionNotation.pdf">Simplifying Function Notation</url> and <url href="Worksheets/FormalDefinitionOfFunctions.pdf">Technical Definition of a Function</url>
+        The lab write-up is due Wednesday April 8 at 9:00am.
+        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Feb 10/Tuesday Feb 11</p>
+      <p>Tuesday Apr 7</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.1%20Introduction%20to%20Rational%20Functions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJ3vBv_N3gze7uhA7on5UB6" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.2%20Multiplication%20and%20Division%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJGfb3TKGVTJdRN8gtADFON" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-introduction-to-rational-functions.html">Section 12.1 (Introduction to Rational Functions)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-multiplication-and-division-of-rational-expressions.html">Section 12.2 (Multiplication and Division of Rational Expressions)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/ExploringRationalFunctions.pdf">Exploring Rational Functions</url> and <url href="Worksheets/MultiplyingRationalExpressions.pdf">Multiplying, Dividing, and Simplifying Rational Expressions</url>
-      </p>
-    </stack>
-    <!-- TODO: It may be better next time to save dividing until the following class, as a short topic to cover before adding and subtracting. -->
-    <stack>
-      <p>Wednesday Feb 12/Thursday Feb 13</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.3%20Addition%20and%20Subtraction%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJjmrYW1TtOzdGWE5wkx2nr" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-addition-and-subtraction-of-rational-expressions.html">Section 12.3 (Addition and Subtraction of Rational Expressions)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/AddingRationalExpressions.pdf">Adding and Subtracting Rational Expressions</url>
+        <dl width="wide">
+          <li>
+            <title><webwork/> homework due</title>
+            <p>
+              Due at 10:00pm. Corresponds to APEX sections 1.1 and 1.4.
+            </p>
+          </li>
+        </dl>
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Feb 17/Tuesday Feb 18</p>
+      <p>Wednesday Apr 8</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.4%20Complex%20Fractions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIlPrs4FG1oeB4oFsnfYOJs" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-complex-fractions.html">Section 12.4 (Complex Fractions)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/ComplexRationalExpressions.pdf">Complex Rational Expressions</url>
-      </p>
-      <p>
-        <url href="Worksheets/Exam2PreparationWinter2020.pdf">Exam 2 Practice Problems</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Feb 19/Thursday Feb 20</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.5%20Solving%20Rational%20Equations.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIt9yY2Tx_q7ZUVRE892Lc2" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-rational-equations.html">Section 12.5 (Solving Rational Equations)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/SolvingRationalEquations.pdf">Solving Rational Equations I</url>, <url href="Worksheets/SolvingRationalEquations2.pdf">Solving Rational Equations II</url> 
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Feb 24/Tuesday Feb 25</p>
-      <p>
-        <xref ref="exam2" text="title"/>
+        <dl width="wide">
+          <li>
+            <title>Lab 2.2, 2.3 due</title>
+            <p>
+              This lab started Monday April 1.
+            </p>
+          </li>
+          <li>
+            <title>APEX Calculus</title>
+            <p>
+              Read sections <em>before</em> class.
+            </p>
+            <p>
+              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_continuity.html">Section 1.5: Continuity</url>
+            </p>
+          </li>
+          <li>
+            <title>PCC Calculus Lab Manual</title>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-continuity.html">Lab 2.9: Continuity</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-discontinuities.html">Lab 2.10: Discontinuities</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-continuity-on-an-interval.html">Lab 2.11: Continuity on an Interval</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-discontinuous-formulas.html">Lab 2.12: Discontinuous Formulas</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-piecewise-defined-functions.html">Lab 2.13: Piecewise-Defined Functions</url>
+            </p>
+          </li>
+        </dl>
       </p>
       <p>
-        <url href="Worksheets/Exam2PreparationWinter2020.pdf">Exam 2 Practice Problems</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Feb 26/Thursday Feb 27</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.1%20Overview%20of%20Graphing.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLCKilC2b2doXUwO7Iaejzt" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-overview-of-graphing.html">Section 13.1 (Overview of Graphing)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [brief introduction]</url></li>
-        </ul>
+        <webwork/> problem set for APEX section 1.5 is due Tuesday April 14 at 10:00pm.
+        On Wednesday morning, a timed <webwork/> quiz on sections 1.3 and 1.5 will open. You will have until Friday April 17 at 10:00pm to complete it.
       </p>
       <p>
-        Day's in-class worksheet: <url href="Worksheets/GraphingReview.pdf">Graphing Review</url>
+        The lab write-up is due Monday April 13 at 9:00am.
+        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Mar 2/Tuesday Mar 3</p>
+      <p>Friday Apr 10</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.2%20Graphs%20and%20Vertex%20Form.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yKv88MN_pGzCC_I_tA5KjA5" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.3%20Completing%20the%20Square.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLkOWZ4nwq5wUzgAp9Wy6vj" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [continued]</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-completing-the-square.html">Section 13.3 (Completing the Square)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/QuadraticGraphsVertexForm.pdf">Quadratic Graphs and Vertex Form</url>, <url href="Worksheets/CompleteTheSquare.pdf">Completing the Square</url> 
-      </p>
-      <p>
-        <xref ref="written1" text="title"/> due.
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Mar 4/Thursday Mar 5</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.4%20Absolute%20Value%20Equations.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLxr9gbK4dvy688zkCvMRi7" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.5%20Solving%20Mixed%20Equations.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yL0f4Jvs-xY3VFQ3SMIo0Ja" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-absolute-value-equations.html">Section 13.4 (Absolute Value Equations)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-mixed-equations.html">Section 13.5 (Solving Mixed Equations)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/AbsValEquations.pdf">Absolute Value Equations</url>, <url href="Worksheets/SolvingGeneralEquations.pdf">Solving General Equations</url>
+        <dl width="wide">
+          <li>
+            <title><webwork/> quiz due</title>
+            <p>
+              Must have started by 10:00pm. Corresponds to APEX sections 1.1 and 1.4.
+            </p>
+          </li>
+        </dl>
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
     <stack>
-      <p>Monday Mar 9/Tuesday Mar 10</p>
+      <p>Monday Apr 13</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.6%20Compound%20Inequalities.pdf">Video lecture outline notes</url>.
+        <dl width="wide">
+          <li>
+            <title>Lab 2.9<ndash/>2.13 due</title>
+            <p>
+              This lab started Wednesday April 8.
+            </p>
+          </li>
+          <!-- <li>
+            <title>APEX Calculus</title>
+            <p>
+              Read sections <em>before</em> class.
+            </p>
+            <p>
+              <url href="http://www.cs.uleth.ca/~fitzpat/apex-calculus/sec_limit_analytically.html">Section 1.3: Finding Limits Analytically</url>
+            </p>
+          </li>
+          <li>
+            <title>PCC Calculus Lab Manual</title>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-limit-laws.html">Lab 2.2: Limit Laws</url>
+            </p>
+            <p>
+              <url href="https://spot.pcc.edu/math/clm/section-indeterminate-limits.html">Lab 2.3: Indeterminate Limits</url>
+            </p>
+          </li> -->
+        </dl>
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIJ7nSw6k49Z3QiZQKXjYOR" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-compound-inequalities.html">Section 13.6 (Compound Inequalities)</url></li>
-        </ul>
+      <!-- <p>
+        <webwork/> problem set for APEX section 1.3 is due Tuesday April 14 at 10:00pm.
+        On Wednesday morning, a timed <webwork/> quiz on sections 1.3 and 1.5 will open. You will have until Friday April 17 at 10:00pm to complete it.
       </p>
       <p>
-        <xref ref="written2" text="title"/> due.
-      </p>
-      <p>
-        Day's in-class worksheets: <url href="Worksheets/SolvingCompoundInequalities.pdf">Compound Inequalities</url>
-      </p>
-      <p>
-        <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
-      </p>
+        The lab write-up is due Wednesday April 8 at 9:00am.
+        Your access to the Google Doc for the lab will automatically turn over to <q>read only</q> at that time.
+      </p> -->
     </stack>
+  </sidebyside>
+
+  <sidebyside margins="0%">
     <stack>
-      <p>Wednesday Mar 11/Thursday Mar 12</p>
+      <p>Tuesday Apr 14</p>
       <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.7%20Solving%20Inequalities%20Graphically.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJnRjOAWdQp1TjzF7VemI58" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-inequalities-graphically.html">Section 13.7 (Solving Inequalities Graphically)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheets: <url href="Worksheets/SolvingInequalitiesGraphically.pdf">Solving Inequalities Graphically</url>
+        <dl width="wide">
+          <li>
+            <title><webwork/> homework due</title>
+            <p>
+              Due at 10:00pm. Corresponds to APEX sections 1.3 and 1.5.
+            </p>
+          </li>
+        </dl>
       </p>
     </stack>
   </sidebyside>
 
-  <sidebyside margins="0%" widths="47% 47%">
+  <sidebyside margins="0%">
+    <stack>
+      <p>Friday Apr 17</p>
+      <p>
+        <dl width="wide">
+          <li>
+            <title><webwork/> quiz due</title>
+            <p>
+              Must have started by 10:00pm. Corresponds to APEX sections 1.3 and 1.5.
+            </p>
+          </li>
+        </dl>
+      </p>
+    </stack>
+  </sidebyside>
+
+
+  <!-- <sidebyside margins="0%" widths="47% 47%">
     <stack>
       <p>Monday Mar 16/Tuesday Mar 17</p>
       <p>
@@ -402,5 +305,5 @@
         The Thursday 11:30 class does not meet this day during finals week.
       </p>
     </stack>
-  </sidebyside>
+  </sidebyside> -->
 </section>

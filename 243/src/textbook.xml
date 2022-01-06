@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Textbook</title>
+
+  <p>
+    We are using a <em>free</em> textbook written by David Diez, Mine Çetinkaya-Rundel, Leah Dorazio, and Christopher D Barr.
+    The book is called <pubtitle>Advanced High School Statistics</pubtitle>.
+    (The authors originally wrote it for high school AP statistics courses,
+    and chose this unfortunate name that might suggest it is not college level content.
+    But it really is standard college level statistics.)
+  </p>
+
+  <p>
+    Access this book:
+    <ul>
+      <li>
+        <p>
+          as a free HTML book at <url href="https://spot.pcc.edu/math/ahss/ed2">spot.pcc.edu/math/ahss/ed2</url>.
+        </p>
+      </li>
+      <li>
+        <p>
+          in various PDF forms at <url href="https://www.openintro.org/book/ahss/">www.openintro.org/book/ahss/</url>.
+        </p>
+      </li>
+      <li>
+        <p>
+          for purchase from the PCC book store for $20.00. (PCC will ship it to you for free during the pandemic closure.)
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Please note that there are some differences in the content between the HTML version of the book and the PDFs or printed copies.
+    These differences are not important, but you may notice them if you use both versions to study.
+  </p>
+
+</section>

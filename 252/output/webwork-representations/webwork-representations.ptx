@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10">
+      <statement>
+        <p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p>
+        <p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8"/></p>
+      </statement>
+      <answer>
+        <p><m>x^{7}</m></p>
+      </answer>
+      <solution>
+        <p>We <em>add</em> the exponents as follows:</p>
+        <p><me>\begin{aligned}
+        {x^{4}x^{3}}\amp=x^{4+3}\\
+        \amp=x^{7}
+        \end{aligned}</me></p>
+      </solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOwpURVhUKE1PREVTKFBUWD0+JycsSFRNTD0+JzxkaXYgc3R5bGU9ImRpc3BsYXk6bm9uZTsiPlwoXG5ld2NvbW1hbmR7XGFtcH17Jn1cKTwvZGl2PicpKTsKJGEgPSA0OwokYiA9IDM7CiRjID0gJGEgKyAkYjsKJGV4cHJlc3Npb24gPSBGb3JtdWxhKCJ4XigkYSkqeF4oJGIpIik7CkNvbnRleHQoIkxpbWl0ZWRQb2x5bm9taWFsLVN0cmljdCIpOwojIGN1c3RvbSBlcnJvciBtZXNzYWdlCkNvbnRleHQoKS0+e2Vycm9yfXttc2d9eyJBIHZhcmlhYmxlIGNhbiBhcHBlYXIgb25seSBvbmNlIGluIGVhY2ggdGVybSBvZiBhIHBvbHlub21pYWwifQogID0gIllvdXIgYW5zd2VyIG11c3QgYmUgZnVsbHkgc2ltcGxpZmllZCI7CiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0+CiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfQpgYGBdCgoKCgpFTkRfUEdNTF9TT0xVVElPTgoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork.pcc.edu" course-id="anonymous" user-id="anonymous" course-password="open"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2021-03-08T12:36:17-08:00       
+###   A recent stable commit (2020-08-09):   
+### 98f21740783f166a773df4dc83cab5293ab63a4a 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(8.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "answerHints.pl",
+  "contextLimitedPolynomial.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+$a = 4;
+$b = 3;
+$c = $a + $b;
+$expression = Formula("x^($a)*x^($b)");
+Context("LimitedPolynomial-Strict");
+# custom error message
+Context()->{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+  = "Your answer must be fully simplified";
+$answer = Formula("x^($c)");
+$product = $a*$b;
+$evaluator = $answer->cmp()->withPostFilter(AnswerHints(
+  [Compute("x^($product)")] =>
+  "When multiplying terms with the same base, you do not multiply the exponents."));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the properties of exponents to simplify [`[$expression]\text{.}`]
+
+[`[$expression]=`][_]{$evaluator}{8}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We _add_ the exponents as follows:
+
+[```\newcommand{\amp}{&}
+\begin{aligned}
+[$expression]\amp=x^{[$a]+[$b]}\\
+\amp=x^{[$c]}
+\end{aligned}
+```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+ </webwork-representations>

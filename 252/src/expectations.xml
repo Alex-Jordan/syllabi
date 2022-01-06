@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Expectations</title>
+
+    <p>
+        This term we are still managing courses remotely beause of the covid-19 pandemic.
+        The physical buildings at PCC are closed, and we cannot conduct in-person instruction.
+    </p>
+
+    <p>
+        We all have extra responsibilities this term. As the instructor, I need to use new ways to deliver the course to you at home.
+        I need to be creative and flexible with how we use technology. And you, the student, need to have self-discipline and complete
+        everything that I ask of you. And also to be brave and bring all of your concerns and questions to me as soon as you can.
+    </p>
+
+    <p>
+        We can boil down your responsibilities to the following list.
+        <ul>
+            <li>
+                <p>
+                    Attend the live sessions we will have in Zoom every Monday and Wednesday at 1:00.
+                    <!-- On Mondays, we will warm up with a light discussion of the
+                    <url href="www.sfu.ca/~vjungic/Small-Number/">Adventures of Small Number</url>.
+                    I will give a brief overview of the important points of the day, and I will take your questions,
+                    including questions you have about examples and exercises.
+                    Then most of the class time will be lecture/discsussion/lab.
+                    The final portion of class time can be used to work collaboratively (with me or classmates)
+                    on homework assignments. -->
+                </p>
+            </li>
+            <li>
+                <p>
+                    If you have to miss all or part of a class session, find time to watch the recording.
+                </p>
+            </li>
+            <li>
+                <p>
+                    For class Mondays, there is usually some small (and hopefully fun/interesting) thing that I ask you to do
+                    before coming to class. Please do these.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Collaborate with your classmates when it is appropriate during our live sessions.
+                    When needed, continue to collaborate with your classmates outside of class.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Complete homework (both written and <webwork/>) by its due date.
+                    Work on it early so you have lead time to seek help when needed.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Read sections of the <url href="https://opentext.uleth.ca/apex-video/apex-calculus.html">textbook</url>
+                    <em>ahead</em> of class. If it suits your learning style, watch the videos there as well.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Complete the weekly quiz that is assigned in <webwork/>.
+                    These quizzes are supposed to let you and me know if you internalized the most important lessons from the class.
+                    This will let us know if you are on track to do well with the exams.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use all the tools available to you to communicate with me about your concerns and your questions.
+                    <ul>
+                        <li>Direct Email</li>
+                        <li>D2L Discussion Posts (can be posted anonymously)</li>
+                        <li>Raising issues during the Zoom sessions</li>
+                        <li>Schedule one-on-one Zoom meeting with me</li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
+    </p>
+</section>

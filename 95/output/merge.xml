@@ -24,9 +24,20 @@
     <!-- This file has the contents of the title page of Alex Jordan's syllabus -->
     <frontmatter xml:id="frontmatter">
       <titlepage>
-        <date>Winter 2020</date>
+        <date>Spring 2020</date>
       </titlepage>
     </frontmatter>
+    <section>
+      <title>Basic Needs Statement</title>
+      <p>
+                PCC wants you to be successful and have resources that may help.
+                If you face challenges affording food or housing, or if you need access to technology,
+                this will naturally affect your classwork.
+                Check out these resources: <url href="https://www.pcc.edu/coronavirus/information-for-students/resources/">Student COVID-19 Resources</url>
+                and <url href="https://www.pcc.edu/enroll/paying-for-college/emergency-funds.html">Emergency Funds</url>.
+                You can also contact a campus Student Conduct and Retention Coordinator at <email>conductandcare@pcc.edu</email>.
+            </p>
+    </section>
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-contact-info">
       <title>Contact Information</title>
@@ -39,10 +50,16 @@
             <cell>Instructor: Alex Jordan</cell>
           </row>
           <row>
-            <cell>Office: CA SSB 317</cell>
+            <cell>
+          <line>Office: CA SSB 317 when PCC opens</line>
+          <line>(Use Zoom and email to contact me.)</line>
+        </cell>
           </row>
           <row>
-            <cell>Phone: 971-722-4138</cell>
+            <cell>
+          <line>Phone: 971-722-4138</line>
+          <line>(Not a good way to reach me this term.)</line>
+        </cell>
           </row>
           <row>
             <cell>email: <email>alex.jordan@pcc.edu</email></cell>
@@ -82,66 +99,76 @@
             <cell>Final Exam</cell>
           </row>
           <row bottom="minor">
-            <cell>13290</cell>
+            <cell>20948</cell>
             <cell>M/W</cell>
             <cell>2:00<ndash/>4:20</cell>
-            <cell>CA CH 210</cell>
+            <cell>
+          <line>online</line>
+          <line>CA CH 210 when PCC reopens</line>
+        </cell>
             <cell>
           <line>Wednesday</line>
-          <line>3/18/2020</line>
+          <line>6/10/2020</line>
           <line>2:00<ndash/>4:00</line>
         </cell>
           </row>
           <row bottom="major">
-            <cell>11255</cell>
+            <cell>20258</cell>
             <cell>Tu/Th</cell>
             <cell>11:30<ndash/>1:50</cell>
-            <cell>CA CH 210</cell>
+            <cell>
+          <line>online</line>
+          <line>CA CH 210 when PCC reopens</line>
+        </cell>
             <cell>
           <line>Tuesday</line>
-          <line>3/17/2020</line>
+          <line>6/9/2020</line>
           <line>11:00<ndash/>1:00</line>
         </cell>
           </row>
         </tabular>
       </sidebyside>
-      <p>
+      <!-- <p>
     I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
-  </p>
-      <sidebyside>
-        <tabular top="major" left="major">
-          <col/>
-          <col/>
-          <col right="major"/>
-          <row>
-            <cell colspan="3" halign="center">Office Hours</cell>
-          </row>
-          <row bottom="medium">
-            <cell>Day</cell>
-            <cell>Regular</cell>
-            <cell>Finals Week</cell>
-          </row>
-          <row bottom="minor">
-            <cell>Tuesday</cell>
-            <cell>10:00<ndash/>11:00 in SSB 317</cell>
-            <cell>TBD</cell>
-          </row>
-          <row bottom="minor">
-            <cell>Wednesday</cell>
-            <cell>10:00<ndash/>1:00 in SSB 317</cell>
-            <cell>TBD</cell>
-          </row>
-          <row bottom="major">
-            <cell>Thursday</cell>
-            <cell>10:00<ndash/>11:00 in SSB 317</cell>
-            <cell>TBD</cell>
-          </row>
-        </tabular>
-      </sidebyside>
+  </p> -->
+      <!-- <sidebyside>
+    <tabular top="major" left="major">
+      <col/>
+      <col/>
+      <col right="major"/>
+      <row>
+        <cell colspan="3" halign="center">Office Hours</cell>
+      </row>
+      <row bottom="medium">
+        <cell>Day</cell>
+        <cell>Regular</cell>
+        <cell>Finals Week</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Tuesday</cell>
+        <cell>10:00<ndash/>11:00 in SSB 317</cell>
+        <cell>TBD</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Wednesday</cell>
+        <cell>10:00<ndash/>1:00 in SSB 317</cell>
+        <cell>TBD</cell>
+      </row>
+      <row bottom="major">
+        <cell>Thursday</cell>
+        <cell>10:00<ndash/>11:00 in SSB 317</cell>
+        <cell>TBD</cell>
+      </row>
+    </tabular>
+  </sidebyside> -->
       <p>
-    Come visit me for help with the material, help with homework, or questions about your grade.
-    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
-    At least one of these office hours will move to the Cascade Student Learning Center once the SLC's schedule is more settled.
+    Office hours are by appointment. Just send me an email suggesting some times, and we'll set up a meeting on Zoom.
+    I'm not available MW 9:00<ndash/>11:50, MW 2:00<ndash/>4:20, and TuTh 11:30<ndash/>1:50.
+  </p>
+      <p>
+    Come visit me (virtually) for help with the material, help with homework, or questions about your grade.
+    <!-- If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
+    At least one of these office hours will move to the Cascade Student Learning Center once the SLC's schedule is more settled. -->
   </p>
       <p>
     While I do have an office phone number and voice mail,
@@ -191,30 +218,126 @@
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-expectations">
       <title>Expectations</title>
-      <p>MTH 95 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. For starters, this means:<ul><li>
-            <p>Complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
-        </li><li>
-            <p>Read the assigned material from the textbook and elsewhere.</p>
-        </li><li>
-            <p>Make time to visit me in office hours at the slightest sign of difficulty with material.</p>
-        </li></ul></p>
-      <p>The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
-      <p>Here are some other expectations:<ul><li>
-            <p>Maintain respect for yourself and your classmates.</p>
-        </li><li>
-            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
-        </li><li>
-            <p>Check your <c>pcc.edu</c> email at least once a day.</p>
-        </li><li>
-            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
-        </li></ul></p>
+      <p>
+        This term we are responding to the coronavirus pandemic.
+        The physcial buildings at PCC are closed, and we cannot conduct the usual face-to-face instruction that we are all used to
+        (both as students and as instructors).
+    </p>
+      <p>
+        We all have extra responsibilities this term. As the instructor, I need to find new ways to deliver the instruction to you at home.
+        I need to be creative and flexible with how we use technology. And you, the student, need to have the self-discipline to complete
+        everything that I ask of you. And also to be brave and bring all of your concerns and questions to me as soon as you can.
+    </p>
+      <p>
+        We can boil down your responsibilities to the following list.
+        <ul><li>
+                <p>
+                    Sign in to the live sessions we will have in Zoom at the regularly scheduled class time.
+                    I will give a brief overview of the important points of the day, and I will take your questions,
+                    including questions you have about examples and exercises.
+                    Then we will usually move to a group work portion of the class.
+                </p>
+                <p>
+                    If you have to miss all or part of a class session, watch the recording.
+                </p>
+            </li><li>
+                <p>
+                    Collaborate with your partners on the assignments during our live sessions.
+                    <em>When needed</em>, continue to collaborate with your lab partners outside of class.
+                    Your group must complete write-ups of each assignment by its due date.
+                </p>
+                <p>
+                    If you have to miss a class session, complete the assignment on your own by its due date.
+                </p>
+            </li><li>
+                <p>
+                    Read sections of the <url href="https://spot.pcc.edu/math/orcca/ed2/html/part-preparation-for-college-algebra.html">textbook</url> <em>ahead</em> of class.
+                    We will not be using class time to demonstrate examples,
+                    which is common in an in-person classroom setting. It would not be the best use of our time.
+                    (But there will be time to look at examples and exercises that you bring up.)
+                </p>
+            </li><li>
+                <p>
+                    Watch the videos that are embedded in the <url href="https://spot.pcc.edu/math/orcca/ed2/html/part-preparation-for-college-algebra.html">textbook</url>. My colleague at PCC produced these videos
+                    and they were made for our book specifically.
+                </p>
+            </li><li>
+                <p>
+                    Complete the homework exercises that are assigned in <webwork/>.
+                    There will be a problem set associated to each section of the textbook that we cover.
+                </p>
+            </li><li>
+                <p>
+                    Complete the weekly quiz that is assigned in <webwork/>.
+                    Each quiz is timed, and uses the questions from homework where the class had the least amount of success.
+                    This is intended to motivate you to do all of the homework and ask questions when you do not understand something yet.
+                </p>
+            </li><li>
+                <p>
+                    Use all the tools available to you to communicate with me about your concerns and your questions.
+                    <ul><li>Direct Email</li><li>D2L Discussion Posts (can be posted anonymously)</li><li>Raising issues during the Zoom sessions</li><li>Schedule one-on-one Zoom meeting with me</li></ul>
+                </p>
+            </li></ul>
+    </p>
     </section>
+    <!-- <section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Expectations</title>
+
+    <p>MTH 95 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. For starters, this means:<ul>
+        <li>
+            <p>Complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
+        </li>
+        <li>
+            <p>Read the assigned material from the textbook and elsewhere.</p>
+        </li>
+        <li>
+            <p>Make time to visit me in office hours at the slightest sign of difficulty with material.</p>
+        </li>
+    </ul></p>
+
+    <p>The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.  All students are further encouraged to work together<mdash />collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
+
+    <p>Here are some other expectations:<ul>
+        <li>
+            <p>Maintain respect for yourself and your classmates.</p>
+        </li>
+        <li>
+            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
+        </li>
+        <li>
+            <p>Check your <c>pcc.edu</c> email at least once a day.</p>
+        </li>
+        <li>
+            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
+        </li>
+    </ul></p>
+
+</section> -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="technology">
       <title>Technology Requirements</title>
-      <p>Part of this class will be learning how technology can assist you in exploring mathematical ideas.  In regular class time, a smart phone, tablet, or laptop is fine. During an exam, you must have a scientific or graphing calculator and you may not use other devices that connect to the internet. If you do not own one, there are options for you to borrow one. The only things you will need a calculator for during an exam are things that a plain old scientific calculator can do, not the specific graphing calculator tools.</p>
-      <p>You will need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
+      <p>
+    	Since we are in a remote teaching mode, it is essential that you have access to a computer, laptop, tablet, or at the very least a smart phone.
+    	And you need internet access. Ideally, your device and internet connection will work with the Zoom sessions,
+    	but otherwise you can call in to the Zoom meetings. You do not need to purchase or install Zoom.
+    </p>
+      <p>
+    	We will be using Google Docs for the in-class activities. As a PCC student, you have access to Google Docs.
+    	Typically I will simply send you a link to a Google Doc as needed. You may access all of your Google Docs by using PCC Gmail,
+    	and using the 3<times/>3 icon in the upper right.
+    </p>
+      <p>
+    	Homework and quizzes use <webwork/>. You log in to your <webwork/> account using a web browser.
+    </p>
     </section>
+    <!-- <section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Technology Requirements</title>
+
+    <p>Part of this class will be learning how technology can assist you in exploring mathematical ideas.  In regular class time, a smart phone, tablet, or laptop is fine. During an exam, you must have a scientific or graphing calculator and you may not use other devices that connect to the internet. If you do not own one, there are options for you to borrow one. The only things you will need a calculator for during an exam are things that a plain old scientific calculator can do, not the specific graphing calculator tools.</p>
+
+    <p>You will need Internet access for most of your homework. If you do not have Internet access at home, you can find it in PCC computer labs.</p>
+
+</section> -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-textbook">
       <title>Textbook</title>
@@ -261,41 +384,81 @@
     </p>
       </introduction>
       <paragraphs>
-        <title>In-class Group Work</title>
+        <title>Group Work</title>
         <p>
-      Most class days, you will work in small groups on a collection of exercises that go along with the lesson of the day.
-      If you work on these diligently during class time with your partners,
-      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
-      Sixteen of these count toward your final grade, so in total these are worth 8% of your grade.
+      Most class days, you will work in small groups on a collection of exercises.
+      Work on these diligently during class time with your partners,
+      and then turn in a completed write-up. You and your partners might finish during class,
+      but you may need to arrange to meet with each other after class.
+      You need to complete each activity before the next class meets.
     </p>
         <p>
-      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
-      The online syllabus will have the exercise packets from each day for you to download
-      using the <xref ref="section-calendar" text="title"/>.
-      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
+      If you miss class, you may complete the activity on your own and turn it in before the next class.
+    </p>
+        <p>
+      One grade will be assigned for each activity. All group memebers share the grade.
+      Each activity is worth 1% of your final grade, for a total of 16%.
+      (There will actually be 18 of these, and the lowest two scores will be dropped.)
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Video Lecture Notes</title>
+        <p>
+      With each section of the book, there are video lectures for you to watch.
+      As you watch them, there are video lecture notes you can fill out.
+      Complete each one <em>before</em> class, uploading it into the assignments in D2L.
+    </p>
+        <p>
+      There are 24 of these, and they are each worth 0.25% of your grade, for a total of 6%.
+    </p>
+        <p>
+      These are due <em>before</em> class starts. If you submit this to D2L late,
+      then you will only earn half credit.
     </p>
       </paragraphs>
       <paragraphs>
         <title>Online Homework</title>
         <p>
       You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>.
+      Usually, more than one section will be due at the same time.
+      You should start working on a homework assignment soon after the class that is associated with that section of the book.
+    </p>
+        <p>
+      Collectively, all the online homework is worth 12% of your final grade.
+    </p>
+      </paragraphs>
+      <paragraphs>
+        <title>Quizzes</title>
+        <p>
+      You have weekly quizzes using <webwork/>.
+      Each <webwork/> <em>homework</em> assignment is due in the middle of the week.
+      I will build a quiz that uses those homework questions for which there was the least overall success,
+      but still appropriate for a 1-hour time limit.
+      This is intended to motivate you to do all of the homework and ask questions when you do not understand something yet.
+      You take these quizzes when you are able to, but they must be completed by Friday evening at 10:00pm.
+      Each quiz is worth 2% and there are 8 quizzes, for a total of 16%.
+    </p>
+        <!-- <p>
+      See <xref ref="section-webwork" text="title"/> for details.
       The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
       the online homework is due the following Wednesday evening.
       You should start working on it soon after the class that works on that topic, ideally on the same day.
     </p>
-        <p>
+
+    <p>
       Collectively, all the online homework is worth 10% of your final grade.
-    </p>
+    </p> -->
       </paragraphs>
-      <paragraphs>
-        <title>Written Assignments</title>
-        <p>
+      <!-- <paragraphs>
+    <title>Written Assignments</title>
+      <p>
         In the last third of the course, your homework includes some exercises where you must write up something on paper.
         Turn these in on the days they are due.
         Each written assignment is worth 2% of your grade for a total of 6%.
         See <xref text="title" ref="section-written-assignments"/> for the specifics.
       </p>
-      </paragraphs>
+  </paragraphs> -->
       <!-- <paragraphs>
     <title>Contribution to the Book</title>
     <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
@@ -303,91 +466,135 @@
       <paragraphs>
         <title>Exams</title>
         <p>
-      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
-      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
-      Exams 1, 2, and 3 are each worth 25%, 25%, and 26%, of your grade.
+      The final exam will either be Tuesday June 9 or Wednesday June 10, depending on which section you are in.
+      Hopefully it will be on campus, in our classroom CH 210.
+      At this time we can't be sure. The final exam will be worth 25% of your grade.
+    </p>
+        <p>
+      There will also be a midterm exam. Because of the virus response, its format and location are not yet known.
+      Tentatively, it will be an in-person exam in our classroom CH 210, either Wednesday May 6 or Thursday May 7.
+      The midterm will be worth 25% of your grade.
     </p>
       </paragraphs>
-      <paragraphs>
-        <title>Optional Class Prep Assignments</title>
-        <p>
+      <!-- <paragraphs>
+    <title>Optional Class Prep Assignments</title>
+    <p>
       This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
       padding your grade with some work that is easy to do if you budget time for it.
       At the same time, it wil get you to engage more fully with the material and it should ultimately
       help you do better on the exams.
     </p>
-        <p>
+    <p>
       Each class day, you could come to class having <em>already</em> watched the video lessons for the day's section.
       As you watch the videos, there are video lecture notes that you could complete.
       Bringing these notes to me on the class day counts as proof that you watch the videos and engaged with them.
       For each section, I will record that you watched the videos and took notes, which credits you with 0.5% toward your grade,
       reducing the corresponding exam weight by 0.5%.
     </p>
-        <p>
+    <p>
       If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
     </p>
-        <p>
+    <p>
       You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
       In class on the first day, we will discuss more how this works.
     </p>
-      </paragraphs>
+  </paragraphs> -->
     </section>
-    <!-- This file is part of Alex Jordan's syllabus -->
-    <section xml:id="section-downloads">
-      <title>Course Downloads</title>
-      <subsection>
-        <title>In-class Notes</title>
-        <p>
-      These note files are not a substitute for attending class.
-      We discuss things in class that are not always clear from these written notes alone.
+    <!-- <section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grades</title>
+
+  <introduction>
+    <p>
+      General PCC Grading Guidelines are found at
+      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
     </p>
-        <p>
-      <ul><li>
-          <p><url href="./Notes/NotesSection10-1fromJan6or7.pdf">Section 10.1 from Jan 6 or 7</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections10-2,10-3fromJan8or9.pdf">Sections 10.2 and 10.3 from Jan 8 or 9</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections10-4,10-5fromJan13.pdf">Sections 10.4 and 10.5 from Jan 13</url></p>
-          <p><url href="./Notes/NotesSections10-4,10-5fromJan14.pdf">Sections 10.4 and 10.5 from Jan 14</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections10-6,10-7fromJan15.pdf">Sections 10.6 and 10.7 from Jan 15</url></p>
-          <p><url href="./Notes/NotesSections10-6,10-7fromJan15.pdf">Sections 10.6 and 10.7 from Jan 16</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection11-1fromJan22or23.pdf">Section 11.1 from Jan 22 or 23</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection11-2fromJan27or28.pdf">Section 11.2 from Jan 27 or 28</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection11-3fromFeb3or4.pdf">Section 11.3 from Feb 3 or 4</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections11-4,11-5Feb5or6.pdf">Sections 11.4 and 11.5 from Feb 5 or 6</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections12-1,12-2Feb10or11.pdf">Sections 12.1 and 12.2 from Feb 10 or 11</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection12-3Feb12or13.pdf">Section 12.3 from Feb 12 or 13</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections12-4,12-5Feb17or18.pdf">Sections 12.4 and 12.5 from Feb 17 or 18</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection12-5Feb19or20.pdf">Section 12.5 from Feb 19 or 20</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections13-1,13-2Feb26or27.pdf">Sections 13.1 and 13.2 from Feb 26 or 27</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections13-2,13-3Mar2or3.pdf">Sections 13.2 and 13.3 from Mar 2 or 3</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSections13-4,13-5Mar4or5.pdf">Sections 13.4 and 13.5 from Mar 4 or 5</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection13-6Mar9or10.pdf">Section 13.6 from Mar 9 or 10</url></p>
-        </li><li>
-          <p><url href="./Notes/NotesSection13-7Mar11or12.pdf">Section 13.7 from Mar 11 or 12</url></p>
-        </li></ul>
+  </introduction>
+
+  <paragraphs>
+    <title>In-class Group Work</title>
+    <p>
+      Most class days, you will work in small groups on a collection of exercises that go along with the lesson of the day.
+      If you work on these diligently during class time with your partners,
+      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
+      Sixteen of these count toward your final grade, so in total these are worth 8% of your grade.
     </p>
-      </subsection>
-    </section>
+
+    <p>
+      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
+      The online syllabus will have the exercise packets from each day for you to download
+      using the <xref ref="section-calendar" text="title"/>.
+      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Online Homework</title>
+    <p>
+      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
+      the online homework is due the following Wednesday evening.
+      You should start working on it soon after the class that works on that topic, ideally on the same day.
+    </p>
+
+    <p>
+      Collectively, all the online homework is worth 10% of your final grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Written Assignments</title>
+      <p>
+        In the last third of the course, your homework includes some exercises where you must write up something on paper.
+        Turn these in on the days they are due.
+        Each written assignment is worth 2% of your grade for a total of 6%.
+        See <xref text="title" ref="section-written-assignments"/> for the specifics.
+      </p>
+  </paragraphs> -->
+    <!-- <paragraphs>
+    <title>Contribution to the Book</title>
+    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
+  </paragraphs> -->
+    <!-- <paragraphs>
+    <title>Exams</title>
+    <p>
+      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
+      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
+      Exams 1, 2, and 3 are each worth 25%, 25%, and 26%, of your grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Optional Class Prep Assignments</title>
+    <p>
+      This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
+      padding your grade with some work that is easy to do if you budget time for it.
+      At the same time, it wil get you to engage more fully with the material and it should ultimately
+      help you do better on the exams.
+    </p>
+    <p>
+      Each class day, you could come to class having <em>already</em> watched the video lessons for the day's section.
+      As you watch the videos, there are video lecture notes that you could complete.
+      Bringing these notes to me on the class day counts as proof that you watch the videos and engaged with them.
+      For each section, I will record that you watched the videos and took notes, which credits you with 0.5% toward your grade,
+      reducing the corresponding exam weight by 0.5%.
+    </p>
+    <p>
+      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
+    </p>
+    <p>
+      You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
+      In class on the first day, we will discuss more how this works.
+    </p>
+  </paragraphs>
+
+</section> -->
+    <!-- <xi:include href="./downloads.xml" /> -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-webwork">
       <title>WeBWorK Assignments</title>
       <p>
     I have made an account for you on a program called <webwork/> at
-    <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-202001/">webwork.pcc.edu/webwork2/mth095-jordan-202001</url>.
+    <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-202002/">webwork.pcc.edu/webwork2/mth095-jordan-202002</url>.
     Each week there are problem sets and you are required to answer them online using <webwork/>.
     The topics that we cover in a week have exercises that are typically due Wednesday of the following week
     at 10:00<nbsp/><pm/>, but can be worked on much earlier.
@@ -398,7 +605,7 @@
   </p>
       <exercise xml:id="webwork-demo">
         <title>Multiply Powers</title>
-        <webwork-reps xml:id="extracted-webwork-6" ww-id="webwork-6" server-url="https://webwork.pcc.edu/" courseID="anonymous" userID="anonymous" password="anonymous" course-password="open" seed="6">
+        <webwork-reps xml:id="extracted-webwork-12" ww-id="webwork-12">
     <authored>
 
         <setup><pg-code>
@@ -431,7 +638,7 @@
     </authored>
 
 
-    <static>
+    <static seed="12">
       <statement><p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p><p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8"/></p></statement>
       <answer><p><m>x^{7}</m></p></answer>
 
@@ -441,18 +648,18 @@
       \end{aligned}</me></p></solution>
     </static>
 
-    <problemSource hint="yes" solution="yes">RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0+JycsSFRNTD0+cUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0+CiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==</problemSource>
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
 
-    <problemSource hint="yes" solution="no">RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0+JycsSFRNTD0+cUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0+CiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==</problemSource>
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
 
-    <problemSource hint="no" solution="yes">RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0+JycsSFRNTD0+cUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0+CiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw==</problemSource>
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
 
-    <problemSource hint="no" solution="no">RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0+JycsSFRNTD0+cUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0+CiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==</problemSource>
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
 
     <pg>
 #######################################
 ###    Generated from PreTeXt source   
-###    on 2020-01-06T09:46:38-08:00    
+###    on 2020-04-08T14:35:55-07:00    
 ###                                    
 ###      https://pretextbook.org       
 ###                                    
@@ -493,7 +700,7 @@ COMMENT('Authored in PreTeXt PreTeXt');
 TEXT(beginproblem());
 
 ############################################################
-# PG Setup
+# PG Setup Code
 ############################################################
 $a = 4;
 $b = 3;
@@ -608,7 +815,7 @@ ENDDOCUMENT();
         <title>Logging in to WeBWorK</title>
         <p>
       Go directly to
-      <url href="https://webwork.pcc.edu/webwork2/mth060-jordan-201904/">webwork.pcc.edu/webwork2/mth060-jordan-201904</url>.
+      <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-202002/">webwork.pcc.edu/webwork2/mth095-jordan-202002</url>.
       If you are working at your own computer, you might want to bookmark this link.
       Your username is your PCC email prefix, using all lowercase letters.
       For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>.
@@ -699,111 +906,35 @@ ENDDOCUMENT();
     </p>
       </paragraphs>
     </section>
-    <!-- This file is part of Alex Jordan's syllabus -->
-    <section xml:id="section-written-assignments">
-      <title>Written Assignments</title>
-      <p>
-    These must be turned in no later than their posted due dates.
-    These are where you will get to show me your mathematical writing and graphing skills.
-  </p>
-      <p>
-    The most important thing to understand about your written homework
-    is that <alert>you are not merely finding and giving answers</alert>.
-    You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>
-    In general, your write-ups should respect these <q>five C's</q>:
-    <dl width="narrow"><li>
-        <title>Clarity</title>
-        <p>
-          Am I able to read your work? Is your writing legible?
-          Have you written complete sentences that make sense, where appropriate?
-          If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent?
-          Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title.
-          If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.
-        </p>
-      </li><li>
-        <title>Correctness</title>
-        <p>
-          Are your numerical answers and conclusions accurate?
-          Often you can check that your numbers are correct by substituting numbers back into earlier equations.
-          Also, by asking yourself if the numbers that you find make sense in the context of the problem.
-          It's not a bad idea to include these checks with your work.
-        </p>
-      </li><li>
-        <title>Conciseness</title>
-        <p>
-          Have you rambled on with extra content that is not relevant to solving the problem?
-          This is distracting and hurts the overall ability of your write-up to communicate effectively.
-        </p>
-      </li><li>
-        <title>self-Containment</title>
-        <p>
-          The response to the question that you submit should make it clear what the original question was.
-          Put yourself in the shoes of another student from the class
-          who does not have the original homework assignment in front of them.
-          Would they be able to understand what you are talking about? At a minimum,
-          this means that <alert>you must give an introduction of some kind that lets your reader know
-          what you are about to investigate</alert>.
-          Also, include any and all charts, graphs, and mathematical expressions that were given in the problem,
-          and explain their meaning, even if you do so merely with labels.
-        </p>
-      </li><li>
-        <title>Conclusions</title>
-        <p>
-          Some problems come with context (<q>word problems</q>).
-          When writing your final answer to such a question,
-          you need to put that answer in its full context with a conclusion statement that is a complete English sentence.
-          As an example, writing <q><m>x=70</m></q> or <q>He needs $70</q> will not be good enough
-          if there is more context to the problem.
-          Instead, something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q>
-          is a conclusion statement with all of the context in it.
-          For problems without context, conclusion statements like <q>The solution set is <m>\{70\}</m>.</q> are acceptable.
-        </p>
-      </li></dl>
-  </p>
-      <p>
-        <dl>
-          <li xml:id="written1">
-            <title>Written HW 1</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul><li>
-                    <p>Section 13.1, #1, 5, 7, 9, 11, 15.</p>
-                </li></ul></p>
-        </li>
-          <li xml:id="written2">
-            <title>Written HW 2</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul><li>
-                    <p>Section 13.2, #25.</p>
-                </li><li>
-                    <p>Section 13.3, #47, 49, 51, 55.</p>
-                </li></ul></p>
-        </li>
-          <li xml:id="written3">
-            <title>Written HW 3</title>
-            <p>Please see calendar for due date.</p>
-            <p><ul><li>
-                    <p>Section 13.4, #11.</p>
-                </li><li>
-                    <p>Section 13.7, #9, 11.</p>
-                </li></ul></p>
-        </li>
-        </dl>
-      </p>
-    </section>
+    <!-- <xi:include href="./written-assignments.xml" /> -->
     <!-- <xi:include href="./contributions.xml" /> -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="section-exams">
       <title>Exams</title>
-      <introduction>
-        <p>
+      <p>
+    Because of the coronavirus response, we do not yet know all details of how exams will be administered
+    or even on which days. It is possible there will be an in-person midterm on Wednesday May 6,
+    and an in-person final exam on Monday June 8. If they are in-person, they will be in TH 200, 9:00<ndash/>11:50.
+  </p>
+      <p>
+    The midterm exam and the final exam will each be worth 25% of your final grade.
+  </p>
+    </section>
+    <!-- <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exams</title>
+
+  <introduction>
+    <p>
       Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
     </p>
-        <p>
+    <p>
       About a week before each exam, you will receive a practice exam.
       Practice exams are typically longer than the real exam to give you more to practice with.
     </p>
-        <p>
-      <dl width="narrow"><li xml:id="exam1">
+
+    <p>
+      <dl width="narrow">
+        <li xml:id="exam1">
           <title>Exam 1 (21<ndash/>25%)</title>
           <p>
             Covers sections 10.1<ndash/>11.1.
@@ -811,7 +942,8 @@ ENDDOCUMENT();
           <p>
             You'll have the entire class period for this exam if you need it.
           </p>
-        </li><li xml:id="exam2">
+        </li>
+        <li xml:id="exam2">
           <title>Exam 2 (21<ndash/>25%)</title>
           <p>
             Covers sections 11.2<ndash/>12.4.
@@ -821,7 +953,8 @@ ENDDOCUMENT();
           <p>
             You'll have the entire class period for this exam if you need it.
           </p>
-        </li><li xml:id="exam3">
+        </li>
+        <li xml:id="exam3">
           <title>Exam 3 (22<ndash/>26%)</title>
           <p>
             Covers sections 12.5<ndash/>13.7.
@@ -831,12 +964,14 @@ ENDDOCUMENT();
           <p>
             This exam is during finals week and is only two hours long.
           </p>
-        </li></dl>
+        </li>
+      </dl>
     </p>
-      </introduction>
-      <paragraphs>
-        <title>Missing an Exam</title>
-        <p>
+  </introduction>
+
+  <paragraphs>
+    <title>Missing an Exam</title>
+    <p>
       If you miss an exam, you must contact me within one day to explain why
       or I might not be able to allow a make-up and you would receive a zero.
       <alert>Make-up exams are only permitted under extreme circumstances.
@@ -848,69 +983,86 @@ ENDDOCUMENT();
       to learn what time you might be able to make up the exam.
       If you are going to miss the final exam, contact me before the test is given.
     </p>
-        <p>
+    <p>
       Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
       Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>Exam Redos</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Exam Redos</title>
+    <p>
       There may be opportunities to try an exam for a second, or even a third time.
       These opportunities will be discussed in class if and when they arise.
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>Accommodated Testing</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Accommodated Testing</title>
+    <p>
       Students who experience disability-related barriers should contact Disability Services:
       <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
       If students elect to use approved academic adjustments, they must provide, in advance,
       formal notification from Disability Services to the instructor.
       Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
     </p>
-      </paragraphs>
-    </section>
+  </paragraphs>
+
+</section> -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="resources">
       <title>Student Resources</title>
-      <introduction>
-        <p>
+      <p>
+    PCC wants you to be successful and have resources that may help.
+    If you face challenges affording food or housing, or if you need access to technology,
+    this will naturally affect your classwork.
+    Check out these resources: <url href="https://www.pcc.edu/coronavirus/information-for-students/resources/">Student COVID-19 Resources</url>
+    and <url href="https://www.pcc.edu/enroll/paying-for-college/emergency-funds.html">Emergency Funds</url>.
+    You can also contact a campus Student Conduct and Retention Coordinator at <email>conductandcare@pcc.edu</email>.
+  </p>
+    </section>
+    <!-- <section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Student Resources</title>
+
+  <introduction>
+    <p>
       PCC and the world at large offer several resources that you may benefit from while taking this course.
     </p>
-      </introduction>
-      <paragraphs>
-        <title>Tutoring</title>
-        <p>
+  </introduction>
+
+  <paragraphs>
+    <title>Tutoring</title>
+    <p>
       The Student Learning Center at Cascade offers free tutoring in math.
       You should find some time to check it out, if you haven't already.
       Details can be found at
       <url href="http://www.pcc.edu/resources/tutoring/cascade/">www.pcc.edu/resources/tutoring/cascade</url>.
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>PCC Student Learning Center Math Self-Study Resources</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>PCC Student Learning Center Math Self-Study Resources</title>
+    <p>
       Some PCC faculty have been putting together self-study material for mathematics topics,
       including the topics in this course. If you would like to see an alternative to what is in your textbook,
       please visit
       <url href="https://spot.pcc.edu/slc/mathresources/output/html/">spot.pcc.edu/slc/mathresources/output/html/</url>.
     </p>
-      </paragraphs>
-      <!-- <paragraphs>
+  </paragraphs> -->
+    <!-- <paragraphs>
     <title>Calculator Handbooks</title>
     <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
   </paragraphs> -->
-      <paragraphs>
-        <title>College Success Courses</title>
-        <p>
+    <!-- <paragraphs>
+    <title>College Success Courses</title>
+    <p>
       There are several one-credit courses available to help you maximize your success in the college experience.
       These include courses specifically geared toward study skills.
       The following site offers information on these courses as well as tips for success:
       <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.
     </p>
-      </paragraphs>
-      <!-- <paragraphs>
+  </paragraphs> -->
+    <!-- <paragraphs>
     <title>Online Videos</title>
     <p>
       At the Khan Academy (<url href="http://www.khanacademy.org">www.khanacademy.org</url>)
@@ -922,94 +1074,99 @@ ENDDOCUMENT();
       If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.
     </p>
   </paragraphs> -->
-      <paragraphs>
-        <title>Counseling Services</title>
-        <p>
+    <!-- <paragraphs>
+    <title>Counseling Services</title>
+    <p>
       (SSB 124, 971-722-5271)
     </p>
-        <p>
+    <p>
       Get help with personal or career concerns that may be impacting your academic success.
       Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.
     </p>
-        <p>
+    <p>
       <url href="http://www.pcc.edu/resources/counseling/">www.pcc.edu/resources/counseling</url>.
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>Multicultural Center</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Multicultural Center</title>
+    <p>
       (CA SU 302, 971-722-5795)
     </p>
-        <p>
+    <p>
       A welcoming and inclusive space for diverse students.
       One of the many services is one-on-one help for math courses, drop-in or by appointment:
     </p>
-        <p>
+    <p>
       <url href="http://www.pcc.edu/resources/culture/">www.pcc.edu/resources/culture</url>
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>Queer Resource Center</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Queer Resource Center</title>
+    <p>
       (CA SU 302)
     </p>
-        <p>
+    <p>
       A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:
     </p>
-        <p>
+    <p>
       <url href="https://www.pcc.edu/queer/">www.pcc.edu/queer</url>
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>Student Computing Center</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Student Computing Center</title>
+    <p>
       (CA TEB 125, 971-722-5440)
     </p>
-        <p>
+    <p>
       Internet access, mathematics computer programs, and more (orientation required).
     </p>
-        <p>
+    <p>
       <url href="http://www.pcc.edu/resources/computer-labs/">www.pcc.edu/resources/computer-labs/</url>
     </p>
-        <p>
+    <p>
       Allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term).
     </p>
-        <p>
+    <p>
       <url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url>
     </p>
-      </paragraphs>
-      <!-- <paragraphs>
+  </paragraphs> -->
+    <!-- <paragraphs>
     <title>Student Learning Center</title>
     <p>(SY Library, 971–722–4540)</p>
     <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
     <p><url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url></p>
   </paragraphs> -->
-      <paragraphs>
-        <title>Veteran's Resource Center</title>
-        <p>
+    <!-- <paragraphs>
+    <title>Veteran's Resource Center</title>
+    <p>
       (SSB 201, 971-722-5458)
     </p>
-        <p>
+    <p>
       Relax, connect, computer workstations, work study and volunteer opportunities, and more.
       For additional information:
     </p>
-        <p>
+    <p>
       <url href="http://www.pcc.edu/resources/veterans/cascade">www.pcc.edu/resources/veterans/cascade</url>
     </p>
-      </paragraphs>
-      <paragraphs>
-        <title>Women's Resource Center</title>
-        <p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Women's Resource Center</title>
+    <p>
       (CA SU 301, 971-722-5249)
     </p>
-        <p>
+    <p>
       A wide variety of services that support the academic achievement of women:
     </p>
-        <p>
+    <p>
       <url href="http://www.pcc.edu/resources/women/cascade">www.pcc.edu/resources/women/cascade</url>
     </p>
-      </paragraphs>
-    </section>
+  </paragraphs>
+</section>
+ -->
     <!-- This file is part of Alex Jordan's syllabus -->
     <section xml:id="miscellaneous">
       <title>Miscellaneous Items</title>
@@ -1124,7 +1281,7 @@ ENDDOCUMENT();
           <col right="major"/>
           <row>
             <cell>Sat</cell>
-            <cell>Jan 11</cell>
+            <cell>Apr 4</cell>
             <cell>
           <line>Last day to choose financial aid refund option:</line>
           <line><url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</url>.</line>
@@ -1134,12 +1291,12 @@ ENDDOCUMENT();
           </row>
           <row>
             <cell>Tue</cell>
-            <cell>Jan 14</cell>
+            <cell>Apr 7</cell>
             <cell>Last day to add classes.</cell>
           </row>
           <row bottom="major">
             <cell>Sat</cell>
-            <cell>Feb 29</cell>
+            <cell>May 23</cell>
             <cell>
           <line>Last day to change grade option for 11<ndash/>12 week classes:</line>
           <line><url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url>.</line>
@@ -1155,7 +1312,7 @@ ENDDOCUMENT();
       <title>Calendar</title>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Jan 6/Tuesday Jan 7</p>
+      <p>Monday Mar 30/Tuesday Mar 31</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.1%20Factoring%20Out%20the%20Common%20Factor.pdf">Video lecture outline notes</url>.
       </p>
@@ -1166,12 +1323,12 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-out-the-common-factor.html">Section 10.1 (Factoring Out the Common Factor)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/FactoringGCF.pdf">Factoring Out the GCF</url>
-      </p>
+      </p> -->
     </stack>
         <stack>
-      <p>Wednesday Jan 8/Thursday Jan 9</p>
+      <p>Wednesday Apr 1/Thursday Apr 2</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.2%20Factor%20by%20Grouping.pdf">Video lecture outline notes</url>.
       </p>
@@ -1184,14 +1341,14 @@ ENDDOCUMENT();
         Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-by-grouping.html">Section 10.2 (Factoring by Grouping)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-leading-coefficient-one.html">Section 10.3 (Factoring Trinomials with Leading Coefficient One)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheets: <url href="Worksheets/Grouping.pdf">Factoring by Grouping</url>, <url href="Worksheets/MonicTrinomials.pdf">Factoring Monic Trinomials</url>
-      </p>
+      </p> -->
     </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Jan 13/Tuesday Jan 14</p>
+      <p>Monday Apr 6/Tuesday Apr 7</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.4%20Factoring%20Trinomials%20with%20a%20Nontrivial%20Leading%20Coefficient.pdf">Video lecture outline notes</url>.
       </p>
@@ -1203,12 +1360,12 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-a-nontrivial-leading-coefficient.html">Section 10.4 (Factoring Trinomials with a Nontrivial Leading Coefficient)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-special-polynomials.html">Section 10.5 (Factoring Special Polynomials)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheets: <url href="Worksheets/NonMonicTrinomials.pdf">Factoring Non-Monic Trinomials</url>, <url href="Worksheets/SpecialFactorizations.pdf">Factoring Special Patterns</url>
-      </p>
+      </p> -->
     </stack>
         <stack>
-      <p>Wednesday Jan 15/Thursday Jan 16</p>
+      <p>Wednesday Apr 8/Thursday Apr 9</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.6%20Factoring%20Strategies.pdf">Video lecture outline notes</url>.
       </p>
@@ -1220,26 +1377,14 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-strategies.html">Section 10.6 (Factoring Strategies)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-quadratic-equations-by-factoring.html">Section 10.7 (Solving Quadratic Equations by Factoring)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/SolveByFactoring.pdf">Use Factoring to Solve Equations</url>
-      </p>
+      </p> -->
     </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Jan 20/Tuesday Jan 21</p>
-      <p>
-        Monday is Martin Luther King Jr. Day, a holiday. Class does not meet.
-      </p>
-      <p>
-        Tuesday will be a practice exam and review day. Students from both sections are welcome.
-      </p>
-      <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p>
-    </stack>
-        <stack>
-      <p>Wednesday Jan 22/Thursday Jan 23</p>
+      <p>Monday Apr 13/Tuesday Apr 14</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.1%20Function%20Basics.pdf">Video lecture outline notes</url>.
       </p>
@@ -1247,14 +1392,12 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-function-basics.html">Section 11.1 (Function Basics)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/IntroToFunctions.pdf">Introduction to Functions</url>
-      </p>
+      </p> -->
     </stack>
-      </sidebyside>
-      <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Jan 27/Tuesday Jan 28</p>
+      <p>Wednesday Apr 15/Thursday Apr 16</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.2%20Domain%20and%20Range.pdf">Video lecture outline notes</url>.
       </p>
@@ -1262,23 +1405,14 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-domain-and-range.html">Section 11.2 (Domain and Range)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/DomainAndRange.pdf">Domain and Range</url>
-      </p>
-    </stack>
-        <stack>
-      <p>Wednesday Jan 29/Thursday Jan 30</p>
-      <p>
-        <xref ref="exam1" text="title"/>
-      </p>
-      <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p>
+      </p> -->
     </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Feb 3/Tuesday Feb 4</p>
+      <p>Monday Apr 20/Tuesday Apr 21</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.3%20Using%20Technology%20to%20Explore%20Functions.pdf">Video lecture outline notes</url>.
       </p>
@@ -1286,12 +1420,12 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-using-technology-to-explore-functions.html">Section 11.3 (Using Technology to Explore Functions)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/FunctionsAndGraphingTechnology.pdf">Graphing Technology</url>
-      </p>
+      </p> -->
     </stack>
         <stack>
-      <p>Wednesday Feb 5/Thursday Feb 6</p>
+      <p>Wednesday Apr 22/Thursday Apr 23</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.4%20Simplifying%20Expressions%20with%20Function%20Notation.pdf">Video lecture outline notes</url>.
       </p>
@@ -1303,14 +1437,26 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-simplifying-expressions-with-function-notation.html">Section 11.4 (Simplifying Expressions with Function Notation)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-technical-definition-of-a-function.html">Section 11.5 (Technical Definition of a Function)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/SimplifyingFunctionNotation.pdf">Simplifying Function Notation</url> and <url href="Worksheets/FormalDefinitionOfFunctions.pdf">Technical Definition of a Function</url>
-      </p>
+      </p> -->
     </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Feb 10/Tuesday Feb 11</p>
+      <p>Monday Apr 27/Tuesday Apr 28</p>
+      <p>
+        Monday's class will review for the exam the following week.
+      </p>
+      <p>
+        Tuesday's class doesn't meet, because it is a faculty work day.
+      </p>
+      <!-- <p>
+        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
+      </p> -->
+    </stack>
+        <stack>
+      <p>Wednesday Apr 29/Thursday Apr 30</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.1%20Introduction%20to%20Rational%20Functions.pdf">Video lecture outline notes</url>.
       </p>
@@ -1322,34 +1468,49 @@ ENDDOCUMENT();
       <p>Readings from the book:
         <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-introduction-to-rational-functions.html">Section 12.1 (Introduction to Rational Functions)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-multiplication-and-division-of-rational-expressions.html">Section 12.2 (Multiplication and Division of Rational Expressions)</url></li></ul>
       </p>
-      <p>
+      <!-- <p>
         Day's in-class worksheet: <url href="Worksheets/ExploringRationalFunctions.pdf">Exploring Rational Functions</url> and <url href="Worksheets/MultiplyingRationalExpressions.pdf">Multiplying, Dividing, and Simplifying Rational Expressions</url>
-      </p>
-    </stack>
-        <!-- TODO: It may be better next time to save dividing until the following class, as a short topic to cover before adding and subtracting. -->
-        <stack>
-      <p>Wednesday Feb 12/Thursday Feb 13</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.3%20Addition%20and%20Subtraction%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJjmrYW1TtOzdGWE5wkx2nr"/>
-      <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-addition-and-subtraction-of-rational-expressions.html">Section 12.3 (Addition and Subtraction of Rational Expressions)</url></li></ul>
       </p>
       <p>
         Day's in-class worksheet: <url href="Worksheets/AddingRationalExpressions.pdf">Adding and Subtracting Rational Expressions</url>
-      </p>
+      </p> -->
     </stack>
       </sidebyside>
       <sidebyside margins="0%" widths="47% 47%">
         <stack>
-      <p>Monday Feb 17/Tuesday Feb 18</p>
+      <p>Monday May 4/Tuesday May 5</p>
+      <p>
+        TBD
+      </p>
+      <!-- <p>
+        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.3%20Addition%20and%20Subtraction%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
+      </p>
+      <video youtubeplaylist="PLfPh0EsBc0yJjmrYW1TtOzdGWE5wkx2nr" />
+      <p>Readings from the book:
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-addition-and-subtraction-of-rational-expressions.html">Section 12.3 (Addition and Subtraction of Rational Expressions)</url></li>
+        </ul>
+      </p> -->
+    </stack>
+        <stack>
+      <p>Wednesday May 6/Thursday May 7</p>
+      <p>
+        Exam 1
+        <!-- <xref ref="exam1" text="title"/> -->
+      </p>
+    </stack>
+      </sidebyside>
+      <!-- <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Monday May 11/Tuesday May 12</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.4%20Complex%20Fractions.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIlPrs4FG1oeB4oFsnfYOJs"/>
+      <video youtubeplaylist="PLfPh0EsBc0yIlPrs4FG1oeB4oFsnfYOJs" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-complex-fractions.html">Section 12.4 (Complex Fractions)</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-complex-fractions.html">Section 12.4 (Complex Fractions)</url></li>
+        </ul>
       </p>
       <p>
         Day's in-class worksheet: <url href="Worksheets/ComplexRationalExpressions.pdf">Complex Rational Expressions</url>
@@ -1358,23 +1519,26 @@ ENDDOCUMENT();
         <url href="Worksheets/Exam2PreparationWinter2020.pdf">Exam 2 Practice Problems</url>
       </p>
     </stack>
-        <stack>
-      <p>Wednesday Feb 19/Thursday Feb 20</p>
+    <stack>
+      <p>Wednesday May 13/Thursday May 14</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.5%20Solving%20Rational%20Equations.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIt9yY2Tx_q7ZUVRE892Lc2"/>
+      <video youtubeplaylist="PLfPh0EsBc0yIt9yY2Tx_q7ZUVRE892Lc2" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-rational-equations.html">Section 12.5 (Solving Rational Equations)</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-rational-equations.html">Section 12.5 (Solving Rational Equations)</url></li>
+        </ul>
       </p>
       <p>
         Day's in-class worksheet: <url href="Worksheets/SolvingRationalEquations.pdf">Solving Rational Equations I</url>, <url href="Worksheets/SolvingRationalEquations2.pdf">Solving Rational Equations II</url> 
       </p>
     </stack>
-      </sidebyside>
-      <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-      <p>Monday Feb 24/Tuesday Feb 25</p>
+  </sidebyside>
+
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Monday May 18/Tuesday May 19</p>
       <p>
         <xref ref="exam2" text="title"/>
       </p>
@@ -1382,33 +1546,40 @@ ENDDOCUMENT();
         <url href="Worksheets/Exam2PreparationWinter2020.pdf">Exam 2 Practice Problems</url>
       </p>
     </stack>
-        <stack>
-      <p>Wednesday Feb 26/Thursday Feb 27</p>
+    <stack>
+      <p>Wednesday May 20/Thursday May 21</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.1%20Overview%20of%20Graphing.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLCKilC2b2doXUwO7Iaejzt"/>
+      <video youtubeplaylist="PLfPh0EsBc0yLCKilC2b2doXUwO7Iaejzt" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-overview-of-graphing.html">Section 13.1 (Overview of Graphing)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [brief introduction]</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-overview-of-graphing.html">Section 13.1 (Overview of Graphing)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [brief introduction]</url></li>
+        </ul>
       </p>
       <p>
         Day's in-class worksheet: <url href="Worksheets/GraphingReview.pdf">Graphing Review</url>
       </p>
     </stack>
-      </sidebyside>
-      <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-      <p>Monday Mar 2/Tuesday Mar 3</p>
+  </sidebyside>
+
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Monday May 25/Tuesday May 26</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.2%20Graphs%20and%20Vertex%20Form.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yKv88MN_pGzCC_I_tA5KjA5"/>
+      <video youtubeplaylist="PLfPh0EsBc0yKv88MN_pGzCC_I_tA5KjA5" />
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.3%20Completing%20the%20Square.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLkOWZ4nwq5wUzgAp9Wy6vj"/>
+      <video youtubeplaylist="PLfPh0EsBc0yLkOWZ4nwq5wUzgAp9Wy6vj" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [continued]</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-completing-the-square.html">Section 13.3 (Completing the Square)</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [continued]</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-completing-the-square.html">Section 13.3 (Completing the Square)</url></li>
+        </ul>
       </p>
       <p>
         Day's in-class worksheet: <url href="Worksheets/QuadraticGraphsVertexForm.pdf">Quadratic Graphs and Vertex Form</url>, <url href="Worksheets/CompleteTheSquare.pdf">Completing the Square</url> 
@@ -1417,33 +1588,39 @@ ENDDOCUMENT();
         <xref ref="written1" text="title"/> due.
       </p>
     </stack>
-        <stack>
-      <p>Wednesday Mar 4/Thursday Mar 5</p>
+    <stack>
+      <p>Wednesday May 27/Thursday May 28</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.4%20Absolute%20Value%20Equations.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLxr9gbK4dvy688zkCvMRi7"/>
+      <video youtubeplaylist="PLfPh0EsBc0yLxr9gbK4dvy688zkCvMRi7" />
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.5%20Solving%20Mixed%20Equations.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yL0f4Jvs-xY3VFQ3SMIo0Ja"/>
+      <video youtubeplaylist="PLfPh0EsBc0yL0f4Jvs-xY3VFQ3SMIo0Ja" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-absolute-value-equations.html">Section 13.4 (Absolute Value Equations)</url></li><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-mixed-equations.html">Section 13.5 (Solving Mixed Equations)</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-absolute-value-equations.html">Section 13.4 (Absolute Value Equations)</url></li>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-mixed-equations.html">Section 13.5 (Solving Mixed Equations)</url></li>
+        </ul>
       </p>
       <p>
         Day's in-class worksheet: <url href="Worksheets/AbsValEquations.pdf">Absolute Value Equations</url>, <url href="Worksheets/SolvingGeneralEquations.pdf">Solving General Equations</url>
       </p>
     </stack>
-      </sidebyside>
-      <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-      <p>Monday Mar 9/Tuesday Mar 10</p>
+  </sidebyside>
+
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Monday Jun 1/Tuesday Jun 2</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.6%20Compound%20Inequalities.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIJ7nSw6k49Z3QiZQKXjYOR"/>
+      <video youtubeplaylist="PLfPh0EsBc0yIJ7nSw6k49Z3QiZQKXjYOR" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-compound-inequalities.html">Section 13.6 (Compound Inequalities)</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-compound-inequalities.html">Section 13.6 (Compound Inequalities)</url></li>
+        </ul>
       </p>
       <p>
         <xref ref="written2" text="title"/> due.
@@ -1455,23 +1632,26 @@ ENDDOCUMENT();
         <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
       </p>
     </stack>
-        <stack>
-      <p>Wednesday Mar 11/Thursday Mar 12</p>
+    <stack>
+      <p>Wednesday Jun 3/Thursday Jun 4</p>
       <p>
         <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.7%20Solving%20Inequalities%20Graphically.pdf">Video lecture outline notes</url>.
       </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJnRjOAWdQp1TjzF7VemI58"/>
+      <video youtubeplaylist="PLfPh0EsBc0yJnRjOAWdQp1TjzF7VemI58" />
       <p>Readings from the book:
-        <ul><li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-inequalities-graphically.html">Section 13.7 (Solving Inequalities Graphically)</url></li></ul>
+        <ul>
+          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-inequalities-graphically.html">Section 13.7 (Solving Inequalities Graphically)</url></li>
+        </ul>
       </p>
       <p>
         Day's in-class worksheets: <url href="Worksheets/SolvingInequalitiesGraphically.pdf">Solving Inequalities Graphically</url>
       </p>
     </stack>
-      </sidebyside>
-      <sidebyside margins="0%" widths="47% 47%">
-        <stack>
-      <p>Monday Mar 16/Tuesday Mar 17</p>
+  </sidebyside>
+
+  <sidebyside margins="0%" widths="47% 47%">
+    <stack>
+      <p>Monday Jun 8/Tuesday Jun 9</p>
       <p>
         The Monday 2:00 class does not meet this day during finals week.
       </p>
@@ -1484,8 +1664,8 @@ ENDDOCUMENT();
         <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
       </p>
     </stack>
-        <stack>
-      <p>Wednesday Mar 18/Thursday Mar 19</p>
+    <stack>
+      <p>Wednesday Jun 10/Thursday Jun 11</p>
       <p>
         The Wednesday 2:00 class has <xref ref="exam3" text="title"/>
         from <alert>2:00 to 4:00.</alert>
@@ -1498,7 +1678,7 @@ ENDDOCUMENT();
         The Thursday 11:30 class does not meet this day during finals week.
       </p>
     </stack>
-      </sidebyside>
+  </sidebyside> -->
     </section>
   </article>
 </pretext>

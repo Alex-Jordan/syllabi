@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grades</title>
+
+  <introduction>
+    <p>
+      General PCC Grading Guidelines are found at
+      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
+    </p>
+  </introduction>
+
+  <paragraphs>
+    <title>Attendance</title>
+    <p>
+      It is important for success in the course to participate with in-class discussion.
+      And yet during the pandemic, it can be difficult or impossible to attend everyday,
+      especially for those of us with child care concerns or unpredictable work schedules.
+    </p>
+
+    <p>
+      To help motivate attendance when possible, attendance each live class session is worth 0.25% of your final grade,
+      up to a total of 4%.
+    </p>
+
+    <p>
+      And if you miss the live session, simply watch the entire class recording when you are able to,
+      and then send me an email confirming that you watched it.
+      I will count that for the 0.25% of the grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Discussion Posts</title>
+    <p>
+      There are two discussion posts in D2L where your participation is required for 1% of your grade (each).
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Written Homework</title>
+    <p>
+      Most weeks there is written homework, due by the end of the day on the following Wednesday.
+      Turn this in using D2L.
+      The purpose of these assignments is to let me give feedback on:
+      <ul>
+        <li>your process for solving problems</li>
+        <li>elements of how you explain your work to others</li>
+        <li>graphical objects you will create that cannot be automatically assessed by a computer</li>
+      </ul>
+    </p>
+
+    <p>
+      One score will be assigned for each written assignment.
+      Each written assignment is worth 2% of your final grade, for a total of 16%.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Online Homework</title>
+    <p>
+      You have online homework each week using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>.
+      It will always be due the following Monday evening at 10:00pm.
+      You should start working on a homework set soon after class while the discussion is still fresh.
+    </p>
+
+    <p>
+      Collectively, all the online homework is worth 16% of your final grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Quizzes</title>
+    <p>
+      You have weekly quizzes using <webwork/>.
+      These follow the homework sets that were due that week, and are due Saturday at 10:00pm.
+      The quizzes are timed, with a one-hour time limit.
+      The questions follow the questions that appeared in homework.
+      Each quiz is worth 1.5% and there are 8 quizzes, for a total of 12%.
+    </p>
+
+    <!-- <p>
+      See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
+      the online homework is due the following Wednesday evening.
+      You should start working on it soon after the class that works on that topic, ideally on the same day.
+    </p>
+
+    <p>
+      Collectively, all the online homework is worth 10% of your final grade.
+    </p> -->
+  </paragraphs>
+
+  <!-- <paragraphs>
+    <title>Written Assignments</title>
+      <p>
+        In the last third of the course, your homework includes some exercises where you must write up something on paper.
+        Turn these in on the days they are due.
+        Each written assignment is worth 2% of your grade for a total of 6%.
+        See <xref text="title" ref="section-written-assignments"/> for the specifics.
+      </p>
+  </paragraphs> -->
+
+  <!-- <paragraphs>
+    <title>Contribution to the Book</title>
+    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
+  </paragraphs> -->
+
+  <paragraphs>
+    <title>Exams</title>
+    <p>
+      There is a midterm exam on Monday April 26 for some students and Wednesday April 28 for others.
+      The midterm will be worth 25% of your grade.
+    </p>
+
+    <p>
+      The final exam will be Monday June 7.
+      The final exam will be worth 25% of your grade.
+    </p>
+  </paragraphs>
+
+  <!-- <paragraphs>
+    <title>Optional Class Prep Assignments</title>
+    <p>
+      This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
+      padding your grade with some work that is easy to do if you budget time for it.
+      At the same time, it wil get you to engage more fully with the material and it should ultimately
+      help you do better on the exams.
+    </p>
+    <p>
+      Each class day, you could come to class having <em>already</em> watched the video lessons for the day's section.
+      As you watch the videos, there are video lecture notes that you could complete.
+      Bringing these notes to me on the class day counts as proof that you watch the videos and engaged with them.
+      For each section, I will record that you watched the videos and took notes, which credits you with 0.5% toward your grade,
+      reducing the corresponding exam weight by 0.5%.
+    </p>
+    <p>
+      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
+    </p>
+    <p>
+      You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
+      In class on the first day, we will discuss more how this works.
+    </p>
+  </paragraphs> -->
+
+</section>

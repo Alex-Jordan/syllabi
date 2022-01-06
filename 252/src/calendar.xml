@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Calendar</title>
+
+  <p>
+    The official timeline for this course will be managed with D2L.
+    What matters most is whatever dates are in the modules inside D2L.
+    Details may change as the term progresses, and this will be reflected in the D2L modules.
+    So the information below is subject to change.
+    It is only included here for a quick reference at the start of the term.
+  </p>
+
+  <tabular bottom="minor" valign="top">
+    <col/>
+    <col width="40%"/>
+    <col width="40%"/>
+    <row bottom="major">
+      <cell>Week of:</cell>
+      <cell>Monday</cell>
+      <cell>Wednesday</cell>
+    </row>
+    <row>
+      <cell>3/29</cell>
+      <cell>
+        <p>
+          Some review from Chapter 3, and Section 4.3
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Some review from Chapter 3, and Section 4.3
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/5</cell>
+      <cell>
+        <p>
+          Section 5.1 and antiderivative sketching
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 5.2 and a little from Section 7.1
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/12</cell>
+      <cell>
+        <p>
+          Section 5.3
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 5.4 and using computers for integration
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/19</cell>
+      <cell>
+        <p>
+          Section 5.4 (continued)
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 6.1
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>4/26</cell>
+      <cell>
+        <p>
+          Midterm
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Midterm
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/3</cell>
+      <cell>
+        <p>
+          Section 6.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 6.3 and a little from Section 6.4
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/10</cell>
+      <cell>
+        <p>
+          Section 6.5
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 6.7
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/17</cell>
+      <cell>
+        <p>
+          Section 6.8 and a little from Section 7.5
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 7.1 and Section 7.5
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/24</cell>
+      <cell>
+        <p>
+          Section 7.2
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 7.3
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>5/31</cell>
+      <cell>
+        <p>
+          Memorial Day
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Section 7.4
+        </p>
+      </cell>
+    </row>
+    <row>
+      <cell>6/7</cell>
+      <cell>
+        <p>
+          Final Exam
+        </p>
+      </cell>
+      <cell>
+        <p>
+          Final Exam
+        </p>
+      </cell>
+    </row>
+  </tabular>
+
+</section>

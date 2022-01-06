@@ -15,10 +15,16 @@
         <cell>Instructor: Alex Jordan</cell>
       </row>
       <row>
-        <cell>Office: CA SSB 317</cell>
+        <cell>
+          <line>Office: CA SSB 317 when PCC opens</line>
+          <line>(Use Zoom and email to contact me.)</line>
+        </cell>
       </row>
       <row>
-        <cell>Phone: 971-722-4138</cell>
+        <cell>
+          <line>Phone: 971-722-4138</line>
+          <line>(Not a good way to reach me this term.)</line>
+        </cell>
       </row>
       <row>
         <cell>email: <email>alex.jordan@pcc.edu</email></cell>
@@ -60,35 +66,41 @@
         <cell>Final Exam</cell>
       </row>
       <row bottom="minor">
-        <cell>13290</cell>
+        <cell>20948</cell>
         <cell>M/W</cell>
         <cell>2:00<ndash/>4:20</cell>
-        <cell>CA CH 210</cell>
+        <cell>
+          <line>online</line>
+          <line>CA CH 210 when PCC reopens</line>
+        </cell>
         <cell>
           <line>Wednesday</line>
-          <line>3/18/2020</line>
+          <line>6/10/2020</line>
           <line>2:00<ndash/>4:00</line>
         </cell>
       </row>
       <row bottom="major">
-        <cell>11255</cell>
+        <cell>20258</cell>
         <cell>Tu/Th</cell>
         <cell>11:30<ndash/>1:50</cell>
-        <cell>CA CH 210</cell>
+        <cell>
+          <line>online</line>
+          <line>CA CH 210 when PCC reopens</line>
+        </cell>
         <cell>
           <line>Tuesday</line>
-          <line>3/17/2020</line>
+          <line>6/9/2020</line>
           <line>11:00<ndash/>1:00</line>
         </cell>
       </row>
     </tabular>
   </sidebyside>
 
-  <p>
+  <!-- <p>
     I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
-  </p>
+  </p> -->
 
-  <sidebyside>
+  <!-- <sidebyside>
     <tabular top="major" left="major">
       <col/>
       <col/>
@@ -117,12 +129,17 @@
         <cell>TBD</cell>
       </row>
     </tabular>
-  </sidebyside>
+  </sidebyside> -->
 
   <p>
-    Come visit me for help with the material, help with homework, or questions about your grade.
-    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
-    At least one of these office hours will move to the Cascade Student Learning Center once the SLC's schedule is more settled.
+    Office hours are by appointment. Just send me an email suggesting some times, and we'll set up a meeting on Zoom.
+    I'm not available MW 9:00<ndash/>11:50, MW 2:00<ndash/>4:20, and TuTh 11:30<ndash/>1:50.
+  </p>
+
+  <p>
+    Come visit me (virtually) for help with the material, help with homework, or questions about your grade.
+    <!-- If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
+    At least one of these office hours will move to the Cascade Student Learning Center once the SLC's schedule is more settled. -->
   </p>
 
   <p>

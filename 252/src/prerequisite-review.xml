@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-prerequisite-review" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Prerequisite Review</title>
+
+    <p>These exercises use skills from MTH 20, MTH 60, and MTH 65. These are prerequisite skills to succeed in this class. If you have trouble completing any of these exercises, you should make time as soon as possible to review this material with your instructor or with a tutor.</p>
+
+    <paragraphs>
+        <title>Simplify Expressions with Negative Exponents</title>
+        <exercise>
+            <webwork source="BasicAlgebra/Exponents/negExp155.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Exponents/negExp160.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Exponents/negExp165.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Exponents/negExp175.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Exponents/negExp180.pg" />
+        </exercise>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Fraction Arithmetic</title>
+        <exercise>
+            <webwork source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" />
+        </exercise>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Fraction Arithmetic</title>
+        <exercise>
+            <webwork source="BasicAlgebra/FractionArithmetic/AddFractions60.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/FractionArithmetic/SubtractFractions60.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/OrderOfOperations/OOOFractions10.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/OrderOfOperations/orderOfOperations250.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/OrderOfOperations/orderOfOperations260.pg" />
+        </exercise>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Factoring a Polynomial</title>
+        <exercise>
+            <webwork source="BasicAlgebra/Factoring/factoring180.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Factoring/factoring185.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Factoring/factoring395.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Factoring/factoring450.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/Factoring/factoring535.pg" />
+        </exercise>
+    </paragraphs>
+
+    <paragraphs>
+        <title>Solve Quadratic Equations</title>
+        <exercise>
+            <webwork source="BasicAlgebra/QuadraticEquations/solveQuad35.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/QuadraticEquations/solveQuad70.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/QuadraticEquations/solveQuad100.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/QuadraticEquations/solveQuad145.pg" />
+        </exercise>
+        <exercise>
+            <webwork source="BasicAlgebra/QuadraticEquations/solveQuad295.pg" />
+        </exercise>
+    </paragraphs>
+</section>
