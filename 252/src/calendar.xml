@@ -14,156 +14,71 @@
   </p>
 
   <tabular bottom="minor" valign="top">
-    <col/>
-    <col width="40%"/>
-    <col width="40%"/>
-    <row bottom="major">
-      <cell>Week of:</cell>
-      <cell>Monday</cell>
-      <cell>Wednesday</cell>
+    <row header="yes" bottom="major">
+      <cell>Week of</cell>
+      <cell>Content</cell>
     </row>
     <row>
-      <cell>3/29</cell>
+      <cell>1/10</cell>
       <cell>
-        <p>
-          Some review from Chapter 3, and Section 4.3
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Some review from Chapter 3, and Section 4.3
-        </p>
+        <line>Chapter 3 Review</line>
+        <line>Section 4.3</line>
       </cell>
     </row>
     <row>
-      <cell>4/5</cell>
+      <cell>1/17</cell>
       <cell>
-        <p>
-          Section 5.1 and antiderivative sketching
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 5.2 and a little from Section 7.1
-        </p>
+        <line>Section 5.1</line>
+        <line>Antiderivative Sketching</line>
       </cell>
     </row>
     <row>
-      <cell>4/12</cell>
+      <cell>1/24</cell>
       <cell>
-        <p>
-          Section 5.3
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 5.4 and using computers for integration
-        </p>
+        <line>Section 5.2, some 7.1</line>
+        <line>Section 5.3</line>
       </cell>
     </row>
     <row>
-      <cell>4/19</cell>
+      <cell>1/31</cell>
       <cell>
-        <p>
-          Section 5.4 (continued)
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 6.1
-        </p>
+        <line>Section 5.4</line>
+        <line>Using computers; python</line>
       </cell>
     </row>
     <row>
-      <cell>4/26</cell>
+      <cell>2/7</cell>
       <cell>
-        <p>
-          Midterm
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Midterm
-        </p>
+        <line>Midterm Exam 1</line>
+        <line>Section 6.1</line>
       </cell>
     </row>
     <row>
-      <cell>5/3</cell>
+      <cell>2/14</cell>
+      <cell>Sections 6.2, 6.3, and 6.4</cell>
+    </row>
+    <row>
+      <cell>2/21</cell>
+      <cell>Sections 6.5 and 6.7</cell>
+    </row>
+    <row>
+      <cell>2/28</cell>
       <cell>
-        <p>
-          Section 6.2
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 6.3 and a little from Section 6.4
-        </p>
+        <line>Midterm Exam 1</line>
+        <line>Sections 6.8, 7.5</line>
       </cell>
     </row>
     <row>
-      <cell>5/10</cell>
-      <cell>
-        <p>
-          Section 6.5
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 6.7
-        </p>
-      </cell>
+      <cell>3/7</cell>
+      <cell>Sections 7.1, 7.5, and 7.2</cell>
     </row>
     <row>
-      <cell>5/17</cell>
-      <cell>
-        <p>
-          Section 6.8 and a little from Section 7.5
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 7.1 and Section 7.5
-        </p>
-      </cell>
+      <cell>3/14</cell>
+      <cell>Sections 7.3, 7.4</cell>
     </row>
     <row>
-      <cell>5/24</cell>
-      <cell>
-        <p>
-          Section 7.2
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 7.3
-        </p>
-      </cell>
-    </row>
-    <row>
-      <cell>5/31</cell>
-      <cell>
-        <p>
-          Memorial Day
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Section 7.4
-        </p>
-      </cell>
-    </row>
-    <row>
-      <cell>6/7</cell>
-      <cell>
-        <p>
-          Final Exam
-        </p>
-      </cell>
-      <cell>
-        <p>
-          Final Exam
-        </p>
-      </cell>
+      <cell>3/21</cell>
+      <cell>Final Exam</cell>
     </row>
   </tabular>
 

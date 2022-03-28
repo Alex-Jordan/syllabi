@@ -10,60 +10,19 @@
     that you will access through D2L.
     Each week there are problem sets and you are required to answer them online using <webwork/>.
     The topics that we cover in a week have exercises that are typically due Monday of the following week
-    at 10:00<nbsp/><pm/>, but can be worked on much earlier.
+    at 10:00<pm/>, but can be worked on much earlier.
     You may submit answers any time before the due date.
   </p>
-
-  <p>
-    Here is an example of what a <webwork/> problem is like.
-  </p>
-
-  <exercise xml:id="webwork-demo">
-    <title>Multiply Powers</title>
-    <webwork>
-      <pg-code>
-        $a = 4;
-        $b = 3;
-        $c = $a + $b;
-        $expression = Formula("x^($a)*x^($b)");
-        Context("LimitedPolynomial-Strict");
-        # custom error message
-        Context()->{error}{msg}{"A variable can appear only once in each term of a polynomial"}
-          = "Your answer must be fully simplified";
-        $answer = Formula("x^($c)");
-        $product = $a*$b;
-        $evaluator = $answer->cmp()->withPostFilter(AnswerHints(
-          [Compute("x^($product)")] =>
-          "When multiplying terms with the same base, you do not multiply the exponents."));
-      </pg-code>
-      <statement>
-        <p>
-          Use the properties of exponents to simplify <m><var name="$expression" /></m>.
-        </p>
-        <p>
-          <m><var name="$expression" />=</m><var name="$answer" evaluator="$evaluator" width="8" />
-        </p>
-      </statement>
-      <solution>
-        <p>
-          We <em>add</em> the exponents as follows:
-          <md>
-            <mrow><var name="$expression" />\amp=x^{<var name="$a" />+<var name="$b" />}</mrow>
-            <mrow>\amp=x^{<var name="$c" />}</mrow>
-          </md>
-        </p>
-      </solution>
-    </webwork>
-  </exercise>
 
   <paragraphs>
     <title>Why are we using WeBWorK?</title>
 
     <p>
-      Traditionally, homework comes from textbook problems that students would do on paper, and then turn in in to the instructor.
-      One drawback of this is that students get no feedback at all until about a week later,
-      and at that point the student is no longer actively thinking about material from two weeks earlier.
-      Another drawback is that it is impossible for a student to do the appropriate amount of homework
+      Traditionally, homework comes from textbook problems that students would do on paper,
+      and then turn in in to the instructor.
+      One drawback of this is that students get no feedback at all until up to a week later,
+      and at that point the student may be no longer actively thinking about material from two weeks ago.
+      Another issue is that it is not possible for a student to do the appropriate amount of homework
       and for the instructor to give quality feedback for every single exercise.
       Often an instructor is only able to give feedback for a small subset of the exercises.
       Using <webwork/> brings the following advantages over traditional homework.
@@ -89,7 +48,6 @@
             <webwork/> will do more than just tell you if you are right or wrong.
             For example, it will usually tell you if you haven't completely simplified an answer
             or forgot to include units when they are required. Sometimes it will do even more.
-            Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.
           </p>
         </li>
         <li>
@@ -127,35 +85,10 @@
 
   <paragraphs>
     <title>Logging in to <webwork/></title>
-
     <p>
       In D2L, there is a link to log yourself into <webwork/> in the navigation bar for the course.
     </p>
-
-    <p>
-      For the <webwork/> quizzes, there are special links inside each weekly module that you must use.
-    </p>
-
-    <!-- <p>
-      Go directly to
-      <url href="https://webwork.pcc.edu/webwork2/mth251-jordan-202002/">webwork.pcc.edu/webwork2/mth251-jordan-202002</url>.
-      If you are working at your own computer, you might want to bookmark this link.
-      Your username is your PCC email prefix, using all lowercase letters.
-      For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>.
-      Your initial password is your PCC G-number, using a capital <c>G</c>.
-    </p> -->
   </paragraphs>
-
-  <!-- <paragraphs>
-    <title>The First Time You Log On</title>
-    <p>
-      You should go to the <c>User Settings</c> menu in the upper left and change your password.
-      There is an Orientation assignment for you to take.
-      Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>.
-      Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.
-      The Orientation will remain available to you for the entire term, so you can always come back and look at it again.
-    </p>
-  </paragraphs> -->
 
   <paragraphs>
     <title>Homework Sets Menu</title>

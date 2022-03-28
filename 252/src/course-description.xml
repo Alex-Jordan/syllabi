@@ -7,35 +7,32 @@
 
   <p>
     Taken from the official PCC course description:
+    <dl>
+      <li>
+        <title>Course Number</title>
+        <p>MTH 252</p>
+      </li>
+      <li>
+        <title>Course Title:</title>
+        <p>Calculus II</p>
+      </li>
+      <li>
+        <title>Credit Hours:</title>
+        <p>4</p>
+      </li>
+      <li>
+        <title>Lecture Hours:</title>
+        <p>30</p>
+      </li>
+      <li>
+        <title>Lecture/Lab Hours:</title>
+        <p>30</p>
+      </li>
+    </dl>
   </p>
 
-  <tabular>
-    <col halign="right" />
-    <col/>
-    <row>
-      <cell>Course Number:</cell>
-      <cell>MTH 252</cell>
-    </row>
-    <row>
-      <cell>Course Title:</cell>
-      <cell>Calculus II</cell>
-    </row>
-    <row>
-      <cell>Credit Hours:</cell>
-      <cell>4</cell>
-    </row>
-    <row>
-      <cell>Lecture Hours:</cell>
-      <cell>30</cell>
-    </row>
-    <row>
-      <cell>Lecture/Lab Hours:</cell>
-      <cell>30</cell>
-    </row>
-  </tabular>
-
   <p>
-    Includes antiderivatives, the definite integral, topics of integration, improper integrals, and applications of differentiation and integration. Graphing technology is required, such as Desmos and/or GeoGebra which are available at no cost. Prerequisites: MTH 251 and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
+    Includes antiderivatives, the definite integral, techniques of integration, improper integrals, and applications of differentiation and integration. Graphing and Computer Algebra System (CAS) technology are used, such as Desmos and/or GeoGebra which are available at no cost. The PCC math department recommends that students take math courses in consecutive terms. Prerequisites: MTH 251 and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
   </p>
 
   <p>
