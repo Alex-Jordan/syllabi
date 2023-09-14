@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+<html lang="en-US"><!--  Note that the lang and dir attributes are now set during the
+      processing of the template and not hard-coded above.
+--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+################################################################################
+# WeBWorK Online Homework Delivery System
+# Copyright &copy; 2000-2022 The WeBWorK Project, https://github.com/openwebwork
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of either: (a) the GNU General Public License as published by the
+# Free Software Foundation; either version 2, or (at your option) any later
+# version, or (b) the "Artistic License" which comes with this package.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+# Artistic License for more details.
+################################################################################
+-->
+
+<link rel="icon" type="x-image/icon" href="https://webwork.pcc.edu/webwork2_files/images/favicon.ico">
+
+<!-- CSS Loads -->
+<link rel="stylesheet" href="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/bootstrap.f038b6ee.min.css">
+<link rel="stylesheet" href="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/all.min.css">
+<link rel="stylesheet" href="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/math4.fc51f57d.min.css">
+
+
+
+<link rel="stylesheet" href="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/math4-overrides.87caa6cf.min.css">
+
+
+<!-- JS Loads -->
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/mathjax-config.d097a5f4.min.js" defer="defer"></script>
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/tex-svg.js" id="MathJax-script" defer="defer"></script>
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/jquery.min.js"></script>
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/bootstrap.bundle.min.js" defer="defer"></script>
+
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/math4.04d32dc9.min.js" defer="defer"></script>
+
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/math4-overrides.e3b0c442.min.js" defer="defer"></script>
+
+
+<title>WeBWorK : orcca : Instructor Tools : File Manager</title>
+
+
+<script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/asciimath.js" charset="UTF-8"></script><script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/noerrors.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/chtml.js" charset="UTF-8"></script><script src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/tex.js" charset="UTF-8"></script><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+<body>
+<a href="#page-title" id="stmc-link" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Bootstrap Fluid Layout Scaffolding start -->
+<div id="bs-container" class="container-fluid">
+<!-- Header -->
+<div id="masthead" class="row" role="banner">
+	<div class="col-md-2 webwork_logo">
+		<a href="https://webwork.pcc.edu/webwork2"><img alt="to courses page" src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/webwork_logo.svg"></a>
+	</div>
+	<div class="col-md-6 institution_logo">
+		<a href="https://www.pcc.edu/"><img alt="to Portland Community College main web site" src="WeBWorK%20orcca%20Instructor%20Tools%20File%20Manager_files/PCC_primary_logo_reversed.svg"></a>
+	</div>
+	<div id="loginstatus" class="col-md-4">
+		Logged in as Alex  Jordan.<a class="btn btn-light btn-sm ms-2" href="https://webwork.pcc.edu/webwork2/orcca/logout/?effectiveUser=alex.jordan">Log Out <i aria-hidden="true" class="icon fas fa-sign-out-alt" data-alt="signout"></i><span class="sr-only-glyphicon">signout</span></a>
+	</div>
+</div>
+
+<!-- Breadcrumb -->
+<div id="breadcrumb-row" class="row my-2">
+	<div class="col-12 d-flex align-items-center">
+		
+		<button type="button" class="btn btn-secondary" id="toggle-sidebar">
+			<span id="toggle-sidebar-icon">
+				<i class="icon fas fa-chevron-left" aria-hidden="true" data-alt="close sidebar"></i><span class="sr-only-glyphicon">close sidebar</span>
+			</span>
+		</button>
+		
+		<nav id="breadcrumb-navigation" aria-label="breadcrumb navigation" class="w-100">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/?effectiveUser=alex.jordan">WeBWorK</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/orcca/?effectiveUser=alex.jordan">orcca</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/orcca/instructor/?effectiveUser=alex.jordan">Instructor Tools</a></li><li class="breadcrumb-item active">File Manager</li>
+			</ol>
+		</nav>
+	</div>
+</div>
+
+<div id="body-row" class="d-flex">
+
+<!-- Navigation -->
+
+<div id="site-navigation" class="d-flex flex-column" role="navigation" aria-label="main navigation">
+	
+		<div id="site-links" class="bg-light">
+			<h2 class="navbar-brand mb-0">Main Menu</h2><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/">Courses</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/?effectiveUser=alex.jordan">Homework Sets</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/options/?effectiveUser=alex.jordan">User Settings</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/grades/?effectiveUser=alex.jordan">Grades</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/achievements/?effectiveUser=alex.jordan">Achievements</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/?effectiveUser=alex.jordan">Instructor Tools</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/users/?effectiveUser=alex.jordan">Classlist Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/sets/?effectiveUser=alex.jordan">Hmwk Sets Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/setmaker/?effectiveUser=alex.jordan">Library Browser</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/stats/?effectiveUser=alex.jordan">Statistics</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/progress/?effectiveUser=alex.jordan">Student Progress</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/scoring/?effectiveUser=alex.jordan">Scoring Tools</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/achievement_list/?effectiveUser=alex.jordan">Achievement Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/send_mail/?effectiveUser=alex.jordan">Email</a></li><li class="nav-item"><a class="nav-link active" href="https://webwork.pcc.edu/webwork2/orcca/instructor/file_manager/?effectiveUser=alex.jordan">File Manager</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/config/?effectiveUser=alex.jordan">Course Configuration</a></li><li class="nav-item"><a class="help-macro nav-link" href="https://webwork.pcc.edu/webwork2_files/helpFiles/instructor_links.html" target="ww_help">Help</a></li><li class="nav-item"><a class="help-macro nav-link" href="https://webwork.pcc.edu/webwork2_files/helpFiles/InstructorFileManager.html" target="ww_help"><i aria-hidden="true" class="icon fas fa-question-circle" data-alt=" ? "></i><span class="sr-only-glyphicon"> ? </span></a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/file_manager/?effectiveUser=alex.jordan&amp;archiveCourse=1">Archive this Course</a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://bugs.webwork.maa.org/enter_bug.cgi">Report bugs</a></li></ul>
+		</div>
+	
+	
+	
+</div>
+
+
+<!-- Main Content Area -->
+
+<div id="content" class="flex-grow-1">
+
+	
+
+	<!-- Page Title -->
+	
+	<div class="row"><div class="col-12">
+		<h1 id="page-title" class="page-title">File Manager</h1>
+	</div></div>
+	
+
+	
+	<!-- Message for the user -->
+	<div id="Message" class="Message"></div>
+	
+
+	<!-- Header Text for problem -->
+	
+
+<!-- ==============BEGIN BODY OF PROBLEM=============== -->
+
+	<!-- Indicate presence of perl warnings -->
+	
+
+	
+	
+	<!-- ==== couldn't print body parts so we'll print entire body -->
+	<div class="row">
+		
+			<div id="page_body" class="body col-12">
+		
+		<form method="post" action="/webwork2/orcca/instructor/file_manager/" enctype="multipart/form-data" id="FileManager" name="FileManager" style="margin:0"><input type="hidden" name="user" value="alex.jordan" id="hidden_user"><input type="hidden" name="effectiveUser" value="alex.jordan" id="hidden_effectiveUser"><input type="hidden" name="key" value="kEz1JyqkYYA28F4OjYiwyDLy6m2RsBE9" id="hidden_key"><div class="d-flex"><div class="col-12 bg-dark text-white" align="center"><b>templates/macros/niceTables.pl</b></div></div><div class="d-flex"><div class="col-12"><textarea name="data" rows="30" cols="80" class="file-manager-editor form-control" dir="auto">=head1
+ niceTables.pl
+
+Subroutines for creating tables that:
+
+=over
+
+=item * conform to accessibility standards in HTML output
+
+=item * have uniform styling across output formats, to the degree 
+possible
+
+=item * may use CSS for additional HTML styling
+
+=item * may use LaTeX commands for additional hardcopy styling
+
+=back
+
+C&lt;DataTable()&gt; creates a table displaying data. It should not
+be used for layout, such as displaying an array of graphs.
+
+C&lt;LayoutTable()&gt; creates a "table" without using an HTML table in 
+HTML
+output. Use C&lt;LayoutTable()&gt; whenever you are simply laying out 
+content
+for space-saving purposes. Ask yourself if there is any meaningful
+relation between content cells within a column or within a row. If the
+answer is no in both cases, it is likely a case for 
+C&lt;LayoutTable()&gt;.
+
+=head2 Description
+
+Command for a typical table:
+
+    DataTable(
+        [
+            [a,b,c,...],
+            [d,e,f,...],
+            ...
+        ],
+        options
+    );
+
+    LayoutTable(
+        [
+            [a,b,c,...],
+            [d,e,f,...],
+            ...
+        ],
+        options
+    );
+
+The cell entries above like C&lt;a&gt; may be simple cell content,
+a hash reference with C&lt;data =E&lt;gt&gt; cellContent&gt; and 
+options,
+or an array reference where the 0th entry is the the cell content
+and it is followed by option key-value pairs.
+
+As much as possible, options apply to all output formats.
+Some options only apply to HTML, and some apply only to PDF.
+Not all options are supported by every output format.
+For example PreTeXt cannot use color information.
+
+All features described below apply to a C&lt;DataTable&gt;.
+Most apply to a C&lt;LayoutTable&gt; as well, but not
+C&lt;caption&gt;, C&lt;rowheaders&gt;, C&lt;header&gt;, 
+C&lt;colspan&gt;, or C&lt;headerrow&gt;.
+
+=head2 Options for the WHOLE TABLE
+
+=head3 All output formats
+
+=over
+
+=item C&lt;center =E&lt;gt&gt; 0 or 1&gt;
+
+center the table (default 1)
+
+=item C&lt;caption =E&lt;gt&gt; string&gt;
+
+caption for the table
+
+=item C&lt;horizontalrules =E&lt;gt&gt; 0 or 1&gt;
+
+make rules above and below every row (default 0)
+
+=item C&lt;texalignment =E&lt;gt&gt; string&gt;
+
+an alignment string like is used in a LaTeX tabular environment: for 
+example C&lt;'r|ccp{1in}'&gt;
+
+C&lt;l&gt; for left-aligned column
+
+C&lt;c&gt; for center-aligned column
+
+C&lt;r&gt; for right-aligned column
+
+C&lt;p{width}&gt; for a column with left-aligned paragraphs of fixed 
+width.
+The width needs to be absolute to work in all output formats.
+
+C&lt;X&gt; for a column that expands to fill (see C&lt;Xratio&gt; 
+below),
+and will have left-aligned paragraphs 
+
+C&lt;|&gt; for a vertical rule (n adjacent pipes make one rule that is n
+ times as thick)
+
+C&lt;!{\vrule width 3pt}&gt; for a vertical rule of the indicated width
+(must be an absolute width; C&lt;3pt&gt; is just an example)
+
+C&lt;E&lt;gt&gt;{commands}&gt; Execute C&lt;commands&gt; at each cell in
+ the column.
+For example, C&lt;'cE&lt;gt&gt;{\color{blue}}c'&gt; will make the second
+ column have blue text.
+The following LaTeX commands may be used:
+
+=over
+
+C&lt;\color{colorname}&gt; for text color
+
+C&lt;\color[HTML]{xxxxxx}&gt; for text color (xxxxxx is a 6-character 
+hex color code)
+
+C&lt;\columncolor{colorname}&gt; for background color
+
+C&lt;\columncolor[HTML]{xxxxxx}&gt; for background color (xxxxxx is a 
+6-character hex color code)
+
+C&lt;\bfseries&gt; for bold
+
+C&lt;\itshape&gt; for italics
+
+C&lt;\ttfamily&gt; for monospace
+
+=back
+
+Other LaTeX commands apply only to PDF output.
+
+=item C&lt;align =E&lt;gt&gt; string&gt;
+
+convenient short version of C&lt;texalignment&gt;
+
+=item C&lt;Xratio =E&lt;gt&gt; number&gt;
+
+When C&lt;X&gt; is part of overall alignment,
+C&lt;Xratio&gt; must be some number between 0 and 1, inclusive of 1.
+The table as a whole will be C&lt;Xratio&gt; wide, relative to the 
+overall
+horizontal space. And C&lt;X&gt; columns expand to fill the available 
+space.
+The default is 0.97.
+
+=item C&lt;encase =E&lt;gt&gt; [ , ]&gt;
+
+Encases all table entries in the two entries. For example, use 
+C&lt;[$BM,$EM]&gt;
+to wrap all cells in math delimiters. See also C&lt;noencase&gt; for 
+individual cells.
+
+=item C&lt;rowheaders =E&lt;gt&gt; 0 or 1&gt;
+
+Make the first element of every row a row header. Default is 0.
+
+=item C&lt;headerrules =E&lt;gt&gt; 0 or 1&gt;
+
+Make a horizontal rule under a row of column headers and a vertical
+rule to the right of a column of row headers. Default is 1.
+
+=item C&lt;valign =E&lt;gt&gt; 'top'&gt;
+
+Can be C&lt;'top'&gt;, C&lt;'middle'&gt;, or C&lt;'bottom'&gt;. Applies 
+to all rows.
+See below to override for an individual row.
+
+=back
+
+=head3 HTML output
+
+Each css property setting should be a hash reference.
+For example,  C&lt;{'font-family' =E&lt;gt&gt; 'fantasy', color 
+=E&lt;gt&gt; 'red'}&gt;.
+If a key has a dash character, it needs to be in quotes. Alternatively,
+you may uses a javascript flavor of CSS key like C&lt;{fontFamily 
+=E&lt;gt&gt; 'fantasy'}&gt;
+
+=over
+
+=item C&lt;tablecss =E&lt;gt&gt; css string&gt;
+
+css styling commands for the table element
+
+=item C&lt;captioncss =E&lt;gt&gt; css string&gt;
+
+css styling commands for the caption element
+
+=item C&lt;columnscss =&gt; array ref
+
+an array reference to css strings for columns
+
+Note: only four css properties apply to a col element:
+
+=over
+
+=item * C&lt;border&gt; (family)
+
+=item * C&lt;background&gt; (family)
+
+=item * C&lt;width&gt;
+
+=item * C&lt;column-span&gt;
+
+=back
+
+=item C&lt;datacss =E&lt;gt&gt; css string&gt;
+
+css styling commands for non-header cells
+
+=item C&lt;headercss =E&lt;gt&gt; css string&gt;
+
+css styling commands for header cells
+
+=item C&lt;allcellcss =E&lt;gt&gt; css string&gt;
+
+css styling commands for all cells
+
+=back
+
+=head3 PDF hardcopy output
+
+=over
+
+=item C&lt;booktabs =E&lt;gt&gt; 0 or 1&gt;
+
+use the booktabs package for horizontal rules (default 1)
+
+=back
+
+=head2 Options for CELLS
+
+Each cell entry can be an array reference where the first entry is the 
+actual cell
+content, and then key-value pairs follow. For example, in a table with 
+four columns,
+to make the first cell span two columns, enter the first cell as an 
+array reference:
+
+  [[a, colspan =&gt; 2], b, c]
+
+Alternatively, using a hash reference with a data key:
+
+  [{data =&gt; a, colspan =&gt; 2}, b, c]
+
+=head3 All output formats
+
+=over
+
+=item C&lt;halign =E&lt;gt&gt; string&gt;
+
+Similar to the components for C&lt;texalignment&gt; above.
+However, only C&lt;l&gt;, C&lt;c&gt;, C&lt;r&gt;, C&lt;p{}&gt;, and 
+vertical rule specifications should be used.
+With vertical rule specifiers, any left vertical rule will only be 
+observed for cells
+is in the first column. Otherwise, use a right vertical rule on the cell
+ to the left.
+
+=item C&lt;header =E&lt;gt&gt; type&gt;,
+
+Declares the scope of the HTML C&lt;th&gt; element. Case-insensitive:
+
+=over
+
+=item * C&lt;th&gt; for a generic table header
+
+=item * C&lt;ch&gt; for a column header (C&lt;col&gt; and 
+C&lt;column&gt; work too)
+
+=item * C&lt;rh&gt; for a row header (C&lt;row&gt; works too)
+
+=item * C&lt;td&gt; for overriding a C&lt;headerrow&gt; or 
+C&lt;rowheaders&gt; option
+(except PTX output cannot honor this)
+
+=back
+
+=item C&lt;color =E&lt;gt&gt; string&gt;
+
+color name or 6-character hex color code for text color
+
+=item C&lt;bgcolor =E&lt;gt&gt; string&gt;
+
+color name or 6-character hex color code for background color
+
+=item C&lt;b=E&lt;gt&gt;1&gt;
+
+Set the cell to bold font.
+
+=item C&lt;i=E&lt;gt&gt;1&gt;
+
+Set the cell to italics font.
+
+=item C&lt;m=E&lt;gt&gt;1&gt;
+
+Set the cell to monospace font.
+
+=item C&lt;noencase =E&lt;gt&gt; 0 or 1&gt;
+
+If you are using encase (see above) use this to opt out.
+
+=item C&lt;colspan =E&lt;gt&gt; positive integer&gt;
+
+Makes the cell span more than one column. When using this, you
+often set C&lt;halign&gt; as well.
+
+=item C&lt;top =E&lt;gt&gt; positive integer or string&gt;
+
+Make a top rule for one cell if the cell is in the top row. Thickness is
+ either C&lt;n&gt;
+pixels or a width like C&lt;'0.04em'&gt;. Has no effect on cells outside
+ of top row.
+
+=item C&lt;bottom =E&lt;gt&gt; positive integer or string&gt;
+
+Make a bottom rule for one cell. Thickness is either C&lt;n&gt; pixels 
+or a width like C&lt;'0.04em'&gt;.
+
+=back
+
+=head3 HTML output
+
+This option is only for HTML output.
+
+=over
+
+=item C&lt;cellcss =E&lt;gt&gt; string&gt;
+
+css styling commands for this cell
+
+=back
+
+=head3 PDF hardcopy output
+
+The following apply only to PDF output
+
+=over
+
+=item C&lt;texpre =E&lt;gt&gt; tex code&gt; and C&lt;texpost 
+=E&lt;gt&gt; tex code&gt;
+
+For more fussy cell-by-cell alteration of the tex version of
+the table, code to place before and after the cell content.
+
+=item C&lt;texencase =E&lt;gt&gt; array ref&gt;
+
+Shortcut for entering C&lt;[texpre,texpost]&gt; at once.
+
+=back
+
+=head2 Options for ROWS
+
+Some parameters in a cell's options array affect the entire row.
+When there is a clash, the last non-falsy declaration in the row will be
+ used.
+
+=over
+
+=item C&lt;rowcolor =E&lt;gt&gt; string&gt;
+
+Sets the row's background color.  Must be a color name, 6-character hex 
+color code.
+
+=item C&lt;rowcss =E&lt;gt&gt; string&gt;
+
+css styling commands for the row
+
+=item C&lt;headerrow =E&lt;gt&gt; 0 or 1&gt;
+
+Makes an entire row use header cells (with column scope).
+
+=item C&lt;rowtop =E&lt;gt&gt; positive integer or string&gt;
+
+When used on the first row, creates a top rule. Has no effect on other 
+rows.
+Thickness is either C&lt;n&gt; pixels or a width like C&lt;'0.04em'&gt;.
+
+=item C&lt;rowbottom =E&lt;gt&gt; positive integer string&gt;
+
+Make a bottom rule.  Thickness is either C&lt;n&gt; pixels or a width 
+like C&lt;'0.04em'&gt;.
+
+=item C&lt;valign =E&lt;gt&gt; string&gt;
+
+Override table's overall vertical alignment for this row.  Can be 
+C&lt;'top'&gt;, C&lt;'middle'&gt;,
+or C&lt;'bottom'&gt;.
+
+=back
+
+=head2 Options for COLUMNS
+
+Column styling is handled indirectly for now, mostly through the 
+C&lt;texalignment&gt; option above.
+
+=head2 Deprecations
+
+These features were supported in an earlier version and still work, but 
+are deprecated.
+
+=over
+
+=item * Each css setting can be a raw CSS string, including all its 
+colons and a semicolons.
+For example, C&lt;tablecss =E&lt;gt&gt; 'font-family: fantasy; 
+text-decoration: underline;'&gt;.
+
+=item * A cell can have C&lt;tex =E&lt;gt&gt; commands&gt;.
+This executes commands at start of a cell with scope the entire cell.
+The following LaTeX commands may be used and respected in HTML as well 
+as LaTeX:
+
+=over
+
+=item * C&lt;\color{colorname}&gt; for text color
+
+=item * C&lt;\color[HTML]{xxxxxx}&gt; for text color (xxxxxx is a 
+6-character hex color code)
+
+=item * C&lt;\columncolor{colorname}&gt; for background color
+
+=item * C&lt;\columncolor[HTML]{xxxxxx}&gt; for background color (xxxxxx
+ is a 6-character hex color code)
+
+=item * C&lt;\bfseries&gt; for bold
+
+=item * C&lt;\itshape&gt; for italics
+
+=item * C&lt;\ttfamily&gt; for monospace
+
+=back
+
+Other LaTeX commands apply only to hardcopy output.
+
+=item * C&lt;rowcolor&gt; can be in the form C&lt;'[HTML]{xxxxxx}'&gt;
+
+=back
+
+=cut
+
+sub _niceTables_init {
+	main::PG_restricted_eval('sub DataTable { NiceTables::DataTable(@_) 
+}');
+	main::PG_restricted_eval('sub LayoutTable { NiceTables::LayoutTable(@_)
+ }');
+}
+
+package NiceTables;
+
+sub DataTable {
+	my $userArray = shift;
+
+	# cleaned up and initialized version of the user's array of cell data 
+and cell/row options
+	# $tableArray references a 2D array for the table, with entries being a
+ hash reference
+	# The data key is the cell content, and other keys are (initialiized) 
+options for the cell
+	my $tableArray = TableArray($userArray);
+
+	# establish the true number of columns, accounting for all uses of 
+colspan
+	my $colCount = ColumnCount($tableArray);
+
+	# $tableOpts is a hash reference keeping the (initialized) global table
+ options
+	my $tableOpts = TableOptions($colCount, @_);
+
+	# $alignment is a 1D array of hash references, with options for each 
+column
+	my $alignment = ParseAlignment($tableOpts-&gt;{texalignment});
+
+	# if the user's data implies more columns than what they specified in 
+texalignment
+	# then we add columns to both $alignment and 
+$tableOpts-&gt;{texalignment}
+	for my $i ($#$alignment + 1 .. $colCount) {
+		$alignment-&gt;[$i] = { halign =&gt; 'c', valign =&gt; '', right =&gt;
+ '', width =&gt; '', tex =&gt; '' };
+		$tableOpts-&gt;{texalignment} .= 'c';
+	}
+
+	return TableEnvironment($tableArray, $tableOpts, $alignment);
+}
+
+sub LayoutTable {
+	return DataTable(@_, LaYoUt =&gt; 1);
+}
+
+# Make the outer table environment
+sub TableEnvironment {
+	my ($tableArray, $tableOpts, $alignment) = @_;
+
+	# determine if somewhere in the alignment there are X columns
+	my $hasX = 0;
+	for my $align (@$alignment) {
+		if ($align-&gt;{halign} eq 'X') {
+			$hasX = 1;
+			last;
+		}
+	}
+
+	# determine if first row has a top border
+	my $top = '';
+	for my $x (@{ $tableArray-&gt;[0] }) {
+		$top = $x-&gt;{rowtop} if ($x-&gt;{rowtop});
+	}
+
+	my $booktabs = $tableOpts-&gt;{booktabs};
+
+	my $cols = Cols($tableArray, $tableOpts, $alignment);
+	my $rows = Rows($tableArray, $tableOpts, $alignment);
+
+	if ($main::displayMode eq 'TeX') {
+		my $tabulartype  = $hasX ? 'tabularx'                        : 
+'tabular';
+		my $tabularwidth = $hasX ? "$tableOpts-&gt;{Xratio}\\linewidth" : '';
+		$rows = latexEnvironment($rows, $tabulartype, [ $tabularwidth, '[t]', 
+$tableOpts-&gt;{texalignment} ], ' ');
+		$rows = prefix($rows, '\centering%') if $tableOpts-&gt;{center};
+		$rows = prefix($rows, '\renewcommand{\arraystretch}{2}', '')
+			if $tableOpts-&gt;{LaYoUt};
+		$rows = suffix(
+			$rows,
+			
+"\\captionsetup{textfont={sc},belowskip=12pt,aboveskip=4pt}\\captionof*{table}{$tableOpts-&gt;{caption}}",
+
+			' '
+		) if ($tableOpts-&gt;{caption});
+		$rows = wrap($rows, '\par', '\par', '');
+		$rows = wrap($rows, '{',    '}',    '');
+	} elsif ($main::displayMode eq 'PTX') {
+		my $ptxleft = getPTXthickness($alignment-&gt;[0]{left});
+		my $ptxtop  = '';
+		if ($tableOpts-&gt;{horizontalrules} &amp;&amp; $booktabs) {
+			$ptxtop = 'major';
+		} elsif ($tableOpts-&gt;{horizontalrules}) {
+			$ptxtop = 'minor';
+		}
+		$ptxtop = getPTXthickness($top) if $top;
+		my $ptxwidth   = '';
+		my $ptxmargins = '';
+
+		if ($hasX) {
+			$ptxwidth = $tableOpts-&gt;{Xratio} * 100;
+			my $leftmargin  = ($tableOpts-&gt;{center}) ? (100 - $ptxwidth) / 2 :
+ 0;
+			my $rightmargin = 100 - $ptxwidth - $leftmargin;
+			$ptxmargins = "${leftmargin}% ${rightmargin}%";
+			$ptxwidth .= '%';
+		} elsif (!$tableOpts-&gt;{center}) {
+			$ptxwidth   = '100%';
+			$ptxmargins = '0% 0%';
+		}
+		my $ptxbottom = ($tableOpts-&gt;{horizontalrules}) ? 'minor' : '';
+		if ($tableOpts-&gt;{LaYoUt}) {
+			$rows = tag(
+				$rows,
+				'sbsgroup',
+				{
+					width   =&gt; $ptxwidth,
+					margins =&gt; $ptxmargins,
+				}
+			);
+		} elsif (!$tableOpts-&gt;{LaYoUt}) {
+			$rows = prefix($rows, $cols);
+			$rows = tag(
+				$rows,
+				'tabular',
+				{
+					valign  =&gt; ($tableOpts-&gt;{valign} ne 'middle') ? 
+$tableOpts-&gt;{valign} : '',
+					width   =&gt; $ptxwidth,
+					margins =&gt; $ptxmargins,
+					left    =&gt; $ptxleft,
+					top     =&gt; $ptxtop,
+					bottom  =&gt; $ptxbottom
+				}
+			);
+		}
+
+		# We fake a caption as a tabular that follows the actual tabular
+		# This is not great, but PTX has no option to put a caption on a 
+tabular
+		# (It can put a caption on a table, but we are not making a PTX 
+table.)
+		my $ptxcaption = '';
+		if ($tableOpts-&gt;{caption}) {
+			$ptxcaption = $tableOpts-&gt;{caption};
+			$ptxcaption = tag($ptxcaption, 'cell');
+			$ptxcaption = tag($ptxcaption, 'row');
+			my $ptxcapwidth = '';
+			if ($hasX) {
+				$ptxcapwidth = $tableOpts-&gt;{Xratio} * 100 . '%';
+			} else {
+				$ptxcapwidth = '50%';
+			}
+			$ptxcapcol  = tag('', 'col', { width =&gt; $ptxcapwidth });
+			$ptxcaption = prefix($ptxcaption, $ptxcapcol);
+			$ptxcaption = tag($ptxcaption, 'tabular', { width =&gt; $ptxwidth, 
+margins =&gt; $ptxmargins });
+		}
+		$rows = suffix($rows, $ptxcaption);
+	} else {
+		my $css = css($tableOpts-&gt;{tablecss});
+		if ($hasX) {
+			$css .= css('width', $tableOpts-&gt;{Xratio} * 100 . '%');
+		}
+		$css .= css('border-left', getRuleCSS($alignment-&gt;[0]{left}));
+		$css .= css('margin',      'auto') if $tableOpts-&gt;{center};
+
+		my $htmlcols = '';
+		$htmlcols = tag($cols, 'colgroup')
+			unless ($cols =~ /^(&lt;col&gt;|\n)*$/ || $tableOpts-&gt;{LaYoUt});
+		$rows = prefix($rows, $htmlcols);
+		my $htmlcaption = tag($tableOpts-&gt;{caption}, 'caption', { style 
+=&gt; css($tableOpts-&gt;{captioncss}) });
+		$rows = prefix($rows, $htmlcaption) if ($tableOpts-&gt;{caption} 
+&amp;&amp; !$tableOpts-&gt;{LaYoUt});
+
+		if ($tableOpts-&gt;{LaYoUt}) {
+			$css .= css('display',         'table');
+			$css .= css('border-collapse', 'collapse');
+			$rows = tag($rows, 'div', { style =&gt; $css });
+		} else {
+			$rows = tag($rows, 'table', { style =&gt; $css });
+		}
+	}
+
+	return $rows;
+
+}
+
+sub Cols {
+	my ($tableArray, $tableOpts, $alignment) = @_;
+	my $columnscss = $tableOpts-&gt;{columnscss};
+	my @cols       = ();
+
+	# Loop through columns ($alignment-&gt;[0] is the left border not a 
+column)
+	for my $i (1 .. $#$alignment) {
+		my $align = $alignment-&gt;[$i];
+
+		# determine if this column has any paragraph cells
+		my $width = '';
+		for my $y (@$tableArray) {
+			for my $x (@$y) {
+
+				# accounting for use of colspan...
+				if ($x-&gt;{leftcol} == $i &amp;&amp; $x-&gt;{halign} =~ 
+/^p\{([^}]*?)\}/) {
+					$width = $1;
+				}
+			}
+		}
+
+		# determine if this column has a top border
+		my $top = '';
+		for my $x (@{ $tableArray-&gt;[0] }) {
+
+			# accounting for use of colspan...
+			if ($x-&gt;{leftcol} &lt;= $i &amp;&amp; $i &lt;= $x-&gt;{rightcol} 
+&amp;&amp; $x-&gt;{top}) {
+				$top = $x-&gt;{top};
+			}
+		}
+
+		if ($main::displayMode eq 'PTX') {
+			my $ptxhalign = '';
+			$ptxhalign = 'left' if ($align-&gt;{halign} eq 'l');
+			$ptxhalign = 'right'  if ($align-&gt;{halign} eq 'r');
+			my $ptxright = '';
+			$ptxright = getPTXthickness($align-&gt;{right});
+			my $ptxtop = '';
+			$ptxtop = getPTXthickness($top);
+			my $ptxwidth = '';
+			$ptxwidth = getWidthPercent($align-&gt;{width}) if 
+$align-&gt;{width};
+			$ptxwidth = ($tableOpts-&gt;{Xratio} / $#$alignment * 100) . '%'
+				if ($align-&gt;{halign} eq 'X');
+			$ptxwidth = getWidthPercent($width) if $width;
+			push(
+				@cols,
+				tag(
+					'', 'col',
+					{
+						header =&gt; ($i == 1 &amp;&amp; $tableOpts-&gt;{rowheaders}) ? 
+'yes' : '',
+						halign =&gt; $ptxhalign,
+						right  =&gt; $ptxright,
+						top    =&gt; $ptxtop,
+						width  =&gt; $ptxwidth
+					}
+				)
+			);
+		} else {
+			my $htmlright = '';
+			$htmlright .= css('border-right', 'solid 2px')
+				if ($i == 1 &amp;&amp; $tableOpts-&gt;{rowheaders} &amp;&amp; 
+$tableOpts-&gt;{headerrules});
+			$htmlright .= css('border-right', getRuleCSS($align-&gt;{right}));
+			my $htmltop = '';
+			$htmltop .= css('border-top', getRuleCSS($top));
+
+			# $i starts at 1, but columncss indexing starts at 0
+			my $htmlcolcss = css($columnscss-&gt;[ $i - 1 ]);
+			if ($align-&gt;{tex} =~ /\\columncolor(\[HTML\])?\{(.*?)[}!]/) {
+				$htmlcolcss .= css('background-color', ($1 ? '#' : '') . $2);
+			}
+
+			push(@cols, tag('', 'col', { style =&gt; 
+"${htmlright}${htmltop}${htmlcolcss}" }));
+		}
+
+	}
+
+	return join("\n", @cols);
+
+}
+
+sub Rows {
+	my ($tableArray, $tableOpts, $alignment) = @_;
+
+	my @rows;
+	my @htmlhead;
+	my @htmlbody;
+	my $htmlout;
+	my $stillinhtmlhead = 1;
+
+	for my $i (0 .. $#$tableArray) {
+		my $rowArray = $tableArray-&gt;[$i];
+		my $booktabs = $tableOpts-&gt;{booktabs};
+		my $row      = Row($rowArray, $tableOpts, $alignment);
+		my $html     = $row;
+
+		# establish if this row has certain things
+		# when declared mulltiple times, last non-falsy values are used
+		my $bottom    = 0;
+		my $top       = 0;
+		my $rowcolor  = '';
+		my $headerrow = '';
+		my $valign    = '';
+		for my $x (@$rowArray) {
+			$bottom    = $x-&gt;{rowbottom} if ($x-&gt;{rowbottom});
+			$top       = $x-&gt;{rowtop}    if ($x-&gt;{rowtop} &amp;&amp; $i == 
+0);
+			$rowcolor  = $x-&gt;{rowcolor}  if ($x-&gt;{rowcolor});
+			$headerrow = 'yes'           if ($x-&gt;{headerrow});
+			$valign    = $x-&gt;{valign}    if ($x-&gt;{valign});
+		}
+
+		if ($main::displayMode eq 'TeX') {
+			# separator argument is space (not the default line break)
+			# to avoid PGML catcode manipulation issues
+			$row = prefix($row, "\\rowcolor" . formatColorLaTeX($rowcolor), ' ')
+				if ($rowcolor);
+			$row = prefix($row, hrule($booktabs, 'top', $top), ' ')
+				if ($top || ($i == 0 &amp;&amp; $tableOpts-&gt;{horizontalrules}));
+			$row = suffix($row, "\\\\",                           ' ') unless ($i
+ == $#$tableArray);
+			$row = suffix($row, hrule($booktabs, 'mid', $bottom), ' ')
+				if ($i &lt; $#$tableArray &amp;&amp; ($bottom || 
+$tableOpts-&gt;{horizontalrules})
+					|| $headerrow &amp;&amp; $tableOpts-&gt;{headerrules});
+			$row = suffix($row, "\\\\" . hrule($booktabs, 'bottom', $bottom), ' 
+')
+				if ($i == $#$tableArray
+					&amp;&amp; ($bottom || $tableOpts-&gt;{horizontalrules}));
+
+			# do cells in this row have a top or bottom border?
+			# although a propery of cells, LaTeX makes us do this at the row 
+level
+			for my $x (@$rowArray) {
+				$row = prefix($row, hrule($booktabs, 'cmid', $x-&gt;{top}) . 
+"{$x-&gt;{leftcol}-$x-&gt;{rightcol}}", ' ')
+					if ($i == 0 &amp;&amp; $x-&gt;{top});
+				$row = suffix($row, hrule($booktabs, 'cmid', $x-&gt;{bottom}) . 
+"{$x-&gt;{leftcol}-$x-&gt;{rightcol}}", ' ')
+					if $x-&gt;{bottom};
+			}
+
+			push(@rows, $row);
+		} elsif ($main::displayMode eq 'PTX') {
+			my $ptxbottom = '';
+			if ($i == $#$tableArray &amp;&amp; $tableOpts-&gt;{horizontalrules} 
+&amp;&amp; $booktabs) {
+				$ptxbottom = 'major';
+			} elsif ($tableOpts-&gt;{horizontalrules}) {
+				$ptxbottom = 'minor';
+			}
+			$ptxbottom = getPTXthickness($bottom) if $bottom;
+			my $ptxleft = '';
+			$ptxleft = 'minor'  if ($rowArray-&gt;[0]{halign} =~ /^\s*\|/);
+			$ptxleft = 'medium' if ($rowArray-&gt;[0]{halign} =~ /^\s*\|\s*\|/);
+			$ptxleft = 'major'  if ($rowArray-&gt;[0]{halign} =~ 
+/^\s*\|\s*\|\s*\|/);
+
+			if ($rowArray-&gt;[0]{halign} =~ 
+/^(?:\s|\|)*!\{\s*\\vrule\s+width\s+([^}]*?)\s*}/) {
+				$ptxleft = 'minor'  if ($1);
+				$ptxleft = 'minor'  if ($1 == '0.04em');
+				$ptxleft = 'medium' if ($1 == '0.07em');
+				$ptxleft = 'major'  if ($1 == '0.11em');
+			}
+
+			$ptxleft = '' if ($ptxleft eq $alignment-&gt;[0]{left});
+			$ptxleft = "none"
+				if (!$ptxleft &amp;&amp; $rowArray-&gt;[0]{halign} &amp;&amp; 
+$alignment-&gt;[0]{left});
+
+			if ($tableOpts-&gt;{LaYoUt}) {
+				my $ptxwidthsum = 0;
+				my $ptxautocols = $#alignment;
+				for my $j (1 .. $#alignment) {
+					if ($rowArray-&gt;[ $j - 1 ]{width}) {
+						$ptxwidthsum +=
+							substr getWidthPercent($tableArray-&gt;[ $j - 1 ]{width}),
+							0, -1;
+						$ptxautocols -= 1;
+					} elsif ($alignment-&gt;[$j]{width}) {
+						$ptxwidthsum += substr 
+getWidthPercent($alignment-&gt;[$j]{width}), 0, -1;
+						$ptxautocols -= 1;
+					}
+				}
+
+				# determine if somewhere in the overall alignment, there are X 
+columns
+				my $hasX = 0;
+				for my $align (@$alignment) {
+					if ($align-&gt;{halign} eq 'X') {
+						$hasX = 1;
+						last;
+					}
+				}
+				my $leftoverspace =
+					(($hasX) ? $tableOpts-&gt;{Xratio} * 100 : 100) - $ptxwidthsum;
+				my $divvyuptherest = 0;
+				$divvyuptherest = int($leftoverspace / $ptxautocols * 10000) / 10000
+					unless ($ptxautocols == 0);
+				my @ptxwidths;
+				for my $j (1 .. $#alignment) {
+					if ($rowOpts-&gt;[ $j - 1 ]{width}) {
+						push(@ptxwidths, getWidthPercent($rowOpts-&gt;[ $j - 1 ]{width}));
+					} elsif ($alignment-&gt;[$j]{width}) {
+						push(@ptxwidths, getWidthPercent($alignment-&gt;[$j]{width}));
+					} else {
+						push(@ptxwidths, $divvyuptherest . '%');
+					}
+				}
+
+				my $ptxwidths = join(" ", @ptxwidths);
+				$row = tag(
+					$row,
+					'sidebyside',
+					{
+						valign  =&gt; ($valign) ? $valign : $tableOpts-&gt;{valign},
+						margins =&gt; '0% 0%',
+						widths  =&gt; $ptxwidths,
+					}
+				);
+			} else {
+				$row = tag(
+					$row, 'row',
+					{
+						left   =&gt; $ptxleft,
+						valign =&gt; $valign,
+						header =&gt; $headerrow,
+						bottom =&gt; $ptxbottom
+					}
+				);
+			}
+			push(@rows, $row);
+		} else {
+			my $css = '';
+			for my $x (@$rowArray) {
+				$css .= css($x-&gt;{rowcss});
+			}
+			$css .= css('background-color', formatColorHTML($rowcolor));
+			$css .= css('border-top',       'solid 3px')
+				if ($i == 0 &amp;&amp; $tableOpts-&gt;{horizontalrules});
+			$css .= css('border-top',    getRuleCSS($top));
+			$css .= css('border-bottom', 'solid 1px')
+				if ($i &lt; $#$tableArray &amp;&amp; 
+$tableOpts-&gt;{horizontalrules});
+			$css .= css('border-bottom', 'solid 3px')
+				if ($i == $#$tableArray &amp;&amp; 
+$tableOpts-&gt;{horizontalrules});
+			$css .= css('border-bottom',  getRuleCSS($bottom));
+			$css .= css('vertical-align', $valign);
+
+			if ($tableOpts-&gt;{LaYoUt}) {
+				$css .= css('display', 'table-row');
+				$html = tag($html, 'div', { style =&gt; $css });
+				push(@htmlbody, $html);
+			} else {
+				$html = tag($html, 'tr', { style =&gt; $css });
+				if ($stillinhtmlhead &amp;&amp; $headerrow) {
+					push(@htmlhead, $html);
+				} else {
+					$stillinhtmlhead = 0;
+					push(@htmlbody, $html);
+				}
+			}
+		}
+		if ($tableOpts-&gt;{LaYoUt}) {
+			$htmlout = join("\n", @htmlbody);
+		} else {
+			my $htmlvalign = '';
+			$htmlvalign = $tableOpts-&gt;{valign}
+				unless ($tableOpts-&gt;{valign} eq 'middle');
+			$htmlout = tag(join("\n", @htmlbody), 'tbody', { style =&gt; 
+css('vertical-align', $htmlvalign) });
+			if (@htmlhead) {
+				my $htmlheadcss = css('vertical-align', $htmlvalign);
+				$htmlheadcss .= css('border-bottom', 'solid 2px') if 
+$tableOpts-&gt;{headerrules};
+				$htmlout = prefix($htmlout, tag(join("\n", @htmlhead), 'thead', { 
+style =&gt; $htmlheadcss }));
+			}
+		}
+	}
+
+	return main::MODES(
+		TeX  =&gt; join(" ", @rows),
+		HTML =&gt; $htmlout,
+		PTX  =&gt; join("\n", @rows),
+	);
+
+}
+
+sub Row {
+	my ($rowArray, $tableOpts, $alignment) = @_;
+
+	my $headerrow = '';
+	my $valign    = '';
+	for my $x (@$rowArray) {
+		$headerrow = 'yes'        if ($x-&gt;{headerrow});
+		$valign    = $x-&gt;{valign} if ($x-&gt;{valign});
+	}
+
+	my @cells;
+
+	# Loops over the cells in the row
+	for my $i (0 .. $#$rowArray) {
+		my $cellOpts  = $rowArray-&gt;[$i];
+		my $cellAlign = $alignment-&gt;[ $rowArray-&gt;[$i]{leftcol} ];
+		my $cellData  = $cellOpts-&gt;{data};
+		my $cell      = $cellData;
+
+		if ($main::displayMode eq 'TeX') {
+			$cell = prefix($cell, $cellOpts-&gt;{tex}, ' ');
+			$cell = wrap($cell, @{ $tableOpts-&gt;{encase} })
+				unless $cellOpts-&gt;{noencase};
+			$cell = wrap($cell, $cellOpts-&gt;{texpre}, $cellOpts-&gt;{texpost});
+			$cell = prefix($cell, '\bfseries', ' ')
+				if ($tableOpts-&gt;{rowheaders} &amp;&amp; $cellOpts-&gt;{header} ne
+ 'td' &amp;&amp; $i == 0
+					|| ($headerrow &amp;&amp; $cellOpts-&gt;{header} ne 'td')
+					|| $cellOpts-&gt;{header} =~ /^(th|rh|ch|col|column|row)$/i);
+			# Situations where we need \multicolumn
+			if ($cellOpts-&gt;{colspan} &gt; 1
+				|| $cellOpts-&gt;{halign}
+				|| $valign
+				|| ($tableOpts-&gt;{valign}     &amp;&amp; $tableOpts-&gt;{valign} 
+ne 'top')
+				|| ($tableOpts-&gt;{rowheaders} &amp;&amp; 
+$tableOpts-&gt;{headerrules}))
+			{
+				my $columntype = $cellOpts-&gt;{halign};
+				$columntype = $cellAlign-&gt;{halign} // 'l' unless $columntype;
+				$columntype = 'p{' . $tableOpts-&gt;{Xratio} / ($#$rowArray + 1) . 
+"\\linewidth}"
+					if ($columntype eq 'X');
+				$columntype = "p{$cellAlign-&gt;{width}}"
+					if ($cellAlign-&gt;{width});
+				$columntype =~ s/^p/m/ if ($valign eq 'middle');
+				$columntype =~ s/^p/b/ if ($valign eq 'bottom');
+				$columntype =~ s/^p/m/ if ($tableOpts-&gt;{valign} eq 'middle');
+				$columntype =~ s/^p/b/ if ($tableOpts-&gt;{valign} eq 'bottom');
+				$columntype .= '|'
+					if ($i == 0 &amp;&amp; $cellOpts-&gt;{colspan} == 1 &amp;&amp; 
+$tableOpts-&gt;{rowheaders} &amp;&amp; $tableOpts-&gt;{headerrules});
+				$cell = latexCommand('multicolumn', [ $cellOpts-&gt;{colspan}, 
+$columntype, $cell ]);
+			}
+			$cell = suffix($cell, '&amp;', ' ') unless ($i == $#$rowArray);
+			push(@cells, $cell);
+		} elsif ($main::displayMode eq 'PTX') {
+			$cell = wrap($cell, @{ $tableOpts-&gt;{encase} })
+				unless $cellOpts-&gt;{noencase};
+
+			$cell = tag($cell, 'p')
+				if (($cellAlign-&gt;{width} || $cellAlign-&gt;{halign} eq 'X' || 
+$cellOpts-&gt;{halign} =~ /^p/))
+				&amp;&amp; !$tableOpts-&gt;{LaYoUt};
+			my $ptxhalign = '';
+			$ptxhalign = 'left'  if ($cellOpts-&gt;{halign} =~ /l/);
+			$ptxhalign = 'right' if ($cellOpts-&gt;{halign} =~ /r/);
+			my $ptxright = '';
+			$ptxright = 'minor'  if ($cellOpts-&gt;{halign} =~ /\|\s*$/);
+			$ptxright = 'medium' if ($cellOpts-&gt;{halign} =~ /\|\s*\|\s*$/);
+			$ptxright = 'major'  if ($cellOpts-&gt;{halign} =~ 
+/\|\s*\|\s*\|\s*$/);
+			my $ptxbottom = '';
+			$ptxbottom .= getPTXthickness($cellOpts-&gt;{bottom});
+
+			if ($cellOpts-&gt;{halign} =~ 
+/!\{\s*\\vrule\s+width\s+([^}]*?)\s*}\s*$/) {
+				$ptxright = 'minor'  if ($1);
+				$ptxright = 'minor'  if ($1 eq '0.04em');
+				$ptxright = 'medium' if ($1 eq '0.07em');
+				$ptxright = 'major'  if ($1 eq '0.11em');
+			}
+			if ($tableOpts-&gt;{LaYoUt}) {
+				$cell = tag($cell, 'p');
+				$cell = tag($cell, 'stack',);
+
+			} else {
+				$cell = tag(
+					$cell, 'cell',
+					{
+						halign  =&gt; $ptxhalign,
+						colspan =&gt; ($cellOpts-&gt;{colspan} &gt; 1) ? 
+$cellOpts-&gt;{colspan} : '',
+						right   =&gt; $ptxright,
+						bottom  =&gt; $ptxbottom
+					},
+					''
+				);
+			}
+			push(@cells, $cell);
+		} else {
+
+			# HTML
+			my $t     = 'td';
+			my $scope = '';
+			do { $t = 'th'; $scope = 'row'; }
+				if ($i == 0 &amp;&amp; $tableOpts-&gt;{rowheaders});
+			do { $t = 'th'; $scope = 'col'; } if ($headerrow);
+			$t     = 'th'  if ($cellOpts-&gt;{header} =~ 
+/^(th|rh|ch|col|column|row)$/i);
+			$scope = 'row' if ($cellOpts-&gt;{header} =~ /^(rh|row)$/i);
+			$scope = 'col' if ($cellOpts-&gt;{header} =~ /^(ch|col|column)$/i);
+			do { $t = 'td'; $scope = ''; } if ($cellOpts-&gt;{header} =~ 
+/^td$/i);
+			my $css = '';
+
+			# col level
+			$css .= css('text-align', 'center')
+				if ($cellAlign-&gt;{halign} eq 'c');
+			$css .= css('text-align', 'right')
+				if ($cellAlign-&gt;{halign} eq 'r');
+			$css .= css('width', $cellAlign-&gt;{width})
+				if ($cellAlign-&gt;{width});
+			$css .= css('font-weight', 'bold')
+				if ($cellAlign-&gt;{tex} =~ /\\bfseries/);
+			$css .= css('font-style', 'italic')
+				if ($cellAlign-&gt;{tex} =~ /\\itshape/);
+			$css .= css('font-family', 'monospace')
+				if ($cellAlign-&gt;{tex} =~ /\\ttfamily/);
+			if ($cellAlign-&gt;{tex} =~ /\\color(\[HTML\])?\{(.*?)[}!]/) {
+				$css .= css('color', ($1 ? '#' : '') . $2);
+			}
+
+			# cell level
+			$css .= css($cellOpts-&gt;{cellcss});
+			if ($cellOpts-&gt;{halign} =~ /^([|\s]*\|)/ &amp;&amp; $i == 0) {
+				my $count = $1 =~ tr/\|//;
+				$css .= css('border-left', "solid ${count}px");
+			}
+			if ($cellOpts-&gt;{halign} =~ 
+/^(\s\|)*!\{\\vrule\s+width\s+([^}]*?)}/
+				&amp;&amp; $i == 0)
+			{
+				$css .= css('border-left', "solid $2");
+			}
+			if ($cellOpts-&gt;{halign} =~ /(\|[|\s]*)$/) {
+				my $count = $1 =~ tr/\|//;
+				$css .= css('border-right', "solid ${count}px");
+			}
+			if ($cellOpts-&gt;{halign} =~ /!\{\\vrule\s+width\s+([^}]*?)}\s*$/) {
+				$css .= css('border-right', "solid $1");
+			}
+			$css .= css('border-bottom', getRuleCSS($cellOpts-&gt;{bottom}));
+			$css .= css('text-align',    'left') if ($cellOpts-&gt;{halign} =~ 
+/^l/);
+			$css .= css('text-align',    'center')
+				if ($cellOpts-&gt;{halign} =~ /^c/);
+			$css .= css('text-align', 'right') if ($cellOpts-&gt;{halign} =~ 
+/^r/);
+			$css .= css('text-align', 'left')  if ($cellOpts-&gt;{halign} =~ 
+/^p/);
+			$css .= css('width',      $1)
+				if ($cellOpts-&gt;{halign} =~ /^p\{([^}]*?)}/);
+			$css .= css('font-weight', 'bold')
+				if ($cellOpts-&gt;{tex} =~ /\\bfseries/);
+			$css .= css('font-style', 'italic')
+				if ($cellOpts-&gt;{tex} =~ /\\itshape/);
+			$css .= css('font-family', 'monospace')
+				if ($cellOpts-&gt;{tex} =~ /\\ttfamily/);
+
+			if ($cellOpts-&gt;{tex} =~ /\\cellcolor(\[HTML\])?\{(.*?)[}!]/) {
+				$css .= css('background-color', ($1 ? '#' : '') . $2);
+			}
+			if ($cellOpts-&gt;{tex} =~ /\\color(\[HTML\])?\{(.*?)[}!]/) {
+				$css .= css('color', ($1 ? '#' : '') . $2);
+			}
+			$css .= css($tableOpts-&gt;{allcellcss});
+			$css .= css($tableOpts-&gt;{headercss}) if ($t eq 'th');
+			$css .= css($tableOpts-&gt;{datacss})   if ($t eq 'td');
+			$cell = wrap($cell, @{ $tableOpts-&gt;{encase} })
+				unless $cellOpts-&gt;{noencase};
+			if ($tableOpts-&gt;{LaYoUt}) {
+				$css .= css('display', 'table-cell');
+				my $cellvalign = $tableOpts-&gt;{valign};
+				$cellvalign = $valign if ($valign);
+				$css        = css('vertical-align', $cellvalign) . $css;
+				$css        = css('padding',        '12pt') . $css;
+				if ($cellAlign-&gt;{tex} =~ /\\columncolor(\[HTML\])?\{(.*?)[\}!]/) {
+					$css = css('background-color', ($1 ? '#' : '') . $2) . $css;
+				}
+				$css =
+					css('border-right', getRuleCSS($cellAlign-&gt;{right})) . $css;
+				$cell = tag($cell, 'div', { style =&gt; $css });
+			} else {
+				$css  = css('padding', '0pt 6pt') . $css;
+				$cell = tag(
+					$cell, $t,
+					{
+						style   =&gt; $css,
+						scope   =&gt; $scope,
+						colspan =&gt; ($cellOpts-&gt;{colspan} &gt; 1) ? 
+$cellOpts-&gt;{colspan} : ''
+					}
+				);
+			}
+			push(@cells, $cell);
+		}
+	}
+
+	return main::MODES(
+		TeX  =&gt; join(" ",  @cells),
+		HTML =&gt; join("\n", @cells),
+		PTX  =&gt; join("\n", @cells),
+	);
+
+}
+
+# Takes the user's nested array and returns a cleaned up version with 
+initializations
+sub TableArray {
+	my $userArray        = shift;
+	my %supportedOptions = (
+		data      =&gt; '',
+		halign    =&gt; '',
+		header    =&gt; '',
+		tex       =&gt; '',
+		noencase  =&gt; 0,
+		colspan   =&gt; 1,
+		cellcss   =&gt; '',
+		texpre    =&gt; '',
+		texpost   =&gt; '',
+		rowcolor  =&gt; '',
+		rowcss    =&gt; {},
+		headerrow =&gt; '',
+		rowtop    =&gt; 0,
+		rowbottom =&gt; 0,
+		top       =&gt; 0,
+		bottom    =&gt; 0,
+		valign    =&gt; '',
+	);
+	my @outArray;
+	for my $i (0 .. $#$userArray) {
+		my @outRow;
+		my @userRow = @{ $userArray-&gt;[$i] };
+
+		# $leftColIndex and $rightColIndex are part of a scheme to track use 
+of colspan
+		my $leftColIndex  = 0;
+		my $rightColIndex = 0;
+		for my $j (0 .. $#userRow) {
+			my $userCell = $userRow[$j];
+			my %outHash  = %supportedOptions;
+			if (ref($userCell) eq 'HASH') {
+				for my $key (keys(%supportedOptions)) {
+					$outHash{$key} = $userCell-&gt;{$key}
+						if defined($userCell-&gt;{$key});
+				}
+
+				# convenience
+				$outHash{tex} .= '\color' . formatColorLaTeX($userCell-&gt;{color})
+					if ($userCell-&gt;{color});
+				$outHash{tex} .= '\cellcolor' . 
+formatColorLaTeX($userCell-&gt;{bgcolor})
+					if ($userCell-&gt;{bgcolor});
+				$outHash{tex} .= '\bfseries' if ($userCell-&gt;{b});
+				$outHash{tex} .= '\itshape'  if ($userCell-&gt;{i});
+				$outHash{tex} .= '\ttfamily' if ($userCell-&gt;{m});
+				$outHash{texpre} = $outHash{texpre} . $userCell-&gt;{texencase}[0]
+					if $userCell-&gt;{texencase};
+				$outHash{texpost} = $userCell-&gt;{texencase}[1] . $outHash{texpost}
+					if $userCell-&gt;{texencase};
+
+				# legacy misnomers
+				$outHash{rowbottom} = $userCell-&gt;{midrule}
+					if (defined($userCell-&gt;{midrule})
+						&amp;&amp; !$outHash{rowbottom});
+			} elsif (ref($userCell) eq 'ARRAY') {
+				my @userCellCopy = (@$userCell);
+				$outHash{data} = shift(@userCellCopy) if (@userCellCopy);
+				my %userOptions = @userCellCopy;
+				for my $key (keys(%supportedOptions)) {
+					$outHash{$key} = $userOptions{$key}
+						if defined($userOptions{$key});
+				}
+
+				# convenience
+				$outHash{tex} .= '\color' . formatColorLaTeX($userOptions{color})
+					if ($userOptions{color});
+				$outHash{tex} .= '\cellcolor' . 
+formatColorLaTeX($userOptions{bgcolor})
+					if ($userOptions{bgcolor});
+				$outHash{tex} .= '\bfseries' if ($userOptions{b});
+				$outHash{tex} .= '\itshape'  if ($userOptions{i});
+				$outHash{tex} .= '\ttfamily' if ($userOptions{m});
+				$outHash{texpre} = $outHash{texpre} . 
+$userOptions{texencase}-&gt;[0]
+					if $userOptions{texencase};
+				$outHash{texpost} = $userOptions{texencase}-&gt;[1] . 
+$outHash{texpost}
+					if $userOptions{texencase};
+
+				# legacy misnomers
+				$outHash{rowbottom} = $userOptions{midrule}
+					if (defined($userOptions{midrule})
+						&amp;&amp; !$outHash{rowbottom});
+			} else {
+				$outHash{data} = $userCell;
+			}
+
+			# clean up
+			# remove any left vertical rule specifications from halign
+			if ($j &gt; 0
+				&amp;&amp; $outHash{halign} =~ 
+/((?&lt;!\w)[lcrp](?!\w)\s*(\{[^}]*?\})?(\||!\{[^}]*?\}|\s)*)/)
+			{
+				$outHash{halign} = $1;
+			}
+
+			# scheme to track colspan
+			$leftColIndex      = $rightColIndex + 1;
+			$rightColIndex     = $rightColIndex + $outHash{colspan};
+			$outHash{leftcol}  = $leftColIndex;
+			$outHash{rightcol} = $rightColIndex;
+
+			$outRow[$j] = \%outHash;
+		}
+		$outArray[$i] = \@outRow;
+	}
+	return \@outArray;
+}
+
+sub ColumnCount {
+	my $tableArray = shift;
+	my $colCount   = 0;
+	for my $i (0 .. $#$tableArray) {
+		my $thisRowColCount = 0;
+		for my $j (0 .. $#{ $tableArray-&gt;[$i] }) {
+			$thisRowColCount += $tableArray-&gt;[$i][$j]-&gt;{colspan};
+		}
+		$colCount = $thisRowColCount if ($thisRowColCount &gt; $colCount);
+	}
+	return $colCount;
+}
+
+sub TableOptions {
+	my $colCount         = shift;
+	my %supportedOptions = (
+		center          =&gt; 1,
+		caption         =&gt; '',
+		horizontalrules =&gt; 0,
+		texalignment    =&gt; join('', ('c') x $colCount),
+		Xratio          =&gt; 0.97,
+		encase          =&gt; [ '', '' ],
+		rowheaders      =&gt; 0,
+		tablecss        =&gt; {},
+		captioncss      =&gt; {},
+		columnscss      =&gt; [ ({}) x $colCount ],
+		datacss         =&gt; {},
+		headercss       =&gt; {},
+		allcellcss      =&gt; {},
+		valign          =&gt; 'top',
+		booktabs        =&gt; 1,
+		headerrules     =&gt; 1,
+		LaYoUt          =&gt; 0,
+	);
+	%outHash = %supportedOptions;
+	my %userOptions = @_;
+	for my $key (keys(%supportedOptions)) {
+		$outHash{$key} = $userOptions{$key} if defined($userOptions{$key});
+	}
+
+	# special user shortcut
+	$outHash{texalignment} = $userOptions{align}
+		if (defined($userOptions{align}) &amp;&amp; 
+!$userOptions{texalignment});
+
+	# legacy misnomers
+	$outHash{horizontalrules} = $userOptions{midrules}
+		if (defined($userOptions{midrules}) &amp;&amp; 
+!$outHash{horizontalrules});
+
+	return \%outHash;
+}
+
+sub ParseAlignment {
+	my $alignment = shift;
+	$alignment =~ s/\R//g;
+
+	# first we parse things like *{20}{...} to expand them
+	my $pattern = qr/\*\{(\d+)\}\{(.*?)\}/;
+	while ($alignment =~ /$pattern/) {
+		my @captured    = ($alignment =~ /$pattern/);
+		my $replaceWith = $captured[1] x $captured[0];
+		$alignment =~ s/$pattern/$replaceWith/;
+	}
+
+	my @align = ();
+
+	# 0th entry is only for possible left border
+	# other entries have only right borders,
+	# the actual alignment is r, c, l, X, or p
+	# explicit width vertical rules from !{...}
+	# latex directives from &gt;{...}
+	# we make an array of the tokens of type:
+	# r, c, l, X, |, !{...}, p{...}, &gt;{...}
+	# this is complicated because of potential nested brackets
+	my @tokens             = ();
+	my $bracesregex        = qr/(\{(?&gt;[^{}]|(?R))*\})/x;
+	my $bracecontentsregex = qr/((?&gt;[^\{}]|(??{$bracesregex}))*)/x;
+
+	# . at the end is to ensure we are whittling down $alignment at least a
+ little
+	my $tokenspattern = 
+qr/^([rclX\|]\s*|[!p&gt;]\s*\{((??{$bracecontentsregex}))\}\s*|.)/;
+
+	$align[0] = { left =&gt; 0 };
+	$leftpattern = qr/^\s*(\|\s*|!\s*\{\s*\\vrule\s+width\s+([^}]*?)\})/x;
+	while ($alignment =~ $leftpattern) {
+		my $token = $1;
+		if ($token =~ /^\|/) {
+
+			# this counts how many | we have
+			$align[0]-&gt;{left} = 0
+				unless ($align[0]{left} &amp;&amp; $align[0]{left} =~ /\d+/);
+			$align[0]-&gt;{left} += 1;
+		} elsif ($token =~ /^!\s*\{\s*\\vrule\s+width\s+([^}]*?)\}/) {
+			$align[0]-&gt;{left} = $1;
+		}
+		$alignment =~ s/$leftpattern//;
+	}
+
+	# now that leftmost vertical rule tokens taken care of, get all the 
+other tokens
+	while ($alignment) {
+		my $token = ($alignment =~ /$tokenspattern/)[0];
+		$alignment =~ s/$tokenspattern//;
+		push(@tokens, $token);
+	}
+
+	# now run through tokens and grow @align
+	# index for @align
+	my $i = 1;
+
+	# $j is index for @tokens
+	for my $j (0 .. $#tokens) {
+		my $token = $tokens[$j];
+		my $next  = $tokens[ $j + 1 ] // '';
+		if ($token =~ /^([lcrX])/) {
+			$align[$i]-&gt;{halign} = $1;
+			$align[$i]-&gt;{valign} = 'top' if ($1 eq 'X');
+			$i++ unless ($next =~ /^[|!]/);
+		} elsif ($token =~ /^\|/) {
+
+			# this counts how many | we have
+			$align[$i]-&gt;{right} = 0
+				unless ($align[$i]-&gt;{right} &amp;&amp; $align[$i]-&gt;{right} =~ 
+/\d+/);
+			$align[$i]-&gt;{right} += 1;
+			$i++ unless ($next =~ /^[|!]/);
+		} elsif ($token =~ /^!\s*\{\s*\\vrule\s+width\s+([^}]*?)\}/) {
+
+			# for this style of vertical rule we store the width instead of a 
+small positive integer
+			$align[$i]-&gt;{right} = $1;
+			$i++ unless ($next =~ /^[|!]/);
+		} elsif ($token =~ /^p\{((??{$bracecontentsregex}))\}\s*/) {
+			$align[$i]-&gt;{halign} = 'l';
+
+			# record top alignment, but could be overwritten by row valign
+			$align[$i]-&gt;{valign} = 'top';
+			$align[$i]-&gt;{width}  = $1;
+			$i++ unless ($next =~ /^[|!]/);
+		} elsif ($token =~ /^&gt;\s*\{((??{$bracecontentsregex}))\}/) {
+			$align[$i]-&gt;{tex} = $1;
+
+			# could parse these further for color identification, etc
+		}
+	}
+
+	# now initialize any $align[$i] values that were not initialized
+	for my $x (@align) {
+		for my $key ('halign', 'valign', 'right', 'width', 'tex') {
+			$x-&gt;{$key} = '' unless (defined $x-&gt;{$key});
+		}
+	}
+
+	return \@align;
+
+}
+
+sub formatColorLaTeX {
+	my $color = shift;
+	if ($color =~ /^(\[HTML\])?\{.*\}$/) {
+		return $color;
+	} elsif ($color =~ /^[0-9a-fA-F]{6}$/) {
+		return "[HTML]{$color}";
+	} else {
+		return "{$color}";
+	}
+}
+
+sub formatColorHTML {
+	my $color = shift;
+	if ($color =~ /^\[HTML\]\{(.*)\}$/) {
+		return '#' . $1;
+	} elsif ($color =~ /^\{([^!]*)(?=[!\}])/) {
+		return $1;
+	} elsif ($color =~ /^(.*?)!/) {
+		return $1;
+	} elsif ($color =~ /^[0-9a-fA-F]{6}$/) {
+		return "#$color";
+	} else {
+		return "$color";
+	}
+}
+
+sub latexEnvironment {
+	my ($inside, $environment, $options, $separator) = @_;
+	$separator = "\n" unless (defined $separator);
+	my $return = "\\begin{$environment}";
+	for my $x (@$options) {
+		if ($x =~ /^\[[^\]]+\]$/) {
+			$return .= $x;
+		} else {
+			$return .= "{$x}" if ($x ne '');
+		}
+	}
+	$return .= "$separator$inside$separator";
+	$return .= "\\end{$environment}";
+	return $return;
+}
+
+sub latexCommand {
+	my ($command, $arguments) = @_;
+	my $return = "\\$command";
+	for my $x (@$arguments) {
+		$return .= "{$x}" if ($x ne '');
+	}
+	$return .= " ";
+	return $return;
+}
+
+sub wrap {
+	my ($center, $left, $right, $separator) = @_;
+	$separator = "\n" unless (defined $separator);
+	return $center                   unless ($left || $right);
+	return "$left$separator$center"  unless $right;
+	return "$center$separator$right" unless $left;
+	return "$left$separator$center$separator$right";
+}
+
+sub prefix {
+	my ($center, $left, $separator) = @_;
+	$separator = "\n" unless (defined $separator);
+	return join("$separator", ($left, $center)) if ($left ne '');
+	return $center;
+}
+
+sub suffix {
+	my ($center, $right, $separator) = @_;
+	$separator = "\n" unless (defined $separator);
+	return join("$separator", ($center, $right)) if ($right ne '');
+	return $center;
+}
+
+sub css {
+	my ($a, $b) = @_;
+	my $return = '';
+	if (ref $a eq 'HASH') {
+		my %css = %{$a};
+		for my $property (keys %css) {
+			$return = css($property =~ s/([A-Z])/-\L$1/gr, $css{$property});
+		}
+	}
+	# attempt to detect if a CSS syntax string was used
+	elsif ($a =~ /:.+;/) {
+		$return = $a;
+	} elsif ($b) {
+		$return = "$a:$b;";
+	}
+
+	return $return;
+}
+
+sub tag {
+	my ($inner, $name, $attributes, $separator) = @_;
+	$separator = "\n" unless defined $separator;
+	my $return = "&lt;$name";
+	for my $x (main::lex_sort(keys %$attributes)) {
+		$return .= qq( $x="$attributes-&gt;{$x}") if ($attributes-&gt;{$x} ne 
+'');
+	}
+	if ($inner) {
+		$return .= "&gt;$separator";
+		$return .= $inner;
+		$return .= "$separator&lt;/$name&gt;";
+	} else {
+		$return .= '&gt;' unless ($main::displayMode eq 'PTX');
+		$return .= '/&gt;' if ($main::displayMode eq 'PTX');
+	}
+	return $return;
+}
+
+sub getLaTeXthickness {
+	my $input  = shift;
+	my $output = '';
+	if ($input =~ /^\s*(\.\d+|\d+\.?\d*)\s*$/) {
+		$output = "$1px" if $1;
+	} elsif ($input) {
+		$output = "$input";
+	}
+	return $output;
+}
+
+sub getRuleCSS {
+	my $input  = shift;
+	my $output = '';
+	if ($input =~ /^\s*(\.\d+|\d+\.?\d*)\s*$/) {
+		$output = "solid $1px" if $1;
+	} elsif ($input) {
+		$output = "solid $input";
+	}
+	return $output;
+}
+
+sub getPTXthickness {
+	# For a positive integer input, 1=&gt;minor, 2=&gt;medium, and 
+greater=&gt;major.
+	# For a specific width input, we honor the PTX values
+	# 0.04em=&gt;minor, 0.07em=&gt;medium, 0.11em=&gt;major
+	# but anything else goes to minor. Ideally an input would be compared
+	# as a length unit to 0.04em, 0.07em, 0.11em and an appropriate choice
+	# from minor|mediuum|major would be used. But we do not get into
+	# comparing length units here.
+	my $input = shift;
+	return '' unless ($input);
+	my $output = '';
+	if ($input eq '1') {
+		$output = "minor";
+	} elsif ($input eq '2') {
+		$output = "medium";
+	} elsif ($input =~ /^[3-9]|[1-9]\d+$/) {
+		$output = "major";
+	} elsif ($input eq '0.04em') {
+		$output = 'minor';
+	} elsif ($input eq '0.07em') {
+		$output = 'medium';
+	} elsif ($input eq '0.11em') {
+		$output = 'major';
+	} elsif ($input) {
+		$output = "minor";
+	}
+	return $output;
+}
+
+sub getWidthPercent {
+	my $absWidth = shift;
+	my $x        = 0;
+	my $unit     = 'cm';
+	if ($absWidth =~ /^(\.\d+|\d+\.?\d*)\s*(\w+)/) {
+		$x    = $1;
+		$unit = $2;
+	}
+	my %convert_to_cm = (
+		'pt' =&gt; 1 / 864 * 249 / 250 * 12 * 2.54,
+		'mm' =&gt; 1 / 10,
+		'cm' =&gt; 1,
+		'in' =&gt; 2.54,
+		'ex' =&gt; 0.15132,
+		'em' =&gt; 0.35146,
+		'mu' =&gt; 0.35146 / 8,
+		'sp' =&gt; 1 / 864 * 249 / 250 * 12 * 2.54 / 65536,
+		'bp' =&gt; 2.54 / 72,
+		'dd' =&gt; 1 / 864 * 249 / 250 * 12 * 2.54 * 1238 / 1157,
+		'pc' =&gt; 1 / 864 * 249 / 250 * 12 * 2.54 * 12,
+		'cc' =&gt; 1 / 864 * 249 / 250 * 12 * 2.54 * 1238 / 1157 * 12,
+		'px' =&gt; 2.54 / 72,
+	);
+	return (int($x * $convert_to_cm{$unit} / (6.25 * 2.54) * 10000) / 100) .
+ '%';
+}
+
+sub hrule {
+	my ($booktabs, $type, $thickness) = @_;
+	if ($booktabs) {
+		my $thicknessArg = '';
+		$thicknessArg = '[' . getLaTeXthickness($thickness) . ']'
+			if ($thickness);
+		return "\\" . $type . 'rule' . $thicknessArg;
+	} elsif ($type eq 'cmid') {
+		return "\\cline";
+	} else {
+		return "\\hline";
+	}
+}
+
+1;
+</textarea></div></div><div class="row"><div class="col-md-2 col-4 my-2"><input type="submit" name="action" value="Cancel" class="btn btn-sm btn-secondary w-100"></div> <div class="col-md-2 col-4 my-2"><input type="submit" name="action" value="Revert" class="btn btn-sm btn-secondary w-100"></div> <div class="col-md-2 col-4 my-2"><input type="submit" name="action" value="Save" class="btn btn-sm btn-secondary w-100"></div> <div class="col-md-6 col-12 my-2"><div class="input-group"><input type="submit" name="action" value="Save As" class="btn btn-sm btn-secondary"> <input class="form-control form-control-sm" name="name" size="20" type="text"></div></div></div><input type="hidden" name="files" value="niceTables.pl"><input type="hidden" name="dates" value="0"><input type="hidden" name="overwrite" value="0"><input type="hidden" name="unpack" value="1"><input type="hidden" name="autodelete" value="1"><input type="hidden" name="format" value="Automatic"><input type="hidden" name="pwd" value="templates/macros"><input type="hidden" name="formAction" value=""></form>
+	</div>
+	<!-- inserted body as a whole -->
+	
+	</div>
+	
+
+<!-- ==============END BODY OF PROBLEM=============== -->
+	
+
+
+
+<div id="Message_bottom" class="Message">
+	
+</div>
+
+
+</div><!-- #content -->
+
+<!-- Bootstrap Fluid Layout Scaffolding stop -->
+</div><!-- #body-row -->
+</div><!-- #bs-container.container-fluid -->
+
+<!-- Footer -->
+<div id="footer" role="contentinfo">
+	<div id="last-modified">Page generated at 04/05/2023 at 09:56pm PDT</div><div id="copyright">WeBWorK © 1996-2022 | theme: math4 | ww_version: 2.17 | pg_version 2.17 | <a href="https://openwebwork.org/">The WeBWorK Project</a></div>
+</div>
+
+
+
+</body></html>

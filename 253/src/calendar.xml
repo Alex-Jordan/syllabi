@@ -5,308 +5,93 @@
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Calendar</title>
 
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Sep 23</p>
-      <p>
-        We will discuss the class format and orient you to the weekly routine.
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.1 (Sequences)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/Sequences.pdf">Sequences worksheet.</url>
-      </p>
-      <p>
-        <url href="worksheets/SequencesAnswers.pdf">Sequences worksheet with answers.</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Sep 25</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.1 (Sequences) continued</li>
-          <li>Section 8.2 (Series)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/Series.pdf">Series worksheet.</url>
-      </p>
-      <p>
-        <url href="worksheets/SeriesAnswers.pdf">Series worksheet with answers.</url>
-      </p>
-    </stack>
-  </sidebyside>
+  <p>
+    The official timeline for this course will be managed with D2L.
+    What matters most is whatever dates are in the modules inside D2L.
+    Details may change as the term progresses, and this will be reflected in the D2L modules.
+    So the information below is subject to change.
+    It is only included here for a quick reference at the start of the term.
+  </p>
 
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Sep 30</p>
-      <p>
-        <xref ref="written1" text="title"/> due.
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.2 (Series) continued</li>
-        </ul>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Oct 2</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.3 (The Integral and Comparison Tests; Estimating Sums)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/IntegralTestAndEstimation.pdf">Integral Test and Estimation worksheet.</url>
-      </p>
-    </stack>
-  </sidebyside>
+  <tabular bottom="minor" valign="top">
+    <row header="yes" bottom="major">
+      <cell>Week of</cell>
+      <cell>Content</cell>
+    </row>
+    <row>
+      <cell>4/4</cell>
+      <cell>
+        <line>8.1 Graphical and Numerical Solutions to Differential Equations</line>
+        <line>8.2 Separable Differential Equations</line>
+      </cell>
+    </row>
+    <row>
+      <cell>4/11</cell>
+      <cell>
+        <line>8.4 Modeling with Differential Equations</line>
+        <line>9.1 Sequences</line>
+      </cell>
+    </row>
+    <row>
+      <cell>4/18</cell>
+      <cell>
+        <line>9.2 Infinite Series</line>
+        <line>9.2 Infinite Series</line>
+      </cell>
+    </row>
+    <row>
+      <cell>4/25</cell>
+      <cell>
+        <line><alert>Midterm Exam 1</alert></line>
+        <line>9.3 Integral Test</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/2</cell>
+      <cell>
+        <line>9.3 Comparison Tests</line>
+        <line>9.4 Ratio Test</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/9</cell>
+      <cell>
+        <line>9.5 Alternating Series</line>
+        <line>9.5 Absolute Convergence</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/16</cell>
+      <cell>
+        <line><alert>Midterm Exam 2</alert></line>
+        <line>9.6 Power Series</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/23</cell>
+      <cell>
+        <line>9.6 Power Series</line>
+        <line>9.7 Taylor Polynomials</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/30</cell>
+      <cell>
+        <line>Memorial Day</line>
+        <line>9.8 Taylor Series</line>
+      </cell>
+    </row>
+    <row>
+      <cell>6/6</cell>
+      <cell>
+        <line>9.8 Taylor Series</line>
+        <line>Review/Catch-up</line>
+      </cell>
+    </row>
+    <row>
+      <cell>6/13</cell>
+      <cell><alert>Final Exam</alert></cell>
+    </row>
+  </tabular>
 
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Oct 7</p>
-      <p>
-        <xref ref="written2" text="title"/> due.
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.3 (The Integral and Comparison Tests; Estimating Sums) continued</li>
-          <li>Section 8.4 (Other Convergence Tests)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/AbsoluteConvergenceAndRatioTest.pdf">Absolute Convergence and Ratio Test.</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Oct 9</p>
-      <p>
-        <xref ref="written3" text="title"/> due.
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.4 (Other Convergence Tests) continued</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/AlternatingSeries.pdf">Alternating Series.</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Oct 14</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.5 (Power Series)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/PowerSeries.pdf">Power Series.</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Oct 16</p>
-      <p>
-        <xref ref="written4" text="title"/> due.
-      </p>
-      <p>
-        <xref ref="exam1" text="title"/>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Oct 21</p>
-      <p>
-        Class was canceled because Alex was sick and no sub could be found.
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Oct 23</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.6 (Representations of Functions as Power Series)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/GeometricPowerSeries.pdf">Geometric Power Series.</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Oct 28</p>
-      <p>
-        <xref ref="written5" text="title"/> due.
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.6 (Representations of Functions as Power Series) continued</li>
-          <li>Section 8.7 (Taylor and Maclaurin Series)</li>
-        </ul>
-      </p>
-      <p>
-        <url href="worksheets/MaclaurinSeries.pdf">Maclaurin Series.</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Oct 30</p>
-      <p>
-        Class does not meet. (PCC inservice day.)
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Nov 4</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.7 (Taylor and Maclaurin Series) continued</li>
-          <li>Section 8.8 (Applications of Taylor Polynomials)</li>
-        </ul>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Nov 6</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 8.8 (Applications of Taylor Polynomials) continued</li>
-          <li>Section 9.1 (Three-Dimensional Coordinate Systems)</li>
-        </ul>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Nov 11</p>
-      <p>
-        Class does not meet. (Veterans Day.)
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Nov 13</p>
-      <p>
-        <xref ref="written6" text="title"/> due.
-      </p>
-      <p>
-        <xref ref="exam2" text="title"/>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Nov 18</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 9.2 (Vectors)</li>
-          <li>Section 9.3 (The Dot Product)</li>
-        </ul>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Nov 20</p>
-      <p>
-        <xref ref="section-presentations" text="title"/>
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 9.3 (The Dot Product) continued</li>
-          <li>Section 9.4 (The Cross Product)</li>
-        </ul>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Nov 25</p>
-      <p>
-        <xref ref="written7" text="title"/> due.
-      </p>
-      <p>
-        <xref ref="section-presentations" text="title"/>
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 9.4 (The Cross Product) continued</li>
-        </ul>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Nov 27</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 9.5 (Equations of Lines and Planes)</li>
-        </ul>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Dec 2</p>
-      <p>
-        <xref ref="written8" text="title"/> due.
-      </p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 9.6 (Functions and Surfaces)</li>
-        </ul>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Dec 4</p>
-      <p>
-        Readings from the book:
-        <ul>
-          <li>Section 9.7 (Cylindrical and Spherical Coordinates)</li>
-        </ul>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Dec 9</p>
-      <p>
-        <xref ref="written9" text="title"/> due.
-      </p>
-      <p>
-        <xref ref="exam3" text="title"/> is from <alert>11:00 to 1:00, not the usual class time!</alert>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Dec 11</p>
-      <p>
-        Class does not meet.
-      </p>
-    </stack>
-  </sidebyside>
 </section>
-

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-worksheets">
+  <title>Worksheets</title>
+  <p>
+    Each weekly module has a worksheet assignment. There are several purposes of these assignments:
+    <ul>
+      <li>
+        <p>
+          Ask questions that are too complex for <webwork/> to assess automatically.
+        </p>
+      </li>
+      <li>
+        <p>
+          Allow me to review your <em>process</em> for finding answers, so I can make sure that you
+          do not have a fundamental misunderstanding.
+        </p>
+      </li>
+      <li>
+        <p>
+          Develop your ability to <em>explain</em> how to reach an answer, which is something that
+          an online homework problem cannot do.
+        </p>
+      </li>
+      <li>
+        <p>
+          Give our online course a sense of community, since you will be encouraged to work together
+          in a small group.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    During the first week you will use a D2L discussion forum to find a group to work with through
+    the term. You should organize yourselves according to what times of the week you are available.
+    Some students can only work together in the evenings, some in the mornings on weekends, etc.
+  </p>
+  <paragraphs>
+    <title>Late Submissions</title>
+    <p>
+      Worksheets have a due date in D2L. Completing them by the due date helps you stay on pace to
+      be successful. If you miss a due date, D2L will still allow you to turn in the assignment for
+      up to two weeks, and I will still grade it with no penalty to your score. However, that
+      <q>two-week window</q> is shorter right before an exam. This is because you should be required
+      to complete the assignments before you come in to take an exam.
+    </p>
+  </paragraphs>
+</section>

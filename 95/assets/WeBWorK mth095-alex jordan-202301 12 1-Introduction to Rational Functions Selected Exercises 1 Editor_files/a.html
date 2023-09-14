@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-US"><!--  Note that the lang and dir attributes are now set during the
+      processing of the template and not hard-coded above.
+--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+################################################################################
+# WeBWorK Online Homework Delivery System
+# Copyright &copy; 2000-2022 The WeBWorK Project, https://github.com/openwebwork
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of either: (a) the GNU General Public License as published by the
+# Free Software Foundation; either version 2, or (at your option) any later
+# version, or (b) the "Artistic License" which comes with this package.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+# Artistic License for more details.
+################################################################################
+-->
+
+<link rel="icon" type="x-image/icon" href="https://webwork.pcc.edu/webwork2_files/images/favicon.ico">
+
+<!-- CSS Loads -->
+<link rel="stylesheet" href="bootstrap.f038b6ee.min.css">
+<link rel="stylesheet" href="all.min.css">
+<link rel="stylesheet" href="math4.fc51f57d.min.css">
+
+<link rel="stylesheet" href="a_data/achievements.ba3f1b1b.min.css">
+
+
+	<link href="a_data/jquery-ui.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="math4-overrides.87caa6cf.min.css">
+
+
+<!-- JS Loads -->
+<script src="mathjax-config.d097a5f4.min.js" defer="defer"></script>
+<script src="tex-svg.js" id="MathJax-script" defer="defer"></script>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.bundle.min.js" defer="defer"></script>
+
+	<script src="a_data/jquery-ui.min.js"></script><script defer="defer" src="a_data/problem.c9e3e018.min.js"></script>
+
+<script src="math4.04d32dc9.min.js" defer="defer"></script>
+
+<script src="math4-overrides.e3b0c442.min.js" defer="defer"></script>
+
+
+<title>WeBWorK : mth095-alex jordan-202301 : 12 1-Introduction to Rational Functions Selected Exercises : 1</title>
+
+
+<script src="asciimath.js" charset="UTF-8"></script><script src="noerrors.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-SVG-styles">
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+</style><style type="text/css">#site-navigation,#toggle-sidebar,#masthead,#breadcrumb-row,#footer,.sticky-nav{display:none !important;}</style></head>
+
+<body>
+<a href="#page-title" id="stmc-link" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Bootstrap Fluid Layout Scaffolding start -->
+<div id="bs-container" class="container-fluid">
+<!-- Header -->
+<div id="masthead" class="row" role="banner">
+	<div class="col-md-2 webwork_logo">
+		<a href="https://webwork.pcc.edu/webwork2"><img alt="to courses page" src="webwork_logo.svg"></a>
+	</div>
+	<div class="col-md-6 institution_logo">
+		<a href="https://www.pcc.edu/"><img alt="to Portland Community College main web site" src="PCC_primary_logo_reversed.svg"></a>
+	</div>
+	<div id="loginstatus" class="col-md-4">
+		Logged in as Alex Jordan.<a class="btn btn-light btn-sm ms-2" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/logout/?effectiveUser=alex.jordan">Log Out <i aria-hidden="true" class="icon fas fa-sign-out-alt" data-alt="signout"></i><span class="sr-only-glyphicon">signout</span></a>
+	</div>
+</div>
+
+<!-- Breadcrumb -->
+<div id="breadcrumb-row" class="row my-2">
+	<div class="col-12 d-flex align-items-center">
+		
+		<button type="button" class="btn btn-secondary" id="toggle-sidebar">
+			<span id="toggle-sidebar-icon">
+				<i class="icon fas fa-chevron-left" aria-hidden="true" data-alt="close sidebar"></i><span class="sr-only-glyphicon">close sidebar</span>
+			</span>
+		</button>
+		
+		<nav id="breadcrumb-navigation" aria-label="breadcrumb navigation" class="w-100">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2?effectiveUser=alex.jordan">WeBWorK</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301?effectiveUser=alex.jordan">mth095-alex jordan-202301</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises?effectiveUser=alex.jordan">12 1-Introduction to Rational Functions Selected Exercises</a></li><li class="breadcrumb-item active">1</li>
+			</ol>
+		</nav>
+	</div>
+</div>
+
+<div id="body-row" class="d-flex">
+
+<!-- Navigation -->
+
+<div id="site-navigation" class="d-flex flex-column" role="navigation" aria-label="main navigation">
+	
+		<div id="site-links" class="bg-light">
+			<h2 class="navbar-brand mb-0">Main Menu</h2><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/">Courses</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/?effectiveUser=alex.jordan&amp;displayMode=MathJax">Homework Sets</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" dir="ltr" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/?effectiveUser=alex.jordan&amp;displayMode=MathJax">12 1-Introduction to Rational Functions Selected Exercises</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link active" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/?effectiveUser=alex.jordan&amp;displayMode=MathJax">Problem 1</a></li></ul></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/options/?effectiveUser=alex.jordan&amp;displayMode=MathJax">User Settings</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/grades/?effectiveUser=alex.jordan&amp;displayMode=MathJax">Grades</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/achievements/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Achievements</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Instructor Tools</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/users/?effectiveUser=alex.jordan&amp;displayMode=MathJax">Classlist Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/sets/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Hmwk Sets Editor</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" dir="ltr" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/sets/12_1-Introduction_to_Rational_Functions_Selected_Exercises/?effectiveUser=alex.jordan&amp;displayMode=MathJax">12 1-Introduction to Rational Functions Selected Exercises</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/pgProblemEditor/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/?effectiveUser=alex.jordan&amp;displayMode=MathJax" target="WW_Editor">Problem 1</a></li></ul></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/setmaker/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Library Browser</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/stats/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Statistics</a><ul class="nav flex-column"><li class="nav-item" dir="ltr"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/stats/set/12_1-Introduction_to_Rational_Functions_Selected_Exercises/?displayMode=MathJax&amp;effectiveUser=alex.jordan">12 1-Introduction to Rational Functions Selected Exercises</a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/progress/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Student Progress</a><ul class="nav flex-column"><li class="nav-item" dir="ltr"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/progress/set/12_1-Introduction_to_Rational_Functions_Selected_Exercises/?displayMode=MathJax&amp;effectiveUser=alex.jordan">12 1-Introduction to Rational Functions Selected Exercises</a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/scoring/?effectiveUser=alex.jordan&amp;displayMode=MathJax">Scoring Tools</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/achievement_list/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Achievement Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/send_mail/?displayMode=MathJax&amp;effectiveUser=alex.jordan">Email</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/file_manager/?displayMode=MathJax&amp;effectiveUser=alex.jordan">File Manager</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/config/?effectiveUser=alex.jordan&amp;displayMode=MathJax">Course Configuration</a></li><li class="nav-item"><a class="help-macro nav-link" href="https://webwork.pcc.edu/webwork2_files/helpFiles/instructor_links.html" target="ww_help">Help</a></li><li class="nav-item"><a class="help-macro nav-link" href="https://webwork.pcc.edu/webwork2_files/helpFiles/no_help.html" target="ww_help"><i aria-hidden="true" class="icon fas fa-question-circle" data-alt=" ? "></i><span class="sr-only-glyphicon"> ? </span></a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://bugs.webwork.maa.org/enter_bug.cgi">Report bugs</a></li></ul>
+		</div>
+	
+	
+		<div id="siblings">
+			<div class="info-box" id="fisheye"><h2>Problems</h2><div aria-label="progress bar for current problem set" class="progress set-id-tooltip" role="figure"><div aria-label="unattempted progress bar for current problem set" class="progress-bar unattempted-progress set-id-tooltip" data-bs-placement="bottom" data-bs-title="Unattempted: 16/16" data-bs-toggle="tooltip" role="figure" style="width:100%" data-bs-original-title="" title=""></div></div><ul class="nav flex-column problem-list"><li class="nav-item"><a class="nav-link active">Problem 1</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/3/?effectiveUser=alex.jordan">Problem 3</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/5/?effectiveUser=alex.jordan">Problem 5</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/7/?effectiveUser=alex.jordan">Problem 7</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/9/?effectiveUser=alex.jordan">Problem 9</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/11/?effectiveUser=alex.jordan">Problem 11</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/13/?effectiveUser=alex.jordan">Problem 13</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/15/?effectiveUser=alex.jordan">Problem 15</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/17/?effectiveUser=alex.jordan">Problem 17</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/21/?effectiveUser=alex.jordan">Problem 21</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/23/?effectiveUser=alex.jordan">Problem 23</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/25/?effectiveUser=alex.jordan">Problem 25</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/29/?effectiveUser=alex.jordan">Problem 29</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/31/?effectiveUser=alex.jordan">Problem 31</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/33/?effectiveUser=alex.jordan">Problem 33</a></li> <li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/35/?effectiveUser=alex.jordan">Problem 35</a></li></ul></div>
+		</div>
+	
+	
+</div>
+
+
+<!-- Main Content Area -->
+
+<div id="content" class="flex-grow-1">
+
+	
+		<!-- Question Navigation, e.g.: Prev, Up, Next for homeworks -->
+		<div aria-label="problem navigation" class="row sticky-nav" role="navigation"><div class="d-flex submit-buttons-container"><span class="btn btn-primary disabled">Previous Problem</span><a class="btn btn-primary" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/?effectiveUser=alex.jordan&amp;displayMode=MathJax&amp;showOldAnswers=1&amp;showProblemGrader=0">Problem List</a><a class="btn btn-primary" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/3/?effectiveUser=alex.jordan&amp;displayMode=MathJax&amp;showOldAnswers=1&amp;showProblemGrader=0">Next Problem</a>
+</div> </div>
+	
+
+	<!-- Page Title -->
+	
+	<div class="row"><div class="col-12">
+		<h1 id="page-title" class="page-title"><span dir="ltr">12 1-Introduction to Rational Functions Selected Exercises</span>: Problem 1<span class="problem-sub-header d-block">(1 point) tmpEdit/Contrib/PCC/BasicAlgebra/RationalFunctions/rationalFunctionApplication10.pg.alex.jordan.tmp</span></h1>
+	</div></div>
+	
+
+	
+	<!-- Message for the user -->
+	<div id="Message" class="Message"><span>This set is <span class="font-visible">visible to students.</span></span></div>
+	
+
+	<!-- Header Text for problem -->
+	
+		
+	
+
+<!-- ==============BEGIN BODY OF PROBLEM=============== -->
+
+	<!-- Indicate presence of perl warnings -->
+	
+	<div class="row g-0">
+		<div id="alert-error" class="col-12 alert alert-danger">
+		    <b>Warning</b> -- There may be something wrong with this question. Please inform your instructor including the warning messages below.
+		</div>
+	</div>
+	
+
+	
+	<div class="row">
+		<div id="tag_info" class="col-12">
+		
+		</div>
+	</div>
+	
+	
+		<!-- ==== in this case print body parts ELSE print entire body -->
+		<div class="row">
+			<div class="Body col-12">
+
+			
+			<div id="custom_edit_message" class="row"><div class="col-lg-10">
+				<p></p><div class="temporaryFile">Viewing temporary file:  tmpEdit/Contrib/PCC/BasicAlgebra/RationalFunctions/rationalFunctionApplication10.pg.alex.jordan.tmp</div><p></p>
+			</div></div>
+			
+			
+			<div class="row"><div id="output_summary" class="col-lg-10">
+				
+			</div></div>
+			
+
+			
+			<div class="row"><div id="output_achievement_message" class="col-lg-10">
+				
+			</div></div>
+			
+
+			
+			<div class="row"><div id="output_comments" class="col-lg-10">
+				
+			</div></div>
+			
+
+			
+			<div class="row"><div id="output_grader" class="col-lg-10">
+				
+			</div></div>
+			
+
+			
+			<div class="row">
+				<div class="col-lg-10">
+				<form method="post" action="/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/" enctype="multipart/form-data" class="problem-main-form" id="problemMainForm" name="problemMainForm"><input type="hidden" name="user" value="alex.jordan" id="hidden_user"><input type="hidden" name="effectiveUser" value="alex.jordan" id="hidden_effectiveUser"><input type="hidden" name="key" value="I5TDblX2pQNbpe4QXjw5wM09cFePunaW" id="hidden_key"><input type="hidden" name="startTime" value="1678740083">
+				
+					<input type="hidden" name="templateName" value="system" id="templateName_id">
+				
+
+				
+					<div class="problem">
+						
+						<div id="problem_body" class="problem-content" dir="ltr">
+							
+<div id="output_problem_body">
+<a name="problem1"><pre>        Problem1
+1. ERROR caught by Translator while processing problem 
+file:tmpEdit/Contrib/PCC/BasicAlgebra/RationalFunctions/rationalFunctionApplication10.pg.alex.jordan.tmp
+****************
+ERRORS
+ from evaluating PG file: <br> No such package 'Value::Fraction' at line 2 of (eval 6197)
+   Died within main::Fraction called at line 33 of (eval 5938)
+<br>
+
+****************<br>
+------Input Read
+1		DOCUMENT();
+2		loadMacros(
+3		  "PGstandard.pl",
+4		  "PGML.pl",
+5		  "contextLimitedPolynomial.pl",
+6		  "PGchoicemacros.pl",
+7		  "contextFraction.pl",
+8		);
+9		
+10		
+11		              Context()-&gt;operators-&gt;remove("U");
+12		              Context()-&gt;noreduce('(-x)+y','(-x)-y');
+13		              @orig_vars = 
+('a'..'n','p'..'z','A'..'N','P'..'Z')[NchooseK(50,2)];
+14		              @vars = (@orig_vars, @orig_vars, @orig_vars);
+15		              @vars = (@vars)[NchooseK(6,6)];
+16		              Context()-&gt;variables-&gt;are();
+17		              for my $i (1,2) {
+18		                Context()-&gt;variables-&gt;add($orig_vars[$i-1] 
+=&gt; 'Real');
+19		              }
+20		
+21		              @ones = (1) x 90;
+22		              @ints = (2..91);
+23		              @decimals = map {$_ / 10} 
+(1..9,11..19,21..29,31..39,41..49,51..59,61..69,71..79,81..89,91..99);
+24		
+25		              @coefs = num_sort((@ones, @ints, 
+@decimals)[NchooseK(270,6)]);
+26		              @terms = ();
+27		              for my $i (1..6) {
+28		                push(@terms, 
+Formula("$coefs[$i-1]*$vars[$i-1]")-&gt;reduce);
+29		              }
+30		              $sum = Formula(join('+', @terms))-&gt;reduce;
+31		
+32		              %combinedcoefs = ();
+33		              $combinedcoefs{$orig_vars[0]} = 
+Fraction($sum-&gt;eval($orig_vars[0] =&gt; 1, $orig_vars[1] =&gt; 0));
+34		              $combinedcoefs{$orig_vars[1]} = 
+Fraction($sum-&gt;eval($orig_vars[0] =&gt; 0, $orig_vars[1] =&gt; 1));
+35		              $ans = Formula("$combinedcoefs{$orig_vars[0]} 
+$orig_vars[0] + $combinedcoefs{$orig_vars[1]} 
+$orig_vars[1]")-&gt;reduce;
+36		
+37		              Context("Form");
+38		              Context()-&gt;operators-&gt;remove("U");
+39		              Context()-&gt;flags-&gt;remove("NumberCheck");
+40		              Context()-&gt;variables-&gt;are();
+41		              for my $i (1,2) {
+42		                Context()-&gt;variables-&gt;add($orig_vars[$i-1] 
+=&gt; 'Real');
+43		              }
+44		
+45		              $ans = Formula("$ans");
+46		
+47		              $polygon = list_random(
+48		                [[0,2,4,2,-1,-1], [0,0,1,3,2,1], [4,5,0,1,2,3]],
+49		              );
+50		
+51		              @x = @{$polygon-&gt;[0]};
+52		              @y = @{$polygon-&gt;[1]};
+53		              @termsTeX = map{$terms[$_]-&gt;TeX} 
+(@{$polygon-&gt;[2]});
+54		
+55		
+56		BEGIN_PGML
+57		
+58		[`[$sum]`] = [_]{$ans}
+59		
+60		END_PGML
+61		
+62		ENDDOCUMENT();
+
+-----<br></pre>
+<input type="hidden" name="num_attempts" value="0" id="num_attempts"></a></div><a name="problem1">
+						</a></div><a name="problem1">
+						
+						
+							
+						
+						
+							<h2>WeBWorK Error</h2><p>WeBWorK has encountered a software error
+ while attempting to process this problem. It is likely that there is an
+ error in the problem itself. If you are a student, report this error 
+message to your professor to have it corrected. If you are a professor, 
+please consult the error output below for more information.</p><h3>Error messages</h3><p><code>ERRORS from evaluating PG file: <br> No such package 'Value::Fraction' at line 2 of (eval 6197)
+   Died within main::Fraction called at line 33 of (eval 5938)
+<br>
+</code></p><h3>Error details</h3><code></code></a><code><p><a name="problem1">
+</a><a name="problem1"></a></p><pre><a name="problem1">        Problem1
+1. ERROR caught by Translator while processing problem 
+file:tmpEdit/Contrib/PCC/BasicAlgebra/RationalFunctions/rationalFunctionApplication10.pg.alex.jordan.tmp
+****************
+ERRORS
+ from evaluating PG file: <br> No such package 'Value::Fraction' at line 2 of (eval 6197)
+   Died within main::Fraction called at line 33 of (eval 5938)
+<br>
+
+****************<br>
+------Input Read
+1		DOCUMENT();
+2		loadMacros(
+3		  "PGstandard.pl",
+4		  "PGML.pl",
+5		  "contextLimitedPolynomial.pl",
+6		  "PGchoicemacros.pl",
+7		  "contextFraction.pl",
+8		);
+9		
+10		
+11		              Context()-&gt;operators-&gt;remove("U");
+12		              Context()-&gt;noreduce('(-x)+y','(-x)-y');
+13		              @orig_vars = 
+('a'..'n','p'..'z','A'..'N','P'..'Z')[NchooseK(50,2)];
+14		              @vars = (@orig_vars, @orig_vars, @orig_vars);
+15		              @vars = (@vars)[NchooseK(6,6)];
+16		              Context()-&gt;variables-&gt;are();
+17		              for my $i (1,2) {
+18		                Context()-&gt;variables-&gt;add($orig_vars[$i-1] 
+=&gt; 'Real');
+19		              }
+20		
+21		              @ones = (1) x 90;
+22		              @ints = (2..91);
+23		              @decimals = map {$_ / 10} 
+(1..9,11..19,21..29,31..39,41..49,51..59,61..69,71..79,81..89,91..99);
+24		
+25		              @coefs = num_sort((@ones, @ints, 
+@decimals)[NchooseK(270,6)]);
+26		              @terms = ();
+27		              for my $i (1..6) {
+28		                push(@terms, 
+Formula("$coefs[$i-1]*$vars[$i-1]")-&gt;reduce);
+29		              }
+30		              $sum = Formula(join('+', @terms))-&gt;reduce;
+31		
+32		              %combinedcoefs = ();
+33		              $combinedcoefs{$orig_vars[0]} = 
+Fraction($sum-&gt;eval($orig_vars[0] =&gt; 1, $orig_vars[1] =&gt; 0));
+34		              $combinedcoefs{$orig_vars[1]} = 
+Fraction($sum-&gt;eval($orig_vars[0] =&gt; 0, $orig_vars[1] =&gt; 1));
+35		              $ans = Formula("$combinedcoefs{$orig_vars[0]} 
+$orig_vars[0] + $combinedcoefs{$orig_vars[1]} 
+$orig_vars[1]")-&gt;reduce;
+36		
+37		              Context("Form");
+38		              Context()-&gt;operators-&gt;remove("U");
+39		              Context()-&gt;flags-&gt;remove("NumberCheck");
+40		              Context()-&gt;variables-&gt;are();
+41		              for my $i (1,2) {
+42		                Context()-&gt;variables-&gt;add($orig_vars[$i-1] 
+=&gt; 'Real');
+43		              }
+44		
+45		              $ans = Formula("$ans");
+46		
+47		              $polygon = list_random(
+48		                [[0,2,4,2,-1,-1], [0,0,1,3,2,1], [4,5,0,1,2,3]],
+49		              );
+50		
+51		              @x = @{$polygon-&gt;[0]};
+52		              @y = @{$polygon-&gt;[1]};
+53		              @termsTeX = map{$terms[$_]-&gt;TeX} 
+(@{$polygon-&gt;[2]});
+54		
+55		
+56		BEGIN_PGML
+57		
+58		[`[$sum]`] = [_]{$ans}
+59		
+60		END_PGML
+61		
+62		ENDDOCUMENT();
+
+-----<br></a></pre><a name="problem1">
+<input type="hidden" name="num_attempts" value="0" id="num_attempts"><p></p></a></code><h3><a name="problem1">Request information</a></h3><table border="1"><tbody><tr><td>Time</td> <td>Mon Mar 13 13:41:23 2023</td></tr> <tr><td>Method</td> <td>GET</td></tr> <tr><td>URI</td> <td>/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/</td></tr> <tr><td>HTTP Headers</td> <td><table><tbody><tr><td><small>Accept-Language</small></td> <td><small>en-US,en;q=0.5</small></td></tr><tr><td><small>Connection</small></td> <td><small>keep-alive</small></td></tr><tr><td><small>Cookie</small></td> <td><small>WeBWorKCourseAuthen.mth060-barbara_roberts-202301=alex.jordan%09CGX8Bo8IIBaGJm8DjdD2xJZq5Rjy2N5m%091678317030;
+ 
+WeBWorKCourseAuthen.mth065-jeffrey_pettit-202301=alex.jordan%09qBOLhGGMphWQV85Pe2Jf7J3IX1k1lwNM%091678390381;
+ 
+WeBWorKCourseAuthen.admin=alex.jordan%09Olvccjk6LUatdz06wikgAXx81Jtmtpqd%091678319969;
+ 
+WeBWorKCourseAuthen.mth095-jonathan_wherry-202302=alex.jordan%09D3aw1qv1oiFB583TSqWXv1kcuniTTIyv%091678320702;
+ 
+WeBWorKCourseAuthen.orcca=alex.jordan%09q3yIRqKtGWJdXrpXs0tzFoNGKudkJ1UR%091678321749;
+ 
+WeBWorKCourseAuthen.mth252-emiliano_vega-202301=alex.jordan%09lzSfTORgr2tDQE86AGi1GghF9nHMYSGC%091678596517;
+ 
+WeBWorKCourseAuthen.mth095-alex_jordan-202301=alex.jordan%09I5TDblX2pQNbpe4QXjw5wM09cFePunaW%091678740083;
+ _ga=GA1.2.975522282.1664465024; 
+_ga_P92FHW8TXS=GS1.1.1678736990.221.0.1678737036.0.0.0; 
+__utma=168888480.975522282.1664465024.1678326222.1678681603.52; 
+__utmz=168888480.1677705419.47.19.utmcsr=spot.pcc.edu|utmccn=(referral)|utmcmd=referral|utmcct=/;
+ _ga_XDPL6Q7895=GS1.1.1678739062.184.0.1678739062.0.0.0; 
+_gid=GA1.2.1155401947.1677443668; __utmc=168888480</small></td></tr><tr><td><small>Upgrade-Insecure-Requests</small></td> <td><small>1</small></td></tr><tr><td><small>Host</small></td> <td><small>webwork.pcc.edu</small></td></tr><tr><td><small>Sec-Fetch-Site</small></td> <td><small>same-origin</small></td></tr><tr><td><small>Sec-Fetch-Dest</small></td> <td><small>iframe</small></td></tr><tr><td><small>User-Agent</small></td> <td><small>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/110.0</small></td></tr><tr><td><small>Accept-Encoding</small></td> <td><small>gzip, deflate, br</small></td></tr><tr><td><small>Accept</small></td> <td><small>text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8</small></td></tr><tr><td><small>Referer</small></td> <td><small>https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/pgProblemEditor/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/</small></td></tr><tr><td><small>Sec-Fetch-User</small></td> <td><small>?1</small></td></tr><tr><td><small>Sec-Fetch-Mode</small></td> <td><small>navigate</small></td></tr></tbody></table></td></tr></tbody></table><a name="problem1"><span></span></a><a class="btn btn-sm btn-secondary" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/instructor/pgProblemEditor/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/?effectiveUser=alex.jordan" target="WW_Editor">Edit</a>
+						
+					</div>
+				
+
+				
+					<div class="checkboxes-container col-12 my-2">
+						
+							<span class="me-2">Show:</span><div class="form-check form-check-inline"><label class="form-check-label"><input type="checkbox" name="showCorrectAnswers" value="1" class="form-check-input" id="showCorrectAnswers_id">Correct Answers</label></div><div class="form-check form-check-inline"><label class="form-check-label"><input type="checkbox" name="showProblemGrader" value="1" class="form-check-input" id="showProblemGrader_id">Problem Grader</label></div><div class="form-check form-check-inline"><label class="form-check-label"><input type="checkbox" name="showAnsGroupInfo" value="1" class="form-check-input" id="showAnsGroupInfo_id">Answer Group Info</label></div><div class="form-check form-check-inline"><label class="form-check-label"><input type="checkbox" name="showResourceInfo" value="1" class="form-check-input" id="showResourceInfo_id">Auxiliary Resources</label></div><div class="form-check form-check-inline"><label class="form-check-label"><input type="checkbox" name="showAnsHashInfo" value="1" class="form-check-input" id="showAnsHashInfo_id">Answer Hash Info</label></div><div class="form-check form-check-inline"><label class="form-check-label"><input type="checkbox" name="showPGInfo" value="1" class="form-check-input" id="showPGInfo_id">PG Info</label></div>
+						
+					</div>
+					<div class="submit-buttons-container col-12 mb-2">
+						
+							<input type="submit" name="previewAnswers" value="Preview My Answers" class="btn btn-primary mb-1" formtarget="_self" id="previewAnswers_id"><input type="submit" name="checkAnswers" value="Check Answers" class="btn btn-primary mb-1" formtarget="_self" id="checkAnswers_id"><a class="set-id-tooltip btn btn-primary mb-1" data-bs-placement="right" data-bs-title="You can use this feature as many times as you want on this problem" data-bs-toggle="tooltip" href="https://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/show_me_another/?effectiveUser=alex.jordan" id="SMA_button" target="WW_Show_Me_Another" data-bs-original-title="" title="">Show me another</a>
+						
+					</div>
+				
+				
+					<div id="score_summary" class="scoreSummary">
+						<p>You have attempted this problem 0 times.<br>This homework set is closed.</p>
+					</div>
+				
+
+				
+					<input type="hidden" name="showOldAnswers" value="1"><input type="hidden" name="displayMode" value="MathJax"><input type="hidden" name="editMode" value="temporaryFile"><input type="hidden" name="sourceFilePath" value="tmpEdit/Contrib/PCC/BasicAlgebra/RationalFunctions/rationalFunctionApplication10.pg.alex.jordan.tmp"><input type="hidden" name="problemSeed" value="4118">
+				
+				</form>
+			
+
+		<!-- inserted problem piece by piece -->
+
+		
+
+		</div></div>
+	</div></div>
+
+	<!-- ====  end printing body parts   -->
+	
+
+<!-- ==============END BODY OF PROBLEM=============== -->
+	
+		<div id="problemFooter" class="problemFooter">
+			
+				<form method="post" action="/webwork2/mth095-alex_jordan-202301/show_answers/" enctype="multipart/form-data" target="WW_Info"><input type="hidden" name="user" value="alex.jordan" id="pastans-hidden_user"><input type="hidden" name="effectiveUser" value="alex.jordan" id="pastans-hidden_effectiveUser"><input type="hidden" name="key" value="I5TDblX2pQNbpe4QXjw5wM09cFePunaW" id="pastans-hidden_key"><input type="hidden" name="courseID" value="mth095-alex_jordan-202301"><input type="hidden" name="selected_problems" value="1"><input type="hidden" name="selected_sets" value="12_1-Introduction_to_Rational_Functions_Selected_Exercises"><input type="hidden" name="selected_users" value="alex.jordan"><p><input type="submit" name="action" value="Show Past Answers" class="btn btn-primary"></p></form>
+			
+			
+				<form method="post" action="/webwork2/mth095-alex_jordan-202301/feedback/" enctype="multipart/form-data">
+<input type="hidden" name="user" value="alex.jordan" id="email-hidden_user"><input type="hidden" name="effectiveUser" value="alex.jordan" id="email-hidden_effectiveUser"><input type="hidden" name="key" value="I5TDblX2pQNbpe4QXjw5wM09cFePunaW" id="email-hidden_key">
+<input type="hidden" name="set" value="12_1-Introduction_to_Rational_Functions_Selected_Exercises">
+<input type="hidden" name="emailableURL" value="http://webwork.pcc.edu/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/?effectiveUser=alex.jordan&amp;displayMode=MathJax">
+<input type="hidden" name="randomSeed" value="4118">
+<input type="hidden" name="displayMode" value="MathJax">
+<input type="hidden" name="courseId" value="mth095-alex_jordan-202301">
+<input type="hidden" name="studentName" value="Alex Jordan">
+<input type="hidden" name="module" value="WeBWorK::ContentGenerator::Problem">
+<input type="hidden" name="notifyAddresses" value="Alex Jordan &lt;alex.jordan@pcc.edu&gt;">
+<input type="hidden" name="showSolutions" value="1">
+<input type="hidden" name="showOldAnswers" value="1">
+<input type="hidden" name="problem" value="1">
+<input type="hidden" name="showCorrectAnswers" value="0">
+<input type="hidden" name="problemPath" value="tmpEdit/Contrib/PCC/BasicAlgebra/RationalFunctions/rationalFunctionApplication10.pg.alex.jordan.tmp">
+<input type="hidden" name="showHints" value="1">
+<p><input type="submit" name="feedbackForm" value="Email Instructor" class="btn btn-primary"></p></form>
+
+			
+		</div>
+	
+
+
+<div id="warnings" class="Warnings alert alert-danger mt-2">
+	<div><h3 style="color:red;">PG question failed to render</h3><p>Unable to obtain error messages from within the PG question.</p></div>
+<!-- BEGIN WeBWorK::ContentGenerator::warnings -->
+<h2>WeBWorK Warnings</h2><p>WeBWorK has encountered warnings while 
+processing your request. If this occured when viewing a problem, it was 
+likely caused by an error or ambiguity in that problem. Otherwise, it 
+may indicate a problem with the WeBWorK system itself. If you are a 
+student, report these warnings to your professor to have them corrected.
+ If you are a professor, please consult the warning output below for 
+more information.</p><h3>Warning messages</h3><ul><li><code>Processing of this PG problem was not completed.  Probably because of a syntax error.</code></li><li><code>
+		      The translator died prematurely and no PG warning messages were 
+transmitted. at 
+/opt/webwork/webwork2/lib/WeBWorK/ContentGenerator/Problem.pm line 791.</code></li></ul><h3>Request information</h3><table border="1"><tbody><tr><td>Time</td> <td>Mon Mar 13 13:41:24 2023</td></tr> <tr><td>Method</td> <td>GET</td></tr> <tr><td>URI</td> <td>/webwork2/mth095-alex_jordan-202301/12_1-Introduction_to_Rational_Functions_Selected_Exercises/1/</td></tr></tbody></table><!-- END WeBWorK::ContentGenerator::warnings -->
+
+</div>
+
+
+<div id="Message_bottom" class="Message">
+	<span>This set is <span class="font-visible">visible to students.</span></span>
+</div>
+
+
+</div><!-- #content -->
+
+<!-- Bootstrap Fluid Layout Scaffolding stop -->
+</div><!-- #body-row -->
+</div><!-- #bs-container.container-fluid -->
+
+<!-- Footer -->
+<div id="footer" role="contentinfo">
+	<div id="last-modified">Page generated at 03/13/2023 at 01:41pm PDT</div><div id="copyright">WeBWorK © 1996-2022 | theme: math4 | ww_version: 2.17 | pg_version 2.17 | <a href="https://openwebwork.org/">The WeBWorK Project</a></div>
+</div>
+
+
+
+</body></html>

@@ -8,7 +8,10 @@
     <initialism>MTH 95</initialism>
 
     <!-- Thumbnail for HTML -->
-    <brandlogo url="http://www.pcc.edu/programs/math/" source="https://webwork.pcc.edu/webwork2_files/images/mathematics.jpg"/>
+    <brandlogo url="http://www.pcc.edu/programs/math/" source="images/mathematics.jpg"/>
+
+    <rename element="frontmatter">Syllabus</rename>
+    <rename element="abstract">Alert</rename>
 
     <!-- For LaTeX-based images; inserted both into tex preamble, -->
     <!-- and into standalone preambles for svg production         -->

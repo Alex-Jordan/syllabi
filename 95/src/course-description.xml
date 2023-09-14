@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-course-description">
   <title>Course Description</title>
-
   <p>
     Taken from the official PCC course description:
   </p>
-
-  <sidebyside halign="left">
+  <sidebyside>
     <tabular>
       <col halign="right" />
       <col/>
@@ -35,13 +31,61 @@
       </row>
     </tabular>
   </sidebyside>
-
   <p>
-    Introduces algebraic concepts and processes with a focus on factoring, functions, rational expressions, solving equations (quadratic, rational, radical, absolute value), and solving inequalities. Emphasizes number-sense, applications, graphs, formulas, and proper mathematical notation. Prerequisites: (MTH 63 or MTH 65 or MTH 70) and (RD 90 and WR 90) or IRW 90 or equivalent placement. Recommended: MTH 63 or MTH 65 or MTH 70 be taken within the past 4 terms. The PCC math department recommends that students take MTH courses in consecutive terms. Audit available. 
+    Introduces algebraic concepts and processes with a focus on factoring, functions, rational
+    expressions, solving equations (quadratic, rational, radical, absolute value), and solving
+    inequalities. Emphasizes number-sense, applications, graphs, formulas, and proper mathematical
+    notation. Prerequisites: (MTH 63 or MTH 65 or MTH 70) and (RD 90 and WR 90) or IRW 90 or
+    equivalent placement. Recommended: MTH 63 or MTH 65 or MTH 70 be taken within the past 4 terms.
+    The PCC math department recommends that students take MTH courses in consecutive terms. Audit
+    available.
   </p>
-
+  <paragraphs>
+    <title>Intended Outcomes for the Course</title>
+    <p>
+      Upon completion of the course students should be able to:
+      <ol>
+        <li>
+          <p>
+            Factor expressions and use factoring to simplify rational expressions and solve
+            quadratic equations.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve absolute value, quadratic, rational, radical equations, and compound inequalities
+            both symbolically and graphically.
+          </p>
+        </li>
+        <li>
+          <p>
+            Understand the definition of a function and use it to distinguish between function and
+            non-function relationships.
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret information provided in function notation given a function expressed in
+            graphical, symbolic, numeric, or verbal form.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use variables to represent unknown quantities, create a function to model a situation,
+            and use algebra and/or technology to find and interpret a result.
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret properties of functions and relations, such as the meaning of ordered pairs,
+            domain and range, maximum and minimum values, and intercepts.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </paragraphs>
   <p>
-    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+    The complete Course Content and Outcome Guide can be found at
+    <url href="https://www.pcc.edu/ccog/" visual="www.pcc.edu/ccog">www.pcc.edu/ccog/</url>.
   </p>
-
 </section>

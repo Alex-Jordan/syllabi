@@ -2,23 +2,18 @@
 
 <!-- This file is part of Alex Jordan's syllabus -->
 
-<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-contact-info">
   <title>Contact Information</title>
-
   <p>
     To reach me or PCC:
   </p>
-
-  <sidebyside>
+  <sidebyside margins="0% 0%">
     <tabular>
       <row>
         <cell>Instructor: Alex Jordan</cell>
       </row>
       <row>
-        <cell>
-          <line>Office: CA SSB 317 when PCC opens</line>
-          <line>(Use Zoom and email to contact me.)</line>
-        </cell>
+        <cell>Office: CA SSB 317</cell>
       </row>
       <row>
         <cell>
@@ -45,106 +40,95 @@
       </row>
     </tabular>
   </sidebyside>
-
   <p>
-    Because of federal privacy laws,
-    all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.
+    Because of federal privacy laws, all email communications related to this class need to be sent
+    to and from your <c>@pcc.edu</c> email address, or using D2L's Classlist messaging tool.
   </p>
-
-  <sidebyside>
-    <tabular top="major" valign="top" left="major">
-      <col/>
-      <col/>
-      <col/>
-      <col/>
-      <col right="major"/>
-      <row bottom="medium">
-        <cell>CRN</cell>
-        <cell>Days</cell>
-        <cell>Time</cell>
-        <cell>Place</cell>
-        <cell>Final Exam</cell>
-      </row>
-      <row bottom="minor">
-        <cell>20948</cell>
-        <cell>M/W</cell>
-        <cell>2:00<ndash/>4:20</cell>
-        <cell>
-          <line>online</line>
-          <line>CA CH 210 when PCC reopens</line>
-        </cell>
-        <cell>
-          <line>Wednesday</line>
-          <line>6/10/2020</line>
-          <line>2:00<ndash/>4:00</line>
-        </cell>
-      </row>
-      <row bottom="major">
-        <cell>20258</cell>
-        <cell>Tu/Th</cell>
-        <cell>11:30<ndash/>1:50</cell>
-        <cell>
-          <line>online</line>
-          <line>CA CH 210 when PCC reopens</line>
-        </cell>
-        <cell>
-          <line>Tuesday</line>
-          <line>6/9/2020</line>
-          <line>11:00<ndash/>1:00</line>
-        </cell>
-      </row>
-    </tabular>
-  </sidebyside>
-
+  <tabular top="major" valign="top" left="major" bottom="minor">
+    <col/>
+    <col/>
+    <col/>
+    <col right="major"/>
+    <col right="major"/>
+    <col right="major"/>
+    <row bottom="medium">
+      <cell>CRN</cell>
+      <cell>Days</cell>
+      <cell>Time</cell>
+      <cell>Place</cell>
+      <cell>Midterm Exam</cell>
+      <cell>Final Exam</cell>
+    </row>
+    <row bottom="major">
+      <cell>
+        <line>31183</line>
+        <line>33419</line>
+      </cell>
+      <cell colspan="2">async</cell>
+      <cell>
+        <line>D2L</line>
+        <line>Zoom</line>
+        <line>Discord</line>
+        <line>etc</line>
+      </cell>
+      <cell>
+        <line>Tuesday or Wednesday</line>
+        <line>July 25 or 26</line>
+        <line>2:00<ndash/>4:20</line>
+        <line>(plan to arrive 30 min early)</line>
+      </cell>
+      <cell>
+        <line>Tuesday or Wednesday</line>
+        <line>Aug 29 or 30</line>
+        <line>2:00<ndash/>4:20</line>
+        <line>(plan to arrive 30 min early)</line>
+      </cell>
+    </row>
+  </tabular>
+  <p>
+    The two exams are proctored. We will use <q>remote proctoring</q> where you take the exam from
+    home (or wherever) but we will use Zoom to allow me to monitor your workspace. For details, see
+    <xref ref="section-exams"/>, but the most important thing for now is to plan to be somewhere on
+    the exam dates that is quiet and comfortable, and also has a strong internet connection.
+  </p>
+  <p>
+    I will meet with you over Zoom as needed, and frequently invite you to meet with me that way.
+    There will be a few times each week (regularly scheduled) where I have Zoom open and you can
+    just drop in. During the first week I will survey students to find what time(s) would work best
+    for that. We can also always meet as needed at sporadic times with a little advanced notice.
+  </p>
+  <tabular top="major" left="major">
+    <col/>
+    <col right="medium"/>
+    <col/>
+    <col right="major"/>
+    <row>
+      <cell colspan="4" halign="center">Office Hours</cell>
+    </row>
+    <row bottom="medium">
+      <cell colspan="2">Regular</cell>
+      <cell colspan="2">Finals Week</cell>
+    </row>
+    <row bottom="minor">
+      <cell>Tuesday</cell>
+      <cell>12:00<ndash/>1:00</cell>
+      <cell>TBD<!-- Tuesday --></cell>
+      <cell>TBD<!-- 12:30<ndash/>1:30 --></cell>
+    </row>
+    <!-- <row bottom="minor">
+      <cell>Friday</cell>
+      <cell>3:00<ndash/>4:00</cell>
+      <cell>TBD</cell>
+      <cell>TBD</cell>
+    </row> -->
+    <row bottom="major">
+      <cell>Friday</cell>
+      <cell>3:00<ndash/>4:00</cell>
+      <cell>TBD<!-- Tuesday --></cell>
+      <cell>TBD<!-- 12:30<ndash/>1:30 --></cell>
+    </row>
+  </tabular>
   <!-- <p>
-    I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
+    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
   </p> -->
-
-  <!-- <sidebyside>
-    <tabular top="major" left="major">
-      <col/>
-      <col/>
-      <col right="major"/>
-      <row>
-        <cell colspan="3" halign="center">Office Hours</cell>
-      </row>
-      <row bottom="medium">
-        <cell>Day</cell>
-        <cell>Regular</cell>
-        <cell>Finals Week</cell>
-      </row>
-      <row bottom="minor">
-        <cell>Tuesday</cell>
-        <cell>10:00<ndash/>11:00 in SSB 317</cell>
-        <cell>TBD</cell>
-      </row>
-      <row bottom="minor">
-        <cell>Wednesday</cell>
-        <cell>10:00<ndash/>1:00 in SSB 317</cell>
-        <cell>TBD</cell>
-      </row>
-      <row bottom="major">
-        <cell>Thursday</cell>
-        <cell>10:00<ndash/>11:00 in SSB 317</cell>
-        <cell>TBD</cell>
-      </row>
-    </tabular>
-  </sidebyside> -->
-
-  <p>
-    Office hours are by appointment. Just send me an email suggesting some times, and we'll set up a meeting on Zoom.
-    I'm not available MW 9:00<ndash/>11:50, MW 2:00<ndash/>4:20, and TuTh 11:30<ndash/>1:50.
-  </p>
-
-  <p>
-    Come visit me (virtually) for help with the material, help with homework, or questions about your grade.
-    <!-- If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
-    At least one of these office hours will move to the Cascade Student Learning Center once the SLC's schedule is more settled. -->
-  </p>
-
-  <p>
-    While I do have an office phone number and voice mail,
-    I am more likely to reply to you more quickly if you use email to contact me.
-  </p>
-
 </section>

@@ -3,13 +3,25 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Technology Requirements</title>
+    <title>Technology Requirements</title>
 
-  <p>
-    Part of this course involves teaching you how to use certain calculus tools on a graphing calculator such as a TI-89 or Casio Classpad.
-    You are <alert>required</alert> to have one and bring it to class everyday.
-    The particular syntax used by these calculators is not important in the grand scheme,
-    but you will need to use <em>something</em> during exams that is not connected to the internet.
-    We know these calculators are capable of doing what is needed.
-  </p>
+    <p>
+        Since we are in a remote teaching mode,
+        it is essential that you have access to a computer, laptop, tablet, or at the very least a smart phone,
+        with internet access.
+    </p>
+
+    <p>
+        To attend the live class sessions, your device needs to work with Zoom.
+    </p>
+
+    <p>
+        There are other elements of the course where you simply need a modern web browser.
+        <ul>
+            <li>accessing content in D2L</li>
+            <li>reading the web version of the textbook</li>
+            <li>homework and quizzes with <webwork/></li>
+            <li>accessing GeoGebra for computer-assisted calcuations and graphing</li>
+        </ul>
+    </p>
 </section>

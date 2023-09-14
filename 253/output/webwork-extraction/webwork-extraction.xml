@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<webwork-extraction>
+  <webwork-reps xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <authored>
+
+        <setup>
+          <pg-code>
+                $a = 4;
+                $b = 3;
+                $c = $a + $b;
+                $expression = Formula("x^($a)*x^($b)");
+
+                Context("LimitedPolynomial-Strict");
+                # custom error message
+                Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+                  = "Your answer must be fully simplified";
+
+                $answer = Formula("x^($c)");
+                $product = $a*$b;
+                $evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+                  [Compute("x^($product)")] =&gt;
+                  "When multiplying terms with the same base, you do not multiply the exponents."));
+              </pg-code>
+        </setup>
+        <statement>
+          <p>
+                Use the properties of exponents to simplify <m><var name="$expression"/></m>.
+              </p>
+          <p>
+                <m><var name="$expression"/>=</m><var name="$answer" evaluator="$evaluator" width="8"/>
+              </p>
+        </statement>
+        <solution>
+          <p>
+                We <em>add</em> the exponents as follows:
+                <md><mrow><var name="$expression"/>\amp=x^{<var name="$a"/>+<var name="$b"/>}</mrow><mrow>\amp=x^{<var name="$c"/>}</mrow></md>
+              </p>
+        </solution>
+
+    </authored>
+
+
+    <static seed="12">
+      <statement>
+      <p>Use the properties of exponents to simplify <m>{x^{4}x^{3}}\text{.}</m></p>
+      <p><m>{x^{4}x^{3}}=</m><fillin name="AnSwEr0001" characters="8" /></p>
+      </statement>
+      <answer>
+        <p><m>x^{7}</m></p>
+      </answer>
+
+      <solution>
+      <p>We <em>add</em> the exponents as follows:</p>
+      <p><me>\begin{aligned}
+      {x^{4}x^{3}}\amp=x^{4+3}\\
+      \amp=x^{7}
+      \end{aligned}</me></p>
+      </solution>
+    </static>
+
+    <server-url hint="yes" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="yes" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="yes">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCldlIF9hZGRfIHRoZSBleHBvbmVudHMgYXMgZm9sbG93czoKCltgYGBcYmVnaW57YWxpZ25lZH0KWyRleHByZXNzaW9uXVxhbXA9eF57WyRhXStbJGJdfVxcClxhbXA9eF57WyRjXX0KXGVuZHthbGlnbmVkfWBgYF0KCgoKCkVORF9QR01MX1NPTFVUSU9OCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <server-url hint="no" solution="no">https://webwork.pcc.edu/webwork2/html2xml?courseID=anonymous&amp;userID=anonymous&amp;password=anonymous&amp;course_password=open&amp;answersSubmitted=0&amp;displayMode=MathJax&amp;outputformat=simple&amp;problemSeed=12&amp;problemSource=RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIk1hdGhPYmplY3RzLnBsIiwiUEdNTC5wbCIsIkFuc3dlckZvcm1hdEhlbHAucGwiLCJhbnN3ZXJIaW50cy5wbCIsImNvbnRleHRMaW1pdGVkUG9seW5vbWlhbC5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpO2xvYWRNYWNyb3MoIlBDQ21hY3Jvcy5wbCIpOwpURVhUKE1PREVTKFBUWD0%2BJycsSFRNTD0%2BcUA8ZGl2IHN0eWxlPSJkaXNwbGF5Om5vbmU7Ij5cKFxuZXdjb21tYW5ke1xhbXB9eyZ9XCk8L2Rpdj5AKSk7CiRhID0gNDsKJGIgPSAzOwokYyA9ICRhICsgJGI7CiRleHByZXNzaW9uID0gRm9ybXVsYSgieF4oJGEpKnheKCRiKSIpOwoKQ29udGV4dCgiTGltaXRlZFBvbHlub21pYWwtU3RyaWN0Iik7CiMgY3VzdG9tIGVycm9yIG1lc3NhZ2UKQ29udGV4dCgpLT57ZXJyb3J9e21zZ317IkEgdmFyaWFibGUgY2FuIGFwcGVhciBvbmx5IG9uY2UgaW4gZWFjaCB0ZXJtIG9mIGEgcG9seW5vbWlhbCJ9CiAgPSAiWW91ciBhbnN3ZXIgbXVzdCBiZSBmdWxseSBzaW1wbGlmaWVkIjsKCiRhbnN3ZXIgPSBGb3JtdWxhKCJ4XigkYykiKTsKJHByb2R1Y3QgPSAkYSokYjsKJGV2YWx1YXRvciA9ICRhbnN3ZXItPmNtcCgpLT53aXRoUG9zdEZpbHRlcihBbnN3ZXJIaW50cygKICBbQ29tcHV0ZSgieF4oJHByb2R1Y3QpIildID0%2BCiAgIldoZW4gbXVsdGlwbHlpbmcgdGVybXMgd2l0aCB0aGUgc2FtZSBiYXNlLCB5b3UgZG8gbm90IG11bHRpcGx5IHRoZSBleHBvbmVudHMuIikpOwoKQkVHSU5fUEdNTApVc2UgdGhlIHByb3BlcnRpZXMgb2YgZXhwb25lbnRzIHRvIHNpbXBsaWZ5IFtgWyRleHByZXNzaW9uXVx0ZXh0ey59YF0KCltgWyRleHByZXNzaW9uXT1gXVtfXXskZXZhbHVhdG9yfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw%3D%3D</server-url>
+
+    <pg>
+#######################################
+###    Generated from PreTeXt source   
+###    on 2020-04-08T14:35:27-07:00    
+###                                    
+###      https://pretextbook.org       
+###                                    
+#######################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(9.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "answerHints.pl",
+  "contextLimitedPolynomial.pl",
+  "PGcourse.pl",
+);
+
+############################################################
+# Header
+############################################################
+COMMENT('Authored in PreTeXt PreTeXt');
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+$a = 4;
+$b = 3;
+$c = $a + $b;
+$expression = Formula("x^($a)*x^($b)");
+
+Context("LimitedPolynomial-Strict");
+# custom error message
+Context()-&gt;{error}{msg}{"A variable can appear only once in each term of a polynomial"}
+  = "Your answer must be fully simplified";
+
+$answer = Formula("x^($c)");
+$product = $a*$b;
+$evaluator = $answer-&gt;cmp()-&gt;withPostFilter(AnswerHints(
+  [Compute("x^($product)")] =&gt;
+  "When multiplying terms with the same base, you do not multiply the exponents."));
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the properties of exponents to simplify [`[$expression]\text{.}`]
+
+[`[$expression]=`][_]{$evaluator}{8}
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+We _add_ the exponents as follows:
+
+[```\newcommand{\amp}{&amp;}\begin{aligned}
+[$expression]\amp=x^{[$a]+[$b]}\\
+\amp=x^{[$c]}
+\end{aligned}```]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+
+    </pg>
+
+  </webwork-reps>
+
+</webwork-extraction>

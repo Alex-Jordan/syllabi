@@ -1,107 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-exams">
   <title>Exams</title>
-
   <p>
-    Because of the coronavirus response, we do not yet know all details of how exams will be administered
-    or even on which days. It is possible there will be an in-person midterm on Wednesday May 6,
-    and an in-person final exam on Monday June 8. If they are in-person, they will be in TH 200, 9:00<ndash/>11:50.
+    While this is an online course without scheduled class meetings, nevertheless there are required
+    proctored exam sessions. Most students will participate in <q>remote proctoring</q> where you
+    take the exams from home (or wherever). But you will have a video feed (that only I can see)
+    that shows your work area. And you will be screen sharing on Zoom (again, only I will see this).
+    The days and times are:
+    <dl width="narrow">
+      <li>
+        <title>Midterm Exam</title>
+        <p>
+          Tuesday 7/25 for CRN 33419, and Wednesday 7/26 for CRN 31183.
+        </p>
+      </li>
+      <li>
+        <title>Final Exam</title>
+        <p>
+          Tuesday 8/29 for CRN 33419, and Wednesday 8/30 for CRN 31183.
+        </p>
+      </li>
+    </dl>
+    The exams officially run from 2:00<ndash/>4:20. However you need to arrive early for a check-in
+    procedure where we make sure your work area is acceptable and you have the technology issues
+    ironed out. The check-in procedure includes showing a photo ID (PCC student ID card, driver's
+    license, passport, military ID, <ellipsis/>) to confirm your identity while taking these exams.
+    <alert>Plan to arrive in the Zoom session at 1:30 for the check-in procedure.</alert>
   </p>
-
   <p>
-    The midterm exam and the final exam will each be worth 25% of your final grade.
+    You might be offered the chance to take the exam in the other CRN's time slot. Reach out to me
+    if you need this. I have to make sure that I do not have too many students in any one of the two
+    sessions.
+  </p>
+  <p>
+    These sessions are almost 2.5 hours long. However you may need less time than that. Some
+    students complete these exams in under an hour.
+  </p>
+  <paragraphs>
+    <title>What is <q>virtual proctoring</q>?</title>
+    <p>
+      Please take some time to read the
+      <url href="https://docs.google.com/document/d/1Oab3ck-3foDHfLTwfFuC5pkTpziXz9KHpIy1i_RFxuA" visual="docs.google.com/document/d/1Oab3ck-3foDHfLTwfFuC5pkTpziXz9KHpIy1i_RFxuA">Student Guide to Virtually Proctored Exams in Zoom</url>.
+      This explains in writing what a <q>virtually proctored</q> exam will be like better than I can
+      here.
+    </p>
+    <p>
+      We will practice the setup for a virtually proctored exam ahead of time. I will arrange for a
+      session when many of us can practice. For others, we can meet individually or in smaller
+      groups over Zoom to practice.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Alternatives</title>
+    <p>
+      If you cannot participate in the <q>remote proctored</q> exams as described above (maybe you
+      do not meet the technology requirements, have an unavoidable scheduling conflict, or just
+      prefer to take exams in person) there are some alternatives. However, please note that there
+      are no exceptions to having to take the exams with a proctor. If you need to explore the
+      alternatives below, please contact me as soon as possible to begin discussing your options.
+      The alternatives include:
+      <ul>
+        <li>
+          <p>
+            You identify a proctoring institution (such as another college) that is closer to where
+            you live. You will be responsible for making proctoring appointments with them two weeks
+            in advance of the exam dates. I will provide you with a form<fn>This form is linked from
+            our D2L course at the bottom of the Content menu.</fn> that you complete with the
+            assistance of that institution's testing center. You may take an exam a few days earlier
+            than the dates listed above, but not later.
+          </p>
+        </li>
+        <li>
+          <p>
+            You have an AEDR accommodation for extended time or a private working area. Then you
+            will work with PCC AEDR two weeks in advance to schedule appointments for these exams.
+            These might be in-person or remotely proctored, as is appropriate for your needs. You
+            may take an exam a few days earlier than the dates listed above, but not later.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you have a scheduling conflict, you can make an appointment with a PCC testing center
+            for a virtually proctored exam. Email <email>testing.remote@pcc.edu</email> to arrange
+            an appointment. Once it is scheduled, <alert>contact me to tell me about your
+            appointment.</alert>
+          </p>
+        </li>
+        <li>
+          <p>
+            If you simply prefer to take your exams in person, you can make an appointment with a
+            PCC testing center for an in-person proctored exam. Email
+            <email>testing.remote@pcc.edu</email> to arrange an appointment. Once it is scheduled,
+            <alert>contact me to tell me about your appointment.</alert>
+          </p>
+        </li>
+      </ul>
+      You may contact me if you have some situation that is not covered here and you would like to ask about it.
+    </p>
+  </paragraphs>
+  <p>
+    By registering for this course, you agree to all of the above. By default, you will take an exam
+    using remote proctoring over Zoom at the scheduled time. Or you will plan at least two weeks in
+    advance for one of the alternative arrangements.
+  </p>
+  <p>
+    The midterm exam and the final exam will each be worth 24% of your final grade.
   </p>
 </section>
-
-<!-- <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exams</title>
-
-  <introduction>
-    <p>
-      Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
-    </p>
-    <p>
-      About a week before each exam, you will receive a practice exam.
-      Practice exams are typically longer than the real exam to give you more to practice with.
-    </p>
-
-    <p>
-      <dl width="narrow">
-        <li xml:id="exam1">
-          <title>Exam 1 (21<ndash/>25%)</title>
-          <p>
-            Covers sections 10.1<ndash/>11.1.
-          </p>
-          <p>
-            You'll have the entire class period for this exam if you need it.
-          </p>
-        </li>
-        <li xml:id="exam2">
-          <title>Exam 2 (21<ndash/>25%)</title>
-          <p>
-            Covers sections 11.2<ndash/>12.4.
-            Additionally there will be some repeated questions from Exam 1.
-            (So part of your studying should be reviewing your first exam.)
-          </p>
-          <p>
-            You'll have the entire class period for this exam if you need it.
-          </p>
-        </li>
-        <li xml:id="exam3">
-          <title>Exam 3 (22<ndash/>26%)</title>
-          <p>
-            Covers sections 12.5<ndash/>13.7.
-            Additionally there will be some repeated questions from Exams 1 and 2.
-            (So part of your studying should be reviewing your first and second exams.)
-          </p>
-          <p>
-            This exam is during finals week and is only two hours long.
-          </p>
-        </li>
-      </dl>
-    </p>
-  </introduction>
-
-  <paragraphs>
-    <title>Missing an Exam</title>
-    <p>
-      If you miss an exam, you must contact me within one day to explain why
-      or I might not be able to allow a make-up and you would receive a zero.
-      <alert>Make-up exams are only permitted under extreme circumstances.
-      PCC does not have enough staff and facilities to administer too many make-up exams.</alert>
-      If you have a valid excuse, you must make up the exam within the next two business days,
-      or I might not be able to allow a make-up and you would receive a zero.
-      If you are going to make up the exam, contact the testing center immediately
-      (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>)
-      to learn what time you might be able to make up the exam.
-      If you are going to miss the final exam, contact me before the test is given.
-    </p>
-    <p>
-      Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
-      Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Exam Redos</title>
-    <p>
-      There may be opportunities to try an exam for a second, or even a third time.
-      These opportunities will be discussed in class if and when they arise.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Accommodated Testing</title>
-    <p>
-      Students who experience disability-related barriers should contact Disability Services:
-      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
-      If students elect to use approved academic adjustments, they must provide, in advance,
-      formal notification from Disability Services to the instructor.
-      Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
-    </p>
-  </paragraphs>
-
-</section> -->

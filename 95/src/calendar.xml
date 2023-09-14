@@ -1,406 +1,364 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-calendar">
   <title>Calendar</title>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Mar 30/Tuesday Mar 31</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.1%20Factoring%20Out%20the%20Common%20Factor.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIIJk5TgiNzpTktexDYGi_h" />
-      <p>
-        We will discuss the class format and orient you to the weekly routine.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-out-the-common-factor.html">Section 10.1 (Factoring Out the Common Factor)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/FactoringGCF.pdf">Factoring Out the GCF</url>
-      </p> -->
-    </stack>
-    <stack>
-      <p>Wednesday Apr 1/Thursday Apr 2</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.2%20Factor%20by%20Grouping.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJjfJ70IFN5oMWg8i6AgAsm" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.3%20Factoring%20Trinomials%20with%20Leading%20Coefficient%20One.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIMQWceuZ3CJzFW8JF8DlwJ" />
-      <p>
-        Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-by-grouping.html">Section 10.2 (Factoring by Grouping)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-leading-coefficient-one.html">Section 10.3 (Factoring Trinomials with Leading Coefficient One)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheets: <url href="Worksheets/Grouping.pdf">Factoring by Grouping</url>, <url href="Worksheets/MonicTrinomials.pdf">Factoring Monic Trinomials</url>
-      </p> -->
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Apr 6/Tuesday Apr 7</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.4%20Factoring%20Trinomials%20with%20a%20Nontrivial%20Leading%20Coefficient.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJ5xvcIDWbYew7SsretPyX_" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.5%20Factoring%20Special%20Polynomials.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJxPyMPH6CgUy-R-VvRlwpK" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-trinomials-with-a-nontrivial-leading-coefficient.html">Section 10.4 (Factoring Trinomials with a Nontrivial Leading Coefficient)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-special-polynomials.html">Section 10.5 (Factoring Special Polynomials)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheets: <url href="Worksheets/NonMonicTrinomials.pdf">Factoring Non-Monic Trinomials</url>, <url href="Worksheets/SpecialFactorizations.pdf">Factoring Special Patterns</url>
-      </p> -->
-    </stack>
-    <stack>
-      <p>Wednesday Apr 8/Thursday Apr 9</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.6%20Factoring%20Strategies.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLm5QkivDOJfubiKHn1d-_t" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/10.7%20Solving%20Quadratic%20Equations%20by%20Factoring.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIyYh6GTj-BgwXXeBxQCq1L" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-factoring-strategies.html">Section 10.6 (Factoring Strategies)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-quadratic-equations-by-factoring.html">Section 10.7 (Solving Quadratic Equations by Factoring)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/SolveByFactoring.pdf">Use Factoring to Solve Equations</url>
-      </p> -->
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Apr 13/Tuesday Apr 14</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.1%20Function%20Basics.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLcsn7Lr-wbUA8Z3HtmrqNE" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-function-basics.html">Section 11.1 (Function Basics)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/IntroToFunctions.pdf">Introduction to Functions</url>
-      </p> -->
-    </stack>
-    <stack>
-      <p>Wednesday Apr 15/Thursday Apr 16</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.2%20Domain%20and%20Range.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yKPhf9L6-xXch3hA8w8h0Wa" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-domain-and-range.html">Section 11.2 (Domain and Range)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/DomainAndRange.pdf">Domain and Range</url>
-      </p> -->
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Apr 20/Tuesday Apr 21</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.3%20Using%20Technology%20to%20Explore%20Functions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJpvlJzHp8UtF4zMEo_RcIy" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-using-technology-to-explore-functions.html">Section 11.3 (Using Technology to Explore Functions)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/FunctionsAndGraphingTechnology.pdf">Graphing Technology</url>
-      </p> -->
-    </stack>
-    <stack>
-      <p>Wednesday Apr 22/Thursday Apr 23</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.4%20Simplifying%20Expressions%20with%20Function%20Notation.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yL6Wtjo_0vJ9y3VjNEXwExp" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/11.5%20Technical%20Definition%20of%20a%20Function.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJTQoQ1HGtUvLcvMZPLTxr6" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-simplifying-expressions-with-function-notation.html">Section 11.4 (Simplifying Expressions with Function Notation)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-technical-definition-of-a-function.html">Section 11.5 (Technical Definition of a Function)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/SimplifyingFunctionNotation.pdf">Simplifying Function Notation</url> and <url href="Worksheets/FormalDefinitionOfFunctions.pdf">Technical Definition of a Function</url>
-      </p> -->
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Apr 27/Tuesday Apr 28</p>
-      <p>
-        Monday's class will review for the exam the following week.
-      </p>
-      <p>
-        Tuesday's class doesn't meet, because it is a faculty work day.
-      </p>
-      <!-- <p>
-        <url href="Worksheets/Exam1PreparationWinter2020.pdf">Exam 1 Practice Problems</url>
-      </p> -->
-    </stack>
-    <stack>
-      <p>Wednesday Apr 29/Thursday Apr 30</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.1%20Introduction%20to%20Rational%20Functions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJ3vBv_N3gze7uhA7on5UB6" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.2%20Multiplication%20and%20Division%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJGfb3TKGVTJdRN8gtADFON" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-introduction-to-rational-functions.html">Section 12.1 (Introduction to Rational Functions)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-multiplication-and-division-of-rational-expressions.html">Section 12.2 (Multiplication and Division of Rational Expressions)</url></li>
-        </ul>
-      </p>
-      <!-- <p>
-        Day's in-class worksheet: <url href="Worksheets/ExploringRationalFunctions.pdf">Exploring Rational Functions</url> and <url href="Worksheets/MultiplyingRationalExpressions.pdf">Multiplying, Dividing, and Simplifying Rational Expressions</url>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/AddingRationalExpressions.pdf">Adding and Subtracting Rational Expressions</url>
-      </p> -->
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday May 4/Tuesday May 5</p>
-      <p>
-        TBD
-      </p>
-      <!-- <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.3%20Addition%20and%20Subtraction%20of%20Rational%20Expressions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJjmrYW1TtOzdGWE5wkx2nr" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-addition-and-subtraction-of-rational-expressions.html">Section 12.3 (Addition and Subtraction of Rational Expressions)</url></li>
-        </ul>
-      </p> -->
-    </stack>
-    <stack>
-      <p>Wednesday May 6/Thursday May 7</p>
-      <p>
-        Exam 1
-        <!-- <xref ref="exam1" text="title"/> -->
-      </p>
-    </stack>
-  </sidebyside>
-
-  <!-- <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday May 11/Tuesday May 12</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.4%20Complex%20Fractions.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIlPrs4FG1oeB4oFsnfYOJs" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-complex-fractions.html">Section 12.4 (Complex Fractions)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/ComplexRationalExpressions.pdf">Complex Rational Expressions</url>
-      </p>
-      <p>
-        <url href="Worksheets/Exam2PreparationWinter2020.pdf">Exam 2 Practice Problems</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday May 13/Thursday May 14</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/12.5%20Solving%20Rational%20Equations.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIt9yY2Tx_q7ZUVRE892Lc2" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-rational-equations.html">Section 12.5 (Solving Rational Equations)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/SolvingRationalEquations.pdf">Solving Rational Equations I</url>, <url href="Worksheets/SolvingRationalEquations2.pdf">Solving Rational Equations II</url> 
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday May 18/Tuesday May 19</p>
-      <p>
-        <xref ref="exam2" text="title"/>
-      </p>
-      <p>
-        <url href="Worksheets/Exam2PreparationWinter2020.pdf">Exam 2 Practice Problems</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday May 20/Thursday May 21</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.1%20Overview%20of%20Graphing.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLCKilC2b2doXUwO7Iaejzt" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-overview-of-graphing.html">Section 13.1 (Overview of Graphing)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [brief introduction]</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/GraphingReview.pdf">Graphing Review</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday May 25/Tuesday May 26</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.2%20Graphs%20and%20Vertex%20Form.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yKv88MN_pGzCC_I_tA5KjA5" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.3%20Completing%20the%20Square.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLkOWZ4nwq5wUzgAp9Wy6vj" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-quadratic-graphs-and-vertex-form.html">Section 13.2 (Quadratic Graphs and Vertex Form) [continued]</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-completing-the-square.html">Section 13.3 (Completing the Square)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/QuadraticGraphsVertexForm.pdf">Quadratic Graphs and Vertex Form</url>, <url href="Worksheets/CompleteTheSquare.pdf">Completing the Square</url> 
-      </p>
-      <p>
-        <xref ref="written1" text="title"/> due.
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday May 27/Thursday May 28</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.4%20Absolute%20Value%20Equations.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yLxr9gbK4dvy688zkCvMRi7" />
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.5%20Solving%20Mixed%20Equations.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yL0f4Jvs-xY3VFQ3SMIo0Ja" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-absolute-value-equations.html">Section 13.4 (Absolute Value Equations)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-mixed-equations.html">Section 13.5 (Solving Mixed Equations)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheet: <url href="Worksheets/AbsValEquations.pdf">Absolute Value Equations</url>, <url href="Worksheets/SolvingGeneralEquations.pdf">Solving General Equations</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Jun 1/Tuesday Jun 2</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.6%20Compound%20Inequalities.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yIJ7nSw6k49Z3QiZQKXjYOR" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-compound-inequalities.html">Section 13.6 (Compound Inequalities)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written2" text="title"/> due.
-      </p>
-      <p>
-        Day's in-class worksheets: <url href="Worksheets/SolvingCompoundInequalities.pdf">Compound Inequalities</url>
-      </p>
-      <p>
-        <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jun 3/Thursday Jun 4</p>
-      <p>
-        <url href="https://spot.pcc.edu/~ajordan/MTH95Winter2020/VideoNotes/13.7%20Solving%20Inequalities%20Graphically.pdf">Video lecture outline notes</url>.
-      </p>
-      <video youtubeplaylist="PLfPh0EsBc0yJnRjOAWdQp1TjzF7VemI58" />
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-inequalities-graphically.html">Section 13.7 (Solving Inequalities Graphically)</url></li>
-        </ul>
-      </p>
-      <p>
-        Day's in-class worksheets: <url href="Worksheets/SolvingInequalitiesGraphically.pdf">Solving Inequalities Graphically</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Monday Jun 8/Tuesday Jun 9</p>
-      <p>
-        The Monday 2:00 class does not meet this day during finals week.
-      </p>
-      <p>
-        The Tuesday 11:30 class has <xref ref="exam3" text="title"/>
-        from <alert>11:00 to 1:00, not the usual class time!</alert>
-        <xref ref="written3" text="title"/> is due.
-      </p>
-      <p>
-        <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Wednesday Jun 10/Thursday Jun 11</p>
-      <p>
-        The Wednesday 2:00 class has <xref ref="exam3" text="title"/>
-        from <alert>2:00 to 4:00.</alert>
-        <xref ref="written3" text="title"/> is due.
-      </p>
-      <p>
-        <url href="Worksheets/MTH95FinalReview.docx">Exam 3 Practice Problems</url> and <url href="Worksheets/FinalExamPracticeSolutions.pdf">Answers</url>
-      </p>
-      <p>
-        The Thursday 11:30 class does not meet this day during finals week.
-      </p>
-    </stack>
-  </sidebyside> -->
+  <table xml:id="mw-calendar">
+    <title>Calendar</title>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col/>
+      <col width="21%"/>
+      <col width="48%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Module</cell>
+        <cell>Sections</cell>
+        <cell>Activities</cell>
+        <cell>Assignments</cell>
+      </row>
+      <row>
+        <cell>
+          <line>0</line>
+          <line>6/26<ndash/>6/29</line>
+        </cell>
+        <cell>
+        </cell>
+        <cell>
+          <p>
+            Watch the Orientation video.
+          </p>
+          <p>
+            Read Course Syllabus and Calendar.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Complete the WeBWorK Orientation Assignment by Thursday at 10 <pm/>.
+          </p>
+          <p>
+            Make a post in the <q>Find a Study Group!</q> Discussion by Thursday at 10 <pm/>. And
+            then be a member of a study group of 4<ndash/>6 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>1</line>
+          <line>6/26<ndash/>7/2</line>
+        </cell>
+        <cell>
+          <line>10.1</line>
+          <line>10.2</line>
+          <line>10.3</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 10.1, 10.2, and 10.3 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #1 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2</line>
+          <line>7/3<ndash/>7/9</line>
+        </cell>
+        <cell>
+          <line>10.4</line>
+          <line>10.5</line>
+          <line>10.6</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 10.4, 10.5, and 10.6 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #2 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>3</line>
+          <line>7/10<ndash/>7/16</line>
+        </cell>
+        <cell>
+          <line>10.7</line>
+          <line>11.1</line>
+          <line>11.2</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 10.7, 11.1, and 11.2 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #3 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="medium">
+        <cell>
+          <line>4</line>
+          <line>7/17<ndash/>7/23</line>
+        </cell>
+        <cell>
+          <line>11.3</line>
+          <line>11.4</line>
+          <line>11.5</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 11.3, 11.4, and 11.5 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #4 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>Midterm</cell>
+          <line>7/24</line>
+          <line><ndash/>7/25 or 26</line>
+        <cell>
+        </cell>
+        <cell>
+          <p>
+            Work through the midterm exam review material.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Midterm Exam is on Tuesday 7/25 at 2:00<ndash/>4:20 for CRN 33419. And on Wednesday
+            7/26 at 2:00<ndash/>4:20 for CRN 31183. See <xref ref="section-exams"/> if an
+            alternative is necessary, but you need to plan for such things at least two weeks in
+            advance.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col/>
+      <col width="21%"/>
+      <col width="48%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Module</cell>
+        <cell>Sections</cell>
+        <cell>Activities</cell>
+        <cell>Assignments</cell>
+      </row>
+      <row>
+        <cell>
+          <line>5</line>
+          <line>7/24<ndash/>7/30</line>
+        </cell>
+        <cell>
+          <line>12.1</line>
+          <line>12.2</line>
+          <line>12.3</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 12.1, 12.2, and 12.3 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #5 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>6</line>
+          <line>7/31<ndash/>8/6</line>
+        </cell>
+        <cell>
+          <line>12.4</line>
+          <line>12.5</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 12.4 and 12.5 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #6 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>7</line>
+          <line>8/7<ndash/>8/13</line>
+        </cell>
+        <cell>
+          <line>13.1</line>
+          <line>13.2</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 13.1 and 13.2 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #7 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>8</line>
+          <line>8/14<ndash/>8/20</line>
+        </cell>
+        <cell>
+          <line>13.3</line>
+          <line>13.4</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 13.3 and 13.4 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #8 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="medium">
+        <cell>
+          <line>9</line>
+          <line>8/21<ndash/>8/27</line>
+        </cell>
+        <cell>
+          <line>13.5</line>
+          <line>13.6</line>
+          <line>13.7</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
+          </p>
+          <p>
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Sections 13.5, 13.6, and 13.7 by Sunday at 10 <pm/>.
+          </p>
+          <p>
+            Complete and upload Worksheet #9 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>Final</cell>
+          <line>8/28</line>
+          <line><ndash/>8/29 or 30</line>
+        <cell>
+        </cell>
+        <cell>
+          <p>
+            Work through the midterm exam review material.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Final Exam is on Tuesday 8/29 at 2:00<ndash/>4:20 for CRN 33419. And on Wednesday
+            8/30 at 2:00<ndash/>4:20 for CRN 31183. See <xref ref="section-exams"/> if an
+            alternative is necessary, but you need to plan for such things at least two weeks in
+            advance.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+  </table>  
 </section>

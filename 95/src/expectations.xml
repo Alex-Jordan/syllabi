@@ -1,117 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Expectations</title>
-
-    <p>
-        This term we are responding to the coronavirus pandemic.
-        The physcial buildings at PCC are closed, and we cannot conduct the usual face-to-face instruction that we are all used to
-        (both as students and as instructors).
-    </p>
-
-    <p>
-        We all have extra responsibilities this term. As the instructor, I need to find new ways to deliver the instruction to you at home.
-        I need to be creative and flexible with how we use technology. And you, the student, need to have the self-discipline to complete
-        everything that I ask of you. And also to be brave and bring all of your concerns and questions to me as soon as you can.
-    </p>
-
-    <p>
-        We can boil down your responsibilities to the following list.
-        <ul>
-            <li>
-                <p>
-                    Sign in to the live sessions we will have in Zoom at the regularly scheduled class time.
-                    I will give a brief overview of the important points of the day, and I will take your questions,
-                    including questions you have about examples and exercises.
-                    Then we will usually move to a group work portion of the class.
-                </p>
-                <p>
-                    If you have to miss all or part of a class session, watch the recording.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Collaborate with your partners on the assignments during our live sessions.
-                    <em>When needed</em>, continue to collaborate with your lab partners outside of class.
-                    Your group must complete write-ups of each assignment by its due date.
-                </p>
-                <p>
-                    If you have to miss a class session, complete the assignment on your own by its due date.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Read sections of the <url href="https://spot.pcc.edu/math/orcca/ed2/html/part-preparation-for-college-algebra.html">textbook</url> <em>ahead</em> of class.
-                    We will not be using class time to demonstrate examples,
-                    which is common in an in-person classroom setting. It would not be the best use of our time.
-                    (But there will be time to look at examples and exercises that you bring up.)
-                </p>
-            </li>
-            <li>
-                <p>
-                    Watch the videos that are embedded in the <url href="https://spot.pcc.edu/math/orcca/ed2/html/part-preparation-for-college-algebra.html">textbook</url>. My colleague at PCC produced these videos
-                    and they were made for our book specifically.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Complete the homework exercises that are assigned in <webwork/>.
-                    There will be a problem set associated to each section of the textbook that we cover.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Complete the weekly quiz that is assigned in <webwork/>.
-                    Each quiz is timed, and uses the questions from homework where the class had the least amount of success.
-                    This is intended to motivate you to do all of the homework and ask questions when you do not understand something yet.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Use all the tools available to you to communicate with me about your concerns and your questions.
-                    <ul>
-                        <li>Direct Email</li>
-                        <li>D2L Discussion Posts (can be posted anonymously)</li>
-                        <li>Raising issues during the Zoom sessions</li>
-                        <li>Schedule one-on-one Zoom meeting with me</li>
-                    </ul>
-                </p>
-            </li>
-        </ul>
-    </p>
+<section xml:id="section-expectations">
+  <title>Expectations</title>
+  <p>
+    Students in this course are expected to enter the course several times a week. In addition to
+    work through the modules, class announcements are posted on our D2L course landing page, and it
+    is your responsibility to read these announcements.
+  </p>
+  <p>
+    You are also expected to check your <c>pcc.edu</c> email daily. Along with the announcements in
+    D2L, I sometimes send important information in mass emails to the class. It is your
+    responsibility to read these messages as they come. Also I may be replying to a message that you
+    initiated, and I am only permitted to contact you using your pcc.edu email address.
+  </p>
+  <p>
+    If you are not going to take exams using <q>remote proctoring</q> on the official exam dates
+    with the rest of the class, then you have responsibilities to make other arrangements according
+    to <xref ref="section-exams"/>. These arrangements need to be in place typically two weeks ahead
+    of the exam.
+  </p>
+  <p>
+    Make an honest effort to collaborate with your partners on the worksheet assignments. As this is
+    an asynchronous class, and everyone has different schedules and outside responsibilities, it is
+    not always possible. But it can be rewarding to make connections with the handful of people in
+    your group.
+  </p>
+  <p>
+    Reach out to me or a tutor early when you are having trouble with a topic. Your responsibility
+    is to recognize when you need this help. We can make a plan to help you if we have enough time.
+    We might meet over Zoom or in person, whatever we need to do.
+  </p>
 </section>
-<!-- <section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Expectations</title>
-
-    <p>MTH 95 can be a challenging course, so the main expectation is that you commit to the course with the goal of passing with an A, and play an active role in your learning. For starters, this means:<ul>
-        <li>
-            <p>Complete all homework assignments earlier than the due date. Begin working on homework assignments the same day that we discuss that material in class.</p>
-        </li>
-        <li>
-            <p>Read the assigned material from the textbook and elsewhere.</p>
-        </li>
-        <li>
-            <p>Make time to visit me in office hours at the slightest sign of difficulty with material.</p>
-        </li>
-    </ul></p>
-
-    <p>The ideas are covered in a natural sequence, and if you stay on top of the work load, you have every chance of success. Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.  Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process.  All students are further encouraged to work together<mdash />collaboration is an important part of any activity, and it is almost always beneficial for all involved.</p>
-
-    <p>Here are some other expectations:<ul>
-        <li>
-            <p>Maintain respect for yourself and your classmates.</p>
-        </li>
-        <li>
-            <p>Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.</p>
-        </li>
-        <li>
-            <p>Check your <c>pcc.edu</c> email at least once a day.</p>
-        </li>
-        <li>
-            <p>Food and drink can be distracting to other students. Out of respect for others, please do not bring food and drink to class. (Beverages that do not smell strongly and are in spill-proof containers are OK.)</p>
-        </li>
-    </ul></p>
-
-</section> -->

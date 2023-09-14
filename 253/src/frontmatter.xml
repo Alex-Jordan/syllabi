@@ -3,7 +3,10 @@
 <!-- This file has the contents of the title page of Alex Jordan's syllabus -->
 
 <frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <titlepage>
-        <date>Fall 2019</date>
-    </titlepage>
+  <titlepage>
+    <author>
+      <personname>Alex Jordan</personname>
+    </author>
+    <date>Spring 2022</date>
+  </titlepage>
 </frontmatter>

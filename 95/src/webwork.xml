@@ -1,162 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-webwork" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-webwork">
   <title>WeBWorK Assignments</title>
-
   <p>
-    I have made an account for you on a program called <webwork/> at
-    <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-202002/">webwork.pcc.edu/webwork2/mth095-jordan-202002</url>.
-    Each week there are problem sets and you are required to answer them online using <webwork/>.
-    The topics that we cover in a week have exercises that are typically due Wednesday of the following week
-    at 10:00<nbsp/><pm/>, but can be worked on much earlier.
-    You may submit answers any time before the due date. You may work from home or use PCC computer labs to turn in your answers.
+    I have made an account for you on an online homework platform called <webwork/>. You can access
+    <webwork/> using the navbar in our D2L course. Each week there are problem sets and you are
+    required to answer them online in <webwork/>. Each problem set is due at 10:00 <pm/> on Sunday
+    at the end of that module's week. You may submit answers any time before the due date.
   </p>
-
-  <p>
-    Here is an example of what a <webwork/> problem is like.
-  </p>
-
-  <exercise xml:id="webwork-demo">
-    <title>Multiply Powers</title>
-
-    <webwork>
-      <setup>
-        <pg-code>
-          $a = 4;
-          $b = 3;
-          $c = $a + $b;
-          $expression = Formula("x^($a)*x^($b)");
-
-          Context("LimitedPolynomial-Strict");
-          # custom error message
-          Context()->{error}{msg}{"A variable can appear only once in each term of a polynomial"}
-            = "Your answer must be fully simplified";
-
-          $answer = Formula("x^($c)");
-          $product = $a*$b;
-          $evaluator = $answer->cmp()->withPostFilter(AnswerHints(
-            [Compute("x^($product)")] =>
-            "When multiplying terms with the same base, you do not multiply the exponents."));
-        </pg-code>
-      </setup>
-
-      <statement>
-        <p>
-          Use the properties of exponents to simplify <m><var name="$expression" /></m>.
-        </p>
-        <p>
-          <m><var name="$expression" />=</m><var name="$answer" evaluator="$evaluator" width="8" />
-        </p>
-      </statement>
-
-      <solution>
-        <p>
-          We <em>add</em> the exponents as follows:
-          <md>
-            <mrow><var name="$expression" />\amp=x^{<var name="$a" />+<var name="$b" />}</mrow>
-            <mrow>\amp=x^{<var name="$c" />}</mrow>
-          </md>
-        </p>
-      </solution>
-    </webwork>
-  </exercise>
-
   <paragraphs>
-    <title>Why are we using WeBWorK?</title>
-
+    <title>Late Work</title>
     <p>
-      Traditionally, homework comes from textbook problems that students would do on paper, and then turn in in to the instructor.
-      One drawback of this is that students get no feedback at all until about a week later,
-      and at that point the student is no longer actively thinking about material from two weeks earlier.
-      Another drawback is that it is impossible for a student to do the appropriate amount of homework
-      and for the instructor to give quality feedback for every single exercise.
-      Often an instructor is only able to give feedback for a small subset of the exercises.
-      Using <webwork/> brings the following advantages over traditional homework.
-    </p>
-
-    <p>
-      <dl>
-        <li>
-          <title>Cost</title>
-          <p>
-            <webwork/> is free, unlike many online homework programs.
-          </p>
-        </li>
-        <li>
-          <title>Timely Feedback</title>
-          <p>
-            Rather than waiting a week for written feedback from your instructor, you get instant feedback from <webwork/>.
-          </p>
-        </li>
-        <li>
-          <title>Quality Feedback</title>
-          <p>
-            <webwork/> will do more than just tell you if you are right or wrong.
-            For example, it will usually tell you if you haven't completely simplified an answer
-            or forgot to include units when they are required. Sometimes it will do even more.
-            Try entering <c>x^12</c> as the answer to <xref text="type-global" ref="webwork-demo"/>.
-          </p>
-        </li>
-        <li>
-          <title>Ease of Communication</title>
-          <p>
-            <webwork/> encourages you to write your instructor for help,
-            who can provide even higher quality feedback based on your message and your previous attempts.
-          </p>
-        </li>
-        <li>
-          <title>Multiple or Unlimited Attempts</title>
-          <p>
-            On paper, when you submit an answer, that's the end of it.
-            With <webwork/> you might get a problem wrong on your first attempt,
-            but you are encouraged to figure out your mistakes and try again.
-          </p>
-        </li>
-        <li>
-          <title>Efficient Use of Class Time</title>
-          <p>
-            Your instructor can monitor the whole class and see in real-time
-            which problems and concepts are causing the class difficulty.
-          </p>
-        </li>
-        <li>
-          <title>Extra Practice</title>
-          <p>
-            Your instructor can set things up so that you can retry each problem with new random numbers involved.
-            If you are unsure if you have mastered a skill, this gives you a way to keep practicing.
-          </p>
-        </li>
-      </dl>
+      After a due date, you still have up to two weeks to answer <webwork/> exercises and get 95%
+      credit. It's usually a two-week window, however the window is shorter right before the midterm
+      or final exam. The idea is that you really should complete all homework before coming in to
+      take an exam.
     </p>
   </paragraphs>
-
-  <paragraphs>
-    <title>Logging in to WeBWorK</title>
-
-    <p>
-      Go directly to
-      <url href="https://webwork.pcc.edu/webwork2/mth095-jordan-202002/">webwork.pcc.edu/webwork2/mth095-jordan-202002</url>.
-      If you are working at your own computer, you might want to bookmark this link.
-      Your username is your PCC email prefix, using all lowercase letters.
-      For example, mine is <c>alex.jordan</c> because my email address is <email>alex.jordan@pcc.edu</email>.
-      Your initial password is your PCC G-number, using a capital <c>G</c>.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>The First Time You Log On</title>
-    <p>
-      You should go to the <c>User Settings</c> menu in the upper left and change your password.
-      There is an Orientation assignment for you to take.
-      Click on the Orientation, and begin by reading the paragraph to the right that says <q>Read This First</q>.
-      Take the time to complete the Orientation, and you will understand a lot about how <webwork/> behaves.
-      The Orientation will remain available to you for the entire term, so you can always come back and look at it again.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
+  <!-- <paragraphs>
     <title>Homework Sets Menu</title>
     <p>This shows you the assignments that have been assigned to you and when they are due. You may:
       <ul>
@@ -178,72 +39,70 @@
       Off to the right is a message for you that might have specific instructions or information about the assignment.
       You should always look for and read this message.
     </p>
-  </paragraphs>
-
+  </paragraphs> -->
   <paragraphs>
     <title>Emailing for Help</title>
     <p>
-      When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any problem.
-      Write a message explaining what you have tried and if possible, include the work from your calculations.
-      <webwork/> will send your instructor an email with helpful information (like all of the incorrect attempts you have tried)
-      and they get back to you soon with a response. When they respond, it will be with an email,
-      so <alert>you must remember to check your email</alert>.
+      When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any
+      problem. Write a message explaining what you have tried and if possible, include the work from
+      your calculations. <webwork/> will send me (your instructor) an email with helpful information
+      (like all of the incorrect attempts you have tried) and I will get back to you soon with a
+      response. When I respond, it will be with an email, so you must remember to check your own
+      email.
     </p>
   </paragraphs>
-
   <paragraphs>
     <title>Math Achievements</title>
     <p>
-      As you complete more problems through the term, you will win badges for various <q>achievements</q>.
-      For example, the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect submissions.
-      Both earning badges and just plain answering questions correctly will earn you <q>achievement points</q>.
-      As you gain more achievement points, you will level up.
-      Each time you level up, you earn an item that can be used to affect your grade.
+      As you complete more problems, you win badges for various <q>achievements</q>. For example,
+      the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect
+      submissions. Both earning badges and just plain answering questions correctly will earn you
+      <q>achievement points</q>. As you gain more achievement points, you will level up. Each time
+      you level up, you earn an item that can be used to affect your grade.
     </p>
-    <p>
+    <!-- <p>
       <dl>
         <li>
-           <title>Level 1: Lesser Rod of Revelation</title>
-           <p>Give yourself 50% credit on one problem.</p>
+           <title>Level 1</title>
+           <p>The <q>Lesser Rod of Revelation</q> gives you 50% credit on one problem.</p>
         </li>
         <li>
-           <title>Level 2: Potion of Forgetfulness</title>
-           <p>Drop the number incorrect attempts down to <m>0</m>.</p>
+           <title>Level 2</title>
+           <p>The <q>Potion of Forgetfulness</q> drops the number incorrect attempts down to <m>0</m>.</p>
         </li>
         <li>
-           <title>Level 3: Tunic of Extension</title>
-           <p>Extend the due date of a currently open homework for <m>24</m> hours.</p>
+           <title>Level 3</title>
+           <p>The <q>Tunic of Extension</q> extends the due date of a currently open homework for <m>24</m> hours.</p>
         </li>
         <li>
-           <title>Level 4: Cupcake of Enlargement</title>
-           <p>Double the weight of one problem.</p>
+           <title>Level 4</title>
+           <p>The <q>Cupcake of Enlargement</q> doubles the weight of one problem.</p>
         </li>
         <li>
-           <title>Level 5: Box of Transmogrification</title>
-           <p>Change a single problem to be a (newly randomized) copy of a different problem on the same homework set.</p>
+           <title>Level 5</title>
+           <p>The <q>Box of Transmogrification</q> changes a single problem to be a (newly randomized) copy of a different problem on the same homework set.</p>
         </li>
         <li>
-           <title>Level 6: Greater Rod of Revelation</title>
-           <p>Give yourself 100% credit on one problem.</p>
+           <title>Level 6</title>
+           <p>The <q>Greater Rod of Revelation</q> gives you 100% credit on one problem.</p>
         </li>
         <li>
-           <title>Level 7: Robe of Longevity</title>
-           <p>Extend the due date of a currently open homework for <m>48</m> hours.</p>
+           <title>Level 7</title>
+           <p>The <q>Robe of Longevity</q> extends the due date of a currently open homework for <m>48</m> hours.</p>
         </li>
         <li>
-           <title>Level 8: Scroll of Resurrection</title>
-           <p>Reopen a homework set (even a closed one) for an additional <m>24</m> hours. All problems will be re-randomized.</p>
+           <title>Level 8</title>
+           <p>The <q>Scroll of Resurrection</q> reopens a homework set (even a closed one) for an additional <m>24</m> hours. All problems will be re-randomized.</p>
         </li>
         <li>
-           <title>Level 9: Greater Tome of Enlightenment</title>
-           <p><q>Earn</q> 100% on every problem in a single homework set.</p>
+           <title>Level 9</title>
+           <p>The <q>Greater Tome of Enlightenment</q> gives you 100% on every problem in a single homework set.</p>
         </li>
         <li>
-           <title>Level 10: Cake of Enlargement</title>
-           <p>Double the weight of an entire set.</p>
+           <title>Level 10</title>
+           <p>The <q>Cake of Enlargement</q> doubles the weight of an entire set.</p>
         </li>
       </dl>
-    </p>
+    </p> -->
   </paragraphs>
-
 </section>

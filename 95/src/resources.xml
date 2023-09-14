@@ -1,169 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="resources">
   <title>Student Resources</title>
-
   <p>
-    PCC wants you to be successful and have resources that may help.
-    If you face challenges affording food or housing, or if you need access to technology,
-    this will naturally affect your classwork.
-    Check out these resources: <url href="https://www.pcc.edu/coronavirus/information-for-students/resources/">Student COVID-19 Resources</url>
-    and <url href="https://www.pcc.edu/enroll/paying-for-college/emergency-funds.html">Emergency Funds</url>.
-    You can also contact a campus Student Conduct and Retention Coordinator at <email>conductandcare@pcc.edu</email>.
+    PCC wants you to be successful and have the resources that you need. If you need help with food,
+    housing, healthcare, and more, check out check out
+    <url href="https://www.pcc.edu/student-life/single-stop/" visual="www.pcc.edu/student-life/single-stop">these resources</url>.
+    You can also contact <email>conductandcare@pcc.edu</email> to connect with a person at PCC who
+    will help you navigate finding resources that we have that may help you.
   </p>
-</section>
-
-<!-- <section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Student Resources</title>
-
-  <introduction>
-    <p>
-      PCC and the world at large offer several resources that you may benefit from while taking this course.
-    </p>
-  </introduction>
-
+  <p>
+    Here are some more specific resources that you may benefit from while taking this course.
+  </p>
   <paragraphs>
     <title>Tutoring</title>
     <p>
-      The Student Learning Center at Cascade offers free tutoring in math.
-      You should find some time to check it out, if you haven't already.
-      Details can be found at
-      <url href="http://www.pcc.edu/resources/tutoring/cascade/">www.pcc.edu/resources/tutoring/cascade</url>.
+      PCC offers free tutoring in a variety of formats at a variety of times. Please visit
+      <url href="https://www.pcc.edu/tutoring" visual="www.pcc.edu/tutoring"/> for this term's
+      details.
     </p>
   </paragraphs>
-
   <paragraphs>
     <title>PCC Student Learning Center Math Self-Study Resources</title>
     <p>
       Some PCC faculty have been putting together self-study material for mathematics topics,
-      including the topics in this course. If you would like to see an alternative to what is in your textbook,
-      please visit
-      <url href="https://spot.pcc.edu/slc/mathresources/output/html/">spot.pcc.edu/slc/mathresources/output/html/</url>.
-    </p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Calculator Handbooks</title>
-    <p>Revised handbooks for TI-89, TI-Voyage 200, and the Casio ClassPad 330 are available on the PCC Math Department page under <q>Course Downloads</q> at: <url href="http://www.pcc.edu/programs/math">www.pcc.edu/programs/math</url>.</p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>College Success Courses</title>
-    <p>
-      There are several one-credit courses available to help you maximize your success in the college experience.
-      These include courses specifically geared toward study skills.
-      The following site offers information on these courses as well as tips for success:
-      <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html">www.pcc.edu/resources/panther-tracks/college-success/study-skills.html</url>.
-    </p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Online Videos</title>
-    <p>
-      At the Khan Academy (<url href="http://www.khanacademy.org">www.khanacademy.org</url>)
-      you can find thousands of 10- to 30-minute videos on various mathematics topics.
-      See what you can find that may be relevant to the topics we are studying in class using appropriate search terms.
-    </p>
-    <p>
-      Khan Academy is just one such site. See what else you can find online searching for math videos.
-      If you find a series of videos that you feel is helpful, keep visiting them as the term progresses.
-    </p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Counseling Services</title>
-    <p>
-      (SSB 124, 971-722-5271)
-    </p>
-    <p>
-      Get help with personal or career concerns that may be impacting your academic success.
-      Trained professional counselors can also assist you with decision-making, goal-setting, and personal development.
-    </p>
-    <p>
-      <url href="http://www.pcc.edu/resources/counseling/">www.pcc.edu/resources/counseling</url>.
+      including the topics in this course. If you would like to see an alternative to what is in
+      your textbook, please visit
+      <url href="https://spot.pcc.edu/slc/mathresources/output/html/" visual="spot.pcc.edu/slc/mathresources/output/html"/>.
     </p>
   </paragraphs>
-
+  <paragraphs>
+    <title>College Success Courses</title>
+    <p>
+      There are several one-credit courses available to help you maximize your success in the
+      college experience. These include courses specifically geared toward study skills. The
+      following site offers information on these courses as well as tips for success:
+      <url href="http://www.pcc.edu/resources/panther-tracks/college-success/study-skills.html" visual="www.pcc.edu/resources/panther-tracks/college-success/study-skills.html"/>.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Online Videos</title>
+    <p>
+      At Khan Academy (<url href="http://www.khanacademy.org" visual="www.khanacademy.org"/>) you
+      can find thousands of 10- to 30-minute videos on various mathematics topics. See what you can
+      find that may be relevant to what we are studying in class using appropriate search terms.
+    </p>
+    <p>
+      Khan Academy is just one such site. See what else you can find online searching for math
+      videos. If you find a series of videos that you feel is helpful, keep visiting them as the
+      term progresses.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Counseling Services</title>
+    <p>
+      Get help with personal or career concerns that may be impacting your academic success. Trained
+      professional counselors can also assist you with decision-making, goal-setting, and personal
+      development.
+    </p>
+    <p>
+      <url href="http://www.pcc.edu/resources/counseling/" visual="www.pcc.edu/resources/counseling"/>
+    </p>
+  </paragraphs>
   <paragraphs>
     <title>Multicultural Center</title>
     <p>
-      (CA SU 302, 971-722-5795)
+      A welcoming and inclusive space for diverse students. One of the many services is one-on-one
+      help for math courses, drop-in or by appointment:
     </p>
     <p>
-      A welcoming and inclusive space for diverse students.
-      One of the many services is one-on-one help for math courses, drop-in or by appointment:
-    </p>
-    <p>
-      <url href="http://www.pcc.edu/resources/culture/">www.pcc.edu/resources/culture</url>
+      <url href="http://www.pcc.edu/resources/culture/" visual="www.pcc.edu/resources/culture"/>
     </p>
   </paragraphs>
-
   <paragraphs>
     <title>Queer Resource Center</title>
-    <p>
-      (CA SU 302)
-    </p>
     <p>
       A welcoming and safe space to hang out and be yourself. Free computer use, coffee and more:
     </p>
     <p>
-      <url href="https://www.pcc.edu/queer/">www.pcc.edu/queer</url>
+      <url href="https://www.pcc.edu/queer/" visual="www.pcc.edu/queer"/>
     </p>
   </paragraphs>
-
   <paragraphs>
     <title>Student Computing Center</title>
-    <p>
-      (CA TEB 125, 971-722-5440)
-    </p>
     <p>
       Internet access, mathematics computer programs, and more (orientation required).
     </p>
     <p>
-      <url href="http://www.pcc.edu/resources/computer-labs/">www.pcc.edu/resources/computer-labs/</url>
+      <url href="https://www.pcc.edu/resources/computer-labs/" visual="www.pcc.edu/resources/computer-labs"/>
     </p>
     <p>
-      Allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to next term).
+      Allocation of <m>100</m> double-sided pages of free printing per term (does not roll over to
+      next term).
     </p>
     <p>
-      <url href="http://www.pcc.edu/resources/printing/">www.pcc.edu/resources/printing/</url>
-    </p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Student Learning Center</title>
-    <p>(SY Library, 971–722–4540)</p>
-    <p>An informal, open study area, with the added benefit of free tutoring assistance.  The Math Center resides here. For more information:</p>
-    <p><url href="http://www.pcc.edu/SylvaniaSLC">www.pcc.edu/SylvaniaSLC</url></p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Veteran's Resource Center</title>
-    <p>
-      (SSB 201, 971-722-5458)
-    </p>
-    <p>
-      Relax, connect, computer workstations, work study and volunteer opportunities, and more.
-      For additional information:
-    </p>
-    <p>
-      <url href="http://www.pcc.edu/resources/veterans/cascade">www.pcc.edu/resources/veterans/cascade</url>
+      <url href="https://www.pcc.edu/resources/printing/" visual="www.pcc.edu/resources/printing"/>
     </p>
   </paragraphs>
-
+  <paragraphs>
+    <title>Veteran's Resource Center</title>
+    <p>
+      Relax, connect, computer workstations, work study and volunteer opportunities, and more. For
+      additional information:
+    </p>
+    <p>
+      <url href="https://www.pcc.edu/resources/veterans/cascade" visual="www.pcc.edu/resources/veterans/cascade"/>
+    </p>
+  </paragraphs>
   <paragraphs>
     <title>Women's Resource Center</title>
-    <p>
-      (CA SU 301, 971-722-5249)
-    </p>
     <p>
       A wide variety of services that support the academic achievement of women:
     </p>
     <p>
-      <url href="http://www.pcc.edu/resources/women/cascade">www.pcc.edu/resources/women/cascade</url>
+      <url href="https://www.pcc.edu/resources/women/cascade" visual="www.pcc.edu/resources/women/cascade"/>
     </p>
   </paragraphs>
 </section>
- -->

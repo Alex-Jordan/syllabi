@@ -1,237 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="grades">
   <title>Grades</title>
-
-  <introduction>
-    <p>
-      General PCC Grading Guidelines are found at
-      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
-    </p>
-  </introduction>
-
+  <p>
+    General PCC Grading Guidelines are found at
+    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/" visual="catalog.pcc.edu/handbook/g301-gradingguidelines"/>.
+  </p>
   <paragraphs>
-    <title>Group Work</title>
+    <title>Video Lecture Notes (4%)</title>
     <p>
-      Most class days, you will work in small groups on a collection of exercises.
-      Work on these diligently during class time with your partners,
-      and then turn in a completed write-up. You and your partners might finish during class,
-      but you may need to arrange to meet with each other after class.
-      You need to complete each activity before the next class meets.
-    </p>
-
-    <p>
-      If you miss class, you may complete the activity on your own and turn it in before the next class.
-    </p>
-
-    <p>
-      One grade will be assigned for each activity. All group memebers share the grade.
-      Each activity is worth 1% of your final grade, for a total of 16%.
-      (There will actually be 18 of these, and the lowest two scores will be dropped.)
+      Just as with in-person classes, taking notes during the lectures helps students understand and
+      retain information. Each section has lecture notes that accompany YouTube videos. Print these
+      lecture note outlines and fill them in as you watch the videos. (Or annotate a PDF digitally.)
+      Post them to the appropriate place in D2L each week.
     </p>
   </paragraphs>
-
   <paragraphs>
-    <title>Video Lecture Notes</title>
+    <title>Online Homework (24%)</title>
     <p>
-      With each section of the book, there are video lectures for you to watch.
-      As you watch them, there are video lecture notes you can fill out.
-      Complete each one <em>before</em> class, uploading it into the assignments in D2L.
-    </p>
-
-    <p>
-      There are 24 of these, and they are each worth 0.25% of your grade, for a total of 6%.
-    </p>
-
-    <p>
-      These are due <em>before</em> class starts. If you submit this to D2L late,
-      then you will only earn half credit.
+      You have online homework for each section using <webwork/>. See
+      <xref ref="section-webwork" text="title"/> for details. The due date for each assignment is
+      posted in <webwork/>. Usually, more than one section will be due at the same time. You should
+      start working on a homework assignment soon after the class that is associated with that
+      section of the book.
     </p>
   </paragraphs>
-
   <paragraphs>
-    <title>Online Homework</title>
+    <title>Worksheets (24%)</title>
     <p>
-      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>.
-      Usually, more than one section will be due at the same time.
-      You should start working on a homework assignment soon after the class that is associated with that section of the book.
-    </p>
-
-    <p>
-      Collectively, all the online homework is worth 12% of your final grade.
+      Each week there is a worksheet to complete and turn in. You are encouraged to work with your
+      group partners on these assignments (using Discord, Zoom, email, whatever works), and check
+      each other's work before turning yours in.
     </p>
   </paragraphs>
-
   <paragraphs>
-    <title>Quizzes</title>
+    <title>Exams (24% + 24%)</title>
     <p>
-      You have weekly quizzes using <webwork/>.
-      Each <webwork/> <em>homework</em> assignment is due in the middle of the week.
-      I will build a quiz that uses those homework questions for which there was the least overall success,
-      but still appropriate for a 1-hour time limit.
-      This is intended to motivate you to do all of the homework and ask questions when you do not understand something yet.
-      You take these quizzes when you are able to, but they must be completed by Friday evening at 10:00pm.
-      Each quiz is worth 2% and there are 8 quizzes, for a total of 16%.
-    </p>
-
-    <!-- <p>
-      See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
-      the online homework is due the following Wednesday evening.
-      You should start working on it soon after the class that works on that topic, ideally on the same day.
-    </p>
-
-    <p>
-      Collectively, all the online homework is worth 10% of your final grade.
-    </p> -->
-  </paragraphs>
-
-  <!-- <paragraphs>
-    <title>Written Assignments</title>
-      <p>
-        In the last third of the course, your homework includes some exercises where you must write up something on paper.
-        Turn these in on the days they are due.
-        Each written assignment is worth 2% of your grade for a total of 6%.
-        See <xref text="title" ref="section-written-assignments"/> for the specifics.
-      </p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Contribution to the Book</title>
-    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
-  </paragraphs> -->
-
-  <paragraphs>
-    <title>Exams</title>
-    <p>
-      The final exam will either be Tuesday June 9 or Wednesday June 10, depending on which section you are in.
-      Hopefully it will be on campus, in our classroom CH 210.
-      At this time we can't be sure. The final exam will be worth 25% of your grade.
-    </p>
-
-    <p>
-      There will also be a midterm exam. Because of the virus response, its format and location are not yet known.
-      Tentatively, it will be an in-person exam in our classroom CH 210, either Wednesday May 6 or Thursday May 7.
-      The midterm will be worth 25% of your grade.
+      There is a midterm exam and a final exam. Each exam is proctored. Most students will use
+      <q>remote proctoring</q> and take the exams from home, with a video feed that shows your work
+      area. See <xref ref="section-exams"/> for possible alternative arrangements.
     </p>
   </paragraphs>
-
-  <!-- <paragraphs>
-    <title>Optional Class Prep Assignments</title>
+  <paragraphs>
+    <title>Grading Options</title>
     <p>
-      This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
-      padding your grade with some work that is easy to do if you budget time for it.
-      At the same time, it wil get you to engage more fully with the material and it should ultimately
-      help you do better on the exams.
+      Students are solely responsible for adding, dropping, or withdrawing from any class, as well
+      as for selecting their desired grading option. Please review
+      <url href="http://www.pcc.edu/enroll/registration/policies.html" visual="www.pcc.edu/enroll/registration/policies.html">PCC Registration Policy</url>
+      for more information.
     </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Letter Grades</title>
     <p>
-      Each class day, you could come to class having <em>already</em> watched the video lessons for the day's section.
-      As you watch the videos, there are video lecture notes that you could complete.
-      Bringing these notes to me on the class day counts as proof that you watch the videos and engaged with them.
-      For each section, I will record that you watched the videos and took notes, which credits you with 0.5% toward your grade,
-      reducing the corresponding exam weight by 0.5%.
+      Your letter grade will be assigned based on the weighted average of the items above.
     </p>
-    <p>
-      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
-    </p>
-    <p>
-      You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
-      In class on the first day, we will discuss more how this works.
-    </p>
-  </paragraphs> -->
-
+    <tabular>
+      <row>
+        <cell>90% and up</cell>
+        <cell>A</cell>
+        <cell/>
+      </row>
+      <row>
+        <cell>80% up to 90%</cell>
+        <cell>B</cell>
+        <cell/>
+      </row>
+      <row bottom="minor">
+        <cell>70% up to 80%</cell>
+        <cell>C</cell>
+        <cell>P</cell>
+      </row>
+      <row>
+        <cell>60% up to 70%</cell>
+        <cell>D</cell>
+        <cell>N</cell>
+      </row>
+      <row>
+        <cell>under 60%</cell>
+        <cell>F</cell>
+        <cell/>
+      </row>
+    </tabular>
+  </paragraphs>
 </section>
-
-<!-- <section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Grades</title>
-
-  <introduction>
-    <p>
-      General PCC Grading Guidelines are found at
-      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
-    </p>
-  </introduction>
-
-  <paragraphs>
-    <title>In-class Group Work</title>
-    <p>
-      Most class days, you will work in small groups on a collection of exercises that go along with the lesson of the day.
-      If you work on these diligently during class time with your partners,
-      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
-      Sixteen of these count toward your final grade, so in total these are worth 8% of your grade.
-    </p>
-
-    <p>
-      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
-      The online syllabus will have the exercise packets from each day for you to download
-      using the <xref ref="section-calendar" text="title"/>.
-      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Online Homework</title>
-    <p>
-      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
-      the online homework is due the following Wednesday evening.
-      You should start working on it soon after the class that works on that topic, ideally on the same day.
-    </p>
-
-    <p>
-      Collectively, all the online homework is worth 10% of your final grade.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Written Assignments</title>
-      <p>
-        In the last third of the course, your homework includes some exercises where you must write up something on paper.
-        Turn these in on the days they are due.
-        Each written assignment is worth 2% of your grade for a total of 6%.
-        See <xref text="title" ref="section-written-assignments"/> for the specifics.
-      </p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Contribution to the Book</title>
-    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
-  </paragraphs> -->
-
-  <!-- <paragraphs>
-    <title>Exams</title>
-    <p>
-      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
-      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
-      Exams 1, 2, and 3 are each worth 25%, 25%, and 26%, of your grade.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Optional Class Prep Assignments</title>
-    <p>
-      This is an opportunity to reduce the weight of the exams down to just 21%, 21%, and 22%,
-      padding your grade with some work that is easy to do if you budget time for it.
-      At the same time, it wil get you to engage more fully with the material and it should ultimately
-      help you do better on the exams.
-    </p>
-    <p>
-      Each class day, you could come to class having <em>already</em> watched the video lessons for the day's section.
-      As you watch the videos, there are video lecture notes that you could complete.
-      Bringing these notes to me on the class day counts as proof that you watch the videos and engaged with them.
-      For each section, I will record that you watched the videos and took notes, which credits you with 0.5% toward your grade,
-      reducing the corresponding exam weight by 0.5%.
-    </p>
-    <p>
-      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
-    </p>
-    <p>
-      You may find the videos and the video lecture notes on the <xref ref="section-calendar" text="title"/>.
-      In class on the first day, we will discuss more how this works.
-    </p>
-  </paragraphs>
-
-</section> -->

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en-US"><!--  Note that the lang and dir attributes are now set during the
+      processing of the template and not hard-coded above.
+--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+################################################################################
+# WeBWorK Online Homework Delivery System
+# Copyright &copy; 2000-2022 The WeBWorK Project, https://github.com/openwebwork
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of either: (a) the GNU General Public License as published by the
+# Free Software Foundation; either version 2, or (at your option) any later
+# version, or (b) the "Artistic License" which comes with this package.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+# Artistic License for more details.
+################################################################################
+-->
+
+<link rel="icon" type="x-image/icon" href="https://webwork.pcc.edu/webwork2_files/images/favicon.ico">
+
+<!-- CSS Loads -->
+<link rel="stylesheet" href="WeBWorK%20orcca%20verbatim%203%20Editor_files/bootstrap.f038b6ee.min.css">
+<link rel="stylesheet" href="WeBWorK%20orcca%20verbatim%203%20Editor_files/all.min.css">
+<link rel="stylesheet" href="WeBWorK%20orcca%20verbatim%203%20Editor_files/math4.fc51f57d.min.css">
+
+
+
+<link rel="stylesheet" href="WeBWorK%20orcca%20verbatim%203%20Editor_files/math4-overrides.87caa6cf.min.css">
+
+
+<!-- JS Loads -->
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/mathjax-config.d097a5f4.min.js" defer="defer"></script>
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/tex-svg.js" id="MathJax-script" defer="defer"></script>
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/jquery.min.js"></script>
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/bootstrap.bundle.min.js" defer="defer"></script>
+
+	<link href="WeBWorK%20orcca%20verbatim%203%20Editor_files/codemirror.css" rel="stylesheet"><link href="WeBWorK%20orcca%20verbatim%203%20Editor_files/dialog.css" rel="stylesheet"><link href="WeBWorK%20orcca%20verbatim%203%20Editor_files/matchesonscrollbar.css" rel="stylesheet"><link href="WeBWorK%20orcca%20verbatim%203%20Editor_files/pgeditor.3d31ed34.min.css" rel="stylesheet"><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/codemirror.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/dialog.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/search.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/searchcursor.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/matchesonscrollbar.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/match-highlighter.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/match-highlighter.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/annotatescrollbar.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/matchbrackets.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/PG.c7d6dcae.min.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/pgeditor.fac5daf0.min.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/actiontabs.c0c428b0.min.js"></script><script defer="defer" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/pgproblemeditor.aff2c280.min.js"></script>
+
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/math4.04d32dc9.min.js" defer="defer"></script>
+
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/math4-overrides.e3b0c442.min.js" defer="defer"></script>
+
+
+<title>WeBWorK : orcca : verbatim : 3 : Editor</title>
+
+
+<script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/asciimath.js" charset="UTF-8"></script><script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/noerrors.js" charset="UTF-8"></script><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/chtml.js" charset="UTF-8"></script><script src="WeBWorK%20orcca%20verbatim%203%20Editor_files/tex.js" charset="UTF-8"></script><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://webwork.pcc.edu/webwork2_files/node_modules/mathjax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+<body style="" class="">
+<a href="#page-title" id="stmc-link" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Bootstrap Fluid Layout Scaffolding start -->
+<div id="bs-container" class="container-fluid">
+<!-- Header -->
+<div id="masthead" class="row" role="banner">
+	<div class="col-md-2 webwork_logo">
+		<a href="https://webwork.pcc.edu/webwork2"><img alt="to courses page" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/webwork_logo.svg"></a>
+	</div>
+	<div class="col-md-6 institution_logo">
+		<a href="https://www.pcc.edu/"><img alt="to Portland Community College main web site" src="WeBWorK%20orcca%20verbatim%203%20Editor_files/PCC_primary_logo_reversed.svg"></a>
+	</div>
+	<div id="loginstatus" class="col-md-4">
+		Logged in as Alex  Jordan.<a class="btn btn-light btn-sm ms-2" href="https://webwork.pcc.edu/webwork2/orcca/logout/?effectiveUser=alex.jordan">Log Out <i aria-hidden="true" class="icon fas fa-sign-out-alt" data-alt="signout"></i><span class="sr-only-glyphicon">signout</span></a>
+	</div>
+</div>
+
+<!-- Breadcrumb -->
+<div id="breadcrumb-row" class="row my-2">
+	<div class="col-12 d-flex align-items-center">
+		
+		<button type="button" class="btn btn-secondary" id="toggle-sidebar">
+			<span id="toggle-sidebar-icon">
+				<i class="icon fas fa-chevron-left" aria-hidden="true" data-alt="close sidebar"></i><span class="sr-only-glyphicon">close sidebar</span>
+			</span>
+		</button>
+		
+		<nav id="breadcrumb-navigation" aria-label="breadcrumb navigation" class="w-100">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2?effectiveUser=alex.jordan">WeBWorK</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/orcca?effectiveUser=alex.jordan">orcca</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/orcca/verbatim?effectiveUser=alex.jordan">verbatim</a></li><li class="breadcrumb-item"><a href="https://webwork.pcc.edu/webwork2/orcca/verbatim/3?effectiveUser=alex.jordan">3</a></li><li class="breadcrumb-item active">Editor</li>
+			</ol>
+		</nav>
+	</div>
+</div>
+
+<div id="body-row" class="d-flex">
+
+<!-- Navigation -->
+
+<div id="site-navigation" class="d-flex flex-column" role="navigation" aria-label="main navigation">
+	
+		<div id="site-links" class="bg-light">
+			<h2 class="navbar-brand mb-0">Main Menu</h2><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/">Courses</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/?effectiveUser=alex.jordan">Homework Sets</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" dir="ltr" href="https://webwork.pcc.edu/webwork2/orcca/verbatim/?effectiveUser=alex.jordan">verbatim</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/verbatim/3/?effectiveUser=alex.jordan">Problem 3</a></li></ul></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/options/?effectiveUser=alex.jordan">User Settings</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/grades/?effectiveUser=alex.jordan">Grades</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/achievements/?effectiveUser=alex.jordan">Achievements</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/?effectiveUser=alex.jordan">Instructor Tools</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/users/?effectiveUser=alex.jordan">Classlist Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/sets/?effectiveUser=alex.jordan">Hmwk Sets Editor</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link" dir="ltr" href="https://webwork.pcc.edu/webwork2/orcca/instructor/sets/verbatim/?effectiveUser=alex.jordan">verbatim</a></li><li class="nav-item"><ul class="nav flex-column"><li class="nav-item"><a class="nav-link active" href="https://webwork.pcc.edu/webwork2/orcca/instructor/pgProblemEditor/verbatim/3/?effectiveUser=alex.jordan" target="WW_Editor">Problem 3</a></li></ul></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/setmaker/?effectiveUser=alex.jordan">Library Browser</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/stats/?effectiveUser=alex.jordan">Statistics</a><ul class="nav flex-column"><li class="nav-item" dir="ltr"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/stats/set/verbatim/?effectiveUser=alex.jordan">verbatim</a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/progress/?effectiveUser=alex.jordan">Student Progress</a><ul class="nav flex-column"><li class="nav-item" dir="ltr"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/progress/set/verbatim/?effectiveUser=alex.jordan">verbatim</a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/scoring/?effectiveUser=alex.jordan">Scoring Tools</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/achievement_list/?effectiveUser=alex.jordan">Achievement Editor</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/send_mail/?effectiveUser=alex.jordan">Email</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/file_manager/?effectiveUser=alex.jordan">File Manager</a></li><li class="nav-item"><a class="nav-link" href="https://webwork.pcc.edu/webwork2/orcca/instructor/config/?effectiveUser=alex.jordan">Course Configuration</a></li><li class="nav-item"><a class="help-macro nav-link" href="https://webwork.pcc.edu/webwork2_files/helpFiles/instructor_links.html" target="ww_help">Help</a></li><li class="nav-item"><a class="help-macro nav-link" href="https://webwork.pcc.edu/webwork2_files/helpFiles/InstructorPGProblemEditor.html" target="ww_help"><i aria-hidden="true" class="icon fas fa-question-circle" data-alt=" ? "></i><span class="sr-only-glyphicon"> ? </span></a></li></ul></li><li class="nav-item"><a class="nav-link" href="https://bugs.webwork.maa.org/enter_bug.cgi">Report bugs</a></li></ul>
+		</div>
+	
+	
+	
+</div>
+
+
+<!-- Main Content Area -->
+
+<div id="content" class="flex-grow-1">
+
+	
+
+	<!-- Page Title -->
+	
+	<div class="row"><div class="col-12">
+		<h1 id="page-title" class="page-title">Problem 3</h1>
+	</div></div>
+	
+
+	
+	<!-- Message for the user -->
+	<div id="Message" class="Message"><div class="alert alert-danger p-1 my-2">Changes in this file have not yet been permanently saved.</div></div>
+	
+
+	<!-- Header Text for problem -->
+	
+
+<!-- ==============BEGIN BODY OF PROBLEM=============== -->
+
+	<!-- Indicate presence of perl warnings -->
+	
+
+	
+	
+	<!-- ==== couldn't print body parts so we'll print entire body -->
+	<div class="row">
+		
+			<div id="page_body" class="body col-12">
+		
+		<div class="mb-2"><div class="temporaryFile"><i>Editing <strong>problem 3 of set <span dir="ltr">verbatim</span></strong> in file "<span dir="ltr">[TMPL]/tmpEdit/local/checkboxtest.pg.alex.jordan.tmp</span>"</i></div></div><form method="post" action="/webwork2/orcca/instructor/pgProblemEditor/verbatim/3/" enctype="application/x-www-form-urlencoded" class="col-12" id="editor" name="editor" target="pg_editor_frame"><input type="hidden" name="user" value="alex.jordan" id="hidden_user"><input type="hidden" name="effectiveUser" value="alex.jordan" id="hidden_effectiveUser"><input type="hidden" name="key" value="fcgn4S1PlcfNfcC8ym5zY6t38664MjsL" id="hidden_key"><input type="hidden" name="file_type" value="problem"><div><a class="reference-link btn btn-sm btn-info" data-bs-placement="top" data-bs-toggle="tooltip" href="https://webwork.maa.org/wiki/Category:Problem_Techniques" target="techniques_window" title="" data-bs-original-title="Snippets of PG code illustrating specific techniques">Problem Techniques</a> <a class="reference-link btn btn-sm btn-info" data-bs-placement="top" data-bs-toggle="tooltip" href="https://webwork.maa.org/wiki/Category:MathObjects" target="math_objects" title="" data-bs-original-title="Wiki summary page for MathObjects">Math Objects</a> <a class="reference-link btn btn-sm btn-info" data-bs-placement="top" data-bs-toggle="tooltip" href="https://webwork.maa.org/pod/" target="pod_docs" title="" data-bs-original-title="Documentation from source code for PG modules and macro files. Often the most up-to-date information.">POD</a> <a class="reference-link btn btn-sm btn-info" data-bs-placement="top" data-bs-toggle="tooltip" href="https://demo.webwork.rochester.edu/webwork2/cervone_course/PGML/1?login_practice_user=true" target="PGML" title="" data-bs-original-title="PG mark down syntax used to format WeBWorK questions. This interactive lab can help you to learn the techniques.">PGML</a> <a class="reference-link btn btn-sm btn-info" data-bs-placement="top" data-bs-toggle="tooltip" href="https://webwork.maa.org/wiki/Category:Authors" target="author_info" title="" data-bs-original-title="Top level of author information on the wiki.">Author Info</a> <a class="reference-link btn btn-sm btn-info" data-bs-placement="top" data-bs-toggle="tooltip" href="https://bugs.webwork.maa.org/enter_bug.cgi?product=Problem%20libraries&amp;component=Library&amp;bug_file_loc=/opt/webwork/courses/orcca/templates/local/checkboxtest.pg_with_problemSeed=1709" target="bug_report" title="" data-bs-original-title="Report bugs in a WeBWorK question/problem using this link. The very first time you do this you will need to register with an email address so that information on the bug fix can be reported back to you.">Report Bugs in this Problem</a></div><div class="mb-2"><textarea name="problemContents" class="codeMirrorEditor" id="problemContents" style="display: none;">DOCUMENT();
+loadMacros("PGstandard.pl","PGML.pl","AnswerFormatHelp.pl","PGchoicemacros.pl","PCCmacros.pl","parserAssignment.pl","parserMultiAnswer.pl","contextForm.pl","contextFraction.pl","parserLinearRelation.pl","PGcourse.pl",);TEXT(beginproblem());
+TEXT(MODES(PTX=&gt;'',HTML=&gt;'&lt;div
+ style="display:none;"&gt;\(\newcommand{\amp}{&amp;}\)&lt;/div&gt;'));
+              ($X, $Y) = 
+('a'..'n','p'..'z','A'..'N','P'..'T','V'..'Z')[NchooseK(49,2)];
+              @h = (-9..9)[NchooseK(19,2)];
+              @k = (-9..9)[NchooseK(19,2)];
+              my @b;
+              my @posssible_m;
+              for my $m1 (-9..-2,2..9) {
+                for my $m2 (-9..-2,2..9) {
+                  @b = ($k[0] - $m1*$h[0], $k[1] - $m2*$h[1]);
+                  push(@posssible_m,[$m1,$m2]) if (
+                    abs($m2 - $m1) &gt; 1 &amp;&amp;
+                    abs($m2 - $m1) &lt; 10 &amp;&amp;
+                    ($b[0] - $b[1]) % ($m2 - $m1) != 0 &amp;&amp;
+                    ($m2*$b[0] - $m1*$b[1]) % ($m2 - $m1) != 0
+                  );
+                }
+              }
+              @m = @{list_random(@posssible_m)};
+              Context("Fraction")-&gt;variables-&gt;are($X =&gt; 'Real',
+ $Y =&gt; 'Real');
+              Context()-&gt;noreduce('(-x)-y', '(-x)+y');
+              parser::Assignment-&gt;Allow;
+              $x = Fraction(($b[0] - $b[1])/($m[1] - $m[0]));
+              $y = Fraction(($m[1]*$b[0] - $m[0]*$b[1])/($m[1] - 
+$m[0]));
+              @f = map{Formula("$Y = $m[$_] ($X - $h[$_]) + 
+$k[$_]")-&gt;reduce} (0,1);
+              $xis = Formula("$X = $x");
+              $yis = Formula("$Y = $y");
+              $m = MultiAnswer($xis, $yis)-&gt;with(
+                singleResult =&gt; 0,
+                allowBlankAnswers =&gt; 1,
+                checker =&gt; sub {
+                    my ($c, $s, $self) = @_;
+                    return [1,1] if ($c-&gt;[0] == $s-&gt;[0] &amp;&amp;
+ $c-&gt;[1] == $s-&gt;[1] || $c-&gt;[1] == $s-&gt;[0] &amp;&amp; 
+$c-&gt;[0] == $s-&gt;[1]);
+                    return [1,0] if ($c-&gt;[0] == $s-&gt;[0] || 
+$c-&gt;[1] == $s-&gt;[0]);
+                    return [0,1] if ($c-&gt;[0] == $s-&gt;[1] || 
+$c-&gt;[1] == $s-&gt;[1]);
+                    return [0,0];
+                }
+              );
+
+
+BEGIN_PGML
+[`\left\{
+                  \begin{alignedat}{4}
+                  \amp [$f[0]] \\
+                  \amp [$f[1]]
+                  \end{alignedat}
+                  \right.
+                `]
+
+[@KeyboardInstructions('Write each solution in [|variable = number|]* 
+format.')@]**
+
+[_]{$m}{16}
+
+[_]{$m}{16}
+
+
+END_PGML
+
+ENDDOCUMENT();
+
+
+</textarea><div class="CodeMirror cm-s-default CodeMirror-wrap" translate="no" style="width: 100%; height: 400px;"><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="display: block; bottom: 0px; width: 18px; visibility: hidden;"><div style="min-width: 1px; height: 1314px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="height: 18px; visibility: hidden;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: 0px; border-right-width: 50px; min-height: 1314px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: none;" role="presentation"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 175.85px; top: 163.2px; height: 20.4px;">&nbsp;</div><div class="CodeMirror-cursor" style="left: 224.95px; top: 244.8px; height: 20.4px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" autocorrect="off" autocapitalize="none" spellcheck="false" tabindex="0" style="" contenteditable="true"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-keyword">DOCUMENT</span>();</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-keyword">loadMacros</span>(<span class="cm-string">"PGstandard.pl"</span>,<span class="cm-string">"PGML.pl"</span>,<span class="cm-string">"AnswerFormatHelp.pl"</span>,<span class="cm-string">"PGchoicemacros.pl"</span>,<span class="cm-string">"PCCmacros.pl"</span>,<span class="cm-string">"parserAssignment.pl"</span>,<span class="cm-string">"parserMultiAnswer.pl"</span>,<span class="cm-string">"contextForm.pl"</span>,<span class="cm-string">"contextFraction.pl"</span>,<span class="cm-string">"parserLinearRelation.pl"</span>,<span class="cm-string">"PGcourse.pl"</span>,);<span class="cm-keyword">TEXT</span>(<span class="cm-meta">beginproblem</span>());</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-keyword">TEXT</span>(<span class="cm-keyword">MODES</span>(<span class="cm-string">PTX=&gt;''</span>,<span class="cm-string">HTML=&gt;'&lt;div style="display:none;"&gt;\(\newcommand{\amp}{&amp;}\)&lt;/div&gt;'</span>));</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  (<span class="cm-variable">$X</span>, <span class="cm-variable">$Y</span>) <span class="cm-operator">=</span> (<span class="cm-string">'a'</span><span class="cm-operator">..</span><span class="cm-string">'n'</span>,<span class="cm-string">'p'</span><span class="cm-operator">..</span><span class="cm-string">'z'</span>,<span class="cm-string">'A'</span><span class="cm-operator">..</span><span class="cm-string">'N'</span>,<span class="cm-string">'P'</span><span class="cm-operator">..</span><span class="cm-string">'T'</span>,<span class="cm-string">'V'</span><span class="cm-operator">..</span><span class="cm-string">'Z'</span>)[<span class="cm-keyword">NchooseK</span>(<span class="cm-number">49</span>,<span class="cm-number">2</span>)];</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">@h</span> <span class="cm-operator">=</span> (<span class="cm-number">-9..9</span>)[<span class="cm-keyword">NchooseK</span>(<span class="cm-number">19</span>,<span class="cm-number">2</span>)];</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">@k</span> <span class="cm-operator">=</span> (<span class="cm-number">-9..9</span>)[<span class="cm-keyword">NchooseK</span>(<span class="cm-number">19</span>,<span class="cm-number">2</span>)];</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-def">my</span> <span class="cm-variable">@b</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-def">my</span> <span class="cm-variable">@possible_m</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">for</span> <span class="cm-def">my</span> <span class="cm-variable">$m1</span> (<span class="cm-number">-9.</span>.<span class="cm-operator">-</span><span class="cm-number">2</span>,<span class="cm-number">2..9</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">for</span> <span class="cm-def">my</span> <span class="cm-variable">$m2</span> (<span class="cm-number">-9.</span>.<span class="cm-operator">-</span><span class="cm-number">2</span>,<span class="cm-number">2..9</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">@b</span> <span class="cm-operator">=</span> (<span class="cm-variable">$k</span>[<span class="cm-number">0</span>] <span class="cm-operator">-</span> <span class="cm-variable">$m1</span>*<span class="cm-variable">$h</span>[<span class="cm-number">0</span>], <span class="cm-variable">$k</span>[<span class="cm-number">1</span>] <span class="cm-operator">-</span> <span class="cm-variable">$m2</span>*<span class="cm-variable">$h</span>[<span class="cm-number">1</span>]);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">push</span>(<span class="cm-variable">@possible_m</span>,[<span class="cm-variable">$m1</span>,<span class="cm-variable">$m2</span>]) <span class="cm-keyword">if</span> (</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">abs</span>(<span class="cm-variable">$m2</span> <span class="cm-operator">-</span> <span class="cm-variable">$m1</span>) <span class="cm-operator">&gt;</span> <span class="cm-number">1</span> <span class="cm-operator">&amp;&amp;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">abs</span>(<span class="cm-variable">$m2</span> <span class="cm-operator">-</span> <span class="cm-variable">$m1</span>) <span class="cm-operator">&lt;</span> <span class="cm-number">10</span> <span class="cm-operator">&amp;&amp;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  (<span class="cm-variable">$b</span>[<span class="cm-number">0</span>] <span class="cm-operator">-</span> <span class="cm-variable">$b</span>[<span class="cm-number">1</span>]) <span class="cm-operator">%</span> (<span class="cm-variable">$m2</span> <span class="cm-operator">-</span> <span class="cm-variable">$m1</span>) <span class="cm-operator">!=</span> <span class="cm-number">0</span> <span class="cm-operator">&amp;&amp;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  (<span class="cm-variable">$m2</span>*<span class="cm-variable">$b</span>[<span class="cm-number">0</span>] <span class="cm-operator">-</span> <span class="cm-variable">$m1</span>*<span class="cm-variable">$b</span>[<span class="cm-number">1</span>]) <span class="cm-operator">%</span> (<span class="cm-variable">$m2</span> <span class="cm-operator">-</span> <span class="cm-variable">$m1</span>) <span class="cm-operator">!=</span> <span class="cm-number">0</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">17</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  );</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">18</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">19</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">20</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">@m</span> <span class="cm-operator">=</span> @{list_random(<span class="cm-variable">@possible_m</span>)};</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">21</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">Context</span>(<span class="cm-string">"Fraction"</span>)<span class="cm-variable">-&gt;variables-&gt;are</span>(<span class="cm-variable">$X</span> <span class="cm-operator">=&gt;</span> <span class="cm-string">'Real'</span>, <span class="cm-variable">$Y</span> <span class="cm-operator">=&gt;</span> <span class="cm-string">'Real'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">22</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">Context</span>()<span class="cm-variable">-&gt;noreduce</span>(<span class="cm-string">'(-x)-y'</span>, <span class="cm-string">'(-x)+y'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">23</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">parser</span><span class="cm-operator">::</span><span class="cm-meta">Assignment</span><span class="cm-variable">-&gt;Allow</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">24</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">$x</span> <span class="cm-operator">=</span> <span class="cm-keyword">Fraction</span>((<span class="cm-variable">$b</span>[<span class="cm-number">0</span>] <span class="cm-operator">-</span> <span class="cm-variable">$b</span>[<span class="cm-number">1</span>])<span class="cm-operator">/</span>(<span class="cm-variable">$m</span>[<span class="cm-number">1</span>] <span class="cm-operator">-</span> <span class="cm-variable">$m</span>[<span class="cm-number">0</span>]));</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">25</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">$y</span> <span class="cm-operator">=</span> <span class="cm-keyword">Fraction</span>((<span class="cm-variable">$m</span>[<span class="cm-number">1</span>]*<span class="cm-variable">$b</span>[<span class="cm-number">0</span>] <span class="cm-operator">-</span> <span class="cm-variable">$m</span>[<span class="cm-number">0</span>]*<span class="cm-variable">$b</span>[<span class="cm-number">1</span>])<span class="cm-operator">/</span>(<span class="cm-variable">$m</span>[<span class="cm-number">1</span>] <span class="cm-operator">-</span> <span class="cm-variable">$m</span>[<span class="cm-number">0</span>]));</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">26</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">@f</span> <span class="cm-operator">=</span> <span class="cm-keyword">map</span>{<span class="cm-keyword">Formula</span>(<span class="cm-string">"$Y = $m[$_] ($X - $h[$_]) + $k[$_]"</span>)<span class="cm-variable">-&gt;reduce</span>} (<span class="cm-number">0</span>,<span class="cm-number">1</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">27</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">$xis</span> <span class="cm-operator">=</span> <span class="cm-keyword">Formula</span>(<span class="cm-string">"$X = $x"</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">28</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">$yis</span> <span class="cm-operator">=</span> <span class="cm-keyword">Formula</span>(<span class="cm-string">"$Y = $y"</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">29</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">$m</span> <span class="cm-operator">=</span> <span class="cm-keyword">MultiAnswer</span>(<span class="cm-variable">$xis</span>, <span class="cm-variable">$yis</span>)<span class="cm-variable">-&gt;with</span>(</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">30</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">singleResult =&gt;</span> <span class="cm-number">0</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">31</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">allowBlankAnswers =&gt;</span> <span class="cm-number">1</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">32</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">checker =&gt;</span> <span class="cm-keyword">sub</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">33</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-def">my</span> (<span class="cm-variable">$c</span>, <span class="cm-variable">$s</span>, <span class="cm-variable">$self</span>) <span class="cm-operator">=</span> <span class="cm-variable-2">@_</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;" aria-hidden="true" contenteditable="false"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">34</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">return</span> [<span class="cm-number">1</span>,<span class="cm-number">1</span>] <span class="cm-keyword">if</span> (<span class="cm-variable">$c</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">0</span>] <span class="cm-operator">==</span> <span class="cm-variable">$s</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">0</span>] <span class="cm-operator">&amp;&amp;</span> <span class="cm-variable">$c</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">1</span>] <span class="cm-operator">==</span> <span class="cm-variable">$s</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">1</span>] <span class="cm-operator">||</span> <span class="cm-variable">$c</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">1</span>] <span class="cm-operator">==</span> <span class="cm-variable">$s</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">0</span>] <span class="cm-operator">&amp;&amp;</span> <span class="cm-variable">$c</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">0</span>] <span class="cm-operator">==</span> <span class="cm-variable">$s</span><span class="cm-operator">-&gt;</span>[<span class="cm-number">1</span>]);</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent; top: 1314px;"></div><div class="CodeMirror-gutters" style="height: 1364px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div></div><div class="row align-items-center"><div class="col-sm-auto mb-2"><div class="row align-items-center"><label class="col-form-label col-auto" for="selectTheme">Theme:</label> <div class="col-auto"><select name="selectTheme" class="form-select form-select-sm d-inline w-auto" id="selectTheme">
+<option selected="selected" value="default">default</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/3024-day.css">3024-day</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/3024-night.css">3024-night</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/abbott.css">abbott</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/abcdef.css">abcdef</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/ambiance.css">ambiance</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/ambiance-mobile.css">ambiance-mobile</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/ayu-dark.css">ayu-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/ayu-mirage.css">ayu-mirage</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/base16-dark.css">base16-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/base16-light.css">base16-light</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/bespin.css">bespin</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/blackboard.css">blackboard</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/cobalt.css">cobalt</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/colorforth.css">colorforth</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/darcula.css">darcula</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/dracula.css">dracula</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/duotone-dark.css">duotone-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/duotone-light.css">duotone-light</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/eclipse.css">eclipse</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/elegant.css">elegant</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/erlang-dark.css">erlang-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/gruvbox-dark.css">gruvbox-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/hopscotch.css">hopscotch</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/icecoder.css">icecoder</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/idea.css">idea</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/isotope.css">isotope</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/juejin.css">juejin</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/lesser-dark.css">lesser-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/liquibyte.css">liquibyte</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/lucario.css">lucario</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/material.css">material</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/material-darker.css">material-darker</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/material-ocean.css">material-ocean</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/material-palenight.css">material-palenight</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/mbo.css">mbo</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/mdn-like.css">mdn-like</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/midnight.css">midnight</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/monokai.css">monokai</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/moxer.css">moxer</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/neat.css">neat</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/neo.css">neo</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/night.css">night</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/nord.css">nord</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/oceanic-next.css">oceanic-next</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/panda-syntax.css">panda-syntax</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/paraiso-dark.css">paraiso-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/paraiso-light.css">paraiso-light</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/pastel-on-dark.css">pastel-on-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/railscasts.css">railscasts</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/rubyblue.css">rubyblue</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/seti.css">seti</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/shadowfox.css">shadowfox</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/solarized.css">solarized</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/ssms.css">ssms</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/the-matrix.css">the-matrix</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/tomorrow-night-bright.css">tomorrow-night-bright</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/tomorrow-night-eighties.css">tomorrow-night-eighties</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/ttcn.css">ttcn</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/twilight.css">twilight</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/vibrant-ink.css">vibrant-ink</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/xq-dark.css">xq-dark</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/xq-light.css">xq-light</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/yeti.css">yeti</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/yonce.css">yonce</option>
+<option value="/webwork2_files/node_modules/codemirror/theme/zenburn.css">zenburn</option>
+</select></div></div></div> <div class="col-sm-auto mb-2"><div class="row align-items-center"><label class="col-form-label col-auto" for="selectKeymap">Key Map:</label> <div class="col-auto"><select name="selectKeymap" class="form-select form-select-sm d-inline w-auto" id="selectKeymap">
+<option selected="selected" value="default">default</option>
+<option value="/webwork2_files/node_modules/codemirror/keymap/emacs.js">emacs</option>
+<option value="/webwork2_files/node_modules/codemirror/keymap/sublime.js">sublime</option>
+<option value="/webwork2_files/node_modules/codemirror/keymap/vim.js">vim</option>
+</select></div></div></div> <div class="col-sm-auto mb-2"><div class="form-check mb-0"><input class="form-check-input" id="enableSpell" type="checkbox"> <label class="form-check-label" for="enableSpell">Enable Spell Checking</label></div></div> <div class="col-sm-auto mb-2"><div class="form-check mb-0"><input class="form-check-input" id="forceRTL" type="checkbox"> <label class="form-check-label" for="forceRTL">Force editor to RTL</label></div></div></div><input type="hidden" name="action" value="view" id="current_action"><div><ul class="nav nav-tabs mb-2" role="tablist"><li class="nav-item" role="presentation"><a aria-controls="view" aria-selected="true" class="nav-link action-link active" data-action="view" data-bs-target="#view" data-bs-toggle="tab" href="#view" id="view-tab" role="tab">View</a></li> <li class="nav-item" role="presentation"><a aria-controls="save" aria-selected="false" class="nav-link action-link" data-action="save" data-bs-target="#save" data-bs-toggle="tab" href="#save" id="save-tab" role="tab">Update</a></li> <li class="nav-item" role="presentation"><a aria-controls="save_as" aria-selected="false" class="nav-link action-link" data-action="save_as" data-bs-target="#save_as" data-bs-toggle="tab" href="#save_as" id="save_as-tab" role="tab">New Version</a></li> <li class="nav-item" role="presentation"><a aria-controls="add_problem" aria-selected="false" class="nav-link action-link" data-action="add_problem" data-bs-target="#add_problem" data-bs-toggle="tab" href="#add_problem" id="add_problem-tab" role="tab">Append</a></li> <li class="nav-item" role="presentation"><a aria-controls="revert" aria-selected="false" class="nav-link action-link" data-action="revert" data-bs-target="#revert" data-bs-toggle="tab" href="#revert" id="revert-tab" role="tab">Revert</a></li></ul> <div class="tab-content"><div aria-labelledby="view-tab" class="tab-pane fade show active" id="view" role="tabpanel"><div><div class="row align-items-center"><label class="col-form-label col-auto mb-2" for="action_view_seed_id">Using what seed?</label> <div class="col-auto mb-2"><input type="text" name="action.view.seed" value="1709" class="form-control form-control-sm" id="action_view_seed_id"></div> <div class="col-auto mb-2"><input type="button" name="action.randomize.view.seed" value="Randomize Seed" class="btn btn-info btn-sm" id="randomize_view_seed_id"></div></div> <div class="row align-items-center mb-2"><label class="col-form-label col-auto" for="action_view_displayMode_id">Using what display mode?</label> <div class="col-auto"><select name="action.view.displayMode" class="form-select form-select-sm d-inline w-auto" id="action_view_displayMode_id">
+<option selected="selected" value="MathJax">MathJax</option>
+<option value="images">images</option>
+<option value="plainText">plainText</option>
+</select></div></div> <div class="row g-0 mb-2"><div class="form-check mb-2"><input class="form-check-input" id="newWindowView" type="checkbox"> <label class="form-check-label" for="newWindowView">Open in new window</label></div></div></div></div> <div aria-labelledby="save-tab" class="tab-pane fade" id="save" role="tabpanel"><div><div class="mb-2">Save to <b dir="ltr">[TMPL]/local/checkboxtest.pg</b> and View</div> <div class="form-check mb-2"><input class="form-check-input" id="newWindowSave" type="checkbox"> <label class="form-check-label" for="newWindowSave">Open in new window</label></div></div></div> <div aria-labelledby="save_as-tab" class="tab-pane fade" id="save_as" role="tabpanel"><div><div class="row align-items-center mb-2"><label class="col-form-label col-auto" for="action_save_as_target_file_id">Save file to:</label> <div class="col-auto d-inline-flex" dir="ltr"><div class="editor-save-path input-group input-group-sm"><label class="input-group-text" for="action_save_as_target_file_id">[TMPL]/</label> <input type="text" name="action.save_as.target_file" value="local/checkboxtest.pg" size="60" class="form-control form-control-sm" dir="ltr" id="action_save_as_target_file_id"></div></div> <input type="hidden" name="action.save_as.source_file" value="/opt/webwork/courses/orcca/templates/local/checkboxtest.pg"> <input type="hidden" name="action.save_as.file_type" value="problem"></div> <div class="form-check"><input checked="checked" class="form-check-input" id="action_save_as_saveMode_rename_id" name="action.save_as.saveMode" type="radio" value="rename"> <label class="form-check-label" for="action_save_as_saveMode_rename_id">Replace current problem: <strong><span dir="ltr">verbatim</span>/3</strong></label></div> <div class="form-check"><input class="form-check-input" id="action_save_as_saveMode_new_problem_id" name="action.save_as.saveMode" type="radio" value="add_to_set_as_new_problem"> <label class="form-check-label" for="action_save_as_saveMode_new_problem_id">Append to end of <strong dir="ltr">verbatim</strong> set</label></div> <div class="form-check"><input class="form-check-input" id="action_save_as_saveMode_independent_problem_id" name="action.save_as.saveMode" type="radio" value="new_independent_problem"> <label class="form-check-label" for="action_save_as_saveMode_independent_problem_id">Create unattached problem</label></div></div></div> <div aria-labelledby="add_problem-tab" class="tab-pane fade" id="add_problem" role="tabpanel"><div><div class="row align-items-center mb-2"><label class="col-form-label col-auto" for="action_add_problem_target_set_id">Add to what set?</label> <div class="col-auto"><select name="action.add_problem.target_set" class="form-select form-select-sm d-inline w-auto" dir="ltr" id="action_add_problem_target_set_id">
+<option selected="selected" value="verbatim">verbatim</option>
+</select></div></div> <div class="row align-items-center mb-2"><label class="col-form-label col-auto" for="action_add_problem_file_type_id">Add as what filetype?</label> <div class="col-auto"><select name="action.add_problem.file_type" class="form-select form-select-sm d-inline w-auto" id="action_add_problem_file_type_id">
+<option selected="selected" value="problem">problem</option>
+<option value="set_header">set header</option>
+<option value="hardcopy_header">hardcopy header</option>
+</select></div></div></div></div> <div aria-labelledby="revert-tab" class="tab-pane fade" id="revert" role="tabpanel">Revert to <span dir="ltr">[TMPL]/local/checkboxtest.pg</span></div></div></div><div><input type="submit" name="submit" value="Take Action!" class="btn btn-primary" id="submit_button_id"></div></form><div class="modal hide fade" id="render-modal" tabindex="-1" style="display: none;" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Problem Viewer</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><iframe id="pg_editor_frame_id" name="pg_editor_frame"></iframe></div><div class="modal-footer"><input type="button" value="Close" class="btn btn-primary" data-bs-dismiss="modal"></div></div></div></div>
+	</div>
+	<!-- inserted body as a whole -->
+	
+	</div>
+	
+
+<!-- ==============END BODY OF PROBLEM=============== -->
+	
+
+
+
+<div id="Message_bottom" class="Message">
+	<div class="alert alert-danger p-1 my-2">Changes in this file have not yet been permanently saved.</div>
+</div>
+
+
+</div><!-- #content -->
+
+<!-- Bootstrap Fluid Layout Scaffolding stop -->
+</div><!-- #body-row -->
+</div><!-- #bs-container.container-fluid -->
+
+<!-- Footer -->
+<div id="footer" role="contentinfo">
+	<div id="last-modified">Page generated at 05/19/2023 at 10:17am PDT</div><div id="copyright">WeBWorK © 1996-2022 | theme: math4 | ww_version: 2.17 | pg_version 2.17 | <a href="https://openwebwork.org/">The WeBWorK Project</a></div>
+</div>
+
+
+
+</body></html>

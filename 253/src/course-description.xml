@@ -7,39 +7,36 @@
 
   <p>
     Taken from the official PCC course description:
-  </p>
-
-  <sidebyside halign="left">
-    <tabular>
-      <col halign="right" />
-      <col/>
-      <row>
-        <cell>Course Number:</cell>
-        <cell>MTH 253</cell>
-      </row>
-      <row>
-        <cell>Course Title:</cell>
-        <cell>Calculus III</cell>
-      </row>
-      <row>
-        <cell>Credit Hours:</cell>
-        <cell>5</cell>
-      </row>
-      <row>
-        <cell>Lecture Hours:</cell>
-        <cell>50</cell>
-      </row>
-    </tabular>
-  </sidebyside>
-
-  <p>
-    Includes infinite sequences and series (including Taylor series), vectors, and geometry of space.
-    Graphing calculator required. TI-89 Titanium or Casio Classpad 330 recommended.
-    Prerequisites: MTH 252 and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
+    <dl>
+      <li>
+        <title>Number</title>
+        <p>MTH 253</p>
+      </li>
+      <li>
+        <title>Title</title>
+        <p>Calculus III</p>
+      </li>
+      <li>
+        <title>Credit Hours</title>
+        <p>5</p>
+      </li>
+      <li>
+        <title>Lecture Hours</title>
+        <p>50</p>
+      </li>
+      <!-- <li>
+        <title>Lecture/Lab Hours:</title>
+        <p>30</p>
+      </li> -->
+    </dl>
   </p>
 
   <p>
-    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+    Includes topics and applications in infinite sequences and series (including Taylor series) and an introduction to differential equations and modeling. Graphing and Computer Algebra System (CAS) technology are used, such as Desmos and/or GeoGebra which are available at no cost. The PCC math department recommends that students take math courses in consecutive terms. Prerequisites: MTH 252 and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
+  </p>
+
+  <p>
+    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/" visual="www.pcc.edu/ccog/"/>.
   </p>
 
 </section>
