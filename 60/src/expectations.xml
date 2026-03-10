@@ -1,102 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-expectations" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-expectations">
   <title>Expectations</title>
-
   <p>
-    MTH 60 can be a challenging course,
-    so the main expectation is that you commit to the course with the goal of passing with an A,
-    and play an active role in your learning. We will be using the <q>flipped</q> classroom model.
-    For each day of class:
-    <ol>
-      <li>
-        <p>
-          You will watch videos before coming to class.
-        </p>
-      </li>
-      <li>
-        <p>
-          You will take notes on the videos and turn them in at the start of class.
-        </p>
-      </li>
-      <li>
-        <p>
-          You will answer some <q>reading questions</q> from the textbook and turn them in at the start of class.
-        </p>
-      </li>
-      <li>
-        <p>
-          In class we will work together in groups <em>practicing</em> what you learned.
-        </p>
-      </li>
-      <li>
-        <p>
-          You have some online homework to complete within five or six days of the in-class practice.
-        </p>
-      </li>
-      <li>
-        <p>
-          Occasionally, there will be pencil-and-paper homework to turn in as well.
-        </p>
-      </li>
-    </ol>
-    There is evidence that the <q>flipped</q> model can raises the pass rates in math courses by a lot!
-    More <q>traditional</q> methods for running a class have lately led to a 60% pass rate in MTH 60.
-    Flipping could raise this, and those who pass are more likely to pass with an A.
+    Students in this course are expected to come to class for every scheduled meeting, with the
+    understanding that things come up that will keep you away. Stay in contact with me if you have
+    to miss a class.
   </p>
-
   <p>
-    Additionally, please:
-    <ul>
-      <li>
-        <p>
-          Try to complete all homework assignments earlier than the due date.
-          Begin working on homework assignments the same day that we discuss that material in class.
-        </p>
-      </li>
-      <li>
-        <p>
-          Make time to visit me in office hours.
-        </p>
-      </li>
-    </ul>
+    Students in this course are expected to watch the video lessons and read the textbook sections
+    <em>before</em>  coming to class. This is described in <xref ref="section-weekly-routine"/>. The
+    course calendar in <xref ref="section-calendar"/> lays out which sections are covered on which
+    days.
   </p>
-
   <p>
-    The ideas are covered in a natural sequence, and if you stay on top of the assignments, you have a high chance for success.
-    <!-- Topics will be discussed in class, with exercises that tune the technique and problems that reenforce understanding.
-    Questions are encouraged both during class and in office hours. Indeed, they are a significant part of the learning process. -->  All students are further encouraged to work together<mdash/>collaboration is an important part of any activity,
-    and it is almost always beneficial for all involved.
+    You are also expected to check your <c>pcc.edu</c> email daily. I sometimes send important
+    information in mass emails to the class. It is your responsibility to read these messages as
+    they come. Also I may be replying to a message that you initiated, and I am only permitted to
+    contact you using your pcc.edu email address.
   </p>
-
   <p>
-    Here are some other expectations:
-    <ul>
-      <li>
-        <p>
-          Maintain respect for yourself and your classmates.
-        </p>
-      </li>
-      <li>
-        <p>
-          Do not use phones, tablets, or computers during class time unless it is directly related to a class activity.
-        </p>
-      </li>
-      <li>
-        <p>
-          Check your <c>@pcc.edu</c> email at least once a day.
-        </p>
-      </li>
-      <li>
-        <p>
-          Food and drink can be distracting to other students.
-          Out of respect for others, please do not bring food and drink to class.
-          (Beverages that do not smell strongly and are in spill-proof containers are OK.)
-        </p>
-      </li>
-    </ul>
+    If you have a scehduling conflict with one of our exams, then you have the responsibility to
+    make another arrangements according to <xref ref="section-exams"/>. These arrangements need to
+    be in place typically at least one week ahead of the exam.
   </p>
-
+  <p>
+    Reach out to me or a tutor early when you are having trouble with a topic. Your responsibility
+    is to recognize when you need this help. We can make a plan to help you if we have enough time.
+    We might meet over Zoom or in person, whatever we need to do.
+  </p>
 </section>

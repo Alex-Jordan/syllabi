@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Textbook</title>
+
+  <p>
+    We are using a <em>free</em> textbook called <pubtitle>APEX Calculus</pubtitle>, written by Greg Hartman.
+  </p>
+
+  <p>
+    Access this book:
+    <ul>
+      <li>
+        <p>
+          as a free HTML book at <url href="https://opentext.uleth.ca/apex-video/apex-calculus.html" visual="opentext.uleth.ca/apex-video/apex-calculus.html">opentext.uleth.ca/apex-video/apex-calculus.html</url>.
+        </p>
+      </li>
+      <li>
+        <p>
+          in various PDF forms at <url href="http://www.apexcalculus.com/" visual="www.apexcalculus.com/"/>.
+        </p>
+      </li>
+      <li>
+        <p>
+          for purchase from the PCC book store for $16.00.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Please note that there are some differences in the content between the HTML version of the book and the PDFs or printed copies.
+    These differences are not important, but you may notice them if you use both versions to study.
+  </p>
+
+</section>
+

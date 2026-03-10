@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grades</title>
+
+  <p>
+    General PCC Grading Guidelines are found at
+    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/" visual="catalog.pcc.edu/handbook/g301-gradingguidelines"/>.
+  </p>
+
+  <paragraphs>
+    <title>Attendance/Engagement</title>
+    <p>
+      Attending class is worth 4% of your final grade. If you have a reasonable circumstance where
+      you need to miss class, including being sick, tell me about it. I will ask you to do a few
+      small things and then you can recover the attendance credit for that day.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Online Homework</title>
+    <p>
+      You have online homework for each section using <webwork/>. See
+      <xref ref="section-webwork" text="title"/> for details. The due date for each assignment is
+      posted in <webwork/>, but it will always be Sunday evening at 10:00<pm/> for full credit.
+      Usually, more than one section will be due at the same time. You should start working on these
+      exercises soon after the corresponding class session.
+    </p>
+    <p>
+      Collectively, all the online homework is worth 20% of your final grade.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Lab Exercise Write-Ups</title>
+    <p>
+      Each week you have written assignments to complete. See <xref ref="section-weekly-routine"/>
+      for more about this. Collectively, these assignments are worth 15% of your grade.
+    </p>
+    <p>
+      The <q>due dates</q> for these assignments are Tuesday mornings. (Either in class Monday, to
+      my office on Tuesday morning, or scanned and posted in D2L by Tuesday morning.)
+    </p>
+    <p>
+      Please note that these assignments will only be scored once. There is not an opportunity to
+      improve your score once an assignment is graded. But you are welcome to bring me a draft of
+      your work outside of class, where we can informally look it over together to catch any
+      significant issues before you turn it in.
+    </p>
+    <p>
+      I will be looking for a few things:
+      <ul>
+        <li>correctness of your responses</li>
+        <li>readability, including the layout of your responses and if your responses are convincing</li>
+        <li>correct use of math notation and vocabulary</li>
+      </ul>
+      Also your write-up should connect the questions to your answers. If it's simply a list of
+      answers with no context, it is not useful to you as a study tool later. So you should either
+      include each question preceding each answer, or you should have a clear system for connecting
+      the questions to the answers.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="paragraphs-exams">
+    <title>Exams</title>
+    <p>
+      There is a final exam during finals week that is worth 25% of your grade. There are also two
+      midterm exams, each worth 18% of your grade. Please see the
+      <xref ref="section-calendar" text="title"/> for dates.
+    </p>
+    <p>
+      The exams will be in-class. For each exam I will allocate an appropriate amount of time, and
+      remaining time will be used for lab assignment progress.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Grading Options</title>
+    <p>
+      Students are solely responsible for adding, dropping, or withdrawing from any class, as well
+      as for selecting their desired grading option. Please review
+      <url href="http://www.pcc.edu/enroll/registration/policies.html" visual="www.pcc.edu/enroll/registration/policies.html">PCC Registration Policy</url>
+      for more information.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Letter Grades</title>
+    <p>
+      Your letter grade will be assigned based on the weighted average of the items above.
+    </p>
+      <tabular>
+        <col/>
+        <col right="minor"/>
+        <col/>
+        <col/>
+        <row header="yes">
+          <cell colspan="2">Pass (P)</cell>
+          <cell colspan="2">No Pass (N)</cell>
+        </row>
+        <row>
+          <cell>90% and up</cell>
+          <cell>A</cell>
+          <cell>60% up to 70%</cell>
+          <cell>D</cell>
+        </row>
+        <row>
+          <cell>80% up to 90%</cell>
+          <cell>B</cell>
+          <cell>under 60%</cell>
+          <cell>F</cell>
+        </row>
+        <row>
+          <cell>70% up to 80%</cell>
+          <cell>C</cell>
+        </row>
+      </tabular>
+  </paragraphs>
+</section>

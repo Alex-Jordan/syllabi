@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- This file has the contents of the title page of Alex Jordan's syllabus -->
+
+<frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <titlepage>
+    <author>
+      <personname>Alex Jordan</personname>
+    </author>
+    <date>Spring 2022</date>
+  </titlepage>
+</frontmatter>

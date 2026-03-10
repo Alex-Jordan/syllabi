@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-worksheets">
+  <title>Worksheets</title>
+  <p>
+    There will be seven exercise worksheets through the term, mostly corresponding to one per week.
+    Additionally there are three exam preparation assignments, that are worth the same as the seven
+    worksheets in your grade calculation. There are several purposes of these assignments:
+    <ul>
+      <li>
+        <p>
+          Allow me to review your <em>process</em> for finding answers, so I can make sure that you
+          do not have a fundamental misunderstanding.
+        </p>
+      </li>
+      <li>
+        <p>
+          Develop your ability to <em>explain</em> how to reach an answer, which is something that
+          an online homework problem cannot do.
+        </p>
+      </li>
+      <li>
+        <p>
+          Ask questions that are too complex for <webwork/> to assess automatically.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <paragraphs>
+    <title>Late Submissions</title>
+    <p>
+      Worksheets have a due date in D2L. Completing them by the due date helps you stay on pace to
+      be successful. They are due at 10:00 <pm/> on Sunday evenings, just like <webwork/>
+      assignments for the week. After that, you could still turn in a worksheet on person by the
+      start of the next class meeting. After that, late submissions will not be accepted and the
+      score will be zero. (Reach out to me if you had a medical or family emergency.)
+    </p>
+  </paragraphs>
+</section>

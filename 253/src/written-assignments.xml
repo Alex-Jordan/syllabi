@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Written Assignments</title>
+    <p>
+        Please see the <xref ref="section-calendar" text="title"/> for the homework due dates.
+    </p>
+    <p>
+        As the term progresses, more written assignments will be added to the list here. These
+        should be turned in no later than their posted due dates. They can be turn in in-person, or
+        uploaded in D2L.
+    </p>
+    <p>
+        Written assignments are collectively worth 18% of your final grade. You cannot expect to do
+        well in this course unless you are turning these assignments in. These are where you will
+        get to develop your mathematical writing skills and work on your ability to give a
+        convincing logical argument.
+    </p>
+    <p>
+        The most important thing to understand about your written homework is that <alert>you are
+        not merely finding and giving answers.</alert> You are <em>explaining to someone what the
+        problem was, how you handled it, and summarizing the results.</em>  In general, your
+        write-ups should respect these <q>four C's</q>:
+        <dl>
+            <li>
+                <title>self-Containment</title>
+                <p>
+                    Your write-up should clearly and explicitly tell the reader what you are trying
+                    to accomplish. The most straightforward way to do this is to simply copy the
+                    entire exercise statement as the first thing in your write-up.
+                </p>
+            </li>
+            <li>
+                <title>Clarity</title>
+                <p>
+                    Am I able to read your work? Is your writing legible? Have you written
+                    complete sentences that make sense, where appropriate? If you have charts,
+                    graphs, and mathematical expressions, have you clearly indicated what they
+                    represent? Generally, any graphs need their axes labeled with regularly spaced
+                    tick marks, and they need some kind of overall title. If something about your
+                    write-up causes me to pause and wonder what you mean, you will lose clarity
+                    points.
+                </p>
+            </li>
+            <li>
+                <title>Convincing</title>
+                <p>
+                    Even if your writing is clear, it might not be logically convincing. For example,
+                    <q>I rode my bike to school today, so I only had $5 in my wallet.</q> is clear in
+                    the sense that the sentence structure is fine. But I don't understand why riding
+                    your bike to school implies that you only have $5 in your wallet. The logical
+                    progression of your write-up should convince your reader that you know what you
+                    are talking about, and that each statement you write is correct based on other
+                    things you have already established in your write-up.
+                </p>
+            </li>
+            <li>
+                <title>Conclusion</title>
+                <p>
+                    At the end of any write-up, it should be crystal clear what is your actual
+                    answer to the original question. In some cases, this will mean that you should
+                    write an actual conclusion sentence.
+                </p>
+            </li>
+        </dl>
+        Each exercise will be scored out of 4 points, one for each of these categories. A zero in
+        some category doesn't really mean 0%, it just means I felt there was significant room for
+        improvement and you coudl try again.
+    </p>
+
+    <paragraphs xml:id="written1">
+        <title>Written HW 1</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 3.9 #4.</alert>
+            The table shows the population of Nepal (in millions) as of June 30 of the given
+            year. Use a linear approximation to estimate the population at midyear in 1989. Use
+            another linear approximation to predict the population in 2010.
+        </p>
+        <tabular>
+            <row>
+                <cell><m>t</m></cell>
+                <cell>1985</cell>
+                <cell>1990</cell>
+                <cell>1995</cell>
+                <cell>2000</cell>
+                <cell>2005</cell>
+            </row>
+            <row>
+                <cell><m>N(t)</m></cell>
+                <cell>17.04</cell>
+                <cell>19.33</cell>
+                <cell>21.91</cell>
+                <cell>24.70</cell>
+                <cell>27.68</cell>
+            </row>
+        </tabular>
+        <p>
+            Notes. Don't miss that there are two parts to this exercise. For each part, your
+            write-up should include a formula for a linear function that approximates
+            <m>N(t)</m>, and then use that formula at an appropriate value for <m>t</m>. You
+            should properly interpret the result.
+        </p>
+        <p>
+            <alert>Section 3.9 #10.</alert>
+            Find the linear approximation of the function <m>g(x)=\sqrt[3]{1+x}</m> at
+            <m>a=0</m> and use it to approximate the numbers <m>\sqrt[3]{0.95}</m> and
+            <m>\sqrt[3]{1.1}</m>. Illustrate by graphing <m>g</m> and the tangent line.
+        </p>
+        <p>
+            Notes. For the first two parts, it is up to you to determine the appropriate value
+            for <m>x</m>. For the illustration, provide either an <em>accurate</em> hand-drawn
+            copy of computer-generated graphs, or insert an actual computer-generated image into
+            your write-up.
+        </p>
+        <p>
+            <alert>Section 4.7 #1.</alert>
+            The figure shos the graph of a function <m>f</m>. Suppose that Newton's method is
+            used to approximate the root <m>r</m> of the equation <m>f(x)=0</m> with initial
+            approximation <m>x_1=1</m>.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Draw the thangent lines that are used to find <m>x_2</m> and <m>x_3</m>,
+                        and extimate the numerical values of <m>x_2</m> and <m>x_3</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Would <m>x_1=5</m> be a better first approximation? Explain.
+                    </p>
+                </li>
+            </ol>
+            [You will have to find the figure in the textbook.]
+        </p>
+        <p>
+            Notes. You should hand-draw the figure in your write-up. If possible, trace it from
+            the book or a screen (but don't damage your screen). Then use a straight-edge as you
+            hand-draw the relevant lines. In part (b), give a convincing explanation as to why
+            or why not <m>x_1=5</m> would make a better first approxiation. This may require
+            you to make an additional graph.
+        </p>
+        <p>
+            <alert>Section 4.7 #27.</alert>
+            Explain why Newton's method fails when applied to the equation <m>\sqrt[3]{x}=0</m>
+            with any intial approximation <m>x_1\neq0</m>. Illustrate your explanation with a
+            sketch.
+        </p>
+        <p>
+            Notes. Give a convincing explanation.
+        </p>
+        <p>
+            <alert>Section 7.1 #6.</alert>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Show that every member of the family of functions <m>y=(\ln x+C)/x</m>
+                        is a solution to the differential equation <m>x^2y'+xy=1</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Illustrate part (a) by graphing several members of the family of
+                        solutions on a common screen.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find a solution of the differential equation that satisfies the initial
+                        condition <m>y(1)=2</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find a solution of the differential equation that satisfies the initial
+                        condition <m>y(2)=1</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. Part (a): this should be a clear presentation that a generic member of that
+            family would work when substituted into that differential equation. Part (b):
+            provide either an <em>accurate</em> hand-drawn copy of computer-generated graphs, or
+            insert an actual computer-generated image into your write-up. Parts (c) and (d):
+            inlcude whatever algebra steps you take to find the particular solutions these parts
+            ask for.
+        </p>
+        <p>
+            <alert>Section 7.1 #11.</alert>
+            Explain why the functions with the given graphs <em>can't</em> be solutions of the
+            differential equation
+            <me>\frac{dy}{dt}=e^t(y-1)^2</me>
+            [You will have to find the two figures in the textbook.]
+        </p>
+        <p>
+            Notes. For each graph, there are at least two reasons that are reasonable to show.
+            Consider when various quantities would be negative, zero, or positive in both the
+            context of the equation and of the graph. You could also consider concavity.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written2">
+        <title>Written HW 2</title>
+        <p>
+            This assignment has four exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 7.2 #18.</alert>
+            Make a rough sketch of a direction field for the autonomous differential equation
+            <m>y'=f(y)</m>, where the graph of <m>f</m> is as shown. How does the limiting behavior
+            of solutions depend on the value of <m>y(0)</m>?
+        </p>
+        <p>
+            [You will have to find the graph image in the textbook.]
+        </p>
+        <p>
+            Notes. The graph here is <em>not</em> a graph of <m>y(t)</m>. What you are doing here is
+            working with the differential equation <m>y'=f(y)</m>, but you are not given a formula
+            for the right side of that differential equation. Instead, you have this graph. For
+            example, the graph shows that when <m>y=0</m>, then <m>f(y)</m> is some relatively large
+            positive number. So in turn, <m>y'</m> would be a relatively large positive number. So
+            on a graph of <m>y(t)</m>, if <m>y=0</m>, then the slope of <m>y(t)</m> at that location
+            would be relatively large and positive. This has described how to draw slope field hairs
+            all along the <m>t</m>-axis, which is where <m>y=0</m>. For the last part of the
+            exercise, if you have a graph of <m>y(t)</m>, there are five regions on the
+            <m>y</m>-axis for what the value of <m>y(0)</m> could be. You are being asked to
+            describe the long-term consequences for <m>y(t)</m> as <m>t\to\infty</m>, depending on
+            which region <m>y(0)</m> is in.
+        </p>
+        <p>
+            <alert>Section 7.2 #20.</alert>
+            A direction field for a differential equation is shown. Draw, with a ruler, the graphs
+            of the Euler approximations to the solution currve that passes through the origin. Use
+            step sizes <m>h=1</m> and <m>h=0.5</m>. Will the Euler estimates be under-estimates or
+            over-estimates? Explain.
+        </p>
+        <p>
+            [You will have to find the graph image in the textbook.]
+        </p>
+        <p>
+            Notes. It is important to accurately present this graph in your response. So I recommend
+            that you take a picture of the image, print it, and then draw on top of that. Also at
+            the end, be sure you are explaining why you feel the estimates are under-estimates or
+            over-estimates.
+        </p>
+        <p>
+            <alert>Section 7.3 #43.</alert>
+            A glucose solution is administered intrevenously into the bloodstream at a constant rate
+            <m>r</m>. As the glucose is added, it is converted into other substances and removed
+            from the bloodstream at a rate that is proportional to the concentration at that time.
+            Thus a model for the concentration <m>C=C(t)</m> of the glucose solution in the
+            bloodstream is
+            <me>\frac{dC}{dt}=r-kC</me>
+            where <m>k</m> is a positive constant.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Suppose that the concentration at time <m>t=0</m> is <m>C_0</m>. Determine
+                        the concentration at any time <m>t</m> by solving the differential equation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Assuming that <m>C_0\lt r/k</m>, find <m>\lim_{t\to\infty}C(t)</m> and
+                        interpret your answer.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. Keep in mind that <m>r</m> and <m>k</m> are constants here. <m>C</m> changes over
+            time. You can solve this separable differential equation in the usual way with some
+            algebra rearrangement, then integrating, and then isolating <m>C</m>.
+        </p>
+        <p>
+            <alert>Section 7.3 #49.</alert>
+            When a raindrop falls, it increases in size and so its mass at time <m>t</m> is a
+            function of <m>t</m>, namely <m>m(t)</m>. The rate of growth of the mass is <m>km(t)</m>
+            for some positive constant <m>k</m>. When we apply Newton's Law of Motion to the
+            raindrop, we get <m>(mv)'=gm</m>, where <m>v</m> is the velocity of the raindrop
+            (directed downward) and <m>g</m> is the acceleration due to gravity. The <term>terminal
+            velocity</term> of the raindrop is <m>\lim_{t\to\infty}v(t)</m>. Find an expression for
+            the terminal velocity in terms of <m>g</m> and <m>k</m>.
+        </p>
+        <p>
+            Notes. This is actually a multipart exercise. Several things could be done in order to
+            reach the final goal of having that expression for the terminal velocity. The following
+            is <em>one</em> outline for solving this.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        <q>The rate of growth of the mass is <m>km(t)</m> for some positive constant
+                        <m>k</m></q> is already a small differential equation exercise. You can
+                        solve the differential equation here to find an explicit formula for
+                        <m>m(t)</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Physics (that you don't need to understand if you haven't heard of it
+                        before) is saying that next, <m>(mv)'=gm</m>. In that equation, <m>g</m> is
+                        a positive constant (roughly <quantity><mag>9.8</mag><unit base="meter"/>
+                        <per base="second" exp="2"/></quantity>), but both <m>m</m> and <m>v</m>
+                        change over time. Well, you already found an explicit formula for
+                        <m>m(t)</m>, so substitute that in. Then execute the <q>prime</q> from the
+                        differential equation, applyng the product rule and chain rule as needed.
+                        After simplifying, this should leave you with a pretty <q>small</q>
+                        differential equation for <m>v</m> with respect to <m>t</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You can solve this differential equation and have an explicit formula for
+                        <m>v(t)</m>. You may need to remember that in this context, <m>g</m> is a
+                        <em>positive</em> number.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Now that you have an explicit formula for <m>v(t)</m>, you can take its
+                        limit as <m>t\to\infty</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written3">
+        <title>Written HW 3</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 7.5 #1.</alert>
+            Suppose that a population develops according to the logistic equation
+            <m>\frac{dP}{dt}=0.05P-0.0005P^2</m> where <m>t</m> is measured in weeks.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        What is the carrying capacity? What is the value of <m>k</m>?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A direction field for this equation is shown. Where are the slopes close to
+                        <m>0</m>? Where are they largest? Which solutions are increasing? Which
+                        solutions are decreasing?
+                    </p>
+                    <p>
+                        [You will have to find the graph image in the textbook.]
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the direction field to sketch solutions for initial populations of
+                        <m>20</m>, <m>40</m>, <m>60</m>, <m>80</m>, <m>120</m>, and <m>140</m>.
+                        What do these solutions have in common? How do they differ? Which solutions
+                        have inflection points? At what population levels do they occur?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What are the equilibrium solutions? How are the other solutions related to
+                        these solutions?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. This differential equation is not presented in the canonical form for a logistic
+            equation. But you can use factoring to convert it into that form.
+        </p>
+        <p>
+            In part (c), the last question is asking at what population levels do the
+            <em>inflection points</em> occur.
+        </p>
+        <p>
+            <alert>Section 7.5 #11.</alert>
+            <ol marker="a">
+                <li>
+                    <p>
+                        Show that if <m>P</m> satisfies the logistic equation, then
+                        <me>\frac{d^2P}{dt^2}=k^2P\left(1-\frac{P}{M}\right)\left(1-\frac{2P}{M}\right)</me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Deduce that the population grows fastes when it reaches half its carrying
+                        capacity.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. Start with the logistic differential euqation and just see what happens when you
+            apply <m>\frac{d}{dt}</m> to each side. You will have to use the product rule and the
+            chain rule (since you will be differentiating with respect to <m>t</m>, but the right
+            side only has <m>P</m> in it). You should keep an eye out for common factors that you
+            can factor out, and not multiply things out too much.
+        </p>
+        <p>
+            For the second part, recall that a function reaches a maximal slope where the second
+            derivative is zero and the second derivative is transitioning from positive to negative.
+        </p>
+        <p>
+            <alert>Section 8.1 #19.</alert>
+            Determine whether the sequence <m>a_n=\frac{(-1)^{n-1}n}{n^2+1}</m> converges or
+            diverges. If it converges, find the limit.
+        </p>
+        <p>
+            Notes. The function <m>f(x)=\frac{(-1)^{x-1}x}{x^2+1}</m> does not make sense for most
+            real numbers <m>x</m>, because you can't raise <m>-1</m> to arbitrary powers like
+            <m>\frac12</m>. So you cannot use certain tools like l'Hospital's Rule to analyze this
+            sequence. You will have to use other tools from the section.
+        </p>
+        <p>
+            <alert>Section 8.1 #29.</alert>
+            Determine whether the sequence <m>\left\{\frac{(2n-1)!}{(2n+1)!}\right\}</m> converges
+            or diverges. If it converges, find the limit.
+        </p>
+        <p>
+            Notes. This sequence is only defined for non-negative integers <m>n</m>. So you cannot
+            use certain tools like l'Hospital's Rule to analyze this sequence. You will have to use
+            other tools from the section.
+        </p>
+        <p>
+            <alert>Section 8.1 #40.</alert>
+            Use a graph of the sequence to decide whether the sequence is convergent or divergent.
+            If the sequence is convergent, guess the value of the limit from the graph and then
+            prove your guess.
+            <me>a_n=\frac{1\cdot3\cdot5\cdot\cdots\cdot(2n-1)}{(2n)^n}</me>
+        </p>
+        <p>
+            Notes. You should include a plot. It could be hand-plotted or computer-generated. To
+            <q>prove your guess</q>, see Example 9 from the textbook. This exercise is similar.
+        </p>
+        <p>
+            <alert>Section 8.1 #44.</alert>
+            Find the first 40 terms of the sequence defined by
+            <me>a_{n+1}=\begin{cases}\frac12a_n&amp;\text{if }a_n\text{ is an even number}\\3a_n+1&amp;\text{if }a_n\text{ is an odd number}\end{cases}</me>
+            and <m>a_1=11</m>. Do the same if <m>a_1=25</m>. Make a conjecture about this type of
+            sequence.
+        </p>
+        <p>
+            Notes. Think slowly and carefully when you start working out the numbers in this
+            sequence. For getting started, <m>a_1=11</m>, which is an odd number. So to find
+            <m>a_2</m>, you use the <m>3a_n+1</m> formula, and you find <m>a_2=34</m>.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written4">
+        <title>Written HW 4</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 8.2 #5.</alert>
+            Find at least <m>10</m> partial sums of the series
+            <me>
+                \sum_{n=1}^{\infty}\frac{n}{\sqrt{n^2+4}}
+            </me>
+            Graph both the sequence of terms and the sequence of partial sums on the same plot. Does
+            it appear that the series is convergent or divergent? If it is convergent, find the sum.
+            If it is divergent, explain why.
+        </p>
+        <p>
+            Notes. You may use a computer graphing tool if you would like to, for making the plot.
+            If you make it by hand, make a precise plot. For the second part of the question, you
+            are expected to either <em>prove</em> that the series converges to some specific number
+            or <em>prove</em> that it is divergent. The plot is a helpful start, but proves nothing.
+            You will only earn the point for <q>convincing</q> if you make a convincing argument
+            here.
+        </p>
+        <p>
+            <alert>Section 8.2 #33.</alert>
+            Determine whether the series
+            <me>
+                \sum_{n=1}^{\infty}\frac{3}{n(n+3)}
+            </me>
+            is convergent or divergent by expressing <m>s_n</m> as a telescoping sum (as in Example
+            6). If it is convergent, find its sum.
+        </p>
+        <p>
+            Notes. Find the helpful way to rewrite <m>\frac{3}{n(n+3)}</m> as
+            <m>\frac{\text{something}}{n}+\frac{\text{something else}}{n+3}</m>. After that, if you
+            need help seeing what happens next, write out the first five or six partial sums. Write
+            them out <em>without</em> adding up the fractions. Look for cancellation instead.
+        </p>
+        <p>
+            <alert>Section 8.2 #44.</alert>
+            We have seen that the harmonic series is a divergent series whose terms approach
+            <m>0</m>. Show that
+            <me>
+                \sum_{n=1}^{\infty}\ln\left(1+\frac{1}{n}\right)
+            </me>
+            is another series with this property.
+        </p>
+        <p>
+            Notes. There is a logarithm rule that says <m>\ln(a)+\ln(b)=\ln(ab)</m>. Also, it may
+            help to see that <m>1+\frac{1}{n}=\frac{n+1}{n}</m>. What happens when you have the
+            <m>n</m>th partial sum of this series, and you apply these observations? Can you show
+            that the <m>n</m>th partial sum will grow without bound?
+        </p>
+        <p>
+            Don't forget to also show that the terms of this series approach <m>0</m>.
+        </p>
+        <p>
+            <alert>Section 8.2 #52 parts (a) and (b).</alert>
+            A certain ball has the property that each time it falls from a height <m>h</m> onto a
+            hard, level surface, it rebounds to a height <m>rh</m> where <m>0\lt r\lt 1</m>.
+            Suppose that the ball is dropped from an initial height of <m>H</m> meters.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Assuming that the ball continues to bounce indefinitely, find the total
+                        distance that it travels.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the total time that the ball travels. (Use the fact that the ball
+                        falls <m>\frac12gt^2</m> meters in <m>t</m> seconds. On earth, <m>g</m> is
+                        about <m>9.8\,\frac{\text{m}}{\text{s}^2}</m>.)
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        On its first drop, it falls <m>H</m> meters. After that, the ball goes up
+                        and comes down, repeatedly. So each bounce adds a certain amount of distance
+                        traveled. Write this all down as a series, and it should be a geometric
+                        series that you can work with.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You know how much distance the ball falls on the second half of its bounce.
+                        So you can solve for <m>t</m> to know how much time passes during the second
+                        half of its bounce. And you can double that for the full time of its bounce.
+                        You can write all this down to give a total amount of time the ball is
+                        bouncing, and it should be a geometric series you can work with. Of course,
+                        the initial drop is a bit different, so don't include that in your sum.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <alert>Section 8.2 #56</alert>
+            Graph the curves <m>y=x^n</m>, <m>0\leq x\leq1</m>, for <m>n=0,1,2,3,4,\ldots</m> on a
+            common set of axes. By finding the areas between successive curves, give a geometric
+            demonstration of the fact, shown in Example 6, that
+            <me>\sum_{n=1}^{\infty}\frac{1}{n(n+1)}=1</me>
+        </p>
+        <p>
+            Notes. The graphs should only be from <m>x=0</m> to <m>x=1</m>. To find the area between
+            successive curves, use your integral skills. The result for this should be an
+            expression that depends on <m>n</m>, that you can simplify to a single rational
+            expression. Make sure that you explain to the reader what the purpose of this is: that
+            you are showing a visual reason why <m>\sum_{n=1}^{\infty}\frac{1}{n(n+1)}=1</m>.
+        </p>
+        <p>
+            <alert>Section 8.2 #59</alert>
+            What is wrong with the following calculation?
+            <md>
+                <mrow>0\amp=0+0+0+\cdots</mrow>
+                <mrow>\amp=(1-1)+(1-1)+(1-1)+\cdots</mrow>
+                <mrow>\amp=1-1+1-1+1-1+\cdots</mrow>
+                <mrow>\amp=1+(-1+1)+(-1+1)+(-1+1)+\cdots</mrow>
+                <mrow>\amp=1+0+0+0+\cdots=1</mrow>
+            </md>
+        </p>
+        <p>
+            Notes. Of course the final result that would say <m>0=1</m> is wrong. What exaclty
+            happens along the way with these steps, that makes the argument wrong? You should think
+            about each line with <m>\cdots</m> as an infinite series, and from that perspective it
+            is more clear what goes wrong.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written5">
+        <title>Written HW 5</title>
+        <p>
+            This assignment has four exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 8.3 #1.</alert>
+            Draw a picture to show that
+            <me>\sum_{n=2}^{\infty}\frac{1}{n^{1.3}}\lt\int_1^{\infty}\frac{1}{x^{1.3}}\,dx</me>
+            What can you conclude about the series?
+        </p>
+        <p>
+            Notes. You should make a good effort to make the picture accurate, within the
+            limitations of human drawing skills. Since you will want the <m>x</m>-axis to go 
+            pretty far (like to at least <m>x=5</m> if not further) but the <m>y</m>-axis only needs
+            to go up to a little past <m>1</m>, it will help if you use different scales on your
+            axes. 
+        </p>
+        <p>
+            <alert>Section 8.3 #14.</alert>
+            Determine whether the series is convergent or divergent.
+            <me>1+\frac{1}{2\sqrt{2}}+\frac{1}{3\sqrt{3}}+\frac{1}{4\sqrt{4}}+\frac{1}{5\sqrt{5}}+\cdots</me>
+        </p>
+        <p>
+            Notes. Ideally you are supposed to figure out the following for yourself, but this is a
+            series where you can pply the Integral Test...
+        </p>
+        <p>
+            <alert>Section 8.3 #39.</alert>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Use a graph of <m>y=1/x</m> to show that if <m>s_n</m> is the <m>n</m>th
+                        partial sum of the harmonic series, then <me>s_n\leq1+\ln(n)</me>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The harmonic series diverges, but very slowly. Use part (a) to show that the
+                        sum of the first million terms is less than <m>15</m> and the sum of the
+                        first billion terms is less than <m>22</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. The purpose of this exercise is to look into how slowly the harmonic series
+            diverges. Ask yourself at the end of this if you appreciate how even after adding a
+            billion terms from this series together, how that partial sum being less than <m>22</m>
+            reveals how slowly the partial sums approach infinity.
+        </p>
+        <p>
+            <alert>Section 8.3 #44.</alert>
+            Find all positive values of <m>b</m> for which the series
+            <m>\sum_{n=1}^{\infty}b^{\ln n}</m> converges.
+        </p>
+        <p>
+            Notes. This series is <m>b^{\ln(1)}+b^{\ln(2)}+b^{\ln(3)}+\cdots</m>. First of all, you
+            can use the Test for Divergence to rule out some values of <m>b</m>. Once you have done
+            that, you should be able to use the Integral Test. There is a way that you can rewrite
+            <m>b^{\ln(n)}</m> that will help you do the integral.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written6">
+        <title>Written HW 6</title>
+        <p>
+            This assignment has seven exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 8.3 #10.</alert>
+            Use the Comparison Test to determine whether the series is convergent or divergent.
+            <me>\sum_{n=2}^{\infty}\frac{n^3}{n^4-1}</me>
+        </p>
+        <p>
+            Notes. Your write-up should convince your reader that you are correctly appling the
+            Comparison Test. You should acknowledge that the conditions have been met to even try
+            to use the Comparison Test. When you comparre this series with another series, you
+            should make sure your reader understands why that other series converges or diverges.
+            It could be as simple as citing some small facto about it, or it could be a more
+            involved explanation.
+        </p>
+        <p>
+            <alert>Section 8.3 #29.</alert>
+            Determine whether the series is convergent or divergent.
+            <me>\sum_{n=1}^{\infty}\sin\left(\frac{1}{n}\right)</me>
+        </p>
+        <p>
+            Notes. Ideally you are supposed to explore this series and determine which tools are
+            appropriate and helpful. But this series can be successfully studied with either the
+            Limit Comparison Test (my recommendation) or with the Comparison Test.
+        </p>
+        <p>
+            <alert>Section 8.3 #33.</alert>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Use the sum of the first <m>10</m> terms to estimate the sum of the series
+                        <m>\sum_{n=1}^{\infty}1/n^2</m>. How good is this estimate?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Improve the estimate using (4) with <m>n=10</m>.
+
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find a value of <m>n</m> that will ensure that the error in the
+                        approximation <m>s\approx s_n</m> is less than <m>0.001</m>m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. Part (a) is asking you to use the boxed inequality labeled <q>3</q> in the
+            section to understand how far off <m>s_{10}</m> is from the full sum <m>s</m>. Part (b)
+            is asking you to use the boxed inequality labeled <q>4</q> in the section, so that you
+            are bounding the full sum in between an under-estimate and an over-estimate.
+        </p>
+        <p>
+            For part (c), note that you want <m>R_n\lt0.001</m>. You know that
+            <m>R_n\lt\int_n^{\infty}f(x)\,dx</m>, so if you can make it so that
+            <m>\int_n^{\infty}f(x)\,dx\ln0.001</m>, mission acomplished.
+        </p>
+        <p>
+            <alert>Section 8.4 #6.</alert>
+            Test the series for convergence or divergence.
+            <m>\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{\ln(n+4)}</m>
+        </p>
+        <p>
+            Notes. Ideally you are supposed to explore this series and determine which tools are
+            appropriate and helpful. But this series can be successfully studied with the
+            Alternating Series Test. You <em>must</em> persuade your reader that the series meets
+            the conditions to use the Alternating Series Test in the first place.
+        </p>
+        <p>
+            <alert>Section 8.4 #12.</alert>
+            Calculate the first <m>10</m> partial sums of the series
+            <m>\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^3}</m>
+            and graph both the sequence of terms and the sequence of partial sums on the same
+            screen. Estimate the error in using the <m>10</m>th partial sum to approximate the total
+            sum.
+        </p>
+        <p>
+            Notes. The last part of this exercise is asking you to use the <q>Alternating Series
+            Estimation Theorem</q> from the section.
+        </p>
+        <p>
+            <alert>Section 8.4 #30.</alert>
+            Determine whether the series is absolutely convergent.
+            <m>\sum_{n=1}^{\infty}\frac{\sin(4n)}{4^n}</m>
+        </p>
+        <p>
+            Notes. You could try to use the Ratio Test, but the limit from that attempt does not
+            exist. Instead, you should directly explore
+            <m>\sum_{n=1}^{\infty}\left\lvert a_n\right\rvert</m> and see what you find. You may
+            need to use an earlier tool to establish whether or not
+            <m>\sum_{n=1}^{\infty}\left\lvert a_n\right\rvert</m> converges.
+        </p>
+        <p>
+            <alert>Section 8.4 #32.</alert>
+            Determine whether the series is absolutely convergent.
+            <m>\sum_{n=1}^{\infty}\frac{(-2)^nn!}{(2n)!}</m>
+        </p>
+        <p>
+            Notes. This is an excellent series to use the Ratio Test with. You will have to
+            carefully simplify some expressions that have factorials in them. If simplified
+            correctly, there will be no more factorials
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written7">
+        <title>Written HW 7</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 8.5 #28.</alert>
+            Graph the first several partial sums <m>s_n(x)</m> of the series
+            <m>\sum_{n=0}^{\infty}x^n</m>, together with the sum function <m>f(x)=1/(1-x)</m>, on a
+            common screen. On what interval do these partial sums appear to be converging to
+            <m>f(x)</m>?
+        </p>
+        <p>
+            Notes. Your response needs to include computer-generated graphs. You could copy-paste
+            them into a digital document, or print them out separately.
+        </p>
+        <p>
+            <alert>Section 8.5 #33.</alert>
+            Suppose the series <m>\sum c_nx^n</m> has radius of convergence <m>2</m> and the series
+            <m>\sum d_nx^n</m> has radius of convergence <m>3</m>. What is the radius of convergence
+            of the series <m>\sum(c_n+d_n)x^n</m>?
+        </p>
+        <p>
+            Notes. Do all the series here have the same center? First imagine some <m>x</m>-value
+            that is within <m>2</m> of that center. Would <m>\sum(c_n+d_n)x^n</m> converge?
+            What about if <m>x</m> is more than <m>3</m> away from that center? What if it is
+            in between <m>2</m> and <m>3</m> units away?
+        </p>
+        <p>
+            <alert>Section 8.5 #35.</alert>
+            Is it possible to find a power series whose interval of convergence is
+            <m>[0,\infty)</m>? Explain.
+        </p>
+        <p>
+            Notes. You must either provide an example of a power series where you can convince your
+            reader that its interval of convergence is <m>[0,\infty)</m>, or you must write a
+            convincing argument to your reader that this is impossible.
+        </p>
+        <p>
+            <alert>Section 8.6 #2.</alert>
+            Suppose you know that the series <m>\sum_{n=0}^{\infty}b_nx^n</m> converges for
+            <m>|x|\lt2</m>. What can you say about the following series? Why?
+            <me>\sum_{n=0}^{\infty}\frac{b_n}{n+1}x^{n+1}</me>
+        </p>
+        <p>
+            Notes. Think about how the first series can be used to obtain the second.
+        </p>
+        <p>
+            <alert>Section 8.6 #20.</alert>
+            Find a power series representation for <m>f(x)=\ln\left(x^2+4\right)</m>, and graph
+            <m>f</m> and several partial sums <m>s_n(x)</m> on the same screen. What happens as
+            <m>n</m> increases?
+        </p>
+        <p>
+            Notes. Your response needs to include computer-generated graphs. You could copy-paste
+            them into a digital document, or print them out separately.
+        </p>
+        <p>
+            <alert>Section 8.6 #35.</alert>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Show that the function <me>f(x)=\sum_{n=0}^{\infty}\frac{x^n}{n!}</me> is a
+                        solution of the differential equation <me>f'(x)=f(x)</me>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Show that <m>f(x)=e^x</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. This is an exercise from section 8.6, before we know about Maclaurin/Taylor
+            series. You are not permitted to simply cite the Maclaurin series for <m>e^x</m> to
+            answer this. Instead, use the series, take its derivative, and make it clear to the
+            reader that the derivative and the original series are the same thing. For part (b),
+            remember from Chapter 7 how to solve the differetial equation <m>y'=y</m>. It is a
+            separable equation. Also you know the initial value of the given series is <m>1</m>,
+            because
+            <m>f(0)=\left.\sum_{n=0}^{\infty}\frac{x^n}{n!}\right|_{x=0}=\left.1+x+\cdots\right|_{x=0}=1</m>. 
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written8">
+        <title>Written HW 8</title>
+        <p>
+            This assignment has four exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 8.7 #2.</alert>
+            The graph of <m>f</m> is shown. [You will have to find the figure in the textbook.]
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Explain why the series
+                        <me>
+                            1.6-0.8(x-1)+0.4(x-1)^2-0.1(x-1)^3+\cdots
+                        </me>
+                        is <em>not</em> the Taylor series of <m>f</m> centered at <m>1</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Explain why the series
+                        <me>
+                            2.8+0.5(x-2)+1.5(x-2)^2-0.1(x-2)^3+\cdots
+                        </me>
+                        is <em>not</em> the Taylor series of <m>f</m> centered at <m>2</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. To have a write-up that makes sense to a reader, you must include the given
+            graph.
+        </p>
+        <p>
+            <alert>Section 8.7 #40.</alert>
+            Use the Maclaurin series for <m>sin(x)</m> to complute <m>\sin 3^\circ</m> correct to
+            five decimal places.
+        </p>
+        <p>
+            Notes. In radians, <m>3^\circ</m> is <m>3\cdot\frac{\pi}{180}=\frac{\pi}{60}</m>.
+        </p>
+        <p>
+            <alert>Section 8.8 #6.</alert>
+            Find the Taylor polynomial <m>T_3(x)</m> for the function <m>f(x)=\frac{\ln x}{x}</m>
+            at the number <m>a=1</m>. Graph <m>f</m> and <m>T_3</m> on the same screen.
+        </p>
+        <p>
+            Notes. Of course your write-up should include the computer-generated graph. The
+            exercise does not ask for this, but it would be nice for you to comment about for which
+            <m>x</m> would <m>f(x)\approx T_3(x)</m> be a good approximation.
+        </p>
+        <p>
+            <alert>Section 8.8 #24.</alert>
+            Use the Alternating Series Estimation Theorem or Taylor's Inequality to estimate the
+            range of values of <m>x</m> for which <m>\cos(x)\approx1-\frac{x^2}{2}+\frac{x^4}{24}</m>
+            is accurate to within <m>0.005</m>.
+        </p>
+        <p>
+            Notes. While the polynomial here may look like <m>T_4</m>, it is better if you think of
+            it as <m>T_5</m>, with a <m>0x^5</m> tacked on to the end. Then if you use Taylor's
+            Inequality, you will get the same error bound as if you used the Alternating Series
+            Estimation Theorem.
+        </p>
+    </paragraphs>
+</section>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Calendar</title>
+
+  <p>
+    The official timeline for this course will be managed with D2L.
+    What matters most is whatever dates are in the modules inside D2L.
+    Details may change as the term progresses, and this will be reflected in the D2L modules.
+    So the information below is subject to change.
+    It is only included here for a quick reference at the start of the term.
+  </p>
+
+  <tabular bottom="minor" valign="top">
+    <row header="yes" bottom="major">
+      <cell>Week of</cell>
+      <cell>Content</cell>
+    </row>
+    <row>
+      <cell>4/4</cell>
+      <cell>
+        <line>8.1 Graphical and Numerical Solutions to Differential Equations</line>
+        <line>8.2 Separable Differential Equations</line>
+      </cell>
+    </row>
+    <row>
+      <cell>4/11</cell>
+      <cell>
+        <line>8.4 Modeling with Differential Equations</line>
+        <line>9.1 Sequences</line>
+      </cell>
+    </row>
+    <row>
+      <cell>4/18</cell>
+      <cell>
+        <line>9.2 Infinite Series</line>
+        <line>9.2 Infinite Series</line>
+      </cell>
+    </row>
+    <row>
+      <cell>4/25</cell>
+      <cell>
+        <line><alert>Midterm Exam 1</alert></line>
+        <line>9.3 Integral Test</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/2</cell>
+      <cell>
+        <line>9.3 Comparison Tests</line>
+        <line>9.4 Ratio Test</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/9</cell>
+      <cell>
+        <line>9.5 Alternating Series</line>
+        <line>9.5 Absolute Convergence</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/16</cell>
+      <cell>
+        <line><alert>Midterm Exam 2</alert></line>
+        <line>9.6 Power Series</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/23</cell>
+      <cell>
+        <line>9.6 Power Series</line>
+        <line>9.7 Taylor Polynomials</line>
+      </cell>
+    </row>
+    <row>
+      <cell>5/30</cell>
+      <cell>
+        <line>Memorial Day</line>
+        <line>9.8 Taylor Series</line>
+      </cell>
+    </row>
+    <row>
+      <cell>6/6</cell>
+      <cell>
+        <line>9.8 Taylor Series</line>
+        <line>Review/Catch-up</line>
+      </cell>
+    </row>
+    <row>
+      <cell>6/13</cell>
+      <cell><alert>Final Exam</alert></cell>
+    </row>
+  </tabular>
+
+</section>

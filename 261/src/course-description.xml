@@ -4,9 +4,9 @@
 
 <section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Course Description</title>
-
-    <p>Taken from the official PCC course description:</p>
-
+    <p>
+        Taken from the official PCC course description:
+    </p>
     <sidebyside>
         <tabular halign="left">
             <row>
@@ -28,8 +28,17 @@
         </tabular>
     </sidebyside>
 
-    <p>Covers elementary linear algebra with a focus on <m>n</m>-space and applications. Includes linear systems, vectors in <m>n</m>-space, vector space properties of <m>n</m>-space, and matrix algebra, including eigenspaces. Required: Matrix-capable calculator. Recommended: TI-89 Titanium or Casio Classpad 330. Prerequisite: MTH 252. Audit available.</p>
+    <p>
+        Covers elementary linear algebra with a focus on <m>n</m>-space and applications. Includes
+        linear systems, vectors in <m>n</m>-space, vector space properties of <m>n</m>-space, and
+        matrix algebra, including eigenspaces. Graphing and Computer Algebra System (CAS) technology
+        are used, such as Desmos and/or GeoGebra which are available at no cost. Prerequisites: MTH
+        252 and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
+    </p>
 
-    <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+    <p>
+        The complete Course Content and Outcome Guide can be found at
+        <url href="https://www.pcc.edu/ccog/mth">www.pcc.edu/ccog/mth</url>.
+    </p>
 
 </section>

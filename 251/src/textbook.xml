@@ -6,34 +6,60 @@
   <title>Textbook</title>
 
   <p>
-    We are using a <em>free</em> textbook called <pubtitle>APEX Calculus</pubtitle>, written by Greg Hartman.
-  </p>
-
-  <p>
-    Access this book:
+    We are using a <em>free</em> textbook called <pubtitle>APEX Calculus</pubtitle>, written by Greg
+    Hartman. Access this book:
     <ul>
       <li>
         <p>
-          as a free HTML book at <url href="https://opentext.uleth.ca/apex-video/apex-calculus.html">opentext.uleth.ca/apex-video/apex-calculus.html</url>.
+          as a free HTML book at
+          <url href="https://opentext.uleth.ca/apex-video/apex-calculus.html" visual="opentext.uleth.ca/apex-video/apex-calculus.html"/>
         </p>
       </li>
       <li>
         <p>
-          in various PDF forms at <url href="http://www.apexcalculus.com/">www.apexcalculus.com/</url>.
+          in various PDF forms at <url href="http://www.apexcalculus.com" visual="www.apexcalculus.com"/>
         </p>
       </li>
       <li>
         <p>
-          for purchase from the PCC book store for $16.00.
+          for purchase from the PCC book store for $16.00
         </p>
       </li>
     </ul>
   </p>
 
   <p>
-    Please note that there are some differences in the content between the HTML version of the book and the PDFs or printed copies.
-    These differences are not important, but you may notice them if you use both versions to study.
+    Please note that there are some differences in the content between the HTML version of the book
+    and the PDFs or printed copies. These differences are not important, but you may notice them if
+    you use both versions to study.
   </p>
 
-</section>
+  <paragraphs>
+    <title>Lab Manual</title>
+    <p>
+      We also use the <pubtitle>PCC Calculus Lab Manual</pubtitle>:
+      <ul>
+        <li>
+          <p>
+            as HTML at <url href="https://spot.pcc.edu/math/clm" visual="spot.pcc.edu/math/clm"/>
+          </p>
+        </li>
+        <li>
+          <p>
+            in various PDF forms at
+            <url href="https://spot.pcc.edu/math/clm/clm-print.pdf" visual="spot.pcc.edu/math/clm/clm-print.pdf"/>,
+            <url href="https://spot.pcc.edu/math/clm/clm-print-color.pdf" visual="spot.pcc.edu/math/clm/clm-print-color.pdf"/>,
+            and <url href="https://spot.pcc.edu/math/clm/clm-print-screen.pdf" visual="spot.pcc.edu/math/clm/clm-print-screen.pdf"/>
+          </p>
+        </li>
+        <li>
+          <p>
+            for purchase from the PCC book store for $27.50. (It costs more than the textbook
+            because we print it in-house instead of using a high-volume commercial publisher.)
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
 
+</section>

@@ -3,37 +3,41 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-textbook" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Textbook</title>
-
-  <p>
-    We are using a <em>free</em> textbook called <pubtitle>APEX Calculus</pubtitle>, written by Greg Hartman.
-  </p>
-
-  <p>
-    Access this book:
-    <ul>
-      <li>
-        <p>
-          as a free HTML book at <url href="https://opentext.uleth.ca/apex-video/apex-calculus.html" visual="opentext.uleth.ca/apex-video/apex-calculus.html">opentext.uleth.ca/apex-video/apex-calculus.html</url>.
-        </p>
-      </li>
-      <li>
-        <p>
-          in various PDF forms at <url href="http://www.apexcalculus.com/" visual="www.apexcalculus.com/"/>.
-        </p>
-      </li>
-      <li>
-        <p>
-          for purchase from the PCC book store for $16.00.
-        </p>
-      </li>
-    </ul>
-  </p>
-
-  <p>
-    Please note that there are some differences in the content between the HTML version of the book and the PDFs or printed copies.
-    These differences are not important, but you may notice them if you use both versions to study.
-  </p>
-
+    <title>Textbook</title>
+    <p>
+        <pubtitle>Calculus: Concepts and Contexts</pubtitle>, 4th edition, James Stewart.
+    </p>
+    <p>
+        Our official textbook is out of print, becasue the publisher neglected to inform PCC about
+        that before it was too late. You may be able to find used copies at the bookstore or online.
+        Also the bookstore can sell you electronic access to the textbook. Somehow, some way, you
+        <aler>must have access to a version of the textbook</aler>. If it is a different edition
+        than the 4th edition, that might be fine. Bring something to me if you'd like to see whether
+        it will work.
+    </p>
+    <p>
+        Please note that there are many different <q>calculus</q> textbooks written by James Stewart,
+        and many of them will not meet our needs.
+    </p>
+    <p>
+        We specifically only need the following chapters and sections from
+        <pubtitle>Calculus: Concepts and Contexts</pubtitle>, 4th edition:
+        <ul>
+            <li>
+                Section 3.9: Linear Approxmations and Differentials
+            </li>
+            <li>
+                Section 4.7: Newton's Method
+            </li>
+            <li>
+                Chapter 7: Differential Equations
+            </li>
+            <li>
+                Chapter 8: Infinite Sequences and Series
+            </li>
+        </ul>
+        So check if your version has all of the above. If the version is not exactly the same as
+        <pubtitle>Calculus: Concepts and Contexts</pubtitle>, 4th edition, then it might have the
+        same content but with different chapter and section numbers.
+    </p>
 </section>
-

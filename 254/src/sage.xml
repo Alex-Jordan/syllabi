@@ -5,14 +5,17 @@
 <section xml:id="section-sage" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Sage Examples</title>
 
-    <p>Here are some Sage cells where you can do certain things that you cannot do so easily with a graphing calculator. Throughout the term I will add Sage examples from class here. These examples cover the first week.</p>
+    <p>
+        Here are some Sage cells where you can do certain things that you cannot do so easily with a
+        graphing calculator.
+    </p>
 
     <paragraphs>
         <title>Parametric Plot of a Plane Curve</title>
         <sage>
             <input>
         	   var('t')
-        	   parametric_plot([t^3 - 2*t, t^3 - t - 1],(t,-2,2))
+        	   parametric_plot((t^3 - 2*t, t^3 - t - 1),(t,-2,2))
             </input>
         </sage>
     </paragraphs>
@@ -21,7 +24,7 @@
         <sage>
             <input>
                 var('t')
-                parametric_plot([sin(t)^3 - 2*sin(t), sin(t)^3 - sin(t) - 1],(t,-2,2))
+                parametric_plot((sin(t)^3 - 2*sin(t), sin(t)^3 - sin(t) - 1),(t,-2,2))
             </input>
         </sage>
     </paragraphs>
@@ -30,7 +33,7 @@
         <sage>
             <input>
                 var('t')
-                show(parametric_plot([2*cos(t)+4, sin(t)+2],(t,0,2*pi)),xmin=-1,xmax=7,ymin=-1,ymax=4)
+                show(parametric_plot((2*cos(t)+4, sin(t)+2),(t,0,2*pi)),xmin=-1,xmax=7,ymin=-1,ymax=4)
             </input>
         </sage>
     </paragraphs>
@@ -39,7 +42,7 @@
         <sage>
             <input>
                 var('t')
-                parametric_plot([cos(t)^3, sin(t)^3],(t,0,2*pi))
+                parametric_plot((cos(t)^3, sin(t)^3),(t,0,2*pi))
             </input>
         </sage>
     </paragraphs>

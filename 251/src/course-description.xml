@@ -5,38 +5,46 @@
 <section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Course Description</title>
 
-  <p>
-    Taken from the official PCC course description:
-    <dl>
-      <li>
-        <title>Course Number</title>
-        <p>MTH 251</p>
-      </li>
-      <li>
-        <title>Course Title:</title>
-        <p>Calculus I</p>
-      </li>
-      <li>
-        <title>Credit Hours:</title>
-        <p>4</p>
-      </li>
-      <li>
-        <title>Lecture Hours:</title>
-        <p>30</p>
-      </li>
-      <li>
-        <title>Lecture/Lab Hours:</title>
-        <p>30</p>
-      </li>
-    </dl>
-  </p>
+  <sidebyside widths="47% 50%">
+    <p>
+      <dl>
+        <li>
+          <title>Course Num:</title>
+          <p>MTH 251Z</p>
+        </li>
+        <li>
+          <title>Course Title:</title>
+          <p>Differential Calculus (Calculus I)</p>
+        </li>
+        <li>
+          <title>Credit Hours:</title>
+          <p>4</p>
+        </li>
+        <li>
+          <title>Lecture Hours:</title>
+          <p>30</p>
+        </li>
+        <li>
+          <title>Lec/Lab Hours:</title>
+          <p>30</p>
+        </li>
+      </dl>
+    </p>
 
+    <p>
+      This course explores limits, continuity, derivatives, and their applications for real-valued
+      functions of a single variable. These topics will be explored graphically, numerically, and
+      symbolically in real-life applications. This course emphasizes abstraction, problem-solving,
+      modeling, reasoning, communication, connections with other disciplines, and the appropriate
+      use of technology.
+    </p>
+  </sidebyside>
   <p>
-    Includes limits, continuity, derivatives, and applications of differentiation. Graphing and Computer Algebra System (CAS) technology are used, such as Desmos and/or GeoGebra which are available at no cost. The PCC math department recommends that students take math courses in consecutive terms. Prerequisites: (MTH 112 or CMET 131) and (WR 115 and RD 115) or IRW 115 or equivalent placement. Audit available.
-  </p>
-
-  <p>
-    The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.
+    This course is part of Oregon Common Course Numbering. MTH 251 and MTH 251Z are
+    equivalent. The PCC Mathematics Program recommends that students take MTH courses in
+    consecutive terms. Prerequisites: (MTH 112 or CMET 131) and (WR 115 and RD 115) or IRW 115
+    or equivalent placement. Audit available. The complete Course Content and Outcome Guide can be
+    found at <url href="https://www.pcc.edu/ccog/" visual="www.pcc.edu/ccog"/>.
   </p>
 
 </section>

@@ -4,18 +4,41 @@
   <title>Technology Requirements</title>
   <p>
     This is an online class, so it is essential that you have access to a computer, laptop, tablet,
-    or at the very least a smart phone. And you need internet access. You should use Firefox,
-    Chrome, or Safari as your web browser.
+    or at least a smart phone. And you need internet access. You should use Firefox, Chrome, or
+    Safari as your web browser.
   </p>
   <p>
-    Ideally, your device and internet connection will work with Zoom in case we try to have a
-    meeting. And you absolutely need a strong internet connection with Zoom for the proctored exams.
-    If that is an obstacle, see <xref ref="section-exams"/> for alternatives.
+    A computer/laptop that you use for this course <alert>must have the Zoom desktop client
+    installed</alert> in order to take the remote proctored exams. A phone/tablet that you use for
+    this course must have the Zoom mobile app installed for the same reason. <alert>It is not enough
+    to use Zoom through a web browser.</alert> Check if you have Zoom installed on your device(s)
+    and if you do not, see
+    <url
+      href="https://support.zoom.com/hc/en/article?id=zm_kb&amp;sysparm_article=KB0060928"
+      visual="support.zoom.com/hc/en/article?id=zm_kb&amp;sysparm_article=KB0060928"
+      >Zoom's website</url>
+    for instructions on how to install it. If this is an obstacle, please reach out to me to get
+    help overcoming it.
   </p>
   <p>
-    Also for the proctored exams, you must either use a computer with a detachable webcam, or be
-    able to connect to the exam Zoom session twice, once with your computer and once with a device
-    that has a camera (typically a phone or tablet).
+    For the remote proctored exams, you <alert>must</alert> either:
+    <ul>
+      <li>
+        <p>
+          use a computer with a detachable webcam; or
+        </p>
+      </li>
+      <li>
+        <p>
+          be able to connect to the exam Zoom session twice: once with your computer and once with a
+          phone or tablet that has a camera.
+        </p>
+      </li>
+    </ul>
+    Please understand that with <em>one</em> screen you will be viewing the exam while connected to
+    Zoom and sharing your screen. Then some sort of camera needs to <em>separately</em> be streaming
+    your workspace area. It is impossible to use a camera that is embedded in that first screen for
+    this purpose.
   </p>
   <p>
     We will use free graphing calculator apps called
@@ -24,17 +47,28 @@
     (You may choose which one you prefer).
   </p>
   <p>
-    You should have access to a printer to print the video lecture notes and worksheets. Or you
-    should be comfortable with digitally annotating a PDF using a tablet or something similar.
+    You should have access to a printer to print the video lecture notes and worksheets. Or if not,
+    you should be comfortable with digitally annotating a PDF using a tablet or something similar.
+    In the end, you have to post your written assignments in D2L: either scanned from paper or
+    written digitally in the first place.
   </p>
   <p>
-    You should have access to a scanner or scanning app to upload completed worksheets.
-    <url href="https://www.adobe.com/acrobat/mobile/scanner-app.html" visual="www.adobe.com/acrobat/mobile/scanner-app.html">Adobe Scan</url>
+    You should have access to a scanner or scanning app to upload completed video lecture notes,
+    weekly worksheet assignments, and your exam work. Even if you do the video lecture notes and
+    weekly worksheets digitally, you will <alert>still have to scan</alert> your paper work during
+    exams.
+    <url
+      href="https://www.adobe.com/acrobat/mobile/scanner-app.html"
+      visual="www.adobe.com/acrobat/mobile/scanner-app.html"
+      >Adobe Scan</url>
     (with
-    <url href="https://www.adobe.com/accessibility/products/reader.html" visual="www.adobe.com/accessibility/products/reader.html">accessibility resources</url>)
+    <url
+      href="https://www.adobe.com/accessibility/products/reader.html"
+      visual="www.adobe.com/accessibility/products/reader.html"
+      >accessibility resources</url>)
     is a free smartphone app for scanning documents that you could use. There are many other similar
     apps you could explore. With a scanning app, you take multiple photos with your phone, then
     click something when you are done. And the app produces a single PDF file with each picture on
-    its own page. 
+    its own page.
   </p>
 </section>

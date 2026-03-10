@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Course Description</title>
-
-    <p>Taken from the official PCC course description:</p>
-
-    <table halign="left"> 
-        <tabular>
+    <p>
+        Taken from the official PCC course description:
+    </p>
+    <sidebyside>
+        <tabular halign="left">
             <row>
                 <cell>Course Number:</cell>
                 <cell>MTH 254</cell>
@@ -26,10 +26,21 @@
                 <cell>50</cell>
             </row>
         </tabular>
-    </table>
+    </sidebyside>
 
-    <p>Includes multivariate and vector-valued functions from a graphical, numerical, and symbolic perspective. Applies integration and differentiation of both types of functions to solve real world problems. Graphing calculator required. TI-89 Titanium or Casio Classpad 330 recommended. Prerequisites: MTH 253 and its prerequisite requirements. Audit available.</p>
+    <p>
+        Includes geometry of space, multivariate and vector-valued functions from a graphical,
+        numerical, and symbolic perspective, differentiation and integration of vector-valued
+        functions, partial differentiation, and multiple integration of multivariate functions.
+        Graphing and Computer Algebra System (CAS) technology are used, such as GeoGebra which is
+        available at no cost. The PCC math department recommends that students take math courses in
+        consecutive terms. Prerequisites: MTH 252 and (WR 115 and RD 115) or IRW 115 or equivalent
+        placement. Audit available.
+    </p>
 
-    <p>The complete Course Content and Outcome Guide can be found at <url href="https://www.pcc.edu/ccog/">www.pcc.edu/ccog/</url>.</p>
+    <p>
+        The complete Course Content and Outcome Guide can be found at
+        <url href="https://www.pcc.edu/ccog/mth">www.pcc.edu/ccog/mth</url>.
+    </p>
 
 </section>

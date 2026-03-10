@@ -1,103 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="grades">
   <title>Grades</title>
-
-  <introduction>
-    <p>
-      General PCC Grading Guidelines are found at
-      <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
-    </p>
-  </introduction>
-
+  <p>
+    General PCC Grading Guidelines are found at
+    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/" visual="catalog.pcc.edu/handbook/g301-gradingguidelines"/>.
+  </p>
   <paragraphs>
-    <title>Class Prep Assignments</title>
+    <title>Video Lecture Notes (4%)</title>
     <p>
-      Most class days you are supposed to come to class with a class prep assignment completed.
-      <ol>
-        <li>
-          <p>
-            You watched the videos and took notes.
-          </p>
-        </li>
-        <li>
-          <p>
-            You answered the reading questions.
-          </p>
-        </li>
-      </ol>
-      You'll turn these in when you come into class.
-      Later while you work on some practice exercises, I will look over your prep assignments and give you credit for them.
-      I'll return them to you and ask you if you have questions about the topics.
-    </p>
-    <p>
-      If you arrive to class and you haven't done the prep assignment,
-      I will ask you to leave and complete it before coming back to class.
-    </p>
-    <p>
-      Each prep assignment is worth 0.5% of your grade.
-      There are 19 of these total, so all together they are worth 9.5% of your grade.
-    </p>
-    <p>
-      If you miss class, you may scan/photo your work and send it to me electronically before the end of the day it is due.
+      Taking notes during the lectures helps students understand and retain information. Each
+      section has lecture notes that accompany YouTube videos. Print these lecture note outlines and
+      fill them in as you watch the videos. (Or annotate a PDF digitally.) Post them to the
+      appropriate place in D2L each week. The video lecture note files are available in D2L, from
+      the <q>Quick Reference</q> navbar item, in <q>Downloads</q>.
     </p>
   </paragraphs>
-
   <paragraphs>
-    <title>In-class Group Work</title>
+    <title>Runestone Homework (24%)</title>
     <p>
-      Most class days, you will work in small groups on a collection of exercises that go along with the lesson you prepared for.
-      If you work on these diligently during class time with your partners,
-      you will get credit for 0.5% of your final grade for each one (even if your group is not able to finish these in time).
-      There are 19 of these, so in total these are worth 9.5% of your grade.
-    </p>
-
-    <p>
-      If you miss class, you may bring a <em>fully completed</em> activity to me within one week and still get the 0.5% credit.
-      The online syllabus will have the exercise packets from each day for you to download
-      using the <xref ref="section-calendar" text="title"/>.
-      Turning these in late, they must be fully completed, not partially completed. The work must be shown, not just the answers.
+      You have online homework for each section using Runestone Academy. See
+      <xref ref="section-runestone"/> for details. The due date for each assignment is
+      Sunday after we covered it in class. Usually, more than one section will be due at the same
+      time. You should start working on a homework assignment soon after the class that is
+      associated with that section of the book. Always read the textbook section, watch the
+      video lectures, and complete the video lecture notes before beginning the Runestone exercises.
     </p>
   </paragraphs>
-
   <paragraphs>
-    <title>Online Homework</title>
+    <title>Worksheets/Activities (24%)</title>
     <p>
-      You have online homework for each section using <webwork/>. See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>. Generally when a topic is on our course calendar,
-      the online homework is due five or six days later.
-      You should start working on it soon after the class that works on that topic, ideally on the same day.
-    </p>
-
-    <p>
-      Collectively, all the online homework is worth 10% of your final grade.
+      Most class sessions there is a worksheet or activity to complete and turn in. You will work
+      together and with me to complete these activities. You will get my feedback on your math
+      writing skills. If you miss a class or don't complete something during our class time, you can
+      still complete the asignment outside of class and turn it in using D2L.
     </p>
   </paragraphs>
-
   <paragraphs>
-    <title>Written Assignments</title>
-      <p>
-        In the latter half of the course, your homework includes some exercises where you must write up something on paper.
-        Turn these in on the days they are due.
-        Each written assignment is worth 1% of your grade for a total of 6%.
-        See <xref text="title" ref="section-written-assignments"/> for the specifics.
-      </p>
-  </paragraphs>
-
-  <!-- <paragraphs>
-    <title>Contribution to the Book</title>
-    <p>The details of this assignment are at <xref text="title" ref="section-contributions"/>. You will write some content that could be added to our textbook. This assignment is worth <quantity><mag>6</mag><unit base="percent"/></quantity> of your final grade.</p>
-  </paragraphs> -->
-
-  <paragraphs>
-    <title>Exams</title>
+    <title>Exams (11% + 11% + 11% + 15%)</title>
     <p>
-      Please refer to the <xref ref="section-calendar" text="title"/> for exam dates,
-      and <xref text="title" ref="section-exams"/> for details about what is covered on each exam.
-      Exams 1, 2, and 3 are each worth 20%, 20%, and 25%, of your grade.
+      There are chapter exams and a final exam. Each exam is proctored. Most students will take each
+      exam during one of our class sessions. See <xref ref="section-exams"/> for possible
+      alternative arrangements.
     </p>
   </paragraphs>
-
+  <paragraphs>
+    <title>Grading Options</title>
+    <p>
+      Students are solely responsible for adding, dropping, or withdrawing from any class, as well
+      as for selecting their desired grading option. Please review
+      <url href="http://www.pcc.edu/enroll/registration/policies.html" visual="www.pcc.edu/enroll/registration/policies.html">PCC Registration Policy</url>
+      for more information.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Letter Grades</title>
+    <p>
+      Your letter grade will be assigned based on the weighted average of the items above.
+    </p>
+      <tabular>
+        <col/>
+        <col right="minor"/>
+        <col/>
+        <col/>
+        <row header="yes">
+          <cell colspan="2">Pass (P)</cell>
+          <cell colspan="2">No Pass (N)</cell>
+        </row>
+        <row>
+          <cell>90% and up</cell>
+          <cell>A</cell>
+          <cell>60% up to 70%</cell>
+          <cell>D</cell>
+        </row>
+        <row>
+          <cell>80% up to 90%</cell>
+          <cell>B</cell>
+          <cell>under 60%</cell>
+          <cell>F</cell>
+        </row>
+        <row>
+          <cell>70% up to 80%</cell>
+          <cell>C</cell>
+        </row>
+      </tabular>
+  </paragraphs>
 </section>

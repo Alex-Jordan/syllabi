@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exams</title>
+  <xi:include href="./grades.xml" xpointer="xpointer(//paragraphs[@xml:id = 'paragraphs-exams']/p)"/>
+</section>

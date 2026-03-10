@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="technology">
   <title>Technology Requirements</title>
-
   <p>
-    <!-- Part of this class will be learning how technology can assist you in exploring mathematical ideas.   -->
-    In regular class time, a smart phone, tablet, or laptop is fine.
-    During an exam, you must have a scientific <!-- or graphing --> calculator
-    and you may not use other devices that connect to the internet.
-    If you do not own one, there are options for you to borrow one.
-    <!-- The only things you will need a calculator for during an exam
-    are things that a plain old scientific calculator can do, not the specific graphing calculator tools. -->
+    In this class, I do ask you to regularly use the internet. A computer or laptop is best, but you
+    can also use a tablet or a phone. PCC has computer labs that you might want to become familiar
+    with.
   </p>
-
+  <!-- <p>
+    This is an online class, so it is essential that you have access to a computer, laptop, tablet,
+    or at least a smart phone. And you need internet access. You should use Firefox, Chrome, or
+    Safari as your web browser.
+  </p>
   <p>
-    You will also need Internet access for most of your homework.
-    If you do not have Internet access at home, you can find it in PCC computer labs.
+    A computer/laptop that you use for this course must have the Zoom desktop client installed in
+    order to take the remote proctored exams. A phone/tablet that you use for this course must have
+    the Zoom mobile app installed for the same reason. <alert>It is not enough to use Zoom thorugh a
+    web browser.</alert> Check if you have Zoom installed on your device(s) and if not, see
+    <url href="https://support.zoom.us/hc/en-us/articles/4415294177549-Downloading-the-Zoom-desktop-client-and-mobile-app" visual="support.zoom.us/hc/en-us/articles/4415294177549-Downloading-the-Zoom-desktop-client-and-mobile-app"/>.
+    If this is an obstacle, please reach out to me to get help overcoming it.
+  </p> -->
+  <!-- <p>
+    For the remote proctored exams, you <alert>must</alert> either use a computer with a detachable
+    webcam, or be able to connect to the exam Zoom session twice: once with your computer and once
+    with a phone or tablet that has a camera. Please understand that with one screen you will be
+    viewing the exam while connected to Zoom. And some sort of camera needs to separately be
+    streaming your workspace area. It is impossible to use a camera that is embedded in that first
+    screen for this purpose.
+  </p> -->
+  <p>
+    We will occasionally use free graphing calculator apps called
+    <url href="https://www.geogebra.org/" visual="www.geogebra.org">GeoGebra</url> and
+    <url href="https://www.desmos.com/" visual="www.desmos.com">Desmos</url>.
+    (You may choose which one you prefer).
   </p>
-
+  <p>
+    You may want to have access to a printer to print the video lecture notes and worksheets. If
+    you do not want to print your own copies of the video lecture notes, you should be comfortable
+    with digitally annotating a PDF using a tablet or something similar. There is a place in D2L for
+    you to turn these things in, by posting a scan of your notes/work. If you complete a worksheet
+    in class, I may be able to record a score for that assignment in class and there will be no need
+    to turn in a scan.
+  </p>
+  <p>
+    If you need access to a scanning app,
+    <url href="https://www.adobe.com/acrobat/mobile/scanner-app.html" visual="www.adobe.com/acrobat/mobile/scanner-app.html">Adobe Scan</url>
+    (with
+    <url href="https://www.adobe.com/accessibility/products/reader.html" visual="www.adobe.com/accessibility/products/reader.html">accessibility resources</url>)
+    is a free smartphone app for scanning documents that you could use. There are many other similar
+    apps you could explore. With a scanning app, you take multiple photos with your phone, then
+    click something when you are done. And the app produces a single PDF file with each picture on
+    its own page.
+  </p>
 </section>

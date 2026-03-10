@@ -3,6 +3,86 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exams</title>
-  <xi:include href="./grades.xml" xpointer="xpointer(//paragraphs[@xml:id = 'paragraphs-exams']/p)"/>
+    <title>Exams</title>
+
+    <paragraphs>
+        <title>Introduction</title>
+        <p>
+            Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
+        </p>
+        <p><dl>
+            <li xml:id="exam1">
+                <title>Exam 1 (13%)</title>
+                <p>
+                    Covers sections 3.9, 4.7, and 7.1<ndash/>7.5. You will have the entire class
+                    period for this exam, but it will be written with the expecation that a few
+                    students will need less than one hour.
+                </p>
+                <p>
+                    As you turn in your exam, you will be given the complete list of exercises to
+                    take home with you. You may redo <em>one</em> question and turn in your response
+                    the next class period to replace your original score for that question.
+                </p>
+            </li>
+            <li xml:id="exam2">
+                <title>Exam 2 (13%)</title>
+                <p>
+                    Covers sections 8.1<ndash/>8.4. You will have the entire class
+                    period for this exam, but it will be written with the expecation that a few
+                    students will need less than one hour.
+                </p>
+                <p>
+                    As you turn in your exam, you will be given the complete list of exercises to
+                    take home with you. You may redo <em>one</em> question and turn in your response
+                    the next class period to replace your original score for that question.
+                </p>
+            </li>
+            <li xml:id="exam3">
+                <title>Exam 3 (13%)</title>
+                <p>
+                    Covers sections 8.5<ndash/>8.8. You will have the entire class
+                    period for this exam, but it will be written with the expecation that a few
+                    students will need less than one hour.
+                </p>
+                <p>
+                    Unlike previous exams, there is no opportunity to make up one question. I will
+                    provide you with complete solutions to help you study for the final exam the
+                    following week.
+                </p>
+            </li>
+            <li xml:id="exam4">
+                <title>Exam 4 (25%)</title>
+                <p>
+                    Covers everything from the course. The PCC math department requires a
+                    comprehensive final exam worth at least 25% of your final grade. It will be
+                    sufficient to be comfortable with the exercises from exams 1, 2, and 3.
+                </p>
+                <p>
+                    You will have the entire 120 minutes of allotted final exam time (which goes
+                    from 9:00<ndash />11:00).
+                </p>
+                <p>
+                    Unlike previous exams, there is no opportunity to make up one question.
+                </p>
+            </li>
+        </dl></p>
+    </paragraphs>
+    <paragraphs>
+        <title>Missing an Exam</title>
+        <p>
+            If you miss an exam unexpectedly, contact me to explain why as soon as is reasonable
+            given whatever the curcumstances are, or I might not be able to allow a make-up and you
+            would receive a zero.
+        </p>
+    </paragraphs>
+    <paragraphs>
+        <title>Accommodated Testing</title>
+        <p>
+            Students who experience disability-related barriers should contact PCC's AEDR office:
+            <url href="http://www.pcc.edu/disability" visual="www.pcc.edu/disability"/>.  If
+            students elect to use approved academic adjustments, they must provide, in advance,
+            formal notification from AEDR to the instructor. Exam accommodations may include, but
+            are not limited to, extended time and a distraction-free environment.
+        </p>
+    </paragraphs>
 </section>

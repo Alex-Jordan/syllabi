@@ -7,24 +7,27 @@
   <p>
     To reach me or PCC:
   </p>
-  <sidebyside margins="0% 0%">
-    <tabular>
-      <row>
-        <cell>Instructor: Alex Jordan</cell>
-      </row>
-      <row>
-        <cell>Office: CA SSB 317</cell>
-      </row>
-      <row>
-        <cell>
-          <line>Phone: 971-722-4138</line>
-          <line>(Not a good way to reach me this term.)</line>
-        </cell>
-      </row>
-      <row>
-        <cell>email: <email>alex.jordan@pcc.edu</email></cell>
-      </row>
-    </tabular>
+  <sidebyside margins="0% 0%" valign="middle">
+    <p>
+      <dl width="narrow">
+        <li>
+          <title>Instructor</title>
+          <p>Alex Jordan</p>
+        </li>
+        <li>
+          <title>Office</title>
+          <p>CA SSB 317</p>
+        </li>
+        <li>
+          <title>Phone</title>
+          <p>971-722-4138<fn>Not a good way to reach me.</fn></p>
+        </li>
+        <li>
+          <title>Email</title>
+          <p><email>alex.jordan@pcc.edu</email></p>
+        </li>
+      </dl>
+    </p>
     <tabular>
       <row>
         <cell>Portland Community College</cell>
@@ -47,88 +50,60 @@
   <tabular top="major" valign="top" left="major" bottom="minor">
     <col/>
     <col/>
-    <col/>
     <col right="major"/>
     <col right="major"/>
     <col right="major"/>
     <row bottom="medium">
       <cell>CRN</cell>
-      <cell>Days</cell>
-      <cell>Time</cell>
+      <cell>Days/Time</cell>
       <cell>Place</cell>
       <cell>Midterm Exam</cell>
       <cell>Final Exam</cell>
     </row>
     <row bottom="major">
       <cell>
-        <line>31183</line>
-        <line>33419</line>
+        <line>11842</line>
+        <line>14956</line>
       </cell>
-      <cell colspan="2">async</cell>
+      <cell>async</cell>
       <cell>
         <line>D2L</line>
         <line>Zoom</line>
         <line>Discord</line>
-        <line>etc</line>
+        <line>etc.</line>
       </cell>
       <cell>
-        <line>Tuesday or Wednesday</line>
-        <line>July 25 or 26</line>
-        <line>2:00<ndash/>4:20</line>
-        <line>(plan to arrive 30 min early)</line>
+        <line>Thursday Feb 5</line>
+        <line>CRN 11842: 9:00<ndash/>11:30</line>
+        <line>CRN 14956: 1:00<ndash/>3:30</line>
+        <line>(can ask to switch)</line>
       </cell>
       <cell>
-        <line>Tuesday or Wednesday</line>
-        <line>Aug 29 or 30</line>
-        <line>2:00<ndash/>4:20</line>
-        <line>(plan to arrive 30 min early)</line>
+        <line>Tuesday Mar 17</line>
+        <line>CRN 11842: 9:00<ndash/>11:30</line>
+        <line>CRN 14956: 1:00<ndash/>3:30</line>
+        <line>(can ask to switch)</line>
       </cell>
     </row>
   </tabular>
   <p>
     The two exams are proctored. We will use <q>remote proctoring</q> where you take the exam from
-    home (or wherever) but we will use Zoom to allow me to monitor your workspace. For details, see
-    <xref ref="section-exams"/>, but the most important thing for now is to plan to be somewhere on
-    the exam dates that is quiet and comfortable, and also has a strong internet connection.
+    home (or wherever) and we will use Zoom to allow me to monitor your workspace. For details, see
+    <xref ref="section-exams"/>. The most important thing for now is to plan to be somewhere on the
+    exam dates that is quiet and comfortable, with a strong internet connection on a device that has
+    Zoom installed. You might need <em>two</em> devices. You always need a computer or laptop
+    (<em>not</em> a tablet). Additionally you need a device with a camera that will cover your work
+    area. This camera can <em>not</em> be embedded in a laptop screen. Most often, students either
+    use a detachable webcam or they use a phone/tablet for a second connection to Zoom.
   </p>
   <p>
-    I will meet with you over Zoom as needed, and frequently invite you to meet with me that way.
-    There will be a few times each week (regularly scheduled) where I have Zoom open and you can
-    just drop in. During the first week I will survey students to find what time(s) would work best
-    for that. We can also always meet as needed at sporadic times with a little advanced notice.
+    It is possible to take your exams in-person, or proctored remotely at an alternate time. But
+    these arrangements need to be made at least one week in advance. See <xref ref="section-exams"/>
+    for details.
   </p>
-  <tabular top="major" left="major">
-    <col/>
-    <col right="medium"/>
-    <col/>
-    <col right="major"/>
-    <row>
-      <cell colspan="4" halign="center">Office Hours</cell>
-    </row>
-    <row bottom="medium">
-      <cell colspan="2">Regular</cell>
-      <cell colspan="2">Finals Week</cell>
-    </row>
-    <row bottom="minor">
-      <cell>Tuesday</cell>
-      <cell>12:00<ndash/>1:00</cell>
-      <cell>TBD<!-- Tuesday --></cell>
-      <cell>TBD<!-- 12:30<ndash/>1:30 --></cell>
-    </row>
-    <!-- <row bottom="minor">
-      <cell>Friday</cell>
-      <cell>3:00<ndash/>4:00</cell>
-      <cell>TBD</cell>
-      <cell>TBD</cell>
-    </row> -->
-    <row bottom="major">
-      <cell>Friday</cell>
-      <cell>3:00<ndash/>4:00</cell>
-      <cell>TBD<!-- Tuesday --></cell>
-      <cell>TBD<!-- 12:30<ndash/>1:30 --></cell>
-    </row>
-  </tabular>
-  <!-- <p>
-    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
-  </p> -->
+  <p>
+    I will meet with you over Zoom as needed, and frequently invite you to meet with me that way. If
+    you are struggling with any topics from the course, completing assignments, or studying for the
+    exams, let's meet over Zoom and talk about it.
+  </p>
 </section>

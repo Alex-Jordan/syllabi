@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-course-description" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Description</title>
+
+  <sidebyside widths="47% 50%">
+    <p>
+      <dl>
+        <li>
+          <title>Course Num:</title>
+          <p>MTH 256</p>
+        </li>
+        <li>
+          <title>Course Title:</title>
+          <p>Differential Equations</p>
+        </li>
+        <li>
+          <title>Credit Hours:</title>
+          <p>5</p>
+        </li>
+        <li>
+          <title>Lecture Hours:</title>
+          <p>50</p>
+        </li>
+      </dl>
+    </p>
+
+    <p>
+      Includes a variety of differential equations and their solutions, with emphasis on applied
+      problems in engineering and physics. Uses differential equations software. Students
+      communicate results in oral and written form. Graphing and Computer Algebra System (CAS)
+      technology are used, such as Desmos and/or GeoGebra which are available at no cost.
+    </p>
+  </sidebyside>
+  <p>
+    Recommended: MTH 254. Audit available. Prerequisites: (MTH 252 or MTH 252Z and MTH 261) and
+    (WR 115 and RD 115) or IRW 115 or equivalent placement. The complete Course Content and Outcome
+    Guide can be found at <url href="https://www.pcc.edu/ccog/" visual="www.pcc.edu/ccog"/>.
+  </p>
+
+</section>

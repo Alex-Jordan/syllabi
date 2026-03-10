@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-contact-info">
+  <title>Contact Information</title>
+  <p>
+    To reach me or PCC:
+  </p>
+  <sidebyside margins="0% 0%" valign="middle">
+    <p>
+      <dl>
+        <li>
+          <title>Instructor</title>
+          <p>Alex Jordan</p>
+        </li>
+        <li>
+          <title>Office</title>
+          <p>CA SSB 317</p>
+        </li>
+        <li>
+          <title>Phone</title>
+          <p>971-722-4138<fn>Not a good way to reach me.</fn></p>
+        </li>
+        <li>
+          <title>Email</title>
+          <p><email>alex.jordan@pcc.edu</email></p>
+        </li>
+      </dl>
+    </p>
+    <tabular>
+      <row>
+        <cell>Portland Community College</cell>
+      </row>
+      <row>
+        <cell>Cascade Campus</cell>
+      </row>
+      <row>
+        <cell>705 N Killingsworth St.</cell>
+      </row>
+      <row>
+        <cell>Portland, OR 97217</cell>
+      </row>
+    </tabular>
+  </sidebyside>
+  <p>
+    Because of federal privacy laws, all email communications related to this class need to be sent
+    to and from your <c>@pcc.edu</c> email address, or using D2L's Classlist messaging tool.
+  </p>
+  <tabular top="major" valign="top" left="major" bottom="minor">
+    <col/>
+    <col/>
+    <col right="major"/>
+    <col right="major"/>
+    <col right="major"/>
+    <row bottom="medium">
+      <cell>CRN</cell>
+      <cell>Days/Time</cell>
+      <cell>Place</cell>
+      <cell>Midterm Exams</cell>
+      <cell>Final Exam</cell>
+    </row>
+    <row bottom="major">
+      <cell>
+        <line>42922</line>
+        <!-- <line>40671</line> -->
+      </cell>
+      <cell>
+        <line>MW 1<ndash/>3:20</line>
+        <!-- <line>TuTh 2<ndash/>4:50</line> -->
+      </cell>
+      <cell>
+        <line>TEB 219</line>
+        <!-- <line>TH 201</line> -->
+        <!-- <line>D2L</line>
+        <line>Zoom</line>
+        <line>Discord</line>
+        <line>etc.</line> -->
+      </cell>
+      <cell>
+        <!-- <line>Thursday Oct 31</line>
+        <line>10:00<ndash/>11:50</line> -->
+        <line>10/15, 11/19 at 1:00</line>
+        <!-- <line>10/17, 11/12 at 2:00</line> -->
+        <!-- <line>(arrive in Zoom 30 min early)</line> -->
+      </cell>
+      <cell>
+        <!-- <line>Tuesday Dec 10</line>
+        <line>10:00<ndash/>11:50</line> -->
+        <line>12/8 at 1:00</line>
+        <!-- <line>12/12 at 2:00</line> -->
+        <!-- <line>(arrive in Zoom 30 min early)</line> -->
+      </cell>
+    </row>
+  </tabular>
+  <!-- <p>
+    The two exams are proctored. We will use <q>remote proctoring</q> where you take the exam from
+    home (or wherever) and we will use Zoom to allow me to monitor your workspace. For details, see
+    <xref ref="section-exams"/>. The most important thing for now is to plan to be somewhere on the
+    exam dates that is quiet and comfortable, with a strong internet connection on a device that has
+    Zoom installed.
+  </p>
+  <p>
+    It is possible to take your exams in-person, or proctored remotely at an alternate time. But
+    these arrangements need to be made at least one week in advance. See <xref ref="section-exams"/>
+    for details.
+  </p> -->
+  <p>
+    I will meet with you outside of class as needed. If you are struggling with any topics from the
+    course, completing assignments, or studying for the exams, let's meet in my default office hours
+    or over Zoom.
+  </p>
+
+  <sidebyside widths="65% 30%" margins="0%">
+    <p>
+        I have drop-in office hours where you could either come see me in person in my office,
+        or see me over Zoom. Aside from these times, we can try to schedule other meetings as
+        needed. <em>Especially</em> if you have a class or work schedule that conflicts with my
+        regular hours.
+    </p>
+    <tabular top="major" left="major">
+        <col/>
+        <!-- <col right="medium"/>
+        <col/> -->
+        <col right="major"/> 
+        <row>
+            <cell colspan="2" halign="center" bottom="medium">Office Hours</cell>
+        </row>
+        <!-- <row bottom="medium">
+            <cell colspan="2">Regular</cell>
+            <cell colspan="2">Finals Week</cell>
+        </row> -->
+        <!-- <row bottom="minor">
+            <cell>Monday</cell>
+            <cell>1:00<ndash/>2:00</cell>
+        </row> -->
+        <row bottom="minor">
+            <cell>Tuesday</cell>
+            <cell>9:00<ndash/>11:00</cell>
+        </row>
+        <!-- <row bottom="minor">
+            <cell>Wednesday</cell>
+            <cell>1:00<ndash/>2:00</cell>
+        </row> -->
+        <row bottom="major">
+          <cell>Thursday</cell>
+          <cell>9:00<ndash/>11:00</cell>
+      </row>
+  </tabular>
+</sidebyside>
+
+</section>

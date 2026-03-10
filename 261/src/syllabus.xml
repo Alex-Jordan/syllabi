@@ -9,7 +9,7 @@
     <xi:include href="./docinfo.xml" />
 
     <article xml:id="syllabus">
-        <title>Course Information and Syllabus</title>
+        <title>Syllabus</title>
         <subtitle>MTH 261 Applied Linear Algebra I</subtitle>
 
         <xi:include href="./frontmatter.xml" />
@@ -21,13 +21,14 @@
         <xi:include href="./sage.xml" />
         <xi:include href="./textbook.xml" />
         <xi:include href="./grades.xml" />
-        <xi:include href="./downloads.xml" />
+        <!-- <xi:include href="./downloads.xml" /> -->
         <xi:include href="./webwork.xml" />
         <xi:include href="./written-assignments.xml" />
-        <xi:include href="./presentations.xml" />
+        <!-- <xi:include href="./presentations.xml" /> -->
         <xi:include href="./exams.xml" />
         <xi:include href="./resources.xml" />
-        <xi:include href="./miscellaneous.xml" />
+        <xi:include href="./policies.xml" />
+        <xi:include href="./special-dates.xml" />
         <xi:include href="./calendar.xml" />
 
    </article>

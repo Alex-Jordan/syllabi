@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="grades" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grades</title>
+
+  <p>
+    General PCC Grading Guidelines are found at
+    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/" visual="catalog.pcc.edu/handbook/g301-gradingguidelines"/>.
+  </p>
+
+  <paragraphs>
+    <title>Attendance/Engagement</title>
+    <p>
+      Attending and participating in the Zoom class sessions is a small factor in calculating your final grade.
+      Collectively, these sessions are worth 4% of your final grade.
+    </p>
+    <p>
+      If you miss a class session, you can still recover that part of your grade.
+      All that you need to do is watch the class recording.
+      Send me a message confirming that you did this, and I will update the record in D2L.
+      In your message, please include the specific date of the class recording that you watched.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Online Homework</title>
+    <p>
+      You have online homework for each section using <webwork/>.
+      See <xref ref="section-webwork" text="title"/> for details.
+      The due date for each assignment is posted in <webwork/>.
+      It will always be Sunday evening at 10:00<pm/>.
+      Usually, more than one section will be due at the same time.
+      You should start working on these exercises soon after the corresponding class session
+    </p>
+
+    <p>
+      Collectively, all the online homework is worth 18% of your final grade.
+    </p>
+
+    <p>
+      After a due date, you may still work on the online homework and submit answers for 95% credit.
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Discussion Posts</title>
+    <p>
+      Each week you will make a graded discussion post in D2L, responding to some topic that is posted.
+      Collectively, these are worth 10% of your grade.
+    </p>
+    <p>
+      When you make a post, I will give you private feedback and a score from 0 to 3.
+      If you score less than 3, you are invited to continue adding to your discsussion thread,
+      improving your response. I will update your score and send you new private feedback.
+      Eventually, you should reach a score of 3/3 on each discussion topic.
+      Here is a rubric that I use to determine your score with each post:
+    </p>
+    <tabular valign="top" top="major" bottom="minor">
+      <col/>
+      <col width="80%"/>
+      <row>
+        <cell>3 points</cell>
+        <cell>
+          <p>
+            Post is correct, relevant, well-written, and pertains to the appropriate module and textbook sections.
+            Post contains proper spelling, punctuation and grammar.
+            Post contains proper mathematical notation and vocabulary.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>2 points</cell>
+        <cell>
+          <p>
+            Post would be worth 3 points, but has one of the following issues:
+            <ul>
+              <li>mostly correct, but not entirely correct</li>
+              <li>noteworthy spelling, punctuation, grammar issues</li>
+              <li>does not use mathematical notation and vocabulary correctly</li>
+              <li>does not use equation editor where appropriate</li>
+            </ul>
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>1 point</cell>
+        <cell>
+          <p>
+            Post needs significant editing or revision.
+            May have more than one of the issues listed for 2 points.
+            Or it may only have a kernel of correctness but is mostly incorrect.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>0 points</cell>
+        <cell>
+          <p>
+            Post does not contain any correct work.
+            Or post is not related to the correct topic.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+
+    <p>
+      The <q>due dates</q> for these weekly discussions are Sunday at 10:00<pm/>.
+      This is purely advisory to help you stay on track. If you post late,
+      or improve your initial post later than the <q>due date</q>,
+      it does not hurt your grade (up to the weekend before final exams).
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Written Assignments</title>
+    <p>
+      Each week you have an assignment of exercises to write up, scan, and turn in through D2L.
+    </p>
+    <p>
+      Collectively, these assignments are worth 18% of your grade.
+    </p>
+    <p>
+      The <q>due dates</q> for these assignments are Sunday at 10:00<pm/>.
+      This is purely advisory to help you stay on track. If you turn them in late,
+      it does not hurt your grade (up to the weekend before final exams).
+    </p>
+    <p>
+      Please note that these assignments will only be scored once.
+      There is not an opportunity to improve your score once an assignment is graded.
+      But you are welcome to bring a draft of your work to an office hour,
+      where we can informally look it over together to catch any significant issues
+      before you turn it in.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="paragraphs-exams">
+    <title>Exams</title>
+    <p>
+      There is a final exam during finals week. It is worth 18% of your grade.
+      There are two midterm exams, each worth 16% of your grade.
+    </p>
+    <p>
+      Please see the <xref ref="section-calendar" text="title"/> for dates.
+    </p>
+    <p>
+      The format of the exams is not fully determined at this time.
+      You will have modules in D2L devoted to each exam with information about them.
+    </p>
+  </paragraphs>
+
+</section>

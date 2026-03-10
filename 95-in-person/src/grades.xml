@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="grades">
+  <title>Grades</title>
+  <p>
+    General PCC Grading Guidelines are found at
+    <url
+      href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/"
+      visual="catalog.pcc.edu/handbook/g301-gradingguidelines"
+      />.
+  </p>
+  <paragraphs>
+    <title>Attendance (2%)</title>
+    <p>
+      To further encourage you to attend class, a part of your grade comes from attendance. You will
+      be able to see your attendance record in D2L. If you have to miss a class meeting, contact me
+      as soon as possible to see if I can offer you a way to make up the missed attendance credit.
+      The main reason to attend class is indirect though. In class we have discussions that help you
+      understand the topics better, and you have opportunities to make progress on your homework
+      while I and your classmates are available.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Online Homework (25%)</title>
+    <p>
+      You have online homework for each section using <webwork/>. See
+      <xref ref="section-webwork" text="title"/> for details. The due date for each assignment is
+      posted in <webwork/>. Usually, more than one section will be due at the same time. You should
+      start working on a homework assignment soon after the class that is associated with that
+      section of the book. But always read the textbook section before beginning <webwork/>.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Worksheets (25%)</title>
+    <p>
+      Each week there is a worksheet. You will usually begin these worksheets in class, where you
+      are encouraged to collaborate in small groups. They can be posted in D2L Assignmens up until
+      the coming Sunday evening at 10:00pm. Later than that, they can only be turned in physically
+      at the start of the next class meeting (Monday or Tuesday).
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Exams (16% + 16% + 16%)</title>
+    <p>
+      There are three exams. Each exam takes place in class, unless there are special circumstances.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Exams Minimum</title>
+    <p>
+      <alert>Important:</alert> In order to pass the course, there is an additional requirement that
+      you must pass at least one of the three exams with a 70% or higher. If you do not pass any of
+      the exams, then the highest possible letter grade that you can end with is a D, even if your
+      overall average is above 70%.
+    </p>
+    <p>
+      In particular, if you do not pass the first two exams, then in order to pass the course you
+      must pass the final exam.
+    </p>
+    <p>
+      Similarly, in order to pass the course with a B, you must at least pass <em>two</em> of the
+      three exams with a 70% or higher. If passing MTH 95 with at least a B is important for you,
+      and if you do not pass the first exam, then you must pass both of the remaining exams.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Grading Options</title>
+    <p>
+      Students are solely responsible for adding, dropping, or withdrawing from any class, as well
+      as for selecting their desired grading option. Please review
+      <url
+        href="http://www.pcc.edu/enroll/registration/policies.html"
+        visual="www.pcc.edu/enroll/registration/policies.html">
+          PCC Registration Policy
+      </url>
+      for more information.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Letter Grades</title>
+    <p>
+      Your letter grade will be assigned based on the weighted average of the items above.
+    </p>
+    <tabular>
+      <col/>
+      <col right="minor"/>
+      <col/>
+      <col/>
+      <row header="yes">
+        <cell colspan="2">Pass (P)</cell>
+        <cell colspan="2">No Pass (N)</cell>
+      </row>
+      <row>
+        <cell>90% and up</cell>
+        <cell>A</cell>
+        <cell>60% up to 70%</cell>
+        <cell>D</cell>
+      </row>
+      <row>
+        <cell>80% up to 90%</cell>
+        <cell>B</cell>
+        <cell>under 60%</cell>
+        <cell>F</cell>
+      </row>
+      <row>
+        <cell>70% up to 80%</cell>
+        <cell>C</cell>
+      </row>
+    </tabular>
+    <p>
+      Except as described above, you must pass at least one exam to complete the course with a C or
+      higher. And you must pass at least two exams to complete the course with a B or higher.
+    </p>
+  </paragraphs>
+</section>

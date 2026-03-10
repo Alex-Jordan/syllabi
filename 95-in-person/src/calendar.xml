@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-calendar">
+  <title>Calendar</title>
+  <table xml:id="mw-calendar">
+    <title>Calendar</title>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col width="20%"/>
+      <col width="60%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Week</cell>
+        <cell>
+          <line>M/Tu</line>
+          <line>W/Th</line>
+        </cell>
+        <cell>Assignments</cell>
+      </row>
+      <row>
+        <cell>
+          <line>1/6<ndash/>1/12</line>
+        </cell>
+        <cell>
+          <line>Sec 10.1, 10.2</line>
+          <line>Sec 10.3</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 10.1, 10.2, 10.3 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #1 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>1/13<ndash/>1/19</line>
+        </cell>
+        <cell>
+          <line>Sec 10.4</line>
+          <line>Sec 10.5, 10.6</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 10.4 10.5, 10.6 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #2 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>1/20<ndash/>1/26</line>
+        </cell>
+        <cell>
+          <p>
+            Mon. MLK (class does not meet). Tue. math study skills.
+          </p>
+          <p>
+            Sec 10.7
+          </p>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 10.7 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Exam 1 Preparation Assignment by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>1/27<ndash/>2/2</line>
+        </cell>
+        <cell>
+          <line>Exam 1, Sec 11.1</line>
+          <line>Sec 11.1, 11.2</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 11.1, 11.2 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #3 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2/3<ndash/>2/9</line>
+        </cell>
+        <cell>
+          <line>Sec 11.3</line>
+          <line>Sec 11.4, 11.5</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 11.3, 11.4, 11.5 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #4 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2/10<ndash/>2/16</line>
+        </cell>
+        <cell>
+          <line>Sec 12.1, 12.2</line>
+          <line>Sec 12.3</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 12.1, 12.2, 12.3 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Exam 2 Preparation Assignment by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2/17<ndash/>2/23</line>
+        </cell>
+        <cell>
+          <line>Exam 2</line>
+          <line>Sec 12.4</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 12.4 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #5 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2/18<ndash/>3/2</line>
+        </cell>
+        <cell>
+          <line>Sec 12.5</line>
+          <line>Sec 13.1, 13.2</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 12.5, 13.1, 13.2 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #6 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>3/3<ndash/>3/9</line>
+        </cell>
+        <cell>
+          <line>Sec 13.3</line>
+          <line>Sec 13.4, 13.5</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 13.3, 13.4, 13.5 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Worksheet #7 by Sunday at 10:00<pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>3/10<ndash/>3/16</line>
+        </cell>
+        <cell>
+          <line>Sec 13.6, 13.7</line>
+          <line>Exam Review</line>
+        </cell>
+        <cell>
+          <p>
+            <webwork/> for 13.6, 13.7 due Sunday at 10:00<pm/>.
+          </p>
+          <p>
+            Post Exam 3 Preparation Assignment <em>before</em> your final exam time.
+            (Or if necessary, in person at your final exam time.)
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>
+          <line>3/17<ndash/>3/19</line>
+        </cell>
+        <cell right="none"/>
+        <cell>
+          <p>
+            Monday 3/17 CRN 10501 has exam at 11:00.
+          </p>
+          <p>
+            Tuesday 3/18 CRN 10626 has exam at 9:00.
+          </p>
+          <p>
+            Wednesday 3/19 CRN 11345 has exam at 2:00.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+  </table>  
+</section>

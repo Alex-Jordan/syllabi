@@ -4,125 +4,195 @@
 
 <section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Written Assignments</title>
-
-    <p>Please see the <xref ref="section-calendar" text="title"/> for the homework due dates.</p>
-
-    <p>As the term progresses, more written assignments will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>2</mag><unit base="percent"/></quantity> of your final grade, and there will be eight in total. That means they are worth <quantity><mag>14</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
-
-    <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
-        <li>
-            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
-        </li>
-        <li>
-            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
-        </li>
-        <li>
-            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
-        </li>
-        <li>
-            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
-        </li>
-        <li>
-            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs $70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
-        </li>
-    </ol></p>
+    <p>
+        Please see the <xref ref="section-calendar" text="title"/> for the homework due dates.
+    </p>
+    <p>
+        As the term progresses, more written assignments will be added to the list here. These
+        should be turned in no later than their posted due dates. They can be turn in in-person, or
+        uploaded in D2L.
+    </p>
+    <p>
+        Written assignments are collectively worth
+        <quantity><mag>20</mag><unit base="percent"/></quantity> of your final grade. You cannot
+        expect to do well in this course unless you are turning these assignments in. These are
+        where you will get to develop your mathematical writing skills and work on your ability to
+        give a convincing logical argument.
+    </p>
+    <p>
+        The most important thing to understand about your written homework is that <alert>you are
+        not merely finding and giving answers.</alert> You are <em>explaining to someone what the
+        problem was, how you handled it, and summarizing the results.</em>  In general, your
+        write-ups should respect these <q>four C's</q>:
+        <dl>
+            <li>
+                <title>self-Containment</title>
+                <p>
+                    The response to the question that you submit should make it clear what the
+                    original question was. Put yourself in the shoes of another student from the
+                    class who does not have the original homework assignment in front of them. Would
+                    they be able to understand what you are talking about and what you are trying to
+                    accomplish? At a minimum, this means that <alert>you must give an introduction
+                    of some kind that lets your reader know what you are about to investigate</alert>.
+                    Also, include any and all charts, graphs, and mathematical expressions that were
+                    given in the problem, and explain their meaning, even if all you do is use labels.
+                </p>
+            </li>
+            <li>
+                <title>Clarity</title>
+                <p>
+                    Am I able to read your work? Is your writing legible? Have you written
+                    complete sentences that make sense, where appropriate? If you have charts,
+                    graphs, and mathematical expressions, have you clearly indicated what they
+                    represent? Generally, any graphs need their axes labeled with regularly spaced
+                    tick marks, and they need some kind of overall title. If something about your
+                    write-up causes me to pause and wonder what you mean, you will lose clarity
+                    points.
+                </p>
+            </li>
+            <li>
+                <title>Convincing</title>
+                <p>
+                    Even if your writing is clear, it might not be logically convicning. For example,
+                    <q>I rode my bike to school today, so I only had $5 in my wallet.</q> is clear in
+                    the sense that the sentence structure is fine. But I don't understand why riding
+                    your bike to school implies that you only have $5 in your wallet. The logical
+                    progression of your write-up should convince your reader that you know what you
+                    are talking about, and that each statement you write is correct based on other
+                    things you have already established in your write-up.
+                </p>
+            </li>
+            <li>
+                <title>Conclusion</title>
+                <p>
+                    At the end of any write-up, there should be a clear, pleasant conclusion statement.
+                    Together with the introduction this allows a reader to read where your story
+                    started, and how it ended. And (only if they want to) it allows them to skip
+                    over reading the details of your story. (Maybe they will go back and read the
+                    details after they understand the overview.) If the exercise had context, the
+                    conclusion statement should use that content. For example,
+                    <q><m>x=70</m></q> or <q>He needs $70</q> are not good conclusion statements if
+                    something like <q>Dmitri needs $70 in order to purchase a new lawnmower</q> is
+                    better. For problems without context, conclusion statements like <q>So the
+                    domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.
+                </p>
+            </li>
+        </dl>
+        Each exercise will be scored out of 4 points, one for each of these categories. A zero in
+        some category doesn't really mean 0%, it just means I felt there was significant room for
+        improvement and you coudl try again.
+    </p>
 
     <p><dl>
         <li xml:id="written1">
             <title>Written HW 1</title>
-            <p><ul>
-                <li>
-                    <p>Section 1.2 #28</p>
-                </li>
-            </ul>Do not just state an answer. Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, you must <em>explain why</em> your answer is a correct answer. If it helps, it is acceptable to cite the book's theorems, but for self-containment you need to write the part of the theorem statement that is relevant into your work. That is, for a reader seeking clarity, do not make them open the book to read the theorem statement.</p>
+            <p>
+                <alert>Section 1.3 #22.</alert> Construct a <m>3\times3</m> matrix <m>A</m>, with
+                nonzero entries, and a vector <m>\vec{b}</m> in <m>\mathbb{R}^3</m> such that
+                <m>\vec{b}</m> is <em>not</em> in the set spanned by the columns of <m>A</m>. (You
+                should explain the thinking/process you use to make the matrix <m>A</m>. You should
+                also explain the thinking/process you use to make the vector <m>\vec{b}</m>. And
+                you should explain how we know that <m>\vec{b}</m> is not in the set spanned by the
+                columns of <m>A</m>.)
+            </p>
         </li>
         <li xml:id="written2">
             <title>Written HW 2</title>
-            <p><ul>
-                <li>
-                    <p>Section 1.4 #26</p>
-                </li>
-            </ul>Always state the question first. (This is part of making your work <q>self-Contained.</q>) Also, for Clarity and a strong Conclusion, write up your explanation in such a way that a beginning linear algebra student can understand your argument and be convinced that you are correct.</p>
+            <p>
+                <alert>Section 1.4 #44.</alert> Suppose <m>A</m> is a <m>3\times3</m> matrix and
+                <m>\vec{b}</m> is a vector in <m>\mathbb{R}^3</m> with the property that
+                <m>A\vec{x}=\vec{b}</m> has a unique solution. Explain why the columns of <m>A</m>
+                must span <m>\mathbb{R}^3</m>.
+            </p>
         </li>
         <li xml:id="written3">
             <title>Written HW 3</title>
-            <p><ul>
-                <li>
-                    <p>Section 1.6 #12</p>
-                </li>
-            </ul>Be careful: the diagram for this problem is on the next page from where the question starts. And there are three parts (a,b,c) not just two. Follow the <q>five C's</q> to earn an A on each written homework assignment.</p>
+            <p>
+                <alert>Section 1.5 #50.</alert> Suppose <m>A</m> is a <m>3\times3</m> matrix and
+                <m>\vec{y}</m> is a vector in <m>\mathbb{R}^3</m> such that the equation
+                <m>A\vec{x}=\vec{y}</m> does <em>not</em> have a solution. Does there exist a vector
+                <m>z</m> such that the equation <m>A\vec{x}=\vec{z}</m> has a unique solution?
+                (That is a <q>yes/no</q> question, but you need to explain your answer to your
+                reader in a way that convinces them.)
+            </p>
         </li>
         <li xml:id="written4">
             <title>Written HW 4</title>
-            <p><ul>
-                <li>
-                    <p>Section 1.7 #27</p>
-                </li>
-            </ul>Answer with a clear argument that demonstrates you understand the meaning of <q>linear independent</q>.</p>
+            <p>
+                <alert>Section 1.7 #44.</alert> Prove the following statement (which is true):
+                <q>If <m>\vec{v}_1,\ldots,\vec{v}_4</m> are linearly independent vectors in
+                <m>\mathbb{R}^4</m>, then <m>\{\vec{v}_1,\vec{v}_2,\vec{v}_3\}</m> is also linearly
+                independent.</q> (This exercise asks you to demonstrate you can work with the
+                official definition of linear independence. If you are not writing an explanation
+                that involves a sum of scaled vectors equalling zero, then you are not explaining
+                this well.)
+            </p>
         </li>
         <li xml:id="written5">
             <title>Written HW 5</title>
-            <p><ul>
-                <li>
-                    <p>Section 1.8 #32</p>
-                </li>
-            </ul>Answer with a clear argument that demonstrates you understand the definition of a <q>linear transformation</q>.</p>
+            <p>
+                <alert>Section 1.8 #44.</alert> Let <m>T:\mathbb{R}^3\to\mathbb{R}^3</m> be the
+                transformation that projects each vector <m>\vec{x}=(x_1,x_2,x_3)</m> onto the plane
+                <m>x_2=0</m>, so <m>T(x_1,x_2,x_3)=(x_1,0,x_3)</m>. Show that <m>T</m> is a linear
+                transformation. (This exercise asks you to demonstrate familiarity with the
+                official definition of a linear transformation.)
+            </p>
         </li>
         <li xml:id="written6">
             <title>Written HW 6</title>
-            <p><ul>
-                <li>
-                    <p>Section 2.3 #28</p>
-                </li>
-            </ul>Note: you are given that <m>(AB)^{-1}</m> exists, but you cannot write <m>(AB)^{-1}=B^{-1}A^{-1}</m> because that is only true when both <m>A^{-1}</m> and <m>B^{-1}</m> exist. In this exercise, you do not yet know if these things exist. So you will have to be more careful with establishing that <m>B^{-1}</m> exists.</p>
+            <p>
+                <alert>Section 2.2 #32.</alert> Explain why the columns of an <m>n\times n</m>
+                matrix <m>A</m> span <m>\mathbb{R}^n</m> when <m>A</m> is invertible. Hint: Review
+                Theorem 4 from Section 1.4. (There's more than one way to do this, but I recommend
+                you investigate item (a) from Theorem 4, and then conclude about item (c). The only
+                thing you have to work with is that <m>A</m> is invertible. So some matrix
+                <q><m>A^{-1}</m></q> exists, and <m>AA^{-1}=I</m>. What happens if you take that
+                equation and right-multiply each side by some vector <m>\vec{x}</m>?)
+            </p>
         </li>
         <li xml:id="written7">
             <title>Written HW 7</title>
-            <p><ul>
-                <li>
-                    <p>Section 2.9 #22</p>
-                </li>
-            </ul>Since you are given information about the dimension of <m>\operatorname{Span}\left\{\vec{v}_1,\vec{v}_2,\ldots,\vec{v}_5\right\}</m>, you should demonstrate that you know the linear algebra defintion of <q>dimension</q>. Your explanation should somehow rely on a basis with <m>4</m> elements.</p>
+            <p>
+                <alert>Section 2.3 #30.</alert> Assume <m>H</m> is an <m>n\times n</m> matrix. If
+                the equation <m>H\vec{x}=\vec{c}</m> is inconsistent for some <m>\vec{c}</m> in
+                <m>\mathbb{R}^n</m>, what can you say about the equation <m>H\vec{x}=\vec{0}</m>?
+                Why? (Hint: Study the Invertible Matrix Theorem from the start of section 2.3 well.
+                What does it say about <m>H</m>?)
+            </p>
         </li>
         <li xml:id="written8">
             <title>Written HW 8</title>
-            <p><ul>
-                <li>
-                    <p>Section 3.2 #29</p>
-                </li>
-            </ul>If you actually multiply out <m>B^4</m> then you are missing the point. Don't do it the slow way!</p>
+            <p>
+                <alert>Section 3.2 #36.</alert> Use Therorem 3 from Section 3.2 (but not Theorem 4)
+                to show that if two rows of a square matrix are equal, then <m>\det A=0</m>.
+            </p>
         </li>
         <li xml:id="written9">
             <title>Written HW 9</title>
-            <p><ul>
-                <li>
-                    <p>Section 4.4 #32</p>
-                </li>
-            </ul>The idea here is that <m>\mathbb{P}_2</m> is the set of quadratic, linear, and constant polynomials: <m>\left\{a+bt+ct^2\mid a,b,c\in\mathbb{R}\right\}</m>. And that you can treat this set like vectors: adding two such things gives you another such thing, and scaling such things by real numbers gives you another such thing. The standard basis for <m>\mathbb{P}_2</m> is the set of three polynomials <m>\left\{1, t, t^2\right\}</m>. So each polynomial <m>a+bt+ct^2</m> identifies with a coordinate vector <m>\begin{bmatrix}a\\b\\c\end{bmatrix}</m>.</p>
+            <p>
+                <alert>Section 4.2 #42.</alert> Let <m>T:V\to W</m> be a linear transformation from
+                a vector space <m>V</m> into a vector space <m>W</m>. Prove that the range of
+                <m>T</m> is a subspace of <m>W</m>. (Hint: Typical elements of the range have the
+                form <m>T(\vec{x})</m> and <m>T(\vec{w}</m> for some <m>\vec{x}</m> and
+                <m>\vec{w}</m> in <m>V</m>.) [This exercise is asking you to demonstrate that you
+                understand a few things. Among them: what is the meaning of
+                <q>linear transformation</q> and what is the meaning of <m>subspace</m>.]
+            </p>
         </li>
         <li xml:id="written10">
             <title>Written HW 10</title>
-            <p><ul>
-                <li>
-                    <p>Section 4.7 #19</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written11">
-            <title>Written HW 11</title>
-            <p><ul>
-                <li>
-                    <p>Section 5.2 #18</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written12">
-            <title>Written HW 12</title>
-            <p><ul>
-                <li>
-                    <p>Section 6.4 #24</p>
-                </li>
-            </ul></p>
+            <p>
+                <alert>Section 4.5 #31.</alert> Let <m>S</m> be a subset of an <m>n</m>-dimensional
+                vector space <m>V</m>, and suppose <m>S</m> contains fewer than <m>n</m> vectors.
+                Explain why <m>S</m> cannot span <m>V</m> [This exercise is asking you to
+                demonstrate that you understand a few things. Among them: since <m>V</m> is 
+                <m>n</m>-dimensional, then there exists a what? And how many things are in that
+                what? And then how can you use these things to represent the vectors from <m>S</m>?
+                How large are these things representing the vectors from <m>S</m> and how many
+                of these representations are there? Somewhere in all this, there is a matrix, and
+                how many pivot positions does it have? What does Theorem 4 from Section 1.4 say
+                about that?]
+            </p>
         </li>
     </dl></p>
 </section>

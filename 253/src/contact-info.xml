@@ -2,122 +2,122 @@
 
 <!-- This file is part of Alex Jordan's syllabus -->
 
-<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Contact Information</title>
-
-  <p>
-    To reach me or PCC:
-  </p>
-
-  <sidebyside>
-    <tabular>
-      <row>
-        <cell>Instructor: Alex Jordan</cell>
-      </row>
-      <row>
-        <cell>
-          <line>Office: CA SSB 317 when PCC opens</line>
-          <line>(Use email and D2L to contact me.)</line>
-        </cell>
-      </row>
-      <row>
-        <cell>
-          <line>Phone: 971-722-4138</line>
-          <line>(Not a good way to reach me this term.)</line>
-        </cell>
-      </row>
-      <row>
-        <cell>email: <email>alex.jordan@pcc.edu</email></cell>
-      </row>
+<section xml:id="section-contact-info">
+    <title>Contact Information</title>
+    <p>
+        To reach me or PCC:
+    </p>
+    <sidebyside margins="0% 0%">
+        <tabular>
+            <row>
+                <cell>Instructor: Alex Jordan</cell>
+            </row>
+            <row>
+                <cell>Office: CA SSB 317</cell>
+            </row>
+            <row>
+                <cell>
+                    <line>Phone: 971-722-4138</line>
+                    <!-- <line>(Not a good way to reach me this term.)</line> -->
+                </cell>
+            </row>
+            <row>
+                <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+            </row>
+        </tabular>
+        <tabular>
+            <row>
+                <cell>Portland Community College</cell>
+            </row>
+            <row>
+                <cell>Cascade Campus</cell>
+            </row>
+            <row>
+                <cell>705 N Killingsworth St.</cell>
+            </row>
+            <row>
+                <cell>Portland, OR 97217</cell>
+            </row>
+        </tabular>
+    </sidebyside>
+    <p>
+        Because of federal privacy laws, all email communications related to this class need to be
+        sent to and from your <c>@pcc.edu</c> email address, or using D2L's Classlist messaging tool.
+    </p>
+    <tabular top="major" valign="top" left="major" bottom="minor">
+        <col/>
+        <col/>
+        <col/>
+        <col right="major"/>
+        <col right="major"/>
+        <col right="major"/>
+        <row bottom="medium">
+            <cell>CRN</cell>
+            <cell>Days</cell>
+            <cell>Time</cell>
+            <cell>Place</cell>
+            <cell>Exams</cell>
+            <cell>Final Exam</cell>
+        </row>
+        <row bottom="major">
+            <cell>25414</cell>
+            <cell>TuTh</cell>
+            <cell>9:00–11:20</cell>
+            <cell>CA TEB 216</cell>
+            <cell>
+                <line>4/23</line>
+                <line>5/16</line>
+                <line>6/6</line>
+            </cell>
+            <cell>Tue 6/11 9:00–11:00</cell>
+        </row>
     </tabular>
-    <tabular>
-      <row>
-        <cell>Portland Community College</cell>
-      </row>
-      <row>
-        <cell>Cascade Campus</cell>
-      </row>
-      <row>
-        <cell>705 N Killingsworth St.</cell>
-      </row>
-      <row>
-        <cell>Portland, OR 97217</cell>
-      </row>
-    </tabular>
-  </sidebyside>
-
-  <p>
-    Because of federal privacy laws,
-    all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.
-  </p>
-
-  <tabular top="major" valign="top" left="major" bottom="minor">
-    <col/>
-    <col/>
-    <col/>
-    <col/>
-    <col right="major"/>
-    <row bottom="medium">
-      <cell>CRN</cell>
-      <cell>Days</cell>
-      <cell>Time</cell>
-      <cell>Place</cell>
-      <cell>Final Exam</cell>
-    </row>
-    <row bottom="major">
-      <cell>22468</cell>
-      <cell>M/W</cell>
-      <cell>9:00<ndash/>11:20</cell>
-      <cell>
-        <line>Remote</line>
-      </cell>
-      <cell>
-        <line>Monday</line>
-        <line>6/13/2022</line>
-        <line>9:00<ndash/>11:00</line>
-      </cell>
-    </row>
-  </tabular>
-
-  <p>
-    I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
-    Use the link to a dedicated Zoom room that you will find in D2L on our course homepage under my picture.
-  </p>
-
-  <tabular top="major" left="major">
-    <col/>
-    <col right="medium"/>
-    <col/>
-    <col right="major"/>
-    <row>
-      <cell colspan="2" halign="center" bottom="medium">Office Hours</cell>
-    </row>
-    <!-- <row bottom="medium">
-      <cell colspan="2">Regular</cell>
-      <cell colspan="2">Finals Week</cell>
-    </row> -->
-    <row bottom="minor">
-      <cell>Monday</cell>
-      <cell>3:00<ndash/>4:20</cell>
-      <!-- <cell>Wednesday</cell>
-      <cell>3:00<ndash/>4:20</cell> -->
-    </row>
-    <row bottom="major">
-      <cell>Wednesday</cell>
-      <cell>3:00<ndash/>4:20</cell>
-      <!-- <cell>Tuesday</cell>
-      <cell>12:30<ndash/>1:30</cell> -->
-    </row>
-    <!-- <row bottom="major">
-      <cell>Friday</cell>
-      <cell>9:00<ndash/>10:00</cell>
-      <cell>Wednesday</cell>
-      <cell>9:00<ndash/>10:00</cell>
-    </row> -->
-  </tabular>
-
-  <p>
-    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
-  </p>
-
+    <p>
+        The exams will take place in the classroom. Possibly there will be a take-home component to
+        allow for more time to demonstrate certain time-consuming skills.
+    </p>
+  <!-- <p>
+    The two exams are proctored. We will use <q>remote proctoring</q> where you take the exam from
+    home (or wherever) but we will use Zoom to allow me to monitor your workspace. For details, see
+    <xref ref="section-exams"/>, but the most important thing for now is to plan to be somewhere on
+    the exam dates that is quiet and comfortable, and also has a strong internet connection. It is
+    possible to take your exams in-person, or proctored remotely at an alternate time. But these
+    arrangements need to be made at least one week in advance.
+  </p> -->
+    <sidebyside widths="65% 30%" margins="0%">
+        <p>
+            I have drop-in office hours where you could either come see me in person in my office,
+            or see me over Zoom. Aside from these times, we can try to schedule other meetings as
+            needed.
+        </p>
+        <tabular top="major" left="major">
+            <col/>
+            <!-- <col right="medium"/>
+            <col/> -->
+            <col right="major"/>
+            <row>
+                <cell colspan="2" halign="center" bottom="medium">Office Hours</cell>
+            </row>
+            <!-- <row bottom="medium">
+                <cell colspan="2">Regular</cell>
+                <cell colspan="2">Finals Week</cell>
+            </row> -->
+            <row bottom="minor">
+                <cell>Monday</cell>
+                <cell>2:45<ndash/>4:00</cell>
+            </row>
+            <row bottom="minor">
+                <cell>Tuesday</cell>
+                <cell>11:30<ndash/>12:45</cell>
+            </row>
+            <row bottom="major">
+                <cell>Friday (Zoom only)</cell>
+                <cell>11:00<ndash/>12:00</cell>
+            </row>
+        </tabular>
+    </sidebyside>
+    <p>
+        If those times are not workable for you, please feel comfortable contacting me to make some
+        other arrangements.
+    </p>
 </section>

@@ -5,13 +5,22 @@
     <author>
       <personname>Alex Jordan</personname>
     </author>
-    <date>Summer 2023</date>
+    <date>Winter 2026</date>
   </titlepage>
   <abstract>
-    <p>
-      This syllabus is a written contract between student and instructor. Please read it carefully
-      and contact me (your instructor) if you need clarification. If you decide to continue with
-      this course, you have thoroughly read the syllabus and accept all requirements as stated.
+    <p><m>\require{mathtools}</m>
+      This syllabus is a contract between student and instructor. Please read it carefully and
+      contact me (your instructor) if you need clarification. If you decide to continue with this
+      course, it means that you accept the course structure described here.
     </p>
+<p><md>
+            <mrow>\frac{1}{x^3-x^2+2} \amp= \frac{\tfrac15}{x+1} - \frac{\tfrac{1+2i}{10}}{x-(1+i)} - \frac{\tfrac{1-2i}{10}}{x-(1-i)}</mrow>
+            <mrow>\int \frac{1}{x^3-x^2+2} dx \amp = \begin{multlined}[t]\tfrac15 \log(x+1) - \tfrac{1+2i}{10} \log(x-(1+i)) \\  - \tfrac{1-2i}{10} \log(x-(1-i)) +C \text{.} \end{multlined}</mrow>
+          </md></p>
+<p><md>
+    <mrow>\frac{1}{x^3-x^2+2} \amp= \frac{\tfrac15}{x+1} - \frac{\tfrac{1+2i}{10}}{x-(1+i)} - \frac{\tfrac{1-2i}{10}}{x-(1-i)}</mrow>
+    <mrow>\int \frac{1}{x^3-x^2+2} dx \amp = \tfrac15 \log(x+1) - \tfrac{1+2i}{10} \log(x-(1+i))  </mrow>
+    <mrow> \amp{}\ \ \ \ \ \ \ \ \ \ \ \  - \tfrac{1-2i}{10} \log(x-(1-i)) +C.</mrow>
+  </md></p>
   </abstract>
 </frontmatter>

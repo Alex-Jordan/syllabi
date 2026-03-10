@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-runestone">
+  <title>Runestone Academy</title>
+  <p>
+    Our book and online homework is hosted at a site called Runestone Academy. You will need an
+    account with Runestone Academy. Visit
+    <url href="https://runestone.academy/" visual="runestone.academy">Runestone Academy</url> and
+    click to Log In/Sign Up. The username you create may not contain a dot like your PCC username
+    might have. When you sign up, the <q>Course Name</q> you need to use is
+    <c>portlandcommunitycollege_orcca_fall23</c>.
+  </p>
+  <paragraphs>
+    <title>Textbook</title>
+    <p>
+      The textbook is usually where you land when you are logged in to Runestone Academy. Our class
+      covers chapters 1<ndash/>4. There are embedded <q>Checkpoint</q> exercises in each section,
+      and completing these is part of your homework assignments.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Assignments</title>
+    <p>
+      Your assignments for each section include the <q>Checkpoint</q> exercises,
+      <q>Reading Questions</q>, and <em>some</em> of the regular exercises at the end of each
+      section. To get to an assignment, use the little person icon at the top of a page to visit
+      <q>Assignments</q>. Here you will see all three types of exercise grouped together.
+    </p>
+    <p>
+      Assignments are due the Sunday night after we cover a section in class. See
+      <xref ref="section-calendar"/> for the schedule. You typically get an additional two weeks
+      beyond the due date to complete these assignments, however you should not rely on that. The
+      official due dates keep you from falling so far behind that you fail the course.
+    </p>
+  </paragraphs>
+  <!-- <paragraphs>
+    <title>Homework Sets Menu</title>
+    <p>This shows you the assignments that have been assigned to you and when they are due. You may:
+      <ul>
+        <li>
+          <p>
+            click on an assignment and begin working on problems online
+          </p>
+        </li>
+        <li>
+          <p>
+            check the box next to an assignment and click <c>Download Hardcopy</c> to get the assignment as a <c>.pdf</c> file
+            which you may then print to work on away from a computer.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      When you click on an assignment, you will see a screen with the problem numbers listed.
+      Off to the right is a message for you that might have specific instructions or information about the assignment.
+      You should always look for and read this message.
+    </p>
+  </paragraphs> -->
+  <!-- <paragraphs>
+    <title>Emailing for Help</title>
+    <p>
+      When you are stumped, you can click the <c>Email Instructor</c> button at the bottom of any
+      problem. Write a message explaining what you have tried and if possible, include the work from
+      your calculations. <webwork/> will send me (your instructor) an email with helpful information
+      (like all of the incorrect attempts you have tried) and I will get back to you soon with a
+      response. When I respond, it will be via email, so you must remember to check your email.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Math Achievements</title>
+    <p>
+      As you complete more problems, you win badges for various <q>achievements</q>. For example,
+      the <q>On One Hand</q> badge is for completing a homework set with fewer than five incorrect
+      submissions. Both earning badges and just plain answering questions correctly will earn you
+      <q>achievement points</q>. As you gain more achievement points, you will level up. Each time
+      you level up, you earn an item that can be used to affect your grade.
+    </p>
+    <p>
+      <dl>
+        <li>
+           <title>Level 1</title>
+           <p>The <q>Lesser Rod of Revelation</q> gives you 50% credit on one problem.</p>
+        </li>
+        <li>
+           <title>Level 2</title>
+           <p>The <q>Potion of Forgetfulness</q> drops the number incorrect attempts down to <m>0</m>.</p>
+        </li>
+        <li>
+           <title>Level 3</title>
+           <p>The <q>Tunic of Extension</q> extends the due date of a currently open homework for <m>24</m> hours.</p>
+        </li>
+        <li>
+           <title>Level 4</title>
+           <p>The <q>Cupcake of Enlargement</q> doubles the weight of one problem.</p>
+        </li>
+        <li>
+           <title>Level 5</title>
+           <p>The <q>Box of Transmogrification</q> changes a single problem to be a (newly randomized) copy of a different problem on the same homework set.</p>
+        </li>
+        <li>
+           <title>Level 6</title>
+           <p>The <q>Greater Rod of Revelation</q> gives you 100% credit on one problem.</p>
+        </li>
+        <li>
+           <title>Level 7</title>
+           <p>The <q>Robe of Longevity</q> extends the due date of a currently open homework for <m>48</m> hours.</p>
+        </li>
+        <li>
+           <title>Level 8</title>
+           <p>The <q>Scroll of Resurrection</q> reopens a homework set (even a closed one) for an additional <m>24</m> hours. All problems will be re-randomized.</p>
+        </li>
+        <li>
+           <title>Level 9</title>
+           <p>The <q>Greater Tome of Enlightenment</q> gives you 100% on every problem in a single homework set.</p>
+        </li>
+        <li>
+           <title>Level 10</title>
+           <p>The <q>Cake of Enlargement</q> doubles the weight of an entire set.</p>
+        </li>
+      </dl>
+    </p>
+  </paragraphs> -->
+</section>

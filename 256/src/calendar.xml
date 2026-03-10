@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--     Cut Content includes:
+        One-sided continuity
+        Identifying types of discontinuities (removable, jump, infinite)
+        Squeeze Theorem
+        Determining the shape of an antiderivative
+        Logarithmic Differentiation
+        Mean Value Theorem
+        Graphing a function by hand after identifying the increasing/decreasing…
+    New Content includes:
+        Applications of the Derivative
+            Second Derivative Test
+            Optimization
+            L’Hopital’s Rule (just inf/inf and 0/0 and 0*inf)
+
+            Need 4.3, 6.7
+-->
+
+<section xml:id="section-calendar">
+  <title>Calendar</title>
+  <table xml:id="mw-calendar">
+    <title>Calendar</title>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col/>
+      <col/>
+      <col width="27%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Week</cell>
+        <cell>Monday</cell>
+        <cell>Wednesday</cell>
+        <cell>Sunday</cell>
+      </row>
+      <row>
+        <cell>
+          <line>1</line>
+          <line>9/22<ndash/>9/28</line>
+        </cell>
+        <cell>
+          <line>Section 1.1</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 1.2</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 1.1 and 1.2 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2</line>
+          <line>9/29<ndash/>10/5</line>
+        </cell>
+        <cell>
+          <line>Section 1.3</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 1.4</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 1.3 and 1.4 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>3</line>
+          <line>10/6<ndash/>10/12</line>
+        </cell>
+        <cell>
+          <line>Section 1.5</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 1.6, Exam Info</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 1.5 and 1.6 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>
+          <line>4</line>
+          <line>10/13<ndash/>10/19</line>
+        </cell>
+        <cell>
+          <line>Section 2.1</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Midterm Exam 1</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 2.1 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col/>
+      <col/>
+      <col width="27%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Week</cell>
+        <cell>Monday</cell>
+        <cell>Wednesday</cell>
+        <cell>Sunday</cell>
+      </row>
+      <row>
+        <cell>
+          <line>5</line>
+          <line>10/20<ndash/>10/26</line>
+        </cell>
+        <cell>
+          <line>Section 2.2</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 3.2</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 2.2 and 3.2 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>6</line>
+          <line>10/27<ndash/>11/2</line>
+        </cell>
+        <cell>
+          <line>Section 3.3</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>No class</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 3.3 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>7</line>
+          <line>11/3<ndash/>11/9</line>
+        </cell>
+        <cell>
+          <line>Section 3.4</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 3.5</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 3.4 and 3.5 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>8</line>
+          <line>11/10<ndash/>11/16</line>
+        </cell>
+        <cell>
+          <line>Section 4.1</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 4.2, Exam Info</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 4.1 and 4.2 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>
+          <line>9</line>
+          <line>11/17<ndash/>11/23</line>
+        </cell>
+        <cell>
+          <line>Practice for</line>
+          <line>Midterm Exam 2</line>
+        </cell>
+        <cell>
+          <line>Midterm Exam 2</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 6.1 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+    </tabular>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col/>
+      <col/>
+      <col width="27%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Week</cell>
+        <cell>Monday</cell>
+        <cell>Wednesday</cell>
+        <cell>Sunday</cell>
+      </row>
+      <row>
+        <cell>
+          <line>10</line>
+          <line>11/24<ndash/>11/30</line>
+        </cell>
+        <cell>
+          <line>Section 6.1</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 6.2</line>
+          <line>Written exercises</line>
+          <line>due Tuesday morning</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 6.1 and 6.2 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>11</line>
+          <line>12/1<ndash/>12/7</line>
+        </cell>
+        <cell>
+          <line>Section 6.3</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <line>Section 6.4</line>
+          <line>Written exercises as</line>
+          <line>indicated in D2L</line>
+        </cell>
+        <cell>
+          <p>
+            Complete <webwork/> for 6.3 and 6.4 by 10:00 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell>
+          <line>12</line>
+          <line>12/8<ndash/>12/11</line>
+        </cell>
+        <cell>
+          <line>Final Exam</line>
+        </cell>
+        <cell>
+        </cell>
+        <cell>
+        </cell>
+      </row>
+    </tabular>
+  </table>  
+</section>

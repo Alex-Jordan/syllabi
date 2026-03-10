@@ -2,26 +2,15 @@
 
 <!-- This file is part of Alex Jordan's syllabus -->
 
-<section xml:id="technology" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-technology" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Technology Requirements</title>
-
     <p>
-        Since we are in a remote teaching mode,
-        it is essential that you have access to a computer, laptop, tablet, or at the very least a smart phone,
-        with internet access.
+        All technology we will use in this course is freely available and can be used in any web
+        browser.
     </p>
-
     <p>
-        To attend the live class sessions, your device needs to work with Zoom.
-    </p>
-
-    <p>
-        There are other elements of the course where you simply need a modern web browser.
-        <ul>
-            <li>accessing content in D2L</li>
-            <li>reading the web version of the textbook</li>
-            <li>homework and quizzes with <webwork/></li>
-            <li>accessing GeoGebra for computer-assisted calcuations and graphing</li>
-        </ul>
+        If you think you might meet with me over Zoom, please install the actual Zoom app on your
+        computer or device. The Zoom app is different than running Zoom in a web browser, and the
+        web browser version can be buggy.
     </p>
 </section>

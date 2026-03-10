@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!-- This file has the contents of the titel page of Alex Jordan's syllabus -->
-
-<frontmatter xml:id="index" xmlns:xi="http://www.w3.org/2001/XInclude">
-
-    <titlepage>
-
-        <date>Spring 2017</date>
-
-        <author>
-            <personname>Alex Jordan</personname>
-            <department>Department of Mathematics</department>
-            <institution>Portland Community College</institution>
-            <email>alex.jordan@pcc.edu</email>
-        </author>
-
-    </titlepage>
-
-
-
+<frontmatter xml:id="frontmatter">
+  <titlepage>
+    <author>
+      <personname>Alex Jordan</personname>
+    </author>
+    <date>Spring 2024</date>
+  </titlepage>
+  <abstract>
+    <p>
+      This syllabus is a written contract between student and instructor. Please read it carefully
+      and contact me (your instructor) if you need clarification. If you decide to continue with
+      this course, you have thoroughly read the syllabus and accept all requirements as stated.
+    </p>
+  </abstract>
 </frontmatter>

@@ -6,22 +6,16 @@
     <title>Technology Requirements</title>
 
     <p>
-        Since we are in a remote teaching mode,
-        it is essential that you have access to a computer, laptop, tablet, or at the very least a smart phone,
-        with internet access.
+        You need internet access to complete <webwork/> assignments and post your lab write-ups.
     </p>
-
     <p>
-        To attend the live class sessions, your device needs to work with Zoom.
+        For some homework assignments, you need to access a free graphing app like Desmos or GeoGebra.
     </p>
-
     <p>
-        There are other elements of the course where you simply need a modern web browser.
-        <ul>
-            <li>accessing content in D2L</li>
-            <li>reading the web version of the textbook</li>
-            <li>homework and quizzes with <webwork/></li>
-            <li>accessing GeoGebra for computer-assisted calcuations and graphing</li>
-        </ul>
+        You can use a basic calculator at any point in the course, but during exams you may not use
+        a calculator that is capable of doing algebra. For example, if you enter something
+        <m>x+x</m> into your calculator, it must be incapable of responding with <m>2x</m>. During
+        an exam, you may not use phones, so you should not rely on a phone- or internet-based
+        calculator.
     </p>
 </section>

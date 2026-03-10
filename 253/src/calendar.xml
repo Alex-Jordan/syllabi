@@ -3,95 +3,121 @@
 <!-- This file is part of Alex Jordan's syllabus -->
 
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Calendar</title>
-
-  <p>
-    The official timeline for this course will be managed with D2L.
-    What matters most is whatever dates are in the modules inside D2L.
-    Details may change as the term progresses, and this will be reflected in the D2L modules.
-    So the information below is subject to change.
-    It is only included here for a quick reference at the start of the term.
-  </p>
-
-  <tabular bottom="minor" valign="top">
-    <row header="yes" bottom="major">
-      <cell>Week of</cell>
-      <cell>Content</cell>
-    </row>
-    <row>
-      <cell>4/4</cell>
-      <cell>
-        <line>8.1 Graphical and Numerical Solutions to Differential Equations</line>
-        <line>8.2 Separable Differential Equations</line>
-      </cell>
-    </row>
-    <row>
-      <cell>4/11</cell>
-      <cell>
-        <line>8.4 Modeling with Differential Equations</line>
-        <line>9.1 Sequences</line>
-      </cell>
-    </row>
-    <row>
-      <cell>4/18</cell>
-      <cell>
-        <line>9.2 Infinite Series</line>
-        <line>9.2 Infinite Series</line>
-      </cell>
-    </row>
-    <row>
-      <cell>4/25</cell>
-      <cell>
-        <line><alert>Midterm Exam 1</alert></line>
-        <line>9.3 Integral Test</line>
-      </cell>
-    </row>
-    <row>
-      <cell>5/2</cell>
-      <cell>
-        <line>9.3 Comparison Tests</line>
-        <line>9.4 Ratio Test</line>
-      </cell>
-    </row>
-    <row>
-      <cell>5/9</cell>
-      <cell>
-        <line>9.5 Alternating Series</line>
-        <line>9.5 Absolute Convergence</line>
-      </cell>
-    </row>
-    <row>
-      <cell>5/16</cell>
-      <cell>
-        <line><alert>Midterm Exam 2</alert></line>
-        <line>9.6 Power Series</line>
-      </cell>
-    </row>
-    <row>
-      <cell>5/23</cell>
-      <cell>
-        <line>9.6 Power Series</line>
-        <line>9.7 Taylor Polynomials</line>
-      </cell>
-    </row>
-    <row>
-      <cell>5/30</cell>
-      <cell>
-        <line>Memorial Day</line>
-        <line>9.8 Taylor Series</line>
-      </cell>
-    </row>
-    <row>
-      <cell>6/6</cell>
-      <cell>
-        <line>9.8 Taylor Series</line>
-        <line>Review/Catch-up</line>
-      </cell>
-    </row>
-    <row>
-      <cell>6/13</cell>
-      <cell><alert>Final Exam</alert></cell>
-    </row>
-  </tabular>
+    <title>Calendar</title>
+        <tabular top="major" bottom="minor" left="major" valign="top">
+            <col/>
+            <col/>
+            <col right="minor"/>
+            <col/>
+            <col/>
+            <col right="major"/>
+            <row bottom="none">
+                <cell colspan="3" halign="center">Monday</cell>
+                <cell colspan="3" halign="center">Wednesday</cell>
+            </row>
+            <row bottom="medium">
+                <cell/>
+                <cell>Read</cell>
+                <cell>Due/Do</cell>
+                <cell/>
+                <cell>Read</cell>
+                <cell>Due/Do</cell>
+            </row>
+            <row>
+                <cell>Apr 2</cell>
+                <cell>
+                    <line>Sec 3.9</line>
+                    <line>(except <q>Differentials</q>)</line>
+                    <line>Sec 4.7</line>
+                </cell>
+                <cell></cell>
+                <cell>Apr 4</cell>
+                <cell>Sec 7.1</cell>
+                <cell/>
+            </row>
+            <row>
+                <cell>Apr 9</cell>
+                <cell>Sec 7.2</cell>
+                <cell><xref ref="written1" text="title"/></cell>
+                <cell>Apr 11</cell>
+                <cell>Sec 7.3</cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>Apr 16</cell>
+                <cell>Sec 7.4, 7.5</cell>
+                <cell><xref ref="written2" text="title"/></cell>
+                <cell>Apr 18</cell>
+                <cell>Sec 8.1</cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>Apr 23</cell>
+                <cell></cell>
+                <cell><xref ref="exam1" text="title"/></cell>
+                <cell>Apr 25</cell>
+                <cell>Sec 8.2</cell>
+                <cell><xref ref="written3" text="title"/></cell>
+            </row>
+            <row>
+                <cell>Apr 30</cell>
+                <cell>Inservice Day</cell>
+                <cell>class does not meet</cell>
+                <cell>May 2</cell>
+                <cell>Sec 8.3</cell>
+                <cell><xref ref="written4" text="title"/></cell>
+            </row>
+            <row>
+                <cell>May 7</cell>
+                <cell>Sec 8.4</cell>
+                <cell><xref ref="written5" text="title"/></cell>
+                <cell>May 9</cell>
+                <cell>Sec 8.4</cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>May 14</cell>
+                <cell>Sec 8.5</cell>
+                <cell><xref ref="written6" text="title"/></cell>
+                <cell>May 16</cell>
+                <cell></cell>
+                <cell><xref ref="exam2" text="title"/></cell>
+            </row>
+            <row>
+                <cell>May 21</cell>
+                <cell>Sec 8.6</cell>
+                <cell></cell>
+                <cell>May 23</cell>
+                <cell>Sec 8.7</cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>May 28</cell>
+                <cell>Sec 8.7</cell>
+                <cell></cell>
+                <cell>Mar 30</cell>
+                <cell>Sec 8.8</cell>
+                <cell><xref ref="written7" text="title"/></cell>
+            </row>
+            <row>
+                <cell>Jun 4</cell>
+                <cell>Review/Catchup</cell>
+                <cell></cell>
+                <cell bottom="major">Jun 6</cell>
+                <cell bottom="major"></cell>
+                <cell bottom="major"><xref ref="exam3" text="title"/></cell>
+            </row>
+            <row>
+                <cell bottom="major">Jun 11</cell>
+                <cell bottom="major"/>
+                <cell bottom="major" right="major">
+                    <line><xref ref="written8" text="title"/></line>
+                    <line><xref ref="exam4" text="title"/></line>
+                </cell>
+                <cell bottom="none"/>
+                <cell bottom="none"/>
+                <cell bottom="none" right="none"/>
+            </row>
+        </tabular>
 
 </section>

@@ -7,149 +7,114 @@
 
   <p>
     General PCC Grading Guidelines are found at
-    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/">catalog.pcc.edu/handbook/g301-gradingguidelines</url>.
+    <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/" visual="catalog.pcc.edu/handbook/g301-gradingguidelines"/>.
   </p>
 
   <paragraphs>
     <title>Attendance/Engagement</title>
     <p>
-      Attending and participating in the Zoom class sessions is a small factor in calculating your final grade.
-      Collectively, these sessions are worth 4% of your final grade.
-    </p>
-    <p>
-      If you miss a class session, you can still recover that part of your grade.
-      All that you need to do is watch the class recording.
-      Send me a message confirming that you did this, and I will update the record in D2L.
-      In your message, please include the specific date of the class recording that you watched.
+      Attending class is worth 4% of your final grade. If you have a reasonable circumstance where
+      you need to miss class, including being sick, tell me about it. I will ask you to do a few
+      small things and then you can recover the attendance credit for that day.
     </p>
   </paragraphs>
 
   <paragraphs>
     <title>Online Homework</title>
     <p>
-      You have online homework for each section using <webwork/>.
-      See <xref ref="section-webwork" text="title"/> for details.
-      The due date for each assignment is posted in <webwork/>.
-      It will always be Sunday evening at 10:00<pm/>.
-      Usually, more than one section will be due at the same time.
-      You should start working on these exercises soon after the corresponding class session
+      You have online homework for each section using <webwork/>. See
+      <xref ref="section-webwork" text="title"/> for details. The due date for each assignment is
+      posted in <webwork/>, but it will always be Sunday evening at 10:00<pm/> for full credit.
+      Usually, more than one section will be due at the same time. You should start working on these
+      exercises soon after the corresponding class session.
     </p>
-
     <p>
-      Collectively, all the online homework is worth 18% of your final grade.
-    </p>
-
-    <p>
-      After a due date, you may still work on the online homework and submit answers for 95% credit.
+      Collectively, all the online homework is worth 20% of your final grade.
     </p>
   </paragraphs>
 
   <paragraphs>
-    <title>Discussion Posts</title>
+    <title>Lab Exercise Write-Ups</title>
     <p>
-      Each week you will make a graded discussion post in D2L, responding to some topic that is posted.
-      Collectively, these are worth 10% of your grade.
+      Each week you have an assignment of exercises from the <pubtite>PCC Lab Manual</pubtite> to
+      complete. See <xref ref="section-weekly-routine"/> for the options on how you can be graded
+      for this. Collectively, these assignments are worth 15% of your grade.
     </p>
     <p>
-      When you make a post, I will give you private feedback and a score from 0 to 3.
-      If you score less than 3, you are invited to continue adding to your discsussion thread,
-      improving your response. I will update your score and send you new private feedback.
-      Eventually, you should reach a score of 3/3 on each discussion topic.
-      Here is a rubric that I use to determine your score with each post:
-    </p>
-    <tabular valign="top" top="major" bottom="minor">
-      <col/>
-      <col width="80%"/>
-      <row>
-        <cell>3 points</cell>
-        <cell>
-          <p>
-            Post is correct, relevant, well-written, and pertains to the appropriate module and textbook sections.
-            Post contains proper spelling, punctuation and grammar.
-            Post contains proper mathematical notation and vocabulary.
-          </p>
-        </cell>
-      </row>
-      <row>
-        <cell>2 points</cell>
-        <cell>
-          <p>
-            Post would be worth 3 points, but has one of the following issues:
-            <ul>
-              <li>mostly correct, but not entirely correct</li>
-              <li>noteworthy spelling, punctuation, grammar issues</li>
-              <li>does not use mathematical notation and vocabulary correctly</li>
-              <li>does not use equation editor where appropriate</li>
-            </ul>
-          </p>
-        </cell>
-      </row>
-      <row>
-        <cell>1 point</cell>
-        <cell>
-          <p>
-            Post needs significant editing or revision.
-            May have more than one of the issues listed for 2 points.
-            Or it may only have a kernel of correctness but is mostly incorrect.
-          </p>
-        </cell>
-      </row>
-      <row bottom="major">
-        <cell>0 points</cell>
-        <cell>
-          <p>
-            Post does not contain any correct work.
-            Or post is not related to the correct topic.
-          </p>
-        </cell>
-      </row>
-    </tabular>
-
-    <p>
-      The <q>due dates</q> for these weekly discussions are Sunday at 10:00<pm/>.
-      This is purely advisory to help you stay on track. If you post late,
-      or improve your initial post later than the <q>due date</q>,
-      it does not hurt your grade.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Written Assignments</title>
-    <p>
-      Each week you have an assignment of exercises to write up, scan, and turn in through D2L.
-      Usually, most or all of these exercises will come from the
-      <url href="https://spot.pcc.edu/math/clm/">PCC Calculus Lab Manual</url>.
+      The <q>due dates</q> for these assignments are Tuesday mornings. (Either in class Monday, to
+      my office on Tuesday morning, or scanned and posted in D2L by Tuesday morning.)
     </p>
     <p>
-      Collectively, these assignments are worth 18% of your grade.
+      Please note that these assignments will only be scored once. There is not an opportunity to
+      improve your score once an assignment is graded. But you are welcome to bring me a draft of
+      your work outside of class, where we can informally look it over together to catch any
+      significant issues before you turn it in.
     </p>
     <p>
-      The <q>due dates</q> for these assignments are Sunday at 10:00<pm/>.
-      This is purely advisory to help you stay on track. If you turn them in late,
-      it does not hurt your grade.
-    </p>
-    <p>
-      Please note that these assignments will only be scored once.
-      There is not an opportunity to improve your score once an assignment is graded.
-      But you are welcome to bring a draft of your work to an office hour,
-      where we can informally look it over together to catch any significant issues
-      before you turn it in.
+      I will be looking for a few things:
+      <ul>
+        <li>correctness of your responses</li>
+        <li>readability, including the layout of your responses and if your responses are convincing</li>
+        <li>correct use of math notation and vocabulary</li>
+      </ul>
+      Also your write-up should connect the questions to your answers. If it's simply a list of
+      answers with no context, it is not useful to you as a study tool later. So you should either
+      include each question preceding each answer, or you should have a clear system for connecting
+      the questions to the answers.
     </p>
   </paragraphs>
 
   <paragraphs xml:id="paragraphs-exams">
     <title>Exams</title>
     <p>
-      There is a final exam during finals week. It is worth 18% of your grade.
-      There are two midterm exams, each worth 16% of your grade.
+      There is a final exam during finals week that is worth 25% of your grade. There are also two
+      midterm exams, each worth 18% of your grade. Please see the
+      <xref ref="section-calendar" text="title"/> for dates.
     </p>
     <p>
-      Please see the <xref ref="section-calendar" text="title"/> for dates.
-    </p>
-    <p>
-      The format of the exams is not fully determined at this time.
-      You will have modules in D2L devoted to each exam with information about them.
+      The exams will be in-class. For each exam I will allocate an appropriate amount of time, and
+      remaining time will be used for lab assignment progress.
     </p>
   </paragraphs>
-
+  <paragraphs>
+    <title>Grading Options</title>
+    <p>
+      Students are solely responsible for adding, dropping, or withdrawing from any class, as well
+      as for selecting their desired grading option. Please review
+      <url href="http://www.pcc.edu/enroll/registration/policies.html" visual="www.pcc.edu/enroll/registration/policies.html">PCC Registration Policy</url>
+      for more information.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Letter Grades</title>
+    <p>
+      Your letter grade will be assigned based on the weighted average of the items above.
+    </p>
+      <tabular>
+        <col/>
+        <col right="minor"/>
+        <col/>
+        <col/>
+        <row header="yes">
+          <cell colspan="2">Pass (P)</cell>
+          <cell colspan="2">No Pass (N)</cell>
+        </row>
+        <row>
+          <cell>90% and up</cell>
+          <cell>A</cell>
+          <cell>60% up to 70%</cell>
+          <cell>D</cell>
+        </row>
+        <row>
+          <cell>80% up to 90%</cell>
+          <cell>B</cell>
+          <cell>under 60%</cell>
+          <cell>F</cell>
+        </row>
+        <row>
+          <cell>70% up to 80%</cell>
+          <cell>C</cell>
+        </row>
+      </tabular>
+  </paragraphs>
 </section>

@@ -1,189 +1,889 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- This file is part of Alex Jordan's syllabus -->
-   
+
 <section xml:id="section-written-assignments" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Written Assignments</title>
+    <p>
+        Please see the <xref ref="section-calendar" text="title"/> for the homework due dates.
+    </p>
+    <p>
+        As the term progresses, more written assignments will be added to the list here. These
+        should be turned in no later than their posted due dates. They can be turn in in-person, or
+        uploaded in D2L.
+    </p>
+    <p>
+        Written assignments are collectively worth 18% of your final grade. You cannot expect to do
+        well in this course unless you are turning these assignments in. These are where you will
+        get to develop your mathematical writing skills and work on your ability to give a
+        convincing logical argument.
+    </p>
+    <p>
+        The most important thing to understand about your written homework is that <alert>you are
+        not merely finding and giving answers.</alert> You are <em>explaining to someone what the
+        problem was, how you handled it, and summarizing the results.</em>  In general, your
+        write-ups should respect these <q>four C's</q>:
+        <dl>
+            <li>
+                <title>self-Containment</title>
+                <p>
+                    Your write-up should clearly and explicitly tell the reader what you are trying
+                    to accomplish. The most straightforward way to do this is to simply copy the
+                    entire exercise statement as the first thing in your write-up.
+                </p>
+            </li>
+            <li>
+                <title>Clarity</title>
+                <p>
+                    Am I able to read your work? Is your writing legible? Have you written
+                    complete sentences that make sense, where appropriate? If you have charts,
+                    graphs, and mathematical expressions, have you clearly indicated what they
+                    represent? Generally, any graphs need their axes labeled with regularly spaced
+                    tick marks, and they need some kind of overall title. If something about your
+                    write-up causes me to pause and wonder what you mean, you will lose clarity
+                    points.
+                </p>
+            </li>
+            <li>
+                <title>Convincing</title>
+                <p>
+                    Even if your writing is clear, it might not be logically convincing. For example,
+                    <q>I rode my bike to school today, so I only had $5 in my wallet.</q> is clear in
+                    the sense that the sentence structure is fine. But I don't understand why riding
+                    your bike to school implies that you only have $5 in your wallet. The logical
+                    progression of your write-up should convince your reader that you know what you
+                    are talking about, and that each statement you write is correct based on other
+                    things you have already established in your write-up.
+                </p>
+            </li>
+            <li>
+                <title>Conclusion</title>
+                <p>
+                    At the end of any write-up, it should be crystal clear what is your actual
+                    answer to the original question. In some cases, this will mean that you should
+                    write an actual conclusion sentence.
+                </p>
+            </li>
+        </dl>
+        Each exercise will be scored out of 4 points, one for each of these categories. A zero in
+        some category doesn't really mean 0%, it just means I felt there was significant room for
+        improvement and you coudl try again.
+    </p>
 
-    <p>As the term progresses, more written assignments will be added to the list here. These must be turned in no later than their posted due dates. Written assignments are each worth <quantity><mag>1.3</mag><unit base="percent"/></quantity> of your final grade, and there will be ten in total. That means they are worth <quantity><mag>13</mag><unit base="percent"/></quantity> in total, so you cannot expect to pass this course with an A unless you are turning these assignments in. These are where you will get to show me your mathematical writing skills and work on your ability to create a convincing logical argument.</p>
-
-    <p>The most important thing to understand about your written homework is that <alert>you are not merely finding and giving answers.</alert> You are <em>explaining to someone what the problem was, how you handled it, and summarizing the results.</em>  In general, your write-ups should respect these <q>five C's</q>:<ol>
-        <li>
-            <p>Clarity. Am I able to read your work? Is your writing legible? Have you written complete sentences that make sense, where appropriate? If you have charts, graphs, and mathematical expressions, have you clearly indicated what they represent? Generally, any graphs need their axes labeled with regularly spaced tick marks, and they need some kind of overall title. If something about your write-up causes me to pause and wonder what you mean, you will lose clarity points.</p>
-        </li>
-        <li>
-            <p>Correctness. Are your numerical answers and conclusions accurate? Often you can check that your numbers are correct by substituting numbers back into earlier equations. Also, by asking yourself if the numbers that you find make sense in the context of the problem. It's not a bad idea to include these checks with your work.</p>
-        </li>
-        <li>
-            <p>Conciseness. Have you rambled on with extra content that is not relevant to solving the problem? This is distracting and hurts the overall ability of your write-up to communicate effectively.</p>
-        </li>
-        <li>
-            <p>self-Containment. The response to the question that you submit should make it clear what the original question was. Put yourself in the shoes of another student from the class who does not have the original homework assignment in front of them. Would they be able to understand what you are talking about? At a minimum, this means that <alert>you must give an introduction of some kind that lets your reader know what you are about to investigate</alert>. Also, include any and all charts, graphs, and mathematical expressions that were given in the problem, and explain their meaning, even if you do so merely with labels.</p>
-        </li>
-        <li>
-            <p>Conclusions. Some problems come with context (<q>word problems</q>). When writing your final answer to such a question, you need to put that answer in its full context with a conclusion statement that is a complete English sentence. As an example, writing <q><m>x=70</m></q> or <q>He needs <dollar/>70</q> will not be good enough if there is more context to the problem. Instead, something like <q>Dmitri needs <dollar/>70 in order to purchase a new lawnmower</q> is a conclusion statement with all of the context in it. For problems without context, conclusion statements like <q>So the domain of <m>f</m> is <m>[0,\infty)</m>.</q> are acceptable.</p>
-        </li>
-    </ol></p>
-
-    <p><dl>
-        <li xml:id="written1">
-            <title>Written HW 1</title>
-            <p>Due Tuesday Apr 11</p>
-            <p><ul> 
+    <paragraphs xml:id="written1">
+        <title>Written HW 1</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 9.1 #2.</alert>
+            Sketch the points <m>(0,5,2)</m>, <m>(4,0,-1)</m>, <m>(2,4,6)</m>, and <m>(1,-1,2)</m>
+            on a single set of coordinate axes.
+        </p>
+        <p>
+            Notes. Look how Figure 1 in Section 9.1 is drawn. Notice how the <m>x</m>-axis and the
+            <m>y</m>-axis are not symmetric (the <m>x</m>-axis is drawn in more of a downward
+            direction than the <m>y</m>-axis). If you draw your axes symmetrically, it can be more
+            difficult for your readers to understand that it is a three-dimensional image.
+        </p>
+        <p>
+            <alert>Section 9.2 #6.</alert>
+            Copy the vectors in the figure and use them to draw the following vectors.
+            <ol marker="a." cols="2">
                 <li>
-                    <p>Section 9.2 <hash />5, <hash />6. These are curve-sketching exercises. Make sure you state the equations that define these curves. Take care with how you present your plots, or you may lose points for Clarity and Correctness. If you use a table to assist you, provide that table.</p>
+                    <p>
+                        <m>\vec{a}+\vec{b}</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 9.2 <hash />10, <hash />12, <hash />14, <hash />16. Use your graphing calculator to make these and then transfer the image to paper. Follow the same guidelines as before for Clarity and Correctness.</p>
+                    <p>
+                        <m>\vec{a}-\vec{b}</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 9.3 <hash />6, <hash />12.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written2">
-            <title>Written HW 2</title>
-            <p>Due Thursday Apr 20</p>
-            <p><ul> 
-                <li>
-                    <p>Section 9.4 <hash />13, <hash />16, <hash />22, <hash />25. These are curve-sketching exercises. Make sure you state the equations that define these curves. Take care with how you present your plots, or you may lose points for Clarity and Correctness. If you use a table to assist you, provide that table.</p>
+                    <p>
+                        <m>\frac12\vec{a}</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 9.5 <hash />25, <hash />27. Please observe the standards for writing up your work. The primary goal is to write up a solution in a way such that a general reader will understand your task/objective, everything that you did to accomplish it, and what your conclusion was. Of course you can assume that the reader understands the necessary calculus concepts and you don't need to explain <em>every</em> little thing. Use your judgment.</p>
+                    <p>
+                        <m>-3\vec{b}</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 10.1 <hash />16, <hash />28.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written3">
-            <title>Written HW 3</title>
-            <p>Due Thursday Apr 27</p>
-            <p><ul> 
-                <li>
-                    <p>Section 10.2 <hash />12, <hash />15, <hash />27.</p>
+                    <p>
+                        <m>\vec{a}+2\vec{b}</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 10.3 <hash />20, <hash />25, <hash />31.</p>
+                    <p>
+                        <m>2\vec{b}-\vec{a}</m>
+                    </p>
+                </li>
+            </ol>
+            [You will have to find the figure in the textbook.]
+        </p>
+        <p>
+            Notes. When drawing vectors as arrows it is not relevant where the starting position is.
+            You do not need to draw all of the vectors with the same starting position (but you can
+            if you want to). What matters is the direction and the length of the arrow that you
+            draw.)
+        </p>
+        <p>
+            <alert>Section 9.2 #43.</alert>
+            Use vectors to prove that the line joining the midpoints of two sides of a triangle is
+            parallel to the third side and half its length.
+        </p>
+        <p>
+            Notes. Sketch a triangle, preferable one that is not a right triangle and all three
+            sides have different lengths. Make two of the edges into arrows that emanate from one of
+            the corners. You can label these as vectors however you like. Now pick a direction to
+            make the third side an arrow as well. What is this vector in terms of the labels you
+            gave to the first two vectors? Continue answering the exercise now that you have this
+            diagram to help you think it through.
+        </p>
+        <p>
+            <alert>Section 9.3 #14.</alert>
+            A street vendor sells <m>a</m> hamburgers, <m>b</m> hot dogs, and <m>c</m> soft drinks
+            on a given day. They charge $2 for a hamburger, $1.50 for a hot dog, and $1 for a soft
+            drink. If <m>\vec{A}=\langle a,b,c\rangle</m> and <m>\vec{P}=\langle 2,1.5,1\rangle</m>,
+            what is the meaning of the dot product <m>\vec{A}\cdot\vec{P}</m>?
+        </p>
+        <p>
+            Notes. As always, make sure you are following the <q>four C's</q> that I use to assess
+            written work. Your write-up to this exercise should be more than a one-line sentence or
+            phrase.
+        </p>
+        <p>
+            <alert>Section 9.3 #33.</alert>
+            Show that the vector
+            <m>\mathrm{orth}_{\vec{a}}\,\vec{b}=\vec{b}-\mathrm{proj}_{\vec{a}}\,\vec{b}</m> is
+            orthogonal to <m>\vec{a}</m>. (It is called an <term>orthogonal projection</term> of
+            <m>\vec{b}</m>.
+        </p>
+        <p>
+            This exercise is defining what <m>\mathrm{orth}_{\vec{a}}\,\vec{b}</m> means in terms of
+            <m>\mathrm{proj}_{\vec{a}}\,\vec{b}</m> which is defined in the section. Your job is to
+            convince the reader that <m>\mathrm{orth}_{\vec{a}}\,\vec{b}</m> and <m>\vec{a}</m> are
+            orthogonal.
+        </p>
+        <p>
+            <alert>Section 9.4 #18.</alert>
+            Find the vector, not with determinants, but by using properties of cross products.
+            <me>(\hat{\imath}+\hat{\jmath})\times(\hat{\imath}-\hat{\jmath})</me>
+        </p>
+        <p>
+            Notes. Do not answer this by writing <m>\hat{\imath}</m> as <m>\langle1,0,0\rangle</m>,
+            etc. Instead, use the algebraic properties of the cross product (these are listed in a
+            box in the section, following Example 2). At some point, you will have to think about
+            the vectors <m>\hat{\imath}</m>, <m>\hat{\jmath}</m>, and <m>\hat{k}</m>; and the
+            right-hand rule and how they interact with eachother via the cross product. How you find
+            the final answer should be explained to your reader.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written2">
+        <title>Written HW 2</title>
+        <p>
+            This assignment has four exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 9.5 #34.</alert>
+            Use intercepts to help sketch the plane. <m>3x+y+2z=6</m>
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you. Figure
+            7 might be a model for you to follow. However you should make it clear that you are
+            plotting an entire plane, not just a triangle.
+        </p>
+        <p>
+            <alert>Section 9.5 #61.</alert>
+            Show that the lines with symmetric equations <m>x=y=z</m> and <m>x+1=y/2=z/3</m> are
+            skew, and find the distance between these lines.
+        </p>
+        <p>
+            Notes. To show that the two lines are skew, first you could assume that they are
+            <em>not</em> skew. So you could assume there are some specific numbers <m>x_0</m>,
+            <m>y_0</m>, and <m>z_0</m> that are on both of the two lines. What does the first line's
+            symmetric equtaions tell you about <m>x_0</m>, <m>y_0</m>, and <m>z_0</m>? And then
+            what does the second line's symmetric equtaions tell you about <m>x_0</m>, <m>y_0</m>,
+            and <m>z_0</m>?
+        </p>
+        <p>
+            <alert>Section 9.6 #7.</alert>
+            Find and sketch the domain of the function <m>f(x,y)=\sqrt{1-x^2}-\sqrt{1-y^2}</m>.
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you. You are
+            plotting a 2D image because you are plotting the domain of this function of two
+            variables. You should explain to your reader with some words (and possibly math
+            expressions) how you know that the domain you sketch is
+        </p>
+        <p>
+            <alert>Section 9.6 #12.</alert>
+            Sketch a graph of the function <m>f(x,y)=\cos(x)</m>.
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you. Notice how
+            <m>y</m> is not present in the function's formula. So you could plot one <q>rib</q> of
+            the graph for <m>y=0</m> and then know that more <q>ribs</q> are just translations of
+            that first rib in the <m>y</m>-direction.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written3">
+        <title>Written HW 3</title>
+        <p>
+            This assignment has seven exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 9.7 #4.</alert>
+            Plot the point whose cylindrical coordinates are given. Then find the rectangular
+            coordinates of the point.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        <m>(1,\pi,e)</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 10.4 <hash />16.</p>
+                    <p>
+                        <m>(1,3\pi/2,2)</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you. Your image
+            should make it clear to a reader how each of the three cylindrical coordinate values
+            are present in your picture.
+        </p>
+        <p>
+            <alert>Section 9.7 #26.</alert>
+            Sketch the solid described by the given inequalities. <m>0\leq\theta\leq\pi/2</m>,
+            <m>r\leq z\leq2</m>.
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you. You might
+            want to sketch the solid from more than one angle, unless you feel that your first
+            sketch does a good job of fully communicating the shape. The first inequality here tells
+            you something about which octants this shape can be in. With the second inequality, I
+            suggest imagining a few fixed values for <m>z</m>, like <m>z=0</m>, <m>z=1</m>, and
+            <m>z=2</m>. Each of these is a plane, and then you get to understand what a certain
+            cross-section of the sold looks like.
+        </p>
+        <p>
+            <alert>Section 10.1 #6.</alert>
+            Sketch the curve with the given vector equation. Indicate with an arrow the direction in
+            which <m>t</m> increases. <m>\vec{r}(t)=\langle t^2, t^3\rangle</m>.
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you.
+        </p>
+        <p>
+            <alert>Section 10.1 #8.</alert>
+            Sketch the curve with the given vector equation. Indicate with an arrow the direction in
+            which <m>t</m> increases. <m>\vec{r}(t)=\langle \sin\pi t, t, \cos \pi t\rangle</m>.
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you.
+        </p>
+        <p>
+            <alert>Section 10.1 #25.</alert>
+            Show that the curve with parameteric equations <m>x=t\cos t</m>, <m>y=t\sin t</m>,
+            <m>z=t</m> lies on eth cone <m>z^2=x^2+y^2</m>, and use this fact to help sketch the
+            curve.
+        </p>
+        <p>
+            Notes. This should be done by hand, not with a computer plotting it for you.
+        </p>
+        <p>
+            <alert>Section 10.2 #1.</alert>
+            The figure shows a curve <m>C</m> given by a vector function <m>\vec{r}(t)</m>.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Draw the vectors <m>\vec{r}(4.5)-\vec{r}(4)</m> and
+                        <m>\vec{r}(4.2)-\vec{r}(4)</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 10.4 <hash />41. (Use the book's definitions for cross product and dot product.)</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written4">
-            <title>Written HW 4</title>
-            <p>Due Thursday May 4</p>
-            <p><ul> 
-                <li>
-                    <p>Section 10.5 <hash />27.</p>
+                    <p>
+                        Draw the vectors <m>\frac{\vec{r}(4.5)-\vec{r}(4)}{0.5}</m> and
+                        <m>\frac{\vec{r}(4.2)-\vec{r}(4)}{0.2}</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 10.6 <hash />22.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written5">
-            <title>Written HW 5</title>
-            <p>Due Thursday May 11</p>
-            <p><ul> 
-                <li>
-                    <p>Section 11.1 <hash />5, <hash/>10, <hash/>15.</p>
+                    <p>
+                        Write expressions for <m>\vec{r}'(4)</m> and the unit tangent vector
+                        <m>\vec{T}(4)</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 11.1 <hash />26.</p>
+                    <p>
+                        Draw the vector <m>\vec{T}(4)</m>.
+                    </p>
+                </li>
+            </ol>
+            [You will have to find the figure in the textbook.]
+        </p>
+        <p>
+            Notes. Copy the figure from the textbook exactly. If you prefer, you can print a
+            picture of that figure. But then you must hand draw what is asked of you. The image
+            might become cluttered, and it might help with your clarity if you make separate
+            pictures for parts (a), (b), and (d). In part (c), one of the two expressions involves
+            the limit operator, and the other can just reference the first. 
+        </p>
+        <p>
+            <alert>Section 10.2 #4.</alert>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Sketch the plane curve <m>\vec{r}(t)=\langle 1+t, \sqrt{t}\rangle</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 11.2 <hash />15.</p>
+                    <p>
+                        Find <m>\vec{r}'(t)</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 11.3 <hash />12.</p>
+                    <p>
+                        Sketch the position vector <m>\vec{r}(t)</m> and the tangent vector
+                        <m>\vec{r}'(t)</m> for <m>t=1</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. This should be done by hand. In part (c), recall that you can sketch the same
+            vector in multiple places if you like.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written4">
+        <title>Written HW 4</title>
+        <p>
+            This assignment has four exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 10.3 #16.</alert>
+            Reparametrize the curve
+            <me>\vec{r}(t)=\left(\frac{2}{t^2+1}-1\right)\hat{\imath}+\frac{2t}{t^2+1}\hat{\jmath}</me>
+            with respect to arc length measured from the point <m>(1,0)</m> in the direction of
+            increasing <m>t</m>. Express the reparametrization in the simplest form. What can you
+            conclude about the curve?
+        </p>
+        <p>
+            Notes. First you will apply the procedure for parametrizing by arc length. You will need
+            several trig identitites to simplify the reparametrized expression, and here are some
+            that may help: <m>\tan^2(x)+1=\sec^2(x)</m>, <m>\frac{1}{\sec(x)}=\cos(x)</m>,
+            <m>\tan(x)\cos(x)=\sin(x)</m>, <m>2\cos^2(x/2)-1=\cos(x)</m>,
+            <m>2\sin(x/2)\cos(x/2)=\sin(x)</m>.
+        </p>
+        <p>
+            <alert>Section 10.3 #30.</alert>
+            At what point does the curve <m>y=\ln x</m> have the maximum curvature? What happens to
+            the curvature as <m>x\to\infty</m>?
+        </p>
+        <p>
+            Notes. This curve is expressed as <m>y=f(x)</m>, so it is convenient to find its
+            curvature at <m>x</m> using Formula 11 form the section. Once you locate where the
+            curvature is maximal, you should inlcude a plot of this function and mark where that
+            maximal curvature happens. Visually, it should seem reasonable that the curvature is
+            maximal there. Don't miss the last part of this exercise about <m>x\to\infty</m>. Your
+            answer to that part should come from your curvature formula, but also the graph should
+            visually validate your answer.
+        </p>
+        <p>
+            <alert>Section 10.3 #33.</alert>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Is the curvature of the curve <m>C</m> shown in the figure greater at
+                        <m>P</m> or at <m>Q</m>? Explain.
+                    </p>
+                    <p>
+                        [You will have to find the figure in the textbook.]
+                    </p>
                 </li>
                 <li>
-                    <p>Section 11.3 <hash />26.</p>
+                    Estimate the curvature at <m>P</m> and at <m>Q</m> by sketching the osculating
+                    circles at those points.
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. For part (b), recall that the radius of the osculating circle at a point is the
+            reciprocal of the curvature at that point.
+        </p>
+        <p>
+            <alert>Section 10.3 #49.</alert>
+            Find the equations of the osculating circles of the ellipse <m>9x^2+4y^2=36</m> at the
+            points <m>(2,0)</m> and <m>(0,3)</m>. Use a graphing calculator or computer to graph
+            the ellipse and both osculating circles on the same screen.
+        </p>
+        <p>
+            Notes. If you divide each side of the ellipse equation by <m>36</m>, it will be in
+            standard form where you can identify the two radii of the ellipse. Use what you know
+            about circular motion to parametrize the curve with a parameter <m>t</m>. (I do not
+            recommend solving the ellipse equaiton for <m>y</m> and using Formula 11 to find
+            curvature. In theory that would work but the formulas will be messy and you would have
+            to take a limit as <m>x</m> approaches <m>2</m> from below.)
+        </p>
+        <p>
+            In your graph, the circles ought to look like they fit well with the ellipse. If not, it
+            is a sign that you made an error.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written5">
+        <title>Written HW 5</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 10.4 #2.</alert>
+            The figure shows the path of a particle that moves with position vector
+            <m>\vec{r}(t)</m> at time <m>t</m>.
+        </p>
+        <p>
+            [You will have to find the figure in the textbook.]
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Draw a vector that represents the average velocity of the particle over the
+                        time interval <m>2\leq t\leq2.4</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 11.3 <hash />42.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written6">
-            <title>Written HW 6</title>
-            <p>Due Thursday May 18</p>
-            <p><ul> 
-                <li>
-                    <p>Section 11.4 <hash />26.</p>
+                    <p>
+                        Draw a vector that represents the average velocity of the particle over the
+                        time interval <m>1.5\leq t\leq2</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 11.5 <hash />14, <hash />17.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written7">
-            <title>Written HW 7</title>
-            <p>Due Thursday May 25</p>
-            <p><ul> 
-                <li>
-                    <p>Section 12.1 <hash />8, <hash />10, <hash />12, <hash />14.  Include a sketch of the domain.</p>
+                    <p>
+                        Write an expression for the velocity vector <m>\vec{v}(2)</m>.
+                    </p>
                 </li>
                 <li>
-                    <p>Section 12.1 <hash />16, <hash />18, <hash />20, <hash />22.</p>
+                    <p>
+                        Draw an approxiamtion to the vector <m>\vec{v}(2)</m> and estimate the speed
+                        of the particle at <m>t=2</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. When you draw the vectors that are asked for in (a) and (b), draw them with their
+            tails at the appropriate place: <m>\vec{r}(2)</m>. Remember that when <m>0.4</m> units
+            of time pass, and you divide by <m>0.4</m>, that is the same as multiplying by
+            <m>2.5</m>. Take note that the two axes have a scale, so it is possible for you to
+            estimate how long things are that you draw.
+        </p>
+        <p>
+            <alert>Section 10.4 #26.</alert>
+            A batter hits a baseball <m>3</m> ft above the ground toward the center field fence,
+            which is <m>10</m> ft high and <m>400</m> ft from home plate. The ball leaves the bat
+            with speed <m>115</m> ft/s at an angle of <m>50^{\circ}</m> above the horizontal. Is it
+            a home run? (In other words, does the ball clear the fence?)
+        </p>
+        <p>
+            Notes. You will need to know the acceleration due to gravity on Earth in feet per second.
+            You can treat this as a 2D vector problem. I recommend drawing some pictures.
+        </p>
+        <p>
+            <alert>Section 11.1 #5.</alert>
+            Find and sketch the domain of the function <m>f(x,y)=\ln(9-x^2-9y^2)</m>. What is the
+            range of <m>f</m>?
+        </p>
+        <p>
+            <alert>Section 11.1 #10.</alert>
+            Shown is a contour map of atmospheric pressure in North America on August 12, 2008. On
+            the level curves (called isobars) the pressure is indicated in millibars (mb).
+        </p>
+        <p>
+            [You will have to find the figure in the textbook.]
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Estimate the pressure at <m>C</m> (Chicago), <m>N</m> (Nashville), <m>S</m>
+                        (San Francisco), and <m>V</m> (Vancouver).
+                    </p>
                 </li>
                 <li>
-                    <p>Section 12.1 <hash />24, <hash />26.</p>
+                    <p>
+                        At which of these locations were the winds strongest?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. Remember that a good introduction (which is one point for the exercise) includes
+            any graphs or images that help the reader understand what your task is. For part (b),
+            make sure that you explain why you have chosen a particular city.
+        </p>
+        <p>
+            <alert>Section 11.1 #27.</alert>
+            Sketch both a contour map and a graph (3D) of the function and compare them.
+            <me>f(x,y)=x^2+9y^2</me>
+        </p>
+        <p>
+            Notes. It may help to recall that if you have an equation of the form
+            <m>\frac{x^2}{a^2}+\frac{y^2}{b^2}=1</m>, it makes an ellipse centered at the origin,
+            with <m>x</m>-radius <m>a</m> and <m>y</m>-radius <m>b</m>. If you set <m>x^2+9y^2</m>
+            equal to some number, you can divide by that number and then also use a little algebra
+            rearrangement to get that form of an ellipse equation.
+        </p>
+        <p>
+            <alert>Section 11.2 #14.</alert>
+            Find the limit, if it exists, or show that the limit does not exist.
+            <me>\lim_{(x,y)\to(0,0)}\frac{xy^4}{x^2+y^8}</me>
+        </p>
+        <p>
+            Notes. Try approaching <m>(0,0)</m> using curves of the form <m>y=p(x)</m> or
+            <m>y=q(x)</m>. You are trying to find two paths that reveal different limit behavior, so
+            you can conclude that this limit overall does not exist.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written6">
+        <title>Written HW 6</title>
+        <p>
+            This assignment has five exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 11.3 #4.</alert>
+            The wave heights <m>h</m> in the open sea depend on the speed <m>v</m> of the wind and
+            the length of time <m>t</m> that the wind has been blowing at that speed. Values of the
+            function <m>h=f(v,t)</m> are recorded in feet in the following table.
+        </p>
+        <p>
+            [You will have to find the table in the textbook.]
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        What are the meanings of the partial derivatives
+                        <m>\frac{\partial h}{\partial v}</m> and
+                        <m>\frac{\partial h}{\partial t}</m>?
+                    </p>
                 </li>
                 <li>
-                    <p>Section 12.1 <hash />28, <hash />30.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written8">
-            <title>Written HW 8</title>
-            <p>Due Thursday June 1</p>
-            <p><ul> 
-                <li>
-                    <p>Section 12.2 <hash />16, <hash />18, <hash />20.</p>
+                    <p>
+                        Estimate the values of <m>f_v(40,15)</m> and <m>f_t(40,15)</m>. What are the
+                        practical interpretations of these values?
+                    </p>
                 </li>
                 <li>
-                    <p>Section 12.5 <hash />11, <hash />17, <hash />21, <hash />25.</p>
+                    <p>
+                        What appears to be the value of the following limit?
+                        <me>\lim_{t\to\infty}\frac{\partial h}{\partial t}</me>
+                    </p>
                 </li>
-            </ul></p>
-        </li>
-        <li xml:id="written9">
-            <title>Written HW 9</title>
-            <p>Due Thursday Jun 8</p>
-            <p><ul> 
+            </ol>
+        </p>
+        <p>
+            Notes. For part (a), think about the units that would be attached to each partial
+            derivative.
+        </p>
+        <p>
+            <alert>Section 11.3 #5<ndash/>8.</alert>
+            Determine the signs of the partial derivatives for the function <m>f</m> whose graph is
+            shown.
+            <ul>
                 <li>
-                    <p>Section 12.6 <hash />13, <hash />19. For <hash />19, take <q>minimal increase</q> to mean <q>maximal decrease.</q></p>
-                </li>
-                <li>
-                    <p>Section 12.7 <hash />23.</p>
-                </li>
-                <li>
-                    <p>Section 12.8 <hash />17.</p>
-                </li>
-            </ul></p>
-        </li>
-        <li xml:id="written10">
-            <title>Written HW 10</title>
-            <p>Due Tuesday Jun 13</p>
-            <p><ul> 
-                <li>
-                    <p>Section 13.1 <hash />12, <hash />16, <hash />18, <hash />21.</p>
+                    <p>
+                        <m>f_x(1,2)</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 13.2 <hash />12, <hash />15, <hash />20, <hash />21.</p>
+                    <p>
+                        <m>f_y(1,2)</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 13.3 <hash />13.</p>
+                    <p>
+                        <m>f_x(-1,2)</m>
+                    </p>
                 </li>
                 <li>
-                    <p>Section 13.6 <hash />10, <hash />14.</p>
+                    <p>
+                        <m>f_y(-1,2)</m>
+                    </p>
                 </li>
-            </ul></p>
-        </li>
-    </dl></p>
+                <li>
+                    <p>
+                        <m>f_{xx}(-1,2)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f_{yy}(-1,2)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f_{xy}(1,2)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>f_{xy}(-1,2)</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            Notes. For each part, you should write roughly one sentence that explains why you are
+            deciding the way you are deciding. A complete introduction would include a copy of the
+            given graph.
+        </p>
+        <p>
+            <alert>Section 11.3 #9.</alert>
+            The following surfaces, labeled <m>a</m>, <m>b</m>, and <m>c</m>, are graphs of a
+            function <m>f</m> and its partial derivatives <m>f_x</m> and <m>f_y</m>. Identify each
+            surface and give reasons for your choices.
+        </p>
+        <p>
+            [You will have to find the graphs in the textbook.]
+        </p>
+        <p>
+            Notes. A complete introduction would include copies of the given graphs. Make sure that
+            you try to explain to your reader why you are making the choices you are making.
+        </p>
+        <p>
+            <alert>Section 11.3 #82.</alert>
+            The wind-chill index is modeled by the function
+            <me>
+                W=13.12+0.6215T-11.37v^{0.16}+0.3965Tv^{0.16}
+            </me>
+            where <m>T</m> is the temperature (in Celsius) and <m>v</m> is the wind speed (in km/h).
+            When <m>T=-15</m> and <m>v=30</m>, by how much would you expect the apparent temperature
+            <m>W</m> to drop if the actual temperature decreases by <m>1^{\circ}\mathrm{C}</m>?
+            What if the wind speed increases by <m>1</m> km/h?
+        </p>
+        <p>
+            Notes. This problem is all about finding partial derivatives in a real context, and
+            interpreting them.
+        </p>
+        <p>
+            <alert>Section 11.4 #8.</alert>
+            Graph the surface and the tangent plane at the given point. (Choose the domain and
+            viewpoint so that you get a good view of both the surface and the tangent plane.) Then
+            zoom in until the surface and the tangent plane become indistinguishable.
+            <me>
+                z=\arctan(xy^2), \qquad (1,1,\pi/4)
+            </me>
+        </p>
+        <p>
+            Notes. I am expecting you to show the steps/work for finding the tangent plane's
+            equation. Then use a 3D graphing app (such as GeoGebra's 3D calculator) to make two
+            images. One should be from a distance, the other zoomed in as requested. Include the
+            computer-generated images in your write-up.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written7">
+        <title>Written HW 7</title>
+        <p>
+            This assignment has six exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 11.5 #34.</alert>
+            Wheat production <m>W</m> in a given year depends on the average temperature <m>T</m>
+            and the annual rainfall <m>R</m>. Scientists estimate that the average temperature is
+            rising at a rate of <m>0.15^{\circ}\mathrm{C}/\mathrm{year}</m> and rainfall is
+            decreasing at a rate of <m>0.1\,\mathrm{cm}/\mathrm{year}</m>. They also estimate that,
+            at current prduction levels, <m>\partial W/\partial T=-2</m> and
+            <m>\partial W/\partial R=8</m>.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        What is the significance of the signs of these partial derivatives?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Estimate the current rate of change of wheat production, <m>dW/dt</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. For part (a), you are trying to say that as something increases, something else
+            increases/decreases. Just be specific about what is increasing, etc.
+        </p>
+        <p>
+            <alert>Section 11.5 #42.</alert>
+            If a sound with frequency <m>f_s</m> is produced by a source traveling along a line with
+            speed <m>v_s</m> and an observer is traveling with speed <m>v_o</m> along the same line
+            from the opposite direction toward the source, then the frequency of the sound heard by
+            the observer is <me>f_o=\left(\frac{c+v_o}{c-v_s}\right)f_s</me> where <m>c</m> is the
+            speed of sound, about 332 m/s. (This is the <term>Doppler effect</term>.) Suppose that,
+            at a particular moment, you are in a train traveling at <m>34\,\mathrm{m}/\mathrm{s}</m>
+            and accelerating at <m>1.2\,\mathrm{m}/\mathrm{s}^2</m>. A train is approaching you from
+            the opposite direction on the other track at <m>40\,\mathrm{m}/\mathrm{s}</m>,
+            accelerating at <m>1.4\,\mathrm{m}/\mathrm{s}^2</m>, and sounds its whistle, which has
+            a frequency of <m>460\,\mathrm{Hz}</m>. At that instant, what is the perceived
+            frequency that you hear and how fast is it changing?
+        </p>
+        <p>
+            Notes. You are the observer. This question asks you to find two things. One is just
+            <m>f_o</m> at that moment, and you simply use the Doppler effect equatin to get that.
+            But this also asks for <m>\frac{df_o}{dt}</m> at that moment, and you will use the Chain
+            Rule to find it. Note that <m>c</m> and <m>f_s</m> are constants. But <m>v_o</m> and
+            <m>v_s</m> are not constant.
+        </p>
+        <p>
+            <alert>Section 11.6 #32.</alert>
+            Suppose you are climbing a hill whose shape is given by the equation
+            <m>z=1000-0.005x^2-0.01y^2</m>, where <m>x</m>, <m>y</m>, and <m>z</m> are measured in
+            meters, and you are standing on a point with coordinates <m>(60,40,966)</m>. The
+            positive <m>x</m>-axis points east, and the positive <m>y</m>-axis points north.
+            <ol marker="a.">
+                <li>
+                    <p>
+                        If you walk due south, will you start to ascend or descend? At what rate?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If you walk northwest, will you start to ascend or descend? At what rate?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In which direction is the slope largest? What is the rate of ascent in that
+                        direction? At what angle above the horizontal does the path in that
+                        direction begin?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            Notes. Parts (a) and (b) are only asking for a certin directional derivative. Part (c)
+            is asking for serveral things. You will need to understand several things about the
+            gradient vector at that location to answer all of the questions in part (c).
+        </p>
+        <p>
+            <alert>Section 11.7 #33.</alert>
+            For functions of one variable it is impossible for a continuous function to have two
+            local maxima and no local minimum. But for functions of two variables such functions
+            exist. Show that the function <me>f(x,y)=-(x^2-1)^2-(x^2y-x-1)^2</me> has only two
+            critical points, but has local maxima at both of them. Then use a computer to produce a
+            graph with carefully chose domain and viewpoint to see how this is possible.
+        </p>
+        <p>
+            Notes. Is it clear why this is impossible for a continuous function of one variable?
+            In between the two maxima, you would have to have a minimum. Anyway, show what is asked
+            for about a two-variable function. Also, be sure to include a copy of the graph that
+            you make using GeoGebra, Desmos, etc.
+        </p>
+        <p>
+            <alert>Section 11.7 #46.</alert>
+            The base of an aquarium with given volume <m>V</m> is made of slate and the sides are
+            made of glass. If slate costs five times as much (per unit area) as glass, find the
+            dimensions of the aquarium that minimize the cost of materials.
+        </p>
+        <p>
+            Notes. At first you have three variables: <m>x, y, z</m>. But since the volume is fixed
+            at <m>V</m>, you can replace <m>z</m> with <m>\frac{V}{xy}</m> and only have two
+            variables. Now do something simple like assume the glass costs one dollar per unit of
+            area, and calclulate the total glass cost in terms of <m>x</m> and <m>y</m>. Then do
+            the same for the slate, but assuming it costs five dollars per unit area. (If the costs
+            are different, it won't matter as long as the ratio of the per-unit-area costs is still
+            five.) Add it all up to get the total cost, and this is the function to optimize. In
+            the end, report the three dimensions of the aquarium.
+        </p>
+        <p>
+            You <em>could</em> tackle this exercise using Lagrange multipliers from section 11.8.
+            But don't do that. The purpose here is to demonstrate the approach outlined above.
+        </p>
+        <p>
+            <alert>Section 11.8 #38.</alert>
+            Use Lagrange multipliers to give an alternate solution to Exercise #46 from Section 11.7.
+        </p>
+        <p>
+            OK, now you have a function of <em>three</em> variables <m>x, y, z</m>. Rather than
+            eliminate <m>z</m>, use the constraint <m>V=xyz</m>, and work with a simpler looking
+            cost function that is in terms of <m>x</m>, <m>y</m>, and <m>z</m>. Make sure you get the
+            same result as with the previous exercise.
+        </p>
+    </paragraphs>
+    <paragraphs xml:id="written8">
+        <title>Written HW 8</title>
+        <p>
+            This assignment has five exercises from the textbook.
+        </p>
+        <p>
+            <alert>Section 12.2 #32.</alert>
+            Graph the solid that lies between the surface <m>z=2xy/\left(x^2+1\right)</m> and the
+            plane <m>z=x+2y</m> and is bounded by the planes <m>x=0</m>, <m>x=2</m>, <m>y=0</m>, and
+            <m>y=4</m>. Then find its volume.
+        </p>
+        <p>
+            Notes. You should use a 3D graphing app to plot the six surfaces that are described
+            here. Typically, 3D graphing apps will use trasparency to allow you to see surfaces
+            through the other side of surfaces, and you will want that to make this solid visible.
+            Capture at least two images from different viewpoints so your reader can really see what
+            this looks like. Then to find the volume, set up the appropriate integral and find it by
+            hand.
+        </p>
+        <p>
+            <alert>Section 12.3 #38.</alert>
+            Sketch the solid whose volume is given by the iterated integral
+            <me>\int_0^1\int_0^{1-x^2}(1-x)\,dy\,dx</me>
+        </p>
+        <p>
+            Notes. This is <em>only</em> asking you to amke the sketch, not also find the volume
+            (although that would be easy to do). You should attempt to sketch the solid by hand.
+            First make your axis system in the <q>usual</q> way with the <m>x</m>-axis pointing a
+            bit down and to the left, the <m>y</m>-axis pointing mostly to the right, and the 
+            <m>z</m>-axis pointing up. The bounds on the iterated integral define curves/lines you
+            should attempt to sketch in the <m>xy</m>-plane. The function being integrated is a
+            <m>z</m>-value, and that defines for you a <q>top</q> to this object.
+        </p>
+        <p>
+            <alert>Section 12.3 #60.</alert>
+            In evaluating a double integral over a region <m>D</m>, a sum of iterated integral was
+            obtained as follows:
+            <me>\iint_D f(x,y)\,dA=\int_0^1\int_0^{2y}f(x,y)\,dx\,dy+\int_1^3\int_0^{3-y}f(x,y)\,dx\,dy</me>
+            Sketch the region <m>D</m> and express the double integral as an iterated integral with
+            reversed order of integration.
+        </p>
+        <p>
+            Notes. The sketch you make for this exercise is a 2D sketch of <m>D</m>, not a 3D sketch.
+            The poit of the exercise is that if you can use the sum of two iterated integrals to
+            understand what the region <m>D</m> actually looks like, then if you change the order
+            of integration, it is actually just a single iterated integral (not a sum of two
+            iterated integrals).
+        </p>
+        <p>
+            <alert>Section 12.4 #5.</alert>
+            Sketch the region whose area is given by the integral and evaluate the integral:
+            <me>\int_{\pi}^{2\pi}\int_4^7r\,dr\,d\theta</me>
+        </p>
+        <p>
+            Notes. The first step is to sketch the shape. Since the integrand is
+            <m>r\,dr\,d\theta</m>, which is polar coordinates is <m>dA</m>, the limits on the two
+            integrals define for you the shape. After you understand the shape, you are welcome to
+            either actually do the integral using antiderivatives, or use basic geometry area
+            formulas.
+        </p>
+        <p>
+            <alert>Section 12.4 #31.</alert>
+            A swimming pool is circular with a <m>40</m>-ft diameter. The depth is constant along
+            east-west lines and increases linearly from <m>2</m> ft at the south end to <m>7</m> ft
+            at the north end. Find the volume of water in the pool.
+        </p>
+        <p>
+            Notes. You might benefit from sketching this 3D object, as well as sketching the 2D
+            region over which you will integrate. You need to integrate the depth (in feet) times
+            <m>dA</m>, which is in square feet. Remember to use the polar coordinates expression for
+            <m>dA</m>. The depth of the pool is easiest to express as a function of <m>y</m> (given
+            the orientation with the shallow end at the southern point and deep end at the northern
+            point) but you will want to convert that into polar coordinates.
+        </p>
+    </paragraphs>
 </section>

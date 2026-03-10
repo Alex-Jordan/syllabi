@@ -1,93 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-exams" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-exams">
   <title>Exams</title>
-
-  <introduction>
+  <p>
+    We will have four required exams in this course. The first three are chapter exams, covering
+    (respectively) chapters 1, 2, and 3. The final exam will cover all of chapters 1<ndash/>4.
+    <dl>
+      <li>
+        <title>Chapter 1 Exam</title>
+        <p>
+          Wednesday 10/18
+        </p>
+      </li>
+      <li>
+        <title>Chapter 2 Exam</title>
+        <p>
+          Monday 11/6
+        </p>
+      </li>
+      <li>
+        <title>Chapter 3 Exam</title>
+        <p>
+          Monday 11/27
+        </p>
+      </li>
+      <li>
+        <title>Final Exam</title>
+        <p>
+          Monday 12/11
+        </p>
+      </li>
+    </dl>
+    For the chapter exams, we will start class that day with a review activity, typically for about
+    one hour. Then the exam will take place. I write exams designed to take some students only 50%
+    of the allotted time, and I would never want you to have a low score on an exam simply because
+    there was not enough time.
+  </p>
+  <p>
+    The final exam will use our full two-hour time slot, and not be immediately preceded by a review
+    session.
+  </p>
+  <paragraphs>
+    <title>Alternatives</title>
     <p>
-      Please see the <xref ref="section-calendar" text="title"/> for the exam dates.
-    </p>
-    <p>
-      About a week before each exam, you will receive a practice exam.
-      Practice exams are typically longer than the real exam to give you more to practice with.
-    </p>
-
-    <p>
-      <dl width="narrow">
-        <li xml:id="exam1">
-          <title>Exam 1 (20%)</title>
+      If you cannot participate in an exam at its usual time or place, there are some alternatives.
+      However, please note that there are no exceptions to having to take the exams with a proctor.
+      If you need to explore the alternatives below, please contact me as soon as possible to begin
+      discussing your options. The alternatives include:
+      <ul>
+        <!-- <li>
           <p>
-            Covers sections 1.1<ndash/>1.8.
+            You identify a proctoring institution (such as another college) that is closer to where
+            you live. You will be responsible for making proctoring appointments with them two weeks
+            in advance of the exam dates. I will provide you with a form<fn>This form is linked from
+            our D2L course at the bottom of the Content menu.</fn> that you complete with the
+            assistance of that institution's testing center. You may take an exam a few days earlier
+            than the dates listed above, but not later.
           </p>
+        </li> -->
+        <li>
           <p>
-            You'll have the entire class period for this exam if you need it.
+            You have an AEDR accommodation for extended time or a private working area. Then you
+            will work with PCC AEDR at least one week in advance to schedule appointments for these
+            exams. These might be in-person or remotely proctored, as is appropriate for your needs.
+            You may take an exam a few days earlier than the dates listed above, but not later.
           </p>
         </li>
-        <li xml:id="exam2">
-          <title>Exam 2 (20%)</title>
+        <li>
           <p>
-            Covers sections 2.1<ndash/>3.5.
-            Additionally there will be some repeated questions from Exam 1.
-            (So part of your studying should be reviewing your first exam.)
-          </p>
-          <p>
-            You'll have the entire class period for this exam if you need it.
+            If you have a scheduling conflict, you can make an appointment with a PCC testing center
+            for a virtually proctored exam. Email <email>testing.remote@pcc.edu</email> to arrange
+            an appointment. Once it is scheduled, <alert>contact me to tell me about your
+            appointment.</alert>
           </p>
         </li>
-        <li xml:id="exam3">
-          <title>Exam 3 (25%)</title>
+        <!-- <li>
           <p>
-            Covers sections 3.6<ndash/>3.8 and 4.1<ndash/>4.3.
-            Additionally there will be some repeated questions from Exams 1 and 2.
-            (So part of your studying should be reviewing your first and second exams.)
+            If you simply prefer to take your exams in person, you can make an appointment with a
+            PCC testing center for an in-person proctored exam. Email
+            <email>testing.remote@pcc.edu</email> to arrange an appointment. Once it is scheduled,
+            <alert>contact me to tell me about your appointment.</alert>
           </p>
-          <p>
-            This exam is during finals week and is only two hours long.
-          </p>
-        </li>
-      </dl>
-    </p>
-  </introduction>
-
-  <paragraphs>
-    <title>Missing an Exam</title>
-    <p>
-      If you miss an exam, you must contact me within one day to explain why
-      or I might not be able to allow a make-up and you would receive a zero.
-      <alert>Make-up exams are only permitted under extreme circumstances.
-      PCC does not have enough staff and facilities to administer too many make-up exams.</alert>
-      If you have a valid excuse, you must make up the exam within the next two business days,
-      or I might not be able to allow a make-up and you would receive a zero.
-      If you are going to make up the exam, contact the testing center immediately
-      (<url href="http://www.pcc.edu/resources/testing/proctored/">www.pcc.edu/resources/testing/proctored</url>)
-      to learn what time you might be able to make up the exam.
-      If you are going to miss the final exam, contact me before the test is given.
-    </p>
-    <p>
-      Above all else, <alert>get in contact with me if you have missed or will miss an exam.</alert>
-      Space and time to make up an exam is limited. You need to make arrangements as soon as there is an issue.
+        </li> -->
+      </ul>
+      You may contact me if you have some situation that is not covered here and you would like to
+      ask about it.
     </p>
   </paragraphs>
-
-  <paragraphs>
-    <title>Exam Redos</title>
-    <p>
-      There may be opportunities to try an exam for a second, or even a third time.
-      These opportunities will be discussed in class if and when they arise.
-    </p>
-  </paragraphs>
-
-  <paragraphs>
-    <title>Accommodated Testing</title>
-    <p>
-      Students who experience disability-related barriers should contact Disability Services:
-      <url href="http://www.pcc.edu/disability">www.pcc.edu/disability</url>.
-      If students elect to use approved academic adjustments, they must provide, in advance,
-      formal notification from Disability Services to the instructor.
-      Exam accommodations may include, but are not limited to, extended time and a distraction-free environment.
-    </p>
-  </paragraphs>
-
+  <!-- <p>
+    By registering for this course, you agree to all of the above. By default, you will take an exam
+    using remote proctoring over Zoom at the scheduled time. Or you will plan at least one week in
+    advance for one of the alternative arrangements.
+  </p> -->
+  <p>
+    The chapter exams are each worth 11% of your final grade, and the final exam is worth 15% of
+    your final grade.
+  </p>
 </section>

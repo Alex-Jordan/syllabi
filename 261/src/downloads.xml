@@ -11,8 +11,8 @@
     <paragraphs>
         <title>Lecture Notes</title>
         <p>Lecture note files are not a substitute for attending class. We discuss things in class that are not always clear from these written notes alone.</p>
-        <p><ul>
-            <li>
+        <!-- <p><ul> -->
+            <!--<li>
                 <p><url href="./notes/Sec1-1,1-2MondayJune24.pdf">Sections 1.1, 1.2 (June 24)</url></p>
             </li>
             <li>
@@ -47,14 +47,14 @@
             </li>
             <li>
                 <p><url href="./notes/Sec5-3WednesdayJuly31.pdf">Section 5.3 (July 31)</url></p>
-            </li>
+            </li> -->
             <!-- <li>
                 <p><url href="./notes/NotesSections6-1,6-2WednesdayJuly25.pdf">Sections 6.1, 6.2 (July 25)</url></p>
             </li>
             <li>
                 <p><url href="./notes/NotesSections6-1,6-2,6-3,6-4FridayJuly27.pdf">Sections 6.1, 6.2, 6.3, 6.4 (July 27)</url></p>
             </li> -->
-        </ul></p>
+        <!-- </ul></p> -->
     </paragraphs>
     <paragraphs>
         <title>In-Class Handouts</title>

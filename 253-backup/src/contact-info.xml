@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of Alex Jordan's syllabus -->
+
+<section xml:id="section-contact-info" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Contact Information</title>
+
+  <p>
+    To reach me or PCC:
+  </p>
+
+  <sidebyside>
+    <tabular>
+      <row>
+        <cell>Instructor: Alex Jordan</cell>
+      </row>
+      <row>
+        <cell>
+          <line>Office: CA SSB 317 when PCC opens</line>
+          <line>(Use email and D2L to contact me.)</line>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>Phone: 971-722-4138</line>
+          <line>(Not a good way to reach me this term.)</line>
+        </cell>
+      </row>
+      <row>
+        <cell>email: <email>alex.jordan@pcc.edu</email></cell>
+      </row>
+    </tabular>
+    <tabular>
+      <row>
+        <cell>Portland Community College</cell>
+      </row>
+      <row>
+        <cell>Cascade Campus</cell>
+      </row>
+      <row>
+        <cell>705 N Killingsworth St.</cell>
+      </row>
+      <row>
+        <cell>Portland, OR 97217</cell>
+      </row>
+    </tabular>
+  </sidebyside>
+
+  <p>
+    Because of federal privacy laws,
+    all email communications related to this class need to be sent to and from your <c>@pcc.edu</c> email address.
+  </p>
+
+  <tabular top="major" valign="top" left="major" bottom="minor">
+    <col/>
+    <col/>
+    <col/>
+    <col/>
+    <col right="major"/>
+    <row bottom="medium">
+      <cell>CRN</cell>
+      <cell>Days</cell>
+      <cell>Time</cell>
+      <cell>Place</cell>
+      <cell>Final Exam</cell>
+    </row>
+    <row bottom="major">
+      <cell>22468</cell>
+      <cell>M/W</cell>
+      <cell>9:00<ndash/>11:20</cell>
+      <cell>
+        <line>Remote</line>
+      </cell>
+      <cell>
+        <line>Monday</line>
+        <line>6/13/2022</line>
+        <line>9:00<ndash/>11:00</line>
+      </cell>
+    </row>
+  </tabular>
+
+  <p>
+    I have drop-in office hours where you do not need to make an appointment<mdash/>just come by!
+    Use the link to a dedicated Zoom room that you will find in D2L on our course homepage under my picture.
+  </p>
+
+  <tabular top="major" left="major">
+    <col/>
+    <col right="medium"/>
+    <col/>
+    <col right="major"/>
+    <row>
+      <cell colspan="2" halign="center" bottom="medium">Office Hours</cell>
+    </row>
+    <!-- <row bottom="medium">
+      <cell colspan="2">Regular</cell>
+      <cell colspan="2">Finals Week</cell>
+    </row> -->
+    <row bottom="minor">
+      <cell>Monday</cell>
+      <cell>3:00<ndash/>4:20</cell>
+      <!-- <cell>Wednesday</cell>
+      <cell>3:00<ndash/>4:20</cell> -->
+    </row>
+    <row bottom="major">
+      <cell>Wednesday</cell>
+      <cell>3:00<ndash/>4:20</cell>
+      <!-- <cell>Tuesday</cell>
+      <cell>12:30<ndash/>1:30</cell> -->
+    </row>
+    <!-- <row bottom="major">
+      <cell>Friday</cell>
+      <cell>9:00<ndash/>10:00</cell>
+      <cell>Wednesday</cell>
+      <cell>9:00<ndash/>10:00</cell>
+    </row> -->
+  </tabular>
+
+  <p>
+    If those times are not workable for you, please feel comfortable contacting me to make some other arrangements.
+  </p>
+
+</section>

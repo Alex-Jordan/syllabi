@@ -1,0 +1,10 @@
+/Users/alex.jordan/syllabi/252/src/syllabus.xml:22:150: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/syllabus.xml:23:115: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/course-description.xml:39:122: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/expectations.xml:48:118: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/textbook.xml:17:149: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/textbook.xml:22:97: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/grades.xml:10:120: error: text not allowed here; expected the element end-tag
+/Users/alex.jordan/syllabi/252/src/exams.xml:7:102: warning: SchemeUnsupported: The XPointer scheme 'xpointer' is not supported.
+/Users/alex.jordan/syllabi/252/src/exams.xml:7:102: warning: Include operation failed, reverting to fallback. Resource error reading file as XML (href='./grades.xml'). Reason: XPointer resolution unsuccessful.
+/Users/alex.jordan/syllabi/252/src/syllabus.xml:34:42: fatal: Error attempting to parse XML file (href='./exams.xml').

@@ -8,7 +8,7 @@
       <col/>
       <col/>
       <col width="21%"/>
-      <col width="48%" right="major"/>
+      <col width="42%" right="major"/>
       <row header="yes" bottom="medium">
         <cell>Module</cell>
         <cell>Sections</cell>
@@ -18,7 +18,7 @@
       <row>
         <cell>
           <line>0</line>
-          <line>6/26<ndash/>6/29</line>
+          <line>1/5<ndash/>1/8</line>
         </cell>
         <cell>
         </cell>
@@ -32,18 +32,22 @@
         </cell>
         <cell>
           <p>
-            Complete the WeBWorK Orientation Assignment by Thursday at 10 <pm/>.
+            Complete the WeBWorK Orientation Assignment by Thursday at 10:00 <pm/>.
           </p>
           <p>
-            Make a post in the <q>Find a Study Group!</q> Discussion by Thursday at 10 <pm/>. And
-            then be a member of a study group of 4<ndash/>6 by Sunday at 10 <pm/>.
+            Make a post in the <q>Find a Study Group!</q> Discussion by Thursday at 10:00 <pm/>. And
+            then <em>be</em> a member of a study group with 4<ndash/>6 members by Sunday at 10:00
+            <pm/>.
+          </p>
+          <p>
+            Complete the Course Information quiz in Module 0.
           </p>
         </cell>
       </row>
       <row>
         <cell>
           <line>1</line>
-          <line>6/26<ndash/>7/2</line>
+          <line>1/5<ndash/>1/11</line>
         </cell>
         <cell>
           <line>10.1</line>
@@ -60,7 +64,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 10.1, 10.2, and 10.3 by Sunday at 10 <pm/>.
@@ -73,7 +77,7 @@
       <row>
         <cell>
           <line>2</line>
-          <line>7/3<ndash/>7/9</line>
+          <line>1/12<ndash/>1/18</line>
         </cell>
         <cell>
           <line>10.4</line>
@@ -90,7 +94,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 10.4, 10.5, and 10.6 by Sunday at 10 <pm/>.
@@ -103,7 +107,7 @@
       <row>
         <cell>
           <line>3</line>
-          <line>7/10<ndash/>7/16</line>
+          <line>1/19<ndash/>1/25</line>
         </cell>
         <cell>
           <line>10.7</line>
@@ -120,7 +124,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 10.7, 11.1, and 11.2 by Sunday at 10 <pm/>.
@@ -130,10 +134,10 @@
           </p>
         </cell>
       </row>
-      <row bottom="medium">
+      <row>
         <cell>
           <line>4</line>
-          <line>7/17<ndash/>7/23</line>
+          <line>1/26<ndash/>2/1</line>
         </cell>
         <cell>
           <line>11.3</line>
@@ -150,7 +154,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 11.3, 11.4, and 11.5 by Sunday at 10 <pm/>.
@@ -160,23 +164,39 @@
           </p>
         </cell>
       </row>
-      <row bottom="major">
-        <cell>Midterm</cell>
-          <line>7/24</line>
-          <line><ndash/>7/25 or 26</line>
+      <row bottom="medium">
         <cell>
+          <line>2/2<ndash/>2/4</line>
+        </cell>
+        <cell>
+          <line>Midterm</line>
+          <line>Exam</line>
+          <line>Prep</line>
         </cell>
         <cell>
           <p>
-            Work through the midterm exam review material.
+            Read through the Midterm Exam Preparation module.
           </p>
         </cell>
         <cell>
           <p>
-            Midterm Exam is on Tuesday 7/25 at 2:00<ndash/>4:20 for CRN 33419. And on Wednesday
-            7/26 at 2:00<ndash/>4:20 for CRN 31183. See <xref ref="section-exams"/> if an
-            alternative is necessary, but you need to plan for such things at least two weeks in
-            advance.
+            Complete and post the Midterm Exam Preparation assignment by <em>the evening before the exam</em> at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="major">
+        <cell colspan="2">
+          <line>Midterm Exam on Feb 5 at</line>
+          <line>9:00<ndash/>11:30 for CRN 11842</line>
+          <line>1:00<ndash/>3:30 for CRN 14956</line>
+        </cell>
+        <cell/>
+        <cell width="67%">
+          <p>
+            The Midterm Exam is remotely proctored. You should be thoroughly familiar with the
+            process before arriving. Contact me if you need more guidance about remote proctoring.
+            See <xref ref="section-exams"/> if an alternative is necessary, but you need to plan for
+            such things at least one week in advance.
           </p>
         </cell>
       </row>
@@ -185,7 +205,7 @@
       <col/>
       <col/>
       <col width="21%"/>
-      <col width="48%" right="major"/>
+      <col width="42%" right="major"/>
       <row header="yes" bottom="medium">
         <cell>Module</cell>
         <cell>Sections</cell>
@@ -195,12 +215,11 @@
       <row>
         <cell>
           <line>5</line>
-          <line>7/24<ndash/>7/30</line>
+          <line>2/2<ndash/>2/8</line>
         </cell>
         <cell>
           <line>12.1</line>
           <line>12.2</line>
-          <line>12.3</line>
         </cell>
         <cell>
           <p>
@@ -212,7 +231,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 12.1, 12.2, and 12.3 by Sunday at 10 <pm/>.
@@ -225,9 +244,10 @@
       <row>
         <cell>
           <line>6</line>
-          <line>7/31<ndash/>8/6</line>
+          <line>2/9<ndash/>2/15</line>
         </cell>
         <cell>
+          <line>12.3</line>
           <line>12.4</line>
           <line>12.5</line>
         </cell>
@@ -241,7 +261,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 12.4 and 12.5 by Sunday at 10 <pm/>.
@@ -254,7 +274,7 @@
       <row>
         <cell>
           <line>7</line>
-          <line>8/7<ndash/>8/13</line>
+          <line>2/16<ndash/>2/22</line>
         </cell>
         <cell>
           <line>13.1</line>
@@ -270,7 +290,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 13.1 and 13.2 by Sunday at 10 <pm/>.
@@ -283,7 +303,7 @@
       <row>
         <cell>
           <line>8</line>
-          <line>8/14<ndash/>8/20</line>
+          <line>2/23<ndash/>3/1</line>
         </cell>
         <cell>
           <line>13.3</line>
@@ -299,7 +319,7 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
             Complete the WeBWorK Exercises for Sections 13.3 and 13.4 by Sunday at 10 <pm/>.
@@ -309,13 +329,12 @@
           </p>
         </cell>
       </row>
-      <row bottom="medium">
+      <row>
         <cell>
           <line>9</line>
-          <line>8/21<ndash/>8/27</line>
+          <line>3/2<ndash/>3/8</line>
         </cell>
         <cell>
-          <line>13.5</line>
           <line>13.6</line>
           <line>13.7</line>
         </cell>
@@ -329,33 +348,71 @@
         </cell>
         <cell>
           <p>
-            Post completed video lecture notes.
+            Post completed video lecture notes by Sunday at 10 <pm/>.
           </p>
           <p>
-            Complete the WeBWorK Exercises for Sections 13.5, 13.6, and 13.7 by Sunday at 10 <pm/>.
+            Complete the WeBWorK Exercises for Sections 13.6 and 13.7 by Sunday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>10</line>
+          <line>3/9<ndash/>3/15</line>
+        </cell>
+        <cell>
+          <line>13.5</line>
+        </cell>
+        <cell>
+          <p>
+            Watch video lectures and complete related lecture outlines.
           </p>
           <p>
-            Complete and upload Worksheet #9 by Sunday at 10 <pm/>.
+            Read corresponding textbook sections.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Post completed video lecture notes by Saturday at 10 <pm/>.
+          </p>
+          <p>
+            Complete the WeBWorK Exercises for Section 13.5 by Saturday at 10 <pm/>.
+          </p>
+        </cell>
+      </row>
+      <row bottom="medium">
+        <cell>
+          <line>3/9<ndash/>3/16</line>
+        </cell>
+        <cell>
+          <line>Final</line>
+          <line>Exam</line>
+          <line>Prep</line>
+        </cell>
+        <cell>
+          <p>
+            Read through the Final Exam Preparation module.
+          </p>
+        </cell>
+        <cell>
+          <p>
+            Complete and post the Final Exam Preparation assignment by <em>the evening before the exam</em> at 10 <pm/>.
           </p>
         </cell>
       </row>
       <row bottom="major">
-        <cell>Final</cell>
-          <line>8/28</line>
-          <line><ndash/>8/29 or 30</line>
-        <cell>
+        <cell colspan="2">
+          <line>Final Exam on March 17 at</line>
+          <line>9:00<ndash/>11:30 for CRN 11842</line>
+          <line>1:00<ndash/>3:30 for CRN 14956</line>
         </cell>
+        <cell/>
         <cell>
           <p>
-            Work through the midterm exam review material.
-          </p>
-        </cell>
-        <cell>
-          <p>
-            Final Exam is on Tuesday 8/29 at 2:00<ndash/>4:20 for CRN 33419. And on Wednesday
-            8/30 at 2:00<ndash/>4:20 for CRN 31183. See <xref ref="section-exams"/> if an
-            alternative is necessary, but you need to plan for such things at least two weeks in
-            advance.
+            The Final Exam is remotely proctored. You should be thoroughly familiar with the
+            process before arriving. Contact me if you need more guidance about remote proctoring.
+            See <xref ref="section-exams"/> if an alternative is necessary, but you need to plan for
+            such things at least one week in advance.
           </p>
         </cell>
       </row>

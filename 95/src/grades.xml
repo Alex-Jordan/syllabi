@@ -7,40 +7,56 @@
     <url href="http://catalog.pcc.edu/handbook/g301-gradingguidelines/" visual="catalog.pcc.edu/handbook/g301-gradingguidelines"/>.
   </p>
   <paragraphs>
-    <title>Video Lecture Notes (4%)</title>
+    <title>Video Lecture Notes (10%)</title>
     <p>
       Just as with in-person classes, taking notes during the lectures helps students understand and
       retain information. Each section has lecture notes that accompany YouTube videos. Print these
       lecture note outlines and fill them in as you watch the videos. (Or annotate a PDF digitally.)
-      Post them to the appropriate place in D2L each week.
+      Post them to the appropriate place in D2L each week. The video lecture note files are
+      available in D2L, from the <q>Quick Reference</q> navbar item, in <q>Downloads</q>.
     </p>
   </paragraphs>
   <paragraphs>
-    <title>Online Homework (24%)</title>
+    <title>Online Homework (25%)</title>
     <p>
       You have online homework for each section using <webwork/>. See
       <xref ref="section-webwork" text="title"/> for details. The due date for each assignment is
       posted in <webwork/>. Usually, more than one section will be due at the same time. You should
       start working on a homework assignment soon after the class that is associated with that
-      section of the book.
+      section of the book. But always read the textbook section, watch the video lectures, and
+      complete the video lecture notes before beginning <webwork/>.
     </p>
   </paragraphs>
   <paragraphs>
-    <title>Worksheets (24%)</title>
+    <title>Worksheets (25%)</title>
     <p>
       Each week there is a worksheet to complete and turn in. You are encouraged to work with your
       group partners on these assignments (using Discord, Zoom, email, whatever works), and check
-      each other's work before turning yours in.
+      each other's work before turning yours in. Always complete the <webwork/> before starting the
+      worksheet.
     </p>
   </paragraphs>
   <paragraphs>
-    <title>Exams (24% + 24%)</title>
+    <title>Exams (20% + 20%)</title>
     <p>
       There is a midterm exam and a final exam. Each exam is proctored. Most students will use
       <q>remote proctoring</q> and take the exams from home, with a video feed that shows your work
       area. See <xref ref="section-exams"/> for possible alternative arrangements.
     </p>
   </paragraphs>
+  <assemblage>
+    <title>Exams Minimum</title>
+    <p>
+      <alert>Important:</alert> In order to pass the course, there is an additional requirement that
+      you must pass at least one of the two exams with a 70% or higher. If you do not pass either
+      exam, then the highest possible letter grade that you can end with is a D, even if your
+      overall average is above 70%.
+    </p>
+    <p>
+      In particular, if you do not pass the midterm exam, then in order to pass the course you must
+      pass the final exam.
+    </p>
+  </assemblage>
   <paragraphs>
     <title>Grading Options</title>
     <p>
@@ -55,32 +71,31 @@
     <p>
       Your letter grade will be assigned based on the weighted average of the items above.
     </p>
-    <tabular>
-      <row>
-        <cell>90% and up</cell>
-        <cell>A</cell>
-        <cell/>
-      </row>
-      <row>
-        <cell>80% up to 90%</cell>
-        <cell>B</cell>
-        <cell/>
-      </row>
-      <row bottom="minor">
-        <cell>70% up to 80%</cell>
-        <cell>C</cell>
-        <cell>P</cell>
-      </row>
-      <row>
-        <cell>60% up to 70%</cell>
-        <cell>D</cell>
-        <cell>N</cell>
-      </row>
-      <row>
-        <cell>under 60%</cell>
-        <cell>F</cell>
-        <cell/>
-      </row>
-    </tabular>
+      <tabular>
+        <col/>
+        <col right="minor"/>
+        <col/>
+        <col/>
+        <row header="yes">
+          <cell colspan="2">Pass (P)</cell>
+          <cell colspan="2">No Pass (N)</cell>
+        </row>
+        <row>
+          <cell>90% and up</cell>
+          <cell>A</cell>
+          <cell>60% up to 70%</cell>
+          <cell>D</cell>
+        </row>
+        <row>
+          <cell>80% up to 90%</cell>
+          <cell>B</cell>
+          <cell>under 60%</cell>
+          <cell>F</cell>
+        </row>
+        <row>
+          <cell>70% up to 80%</cell>
+          <cell>C</cell>
+        </row>
+      </tabular>
   </paragraphs>
 </section>

@@ -4,69 +4,6 @@
 
 <section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Calendar</title>
-
-    <p>The following dates are of interest to everyone:</p>
-
-    <sidebyside>
-        <tabular top="major" bottom="minor" left="major" valign="top">
-            <col/>
-            <col/>
-            <col right="major" width="50%"/>
-<!--             <row>
-                <cell>Friday</cell>
-                <cell>Jun 29</cell>
-                <cell>
-                    <p>Last day to select audit grade option: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url></p>
-                </cell>
-            </row>
-            <row>
-                <cell>Saturday</cell>
-                <cell>July 1</cell>
-                <cell>
-                    <p>Last day to choose financial aid refund option: see <url href="http://www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html">www.pcc.edu/enroll/paying-for-college/tuition/refunds/my-refunds.html</url></p>
-                    <p>Last day to drop 8<ndash/>12 week classes: see <url href="http://www.pcc.edu/enroll/registration/dropping.html">www.pcc.edu/enroll/registration/dropping.html</url></p>
-                </cell>
-            </row> -->
-            <row bottom="major">
-                <cell>Thursday</cell>
-                <cell>July 4</cell>
-                <cell>
-                    <p>College closed: Independence Day</p>
-                </cell>
-            </row>
-<!--             <row>
-                <cell>Tuesday</cell>
-                <cell>Apr 25</cell>
-                <cell><p>SAC inservice (classes before 4pm are canceled, classes at 4pm and after will be held)</p></cell>
-            </row>
-            <row>
-                <cell>Saturday</cell>
-                <cell>May 27</cell>
-                <cell><p>Last day to withdraw: see <url href="http://www.pcc.edu/enroll/registration/dropping.html#withdraw">www.pcc.edu/enroll/registration/dropping.html</url></p></cell>
-            </row>
-            <row>
-                <cell>Saturday</cell>
-                <cell>May 27</cell>
-                <cell><p>Last day to change grade option: see <url href="http://www.pcc.edu/enroll/registration/grading-policy.html">www.pcc.edu/enroll/registration/grading-policy.html</url></p></cell>
-            </row>
-            <row bottom="major">
-                <cell>Monday</cell>
-                <cell>May 29</cell>
-                <cell><p>College closed: Memorial Day</p></cell>
-            </row>
- -->        </tabular>
-    </sidebyside>
-
-    <p>With an eight-week class such as this one, you have until <m>80\%</m> of the course is complete to withdraw or change your grading option. I believe that means you have until Sunday August 4th to do these things, but you should ask the registrar's office to be sure.</p>
-
-    <p>Below are the chapters we will cover from the textbook, and when we will cover them. Class time is more productive for you if you read the relevant sections before coming to class.</p>
-<!--
-    <p>There are two calendars below; the first is for Monday-Wednesday sections, and the second is for Tuesday-Thursday sections.</p>
--->
-
-    <table xml:id="mw-calendar">
-<!--         <title>Monday-Wednesday sections</title> -->
-        <title>Calendar</title>
         <tabular top="major" bottom="minor" left="major" valign="top">
             <col/>
             <col/>
@@ -81,215 +18,115 @@
             <row bottom="medium">
                 <cell/>
                 <cell>Read</cell>
-                <cell halign="center">Due</cell>
+                <cell></cell>
                 <cell/>
                 <cell>Read</cell>
-                <cell halign="center">Due</cell>
+                <cell></cell>
             </row>
             <row>
-                <cell>6/24</cell>
-                <cell>1.1, 1.2</cell>
+                <cell>Jan 8</cell>
+                <cell>Sec 1.1, 1.2</cell>
                 <cell/>
-                <cell>6/26</cell>
-                <cell>1.3, 1.4</cell>
-                <cell><xref ref="written1" text="title"/></cell>
-            </row>
-            <row>
-                <cell>7/1</cell>
-                <cell>1.5, 1.6</cell>
-                <cell><xref ref="written2" text="title"/></cell>
-                <cell>7/3</cell>
-                <cell>1.7, 1.8</cell>
-                <cell><xref ref="written3" text="title"/></cell>
-            </row>
-            <row>
-                <cell>7/8</cell>
-                <cell>1.9, 2.1</cell>
-                <cell><xref ref="written4" text="title"/></cell>
-                <cell>7/10</cell>
-                <cell>2.2</cell>
-                <cell><xref ref="exam1" text="title"/></cell>
-            </row>
-            <row>
-                <cell>7/15</cell>
-                <cell>2.3, 2.8</cell>
-                <cell><xref ref="written5" text="title"/></cell>
-                <cell>7/17</cell>
-                <cell>2.9, 3.1</cell>
-                <cell><xref ref="written6" text="title"/></cell>
-            </row>
-            <row>
-                <cell>7/22</cell>
-                <cell>3.2, 4.4</cell>
-                <cell><xref ref="written7" text="title"/></cell>
-                <cell>7/24</cell>
-                <cell>4.7,5.1</cell>
-                <cell><xref ref="written8" text="title"/></cell>
-            </row>
-            <row>
-                <cell>7/29</cell>
-                <cell>5.2</cell>
-                <cell><xref ref="exam2" text="title"/></cell>
-                <cell>7/31</cell>
-                <cell>5.3</cell>
-                <cell><xref ref="written9" text="title"/></cell>
-            </row>
-            <row>
-                <cell>8/5</cell>
-                <cell>6.1, 6.2</cell>
-                <cell><xref ref="written10" text="title"/></cell>
-                <cell>8/7</cell>
-                <cell>6.3, 6.4</cell>
-                <cell><xref ref="written11" text="title"/></cell>
-            </row>
-            <row bottom="major">
-                <cell>8/12</cell>
-                <cell>Presentations</cell>
-                <cell><xref ref="written12" text="title"/></cell>
-                <cell>8/14</cell>
-                <cell><xref ref="exam3" text="title"/></cell>
+                <cell>Jan 10</cell>
+                <cell>Sec 1.3, 1.4</cell>
                 <cell/>
             </row>
-        </tabular>
-    </table>
-
-
-<!--     <table xml:id="tuth-calendar">
-        <title>Tuesday-Thursday sections</title>
-        <caption />
-        <tabular top="major" bottom="minor" left="major" valign="top">
-            <col/>
-            <col/>
-            <col right="minor"/>
-            <col right="minor"/>
-            <col/>
-            <col/>
-            <col right="major"/>
-            <row bottom="none">
-                <cell colspan="3" halign="center">Tuesday</cell>
-                <cell halign="center">Wednesday</cell>
-                <cell colspan="3" halign="center">Thursday</cell>
-            </row>
-            <row bottom="medium">
-                <cell/>
-                <cell>Read</cell>
-                <cell halign="center">Due</cell>
-                <cell halign="center">Due</cell>
-                <cell/>
-                <cell>Read</cell>
-                <cell halign="center">Due</cell>
+            <row>
+                <cell>Jan 15</cell>
+                <cell>MLK Day</cell>
+                <cell>class does not meet</cell>
+                <cell>Jan 17</cell>
+                <cell>Ice Storm</cell>
+                <cell>class canceled</cell>
             </row>
             <row>
-                <cell>4/4</cell>
-                <cell>1.1</cell>
-                <cell/>
+                <cell>Jan 22</cell>
+                <cell>Sec 1.5, 1.6</cell>
                 <cell>
-                    <line><webwork/></line>
-                    <line>Orientation</line>
+                    <line><xref ref="written1" text="title"/></line>
+                    <line><xref ref="written2" text="title"/></line>
                 </cell>
-                <cell>4/6</cell>
-                <cell>1.2, 1.3</cell>
-                <cell />
+                <cell>Jan 24</cell>
+                <cell>Sec 1.6, 1.7</cell>
+                <cell></cell>
             </row>
             <row>
-                <cell>4/11</cell>
-                <cell>1.3, 1.4</cell>
-                <cell><xref ref="written1" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>4/13</cell>
-                <cell>1.5, 1.6</cell>
-                <cell />
-            </row>
-            <row>
-                <cell>4/18</cell>
-                <cell>1.7, 1.8</cell>
-                <cell><xref ref="written2" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>4/20</cell>
-                <cell>1.8,1.9</cell>
-                <cell />
-            </row>
-            <row>
-                <cell>4/25</cell>
-                <cell colspan="2">
-                    <line>Inservice Day</line>
-                    <line>Class does not meet</line>
-                </cell>
-                <cell><webwork/></cell>
-                <cell>4/27</cell>
-                <cell>2.1</cell>
+                <cell>Jan 29</cell>
+                <cell>Sec 1.8, 1.9</cell>
                 <cell>
-                    <line><xref ref="exam1" text="title"/></line>
                     <line><xref ref="written3" text="title"/></line>
+                    <line><xref ref="written4" text="title"/></line>
+                </cell>
+                <cell>Jan 31</cell>
+                <cell>Sec 1.9, 2.1</cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>Feb 5</cell>
+                <cell>Sec 2.2</cell>
+                <cell><xref ref="exam1" text="title"/></cell>
+                <cell>Feb 7</cell>
+                <cell>Sec 2.3, 2.8</cell>
+                <cell>
+                    <line><xref ref="written5" text="title"/></line>
                 </cell>
             </row>
             <row>
-                <cell>5/2</cell>
-                <cell>2.2, 2.3</cell>
-                <cell><xref ref="written4" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>5/4</cell>
-                <cell>3.1, 3.2</cell>
-                <cell />
-            </row>
-            <row>
-                <cell>5/9</cell>
-                <cell>2.8, 4.3</cell>
-                <cell><xref ref="written5" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>5/11</cell>
+                <cell>Feb 12</cell>
+                <cell>Sec 2.8, 2.9</cell>
                 <cell></cell>
-                <cell><xref ref="exam2" text="title"/></cell>
-            </row>
-            <row>
-                <cell>5/16</cell>
-                <cell>2.9, 4.2</cell>
-                <cell><xref ref="written6" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>5/18</cell>
-                <cell>4.4, 4.7, 5.1</cell>
-                <cell></cell>
-            </row>
-            <row>
-                <cell>5/23</cell>
-                <cell>5.2, 5.3</cell>
-                <cell></cell>
-                <cell><webwork/></cell>
-                <cell>5/25</cell>
-                <cell/>
+                <cell>Feb 14</cell>
+                <cell>Sec 3.1, 3.2</cell>
                 <cell>
-                    <line><xref ref="exam3" text="title"/></line>
+                    <line><xref ref="written6" text="title"/></line>
                     <line><xref ref="written7" text="title"/></line>
                 </cell>
             </row>
             <row>
-                <cell>5/30</cell>
-                <cell>5.3, 6.1</cell>
-                <cell><xref ref="written8" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>6/1</cell>
-                <cell>6.2, 6.3, 6.4</cell>
-                <cell/>
+                <cell>Feb 19</cell>
+                <cell>4.1, 4.2</cell>
+                <cell><xref ref="exam2" text="title"/></cell>
+                <cell>Feb 21</cell>
+                <cell>Sec 4.4</cell>
+                <cell></cell>
             </row>
             <row>
-                <cell>6/6</cell>
-                <cell>Presentations</cell>
-                <cell><xref ref="written9" text="title"/></cell>
-                <cell><webwork/></cell>
-                <cell>6/8</cell>
-                <cell>Presentations</cell>
-                <cell />
+                <cell>Feb 26</cell>
+                <cell>Sec 4.6</cell>
+                <cell>
+                    <line><xref ref="written8" text="title"/></line>
+                </cell>
+                <cell>Feb 28</cell>
+                <cell>Sec 5.1, 5.2</cell>
+                <cell></cell>
             </row>
-            <row bottom="major">
-                <cell>6/13</cell>
-                <cell colspan="2">Class does not meet</cell>
-                <cell><webwork /></cell>
-                <cell>6/15</cell>
-                <cell colspan="2">
-                    <line>8:30 section has <xref ref="exam4" text="title"/> at 8:00</line>
+            <row>
+                <cell>Mar 4</cell>
+                <cell>Sec 5.3, 5.4</cell>
+                <cell></cell>
+                <cell>Mar 6</cell>
+                <cell>Sec 6.1, 6.2</cell>
+                <cell>
+                    <line><xref ref="written9" text="title"/></line>
                     <line><xref ref="written10" text="title"/></line>
                 </cell>
             </row>
+            <row>
+                <cell>Mar 11</cell>
+                <cell>Sec 6.3, 6.4</cell>
+                <cell><xref ref="exam3" text="title"/></cell>
+                <cell bottom="major">Mar 13</cell>
+                <cell bottom="major">Catchup</cell>
+                <cell bottom="major"></cell>
+            </row>
+            <row>
+                <cell bottom="major">Mar 18</cell>
+                <cell bottom="major"/>
+                <cell bottom="major" right="major"><xref ref="exam4" text="title"/></cell>
+                <cell bottom="none"/>
+                <cell bottom="none"/>
+                <cell bottom="none" right="none"/>
+            </row>
         </tabular>
-    </table> -->
+
 </section>

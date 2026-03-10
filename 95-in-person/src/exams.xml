@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-exams">
+  <title>Exams</title>
+  <p>
+    This course has three in-class exams. The days and sections covered are:
+    <dl width="narrow">
+      <li>
+        <title>Exam 1</title>
+        <p>
+          Monday 1/27 or Tuesday 1/28 (depending on your section). This will cover sections 10.1
+          through 10.7.
+        </p>
+      </li>
+      <li>
+        <title>Exam 2</title>
+        <p>
+          Monday 2/17 or Tuesday 2/18 (depending on your section). This will cover sections 11.1
+          through 12.3. There may be some essential material from the first exam that appears again.
+        </p>
+      </li>
+      <li>
+        <title>Exam 3</title>
+        <p>
+          This will cover sections 12.4 through 13.7. There may be some essential material from the
+          first two exams that appears again.
+        </p>
+        <tabular>
+          <row bottom="minor">
+            <cell>CRN</cell>
+            <cell>Day</cell>
+            <cell>Time</cell>
+          </row>
+          <row>
+            <cell>10501</cell>
+            <cell>Monday 3/17</cell>
+            <cell>11:00 (not 11:30!)</cell>
+          </row>
+          <row>
+            <cell>10626</cell>
+            <cell>Tuesday 3/18</cell>
+            <cell>9:00</cell>
+          </row>
+          <row>
+            <cell>11345</cell>
+            <cell>Wendesday 3/19</cell>
+            <cell>2:00</cell>
+          </row>
+        </tabular>
+      </li>
+    </dl>
+    Check these times against your travel schedule right away to see if we need to make alternative
+    arrangements. If you wait too long, you may lose the option to have an alternative arrangement. 
+  </p>
+</section>

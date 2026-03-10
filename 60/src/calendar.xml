@@ -1,452 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- This file is part of Alex Jordan's syllabus -->
-
-<section xml:id="section-calendar" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="section-calendar">
   <title>Calendar</title>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Sep 24</p>
-      <video youtubeplaylist="PLmuZCPhWPt-cOp0ZMJHO6zy0bhdu2gKjQ" />
-      <p>
-        Video run time: 22 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>
-        We will discuss the class format and orient you to the weekly routine.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-variables-and-evaluating-expressions.html">Section 1.1 (Variables and Evaluating Expressions)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/Variables.pdf">Blank</url>, <url href="worksheets/VariablesWithAnswers.pdf">Completed</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Sep 26</p>
-      <video youtubeplaylist="PLmuZCPhWPt-dqjDRbGl2sSeMeTvrHik4p" />
-      <p>
-        Video run time: 11 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <!-- <p>
-        Complete the <url href="prep/section_1-2_and_1-4_class_prep_assignment.pdf">Class Prep</url> and turn it in when you arrive.
-      </p> -->
-      <p>
-        Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-combining-like-terms.html">Section 1.2 (Combining Like Terms)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/CombiningLikeTerms.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Oct 1</p>
-      <video youtubeplaylist="PLmuZCPhWPt-eG16R-Bwkkcna9LWJrMXho" />
-      <video youtubeplaylist="PLmuZCPhWPt-dTJw-zF33uIwEoFmBjd2jp" />
-      <p>
-        Video run time: 41 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-comparison-symbols-and-notation-for-intervals.html">Section 1.3 (Comparison Symbols and Notation for Intervals)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-equations-and-inequalities-as-true-false-statements.html">Section 1.4 (Equations and Inequalities as True/False Statements)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/ComparisonSymbolsIntervalNotationEquationSolutions.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Oct 3</p>
-      <video youtubeplaylist="PLmuZCPhWPt-cttxbKypuCvTQFoSXATxAF" />
-      <p>
-        Video run time: 16 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-one-step-equations.html">Section 1.5 (Solving One-Step Equations)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/SolvingOneStepEquations.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Oct 8</p>
-      <video youtubeplaylist="PLmuZCPhWPt-e07ZjJTXdkRf9V8MDJaz1m" />
-      <p>
-        Video run time: 17 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-one-step-inequalities.html">Section 1.6 (Solving One-Step Inequalities)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/OneStepInequalities.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Oct 10</p>
-      <video youtubeplaylist="PLmuZCPhWPt-eiwLULOcn5X4ZyZ5kB6H6A" />
-      <p>
-        Video run time: 33 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-algebraic-properties-and-simplifying-expressions.html">Section 1.7 (Algebraic Properties and Simplifying Expressions)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/OneStepInequalities.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Oct 15</p>
-      <video youtubeplaylist="PLmuZCPhWPt-dL4to2zbHwZBLGkJ6cBf0I" />
-      <p>
-        Video run time: 25 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-modeling-with-equations-and-inequalities.html">Section 1.8 (Modeling with Equations and Inequalities)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/SettingUpEquations.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Oct 17</p>
-      <video youtubeplaylist="PLmuZCPhWPt-f7ezMxAmmOJqEHiU6BOLTH" />
-      <video youtubeplaylist="PLmuZCPhWPt-cJeXEsK8ig6AWi0FgfEGuQ" />
-      <p>
-        Video run time: 73 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-multistep-linear-equations.html">Section 2.1 (Solving Multistep Linear Equations)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-multistep-linear-inequalities.html">Section 2.2 (Solving Multistep Linear Inequalities)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/LinearEquationsAndInequalities.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Oct 22</p>
-      <p>
-        <xref ref="exam1" text="title"/>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/PracticeExam1.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Oct 24</p>
-      <video youtubeplaylist="PLmuZCPhWPt-e_QSbGeacmrdYyommPaxf4" />
-      <p>
-        Video run time: 71 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-linear-equations-and-inequalities-with-fractions.html">Section 2.3 (Linear Equations and Inequalities with Fractions)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/LinearEquationsAndInequalitiesWithFractions.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Oct 29</p>
-      <video youtubeplaylist="PLmuZCPhWPt-esiq8AiMfACzqOpC5bJygR" />
-      <p>
-        Video run time: 23 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-special-solution-sets.html">Section 2.4 (Special Solution Sets)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/SpecialSolutionsSets.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Oct 31</p>
-      <video youtubeplaylist="PLmuZCPhWPt-f5-qOx8wPyZf4j1u4OHhQV" />
-      <p>
-        Video run time: 13 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-isolating-a-linear-variable.html">Section 2.5 (Isolating a Linear Variable)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/IsolatingALinearVariable.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Nov 5</p>
-      <video youtubeplaylist="PLmuZCPhWPt-cHeBo5cBbvM9w9bPCv8TU6" />
-      <video youtubeplaylist="PLmuZCPhWPt-cYCLcYMtd7GdwFZ4DRDTBc" />
-      <p>
-        Video run time: 37 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-cartesian-coordinates.html">Section 3.1 (Cartesian Coordinates)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-graphing-equations.html">Section 3.2 (Graphing Equations)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/Graphing.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Nov 7</p>
-      <video youtubeplaylist="PLmuZCPhWPt-dy8SL-jRrCcU2G2ueG9BXb" />
-      <video youtubeplaylist="PLmuZCPhWPt-ehhIZJSr3Tp7xyA450Od5R" />
-      <p>
-        Video run time: 47 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-exploring-two-variable-data-and-rate-of-change.html">Section 3.3 (Exploring Two-Variable Data and Rate of Change)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-slope.html">Section 3.4 (Slope)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written1" text="title"/> due.
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/SlopesAsRateOfChange.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Nov 12</p>
-      <video youtubeplaylist="PLmuZCPhWPt-cR9nhDJcByg3_HALa8sSwp" />
-      <p>
-        Video run time: 41 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-slope-intercept-form.html">Section 3.5 (Slope-Intercept Form)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written2" text="title"/> due.
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/SlopeInterceptForm.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Nov 14</p>
-      <video youtubeplaylist="PLmuZCPhWPt-eTTovr5Y8TossT7tMqR43W" />
-      <p>
-        Video run time: 20 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-point-slope-form.html">Section 3.6 (Point-Slope Form)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written3" text="title"/> due.
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Nov 19</p>
-      <p>
-        <xref ref="exam2" text="title"/>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Nov 21</p>
-      <video youtubeplaylist="PLmuZCPhWPt-dXhmAoys9lNZg0c3U77LBw" />
-      <video youtubeplaylist="PLmuZCPhWPt-dG-XwuV-W9d_U79oIF6z-R" />
-      <p>
-        Video run time: 57 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-standard-form.html">Section 3.7 (Standard Form)</url></li>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-horizontal-vertical-parallel-and-perpendicular-lines.html">Section 3.8 (Horizontal, Vertical, Parallel, and Perpendicular Lines)</url></li>
-        </ul>
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/StandardFormHorVerParPer.pdf">Blank</url>
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Nov 26</p>
-      <video youtubeplaylist="PLmuZCPhWPt-c8HMsuhb9oJTIJBEvrrZiH" />
-      <p>
-        Video run time: 37 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-solving-systems-of-linear-equations-by-graphing.html">Section 4.1 (Solving Systems of Linear Equations by Graphing)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written4" text="title"/> due.
-      </p>
-      <p>
-        In-class activity: <url href="worksheets/SolveSystemsByGraphing.pdf">Blank</url>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Nov 28</p>
-      <p>
-        Class does not meet. (Thanksgiving holiday.)
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Dec 3</p>
-      <video youtubeplaylist="PLmuZCPhWPt-e7mzn96IqkqKBOOrcpG8Cw" />
-      <p>
-        Video run time: 66 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-substitution.html">Section 4.2 (Substitution)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written5" text="title"/> due.
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Dec 5</p>
-      <video youtubeplaylist="PLmuZCPhWPt-fKef6hvJEdOKX6tbUUh2K2" />
-      <p>
-        Video run time: 59 minutes
-      </p>
-      <p>
-        Download <url href="https://spot.pcc.edu/~ajordan/MTH60Fall2019/MTH60_Lecture_Outlines-201904.pdf">lecture outline notes</url>.
-      </p>
-      <p>Readings from the book:
-        <ul>
-          <li><url href="https://spot.pcc.edu/math/orcca/ed2/html/section-elimination.html">Section 4.3 (Elimination)</url></li>
-        </ul>
-      </p>
-      <p>
-        <xref ref="written6" text="title"/> due.
-      </p>
-    </stack>
-  </sidebyside>
-
-  <sidebyside margins="0%" widths="47% 47%">
-    <stack>
-      <p>Tuesday Dec 10</p>
-      <p>
-        The 2:00 class does not meet this day during finals week.
-      </p>
-      <p>
-        The 11:30 class has <xref ref="exam3" text="title"/>
-        from <alert>11:00 to 1:00, not the usual class time!</alert>
-      </p>
-    </stack>
-    <stack>
-      <p>Thursday Dec 12</p>
-      <p>
-        The 11:30 class does not meet this day during finals week.
-      </p>
-      <p>
-        The 2:00 class has <xref ref="exam3" text="title"/>
-        from <alert>2:00 to 4:00, not the usual class time!</alert>
-      </p>
-    </stack>
-  </sidebyside>
+  <table xml:id="mw-calendar">
+    <title>Calendar</title>
+    <tabular valign="top" bottom="minor" right="minor" left="major" top="major">
+      <col/>
+      <col/>
+      <col width="21%"/>
+      <col width="42%" right="major"/>
+      <row header="yes" bottom="medium">
+        <cell>Week</cell>
+        <cell>Monday</cell>
+        <cell>Wednesday</cell>
+        <cell>Assignments</cell>
+      </row>
+      <row>
+        <cell>
+          <line>1</line>
+          <line>9/25<ndash/>10/1</line>
+        </cell>
+        <cell>1.1</cell>
+        <cell>canceled</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 1.1
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>2</line>
+          <line>10/2<ndash/>10/8</line>
+        </cell>
+        <cell>1.2, 1.3</cell>
+        <cell>1.4, 1.5</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 1.2, 1.3, 1.4, 1.5
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>3</line>
+          <line>10/9<ndash/>10/15</line>
+        </cell>
+        <cell>canceled</cell>
+        <cell>1.6, 1.7</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 1.6, 1.7
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>4</line>
+          <line>10/16<ndash/>10/22</line>
+        </cell>
+        <cell>1.8</cell>
+        <cell>
+          <line>Chapter 1</line>
+          <line>Exam</line>
+        </cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 1.8
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>5</line>
+          <line>10/23<ndash/>10/29</line>
+        </cell>
+        <cell>2.1, 2.2</cell>
+        <cell>
+          <line>class does</line>
+          <line>not meet</line>
+        </cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 2.1, 2.2
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>6</line>
+          <line>10/30<ndash/>11/5</line>
+        </cell>
+        <cell>2.3, 2.4</cell>
+        <cell>2.5, 3.1</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 2.3, 2.4, 2.5, 3.1
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>7</line>
+          <line>11/6<ndash/>11/12</line>
+        </cell>
+        <cell>
+          <line>Chapter 2</line>
+          <line>Exam</line>
+        </cell>
+        <cell>3.2, 3.3</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 3.2, 3.3
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>8</line>
+          <line>11/13<ndash/>11/19</line>
+        </cell>
+        <cell>3.4, 3.5</cell>
+        <cell>3.6</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 3.4, 3.5, 3.6
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>9</line>
+          <line>11/20<ndash/>11/26</line>
+        </cell>
+        <cell>3.7</cell>
+        <cell>3.8</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 3.7, 3.8
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>10</line>
+          <line>11/27<ndash/>12/3</line>
+        </cell>
+        <cell>
+          <line>Chapter 3</line>
+          <line>Exam</line>
+        </cell>
+        <cell>4.1</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 4.1
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>11</line>
+          <line>12/4<ndash/>12/10</line>
+        </cell>
+        <cell>4.2</cell>
+        <cell>4.3</cell>
+        <cell>
+          <p>
+            video lecture notes, in-class worksheet/activities, and Runestone Academy assignments
+            for 4.2, 4.3
+          </p>
+        </cell>
+      </row>
+      <row>
+        <cell>
+          <line>12</line>
+          <line>12/11<ndash/>12/11</line>
+        </cell>
+        <cell>
+          <line>Final</line>
+          <line>Exam</line>
+        </cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+    </tabular>
+  </table>  
 </section>
